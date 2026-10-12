@@ -1,0 +1,12 @@
+{
+  "name": "atelier-vane-theme",
+  "version": "1.0.0",
+  "description": "Atelier Vane - Quiet Luxury Single-Product Shopify Theme",
+  "scripts": {
+    "start": "node preview-server.js",
+    "preview": "node preview-server.js"
+  },
+  "keywords": ["shopify", "theme", "quiet-luxury"],
+  "author": "Atelier Vane",
+  "license": "UNLICENSED"
+}

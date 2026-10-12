@@ -254,10 +254,8 @@ ${css}
     <!-- 1. Hero Section -->
     <section class="hero-section hero-section--full-height">
       <div class="hero-section__media">
-        <div class="hero-section__placeholder" style="background:#ECE5DA;">
-          <img src="/assets/hero-lifestyle.jpg" alt="Editorial lifestyle of Atelier Vane shoulder bag" class="hero-section__image" style="width:100%;height:100%;object-fit:cover;object-position:center;">
-        </div>
-        <div class="hero-section__overlay" style="background: rgba(27,26,24,0.18);"></div>
+        <img src="/assets/hero-lifestyle.jpg" alt="Editorial lifestyle of Atelier Vane shoulder bag" class="hero-section__image" style="width:100%;height:100%;object-fit:cover;object-position:center;">
+        <div class="hero-section__overlay" style="background: rgba(27,26,24,0.25);"></div>
       </div>
       <div class="container hero-section__content-container">
         <div class="hero-section__content text-center fade-up">
