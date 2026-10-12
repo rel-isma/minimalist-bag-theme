@@ -1,14 +1,24 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
       "type": "hero",
       "settings": {
+        "overlay_opacity": 10,
+        "full_height": true,
         "eyebrow": "The Minimalist Shoulder Bag",
         "heading": "Quietly Essential. Built to Outlast the Season.",
         "subhead": "Sculpted in full-grain leather with uncluttered lines. An archetype refined for daily elegance.",
         "button_label": "Explore The Bag",
-        "full_height": true,
-        "overlay_opacity": 10
+        "button_link": ""
       }
     },
     "trust-strip": {
@@ -25,6 +35,7 @@
     "product-spotlight": {
       "type": "product-spotlight",
       "settings": {
+        "product": "",
         "tab_title_1": "Details & Materials",
         "tab_content_1": "<p>100% full-grain calfskin leather, drum-dyed for enduring softness. Lined in breathable micro-suede. Custom solid brass magnetic hardware.</p>",
         "tab_title_2": "Dimensions & Fit",
@@ -41,6 +52,7 @@
         "feature-1": {
           "type": "feature",
           "settings": {
+            "image": "shopify://shop_images/large-fall-leaf-in-hand.jpg",
             "title": "Full-Grain Italian Calfskin",
             "text": "Sourced from small family-run tanneries in Tuscany. Supple to the touch with a delicate pebble grain that develops a rich patina."
           }
@@ -110,7 +122,7 @@
           "type": "colorway",
           "settings": {
             "color_name": "Bone",
-            "swatch_hex": "#F5F1EA",
+            "swatch_hex": "#f5f1ea",
             "description": "An unbleached limestone hue. Warm, neutral, and effortlessly adaptable to linen and wool alike."
           }
         },
@@ -118,7 +130,7 @@
           "type": "colorway",
           "settings": {
             "color_name": "Warm Stone",
-            "swatch_hex": "#ECE5DA",
+            "swatch_hex": "#ece5da",
             "description": "A grounded taupe-sand tone with gentle warmth. Subtle, understated, and timeless."
           }
         },
@@ -126,7 +138,7 @@
           "type": "colorway",
           "settings": {
             "color_name": "Noir",
-            "swatch_hex": "#1B1A18",
+            "swatch_hex": "#1b1a18",
             "description": "Deep charcoal ink black. Deeply saturated with a soft satin finish that avoids harsh synthetic shine."
           }
         },
@@ -134,7 +146,7 @@
           "type": "colorway",
           "settings": {
             "color_name": "Clay",
-            "swatch_hex": "#9A4F36",
+            "swatch_hex": "#9a4f36",
             "description": "Tuscan terracotta earth. Adds an intentional, sophisticated pop of warm color to monochromatic looks."
           }
         }
@@ -261,6 +273,7 @@
       "settings": {
         "eyebrow": "Our Philosophy",
         "heading": "Fewer, Better Things.",
+        "story_text": "<p>We founded our studio on a single conviction: modern wardrobes do not need dozens of seasonal bags that quickly date and discard. They need one archetype, resolved so thoroughly in its proportion, feel, and durability that you reach for it without hesitation every morning.</p><p>We bypassed traditional wholesale markups and retail licensing to invest directly where it matters—in full-grain hides, hand-painted edge dyes, and solid brass components meant to outlast trends.</p>",
         "signoff_name": "Atelier Studio",
         "signoff_title": "Design & Craftsmanship"
       }
@@ -271,7 +284,9 @@
         "eyebrow": "Correspondence",
         "heading": "Join The Atelier Journal",
         "subhead": "Subscribers receive advance notice for restocks and limited studio releases. We write sparingly.",
-        "button_label": "Subscribe"
+        "button_label": "Subscribe",
+        "success_message": "Thank you for subscribing. Welcome to our quiet correspondence.",
+        "disclaimer": "You may unsubscribe at any time. We respect your privacy."
       }
     }
   },
