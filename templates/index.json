@@ -33,48 +33,24 @@
     },
     "product-spotlight": {
       "type": "product-spotlight",
-      "blocks": {
-        "color-bone": {
-          "type": "color_shade",
-          "settings": {
-            "color_name": "Bone",
-            "swatch_color": "#E8E2D5"
-          }
-        },
-        "color-stone": {
-          "type": "color_shade",
-          "settings": {
-            "color_name": "Warm Stone",
-            "swatch_color": "#C8BDB0"
-          }
-        },
-        "color-noir": {
-          "type": "color_shade",
-          "settings": {
-            "color_name": "Noir",
-            "swatch_color": "#1B1A18"
-          }
-        },
-        "color-clay": {
-          "type": "color_shade",
-          "settings": {
-            "color_name": "Clay",
-            "swatch_color": "#9A4F36"
-          }
-        }
-      },
-      "block_order": [
-        "color-bone",
-        "color-stone",
-        "color-noir",
-        "color-clay"
-      ],
       "settings": {
         "title_override": "The Demi Shoulder Bag",
         "subtitle_override": "Atelier Vane",
         "price_override": "$295.00",
         "compare_price_override": "",
         "stock_badge": "In stock · Ready to dispatch from Florence",
+        "color_1_name": "Bone",
+        "color_1_hex": "#F5F1EA",
+        "color_2_name": "Warm Stone",
+        "color_2_hex": "#ECE5DA",
+        "color_3_name": "Noir",
+        "color_3_hex": "#1B1A18",
+        "color_4_name": "Clay",
+        "color_4_hex": "#9A4F36",
+        "color_5_name": "",
+        "color_5_hex": "#5B5E4B",
+        "color_6_name": "",
+        "color_6_hex": "#3E2F28",
         "tab_title_1": "Details & Materials",
         "tab_content_1": "<p>100% full-grain calfskin leather, drum-dyed for enduring softness. Lined in breathable micro-suede. Custom solid brass magnetic hardware.</p>",
         "tab_title_2": "Dimensions & Fit",

@@ -77,40 +77,83 @@
             {%- endfor -%}
           </div>
         </div>
-      {%- elsif blocks != blank and blocks.size > 0 -%}
-        <!-- Custom block-defined color swatches -->
-        <div class="product-buy-box__option">
-          <div class="product-buy-box__option-label">
-            <span class="label-caps">Color:</span>
-            <span class="product-buy-box__active-option-value" data-selected-color-label>
-              {{ blocks.first.settings.color_name }}
-            </span>
-          </div>
-          <div class="product-buy-box__swatches">
-            {%- for block in blocks -%}
-              {%- if block.type == 'color_shade' -%}
-                {%- render 'swatch',
-                  value: block.settings.color_name,
-                  name: 'Color',
-                  checked: forloop.first,
-                  custom_hex: block.settings.swatch_color
-                -%}
-              {%- endif -%}
-            {%- endfor -%}
-          </div>
-        </div>
       {%- else -%}
-        <!-- Default swatches fallback -->
+        <!-- Swatches from Section Settings -->
+        {%- liquid
+          assign c1 = color_1_name
+          assign c1_h = color_1_hex | default: '#F5F1EA'
+          assign c2 = color_2_name
+          assign c2_h = color_2_hex | default: '#ECE5DA'
+          assign c3 = color_3_name
+          assign c3_h = color_3_hex | default: '#1B1A18'
+          assign c4 = color_4_name
+          assign c4_h = color_4_hex | default: '#9A4F36'
+          assign c5 = color_5_name
+          assign c5_h = color_5_hex | default: '#5B5E4B'
+          assign c6 = color_6_name
+          assign c6_h = color_6_hex | default: '#3E2F28'
+
+          assign has_colors = false
+          if c1 != blank or c2 != blank or c3 != blank or c4 != blank or c5 != blank or c6 != blank
+            assign has_colors = true
+          endif
+
+          unless has_colors
+            assign c1 = 'Bone'
+            assign c1_h = '#F5F1EA'
+            assign c2 = 'Warm Stone'
+            assign c2_h = '#ECE5DA'
+            assign c3 = 'Noir'
+            assign c3_h = '#1B1A18'
+            assign c4 = 'Clay'
+            assign c4_h = '#9A4F36'
+          endunless
+
+          assign first_active_color = ''
+          if c1 != blank
+            assign first_active_color = c1
+          elsif c2 != blank
+            assign first_active_color = c2
+          elsif c3 != blank
+            assign first_active_color = c3
+          elsif c4 != blank
+            assign first_active_color = c4
+          elsif c5 != blank
+            assign first_active_color = c5
+          elsif c6 != blank
+            assign first_active_color = c6
+          endif
+        -%}
         <div class="product-buy-box__option">
           <div class="product-buy-box__option-label">
             <span class="label-caps">Color:</span>
-            <span class="product-buy-box__active-option-value" data-selected-color-label>Bone</span>
+            <span class="product-buy-box__active-option-value" data-selected-color-label>{{ first_active_color }}</span>
           </div>
           <div class="product-buy-box__swatches">
-            {%- render 'swatch', value: 'Bone', name: 'Color', checked: true -%}
-            {%- render 'swatch', value: 'Warm Stone', name: 'Color', checked: false -%}
-            {%- render 'swatch', value: 'Noir', name: 'Color', checked: false -%}
-            {%- render 'swatch', value: 'Clay', name: 'Color', checked: false -%}
+            {%- assign is_first_selected = true -%}
+            {%- if c1 != blank -%}
+              {%- render 'swatch', value: c1, name: 'Color', checked: is_first_selected, custom_hex: c1_h -%}
+              {%- assign is_first_selected = false -%}
+            {%- endif -%}
+            {%- if c2 != blank -%}
+              {%- render 'swatch', value: c2, name: 'Color', checked: is_first_selected, custom_hex: c2_h -%}
+              {%- assign is_first_selected = false -%}
+            {%- endif -%}
+            {%- if c3 != blank -%}
+              {%- render 'swatch', value: c3, name: 'Color', checked: is_first_selected, custom_hex: c3_h -%}
+              {%- assign is_first_selected = false -%}
+            {%- endif -%}
+            {%- if c4 != blank -%}
+              {%- render 'swatch', value: c4, name: 'Color', checked: is_first_selected, custom_hex: c4_h -%}
+              {%- assign is_first_selected = false -%}
+            {%- endif -%}
+            {%- if c5 != blank -%}
+              {%- render 'swatch', value: c5, name: 'Color', checked: is_first_selected, custom_hex: c5_h -%}
+              {%- assign is_first_selected = false -%}
+            {%- endif -%}
+            {%- if c6 != blank -%}
+              {%- render 'swatch', value: c6, name: 'Color', checked: is_first_selected, custom_hex: c6_h -%}
+            {%- endif -%}
           </div>
         </div>
       {%- endif -%}
@@ -152,35 +195,82 @@
     <form action="{{ routes.cart_add_url }}" method="post" id="{{ product_form_id }}" class="product-form" novalidate data-type="add-to-cart-form">
       <input type="hidden" name="id" value="mock-demi-bone" data-variant-input>
 
-      <!-- Color Variant Swatches (Customizable via Theme Editor blocks or default) -->
+      <!-- Color Variant Swatches (Directly editable in Section Settings) -->
+      {%- liquid
+        assign c1 = color_1_name
+        assign c1_h = color_1_hex | default: '#F5F1EA'
+        assign c2 = color_2_name
+        assign c2_h = color_2_hex | default: '#ECE5DA'
+        assign c3 = color_3_name
+        assign c3_h = color_3_hex | default: '#1B1A18'
+        assign c4 = color_4_name
+        assign c4_h = color_4_hex | default: '#9A4F36'
+        assign c5 = color_5_name
+        assign c5_h = color_5_hex | default: '#5B5E4B'
+        assign c6 = color_6_name
+        assign c6_h = color_6_hex | default: '#3E2F28'
+
+        assign has_colors = false
+        if c1 != blank or c2 != blank or c3 != blank or c4 != blank or c5 != blank or c6 != blank
+          assign has_colors = true
+        endif
+
+        unless has_colors
+          assign c1 = 'Bone'
+          assign c1_h = '#F5F1EA'
+          assign c2 = 'Warm Stone'
+          assign c2_h = '#ECE5DA'
+          assign c3 = 'Noir'
+          assign c3_h = '#1B1A18'
+          assign c4 = 'Clay'
+          assign c4_h = '#9A4F36'
+        endunless
+
+        assign first_active_color = ''
+        if c1 != blank
+          assign first_active_color = c1
+        elsif c2 != blank
+          assign first_active_color = c2
+        elsif c3 != blank
+          assign first_active_color = c3
+        elsif c4 != blank
+          assign first_active_color = c4
+        elsif c5 != blank
+          assign first_active_color = c5
+        elsif c6 != blank
+          assign first_active_color = c6
+        endif
+      -%}
+
       <div class="product-buy-box__option">
         <div class="product-buy-box__option-label">
           <span class="label-caps">Color:</span>
-          <span class="product-buy-box__active-option-value" data-selected-color-label>
-            {%- if blocks != blank and blocks.size > 0 -%}
-              {{ blocks.first.settings.color_name }}
-            {%- else -%}
-              Bone
-            {%- endif -%}
-          </span>
+          <span class="product-buy-box__active-option-value" data-selected-color-label>{{ first_active_color }}</span>
         </div>
         <div class="product-buy-box__swatches">
-          {%- if blocks != blank and blocks.size > 0 -%}
-            {%- for block in blocks -%}
-              {%- if block.type == 'color_shade' -%}
-                {%- render 'swatch',
-                  value: block.settings.color_name,
-                  name: 'Color',
-                  checked: forloop.first,
-                  custom_hex: block.settings.swatch_color
-                -%}
-              {%- endif -%}
-            {%- endfor -%}
-          {%- else -%}
-            {%- render 'swatch', value: 'Bone', name: 'Color', checked: true -%}
-            {%- render 'swatch', value: 'Warm Stone', name: 'Color', checked: false -%}
-            {%- render 'swatch', value: 'Noir', name: 'Color', checked: false -%}
-            {%- render 'swatch', value: 'Clay', name: 'Color', checked: false -%}
+          {%- assign is_first_selected = true -%}
+          {%- if c1 != blank -%}
+            {%- render 'swatch', value: c1, name: 'Color', checked: is_first_selected, custom_hex: c1_h -%}
+            {%- assign is_first_selected = false -%}
+          {%- endif -%}
+          {%- if c2 != blank -%}
+            {%- render 'swatch', value: c2, name: 'Color', checked: is_first_selected, custom_hex: c2_h -%}
+            {%- assign is_first_selected = false -%}
+          {%- endif -%}
+          {%- if c3 != blank -%}
+            {%- render 'swatch', value: c3, name: 'Color', checked: is_first_selected, custom_hex: c3_h -%}
+            {%- assign is_first_selected = false -%}
+          {%- endif -%}
+          {%- if c4 != blank -%}
+            {%- render 'swatch', value: c4, name: 'Color', checked: is_first_selected, custom_hex: c4_h -%}
+            {%- assign is_first_selected = false -%}
+          {%- endif -%}
+          {%- if c5 != blank -%}
+            {%- render 'swatch', value: c5, name: 'Color', checked: is_first_selected, custom_hex: c5_h -%}
+            {%- assign is_first_selected = false -%}
+          {%- endif -%}
+          {%- if c6 != blank -%}
+            {%- render 'swatch', value: c6, name: 'Color', checked: is_first_selected, custom_hex: c6_h -%}
           {%- endif -%}
         </div>
       </div>

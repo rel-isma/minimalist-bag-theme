@@ -20,7 +20,18 @@
           price_override: section.settings.price_override,
           compare_price_override: section.settings.compare_price_override,
           stock_badge: section.settings.stock_badge,
-          blocks: section.blocks
+          color_1_name: section.settings.color_1_name,
+          color_1_hex: section.settings.color_1_hex,
+          color_2_name: section.settings.color_2_name,
+          color_2_hex: section.settings.color_2_hex,
+          color_3_name: section.settings.color_3_name,
+          color_3_hex: section.settings.color_3_hex,
+          color_4_name: section.settings.color_4_name,
+          color_4_hex: section.settings.color_4_hex,
+          color_5_name: section.settings.color_5_name,
+          color_5_hex: section.settings.color_5_hex,
+          color_6_name: section.settings.color_6_name,
+          color_6_hex: section.settings.color_6_hex
         -%}
 
         <!-- Collapsible Detail Tabs -->
@@ -110,6 +121,86 @@
     },
     {
       "type": "header",
+      "content": "Color Variants & Swatches"
+    },
+    {
+      "type": "paragraph",
+      "content": "Customize the shade names and swatch colors directly below. To delete a color, leave its name blank."
+    },
+    {
+      "type": "text",
+      "id": "color_1_name",
+      "label": "Color 1 Name",
+      "default": "Bone"
+    },
+    {
+      "type": "color",
+      "id": "color_1_hex",
+      "label": "Color 1 Swatch Color",
+      "default": "#F5F1EA"
+    },
+    {
+      "type": "text",
+      "id": "color_2_name",
+      "label": "Color 2 Name",
+      "default": "Warm Stone"
+    },
+    {
+      "type": "color",
+      "id": "color_2_hex",
+      "label": "Color 2 Swatch Color",
+      "default": "#ECE5DA"
+    },
+    {
+      "type": "text",
+      "id": "color_3_name",
+      "label": "Color 3 Name",
+      "default": "Noir"
+    },
+    {
+      "type": "color",
+      "id": "color_3_hex",
+      "label": "Color 3 Swatch Color",
+      "default": "#1B1A18"
+    },
+    {
+      "type": "text",
+      "id": "color_4_name",
+      "label": "Color 4 Name",
+      "default": "Clay"
+    },
+    {
+      "type": "color",
+      "id": "color_4_hex",
+      "label": "Color 4 Swatch Color",
+      "default": "#9A4F36"
+    },
+    {
+      "type": "text",
+      "id": "color_5_name",
+      "label": "Color 5 Name (optional)",
+      "default": ""
+    },
+    {
+      "type": "color",
+      "id": "color_5_hex",
+      "label": "Color 5 Swatch Color",
+      "default": "#5B5E4B"
+    },
+    {
+      "type": "text",
+      "id": "color_6_name",
+      "label": "Color 6 Name (optional)",
+      "default": ""
+    },
+    {
+      "type": "color",
+      "id": "color_6_hex",
+      "label": "Color 6 Swatch Color",
+      "default": "#3E2F28"
+    },
+    {
+      "type": "header",
       "content": "Product tabs"
     },
     {
@@ -161,60 +252,11 @@
       "default": "<p>Complimentary standard shipping on orders over $150. Domestic orders arrive within 2–4 business days. 30-day return window with prepaid return shipping.</p>"
     }
   ],
-  "blocks": [
-    {
-      "type": "color_shade",
-      "name": "Color Shade",
-      "settings": [
-        {
-          "type": "text",
-          "id": "color_name",
-          "label": "Color Name",
-          "default": "Bone"
-        },
-        {
-          "type": "color",
-          "id": "swatch_color",
-          "label": "Swatch Color",
-          "default": "#E8E2D5"
-        }
-      ]
-    }
-  ],
   "presets": [
     {
-      "name": "Product spotlight",
-      "blocks": [
-        {
-          "type": "color_shade",
-          "settings": {
-            "color_name": "Bone",
-            "swatch_color": "#E8E2D5"
-          }
-        },
-        {
-          "type": "color_shade",
-          "settings": {
-            "color_name": "Warm Stone",
-            "swatch_color": "#C8BDB0"
-          }
-        },
-        {
-          "type": "color_shade",
-          "settings": {
-            "color_name": "Noir",
-            "swatch_color": "#1B1A18"
-          }
-        },
-        {
-          "type": "color_shade",
-          "settings": {
-            "color_name": "Clay",
-            "swatch_color": "#9A4F36"
-          }
-        }
-      ]
+      "name": "Product spotlight"
     }
   ]
 }
 {% endschema %}
+
