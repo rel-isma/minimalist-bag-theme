@@ -10,25 +10,29 @@
 {%- liquid
   assign color_handle = value | handleize
   
-  # Map known quiet luxury color names to hex codes
-  case color_handle
-    when 'bone'
-      assign hex = '#F5F1EA'
-    when 'stone', 'warm-stone'
-      assign hex = '#ECE5DA'
-    when 'black', 'noir', 'ink'
-      assign hex = '#1B1A18'
-    when 'espresso', 'chocolate', 'dark-brown'
-      assign hex = '#3E2F28'
-    when 'clay', 'terracotta', 'caramel'
-      assign hex = '#9A4F36'
-    when 'taupe', 'sand'
-      assign hex = '#B8A89A'
-    when 'olive', 'moss'
-      assign hex = '#5B5E4B'
-    else
-      assign hex = '#D9D0C3'
-  endcase
+  if custom_hex != blank
+    assign hex = custom_hex
+  else
+    # Map known quiet luxury color names to hex codes
+    case color_handle
+      when 'bone'
+        assign hex = '#F5F1EA'
+      when 'stone', 'warm-stone'
+        assign hex = '#ECE5DA'
+      when 'black', 'noir', 'ink'
+        assign hex = '#1B1A18'
+      when 'espresso', 'chocolate', 'dark-brown'
+        assign hex = '#3E2F28'
+      when 'clay', 'terracotta', 'caramel'
+        assign hex = '#9A4F36'
+      when 'taupe', 'sand'
+        assign hex = '#B8A89A'
+      when 'olive', 'moss'
+        assign hex = '#5B5E4B'
+      else
+        assign hex = '#D9D0C3'
+    endcase
+  endif
 -%}
 
 <label class="color-swatch-item" title="{{ value | escape }}">

@@ -18,7 +18,9 @@
           title_override: section.settings.title_override,
           subtitle_override: section.settings.subtitle_override,
           price_override: section.settings.price_override,
-          compare_price_override: section.settings.compare_price_override
+          compare_price_override: section.settings.compare_price_override,
+          stock_badge: section.settings.stock_badge,
+          blocks: section.blocks
         -%}
 
         <!-- Collapsible Detail Tabs -->
@@ -100,6 +102,13 @@
       "default": ""
     },
     {
+      "type": "text",
+      "id": "stock_badge",
+      "label": "Inventory / Dispatch status badge",
+      "default": "In stock · Ready to dispatch from Florence",
+      "info": "Artisan dispatch notice displayed under the price."
+    },
+    {
       "type": "header",
       "content": "Product tabs"
     },
@@ -152,9 +161,59 @@
       "default": "<p>Complimentary standard shipping on orders over $150. Domestic orders arrive within 2–4 business days. 30-day return window with prepaid return shipping.</p>"
     }
   ],
+  "blocks": [
+    {
+      "type": "color_shade",
+      "name": "Color Shade",
+      "settings": [
+        {
+          "type": "text",
+          "id": "color_name",
+          "label": "Color Name",
+          "default": "Bone"
+        },
+        {
+          "type": "color",
+          "id": "swatch_color",
+          "label": "Swatch Color",
+          "default": "#E8E2D5"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
-      "name": "Product spotlight"
+      "name": "Product spotlight",
+      "blocks": [
+        {
+          "type": "color_shade",
+          "settings": {
+            "color_name": "Bone",
+            "swatch_color": "#E8E2D5"
+          }
+        },
+        {
+          "type": "color_shade",
+          "settings": {
+            "color_name": "Warm Stone",
+            "swatch_color": "#C8BDB0"
+          }
+        },
+        {
+          "type": "color_shade",
+          "settings": {
+            "color_name": "Noir",
+            "swatch_color": "#1B1A18"
+          }
+        },
+        {
+          "type": "color_shade",
+          "settings": {
+            "color_name": "Clay",
+            "swatch_color": "#9A4F36"
+          }
+        }
+      ]
     }
   ]
 }

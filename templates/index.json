@@ -12,13 +12,12 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "overlay_opacity": 10,
+        "overlay_opacity": 25,
         "full_height": true,
         "eyebrow": "The Minimalist Shoulder Bag",
         "heading": "Quietly Essential. Built to Outlast the Season.",
         "subhead": "Sculpted in full-grain leather with uncluttered lines. An archetype refined for daily elegance.",
-        "button_label": "Explore The Bag",
-        "button_link": ""
+        "button_label": "Explore The Bag"
       }
     },
     "trust-strip": {
@@ -34,8 +33,48 @@
     },
     "product-spotlight": {
       "type": "product-spotlight",
+      "blocks": {
+        "color-bone": {
+          "type": "color_shade",
+          "settings": {
+            "color_name": "Bone",
+            "swatch_color": "#E8E2D5"
+          }
+        },
+        "color-stone": {
+          "type": "color_shade",
+          "settings": {
+            "color_name": "Warm Stone",
+            "swatch_color": "#C8BDB0"
+          }
+        },
+        "color-noir": {
+          "type": "color_shade",
+          "settings": {
+            "color_name": "Noir",
+            "swatch_color": "#1B1A18"
+          }
+        },
+        "color-clay": {
+          "type": "color_shade",
+          "settings": {
+            "color_name": "Clay",
+            "swatch_color": "#9A4F36"
+          }
+        }
+      },
+      "block_order": [
+        "color-bone",
+        "color-stone",
+        "color-noir",
+        "color-clay"
+      ],
       "settings": {
-        "product": "",
+        "title_override": "The Demi Shoulder Bag",
+        "subtitle_override": "Atelier Vane",
+        "price_override": "$295.00",
+        "compare_price_override": "",
+        "stock_badge": "In stock · Ready to dispatch from Florence",
         "tab_title_1": "Details & Materials",
         "tab_content_1": "<p>100% full-grain calfskin leather, drum-dyed for enduring softness. Lined in breathable micro-suede. Custom solid brass magnetic hardware.</p>",
         "tab_title_2": "Dimensions & Fit",

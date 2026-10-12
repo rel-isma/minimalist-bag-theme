@@ -38,6 +38,14 @@
     {%- endif -%}
   </div>
 
+  <!-- Stock & Dispatch Status Badge -->
+  <div class="product-buy-box__stock-badge" style="display: flex; align-items: center; gap: 0.625rem; margin-top: 0.875rem; margin-bottom: 0.5rem; font-size: 0.875rem; letter-spacing: 0.02em;">
+    <span class="stock-badge__dot" style="width: 8px; height: 8px; border-radius: 50%; background-color: #2E7D32; display: inline-block; box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.15);"></span>
+    <span style="color: #2E7D32; font-weight: 500;">
+      {{ stock_badge | default: 'In stock · Ready to dispatch from Florence' }}
+    </span>
+  </div>
+
   <!-- Real Inventory Stock Warning (Zero Fake Urgency) -->
   {%- if current_variant.inventory_management == 'shopify' and current_variant.inventory_quantity > 0 and current_variant.inventory_quantity <= 5 -%}
     <div class="inventory-status inventory-status--low text-accent">
@@ -69,8 +77,30 @@
             {%- endfor -%}
           </div>
         </div>
+      {%- elsif blocks != blank and blocks.size > 0 -%}
+        <!-- Custom block-defined color swatches -->
+        <div class="product-buy-box__option">
+          <div class="product-buy-box__option-label">
+            <span class="label-caps">Color:</span>
+            <span class="product-buy-box__active-option-value" data-selected-color-label>
+              {{ blocks.first.settings.color_name }}
+            </span>
+          </div>
+          <div class="product-buy-box__swatches">
+            {%- for block in blocks -%}
+              {%- if block.type == 'color_shade' -%}
+                {%- render 'swatch',
+                  value: block.settings.color_name,
+                  name: 'Color',
+                  checked: forloop.first,
+                  custom_hex: block.settings.swatch_color
+                -%}
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div>
       {%- else -%}
-        <!-- Default swatches if color option not named 'Color' -->
+        <!-- Default swatches fallback -->
         <div class="product-buy-box__option">
           <div class="product-buy-box__option-label">
             <span class="label-caps">Color:</span>
@@ -122,17 +152,36 @@
     <form action="{{ routes.cart_add_url }}" method="post" id="{{ product_form_id }}" class="product-form" novalidate data-type="add-to-cart-form">
       <input type="hidden" name="id" value="mock-demi-bone" data-variant-input>
 
-      <!-- Color Variant Swatches (Default 4 Atelier Tones) -->
+      <!-- Color Variant Swatches (Customizable via Theme Editor blocks or default) -->
       <div class="product-buy-box__option">
         <div class="product-buy-box__option-label">
           <span class="label-caps">Color:</span>
-          <span class="product-buy-box__active-option-value" data-selected-color-label>Bone</span>
+          <span class="product-buy-box__active-option-value" data-selected-color-label>
+            {%- if blocks != blank and blocks.size > 0 -%}
+              {{ blocks.first.settings.color_name }}
+            {%- else -%}
+              Bone
+            {%- endif -%}
+          </span>
         </div>
         <div class="product-buy-box__swatches">
-          {%- render 'swatch', value: 'Bone', name: 'Color', checked: true -%}
-          {%- render 'swatch', value: 'Warm Stone', name: 'Color', checked: false -%}
-          {%- render 'swatch', value: 'Noir', name: 'Color', checked: false -%}
-          {%- render 'swatch', value: 'Clay', name: 'Color', checked: false -%}
+          {%- if blocks != blank and blocks.size > 0 -%}
+            {%- for block in blocks -%}
+              {%- if block.type == 'color_shade' -%}
+                {%- render 'swatch',
+                  value: block.settings.color_name,
+                  name: 'Color',
+                  checked: forloop.first,
+                  custom_hex: block.settings.swatch_color
+                -%}
+              {%- endif -%}
+            {%- endfor -%}
+          {%- else -%}
+            {%- render 'swatch', value: 'Bone', name: 'Color', checked: true -%}
+            {%- render 'swatch', value: 'Warm Stone', name: 'Color', checked: false -%}
+            {%- render 'swatch', value: 'Noir', name: 'Color', checked: false -%}
+            {%- render 'swatch', value: 'Clay', name: 'Color', checked: false -%}
+          {%- endif -%}
         </div>
       </div>
 
