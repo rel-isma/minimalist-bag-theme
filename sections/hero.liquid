@@ -54,7 +54,7 @@
 
       {%- if section.settings.button_label != blank -%}
         <div class="hero-section__cta">
-          <a href="{{ section.settings.button_link }}" class="btn btn--primary">
+          <a href="{{ section.settings.button_link | default: '#ProductSpotlight' }}" class="btn btn--primary">
             {{ section.settings.button_label | escape }}
           </a>
         </div>
@@ -120,8 +120,7 @@
     {
       "type": "url",
       "id": "button_link",
-      "label": "Button link",
-      "default": "/#ProductSpotlight"
+      "label": "Button link"
     }
   ],
   "presets": [
