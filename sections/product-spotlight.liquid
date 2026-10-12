@@ -12,7 +12,14 @@
 
       <!-- Right Column: Buy Box & Product Accordions -->
       <div class="product-spotlight__buy-box-col">
-        {%- render 'product-buy-box', product: selected_product, section_id: section.id -%}
+        {%- render 'product-buy-box',
+          product: selected_product,
+          section_id: section.id,
+          title_override: section.settings.title_override,
+          subtitle_override: section.settings.subtitle_override,
+          price_override: section.settings.price_override,
+          compare_price_override: section.settings.compare_price_override
+        -%}
 
         <!-- Collapsible Detail Tabs -->
         <div class="product-spotlight__accordions">
@@ -60,7 +67,37 @@
     {
       "type": "product",
       "id": "product",
-      "label": "Featured product"
+      "label": "Featured product (Shopify Admin)",
+      "info": "Assign your Shopify product here to pull live variants, prices, and inventory."
+    },
+    {
+      "type": "header",
+      "content": "Product text & pricing"
+    },
+    {
+      "type": "text",
+      "id": "title_override",
+      "label": "Product title",
+      "default": "The Demi Shoulder Bag",
+      "info": "Used when no Shopify product is assigned or to override display name."
+    },
+    {
+      "type": "text",
+      "id": "subtitle_override",
+      "label": "Brand / Vendor",
+      "default": "Atelier Vane"
+    },
+    {
+      "type": "text",
+      "id": "price_override",
+      "label": "Display price",
+      "default": "$295.00"
+    },
+    {
+      "type": "text",
+      "id": "compare_price_override",
+      "label": "Compare-at price (optional)",
+      "default": ""
     },
     {
       "type": "header",

@@ -21,7 +21,26 @@
                 | image_tag: loading: 'lazy', class: 'color-story__image', alt: block.settings.color_name
               }}
             {%- else -%}
-              <div class="color-story__swatch-circle" style="background-color: {{ block.settings.swatch_hex }};"></div>
+              {%- liquid
+                case forloop.index
+                  when 1
+                    assign fallback_shade_img = 'packshot-front.jpg'
+                  when 2
+                    assign fallback_shade_img = 'packshot-stone.jpg'
+                  when 3
+                    assign fallback_shade_img = 'packshot-noir.jpg'
+                  else
+                    assign fallback_shade_img = 'packshot-clay.jpg'
+                endcase
+              -%}
+              <img
+                src="{{ fallback_shade_img | asset_url }}"
+                alt="{{ block.settings.color_name | escape }}"
+                class="color-story__image"
+                width="600"
+                height="750"
+                loading="lazy"
+              >
             {%- endif -%}
           </div>
           <div class="color-story__info">

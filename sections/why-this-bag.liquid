@@ -26,9 +26,26 @@
                   alt: block.settings.title
               }}
             {%- else -%}
-              <div class="why-this-bag__placeholder">
-                <span class="label-caps">{{ '0' | append: forloop.index }}</span>
-              </div>
+              {%- liquid
+                case forloop.index
+                  when 1
+                    assign fallback_img = 'craft-leather.jpg'
+                  when 2
+                    assign fallback_img = 'craft-slouch.jpg'
+                  when 3
+                    assign fallback_img = 'craft-stitching.jpg'
+                  else
+                    assign fallback_img = 'detail-hardware.jpg'
+                endcase
+              -%}
+              <img
+                src="{{ fallback_img | asset_url }}"
+                alt="{{ block.settings.title | escape }}"
+                class="why-this-bag__image"
+                width="800"
+                height="600"
+                loading="lazy"
+              >
             {%- endif -%}
           </div>
           <div class="why-this-bag__body">

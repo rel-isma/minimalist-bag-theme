@@ -9,9 +9,14 @@
             | image_tag: loading: 'lazy', class: 'brand-story__image', alt: section.settings.heading
           }}
         {%- else -%}
-          <div class="brand-story__placeholder">
-            <span class="label-caps">Atelier Studio Photo</span>
-          </div>
+          <img
+            src="{{ 'model-wearing.jpg' | asset_url }}"
+            alt="{{ section.settings.heading | escape }}"
+            class="brand-story__image"
+            width="1200"
+            height="900"
+            loading="lazy"
+          >
         {%- endif -%}
       </div>
 

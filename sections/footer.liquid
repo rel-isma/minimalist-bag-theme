@@ -27,12 +27,18 @@
       <div class="site-footer__col">
         <h4 class="site-footer__col-title">Client Care</h4>
         <ul class="site-footer__links">
-          <li><a href="#Faq" class="site-footer__link">Frequently Asked Questions</a></li>
-          <li><a href="{{ routes.root_url }}pages/shipping-returns" class="site-footer__link">Shipping & Returns</a></li>
-          <li><a href="{{ routes.root_url }}pages/contact" class="site-footer__link">Contact Atelier</a></li>
-          <li><a href="{{ shop.privacy_policy.url | default: '/pages/privacy' }}" class="site-footer__link">Privacy Policy</a></li>
-          <li><a href="{{ shop.terms_of_service.url | default: '/pages/terms' }}" class="site-footer__link">Terms of Service</a></li>
-          <li><a href="{{ shop.refund_policy.url | default: '/pages/refund' }}" class="site-footer__link">Refund Policy</a></li>
+          {%- if section.settings.menu_client_care != blank -%}
+            {%- for link in linklists[section.settings.menu_client_care].links -%}
+              <li><a href="{{ link.url }}" class="site-footer__link">{{ link.title | escape }}</a></li>
+            {%- endfor -%}
+          {%- else -%}
+            <li><a href="#Faq" class="site-footer__link">Frequently Asked Questions</a></li>
+            <li><a href="{{ routes.root_url }}pages/shipping-returns" class="site-footer__link">Shipping & Returns</a></li>
+            <li><a href="{{ routes.root_url }}pages/contact" class="site-footer__link">Contact Atelier</a></li>
+            <li><a href="{{ shop.privacy_policy.url | default: '/policies/privacy' }}" class="site-footer__link">Privacy Policy</a></li>
+            <li><a href="{{ shop.terms_of_service.url | default: '/policies/terms' }}" class="site-footer__link">Terms of Service</a></li>
+            <li><a href="{{ shop.refund_policy.url | default: '/policies/refund' }}" class="site-footer__link">Refund Policy</a></li>
+          {%- endif -%}
         </ul>
       </div>
 
@@ -98,6 +104,12 @@
       "id": "brand_bio",
       "label": "Brand bio",
       "default": "Designed in pursuit of quiet luxury and intentional form. One archetype, refined until nothing remains to subtract."
+    },
+    {
+      "type": "link_list",
+      "id": "menu_client_care",
+      "label": "Client care menu (optional)",
+      "info": "Select a menu from Navigation to override default client care links."
     },
     {
       "type": "text",

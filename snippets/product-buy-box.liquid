@@ -13,15 +13,26 @@
 <div class="product-buy-box" data-buy-box>
   <!-- Eyebrow & Title -->
   <div class="product-buy-box__header">
-    <p class="eyebrow">{{ settings.brand_name | default: 'Minimalist Atelier' }}</p>
+    <p class="eyebrow">{{ subtitle_override | default: settings.brand_name | default: 'Atelier Vane' }}</p>
     <h1 class="product-buy-box__title">
-      {{ product.title | default: settings.product_name | default: 'The Minimalist Shoulder Bag' }}
+      {{ product.title | default: title_override | default: settings.product_name | default: 'The Demi Shoulder Bag' }}
     </h1>
   </div>
 
   <!-- Price & Tax Line -->
   <div class="product-buy-box__price-line" data-price-container>
-    {%- render 'price', product: product, use_variant: true, show_badges: true -%}
+    {%- if product != blank -%}
+      {%- render 'price', product: product, use_variant: true, show_badges: true -%}
+    {%- else -%}
+      <div class="price">
+        <div class="price__container">
+          <span class="price-item price-item--regular">{{ price_override | default: '$295.00' }}</span>
+          {%- if compare_price_override != blank -%}
+            <s class="price-item price-item--regular text-muted" style="margin-left: 0.5rem;">{{ compare_price_override }}</s>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
     {%- if cart.taxes_included -%}
       <span class="product-buy-box__tax-note text-muted">{{ 'products.product.taxes_included' | t }}</span>
     {%- endif -%}
@@ -35,34 +46,87 @@
     </div>
   {%- endif -%}
 
-  {%- form 'product', product, id: product_form_id, class: 'product-form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-    <input type="hidden" name="id" value="{{ current_variant.id }}" data-variant-input>
+  {%- if product != blank -%}
+    {%- form 'product', product, id: product_form_id, class: 'product-form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+      <input type="hidden" name="id" value="{{ current_variant.id }}" data-variant-input>
 
-    <!-- Color Variant Swatches -->
-    {%- if product != blank and product.options_by_name['Color'] != blank -%}
-      <div class="product-buy-box__option">
-        <div class="product-buy-box__option-label">
-          <span class="label-caps">Color:</span>
-          <span class="product-buy-box__active-option-value" data-selected-color-label>
-            {{ current_variant.options[0] | default: 'Bone' }}
-          </span>
+      <!-- Color Variant Swatches -->
+      {%- if product.options_by_name['Color'] != blank -%}
+        <div class="product-buy-box__option">
+          <div class="product-buy-box__option-label">
+            <span class="label-caps">Color:</span>
+            <span class="product-buy-box__active-option-value" data-selected-color-label>
+              {{ current_variant.options[0] | default: 'Bone' }}
+            </span>
+          </div>
+          <div class="product-buy-box__swatches">
+            {%- for value in product.options_by_name['Color'].values -%}
+              {%- assign is_checked = false -%}
+              {%- if value == current_variant.options[0] -%}
+                {%- assign is_checked = true -%}
+              {%- endif -%}
+              {%- render 'swatch', value: value, name: 'Color', checked: is_checked, variant_id: current_variant.id -%}
+            {%- endfor -%}
+          </div>
         </div>
-        <div class="product-buy-box__swatches">
-          {%- for value in product.options_by_name['Color'].values -%}
-            {%- assign is_checked = false -%}
-            {%- if value == current_variant.options[0] -%}
-              {%- assign is_checked = true -%}
+      {%- else -%}
+        <!-- Default swatches if color option not named 'Color' -->
+        <div class="product-buy-box__option">
+          <div class="product-buy-box__option-label">
+            <span class="label-caps">Color:</span>
+            <span class="product-buy-box__active-option-value" data-selected-color-label>Bone</span>
+          </div>
+          <div class="product-buy-box__swatches">
+            {%- render 'swatch', value: 'Bone', name: 'Color', checked: true -%}
+            {%- render 'swatch', value: 'Warm Stone', name: 'Color', checked: false -%}
+            {%- render 'swatch', value: 'Noir', name: 'Color', checked: false -%}
+            {%- render 'swatch', value: 'Clay', name: 'Color', checked: false -%}
+          </div>
+        </div>
+      {%- endif -%}
+
+      <!-- Quantity & Add to Cart -->
+      <div class="product-buy-box__cta-group">
+        <div class="product-buy-box__quantity-wrap">
+          {%- assign quantity_input_id = 'Quantity-' | append: section_id -%}
+          {%- render 'quantity-input', id: quantity_input_id, name: 'quantity', value: 1 -%}
+        </div>
+
+        <button
+          type="submit"
+          name="add"
+          class="btn btn--primary btn--full product-buy-box__submit-btn"
+          {% if current_variant.available == false %}disabled aria-disabled="true"{% endif %}
+          data-add-to-cart-btn
+        >
+          <span>
+            {%- if current_variant.available == false -%}
+              {{ 'products.product.sold_out' | t }}
+            {%- else -%}
+              {{ 'products.product.add_to_cart' | t }}
             {%- endif -%}
-            {%- render 'swatch', value: value, name: 'Color', checked: is_checked, variant_id: current_variant.id -%}
-          {%- endfor -%}
-        </div>
+          </span>
+        </button>
       </div>
-    {%- else -%}
-      <!-- Default single product swatches placeholder -->
+
+      <!-- Accelerated Checkout (Shop Pay, Apple Pay, Google Pay) -->
+      <div class="product-buy-box__dynamic-checkout">
+        {{ form | payment_button }}
+      </div>
+
+      <!-- Installments banner -->
+      {{ form | payment_terms }}
+    {%- endform -%}
+  {%- else -%}
+    <!-- Preview / Fallback form when no Shopify product is assigned yet -->
+    <form action="{{ routes.cart_add_url }}" method="post" id="{{ product_form_id }}" class="product-form" novalidate data-type="add-to-cart-form">
+      <input type="hidden" name="id" value="mock-demi-bone" data-variant-input>
+
+      <!-- Color Variant Swatches (Default 4 Atelier Tones) -->
       <div class="product-buy-box__option">
         <div class="product-buy-box__option-label">
           <span class="label-caps">Color:</span>
-          <span class="product-buy-box__active-option-value">Bone</span>
+          <span class="product-buy-box__active-option-value" data-selected-color-label>Bone</span>
         </div>
         <div class="product-buy-box__swatches">
           {%- render 'swatch', value: 'Bone', name: 'Color', checked: true -%}
@@ -71,40 +135,25 @@
           {%- render 'swatch', value: 'Clay', name: 'Color', checked: false -%}
         </div>
       </div>
-    {%- endif -%}
 
-    <!-- Quantity & Add to Cart -->
-    <div class="product-buy-box__cta-group">
-      <div class="product-buy-box__quantity-wrap">
-        {%- assign quantity_input_id = 'Quantity-' | append: section_id -%}
-        {%- render 'quantity-input', id: quantity_input_id, name: 'quantity', value: 1 -%}
+      <!-- Quantity & Add to Cart -->
+      <div class="product-buy-box__cta-group">
+        <div class="product-buy-box__quantity-wrap">
+          {%- assign quantity_input_id = 'Quantity-' | append: section_id -%}
+          {%- render 'quantity-input', id: quantity_input_id, name: 'quantity', value: 1 -%}
+        </div>
+
+        <button
+          type="submit"
+          name="add"
+          class="btn btn--primary btn--full product-buy-box__submit-btn"
+          data-add-to-cart-btn
+        >
+          <span>{{ 'products.product.add_to_cart' | t | default: 'Add to Bag' }}</span>
+        </button>
       </div>
-
-      <button
-        type="submit"
-        name="add"
-        class="btn btn--primary btn--full product-buy-box__submit-btn"
-        {% if current_variant.available == false %}disabled aria-disabled="true"{% endif %}
-        data-add-to-cart-btn
-      >
-        <span>
-          {%- if current_variant.available == false -%}
-            {{ 'products.product.sold_out' | t }}
-          {%- else -%}
-            {{ 'products.product.add_to_cart' | t }}
-          {%- endif -%}
-        </span>
-      </button>
-    </div>
-
-    <!-- Accelerated Checkout (Shop Pay, Apple Pay, Google Pay) -->
-    <div class="product-buy-box__dynamic-checkout">
-      {{ form | payment_button }}
-    </div>
-
-    <!-- Installments banner -->
-    {{ form | payment_terms }}
-  {%- endform -%}
+    </form>
+  {%- endif -%}
 
   <!-- Shipping & Returns Summary Strip -->
   <div class="product-buy-box__trust-line">

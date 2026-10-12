@@ -21,9 +21,14 @@
               | image_tag: loading: 'lazy', class: 'detail-closeups__image', alt: section.settings.title_1
             }}
           {%- else -%}
-            <div class="detail-closeups__placeholder">
-              <span class="label-caps">Macro Detail · Hardware</span>
-            </div>
+            <img
+              src="{{ 'detail-hardware.jpg' | asset_url }}"
+              alt="{{ section.settings.title_1 | escape }}"
+              class="detail-closeups__image"
+              width="800"
+              height="800"
+              loading="lazy"
+            >
           {%- endif -%}
         </div>
         <div class="detail-closeups__content">
@@ -42,9 +47,14 @@
               | image_tag: loading: 'lazy', class: 'detail-closeups__image', alt: section.settings.title_2
             }}
           {%- else -%}
-            <div class="detail-closeups__placeholder">
-              <span class="label-caps">Macro Detail · Stitching</span>
-            </div>
+            <img
+              src="{{ 'craft-stitching.jpg' | asset_url }}"
+              alt="{{ section.settings.title_2 | escape }}"
+              class="detail-closeups__image"
+              width="800"
+              height="800"
+              loading="lazy"
+            >
           {%- endif -%}
         </div>
         <div class="detail-closeups__content">
@@ -63,9 +73,14 @@
               | image_tag: loading: 'lazy', class: 'detail-closeups__image', alt: section.settings.title_3
             }}
           {%- else -%}
-            <div class="detail-closeups__placeholder">
-              <span class="label-caps">Macro Detail · Interior</span>
-            </div>
+            <img
+              src="{{ 'detail-interior.jpg' | asset_url }}"
+              alt="{{ section.settings.title_3 | escape }}"
+              class="detail-closeups__image"
+              width="800"
+              height="800"
+              loading="lazy"
+            >
           {%- endif -%}
         </div>
         <div class="detail-closeups__content">

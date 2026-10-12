@@ -12,7 +12,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "enable_transparent_header": true
+        "enable_transparent_header": false
       }
     }
   },

@@ -24,13 +24,14 @@
                 alt: section.settings.heading
             }}
           {%- else -%}
-            <div class="what-fits__placeholder">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#6B6258" stroke-width="1.5">
-                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-              </svg>
-              <span class="label-caps" style="margin-top: 1rem;">Visual Packout Flat-Lay</span>
-            </div>
+            <img
+              src="{{ 'detail-interior.jpg' | asset_url }}"
+              alt="{{ section.settings.heading | escape }}"
+              class="what-fits__image"
+              width="1200"
+              height="900"
+              loading="lazy"
+            >
           {%- endif -%}
         </div>
 
