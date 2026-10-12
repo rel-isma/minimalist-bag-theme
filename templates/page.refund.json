@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-policy",
+      "settings": {
+        "eyebrow": "Guarantees & Returns",
+        "title": "Refund & Return Policy",
+        "default_content": "<h3>30-Day Thoughtful Trial</h3><p>We want you to experience our shoulder bag in your daily routine with complete confidence. We offer a 30-day return window from the date of delivery.</p><h3>Return Eligibility</h3><p>To be eligible for a full refund, items must be in original condition: unworn, undamaged, with protective dust bag and packaging intact. We provide a prepaid domestic return shipping label with every authorized return request.</p><h3>Refund Process</h3><p>Once your returned bag is received and inspected at our workshop (typically within 2 business days of arrival), your refund will be processed to the original method of payment. Credit card refunds typically post within 3 to 5 business days depending on your financial institution.</p><h3>Lifetime Repair Support</h3><p>Because our bags are built for longevity, we stand behind the integrity of our stitching and solid brass hardware. Should you experience any manufacturing defect, contact care@ateliervane.com for atelier repair assistance.</p>"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,43 @@
+<section class="main-policy-section section-spacing hairline-bottom">
+  <div class="container container--narrow">
+    <header class="section-header text-center fade-up">
+      <p class="eyebrow">{{ section.settings.eyebrow | default: 'Atelier Vane Legal' | escape }}</p>
+      <h1 class="section-heading">{{ page.title | default: section.settings.title | escape }}</h1>
+      <p class="text-muted" style="font-size: 0.8125rem;">Last revised: October 2026</p>
+    </header>
+
+    <div class="prose policy-content fade-up" style="margin: 0 auto; line-height: 1.75; font-size: 0.9375rem;">
+      {%- if page.content != blank -%}
+        {{ page.content }}
+      {%- else -%}
+        {{ section.settings.default_content }}
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Policy page",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Client Services & Legal"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Policy title",
+      "default": "Store Policy"
+    },
+    {
+      "type": "richtext",
+      "id": "default_content",
+      "label": "Default policy content",
+      "default": "<p>Please configure your official policies in Shopify Admin under Settings > Policies or edit this page content directly.</p>"
+    }
+  ]
+}
+{% endschema %}

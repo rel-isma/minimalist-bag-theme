@@ -1,0 +1,21 @@
+<section class="main-list-collections-section section-spacing hairline-bottom">
+  <div class="container container--narrow text-center">
+    <header class="section-header fade-up">
+      <p class="eyebrow">{{ settings.brand_name | default: 'Our Atelier' }}</p>
+      <h1 class="section-heading">Collections</h1>
+      <p class="text-muted prose" style="margin: 0 auto 2rem auto;">
+        We focus exclusively on one perfected silhouette.
+      </p>
+      <a href="{{ routes.root_url }}#ProductSpotlight" class="btn btn--primary">
+        Explore The Bag
+      </a>
+    </header>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Collections list",
+  "settings": []
+}
+{% endschema %}

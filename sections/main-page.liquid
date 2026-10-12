@@ -1,0 +1,17 @@
+<section class="main-page-section section-spacing hairline-bottom">
+  <div class="container container--narrow">
+    <header class="section-header text-center fade-up">
+      <h1 class="section-heading">{{ page.title | escape }}</h1>
+    </header>
+    <div class="main-page__content prose fade-up" style="margin: 0 auto; line-height: 1.7;">
+      {{ page.content }}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Page content",
+  "settings": []
+}
+{% endschema %}

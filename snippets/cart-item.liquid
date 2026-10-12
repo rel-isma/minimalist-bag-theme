@@ -1,0 +1,79 @@
+{%- comment -%}
+  Cart Item Snippet
+  Accepts:
+  - item: {Object} Cart line item object
+{%- endcomment -%}
+
+<div class="cart-item" data-cart-item data-item-key="{{ item.key }}">
+  <!-- Thumbnail -->
+  <div class="cart-item__media">
+    {%- if item.image != blank -%}
+      <a href="{{ item.url }}">
+        {{
+          item.image
+          | image_url: width: 200, height: 250, crop: 'center'
+          | image_tag: loading: 'lazy', alt: item.title, class: 'cart-item__image'
+        }}
+      </a>
+    {%- else -%}
+      <div class="cart-item__placeholder-thumb"></div>
+    {%- endif -%}
+  </div>
+
+  <!-- Content -->
+  <div class="cart-item__details">
+    <div class="cart-item__header">
+      <a href="{{ item.url }}" class="cart-item__title">
+        {{ item.product.title | escape }}
+      </a>
+      <span class="cart-item__price font-medium">
+        {{ item.final_line_price | money }}
+      </span>
+    </div>
+
+    {%- unless item.product.has_only_default_variant -%}
+      <p class="cart-item__variant text-muted" style="font-size: 0.8125rem; margin-top: 0.25rem;">
+        {{ item.variant.title | escape }}
+      </p>
+    {%- endunless -%}
+
+    {%- if item.line_level_discount_allocations.size > 0 -%}
+      <ul class="cart-item__discounts text-accent" style="font-size: 0.75rem; margin-top: 0.25rem;">
+        {%- for discount_allocation in item.line_level_discount_allocations -%}
+          <li>{{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})</li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+    <!-- Quantity & Remove Action -->
+    <div class="cart-item__actions">
+      <div class="cart-item__stepper" data-cart-stepper>
+        <button
+          type="button"
+          class="cart-item__stepper-btn"
+          data-cart-qty-minus
+          data-key="{{ item.key }}"
+          aria-label="Decrease quantity"
+        >−</button>
+        <span class="cart-item__qty-display" data-cart-qty-val>{{ item.quantity }}</span>
+        <button
+          type="button"
+          class="cart-item__stepper-btn"
+          data-cart-qty-plus
+          data-key="{{ item.key }}"
+          aria-label="Increase quantity"
+        >+</button>
+      </div>
+
+      <button
+        type="button"
+        class="cart-item__remove-btn"
+        data-cart-remove
+        data-key="{{ item.key }}"
+        aria-label="Remove {{ item.title | escape }}"
+      >
+        Remove
+      </button>
+    </div>
+  </div>
+</div>

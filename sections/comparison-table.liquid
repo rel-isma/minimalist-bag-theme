@@ -1,0 +1,118 @@
+<section class="comparison-section section-spacing hairline-bottom">
+  <div class="container">
+    <div class="section-header text-center fade-up">
+      {%- if section.settings.eyebrow != blank -%}
+        <p class="eyebrow">{{ section.settings.eyebrow | escape }}</p>
+      {%- endif -%}
+      <h2 class="section-heading">{{ section.settings.heading | escape }}</h2>
+      {%- if section.settings.subhead != blank -%}
+        <p class="text-muted prose" style="margin: 0 auto;">{{ section.settings.subhead | escape }}</p>
+      {%- endif -%}
+    </div>
+
+    <div class="comparison-table-wrap fade-up">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th scope="col" class="comparison-table__feature-col">Feature & Craft</th>
+            <th scope="col" class="comparison-table__brand-col">
+              <span class="comparison-table__badge">Our Archetype</span>
+              <span class="comparison-table__brand-name">{{ settings.brand_name | default: 'Our Atelier' }}</span>
+            </th>
+            <th scope="col" class="comparison-table__other-col">
+              <span class="text-muted">A Typical Shoulder Bag</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Leather Grade</th>
+            <td class="is-highlight">
+              <strong>Full-grain Italian calfskin</strong>
+              <p class="text-muted" style="font-size: 0.8125rem;">Natural grain intact; softens with age</p>
+            </td>
+            <td>
+              <span class="text-muted">Split or corrected leather</span>
+              <p class="text-muted" style="font-size: 0.8125rem;">Coated with synthetic polyurethane plastic</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Hardware Composition</th>
+            <td class="is-highlight">
+              <strong>Solid machined brass</strong>
+              <p class="text-muted" style="font-size: 0.8125rem;">Warm brushed finish; will never chip or peel</p>
+            </td>
+            <td>
+              <span class="text-muted">Zamak zinc alloy</span>
+              <p class="text-muted" style="font-size: 0.8125rem;">Prone to pitting and silver plating flaking off</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Edge Sealing</th>
+            <td class="is-highlight">
+              <strong>4-coat hand-sanded edge dye</strong>
+              <p class="text-muted" style="font-size: 0.8125rem;">Smooth, sealed and crack-resistant</p>
+            </td>
+            <td>
+              <span class="text-muted">Single-coat machine seal</span>
+              <p class="text-muted" style="font-size: 0.8125rem;">Frequently cracks and peels within months</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Interior Lining</th>
+            <td class="is-highlight">
+              <strong>Plush micro-suede</strong>
+              <p class="text-muted" style="font-size: 0.8125rem;">Gentle on lenses and screens; resists tears</p>
+            </td>
+            <td>
+              <span class="text-muted">Thin polyester fabric</span>
+              <p class="text-muted" style="font-size: 0.8125rem;">Prone to tearing at the seam line</p>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Branding & Logo</th>
+            <td class="is-highlight">
+              <strong>Unembossed exterior</strong>
+              <p class="text-muted" style="font-size: 0.8125rem;">Quiet blind-deboss inside only</p>
+            </td>
+            <td>
+              <span class="text-muted">Large exterior logo plaques</span>
+              <p class="text-muted" style="font-size: 0.8125rem;">Used as a walking advertisement</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Comparison table",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Honest Construction"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "A Direct Comparison"
+    },
+    {
+      "type": "text",
+      "id": "subhead",
+      "label": "Subheading",
+      "default": "Where luxury is actually built, rather than marketed."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Comparison table"
+    }
+  ]
+}
+{% endschema %}

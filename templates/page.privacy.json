@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-policy",
+      "settings": {
+        "eyebrow": "Data Protection & Privacy",
+        "title": "Privacy Policy",
+        "default_content": "<h3>1. Overview</h3><p>At Atelier Vane, we respect the privacy of our patrons. This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from our store.</p><h3>2. Personal Information We Collect</h3><p>When you place an order or create an account, we collect device information, including your web browser, IP address, time zone, and details necessary to fulfill your order (name, billing address, shipping address, payment confirmation, email address, and phone number). We do not store raw credit card numbers on our servers; payments are processed securely through certified PCI-compliant gateways including Shop Pay, Apple Pay, and Google Pay.</p><h3>3. How We Use Your Information</h3><p>We use order information exclusively to fulfill purchases, process payments, arrange shipping, provide order confirmations, and communicate regarding order status. If you opt into our Atelier Journal, we send limited, purposeful notes regarding new releases and restocks.</p><h3>4. Your Rights</h3><p>Depending on your jurisdiction (including GDPR in the EU/UK and CCPA in California), you have the right to access, rectify, or request deletion of your personal data at any time by contacting our atelier at care@ateliervane.com.</p>"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

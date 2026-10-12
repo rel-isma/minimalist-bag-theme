@@ -1,0 +1,20 @@
+{%- comment -%}
+  Accordion Snippet
+  Accepts:
+  - id: {String} Unique ID
+  - title: {String} Heading title
+  - content: {HTML/String} Accordion body content
+  - open_by_default: {Boolean} Whether open on load
+{%- endcomment -%}
+
+<details class="accordion-item" id="accordion-{{ id }}" {% if open_by_default %}open{% endif %}>
+  <summary class="accordion-item__summary">
+    <span class="accordion-item__title">{{ title | escape }}</span>
+    <span class="accordion-item__icon" aria-hidden="true">
+      {%- render 'icon-chevron' -%}
+    </span>
+  </summary>
+  <div class="accordion-item__content prose">
+    {{ content }}
+  </div>
+</details>

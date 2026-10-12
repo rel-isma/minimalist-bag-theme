@@ -1,0 +1,17 @@
+{
+  "name": "Footer",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "brand_bio": "Designed in pursuit of quiet luxury and intentional form. One archetype, refined until nothing remains to subtract.",
+        "newsletter_subtext": "Occasional atelier notes and limited batch notifications. Never spam.",
+        "show_payment_icons": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

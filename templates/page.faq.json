@@ -1,0 +1,20 @@
+{
+  "sections": {
+    "faq": {
+      "type": "faq-accordion",
+      "settings": {
+        "eyebrow": "Client Assistance",
+        "heading": "Frequently Asked Questions",
+        "subhead": "Answers regarding sizing, leather maintenance, and delivery."
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {}
+    }
+  },
+  "order": [
+    "faq",
+    "newsletter"
+  ]
+}

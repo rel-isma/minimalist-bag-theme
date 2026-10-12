@@ -1,0 +1,188 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Minimalist Atelier",
+    "theme_version": "1.0.0",
+    "theme_author": "Antigravity Theme Studio",
+    "theme_documentation_url": "https://github.com/shopify/skeleton-theme",
+    "theme_support_url": "https://help.shopify.com"
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Base Scheme (Quiet Luxury)"
+      },
+      {
+        "type": "color",
+        "id": "color_bg",
+        "label": "Background (Bone)",
+        "default": "#F5F1EA"
+      },
+      {
+        "type": "color",
+        "id": "color_surface",
+        "label": "Surface (Stone)",
+        "default": "#ECE5DA"
+      },
+      {
+        "type": "color",
+        "id": "color_ink",
+        "label": "Text & Primary UI (Ink)",
+        "default": "#1B1A18"
+      },
+      {
+        "type": "color",
+        "id": "color_muted",
+        "label": "Muted Text (Ash)",
+        "default": "#6B6258"
+      },
+      {
+        "type": "color",
+        "id": "color_accent",
+        "label": "Accent (Clay)",
+        "default": "#9A4F36"
+      },
+      {
+        "type": "color",
+        "id": "color_border",
+        "label": "Border & Line (Stone Line)",
+        "default": "#D9D0C3"
+      },
+      {
+        "type": "header",
+        "content": "Inverse Scheme"
+      },
+      {
+        "type": "color",
+        "id": "color_inverse_bg",
+        "label": "Inverse Background",
+        "default": "#1B1A18"
+      },
+      {
+        "type": "color",
+        "id": "color_inverse_text",
+        "label": "Inverse Text",
+        "default": "#F5F1EA"
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Headings"
+      },
+      {
+        "type": "font_picker",
+        "id": "heading_font",
+        "label": "Heading Font",
+        "default": "cormorant_garamond_n4"
+      },
+      {
+        "type": "header",
+        "content": "Body & Interface"
+      },
+      {
+        "type": "font_picker",
+        "id": "body_font",
+        "label": "Body Font",
+        "default": "dm_sans_n4"
+      }
+    ]
+  },
+  {
+    "name": "Layout & Spacing",
+    "settings": [
+      {
+        "type": "range",
+        "id": "page_width",
+        "min": 1000,
+        "max": 1440,
+        "step": 20,
+        "unit": "px",
+        "label": "Maximum Page Width",
+        "default": 1320
+      }
+    ]
+  },
+  {
+    "name": "Brand Placeholders",
+    "settings": [
+      {
+        "type": "text",
+        "id": "brand_name",
+        "label": "Brand Name",
+        "default": "Atelier Vane"
+      },
+      {
+        "type": "text",
+        "id": "product_name",
+        "label": "Product Name",
+        "default": "The Demi Shoulder Bag"
+      }
+    ]
+  },
+  {
+    "name": "Cart & Shipping",
+    "settings": [
+      {
+        "type": "select",
+        "id": "cart_type",
+        "label": "Cart Type",
+        "options": [
+          {
+            "value": "drawer",
+            "label": "Slide-out Drawer"
+          },
+          {
+            "value": "page",
+            "label": "Page"
+          }
+        ],
+        "default": "drawer"
+      },
+      {
+        "type": "number",
+        "id": "free_shipping_threshold",
+        "label": "Free Shipping Threshold (in store currency)",
+        "default": 150,
+        "info": "Set to 0 if free shipping applies to all orders or none"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_cart_notes",
+        "label": "Enable Order Notes",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "Favicon",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon Image",
+        "info": "Recommended: 32x32px .png"
+      }
+    ]
+  },
+  {
+    "name": "Social Media",
+    "settings": [
+      {
+        "type": "text",
+        "id": "social_instagram_link",
+        "label": "Instagram URL"
+      },
+      {
+        "type": "text",
+        "id": "social_pinterest_link",
+        "label": "Pinterest URL"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "trust": {
+      "type": "trust-strip",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "faq": {
+      "type": "faq-accordion",
+      "settings": {
+        "eyebrow": "Policies",
+        "heading": "Shipping & Return Inquiries",
+        "subhead": "Real timelines and straightforward guarantee details."
+      }
+    }
+  },
+  "order": [
+    "trust",
+    "main",
+    "faq"
+  ]
+}

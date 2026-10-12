@@ -1,0 +1,280 @@
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign product_form_id = 'product-form-' | append: section.id
+-%}
+
+{%- render 'structured-data', product: product -%}
+
+<section id="MainProduct-{{ section.id }}" class="main-product-section section-spacing hairline-bottom" data-section-id="{{ section.id }}">
+  <div class="container">
+    <div class="product-spotlight__grid">
+      <!-- Media Gallery Left -->
+      <div class="product-spotlight__gallery-col">
+        {%- render 'product-media-gallery', product: product -%}
+      </div>
+
+      <!-- Buy Box & Blocks Right -->
+      <div class="product-spotlight__buy-box-col">
+        <div class="product-buy-box" data-buy-box>
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when '@app' -%}
+                <div class="product-block product-block--app" {{ block.shopify_attributes }}>
+                  {% render block %}
+                </div>
+
+              {%- when 'title' -%}
+                <div class="product-buy-box__header" {{ block.shopify_attributes }}>
+                  <p class="eyebrow">{{ settings.brand_name | default: 'Minimalist Atelier' }}</p>
+                  <h1 class="product-buy-box__title">
+                    {{ product.title | default: settings.product_name | default: 'The Minimalist Shoulder Bag' }}
+                  </h1>
+                </div>
+
+              {%- when 'price' -%}
+                <div class="product-buy-box__price-line" data-price-container {{ block.shopify_attributes }}>
+                  {%- render 'price', product: product, use_variant: true, show_badges: true -%}
+                  {%- if cart.taxes_included -%}
+                    <span class="product-buy-box__tax-note text-muted">{{ 'products.product.taxes_included' | t }}</span>
+                  {%- endif -%}
+                </div>
+
+              {%- when 'inventory_status' -%}
+                {%- if current_variant.inventory_management == 'shopify' and current_variant.inventory_quantity > 0 and current_variant.inventory_quantity <= block.settings.low_inventory_threshold -%}
+                  <div class="inventory-status inventory-status--low text-accent" {{ block.shopify_attributes }}>
+                    <span class="inventory-status__dot"></span>
+                    <span>{{ 'products.product.inventory.low_stock' | t: count: current_variant.inventory_quantity }}</span>
+                  </div>
+                {%- endif -%}
+
+              {%- when 'variant_picker' -%}
+                <div class="product-buy-box__option" {{ block.shopify_attributes }}>
+                  {%- if product != blank and product.options_by_name['Color'] != blank -%}
+                    <div class="product-buy-box__option-label">
+                      <span class="label-caps">Color:</span>
+                      <span class="product-buy-box__active-option-value" data-selected-color-label>
+                        {{ current_variant.options[0] | default: 'Bone' }}
+                      </span>
+                    </div>
+                    <div class="product-buy-box__swatches">
+                      {%- for value in product.options_by_name['Color'].values -%}
+                        {%- assign is_checked = false -%}
+                        {%- if value == current_variant.options[0] -%}
+                          {%- assign is_checked = true -%}
+                        {%- endif -%}
+                        {%- render 'swatch', value: value, name: 'Color', checked: is_checked, variant_id: current_variant.id -%}
+                      {%- endfor -%}
+                    </div>
+                  {%- else -%}
+                    <!-- Placeholder color options -->
+                    <div class="product-buy-box__option-label">
+                      <span class="label-caps">Color:</span>
+                      <span class="product-buy-box__active-option-value" data-selected-color-label>Bone</span>
+                    </div>
+                    <div class="product-buy-box__swatches">
+                      {%- render 'swatch', value: 'Bone', name: 'Color', checked: true -%}
+                      {%- render 'swatch', value: 'Warm Stone', name: 'Color', checked: false -%}
+                      {%- render 'swatch', value: 'Noir', name: 'Color', checked: false -%}
+                      {%- render 'swatch', value: 'Clay', name: 'Color', checked: false -%}
+                    </div>
+                  {%- endif -%}
+                </div>
+
+              {%- when 'quantity_selector' -%}
+                <div class="product-buy-box__quantity-selector" {{ block.shopify_attributes }} style="margin-bottom: 1rem;">
+                  <span class="label-caps" style="display: block; margin-bottom: 0.5rem;">Quantity</span>
+                  {%- assign qty_id = 'Quantity-main-' | append: section.id -%}
+                  {%- render 'quantity-input', id: qty_id, name: 'quantity', value: 1 -%}
+                </div>
+
+              {%- when 'buy_buttons' -%}
+                <div class="product-buy-box__actions" {{ block.shopify_attributes }}>
+                  {%- form 'product', product, id: product_form_id, class: 'product-form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+                    <input type="hidden" name="id" value="{{ current_variant.id }}" data-variant-input>
+
+                    <div class="product-buy-box__cta-group">
+                      <button
+                        type="submit"
+                        name="add"
+                        class="btn btn--primary btn--full product-buy-box__submit-btn"
+                        {% if current_variant.available == false %}disabled aria-disabled="true"{% endif %}
+                        data-add-to-cart-btn
+                      >
+                        <span>
+                          {%- if current_variant.available == false -%}
+                            {{ 'products.product.sold_out' | t }}
+                          {%- else -%}
+                            {{ 'products.product.add_to_cart' | t }}
+                          {%- endif -%}
+                        </span>
+                      </button>
+                    </div>
+
+                    {%- if block.settings.show_dynamic_checkout -%}
+                      <div class="product-buy-box__dynamic-checkout">
+                        {{ form | payment_button }}
+                      </div>
+                    {%- endif -%}
+
+                    {{ form | payment_terms }}
+                  {%- endform -%}
+                </div>
+
+              {%- when 'description' -%}
+                {%- if product.description != blank -%}
+                  <div class="product-buy-box__description prose text-muted" {{ block.shopify_attributes }} style="margin-top: 1.5rem; margin-bottom: 1.5rem; font-size: 0.9375rem;">
+                    {{ product.description }}
+                  </div>
+                {%- endif -%}
+
+              {%- when 'collapsible_tab' -%}
+                {%- assign tab_id = 'tab-' | append: block.id -%}
+                <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
+                  {%- render 'product-accordion',
+                    id: tab_id,
+                    title: block.settings.heading,
+                    content: block.settings.content,
+                    open_by_default: block.settings.open_by_default
+                  -%}
+                </div>
+
+              {%- when 'custom_liquid' -%}
+                <div class="product-block product-block--custom-liquid" {{ block.shopify_attributes }}>
+                  {{ block.settings.custom_liquid }}
+                </div>
+
+              {%- when 'trust_badges' -%}
+                <div class="product-buy-box__trust-line" {{ block.shopify_attributes }}>
+                  <div class="product-buy-box__trust-item">
+                    {%- render 'icon-truck' -%}
+                    <span>{{ block.settings.shipping_text | escape }}</span>
+                  </div>
+                  <div class="product-buy-box__trust-item">
+                    {%- render 'icon-return' -%}
+                    <span>{{ block.settings.returns_text | escape }}</span>
+                  </div>
+                </div>
+
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product information",
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "type": "title",
+      "name": "Title",
+      "limit": 1
+    },
+    {
+      "type": "price",
+      "name": "Price",
+      "limit": 1
+    },
+    {
+      "type": "inventory_status",
+      "name": "Inventory status",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "number",
+          "id": "low_inventory_threshold",
+          "label": "Low stock threshold",
+          "default": 5
+        }
+      ]
+    },
+    {
+      "type": "variant_picker",
+      "name": "Variant picker",
+      "limit": 1
+    },
+    {
+      "type": "quantity_selector",
+      "name": "Quantity selector",
+      "limit": 1
+    },
+    {
+      "type": "buy_buttons",
+      "name": "Buy buttons",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_dynamic_checkout",
+          "label": "Show accelerated checkout buttons",
+          "default": true
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "Description",
+      "limit": 1
+    },
+    {
+      "type": "collapsible_tab",
+      "name": "Collapsible tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Details & Materials"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Tab content",
+          "default": "<p>100% full-grain calfskin leather with micro-suede interior lining.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "open_by_default",
+          "label": "Open by default",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "trust_badges",
+      "name": "Trust badges",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "shipping_text",
+          "label": "Shipping text",
+          "default": "2–4 business days delivery with tracking"
+        },
+        {
+          "type": "text",
+          "id": "returns_text",
+          "label": "Returns text",
+          "default": "30-day complimentary return window"
+        }
+      ]
+    },
+    {
+      "type": "custom_liquid",
+      "name": "Custom Liquid",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "Custom Liquid"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

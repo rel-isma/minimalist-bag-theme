@@ -1,0 +1,150 @@
+<header
+  class="site-header{% if section.settings.enable_transparent_header and template.name == 'index' %} is-transparent{% endif %}"
+  data-header
+>
+  <div class="container">
+    <div class="site-header__inner">
+      <!-- Mobile Menu Toggle -->
+      <button
+        type="button"
+        class="mobile-menu-toggle"
+        data-mobile-menu-toggle
+        aria-expanded="false"
+        aria-controls="MobileNavDrawer"
+        aria-label="{{ 'general.open_menu' | t }}"
+      >
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Desktop Navigation Left -->
+      <nav class="site-header__nav" aria-label="Main navigation">
+        <ul class="site-header__nav-list">
+          {%- if section.settings.menu != blank -%}
+            {%- for link in linklists[section.settings.menu].links -%}
+              <li>
+                <a href="{{ link.url }}" class="site-header__nav-link{% if link.active %} is-active{% endif %}">
+                  {{ link.title | escape }}
+                </a>
+              </li>
+            {%- endfor -%}
+          {%- else -%}
+            <li><a href="#ProductSpotlight" class="site-header__nav-link">Shop</a></li>
+            <li><a href="#BrandStory" class="site-header__nav-link">Story</a></li>
+            <li><a href="#Reviews" class="site-header__nav-link">Reviews</a></li>
+            <li><a href="#Faq" class="site-header__nav-link">FAQ</a></li>
+          {%- endif -%}
+        </ul>
+      </nav>
+
+      <!-- Centered Logo -->
+      <div class="site-header__logo">
+        <a href="{{ routes.root_url }}">
+          {%- if section.settings.logo != blank -%}
+            {{ section.settings.logo | image_url: width: section.settings.logo_width | image_tag: loading: 'eager', class: 'site-header__logo-image' }}
+          {%- else -%}
+            <span class="site-header__logo-text">
+              {{ settings.brand_name | default: shop.name }}
+            </span>
+          {%- endif -%}
+        </a>
+      </div>
+
+      <!-- Header Actions Right (Cart) -->
+      <div class="site-header__actions">
+        <a
+          href="{{ routes.cart_url }}"
+          class="site-header__cart-trigger"
+          data-cart-drawer-trigger
+          aria-label="{{ 'sections.header.cart_count' | t: count: cart.item_count }}"
+        >
+          <span class="site-header__cart-icon">
+            {%- render 'icon-cart' -%}
+          </span>
+          <span class="cart-count-badge" data-cart-count aria-hidden="true">
+            {{ cart.item_count }}
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Navigation Drawer -->
+<div
+  id="MobileNavDrawer"
+  class="mobile-nav-drawer"
+  data-mobile-nav-drawer
+  aria-hidden="true"
+  role="dialog"
+  aria-modal="true"
+  aria-label="{{ 'general.menu' | t }}"
+>
+  <div class="mobile-nav-header">
+    <span class="site-header__logo-text">
+      {{ settings.brand_name | default: shop.name }}
+    </span>
+    <button
+      type="button"
+      class="btn--icon"
+      data-mobile-menu-close
+      aria-label="{{ 'general.close_menu' | t }}"
+    >
+      {%- render 'icon-close' -%}
+    </button>
+  </div>
+  <ul class="mobile-nav-list">
+    {%- if section.settings.menu != blank -%}
+      {%- for link in linklists[section.settings.menu].links -%}
+        <li>
+          <a href="{{ link.url }}" class="mobile-nav-link">
+            {{ link.title | escape }}
+          </a>
+        </li>
+      {%- endfor -%}
+    {%- else -%}
+      <li><a href="#ProductSpotlight" class="mobile-nav-link">Shop The Bag</a></li>
+      <li><a href="#BrandStory" class="mobile-nav-link">Our Story</a></li>
+      <li><a href="#Reviews" class="mobile-nav-link">Client Reviews</a></li>
+      <li><a href="#Faq" class="mobile-nav-link">Common Inquiries</a></li>
+    {%- endif -%}
+  </ul>
+</div>
+
+{% schema %}
+{
+  "name": "Header",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo image"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "min": 80,
+      "max": 240,
+      "step": 10,
+      "unit": "px",
+      "label": "Custom logo width",
+      "default": 140
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Navigation menu",
+      "info": "Leave blank to use default single-product anchor navigation."
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_transparent_header",
+      "label": "Transparent header over home hero",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

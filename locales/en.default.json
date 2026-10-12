@@ -1,0 +1,95 @@
+{
+  "general": {
+    "skip_to_content": "Skip to content",
+    "share": "Share",
+    "close": "Close",
+    "menu": "Menu",
+    "open_menu": "Open navigation menu",
+    "close_menu": "Close navigation menu",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "An error occurred. Please try again.",
+    "breadcrumbs": {
+      "home": "Home"
+    }
+  },
+  "accessibility": {
+    "close": "Close",
+    "unit_price_separator": "per",
+    "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars",
+    "total_reviews": "{{ count }} reviews",
+    "skip_to_text": "Skip to content",
+    "collapsible_section": "Collapsible section"
+  },
+  "sections": {
+    "header": {
+      "announcement": "Announcement",
+      "cart_count": {
+        "one": "{{ count }} item",
+        "other": "{{ count }} items"
+      }
+    },
+    "footer": {
+      "payment_methods": "Accepted payment methods",
+      "copyright": "All rights reserved."
+    },
+    "cart": {
+      "title": "Your Bag",
+      "empty": "Your bag is empty",
+      "continue_shopping": "Continue shopping",
+      "subtotal": "Subtotal",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
+      "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
+      "checkout": "Proceed to Checkout",
+      "note": "Add order notes",
+      "save_note": "Save note",
+      "free_shipping_unlocked": "You have unlocked complimentary shipping",
+      "free_shipping_remaining_html": "Add <span class=\"font-medium\">{{ amount }}</span> more for complimentary shipping",
+      "item_added": "Item added to bag"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Add to Bag",
+      "sold_out": "Sold Out",
+      "unavailable": "Unavailable",
+      "quantity": {
+        "label": "Quantity",
+        "increase": "Increase quantity for {{ product }}",
+        "decrease": "Decrease quantity for {{ product }}"
+      },
+      "price": {
+        "from_price_html": "From {{ price }}",
+        "regular_price": "Regular price",
+        "sale_price": "Sale price",
+        "unit_price": "Unit price"
+      },
+      "taxes_included": "Taxes included.",
+      "inventory": {
+        "low_stock": "Only {{ count }} remaining in stock",
+        "in_stock": "In stock and ready to ship"
+      },
+      "media": {
+        "open_featured_media": "Open featured media in modal zoom",
+        "play_video": "Play video"
+      }
+    }
+  },
+  "templates": {
+    "404": {
+      "title": "Page not found",
+      "subtext": "The page you are looking for does not exist or has been moved.",
+      "button": "Return to Store"
+    },
+    "contact": {
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone number",
+        "comment": "Message",
+        "send": "Send Message",
+        "post_success": "Thank you for reaching out. We will respond within one business day."
+      }
+    }
+  }
+}

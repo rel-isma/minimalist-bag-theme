@@ -1,0 +1,20 @@
+{
+  "current": {
+    "color_bg": "#F5F1EA",
+    "color_surface": "#ECE5DA",
+    "color_ink": "#1B1A18",
+    "color_muted": "#6B6258",
+    "color_accent": "#9A4F36",
+    "color_border": "#D9D0C3",
+    "color_inverse_bg": "#1B1A18",
+    "color_inverse_text": "#F5F1EA",
+    "heading_font": "cormorant_garamond_n4",
+    "body_font": "dm_sans_n4",
+    "page_width": 1320,
+    "brand_name": "Atelier Vane",
+    "product_name": "The Demi Shoulder Bag",
+    "cart_type": "drawer",
+    "free_shipping_threshold": 150,
+    "enable_cart_notes": true
+  }
+}

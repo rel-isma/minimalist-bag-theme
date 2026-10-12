@@ -1,0 +1,21 @@
+<section class="main-404-section section-spacing text-center hairline-bottom">
+  <div class="container container--narrow">
+    <p class="eyebrow" style="margin-bottom: 1rem;">404 · Error</p>
+    <h1 class="section-heading" style="margin-bottom: 1.5rem;">
+      {{ 'templates.404.title' | t }}
+    </h1>
+    <p class="text-muted prose" style="margin: 0 auto 2.5rem auto;">
+      {{ 'templates.404.subtext' | t }}
+    </p>
+    <a href="{{ routes.root_url }}" class="btn btn--primary">
+      {{ 'templates.404.button' | t }}
+    </a>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "404 page",
+  "settings": []
+}
+{% endschema %}

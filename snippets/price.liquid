@@ -1,0 +1,53 @@
+{%- comment -%}
+  Price Snippet
+  Accepts:
+  - product: {Object} Product Liquid object
+  - use_variant: {Boolean} Renders selected or first available variant
+  - show_badges: {Boolean} Renders sale/sold out badge
+{%- endcomment -%}
+
+{%- liquid
+  if use_variant
+    assign target = product.selected_or_first_available_variant
+  else
+    assign target = product
+  endif
+
+  assign compare_at_price = target.compare_at_price
+  assign price = target.price | default: 29500
+  assign available = target.available | default: true
+
+  if compare_at_price > price
+    assign on_sale = true
+  else
+    assign on_sale = false
+  endif
+-%}
+
+<div class="price{% if on_sale %} price--on-sale{% endif %}{% unless available %} price--sold-out{% endunless %}">
+  <div class="price__container">
+    {%- if on_sale -%}
+      <span class="visually-hidden">{{ 'products.product.price.sale_price' | t }}</span>
+      <span class="price-item price-item--sale">
+        {{ price | money }}
+      </span>
+      <span class="visually-hidden">{{ 'products.product.price.regular_price' | t }}</span>
+      <s class="price-item price-item--regular text-muted">
+        {{ compare_at_price | money }}
+      </s>
+    {%- else -%}
+      <span class="visually-hidden">{{ 'products.product.price.regular_price' | t }}</span>
+      <span class="price-item price-item--regular">
+        {{ price | money }}
+      </span>
+    {%- endif -%}
+  </div>
+
+  {%- if show_badges -%}
+    {%- if on_sale -%}
+      <span class="badge badge--sale">Sale</span>
+    {%- elsif available == false -%}
+      <span class="badge badge--sold-out">{{ 'products.product.sold_out' | t }}</span>
+    {%- endif -%}
+  {%- endif -%}
+</div>

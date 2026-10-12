@@ -1,0 +1,64 @@
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+-%}
+
+<div class="sticky-cart-bar" data-sticky-cart aria-hidden="true">
+  <div class="container sticky-cart-bar__inner">
+    <!-- Left: Thumbnail & Details -->
+    <div class="sticky-cart-bar__product-info">
+      <div class="sticky-cart-bar__thumb">
+        {%- if product.featured_media != blank -%}
+          {{
+            product.featured_media
+            | image_url: width: 100, height: 100, crop: 'center'
+            | image_tag: loading: 'lazy', alt: product.title, class: 'sticky-cart-bar__img'
+          }}
+        {%- else -%}
+          <div class="sticky-cart-bar__placeholder-thumb"></div>
+        {%- endif -%}
+      </div>
+      <div class="sticky-cart-bar__meta">
+        <p class="sticky-cart-bar__title">
+          {{ product.title | default: settings.product_name | default: 'The Minimalist Shoulder Bag' }}
+        </p>
+        <div class="sticky-cart-bar__sub">
+          <span class="sticky-cart-bar__price">{{ current_variant.price | default: 29500 | money }}</span>
+          <span class="sticky-cart-bar__separator">·</span>
+          <span class="sticky-cart-bar__color" data-sticky-color>{{ current_variant.options[0] | default: 'Bone' }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Quick CTA -->
+    <div class="sticky-cart-bar__action">
+      <button
+        type="button"
+        class="btn btn--primary sticky-cart-bar__btn"
+        data-sticky-add-btn
+        {% if current_variant.available == false %}disabled aria-disabled="true"{% endif %}
+      >
+        <span>
+          {%- if current_variant.available == false -%}
+            {{ 'products.product.sold_out' | t }}
+          {%- else -%}
+            {{ 'products.product.add_to_cart' | t }}
+          {%- endif -%}
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Sticky add to cart",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_sticky_cart",
+      "label": "Enable sticky bar",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,103 @@
+<section class="newsletter-section section-spacing">
+  <div class="container container--narrow text-center">
+    <div class="newsletter-card fade-up">
+      {%- if section.settings.eyebrow != blank -%}
+        <p class="eyebrow">{{ section.settings.eyebrow | escape }}</p>
+      {%- endif -%}
+      <h2 class="section-heading">{{ section.settings.heading | escape }}</h2>
+      {%- if section.settings.subhead != blank -%}
+        <p class="text-muted prose" style="margin: 0 auto 2rem auto;">{{ section.settings.subhead | escape }}</p>
+      {%- endif -%}
+
+      {%- form 'customer', id: 'ContactNewsletterForm', class: 'newsletter-form' -%}
+        <input type="hidden" name="contact[tags]" value="newsletter">
+
+        {%- if form.posted_successfully? -%}
+          <div class="newsletter-success alert alert--success" tabindex="-1" autofocus>
+            <p>{{ section.settings.success_message | escape }}</p>
+          </div>
+        {%- else -%}
+          {%- if form.errors -%}
+            <div class="newsletter-error alert alert--error" role="alert">
+              <p>{{ form.errors.translated_fields.email | capitalize }} {{ form.errors.messages.email }}</p>
+            </div>
+          {%- endif -%}
+
+          <div class="newsletter-form__fields">
+            <label for="NewsletterFormEmail" class="visually-hidden">Email address</label>
+            <input
+              id="NewsletterFormEmail"
+              type="email"
+              name="contact[email]"
+              class="form-input newsletter-form__input"
+              value="{{ form.email }}"
+              aria-required="true"
+              autocorrect="off"
+              autocapitalize="off"
+              autocomplete="email"
+              placeholder="Enter your email address"
+              required
+            >
+            <button type="submit" class="btn btn--primary newsletter-form__submit" name="commit">
+              {{ section.settings.button_label | escape }}
+            </button>
+          </div>
+          {%- if section.settings.disclaimer != blank -%}
+            <p class="text-muted" style="font-size: 0.75rem; margin-top: 1rem;">
+              {{ section.settings.disclaimer | escape }}
+            </p>
+          {%- endif -%}
+        {%- endif -%}
+      {%- endform -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Email signup",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Correspondence"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Join The Atelier Journal"
+    },
+    {
+      "type": "text",
+      "id": "subhead",
+      "label": "Subheading",
+      "default": "Subscribers receive advance notice for restocks and limited studio releases. We write sparingly."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Subscribe"
+    },
+    {
+      "type": "text",
+      "id": "success_message",
+      "label": "Success message",
+      "default": "Thank you for subscribing. Welcome to our quiet correspondence."
+    },
+    {
+      "type": "text",
+      "id": "disclaimer",
+      "label": "Disclaimer",
+      "default": "You may unsubscribe at any time. We respect your privacy."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Email signup"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-policy",
+      "settings": {
+        "eyebrow": "Legal Agreement",
+        "title": "Terms of Service",
+        "default_content": "<h3>1. Terms of Use</h3><p>By accessing or purchasing from Atelier Vane, you agree to be bound by these Terms of Service. Our handcrafted goods are sold directly to consumers for personal use.</p><h3>2. Accuracy of Product Information</h3><p>We make every effort to display the colors, textures, and dimensions of our products as accurately as possible. Because our bags are crafted from genuine full-grain leather, slight natural variations in grain and tonal depth are an inherent hallmark of authentic material.</p><h3>3. Pricing & Currency</h3><p>All prices are shown in store currency. We reserve the right to correct any typographical errors or inaccuracies in pricing before an order is fulfilled. Taxes and applicable shipping fees are clearly calculated prior to final checkout authorization.</p><h3>4. Governing Law</h3><p>These terms and any separate agreements whereby we provide you goods shall be governed by and construed in accordance with applicable consumer protection laws.</p>"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,113 @@
+<section id="Faq" class="faq-section section-spacing hairline-bottom">
+  <div class="container container--narrow">
+    <div class="section-header text-center fade-up">
+      {%- if section.settings.eyebrow != blank -%}
+        <p class="eyebrow">{{ section.settings.eyebrow | escape }}</p>
+      {%- endif -%}
+      <h2 class="section-heading">{{ section.settings.heading | escape }}</h2>
+      {%- if section.settings.subhead != blank -%}
+        <p class="text-muted prose" style="margin: 0 auto;">{{ section.settings.subhead | escape }}</p>
+      {%- endif -%}
+    </div>
+
+    <div class="faq-list fade-up">
+      {%- for block in section.blocks -%}
+        {%- assign faq_id = 'faq-' | append: block.id -%}
+        {%- render 'product-accordion',
+          id: faq_id,
+          title: block.settings.question,
+          content: block.settings.answer,
+          open_by_default: false
+        -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Inquiries"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Frequently Asked Questions"
+    },
+    {
+      "type": "text",
+      "id": "subhead",
+      "label": "Subheading",
+      "default": "Straightforward answers regarding sizing, leather care, and shipping."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq_item",
+      "name": "FAQ item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "Will my phone fit inside the bag?"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Yes. The bag easily accommodates all modern smartphones up to the iPhone 15 Pro Max and Samsung Galaxy Ultra series, even when enclosed in a protective case, alongside a bifold wallet and keys.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ",
+      "blocks": [
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will my phone fit inside the bag?",
+            "answer": "<p>Yes. The bag easily accommodates all modern smartphones up to the iPhone 15 Pro Max and Samsung Galaxy Ultra series, even when enclosed in a protective case, alongside a bifold wallet and keys.</p>"
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is the leather water resistant?",
+            "answer": "<p>Our full-grain leather is naturally resilient to light humidity and brief rainfall. If caught in rain, simply blot gently with a dry cotton cloth and allow it to air-dry at room temperature away from heat sources.</p>"
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does shipping take?",
+            "answer": "<p>Orders are dispatched from our studio warehouse within 24 hours on business days. Standard delivery within the US takes 2–4 business days. Complimentary tracking is emailed upon fulfillment.</p>"
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "<p>We offer a 30-day trial period. If the bag does not suit your everyday needs, return it in original, unworn condition with its dust bag for a full refund. A prepaid return shipping label is provided.</p>"
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can the shoulder strap length be adjusted?",
+            "answer": "<p>The strap has a fixed 28 cm drop proportioned specifically to tuck securely under the arm and stay positioned on the shoulder without sliding off your coat.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

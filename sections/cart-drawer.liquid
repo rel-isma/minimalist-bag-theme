@@ -1,0 +1,121 @@
+<div
+  id="CartDrawer"
+  class="cart-drawer"
+  data-cart-drawer
+  aria-hidden="true"
+  role="dialog"
+  aria-modal="true"
+  aria-label="{{ 'sections.cart.title' | t }}"
+>
+  <!-- Backdrop Overlay -->
+  <div class="cart-drawer__backdrop" data-cart-drawer-backdrop tabindex="-1"></div>
+
+  <!-- Drawer Container -->
+  <div class="cart-drawer__panel">
+    <!-- Drawer Header -->
+    <div class="cart-drawer__header">
+      <div class="cart-drawer__title-wrap">
+        <h2 class="cart-drawer__title font-heading">{{ 'sections.cart.title' | t }}</h2>
+        <span class="cart-drawer__count-badge" data-cart-drawer-count aria-label="{{ cart.item_count }} items">
+          ({{ cart.item_count }})
+        </span>
+      </div>
+      <button
+        type="button"
+        class="cart-drawer__close-btn"
+        data-cart-drawer-close
+        aria-label="{{ 'general.close' | t }}"
+      >
+        {%- render 'icon-close' -%}
+      </button>
+    </div>
+
+    <!-- Free Shipping Progress -->
+    <div class="cart-drawer__shipping-banner">
+      {%- render 'free-shipping-bar', cart: cart -%}
+    </div>
+
+    <!-- Line Items List -->
+    <div class="cart-drawer__body" data-cart-drawer-items>
+      {%- if cart.empty? -%}
+        <div class="cart-drawer__empty text-center">
+          <p class="font-heading" style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--color-ink);">
+            {{ 'sections.cart.empty' | t }}
+          </p>
+          <p class="text-muted" style="font-size: 0.9375rem; margin-bottom: 2rem;">
+            Discover our single minimalist archetype in full-grain leather.
+          </p>
+          <a href="#ProductSpotlight" class="btn btn--secondary" data-cart-drawer-close>
+            {{ 'sections.cart.continue_shopping' | t }}
+          </a>
+        </div>
+      {%- else -%}
+        <div class="cart-drawer__items-list">
+          {%- for item in cart.items -%}
+            {%- render 'cart-item', item: item -%}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+
+    <!-- Drawer Footer (Subtotal & Checkout) -->
+    {%- unless cart.empty? -%}
+      <div class="cart-drawer__footer" data-cart-drawer-footer>
+        {%- if settings.enable_cart_notes -%}
+          <details class="cart-drawer__note-accordion">
+            <summary class="cart-drawer__note-summary">
+              <span>{{ 'sections.cart.note' | t }}</span>
+              <span class="cart-drawer__note-icon">▼</span>
+            </summary>
+            <div class="cart-drawer__note-content">
+              <label for="CartDrawer-Note" class="visually-hidden">{{ 'sections.cart.note' | t }}</label>
+              <textarea
+                id="CartDrawer-Note"
+                name="note"
+                class="form-input cart-drawer__note-input"
+                rows="2"
+                placeholder="Special instructions or gift message..."
+                data-cart-note
+              >{{ cart.note }}</textarea>
+            </div>
+          </details>
+        {%- endif -%}
+
+        <!-- Subtotal -->
+        <div class="cart-drawer__subtotal-line">
+          <span class="label-caps">{{ 'sections.cart.subtotal' | t }}</span>
+          <span class="cart-drawer__subtotal font-medium" data-cart-drawer-subtotal>
+            {{ cart.total_price | money }}
+          </span>
+        </div>
+
+        <p class="cart-drawer__tax-note text-muted">
+          {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
+        </p>
+
+        <!-- Checkout Form Button -->
+        <form action="{{ routes.cart_url }}" method="post" id="CartDrawer-Form" class="cart-drawer__form">
+          <button
+            type="submit"
+            name="checkout"
+            class="btn btn--primary btn--full cart-drawer__checkout-btn"
+          >
+            {{ 'sections.cart.checkout' | t }}
+          </button>
+        </form>
+      </div>
+    {%- endunless -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Cart drawer",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Configure cart type and shipping threshold in Theme Settings > Cart."
+    }
+  ]
+}
+{% endschema %}

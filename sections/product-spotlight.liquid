@@ -1,0 +1,124 @@
+{%- liquid
+  assign selected_product = section.settings.product | default: all_products.first
+-%}
+
+<section id="ProductSpotlight" class="product-spotlight-section section-spacing hairline-bottom">
+  <div class="container">
+    <div class="product-spotlight__grid">
+      <!-- Left Column: Gallery -->
+      <div class="product-spotlight__gallery-col">
+        {%- render 'product-media-gallery', product: selected_product -%}
+      </div>
+
+      <!-- Right Column: Buy Box & Product Accordions -->
+      <div class="product-spotlight__buy-box-col">
+        {%- render 'product-buy-box', product: selected_product, section_id: section.id -%}
+
+        <!-- Collapsible Detail Tabs -->
+        <div class="product-spotlight__accordions">
+          {%- assign details_id = 'details-' | append: section.id -%}
+          {%- render 'product-accordion',
+            id: details_id,
+            title: section.settings.tab_title_1,
+            content: section.settings.tab_content_1,
+            open_by_default: true
+          -%}
+
+          {%- assign dimensions_id = 'dimensions-' | append: section.id -%}
+          {%- render 'product-accordion',
+            id: dimensions_id,
+            title: section.settings.tab_title_2,
+            content: section.settings.tab_content_2,
+            open_by_default: false
+          -%}
+
+          {%- assign care_id = 'care-' | append: section.id -%}
+          {%- render 'product-accordion',
+            id: care_id,
+            title: section.settings.tab_title_3,
+            content: section.settings.tab_content_3,
+            open_by_default: false
+          -%}
+
+          {%- assign shipping_id = 'shipping-' | append: section.id -%}
+          {%- render 'product-accordion',
+            id: shipping_id,
+            title: section.settings.tab_title_4,
+            content: section.settings.tab_content_4,
+            open_by_default: false
+          -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product spotlight",
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Featured product"
+    },
+    {
+      "type": "header",
+      "content": "Product tabs"
+    },
+    {
+      "type": "text",
+      "id": "tab_title_1",
+      "label": "Tab 1 title",
+      "default": "Details & Materials"
+    },
+    {
+      "type": "richtext",
+      "id": "tab_content_1",
+      "label": "Tab 1 content",
+      "default": "<p>100% full-grain calfskin leather, drum-dyed for enduring softness. Lined in breathable micro-suede. Custom solid brass magnetic hardware.</p>"
+    },
+    {
+      "type": "text",
+      "id": "tab_title_2",
+      "label": "Tab 2 title",
+      "default": "Dimensions & Fit"
+    },
+    {
+      "type": "richtext",
+      "id": "tab_content_2",
+      "label": "Tab 2 content",
+      "default": "<p>Width: 26 cm (10.2 in) · Height: 15 cm (5.9 in) · Depth: 7 cm (2.8 in). Shoulder strap drop: 28 cm (11.0 in). Weight: 380 grams.</p>"
+    },
+    {
+      "type": "text",
+      "id": "tab_title_3",
+      "label": "Tab 3 title",
+      "default": "Care Guide"
+    },
+    {
+      "type": "richtext",
+      "id": "tab_content_3",
+      "label": "Tab 3 content",
+      "default": "<p>Wipe gently with a soft dry cloth. Store in the complimentary organic cotton dust bag away from direct sunlight. Treat with natural leather balm twice annually.</p>"
+    },
+    {
+      "type": "text",
+      "id": "tab_title_4",
+      "label": "Tab 4 title",
+      "default": "Shipping & Complimentary Returns"
+    },
+    {
+      "type": "richtext",
+      "id": "tab_content_4",
+      "label": "Tab 4 content",
+      "default": "<p>Complimentary standard shipping on orders over $150. Domestic orders arrive within 2–4 business days. 30-day return window with prepaid return shipping.</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product spotlight"
+    }
+  ]
+}
+{% endschema %}

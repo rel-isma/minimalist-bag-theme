@@ -1,0 +1,46 @@
+{%- comment -%}
+  Color Swatch Component
+  Accepts:
+  - value: {String} Color name
+  - name: {String} Input name
+  - checked: {Boolean} Selected state
+  - variant_id: {String/Number} Variant ID
+{%- endcomment -%}
+
+{%- liquid
+  assign color_handle = value | handleize
+  
+  # Map known quiet luxury color names to hex codes
+  case color_handle
+    when 'bone'
+      assign hex = '#F5F1EA'
+    when 'stone', 'warm-stone'
+      assign hex = '#ECE5DA'
+    when 'black', 'noir', 'ink'
+      assign hex = '#1B1A18'
+    when 'espresso', 'chocolate', 'dark-brown'
+      assign hex = '#3E2F28'
+    when 'clay', 'terracotta', 'caramel'
+      assign hex = '#9A4F36'
+    when 'taupe', 'sand'
+      assign hex = '#B8A89A'
+    when 'olive', 'moss'
+      assign hex = '#5B5E4B'
+    else
+      assign hex = '#D9D0C3'
+  endcase
+-%}
+
+<label class="color-swatch-item" title="{{ value | escape }}">
+  <input
+    type="radio"
+    name="{{ name }}"
+    value="{{ value | escape }}"
+    {% if checked %}checked="checked"{% endif %}
+    class="color-swatch-input visually-hidden"
+    data-variant-id="{{ variant_id }}"
+    data-color-name="{{ value | escape }}"
+  >
+  <span class="color-swatch-circle" style="background-color: {{ hex }};" aria-hidden="true"></span>
+  <span class="color-swatch-name">{{ value | escape }}</span>
+</label>

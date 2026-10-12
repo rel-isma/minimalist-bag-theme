@@ -1,0 +1,108 @@
+<section class="main-contact-section section-spacing hairline-bottom">
+  <div class="container container--narrow">
+    <header class="section-header text-center fade-up">
+      <p class="eyebrow">{{ 'templates.contact.form.send' | t }}</p>
+      <h1 class="section-heading">{{ page.title | default: 'Client Correspondence' | escape }}</h1>
+      <p class="text-muted prose" style="margin: 0 auto;">
+        For bespoke inquiries, order consultations, or leather care guidance, our atelier responds within one business day.
+      </p>
+    </header>
+
+    {%- if page.content != blank -%}
+      <div class="prose text-center fade-up" style="margin: 0 auto 3rem auto;">
+        {{ page.content }}
+      </div>
+    {%- endif -%}
+
+    <div class="contact-form-wrap fade-up">
+      {%- form 'contact', id: 'ContactForm', class: 'contact-form' -%}
+        {%- if form.posted_successfully? -%}
+          <div class="alert alert--success text-center" tabindex="-1" autofocus style="padding: 1.5rem; background: var(--color-surface); border: 1px solid var(--color-border); margin-bottom: 2rem;">
+            <p class="text-accent font-medium">{{ 'templates.contact.form.post_success' | t }}</p>
+          </div>
+        {%- elsif form.errors -%}
+          <div class="alert alert--error" role="alert" tabindex="-1" autofocus style="padding: 1.5rem; background: #FFF5F2; border: 1px solid var(--color-accent); margin-bottom: 2rem;">
+            <p class="text-accent font-medium">Please correct the following:</p>
+            <ul style="margin-top: 0.5rem; list-style: disc; padding-left: 1.25rem;">
+              {%- for field in form.errors -%}
+                <li>{{ form.errors.translated_fields[field] }} {{ form.errors.messages[field] }}</li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+          <div>
+            <label for="ContactForm-name" class="form-label">{{ 'templates.contact.form.name' | t }}</label>
+            <input
+              type="text"
+              id="ContactForm-name"
+              name="contact[name]"
+              class="form-input"
+              value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+              autocomplete="name"
+              placeholder="Your name"
+            >
+          </div>
+
+          <div>
+            <label for="ContactForm-email" class="form-label">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
+            <input
+              type="email"
+              id="ContactForm-email"
+              name="contact[email]"
+              class="form-input"
+              value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+              spellcheck="false"
+              autocomplete="email"
+              autocorrect="off"
+              autocapitalize="off"
+              aria-required="true"
+              placeholder="email@domain.com"
+              required
+            >
+          </div>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <label for="ContactForm-phone" class="form-label">{{ 'templates.contact.form.phone' | t }}</label>
+          <input
+            type="tel"
+            id="ContactForm-phone"
+            name="contact[phone]"
+            class="form-input"
+            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+            autocomplete="tel"
+            placeholder="+1 (555) 000-0000"
+          >
+        </div>
+
+        <div style="margin-bottom: 2rem;">
+          <label for="ContactForm-body" class="form-label">{{ 'templates.contact.form.comment' | t }} <span aria-hidden="true">*</span></label>
+          <textarea
+            rows="6"
+            id="ContactForm-body"
+            name="contact[body]"
+            class="form-input"
+            aria-required="true"
+            placeholder="How may our studio assist you?"
+            required
+          >{{ form.body }}</textarea>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn--primary" style="min-width: 200px;">
+            {{ 'templates.contact.form.send' | t }}
+          </button>
+        </div>
+      {%- endform -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Contact form",
+  "settings": []
+}
+{% endschema %}
