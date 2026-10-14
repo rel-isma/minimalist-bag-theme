@@ -1,0 +1,102 @@
+{
+  "kind": "Local Liquid fixtures and mocked predictive responses; not live Shopify",
+  "desktop": {
+    "viewport": 1440,
+    "width": 1425,
+    "logoCenter": 712.5,
+    "headerCenter": 712.5,
+    "transparent": true
+  },
+  "desktopMenu": {
+    "open": true,
+    "categories": 6
+  },
+  "scroll": {
+    "scrolled": true,
+    "transparent": false
+  },
+  "searchOpen": {
+    "open": true,
+    "focused": true,
+    "transparent": false
+  },
+  "predictions": {
+    "requests": [
+      "http://127.0.0.1:3344/seed/predictive-preview.html?q=bag&resources%5Btype%5D=product%2Cpage&resources%5Blimit%5D=6&resources%5Blimit_scope%5D=all&section_id=predictive-search"
+    ],
+    "options": 5,
+    "expanded": "true",
+    "status": "4 suggestions. Use the up and down arrow keys to explore."
+  },
+  "keyboard": {
+    "active": "HeaderSearchInput-fixture-header-option-0",
+    "selected": "Cove shoulder bag\n  Regular price\n      \n        $99.00"
+  },
+  "firstEscape": {
+    "modalOpen": true,
+    "suggestionsHidden": true
+  },
+  "secondEscape": {
+    "closed": true,
+    "focus": true
+  },
+  "searchError": {
+    "message": "Suggestions are unavailable. Press Enter or use Search to see all results.",
+    "hidden": true
+  },
+  "searchSubmit": [
+    [
+      "q",
+      "bad"
+    ],
+    [
+      "type",
+      "product,page"
+    ],
+    [
+      "options[prefix]",
+      "last"
+    ]
+  ],
+  "staleResponse": "\n        ProductsFast bag\n  Regular price\n      \n        $99.00\n      \n          Fold shoulder bag\n  Regular price\n      \n        $109.00\n      \n          Drift shoulder bag\n  Sale price\n      \n        $89.00\n      \n      Regular price\n      \n        $109.00\n      \n          PagesStorySearch all results for “bag”\n  ",
+  "emptyPredictions": {
+    "message": "No suggestions. Press Enter to search all results.",
+    "options": 1
+  },
+  "mobile": {
+    "viewport": 390,
+    "width": 390,
+    "menuVisible": true,
+    "fallbackHidden": true
+  },
+  "mobileDialog": {
+    "open": true,
+    "expanded": "true"
+  },
+  "smallMobile": {
+    "viewport": 320,
+    "width": 320
+  },
+  "editorReload": {
+    "open": true,
+    "focused": true
+  },
+  "editorUnload": {
+    "unlocked": true
+  },
+  "cartTrigger": {
+    "opens": 1,
+    "nativePrevented": true
+  },
+  "noJavaScript": {
+    "fallbackVisible": true,
+    "toggleHidden": true,
+    "searchHref": "/seed/search-preview.html"
+  },
+  "searchPage": {
+    "width": 320,
+    "cards": 3,
+    "pages": 1
+  },
+  "runtimeErrors": []
+}

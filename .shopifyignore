@@ -1,0 +1,12 @@
+seed/**
+README.md
+TAGS.md
+IMAGE-LOG.md
+REPLACE-BEFORE-LAUNCH.md
+QA-REPORT.md
+image-prompts.md
+package.json
+package-lock.json
+preview-server.js
+dist/**
+node_modules/**

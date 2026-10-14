@@ -1,77 +1,35 @@
-<section class="trust-strip-section hairline-bottom" aria-label="Order and shipping benefits">
-  <div class="container">
-    <div class="trust-strip__grid">
-      <div class="trust-strip__item fade-up">
-        <span class="trust-strip__icon">{%- render 'icon-truck' -%}</span>
-        <div class="trust-strip__text">
-          <p class="trust-strip__title">{{ section.settings.title_1 | escape }}</p>
-          <p class="trust-strip__subtitle">{{ section.settings.subtitle_1 | escape }}</p>
-        </div>
-      </div>
-
-      <div class="trust-strip__item fade-up">
-        <span class="trust-strip__icon">{%- render 'icon-return' -%}</span>
-        <div class="trust-strip__text">
-          <p class="trust-strip__title">{{ section.settings.title_2 | escape }}</p>
-          <p class="trust-strip__subtitle">{{ section.settings.subtitle_2 | escape }}</p>
-        </div>
-      </div>
-
-      <div class="trust-strip__item fade-up">
-        <span class="trust-strip__icon">{%- render 'icon-shield' -%}</span>
-        <div class="trust-strip__text">
-          <p class="trust-strip__title">{{ section.settings.title_3 | escape }}</p>
-          <p class="trust-strip__subtitle">{{ section.settings.subtitle_3 | escape }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+{% if section.blocks.size > 0 %}<section class="section-spacing hairline-bottom"><div class="container"><div class="benefits-grid">{% for block in section.blocks %}{% if block.settings.title != blank %}<div {{ block.shopify_attributes }}><h2 class="font-heading">{{ block.settings.title | escape }}</h2><p class="text-muted">{{ block.settings.text | escape }}</p></div>{% endif %}{% endfor %}</div></div></section>{% endif %}
 {% schema %}
 {
-  "name": "Trust strip",
+  "name": "Benefits",
   "settings": [
     {
-      "type": "text",
-      "id": "title_1",
-      "label": "Point 1 title",
-      "default": "Complimentary Shipping"
-    },
-    {
-      "type": "text",
-      "id": "subtitle_1",
-      "label": "Point 1 subtitle",
-      "default": "On all domestic orders over $150. Tracked delivery in 2–4 business days."
-    },
-    {
-      "type": "text",
-      "id": "title_2",
-      "label": "Point 2 title",
-      "default": "30-Day Thoughtful Return Window"
-    },
-    {
-      "type": "text",
-      "id": "subtitle_2",
-      "label": "Point 2 subtitle",
-      "default": "Prepaid label included. Unused items eligible for full refund."
-    },
-    {
-      "type": "text",
-      "id": "title_3",
-      "label": "Point 3 title",
-      "default": "End-to-End Encrypted Checkout"
-    },
-    {
-      "type": "text",
-      "id": "subtitle_3",
-      "label": "Point 3 subtitle",
-      "default": "Protected with Shop Pay, Apple Pay, Google Pay and bank-grade SSL."
+      "type": "paragraph",
+      "content": "Add only verified service or product benefits. No default delivery, return or material claims are supplied."
     }
   ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Verified benefit",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 4,
   "presets": [
     {
-      "name": "Trust strip"
+      "name": "Benefits"
     }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "scope": "Local swatch and review QA; review fixture is synthetic and not seeded",
+  "home": {
+    "faq": 5,
+    "heading": "Frequently Asked Questions",
+    "construction": "Honest Construction",
+    "rows": 5,
+    "width": 390
+  },
+  "cards": {
+    "selects": 0,
+    "circles": 3
+  },
+  "cardAdd": {
+    "variant": "preview-102",
+    "label": "Cove shoulder bag$99.00Taupe\n−\nCove shoulder bag quantity\n+Remove"
+  },
+  "quickView": {
+    "selects": 0,
+    "groups": 2
+  },
+  "product": {
+    "colors": 2,
+    "visibleSelects": 0,
+    "emptyReview": true
+  },
+  "reviews": {
+    "average": "3.7 / 5",
+    "count": 3,
+    "first": 2,
+    "width": 390,
+    "progress": "33.3333%"
+  },
+  "nativeCard": "101",
+  "runtimeErrors": []
+}

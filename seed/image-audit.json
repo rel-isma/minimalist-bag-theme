@@ -1,0 +1,477 @@
+[
+  {
+    "file": "atelier-vane-demo-cove-shoulder-bag-bone-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 224444,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-cove-shoulder-bag-bone-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 263600,
+    "references": [
+      "atelier-vane-demo-cove-shoulder-bag-bone-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-fold-shoulder-bag-taupe-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 228084,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-fold-shoulder-bag-taupe-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 223676,
+    "references": [
+      "atelier-vane-demo-fold-shoulder-bag-taupe-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-drift-shoulder-bag-olive-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 293333,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-drift-shoulder-bag-olive-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 275407,
+    "references": [
+      "atelier-vane-demo-drift-shoulder-bag-olive-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-arc-shoulder-bag-black-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 228826,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-arc-shoulder-bag-black-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 271611,
+    "references": [
+      "atelier-vane-demo-arc-shoulder-bag-black-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-ledge-shoulder-bag-cognac-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 246759,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-ledge-shoulder-bag-cognac-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 284180,
+    "references": [
+      "atelier-vane-demo-ledge-shoulder-bag-cognac-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-nest-shoulder-bag-bone-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 258327,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-nest-shoulder-bag-bone-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 237369,
+    "references": [
+      "atelier-vane-demo-nest-shoulder-bag-bone-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-path-crossbody-bag-taupe-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 197864,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-path-crossbody-bag-taupe-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 243156,
+    "references": [
+      "atelier-vane-demo-path-crossbody-bag-taupe-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-loop-crossbody-bag-olive-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 230968,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-loop-crossbody-bag-olive-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 260585,
+    "references": [
+      "atelier-vane-demo-loop-crossbody-bag-olive-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-field-crossbody-bag-cognac-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 294302,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-field-crossbody-bag-cognac-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 269590,
+    "references": [
+      "atelier-vane-demo-field-crossbody-bag-cognac-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-vale-crossbody-bag-black-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 213214,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-vale-crossbody-bag-black-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 265583,
+    "references": [
+      "atelier-vane-demo-vale-crossbody-bag-black-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-plane-tote-bag-bone-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 204690,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-plane-tote-bag-bone-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 267479,
+    "references": [
+      "atelier-vane-demo-plane-tote-bag-bone-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-gather-tote-bag-cognac-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 299312,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-gather-tote-bag-cognac-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 298835,
+    "references": [
+      "atelier-vane-demo-gather-tote-bag-cognac-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-line-tote-bag-black-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 231499,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-line-tote-bag-black-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 289915,
+    "references": [
+      "atelier-vane-demo-line-tote-bag-black-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-open-tote-bag-olive-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 276494,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-open-tote-bag-olive-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 275221,
+    "references": [
+      "atelier-vane-demo-open-tote-bag-olive-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-dusk-clutch-black-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 228342,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-dusk-clutch-black-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 279293,
+    "references": [
+      "atelier-vane-demo-dusk-clutch-black-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-petal-mini-bag-bone-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 217226,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-petal-mini-bag-bone-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 291637,
+    "references": [
+      "atelier-vane-demo-petal-mini-bag-bone-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-frame-mini-bag-taupe-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 191743,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-frame-mini-bag-taupe-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 278932,
+    "references": [
+      "atelier-vane-demo-frame-mini-bag-taupe-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-slip-cardholder-bone-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 243764,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-slip-cardholder-bone-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 279932,
+    "references": [
+      "atelier-vane-demo-slip-cardholder-bone-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-turn-wallet-cognac-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 249777,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-turn-wallet-cognac-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 276187,
+    "references": [
+      "atelier-vane-demo-turn-wallet-cognac-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-keep-zip-wallet-black-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 184694,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-keep-zip-wallet-black-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 226476,
+    "references": [
+      "atelier-vane-demo-keep-zip-wallet-black-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-reach-shoulder-strap-taupe-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 274173,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-reach-shoulder-strap-taupe-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 299518,
+    "references": [
+      "atelier-vane-demo-reach-shoulder-strap-taupe-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-pebble-bag-charm-cognac-front.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 230679,
+    "references": []
+  },
+  {
+    "file": "atelier-vane-demo-pebble-bag-charm-cognac-detail.jpg",
+    "width": 1120,
+    "height": 1400,
+    "bytes": 283509,
+    "references": [
+      "atelier-vane-demo-pebble-bag-charm-cognac-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-shoulder-bags-banner.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 264350,
+    "references": [
+      "atelier-vane-demo-cove-shoulder-bag-bone-front.jpg",
+      "atelier-vane-demo-fold-shoulder-bag-taupe-front.jpg",
+      "atelier-vane-demo-arc-shoulder-bag-black-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-crossbody-bags-banner.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 234184,
+    "references": [
+      "atelier-vane-demo-path-crossbody-bag-taupe-front.jpg",
+      "atelier-vane-demo-field-crossbody-bag-cognac-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-tote-bags-banner.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 235414,
+    "references": [
+      "atelier-vane-demo-plane-tote-bag-bone-front.jpg",
+      "atelier-vane-demo-line-tote-bag-black-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-mini-and-clutch-bags-banner.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 259759,
+    "references": [
+      "atelier-vane-demo-dusk-clutch-black-front.jpg",
+      "atelier-vane-demo-petal-mini-bag-bone-front.jpg",
+      "atelier-vane-demo-frame-mini-bag-taupe-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-wallets-and-cardholders-banner.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 288213,
+    "references": [
+      "atelier-vane-demo-slip-cardholder-bone-front.jpg",
+      "atelier-vane-demo-turn-wallet-cognac-front.jpg",
+      "atelier-vane-demo-keep-zip-wallet-black-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-accessories-banner.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 295161,
+    "references": [
+      "atelier-vane-demo-reach-shoulder-strap-taupe-front.jpg",
+      "atelier-vane-demo-pebble-bag-charm-cognac-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-collection-hero.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 283517,
+    "references": [
+      "atelier-vane-demo-cove-shoulder-bag-bone-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-lifestyle-shoulder.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 249789,
+    "references": [
+      "atelier-vane-demo-cove-shoulder-bag-bone-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-lifestyle-work.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 284125,
+    "references": [
+      "atelier-vane-demo-plane-tote-bag-bone-front.jpg",
+      "atelier-vane-demo-turn-wallet-cognac-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-lifestyle-evening.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 282117,
+    "references": [
+      "atelier-vane-demo-dusk-clutch-black-front.jpg",
+      "atelier-vane-demo-frame-mini-bag-taupe-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-new-arrivals-banner.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 231470,
+    "references": [
+      "atelier-vane-demo-cove-shoulder-bag-bone-front.jpg",
+      "atelier-vane-demo-path-crossbody-bag-taupe-front.jpg",
+      "atelier-vane-demo-slip-cardholder-bone-front.jpg"
+    ]
+  },
+  {
+    "file": "atelier-vane-demo-featured-banner.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 242665,
+    "references": [
+      "atelier-vane-demo-arc-shoulder-bag-black-front.jpg",
+      "atelier-vane-demo-plane-tote-bag-bone-front.jpg",
+      "atelier-vane-demo-pebble-bag-charm-cognac-front.jpg"
+    ]
+  }
+]

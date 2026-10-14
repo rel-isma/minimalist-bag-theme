@@ -1,0 +1,4 @@
+<section class="section-spacing hairline-bottom" data-recently-viewed data-current-url="{{ product.url }}" data-limit="{{ section.settings.limit }}" hidden><div class="container"><h2 class="section-heading">{{ section.settings.heading | escape }}</h2><div class="collection-product-grid" style="--collection-columns: 4;" data-recent-products></div></div></section>
+{% schema %}
+{"name":"Recently viewed","settings":[{"type":"text","id":"heading","label":"Heading","default":"Recently viewed"},{"type":"range","id":"limit","label":"Products to show","min":2,"max":8,"step":1,"default":4}]}
+{% endschema %}

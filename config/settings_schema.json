@@ -1,9 +1,9 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Minimalist Atelier",
-    "theme_version": "1.0.0",
-    "theme_author": "Antigravity Theme Studio",
+    "theme_name": "Atelier Vane",
+    "theme_version": "2.0.1",
+    "theme_author": "Atelier Vane",
     "theme_documentation_url": "https://github.com/shopify/skeleton-theme",
     "theme_support_url": "https://help.shopify.com"
   },
@@ -12,58 +12,58 @@
     "settings": [
       {
         "type": "header",
-        "content": "Base Scheme (Quiet Luxury)"
+        "content": "Base scheme (quiet luxury)"
       },
       {
         "type": "color",
         "id": "color_bg",
-        "label": "Background (Bone)",
+        "label": "Background (bone)",
         "default": "#F5F1EA"
       },
       {
         "type": "color",
         "id": "color_surface",
-        "label": "Surface (Stone)",
+        "label": "Surface (stone)",
         "default": "#ECE5DA"
       },
       {
         "type": "color",
         "id": "color_ink",
-        "label": "Text & Primary UI (Ink)",
+        "label": "Text & primary UI (ink)",
         "default": "#1B1A18"
       },
       {
         "type": "color",
         "id": "color_muted",
-        "label": "Muted Text (Ash)",
+        "label": "Muted text (ash)",
         "default": "#6B6258"
       },
       {
         "type": "color",
         "id": "color_accent",
-        "label": "Accent (Clay)",
+        "label": "Accent (clay)",
         "default": "#9A4F36"
       },
       {
         "type": "color",
         "id": "color_border",
-        "label": "Border & Line (Stone Line)",
+        "label": "Border & line (stone line)",
         "default": "#D9D0C3"
       },
       {
         "type": "header",
-        "content": "Inverse Scheme"
+        "content": "Inverse scheme"
       },
       {
         "type": "color",
         "id": "color_inverse_bg",
-        "label": "Inverse Background",
+        "label": "Inverse background",
         "default": "#1B1A18"
       },
       {
         "type": "color",
         "id": "color_inverse_text",
-        "label": "Inverse Text",
+        "label": "Inverse text",
         "default": "#F5F1EA"
       }
     ]
@@ -78,23 +78,23 @@
       {
         "type": "font_picker",
         "id": "heading_font",
-        "label": "Heading Font",
+        "label": "Heading font",
         "default": "garamond_n4"
       },
       {
         "type": "header",
-        "content": "Body & Interface"
+        "content": "Body & interface"
       },
       {
         "type": "font_picker",
         "id": "body_font",
-        "label": "Body Font",
+        "label": "Body font",
         "default": "assistant_n4"
       }
     ]
   },
   {
-    "name": "Layout & Spacing",
+    "name": "Layout & spacing",
     "settings": [
       {
         "type": "range",
@@ -103,39 +103,96 @@
         "max": 1440,
         "step": 20,
         "unit": "px",
-        "label": "Maximum Page Width",
+        "label": "Maximum page width",
         "default": 1320
       }
     ]
   },
   {
-    "name": "Brand Placeholders",
+    "name": "Product cards and collections",
     "settings": [
       {
-        "type": "text",
-        "id": "brand_name",
-        "label": "Brand Name",
-        "default": "Atelier Vane"
+        "type": "select",
+        "id": "card_image_ratio",
+        "label": "Card image ratio",
+        "options": [
+          {
+            "value": "3/4",
+            "label": "Portrait (3:4)"
+          },
+          {
+            "value": "4/5",
+            "label": "Portrait (4:5)"
+          },
+          {
+            "value": "1/1",
+            "label": "Square (1:1)"
+          }
+        ],
+        "default": "3/4"
       },
       {
-        "type": "text",
-        "id": "product_name",
-        "label": "Product Name",
-        "default": "The Demi Shoulder Bag"
+        "type": "checkbox",
+        "id": "card_show_second_image",
+        "label": "Show second image on hover",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "card_show_swatches",
+        "label": "Show color swatches",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "card_show_quick_add",
+        "label": "Show quick add",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "collection_grid_columns",
+        "label": "Desktop products per row",
+        "options": [
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          }
+        ],
+        "default": "3"
       }
     ]
   },
   {
-    "name": "Cart & Shipping",
+    "name": "Brand",
+    "settings": [
+      {
+        "type": "text",
+        "id": "brand_name",
+        "label": "Brand name",
+        "default": "Atelier Vane"
+      }
+    ]
+  },
+  {
+    "name": "Cart & shipping",
     "settings": [
       {
         "type": "select",
         "id": "cart_type",
-        "label": "Cart Type",
+        "label": "Cart type",
         "options": [
           {
             "value": "drawer",
-            "label": "Slide-out Drawer"
+            "label": "Slide-out drawer"
           },
           {
             "value": "page",
@@ -147,14 +204,14 @@
       {
         "type": "number",
         "id": "free_shipping_threshold",
-        "label": "Free Shipping Threshold (in store currency)",
-        "default": 150,
-        "info": "Set to 0 if free shipping applies to all orders or none"
+        "label": "Free shipping threshold (in store currency)",
+        "default": 0,
+        "info": "Set a verified threshold in store currency. 0 hides this message."
       },
       {
         "type": "checkbox",
         "id": "enable_cart_notes",
-        "label": "Enable Order Notes",
+        "label": "Enable order notes",
         "default": true
       }
     ]
@@ -165,23 +222,23 @@
       {
         "type": "image_picker",
         "id": "favicon",
-        "label": "Favicon Image",
+        "label": "Favicon image",
         "info": "Recommended: 32x32px .png"
       }
     ]
   },
   {
-    "name": "Social Media",
+    "name": "Social media",
     "settings": [
       {
         "type": "text",
         "id": "social_instagram_link",
-        "label": "Instagram URL"
+        "label": "Instagram url"
       },
       {
         "type": "text",
         "id": "social_pinterest_link",
-        "label": "Pinterest URL"
+        "label": "Pinterest url"
       }
     ]
   }

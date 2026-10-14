@@ -4,7 +4,7 @@
       <p class="eyebrow">{{ 'templates.contact.form.send' | t }}</p>
       <h1 class="section-heading">{{ page.title | default: 'Client Correspondence' | escape }}</h1>
       <p class="text-muted prose" style="margin: 0 auto;">
-        For bespoke inquiries, order consultations, or leather care guidance, our atelier responds within one business day.
+        Questions about a product or order? Send a message to our atelier.
       </p>
     </header>
 
@@ -21,7 +21,7 @@
             <p class="text-accent font-medium">{{ 'templates.contact.form.post_success' | t }}</p>
           </div>
         {%- elsif form.errors -%}
-          <div class="alert alert--error" role="alert" tabindex="-1" autofocus style="padding: 1.5rem; background: #FFF5F2; border: 1px solid var(--color-accent); margin-bottom: 2rem;">
+          <div class="alert alert--error" role="alert" tabindex="-1" autofocus style="padding: 1.5rem; background: var(--color-surface); border: 1px solid var(--color-accent); margin-bottom: 2rem;">
             <p class="text-accent font-medium">Please correct the following:</p>
             <ul style="margin-top: 0.5rem; list-style: disc; padding-left: 1.25rem;">
               {%- for field in form.errors -%}
@@ -31,7 +31,7 @@
           </div>
         {%- endif -%}
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+        <div class="contact-fields">
           <div>
             <label for="ContactForm-name" class="form-label">{{ 'templates.contact.form.name' | t }}</label>
             <input
@@ -39,7 +39,7 @@
               id="ContactForm-name"
               name="contact[name]"
               class="form-input"
-              value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+              value="{% if form.name %}{{ form.name | escape }}{% elsif customer %}{{ customer.name | escape }}{% endif %}"
               autocomplete="name"
               placeholder="Your name"
             >
@@ -52,7 +52,7 @@
               id="ContactForm-email"
               name="contact[email]"
               class="form-input"
-              value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+              value="{% if form.email %}{{ form.email | escape }}{% elsif customer %}{{ customer.email | escape }}{% endif %}"
               spellcheck="false"
               autocomplete="email"
               autocorrect="off"
@@ -71,7 +71,7 @@
             id="ContactForm-phone"
             name="contact[phone]"
             class="form-input"
-            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+            value="{% if form.phone %}{{ form.phone | escape }}{% elsif customer %}{{ customer.phone | escape }}{% endif %}"
             autocomplete="tel"
             placeholder="+1 (555) 000-0000"
           >
@@ -87,7 +87,7 @@
             aria-required="true"
             placeholder="How may our studio assist you?"
             required
-          >{{ form.body }}</textarea>
+          >{{ form.body | escape }}</textarea>
         </div>
 
         <div class="text-center">

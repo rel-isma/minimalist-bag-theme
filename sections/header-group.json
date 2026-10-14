@@ -5,14 +5,15 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "settings": {
-        "show_announcement": true,
-        "text": "Complimentary standard shipping on all orders over $150."
+        "show_announcement": false,
+        "text": "Welcome to Atelier Vane"
       }
     },
     "header": {
       "type": "header",
       "settings": {
-        "enable_transparent_header": false
+        "enable_transparent_header": false,
+        "menu": "main-menu"
       }
     }
   },

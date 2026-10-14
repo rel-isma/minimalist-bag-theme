@@ -1,0 +1,26 @@
+[
+  {
+    "handle": "story",
+    "title": "Story",
+    "templateSuffix": "story",
+    "body": "<p>Atelier Vane begins with considered proportions and an appreciation for the pieces we reach for often. Our collection explores simple shapes for different moments of the day, from a compact shoulder bag to a roomy tote and the smaller objects carried inside.</p><p>This is editable demo brand copy. Replace it with your founder story, design process, and verified production information before launch. No manufacturing origin or material certification is implied.</p>"
+  },
+  {
+    "handle": "faq",
+    "title": "FAQ",
+    "templateSuffix": "faq",
+    "body": "<h2>Which bag is right for me?</h2><p>Compare your everyday essentials with the verified dimensions on each product page. Demo measurements and images are illustrative.</p><h2>How should I care for my bag?</h2><p>Follow the instructions confirmed for the actual material. Demo care copy must be replaced.</p><h2>What are your shipping and return terms?</h2><p>Shipping destinations, delivery estimates, charges, and return eligibility will be confirmed before launch.</p>"
+  },
+  {
+    "handle": "contact",
+    "title": "Contact",
+    "templateSuffix": "contact",
+    "body": "<p>For product questions and order assistance, use the contact form below. This is a demonstration page; replace this introduction and configure a monitored store email before launch. Response times have not been established.</p>"
+  },
+  {
+    "handle": "shipping-returns",
+    "title": "Shipping and returns",
+    "templateSuffix": "shipping",
+    "body": "<h2>Shipping</h2><p>Demo policy placeholder. Confirm dispatch location, supported destinations, processing times, shipping fees, and delivery estimates before launch.</p><h2>Returns</h2><p>Demo policy placeholder. Confirm the return window, item eligibility, return shipping responsibility, refund timing, and contact procedure before launch. No complimentary shipping or prepaid returns are promised by this copy.</p>"
+  }
+]

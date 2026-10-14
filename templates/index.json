@@ -3,257 +3,219 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "overlay_opacity": 25,
+        "overlay_opacity": 60,
         "full_height": true,
-        "eyebrow": "The Minimalist Shoulder Bag",
-        "heading": "Quietly Essential. Built to Outlast the Season.",
-        "subhead": "Sculpted in full-grain leather with uncluttered lines. An archetype refined for daily elegance.",
-        "button_label": "Explore The Bag"
+        "eyebrow": "Atelier Vane",
+        "heading": "Quietly essential.",
+        "subhead": "Considered shapes for the things you carry.",
+        "button_label": "Explore the collection",
+        "button_link": "/collections/all"
       }
     },
-    "trust-strip": {
+    "categories": {
+      "type": "category-tiles",
+      "settings": {},
+      "blocks": {
+        "c0": {
+          "type": "category",
+          "settings": {
+            "collection": "shoulder-bags",
+            "label": "Shoulder bags"
+          }
+        },
+        "c1": {
+          "type": "category",
+          "settings": {
+            "collection": "crossbody-bags",
+            "label": "Crossbody bags"
+          }
+        },
+        "c2": {
+          "type": "category",
+          "settings": {
+            "collection": "tote-bags",
+            "label": "Tote bags"
+          }
+        },
+        "c3": {
+          "type": "category",
+          "settings": {
+            "collection": "mini-and-clutch-bags",
+            "label": "Mini and clutch bags"
+          }
+        },
+        "c4": {
+          "type": "category",
+          "settings": {
+            "collection": "wallets-and-cardholders",
+            "label": "Wallets and cardholders"
+          }
+        },
+        "c5": {
+          "type": "category",
+          "settings": {
+            "collection": "accessories",
+            "label": "Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "c0",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ]
+    },
+    "new": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "New arrivals",
+        "collection": "new-arrivals",
+        "limit": 6
+      }
+    },
+    "story": {
+      "type": "brand-story",
+      "settings": {}
+    },
+    "look": {
+      "type": "shop-the-look",
+      "settings": {},
+      "blocks": {
+        "tote": {
+          "type": "pin",
+          "settings": {
+            "product": "plane-tote-bag",
+            "x": 34,
+            "y": 60
+          }
+        },
+        "wallet": {
+          "type": "pin",
+          "settings": {
+            "product": "turn-wallet",
+            "x": 72,
+            "y": 54
+          }
+        }
+      },
+      "block_order": [
+        "tote",
+        "wallet"
+      ]
+    },
+    "featured": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "A considered edit",
+        "collection": "featured",
+        "limit": 6
+      }
+    },
+    "benefits": {
       "type": "trust-strip",
-      "settings": {
-        "title_1": "Complimentary Shipping",
-        "subtitle_1": "On domestic orders over $150. Tracked delivery in 2–4 business days.",
-        "title_2": "30-Day Thoughtful Return Window",
-        "subtitle_2": "Prepaid label included. Unused items eligible for full refund.",
-        "title_3": "End-to-End Encrypted Checkout",
-        "subtitle_3": "Protected with Shop Pay, Apple Pay, Google Pay and bank-grade SSL."
-      }
+      "settings": {},
+      "blocks": {}
     },
-    "product-spotlight": {
-      "type": "product-spotlight",
-      "settings": {
-        "title_override": "The Demi Shoulder Bag",
-        "subtitle_override": "Atelier Vane",
-        "price_override": "$295.00",
-        "compare_price_override": "",
-        "stock_badge": "In stock · Ready to dispatch from Florence",
-        "color_1_name": "Bone",
-        "color_1_hex": "#F5F1EA",
-        "color_2_name": "Warm Stone",
-        "color_2_hex": "#ECE5DA",
-        "color_3_name": "Noir",
-        "color_3_hex": "#1B1A18",
-        "color_4_name": "Clay",
-        "color_4_hex": "#9A4F36",
-        "color_5_name": "",
-        "color_5_hex": "#5B5E4B",
-        "color_6_name": "",
-        "color_6_hex": "#3E2F28",
-        "tab_title_1": "Details & Materials",
-        "tab_content_1": "<p>100% full-grain calfskin leather, drum-dyed for enduring softness. Lined in breathable micro-suede. Custom solid brass magnetic hardware.</p>",
-        "tab_title_2": "Dimensions & Fit",
-        "tab_content_2": "<p>Width: 26 cm (10.2 in) · Height: 15 cm (5.9 in) · Depth: 7 cm (2.8 in). Shoulder strap drop: 28 cm (11.0 in). Weight: 380 grams.</p>",
-        "tab_title_3": "Care Guide",
-        "tab_content_3": "<p>Wipe gently with a soft dry cloth. Store in the complimentary organic cotton dust bag away from direct sunlight. Treat with natural leather balm twice annually.</p>",
-        "tab_title_4": "Shipping & Complimentary Returns",
-        "tab_content_4": "<p>Complimentary standard shipping on orders over $150. Domestic orders arrive within 2–4 business days. 30-day return window with prepaid return shipping.</p>"
-      }
-    },
-    "why-this-bag": {
-      "type": "why-this-bag",
-      "blocks": {
-        "feature-1": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify://shop_images/large-fall-leaf-in-hand.jpg",
-            "title": "Full-Grain Italian Calfskin",
-            "text": "Sourced from small family-run tanneries in Tuscany. Supple to the touch with a delicate pebble grain that develops a rich patina."
-          }
-        },
-        "feature-2": {
-          "type": "feature",
-          "settings": {
-            "title": "Unstructured Ergonomic Slouch",
-            "text": "Drapes naturally under the arm without rigid cardboard stiffeners. Soft yet structured enough to stand on its base when set down."
-          }
-        },
-        "feature-3": {
-          "type": "feature",
-          "settings": {
-            "title": "Custom Solid Brass Hardware",
-            "text": "Every buckle and magnetic closure is machined from solid brass and brushed to a warm satin finish that will never peel or rust."
-          }
-        },
-        "feature-4": {
-          "type": "feature",
-          "settings": {
-            "title": "Reinforced Saddle Stitching",
-            "text": "Critical stress points are hand-tacked with high-tensile waxed thread, ensuring the shoulder strap remains secure through years of daily commute."
-          }
-        }
-      },
-      "block_order": [
-        "feature-1",
-        "feature-2",
-        "feature-3",
-        "feature-4"
-      ],
-      "settings": {
-        "eyebrow": "Design Principles",
-        "heading": "Why We Made It",
-        "subhead": "No extraneous hardware. No conspicuous logos. Just considered proportions and honest materials."
-      }
-    },
-    "detail-closeups": {
-      "type": "detail-closeups",
-      "settings": {
-        "eyebrow": "Up Close",
-        "heading": "The Integrity of Every Seam",
-        "subhead": "Every millimeter inspected by hand before leaving our studio workshop.",
-        "title_1": "Custom Solid Brass Clasp",
-        "text_1": "Brushed satin finish that resists scratches and snaps into place with a reassuring muted click.",
-        "title_2": "Hand-Painted Edge Dye",
-        "text_2": "Raw leather edges receive four successive coats of matte edge paint, sanded smooth between each application.",
-        "title_3": "Suede-Lined Sanctuary",
-        "text_3": "Soft microfiber suede interior protects screens and sunglasses, with dedicated pockets for cards and lip balm."
-      }
-    },
-    "what-fits": {
-      "type": "what-fits",
-      "settings": {
-        "eyebrow": "Capacity & Scale",
-        "heading": "Everything You Need. Nothing You Don't.",
-        "subhead": "Engineered to hold daily essentials without bulging or compromising its clean architectural drape.",
-        "table_title": "Exact Specifications",
-        "table_note": "Proportioned specifically to sit naturally tucked at the ribcage."
-      }
-    },
-    "color-story": {
-      "type": "color-story",
-      "blocks": {
-        "color-1": {
-          "type": "colorway",
-          "settings": {
-            "color_name": "Bone",
-            "swatch_hex": "#f5f1ea",
-            "description": "An unbleached limestone hue. Warm, neutral, and effortlessly adaptable to linen and wool alike."
-          }
-        },
-        "color-2": {
-          "type": "colorway",
-          "settings": {
-            "color_name": "Warm Stone",
-            "swatch_hex": "#ece5da",
-            "description": "A grounded taupe-sand tone with gentle warmth. Subtle, understated, and timeless."
-          }
-        },
-        "color-3": {
-          "type": "colorway",
-          "settings": {
-            "color_name": "Noir",
-            "swatch_hex": "#1b1a18",
-            "description": "Deep charcoal ink black. Deeply saturated with a soft satin finish that avoids harsh synthetic shine."
-          }
-        },
-        "color-4": {
-          "type": "colorway",
-          "settings": {
-            "color_name": "Clay",
-            "swatch_hex": "#9a4f36",
-            "description": "Tuscan terracotta earth. Adds an intentional, sophisticated pop of warm color to monochromatic looks."
-          }
-        }
-      },
-      "block_order": [
-        "color-1",
-        "color-2",
-        "color-3",
-        "color-4"
-      ],
-      "settings": {
-        "eyebrow": "The Tonal Palette",
-        "heading": "Four Nuanced Shades",
-        "subhead": "Formulated with low-impact aniline dyes that reveal the natural hide's subtle depth."
-      }
-    },
-    "product-reviews": {
+    "reviews": {
       "type": "product-reviews",
+      "settings": {
+        "publish_reviews": false
+      },
+      "blocks": {}
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {}
+    },
+    "construction": {
+      "type": "comparison-table",
+      "settings": {},
       "blocks": {
-        "review-1": {
-          "type": "review",
+        "construction-0": {
+          "type": "feature",
           "settings": {
-            "reviewer_name": "Elena R.",
-            "rating": 5,
-            "review_text": "The drape and leather grain are extraordinary. It tucks under the arm naturally without feeling stiff, and fits my Max phone, cardholder, and keys without ever bulging.",
-            "date": "2 weeks ago",
-            "verified_buyer": true
+            "feature": "Materials",
+            "our_text": "Find the stated composition on each product page.",
+            "compare_text": "Check the material and finish for the piece you choose."
           }
         },
-        "review-2": {
-          "type": "review",
+        "construction-1": {
+          "type": "feature",
           "settings": {
-            "reviewer_name": "Sophia M.",
-            "rating": 5,
-            "review_text": "Finally, a luxury bag without ostentatious gold logos. The solid brass closure and matte edge dye speak of true atelier craftsmanship.",
-            "date": "1 month ago",
-            "verified_buyer": true
+            "feature": "Hardware",
+            "our_text": "Check the closure and hardware details for each design.",
+            "compare_text": "Look for clear information about hardware and fastening."
           }
         },
-        "review-3": {
-          "type": "review",
+        "construction-2": {
+          "type": "feature",
           "settings": {
-            "reviewer_name": "Claire T.",
-            "rating": 5,
-            "review_text": "Carried daily through train commutes and dinners. The leather has developed a subtle, rich patina that looks even better than the day it arrived.",
-            "date": "2 months ago",
-            "verified_buyer": true
+            "feature": "Edges and seams",
+            "our_text": "Explore the close-up product photographs.",
+            "compare_text": "Compare finishing details using actual product photography."
+          }
+        },
+        "construction-3": {
+          "type": "feature",
+          "settings": {
+            "feature": "Interior",
+            "our_text": "See each product's dimensions and interior details.",
+            "compare_text": "Compare capacity and pocket placement with your essentials."
+          }
+        },
+        "construction-4": {
+          "type": "feature",
+          "settings": {
+            "feature": "Care",
+            "our_text": "Follow the care information supplied for your product.",
+            "compare_text": "Check the care instructions for the actual material."
           }
         }
       },
       "block_order": [
-        "review-1",
-        "review-2",
-        "review-3"
-      ],
-      "settings": {
-        "eyebrow": "Client Reflections",
-        "heading": "In Everyday Use",
-        "subhead": "Unsolicited feedback from patrons who carry our archetype daily."
-      }
+        "construction-0",
+        "construction-1",
+        "construction-2",
+        "construction-3",
+        "construction-4"
+      ]
     },
-    "comparison-table": {
-      "type": "comparison-table",
-      "settings": {
-        "eyebrow": "Honest Construction",
-        "heading": "A Direct Comparison",
-        "subhead": "Where luxury is actually built, rather than marketed."
-      }
-    },
-    "faq-accordion": {
+    "inquiries": {
       "type": "faq-accordion",
+      "settings": {},
       "blocks": {
-        "faq-1": {
+        "inquiries-0": {
           "type": "faq_item",
           "settings": {
             "question": "Will my phone fit inside the bag?",
             "answer": "<p>Yes. The bag easily accommodates all modern smartphones up to the iPhone 15 Pro Max and Samsung Galaxy Ultra series, even when enclosed in a protective case, alongside a bifold wallet and keys.</p>"
           }
         },
-        "faq-2": {
+        "inquiries-1": {
           "type": "faq_item",
           "settings": {
             "question": "Is the leather water resistant?",
             "answer": "<p>Our full-grain leather is naturally resilient to light humidity and brief rainfall. If caught in rain, simply blot gently with a dry cotton cloth and allow it to air-dry at room temperature away from heat sources.</p>"
           }
         },
-        "faq-3": {
+        "inquiries-2": {
           "type": "faq_item",
           "settings": {
             "question": "How long does shipping take?",
-            "answer": "<p>Orders are dispatched from our studio warehouse within 24 hours on business days. Standard delivery within the US takes 2–4 business days. Complimentary tracking is emailed upon fulfillment.</p>"
+            "answer": "<p>Orders are dispatched from our studio warehouse within 24 hours on business days. Standard delivery within the US takes 2\u20134 business days. Complimentary tracking is emailed upon fulfillment.</p>"
           }
         },
-        "faq-4": {
+        "inquiries-3": {
           "type": "faq_item",
           "settings": {
             "question": "What is your return policy?",
             "answer": "<p>We offer a 30-day trial period. If the bag does not suit your everyday needs, return it in original, unworn condition with its dust bag for a full refund. A prepaid return shipping label is provided.</p>"
           }
         },
-        "faq-5": {
+        "inquiries-4": {
           "type": "faq_item",
           "settings": {
             "question": "Can the shoulder strap length be adjusted?",
@@ -262,52 +224,25 @@
         }
       },
       "block_order": [
-        "faq-1",
-        "faq-2",
-        "faq-3",
-        "faq-4",
-        "faq-5"
-      ],
-      "settings": {
-        "eyebrow": "Inquiries",
-        "heading": "Frequently Asked Questions",
-        "subhead": "Straightforward answers regarding sizing, leather care, and shipping."
-      }
-    },
-    "brand-story": {
-      "type": "brand-story",
-      "settings": {
-        "eyebrow": "Our Philosophy",
-        "heading": "Fewer, Better Things.",
-        "story_text": "<p>We founded our studio on a single conviction: modern wardrobes do not need dozens of seasonal bags that quickly date and discard. They need one archetype, resolved so thoroughly in its proportion, feel, and durability that you reach for it without hesitation every morning.</p><p>We bypassed traditional wholesale markups and retail licensing to invest directly where it matters—in full-grain hides, hand-painted edge dyes, and solid brass components meant to outlast trends.</p>",
-        "signoff_name": "Atelier Studio",
-        "signoff_title": "Design & Craftsmanship"
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
-        "eyebrow": "Correspondence",
-        "heading": "Join The Atelier Journal",
-        "subhead": "Subscribers receive advance notice for restocks and limited studio releases. We write sparingly.",
-        "button_label": "Subscribe",
-        "success_message": "Thank you for subscribing. Welcome to our quiet correspondence.",
-        "disclaimer": "You may unsubscribe at any time. We respect your privacy."
-      }
+        "inquiries-0",
+        "inquiries-1",
+        "inquiries-2",
+        "inquiries-3",
+        "inquiries-4"
+      ]
     }
   },
   "order": [
     "hero",
-    "trust-strip",
-    "product-spotlight",
-    "why-this-bag",
-    "detail-closeups",
-    "what-fits",
-    "color-story",
-    "product-reviews",
-    "comparison-table",
-    "faq-accordion",
-    "brand-story",
+    "categories",
+    "new",
+    "story",
+    "look",
+    "featured",
+    "benefits",
+    "reviews",
+    "construction",
+    "inquiries",
     "newsletter"
   ]
 }

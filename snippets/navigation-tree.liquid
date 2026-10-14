@@ -1,0 +1,33 @@
+{%- comment -%}Native disclosures support menu nesting and keyboard/no-JavaScript browsing.{%- endcomment -%}
+<ul class="header-menu header-menu--{{ mode }}">
+  {%- for link in menu.links -%}
+    <li>
+      {%- if link.links != blank -%}
+        <details class="header-menu__disclosure">
+          <summary class="site-header__nav-link">{{ link.title | escape }}</summary>
+          <div class="header-menu__panel">
+            <a class="header-menu__parent" href="{{ link.url }}">{{ link.title | escape }} — View all</a>
+            <ul>
+              {%- for child in link.links -%}
+                <li>
+                  <a href="{{ child.url }}" {% if child.current %}aria-current="page"{% endif %}>{{ child.title | escape }}</a>
+                  {%- if child.links != blank -%}
+                    <ul class="header-menu__grandchildren">
+                      {%- for grandchild in child.links -%}
+                        <li><a href="{{ grandchild.url }}" {% if grandchild.current %}aria-current="page"{% endif %}>{{ grandchild.title | escape }}</a></li>
+                      {%- endfor -%}
+                    </ul>
+                  {%- endif -%}
+                </li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        </details>
+      {%- else -%}
+        <a class="site-header__nav-link" href="{{ link.url }}" {% if link.current %}aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+      {%- endif -%}
+    </li>
+  {%- else -%}
+    <li><a class="site-header__nav-link" href="{{ routes.all_products_collection_url }}">Shop all</a></li>
+  {%- endfor -%}
+</ul>

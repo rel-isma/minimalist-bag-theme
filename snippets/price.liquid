@@ -10,12 +10,15 @@
   if use_variant
     assign target = product.selected_or_first_available_variant
   else
-    assign target = product
+    assign target = product.variants | sort: 'price' | first
   endif
 
   assign compare_at_price = target.compare_at_price
-  assign price = target.price | default: 29500
-  assign available = target.available | default: true
+  assign price = target.price
+  assign available = product.available
+  if use_variant
+    assign available = target.available
+  endif
 
   if compare_at_price > price
     assign on_sale = true
@@ -24,12 +27,13 @@
   endif
 -%}
 
+{%- if target != blank -%}
 <div class="price{% if on_sale %} price--on-sale{% endif %}{% unless available %} price--sold-out{% endunless %}">
   <div class="price__container">
     {%- if on_sale -%}
       <span class="visually-hidden">{{ 'products.product.price.sale_price' | t }}</span>
       <span class="price-item price-item--sale">
-        {{ price | money }}
+        {% if product.price_varies and use_variant != true %}From {% endif %}{{ price | money }}
       </span>
       <span class="visually-hidden">{{ 'products.product.price.regular_price' | t }}</span>
       <s class="price-item price-item--regular text-muted">
@@ -38,7 +42,7 @@
     {%- else -%}
       <span class="visually-hidden">{{ 'products.product.price.regular_price' | t }}</span>
       <span class="price-item price-item--regular">
-        {{ price | money }}
+        {% if product.price_varies and use_variant != true %}From {% endif %}{{ price | money }}
       </span>
     {%- endif -%}
   </div>
@@ -51,3 +55,5 @@
     {%- endif -%}
   {%- endif -%}
 </div>
+
+{%- endif -%}

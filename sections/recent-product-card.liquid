@@ -1,0 +1,4 @@
+{% if product != blank %}<div data-recent-card>{% render 'product-card', product: product, section_id: 'recent', card_index: product.id %}</div>{% endif %}
+{% schema %}
+{"name":"Recent product card","settings":[]}
+{% endschema %}

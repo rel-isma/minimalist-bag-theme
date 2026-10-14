@@ -1,66 +1,11 @@
 {
   "sections": {
-    "story": {
-      "type": "brand-story",
-      "settings": {
-        "eyebrow": "Our Studio Ethos",
-        "heading": "Fewer, Better Things.",
-        "signoff_name": "Atelier Studio",
-        "signoff_title": "Design & Craftsmanship"
-      }
-    },
-    "principles": {
-      "type": "why-this-bag",
-      "blocks": {
-        "f1": {
-          "type": "feature",
-          "settings": {
-            "title": "Full-Grain Italian Calfskin",
-            "text": "Sourced from small family-run tanneries in Tuscany. Supple to the touch with a delicate pebble grain that develops a rich patina."
-          }
-        },
-        "f2": {
-          "type": "feature",
-          "settings": {
-            "title": "Unstructured Ergonomic Slouch",
-            "text": "Drapes naturally under the arm without rigid cardboard stiffeners. Soft yet structured enough to stand on its base when set down."
-          }
-        },
-        "f3": {
-          "type": "feature",
-          "settings": {
-            "title": "Custom Solid Brass Hardware",
-            "text": "Every buckle and magnetic closure is machined from solid brass and brushed to a warm satin finish that will never peel or rust."
-          }
-        },
-        "f4": {
-          "type": "feature",
-          "settings": {
-            "title": "Reinforced Saddle Stitching",
-            "text": "Critical stress points are hand-tacked with high-tensile waxed thread, ensuring the shoulder strap remains secure through years of daily commute."
-          }
-        }
-      },
-      "block_order": [
-        "f1",
-        "f2",
-        "f3",
-        "f4"
-      ],
-      "settings": {
-        "eyebrow": "Craftsmanship",
-        "heading": "Every Seam Considered",
-        "subhead": "We build without compromise so that one bag serves for decades."
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
+    "main": {
+      "type": "main-page",
       "settings": {}
     }
   },
   "order": [
-    "story",
-    "principles",
-    "newsletter"
+    "main"
   ]
 }

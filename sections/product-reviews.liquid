@@ -1,120 +1,31 @@
-{%- comment -%}
-  Reviews Section: Strictly displays real reviews.
-  If zero reviews are configured by the merchant, this section completely hides.
-  Never display fake reviews, fake ratings, or unverified claims.
-{%- endcomment -%}
-
-{%- if section.blocks.size > 0 -%}
-  <section id="Reviews" class="reviews-section section-spacing hairline-bottom">
-    <div class="container">
-      <div class="section-header text-center fade-up">
-        {%- if section.settings.eyebrow != blank -%}
-          <p class="eyebrow">{{ section.settings.eyebrow | escape }}</p>
-        {%- endif -%}
-        <h2 class="section-heading">{{ section.settings.heading | escape }}</h2>
-        {%- if section.settings.subhead != blank -%}
-          <p class="text-muted prose" style="margin: 0 auto;">{{ section.settings.subhead | escape }}</p>
-        {%- endif -%}
-      </div>
-
-      <div class="reviews__grid">
-        {%- for block in section.blocks -%}
-          <div class="review-card fade-up" {{ block.shopify_attributes }}>
-            <!-- Star Rating Display -->
-            <div class="review-card__stars" aria-label="{{ block.settings.rating }} out of 5 stars">
-              {%- for i in (1..5) -%}
-                <span class="review-star{% if i <= block.settings.rating %} is-active{% endif %}" aria-hidden="true">★</span>
-              {%- endfor -%}
-            </div>
-
-            <blockquote class="review-card__quote">
-              &ldquo;{{ block.settings.review_text | escape }}&rdquo;
-            </blockquote>
-
-            <div class="review-card__author">
-              <span class="review-card__name font-medium">{{ block.settings.reviewer_name | escape }}</span>
-              {%- if block.settings.verified_buyer -%}
-                <span class="review-card__badge label-caps text-muted">Verified Buyer</span>
-              {%- endif -%}
-              {%- if block.settings.date != blank -%}
-                <span class="review-card__date text-muted">{{ block.settings.date | escape }}</span>
-              {%- endif -%}
-            </div>
-          </div>
-        {%- endfor -%}
-      </div>
-    </div>
-  </section>
-{%- endif -%}
-
+{% liquid
+  assign review_count = 0
+  assign review_sum = 0
+  for block in section.blocks
+    assign matches_product = false
+    if product == blank or block.settings.product.id == product.id
+      assign matches_product = true
+    endif
+    if matches_product and block.settings.reviewer_name != blank and block.settings.review_text != blank
+      assign review_count = review_count | plus: 1
+      assign review_sum = review_sum | plus: block.settings.rating
+    endif
+  endfor
+%}
+{% if section.settings.publish_reviews %}{% if review_count > 0 or section.settings.show_empty %}
+<section class="reviews-section section-spacing hairline-bottom" id="Reviews-{{ section.id }}" data-reviews><div class="container">
+  <header class="section-header"><p class="eyebrow">{{ section.settings.eyebrow | escape }}</p><h2 class="section-heading">{{ section.settings.heading | escape }}</h2></header>
+  <div class="reviews-summary">
+    <div class="reviews-summary__score">{% if review_count > 0 %}{% assign average = review_sum | times: 1.0 | divided_by: review_count | round: 1 %}<p class="reviews-average font-heading">{{ average }}<span> / 5</span></p><p>{{ review_count }} {% if review_count == 1 %}review{% else %}reviews{% endif %}</p>{% else %}<p class="font-heading reviews-average">No ratings yet</p><p class="text-muted">Be the first to share your experience.</p>{% endif %}</div>
+    <div class="reviews-breakdown" role="group" aria-label="Review rating breakdown">{% for i in (1..5) %}{% assign stars = 6 | minus: i %}{% assign star_count = 0 %}{% for block in section.blocks %}{% if product == blank or block.settings.product.id == product.id %}{% if block.settings.reviewer_name != blank and block.settings.review_text != blank and block.settings.rating == stars %}{% assign star_count = star_count | plus: 1 %}{% endif %}{% endif %}{% endfor %}{% assign percentage = 0 %}{% if review_count > 0 %}{% assign percentage = star_count | times: 100.0 | divided_by: review_count %}{% endif %}<button type="button" class="reviews-rating-row" data-review-stars="{{ stars }}" aria-pressed="false" aria-label="{{ stars }} ★ {{ star_count }} — Filter {{ stars }} star reviews" disabled><span>{{ stars }} <span aria-hidden="true">★</span></span><span class="reviews-rating-track"><span style="width: {{ percentage }}%;"></span></span><span>{{ star_count }}</span></button>{% endfor %}</div>
+  </div>
+  {% if review_count > 0 %}
+  <div class="reviews-controls" data-review-controls hidden><div><label class="form-label" for="ReviewRating-{{ section.id }}">Rating</label><select class="form-input" id="ReviewRating-{{ section.id }}" data-review-rating><option value="all">All ratings</option>{% for i in (1..5) %}{% assign stars = 6 | minus: i %}<option value="{{ stars }}">{{ stars }} stars</option>{% endfor %}</select></div><div><label class="form-label" for="ReviewSort-{{ section.id }}">Sort by</label><select class="form-input" id="ReviewSort-{{ section.id }}" data-review-sort><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="highest">Highest rating</option><option value="lowest">Lowest rating</option></select></div><button class="btn btn--link" type="button" data-review-clear>Clear filter</button><p class="catalog-status" role="status" aria-live="polite" data-review-count>{{ review_count }} reviews</p></div>
+  <div class="reviews-list" data-review-list>{% for block in section.blocks %}{% if product == blank or block.settings.product.id == product.id %}{% if block.settings.reviewer_name != blank and block.settings.review_text != blank %}<article class="review-card" data-review data-rating="{{ block.settings.rating }}" data-date="{{ block.settings.date | escape }}" {{ block.shopify_attributes }}><div class="review-card__stars" role="img" aria-label="{{ block.settings.rating }} out of 5 stars">{% for i in (1..5) %}<span aria-hidden="true" class="review-star{% if i <= block.settings.rating %} is-active{% endif %}">★</span>{% endfor %}</div>{% if block.settings.title != blank %}<h3 class="font-heading">{{ block.settings.title | escape }}</h3>{% endif %}<p class="review-card__quote">{{ block.settings.review_text | escape }}</p><div class="review-card__author"><span>{{ block.settings.reviewer_name | escape }}</span>{% if block.settings.verified_buyer %}<span class="label-caps text-muted">Verified buyer</span>{% endif %}{% if block.settings.date != blank %}<time class="text-muted" datetime="{{ block.settings.date | escape }}">{{ block.settings.date | escape }}</time>{% endif %}</div></article>{% endif %}{% endif %}{% endfor %}</div>
+  <p class="reviews-empty text-muted" data-review-empty hidden>No reviews match this rating.</p>
+  {% else %}<p class="reviews-empty text-muted">There are no published reviews for this product yet.</p>{% endif %}
+</div></section>
+{% endif %}{% endif %}
 {% schema %}
-{
-  "name": "Reviews",
-  "settings": [
-    {
-      "type": "text",
-      "id": "eyebrow",
-      "label": "Eyebrow",
-      "default": "Client Reflections"
-    },
-    {
-      "type": "text",
-      "id": "heading",
-      "label": "Heading",
-      "default": "In Everyday Use"
-    },
-    {
-      "type": "text",
-      "id": "subhead",
-      "label": "Subheading",
-      "default": "Unsolicited feedback from patrons who carry our archetype daily."
-    }
-  ],
-  "blocks": [
-    {
-      "type": "review",
-      "name": "Verified review",
-      "settings": [
-        {
-          "type": "text",
-          "id": "reviewer_name",
-          "label": "Client name",
-          "default": "Client Review"
-        },
-        {
-          "type": "range",
-          "id": "rating",
-          "min": 1,
-          "max": 5,
-          "step": 1,
-          "label": "Rating",
-          "default": 5
-        },
-        {
-          "type": "textarea",
-          "id": "review_text",
-          "label": "Review text",
-          "default": "Add authentic verified review content here."
-        },
-        {
-          "type": "text",
-          "id": "date",
-          "label": "Review date"
-        },
-        {
-          "type": "checkbox",
-          "id": "verified_buyer",
-          "label": "Verified buyer badge",
-          "default": true
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Reviews",
-      "blocks": []
-    }
-  ]
-}
+{"name":"Product reviews","settings":[{"type":"checkbox","id":"publish_reviews","label":"Publish authentic reviews","default":false},{"type":"checkbox","id":"show_empty","label":"Show empty review summary","default":false},{"type":"text","id":"eyebrow","label":"Eyebrow","default":"Client reflections"},{"type":"text","id":"heading","label":"Heading","default":"Customer reviews"},{"type":"paragraph","content":"Add only authentic reviews. On product pages each review must select its matching product. Use ISO dates (YYYY-MM-DD). Summary totals and rating bars are calculated from the published review blocks; no ratings are generated."}],"blocks":[{"type":"review","name":"Authentic review","settings":[{"type":"product","id":"product","label":"Reviewed product"},{"type":"text","id":"reviewer_name","label":"Reviewer name"},{"type":"text","id":"title","label":"Review title"},{"type":"range","id":"rating","label":"Rating","min":1,"max":5,"step":1,"default":5},{"type":"textarea","id":"review_text","label":"Review text"},{"type":"text","id":"date","label":"Review date","info":"YYYY-MM-DD for reliable sorting."},{"type":"checkbox","id":"verified_buyer","label":"Verified buyer","default":false}]}],"max_blocks":50,"presets":[{"name":"Product reviews","blocks":[]}]}
 {% endschema %}

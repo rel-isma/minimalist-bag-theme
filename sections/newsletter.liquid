@@ -1,3 +1,4 @@
+{% assign newsletter_form_id = 'Newsletter-' | append: section.id %}
 <section class="newsletter-section section-spacing">
   <div class="container container--narrow text-center">
     <div class="newsletter-card fade-up">
@@ -9,7 +10,7 @@
         <p class="text-muted prose" style="margin: 0 auto 2rem auto;">{{ section.settings.subhead | escape }}</p>
       {%- endif -%}
 
-      {%- form 'customer', id: 'ContactNewsletterForm', class: 'newsletter-form' -%}
+      {%- form 'customer', id: newsletter_form_id, class: 'newsletter-form' -%}
         <input type="hidden" name="contact[tags]" value="newsletter">
 
         {%- if form.posted_successfully? -%}
@@ -24,9 +25,9 @@
           {%- endif -%}
 
           <div class="newsletter-form__fields">
-            <label for="NewsletterFormEmail" class="visually-hidden">Email address</label>
+            <label for="NewsletterFormEmail-{{ section.id }}" class="visually-hidden">Email address</label>
             <input
-              id="NewsletterFormEmail"
+              id="NewsletterFormEmail-{{ section.id }}"
               type="email"
               name="contact[email]"
               class="form-input newsletter-form__input"
@@ -73,7 +74,7 @@
       "type": "text",
       "id": "subhead",
       "label": "Subheading",
-      "default": "Subscribers receive advance notice for restocks and limited studio releases. We write sparingly."
+      "default": "Product updates and occasional notes from the studio. We write sparingly."
     },
     {
       "type": "text",

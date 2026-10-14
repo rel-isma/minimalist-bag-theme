@@ -1,12 +1,27 @@
 {
   "name": "atelier-vane-theme",
-  "version": "1.0.0",
-  "description": "Atelier Vane - Quiet Luxury Single-Product Shopify Theme",
+  "version": "2.0.1",
+  "description": "Atelier Vane Shopify theme and development demo catalog",
   "scripts": {
     "start": "node preview-server.js",
-    "preview": "node preview-server.js"
+    "preview": "node preview-server.js",
+    "seed:plan": "node seed/seed.mjs --dry-run",
+    "seed:csv": "node seed/build-csv.mjs",
+    "seed:validate": "node seed/validate.mjs",
+    "test:seed": "node --test --test-reporter=dot seed/seed.test.mjs",
+    "test": "node --test --test-reporter=dot seed/seed.test.mjs seed/store.test.mjs",
+    "test:store": "node --test --test-reporter=dot seed/store.test.mjs",
+    "test:browser": "node seed/check-store-browser.cjs",
+    "package:theme": "node seed/package-theme.mjs"
   },
-  "keywords": ["shopify", "theme", "quiet-luxury"],
+  "keywords": [
+    "shopify",
+    "theme",
+    "quiet-luxury"
+  ],
   "author": "Atelier Vane",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "liquidjs": "^10.30.0"
+  }
 }

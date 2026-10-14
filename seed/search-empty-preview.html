@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Atelier Vane — Header and search review</title><link rel="stylesheet" href="../assets/base.css"><link rel="stylesheet" href="../assets/catalog.css"><link rel="stylesheet" href="../assets/header.css"><script src="../assets/header.js" defer></script><script src="../assets/catalog.js" defer></script></head><body><section class="main-search-section section-spacing hairline-bottom" data-search-page>
+  <div class="container">
+    <header class="section-header text-center"><h1 class="section-heading">Search the atelier</h1></header>
+    <div class="search-page-form"><div class="atelier-search" data-predictive-search data-predictive-url="/search/suggest">
+  <form action="/search" method="get" role="search" class="atelier-search__form">
+    <label class="form-label" for="SearchInput-fixture-search">Search products and pages</label>
+    <div class="atelier-search__controls">
+      <input class="form-input" type="search" name="q" id="SearchInput-fixture-search" value="" placeholder="Search our atelier" data-search-input>
+      <input type="hidden" name="type" value="product,page">
+      <input type="hidden" name="options[prefix]" value="last">
+      <button class="btn btn--primary" type="submit">Search</button>
+    </div>
+  </form><p class="catalog-status" data-search-status role="status" aria-live="polite"></p>
+    <div id="SearchInput-fixture-search-results" class="predictive-results" data-search-results role="listbox" aria-label="Search suggestions" hidden></div></div>
+</div><p class="search-page-count" role="status">0 results for “&lt;script&gt;test&lt;/script&gt;”</p>
+      
+        <div class="search-page-grid"><div class="collection-empty"><h2 class="font-heading">No results found</h2><p class="text-muted">Try a product name, color, or a simpler search.</p><a class="btn btn--secondary" href="../seed/collection-preview.html">Browse all products</a></div></div>
+        <nav class="collection-pagination" aria-label="Pagination"><span aria-current="page" aria-label="Page 1">1</span><a href="?page=2" aria-label="Page 2">2</a><a href="?page=2">Next</a></nav></div>
+</section>
+
+</body></html>

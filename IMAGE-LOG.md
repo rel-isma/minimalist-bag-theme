@@ -1,31 +1,100 @@
 # IMAGE LOG: Asset Disclosures & Pre-Launch Replacement Registry
 
-> **Brand Identity:** Atelier Vane  
-> **Product Name:** The Demi Shoulder Bag  
-> **Important Legal Disclosure:**  
-> The editorial and product photography currently generated and placed in `/assets/` are high-resolution AI studio renders designed to demonstrate the quiet luxury aesthetic, editorial typography balance, color palette fidelity, and responsive UX.  
+> **Brand Identity:** Atelier Vane
+> **Original single-product name (archived):** The Demi Shoulder Bag
+> **Important Legal Disclosure:**
+> The editorial and product photography currently generated and placed in `/assets/` are high-resolution AI studio renders designed to demonstrate the quiet luxury aesthetic, editorial typography balance, color palette fidelity, and responsive UX.
 > **Prior to live commercial launch**, replace mock studio renders with high-resolution photography of physical production sample bags to comply with truthful advertising standards.
 
-## Active Generated Photography Inventory
+## Archived original generated photography inventory
 
 | File Path in Theme | Section / Location | Type | Aspect Ratio | Art Direction & Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| `assets/hero-lifestyle.jpg` | Hero & Brand Story | Editorial Campaign | 3:2 Landscape | Oatmeal cashmere overcoat, Paris courtyard, morning light, Bone calfskin bag |
-| `assets/packshot-front.jpg` | Spotlight Packshot & Thumbs | Product Packshot | 3:4 Portrait | Bone calfskin shoulder bag resting on warm honed travertine plinth |
-| `assets/detail-hardware.jpg` | Detail Close-ups & Thumbs | Macro Close-up | 1:1 Square | Brushed solid brass magnetic buckle clasp, wax-thread saddle stitching |
-| `assets/detail-interior.jpg` | What Fits & Detail Close-ups | Flat-lay Interior | 3:4 Portrait | Biscuit micro-suede lining, slip pocket, cardholder, brass keys, compact mirror |
-| `assets/color-lineup.jpg` | Archive / Campaign | Lineup Still Life | 16:9 Landscape | 4 tonal colorways: Bone, Warm Stone, Noir, and Clay on travertine bench |
-| `assets/model-wearing.jpg` | Spotlight Thumbs & Close-ups | Scale & Fit Editorial | 3:4 Portrait | Natural shoulder drape, ribcage tucked proportion, tailored coat styling |
-| `assets/craft-leather.jpg` | Why We Made It (Card 1) | Macro Texture | 1:1 Square | Drum-dyed Italian full-grain pebble calfskin leather texture in Bone |
-| `assets/craft-slouch.jpg` | Why We Made It (Card 2) | Editorial Still Life | 1/1 Square | Bag in relaxed architectural drape on limestone pedestal |
-| `assets/craft-stitching.jpg` | Why We Made It (Card 4) | Macro Needlecraft | 1:1 Square | Artisan saddle stitching with waxed thread on beveled leather edge |
-| `assets/packshot-stone.jpg` | Color Story & Spotlight | Product Packshot | 3:4 Portrait | The Demi Shoulder Bag in Warm Stone on honed travertine plinth |
-| `assets/packshot-noir.jpg` | Color Story & Spotlight | Product Packshot | 3:4 Portrait | The Demi Shoulder Bag in Noir on honed travertine plinth |
-| `assets/packshot-clay.jpg` | Color Story & Spotlight | Product Packshot | 3:4 Portrait | The Demi Shoulder Bag in Clay on honed travertine plinth |
+| `seed/legacy-images/hero-lifestyle.jpg` | Hero & Brand Story | Editorial Campaign | 3:2 Landscape | Oatmeal cashmere overcoat, Paris courtyard, morning light, Bone calfskin bag |
+| `seed/legacy-images/packshot-front.jpg` | Spotlight Packshot & Thumbs | Product Packshot | 3:4 Portrait | Bone calfskin shoulder bag resting on warm honed travertine plinth |
+| `seed/legacy-images/detail-hardware.jpg` | Detail Close-ups & Thumbs | Macro Close-up | 1:1 Square | Brushed solid brass magnetic buckle clasp, wax-thread saddle stitching |
+| `seed/legacy-images/detail-interior.jpg` | What Fits & Detail Close-ups | Flat-lay Interior | 3:4 Portrait | Biscuit micro-suede lining, slip pocket, cardholder, brass keys, compact mirror |
+| `seed/legacy-images/color-lineup.jpg` | Archive / Campaign | Lineup Still Life | 16:9 Landscape | 4 tonal colorways: Bone, Warm Stone, Noir, and Clay on travertine bench |
+| `seed/legacy-images/model-wearing.jpg` | Spotlight Thumbs & Close-ups | Scale & Fit Editorial | 3:4 Portrait | Natural shoulder drape, ribcage tucked proportion, tailored coat styling |
+| `seed/legacy-images/craft-leather.jpg` | Why We Made It (Card 1) | Macro Texture | 1:1 Square | Drum-dyed Italian full-grain pebble calfskin leather texture in Bone |
+| `seed/legacy-images/craft-slouch.jpg` | Why We Made It (Card 2) | Editorial Still Life | 1/1 Square | Bag in relaxed architectural drape on limestone pedestal |
+| `seed/legacy-images/craft-stitching.jpg` | Why We Made It (Card 4) | Macro Needlecraft | 1:1 Square | Artisan saddle stitching with waxed thread on beveled leather edge |
+| `seed/legacy-images/packshot-stone.jpg` | Color Story & Spotlight | Product Packshot | 3:4 Portrait | The Demi Shoulder Bag in Warm Stone on honed travertine plinth |
+| `seed/legacy-images/packshot-noir.jpg` | Color Story & Spotlight | Product Packshot | 3:4 Portrait | The Demi Shoulder Bag in Noir on honed travertine plinth |
+| `seed/legacy-images/packshot-clay.jpg` | Color Story & Spotlight | Product Packshot | 3:4 Portrait | The Demi Shoulder Bag in Clay on honed travertine plinth |
 
 ## Pre-Launch Replacement Checklist
 1. **Studio Packshots:** Shoot physical samples of all 4 colorways (Bone, Warm Stone, Noir, Clay) under consistent 5000K diffused daylight.
 2. **Hardware Macros:** Photograph actual production machined solid brass clasp and heat-stamped foil branding.
 3. **Packaging Unboxing:** Shoot physical organic cotton dust bag, embossed box, and thank-you card.
 4. **Physical Dimensions Verification:** Confirm measured weight (380g), strap drop (28cm), and volume against final manufacturing batch.
+## Stage (a): multi-product demo image registry
 
+56 new AI placeholders are saved in `seed/images/`; the original 12 assets above remain unchanged. These are testing assets, not production or customer photography. See [seed image log](seed/IMAGE-LOG.md), [prompts and references](seed/image-sources.json), and [image audit](seed/image-audit.json). Every new image is recorded below.
+
+| File | Use | Size | Reference files | Alt text |
+| --- | --- | --- | --- | --- |
+| [atelier-vane-demo-cove-shoulder-bag-bone-front.jpg](seed/images/atelier-vane-demo-cove-shoulder-bag-bone-front.jpg) | front | 1120 × 1400; 224.4 KB | Original generation | Cove shoulder bag in Bone, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-cove-shoulder-bag-bone-detail.jpg](seed/images/atelier-vane-demo-cove-shoulder-bag-bone-detail.jpg) | detail | 1120 × 1400; 263.6 KB | `atelier-vane-demo-cove-shoulder-bag-bone-front.jpg` | Cove shoulder bag in Bone, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-fold-shoulder-bag-taupe-front.jpg](seed/images/atelier-vane-demo-fold-shoulder-bag-taupe-front.jpg) | front | 1120 × 1400; 228.1 KB | Original generation | Fold shoulder bag in Taupe, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-fold-shoulder-bag-taupe-detail.jpg](seed/images/atelier-vane-demo-fold-shoulder-bag-taupe-detail.jpg) | detail | 1120 × 1400; 223.7 KB | `atelier-vane-demo-fold-shoulder-bag-taupe-front.jpg` | Fold shoulder bag in Taupe, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-drift-shoulder-bag-olive-front.jpg](seed/images/atelier-vane-demo-drift-shoulder-bag-olive-front.jpg) | front | 1120 × 1400; 293.3 KB | Original generation | Drift shoulder bag in Olive, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-drift-shoulder-bag-olive-detail.jpg](seed/images/atelier-vane-demo-drift-shoulder-bag-olive-detail.jpg) | detail | 1120 × 1400; 275.4 KB | `atelier-vane-demo-drift-shoulder-bag-olive-front.jpg` | Drift shoulder bag in Olive, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-arc-shoulder-bag-black-front.jpg](seed/images/atelier-vane-demo-arc-shoulder-bag-black-front.jpg) | front | 1120 × 1400; 228.8 KB | Original generation | Arc shoulder bag in Black, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-arc-shoulder-bag-black-detail.jpg](seed/images/atelier-vane-demo-arc-shoulder-bag-black-detail.jpg) | detail | 1120 × 1400; 271.6 KB | `atelier-vane-demo-arc-shoulder-bag-black-front.jpg` | Arc shoulder bag in Black, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-ledge-shoulder-bag-cognac-front.jpg](seed/images/atelier-vane-demo-ledge-shoulder-bag-cognac-front.jpg) | front | 1120 × 1400; 246.8 KB | Original generation | Ledge shoulder bag in Cognac, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-ledge-shoulder-bag-cognac-detail.jpg](seed/images/atelier-vane-demo-ledge-shoulder-bag-cognac-detail.jpg) | detail | 1120 × 1400; 284.2 KB | `atelier-vane-demo-ledge-shoulder-bag-cognac-front.jpg` | Ledge shoulder bag in Cognac, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-nest-shoulder-bag-bone-front.jpg](seed/images/atelier-vane-demo-nest-shoulder-bag-bone-front.jpg) | front | 1120 × 1400; 258.3 KB | Original generation | Nest shoulder bag in Bone, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-nest-shoulder-bag-bone-detail.jpg](seed/images/atelier-vane-demo-nest-shoulder-bag-bone-detail.jpg) | detail | 1120 × 1400; 237.4 KB | `atelier-vane-demo-nest-shoulder-bag-bone-front.jpg` | Nest shoulder bag in Bone, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-path-crossbody-bag-taupe-front.jpg](seed/images/atelier-vane-demo-path-crossbody-bag-taupe-front.jpg) | front | 1120 × 1400; 197.9 KB | Original generation | Path crossbody bag in Taupe, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-path-crossbody-bag-taupe-detail.jpg](seed/images/atelier-vane-demo-path-crossbody-bag-taupe-detail.jpg) | detail | 1120 × 1400; 243.2 KB | `atelier-vane-demo-path-crossbody-bag-taupe-front.jpg` | Path crossbody bag in Taupe, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-loop-crossbody-bag-olive-front.jpg](seed/images/atelier-vane-demo-loop-crossbody-bag-olive-front.jpg) | front | 1120 × 1400; 231.0 KB | Original generation | Loop crossbody bag in Olive, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-loop-crossbody-bag-olive-detail.jpg](seed/images/atelier-vane-demo-loop-crossbody-bag-olive-detail.jpg) | detail | 1120 × 1400; 260.6 KB | `atelier-vane-demo-loop-crossbody-bag-olive-front.jpg` | Loop crossbody bag in Olive, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-field-crossbody-bag-cognac-front.jpg](seed/images/atelier-vane-demo-field-crossbody-bag-cognac-front.jpg) | front | 1120 × 1400; 294.3 KB | Original generation | Field crossbody bag in Cognac, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-field-crossbody-bag-cognac-detail.jpg](seed/images/atelier-vane-demo-field-crossbody-bag-cognac-detail.jpg) | detail | 1120 × 1400; 269.6 KB | `atelier-vane-demo-field-crossbody-bag-cognac-front.jpg` | Field crossbody bag in Cognac, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-vale-crossbody-bag-black-front.jpg](seed/images/atelier-vane-demo-vale-crossbody-bag-black-front.jpg) | front | 1120 × 1400; 213.2 KB | Original generation | Vale crossbody bag in Black, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-vale-crossbody-bag-black-detail.jpg](seed/images/atelier-vane-demo-vale-crossbody-bag-black-detail.jpg) | detail | 1120 × 1400; 265.6 KB | `atelier-vane-demo-vale-crossbody-bag-black-front.jpg` | Vale crossbody bag in Black, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-plane-tote-bag-bone-front.jpg](seed/images/atelier-vane-demo-plane-tote-bag-bone-front.jpg) | front | 1120 × 1400; 204.7 KB | Original generation | Plane tote bag in Bone, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-plane-tote-bag-bone-detail.jpg](seed/images/atelier-vane-demo-plane-tote-bag-bone-detail.jpg) | detail | 1120 × 1400; 267.5 KB | `atelier-vane-demo-plane-tote-bag-bone-front.jpg` | Plane tote bag in Bone, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-gather-tote-bag-cognac-front.jpg](seed/images/atelier-vane-demo-gather-tote-bag-cognac-front.jpg) | front | 1120 × 1400; 299.3 KB | Original generation | Gather tote bag in Cognac, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-gather-tote-bag-cognac-detail.jpg](seed/images/atelier-vane-demo-gather-tote-bag-cognac-detail.jpg) | detail | 1120 × 1400; 298.8 KB | `atelier-vane-demo-gather-tote-bag-cognac-front.jpg` | Gather tote bag in Cognac, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-line-tote-bag-black-front.jpg](seed/images/atelier-vane-demo-line-tote-bag-black-front.jpg) | front | 1120 × 1400; 231.5 KB | Original generation | Line tote bag in Black, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-line-tote-bag-black-detail.jpg](seed/images/atelier-vane-demo-line-tote-bag-black-detail.jpg) | detail | 1120 × 1400; 289.9 KB | `atelier-vane-demo-line-tote-bag-black-front.jpg` | Line tote bag in Black, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-open-tote-bag-olive-front.jpg](seed/images/atelier-vane-demo-open-tote-bag-olive-front.jpg) | front | 1120 × 1400; 276.5 KB | Original generation | Open tote bag in Olive, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-open-tote-bag-olive-detail.jpg](seed/images/atelier-vane-demo-open-tote-bag-olive-detail.jpg) | detail | 1120 × 1400; 275.2 KB | `atelier-vane-demo-open-tote-bag-olive-front.jpg` | Open tote bag in Olive, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-dusk-clutch-black-front.jpg](seed/images/atelier-vane-demo-dusk-clutch-black-front.jpg) | front | 1120 × 1400; 228.3 KB | Original generation | Dusk clutch in Black, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-dusk-clutch-black-detail.jpg](seed/images/atelier-vane-demo-dusk-clutch-black-detail.jpg) | detail | 1120 × 1400; 279.3 KB | `atelier-vane-demo-dusk-clutch-black-front.jpg` | Dusk clutch in Black, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-petal-mini-bag-bone-front.jpg](seed/images/atelier-vane-demo-petal-mini-bag-bone-front.jpg) | front | 1120 × 1400; 217.2 KB | Original generation | Petal mini bag in Bone, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-petal-mini-bag-bone-detail.jpg](seed/images/atelier-vane-demo-petal-mini-bag-bone-detail.jpg) | detail | 1120 × 1400; 291.6 KB | `atelier-vane-demo-petal-mini-bag-bone-front.jpg` | Petal mini bag in Bone, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-frame-mini-bag-taupe-front.jpg](seed/images/atelier-vane-demo-frame-mini-bag-taupe-front.jpg) | front | 1120 × 1400; 191.7 KB | Original generation | Frame mini bag in Taupe, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-frame-mini-bag-taupe-detail.jpg](seed/images/atelier-vane-demo-frame-mini-bag-taupe-detail.jpg) | detail | 1120 × 1400; 278.9 KB | `atelier-vane-demo-frame-mini-bag-taupe-front.jpg` | Frame mini bag in Taupe, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-slip-cardholder-bone-front.jpg](seed/images/atelier-vane-demo-slip-cardholder-bone-front.jpg) | front | 1120 × 1400; 243.8 KB | Original generation | Slip cardholder in Bone, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-slip-cardholder-bone-detail.jpg](seed/images/atelier-vane-demo-slip-cardholder-bone-detail.jpg) | detail | 1120 × 1400; 279.9 KB | `atelier-vane-demo-slip-cardholder-bone-front.jpg` | Slip cardholder in Bone, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-turn-wallet-cognac-front.jpg](seed/images/atelier-vane-demo-turn-wallet-cognac-front.jpg) | front | 1120 × 1400; 249.8 KB | Original generation | Turn wallet in Cognac, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-turn-wallet-cognac-detail.jpg](seed/images/atelier-vane-demo-turn-wallet-cognac-detail.jpg) | detail | 1120 × 1400; 276.2 KB | `atelier-vane-demo-turn-wallet-cognac-front.jpg` | Turn wallet in Cognac, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-keep-zip-wallet-black-front.jpg](seed/images/atelier-vane-demo-keep-zip-wallet-black-front.jpg) | front | 1120 × 1400; 184.7 KB | Original generation | Keep zip wallet in Black, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-keep-zip-wallet-black-detail.jpg](seed/images/atelier-vane-demo-keep-zip-wallet-black-detail.jpg) | detail | 1120 × 1400; 226.5 KB | `atelier-vane-demo-keep-zip-wallet-black-front.jpg` | Keep zip wallet in Black, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-reach-shoulder-strap-taupe-front.jpg](seed/images/atelier-vane-demo-reach-shoulder-strap-taupe-front.jpg) | front | 1120 × 1400; 274.2 KB | Original generation | Reach shoulder strap in Taupe, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-reach-shoulder-strap-taupe-detail.jpg](seed/images/atelier-vane-demo-reach-shoulder-strap-taupe-detail.jpg) | detail | 1120 × 1400; 299.5 KB | `atelier-vane-demo-reach-shoulder-strap-taupe-front.jpg` | Reach shoulder strap in Taupe, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-pebble-bag-charm-cognac-front.jpg](seed/images/atelier-vane-demo-pebble-bag-charm-cognac-front.jpg) | front | 1120 × 1400; 230.7 KB | Original generation | Pebble bag charm in Cognac, front view; AI-generated demo placeholder |
+| [atelier-vane-demo-pebble-bag-charm-cognac-detail.jpg](seed/images/atelier-vane-demo-pebble-bag-charm-cognac-detail.jpg) | detail | 1120 × 1400; 283.5 KB | `atelier-vane-demo-pebble-bag-charm-cognac-front.jpg` | Pebble bag charm in Cognac, detail view; AI-generated demo placeholder |
+| [atelier-vane-demo-shoulder-bags-banner.jpg](seed/images/atelier-vane-demo-shoulder-bags-banner.jpg) | banner | 1536 × 1024; 264.4 KB | `atelier-vane-demo-cove-shoulder-bag-bone-front.jpg`; `atelier-vane-demo-fold-shoulder-bag-taupe-front.jpg`; `atelier-vane-demo-arc-shoulder-bag-black-front.jpg` | Atelier Vane shoulder bags collection; AI-generated demo placeholder |
+| [atelier-vane-demo-crossbody-bags-banner.jpg](seed/images/atelier-vane-demo-crossbody-bags-banner.jpg) | banner | 1536 × 1024; 234.2 KB | `atelier-vane-demo-path-crossbody-bag-taupe-front.jpg`; `atelier-vane-demo-field-crossbody-bag-cognac-front.jpg` | Atelier Vane crossbody bags collection; AI-generated demo placeholder |
+| [atelier-vane-demo-tote-bags-banner.jpg](seed/images/atelier-vane-demo-tote-bags-banner.jpg) | banner | 1536 × 1024; 235.4 KB | `atelier-vane-demo-plane-tote-bag-bone-front.jpg`; `atelier-vane-demo-line-tote-bag-black-front.jpg` | Atelier Vane tote bags collection; AI-generated demo placeholder |
+| [atelier-vane-demo-mini-and-clutch-bags-banner.jpg](seed/images/atelier-vane-demo-mini-and-clutch-bags-banner.jpg) | banner | 1536 × 1024; 259.8 KB | `atelier-vane-demo-dusk-clutch-black-front.jpg`; `atelier-vane-demo-petal-mini-bag-bone-front.jpg`; `atelier-vane-demo-frame-mini-bag-taupe-front.jpg` | Atelier Vane mini and clutch bags collection; AI-generated demo placeholder |
+| [atelier-vane-demo-wallets-and-cardholders-banner.jpg](seed/images/atelier-vane-demo-wallets-and-cardholders-banner.jpg) | banner | 1536 × 1024; 288.2 KB | `atelier-vane-demo-slip-cardholder-bone-front.jpg`; `atelier-vane-demo-turn-wallet-cognac-front.jpg`; `atelier-vane-demo-keep-zip-wallet-black-front.jpg` | Atelier Vane wallets and cardholders collection; AI-generated demo placeholder |
+| [atelier-vane-demo-accessories-banner.jpg](seed/images/atelier-vane-demo-accessories-banner.jpg) | banner | 1536 × 1024; 295.2 KB | `atelier-vane-demo-reach-shoulder-strap-taupe-front.jpg`; `atelier-vane-demo-pebble-bag-charm-cognac-front.jpg` | Atelier Vane accessories collection; AI-generated demo placeholder |
+| [atelier-vane-demo-collection-hero.jpg](seed/images/atelier-vane-demo-collection-hero.jpg) | hero | 1536 × 1024; 283.5 KB | `atelier-vane-demo-cove-shoulder-bag-bone-front.jpg` | Editorial model carrying the Bone Cove shoulder bag in a warm limestone courtyard; AI-generated demo placeholder |
+| [atelier-vane-demo-lifestyle-shoulder.jpg](seed/images/atelier-vane-demo-lifestyle-shoulder.jpg) | lifestyle | 1536 × 1024; 249.8 KB | `atelier-vane-demo-cove-shoulder-bag-bone-front.jpg` | Cove shoulder bag styled with neutral clothing; AI-generated demo placeholder |
+| [atelier-vane-demo-lifestyle-work.jpg](seed/images/atelier-vane-demo-lifestyle-work.jpg) | lifestyle | 1536 × 1024; 284.1 KB | `atelier-vane-demo-plane-tote-bag-bone-front.jpg`; `atelier-vane-demo-turn-wallet-cognac-front.jpg` | Plane tote styled beside a notebook in a warm interior; AI-generated demo placeholder |
+| [atelier-vane-demo-lifestyle-evening.jpg](seed/images/atelier-vane-demo-lifestyle-evening.jpg) | lifestyle | 1536 × 1024; 282.1 KB | `atelier-vane-demo-dusk-clutch-black-front.jpg`; `atelier-vane-demo-frame-mini-bag-taupe-front.jpg` | Dusk clutch styled for an understated evening; AI-generated demo placeholder |
+| [atelier-vane-demo-new-arrivals-banner.jpg](seed/images/atelier-vane-demo-new-arrivals-banner.jpg) | banner | 1536 × 1024; 231.5 KB | `atelier-vane-demo-cove-shoulder-bag-bone-front.jpg`; `atelier-vane-demo-path-crossbody-bag-taupe-front.jpg`; `atelier-vane-demo-slip-cardholder-bone-front.jpg` | Atelier Vane new arrivals collection; AI-generated demo placeholder |
+| [atelier-vane-demo-featured-banner.jpg](seed/images/atelier-vane-demo-featured-banner.jpg) | banner | 1536 × 1024; 242.7 KB | `atelier-vane-demo-arc-shoulder-bag-black-front.jpg`; `atelier-vane-demo-plane-tote-bag-bone-front.jpg`; `atelier-vane-demo-pebble-bag-charm-cognac-front.jpg` | Atelier Vane featured collection; AI-generated demo placeholder |
+
+## Final storefront derivatives
+
+The homepage uses compressed WebP derivatives of three already logged AI images; no new images were generated in stages (d)–(g). Hero: `seed/images/atelier-vane-demo-collection-hero.jpg`; story: `seed/images/atelier-vane-demo-lifestyle-shoulder.jpg`; shop the look: `seed/images/atelier-vane-demo-lifestyle-work.jpg`. Their original prompts and reference provenance remain in `seed/image-sources.json`.
+
+Theme assets: `assets/demo-hero.webp` (98,180 bytes), `assets/demo-story.webp` (76,710 bytes), `assets/demo-look.webp` (105,172 bytes), plus responsive `demo-hero-{750,1100,1600}.webp`, `demo-story-{480,750,1200}.webp` and `demo-look-{480,900,1600}.webp`. These are format/size derivatives, all <=1600px and <300KB. They are AI placeholders to replace with real photography or image-picker selections.
+
+The original 12 single-product JPEG assets and the three intermediate demo JPEG copies are archived in `seed/legacy-images/`; they are excluded from the theme ZIP and upload. Original log entries are retained for provenance.

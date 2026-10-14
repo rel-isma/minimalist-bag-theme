@@ -12,9 +12,8 @@
     "body_font": "assistant_n4",
     "page_width": 1320,
     "brand_name": "Atelier Vane",
-    "product_name": "The Demi Shoulder Bag",
     "cart_type": "drawer",
-    "free_shipping_threshold": 150,
+    "free_shipping_threshold": 0,
     "enable_cart_notes": true
   }
 }

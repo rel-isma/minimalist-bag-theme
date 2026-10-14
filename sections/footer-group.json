@@ -5,8 +5,9 @@
     "footer": {
       "type": "footer",
       "settings": {
-        "brand_bio": "Designed in pursuit of quiet luxury and intentional form. One archetype, refined until nothing remains to subtract.",
-        "newsletter_subtext": "Occasional atelier notes and limited batch notifications. Never spam.",
+        "menu": "footer",
+        "brand_bio": "Considered bags and everyday essentials. Calm colors, thoughtful proportions.",
+        "newsletter_subtext": "Product updates and occasional studio notes.",
         "show_payment_icons": true
       }
     }

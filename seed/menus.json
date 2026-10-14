@@ -1,0 +1,152 @@
+[
+  {
+    "handle": "main-menu",
+    "title": "Main menu",
+    "items": [
+      {
+        "title": "Shop",
+        "type": "HTTP",
+        "url": "/collections/all",
+        "items": [
+          {
+            "title": "Shoulder bags",
+            "type": "COLLECTION",
+            "handle": "shoulder-bags"
+          },
+          {
+            "title": "Crossbody bags",
+            "type": "COLLECTION",
+            "handle": "crossbody-bags"
+          },
+          {
+            "title": "Tote bags",
+            "type": "COLLECTION",
+            "handle": "tote-bags"
+          },
+          {
+            "title": "Mini and clutch bags",
+            "type": "COLLECTION",
+            "handle": "mini-and-clutch-bags"
+          },
+          {
+            "title": "Wallets and cardholders",
+            "type": "COLLECTION",
+            "handle": "wallets-and-cardholders"
+          },
+          {
+            "title": "Accessories",
+            "type": "COLLECTION",
+            "handle": "accessories"
+          }
+        ]
+      },
+      {
+        "title": "New arrivals",
+        "type": "COLLECTION",
+        "handle": "new-arrivals"
+      },
+      {
+        "title": "Story",
+        "type": "PAGE",
+        "handle": "story"
+      },
+      {
+        "title": "Contact",
+        "type": "PAGE",
+        "handle": "contact"
+      }
+    ]
+  },
+  {
+    "handle": "footer",
+    "title": "Footer",
+    "items": [
+      {
+        "title": "Shop",
+        "type": "HTTP",
+        "url": "/collections/all",
+        "items": [
+          {
+            "title": "Shoulder bags",
+            "type": "COLLECTION",
+            "handle": "shoulder-bags"
+          },
+          {
+            "title": "Crossbody bags",
+            "type": "COLLECTION",
+            "handle": "crossbody-bags"
+          },
+          {
+            "title": "Tote bags",
+            "type": "COLLECTION",
+            "handle": "tote-bags"
+          },
+          {
+            "title": "Mini and clutch bags",
+            "type": "COLLECTION",
+            "handle": "mini-and-clutch-bags"
+          },
+          {
+            "title": "Wallets and cardholders",
+            "type": "COLLECTION",
+            "handle": "wallets-and-cardholders"
+          },
+          {
+            "title": "Accessories",
+            "type": "COLLECTION",
+            "handle": "accessories"
+          }
+        ]
+      },
+      {
+        "title": "Help",
+        "type": "PAGE",
+        "handle": "faq",
+        "items": [
+          {
+            "title": "FAQ",
+            "type": "PAGE",
+            "handle": "faq"
+          },
+          {
+            "title": "Contact",
+            "type": "PAGE",
+            "handle": "contact"
+          },
+          {
+            "title": "Shipping and returns",
+            "type": "PAGE",
+            "handle": "shipping-returns"
+          }
+        ]
+      },
+      {
+        "title": "Policies",
+        "type": "PAGE",
+        "handle": "shipping-returns",
+        "items": [
+          {
+            "title": "Shipping and returns",
+            "type": "PAGE",
+            "handle": "shipping-returns"
+          },
+          {
+            "title": "Privacy policy",
+            "type": "HTTP",
+            "url": "/policies/privacy-policy"
+          },
+          {
+            "title": "Terms of service",
+            "type": "HTTP",
+            "url": "/policies/terms-of-service"
+          },
+          {
+            "title": "Refund policy",
+            "type": "HTTP",
+            "url": "/policies/refund-policy"
+          }
+        ]
+      }
+    ]
+  }
+]

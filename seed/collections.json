@@ -1,0 +1,138 @@
+[
+  {
+    "handle": "shoulder-bags",
+    "title": "Shoulder bags",
+    "description": "A considered edit of shoulder bags from Atelier Vane. This collection contains illustrative demo products for development testing. Replace imagery and specifications before launch.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "shoulder-bag"
+        }
+      ]
+    },
+    "image": "atelier-vane-demo-shoulder-bags-banner.jpg",
+    "alt": "Atelier Vane shoulder bags collection; AI-generated demo placeholder"
+  },
+  {
+    "handle": "crossbody-bags",
+    "title": "Crossbody bags",
+    "description": "A considered edit of crossbody bags from Atelier Vane. This collection contains illustrative demo products for development testing. Replace imagery and specifications before launch.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "crossbody-bag"
+        }
+      ]
+    },
+    "image": "atelier-vane-demo-crossbody-bags-banner.jpg",
+    "alt": "Atelier Vane crossbody bags collection; AI-generated demo placeholder"
+  },
+  {
+    "handle": "tote-bags",
+    "title": "Tote bags",
+    "description": "A considered edit of tote bags from Atelier Vane. This collection contains illustrative demo products for development testing. Replace imagery and specifications before launch.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "tote-bag"
+        }
+      ]
+    },
+    "image": "atelier-vane-demo-tote-bags-banner.jpg",
+    "alt": "Atelier Vane tote bags collection; AI-generated demo placeholder"
+  },
+  {
+    "handle": "mini-and-clutch-bags",
+    "title": "Mini and clutch bags",
+    "description": "A considered edit of mini and clutch bags from Atelier Vane. This collection contains illustrative demo products for development testing. Replace imagery and specifications before launch.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "mini-bag"
+        }
+      ]
+    },
+    "image": "atelier-vane-demo-mini-and-clutch-bags-banner.jpg",
+    "alt": "Atelier Vane mini and clutch bags collection; AI-generated demo placeholder"
+  },
+  {
+    "handle": "wallets-and-cardholders",
+    "title": "Wallets and cardholders",
+    "description": "A considered edit of wallets and cardholders from Atelier Vane. This collection contains illustrative demo products for development testing. Replace imagery and specifications before launch.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "wallet"
+        }
+      ]
+    },
+    "image": "atelier-vane-demo-wallets-and-cardholders-banner.jpg",
+    "alt": "Atelier Vane wallets and cardholders collection; AI-generated demo placeholder"
+  },
+  {
+    "handle": "accessories",
+    "title": "Accessories",
+    "description": "A considered edit of accessories from Atelier Vane. This collection contains illustrative demo products for development testing. Replace imagery and specifications before launch.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "accessory"
+        }
+      ]
+    },
+    "image": "atelier-vane-demo-accessories-banner.jpg",
+    "alt": "Atelier Vane accessories collection; AI-generated demo placeholder"
+  },
+  {
+    "handle": "new-arrivals",
+    "title": "New arrivals",
+    "description": "A considered edit of new arrivals from Atelier Vane. This collection contains illustrative demo products for development testing. Replace imagery and specifications before launch.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "new-arrival"
+        }
+      ]
+    },
+    "image": "atelier-vane-demo-new-arrivals-banner.jpg",
+    "alt": "Atelier Vane new arrivals collection; AI-generated demo placeholder"
+  },
+  {
+    "handle": "featured",
+    "title": "Featured",
+    "description": "A considered edit of featured from Atelier Vane. This collection contains illustrative demo products for development testing. Replace imagery and specifications before launch.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "featured"
+        }
+      ]
+    },
+    "image": "atelier-vane-demo-featured-banner.jpg",
+    "alt": "Atelier Vane featured collection; AI-generated demo placeholder"
+  }
+]

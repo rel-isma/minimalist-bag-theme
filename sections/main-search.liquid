@@ -1,51 +1,27 @@
-<section class="main-search-section section-spacing hairline-bottom">
-  <div class="container container--narrow">
-    <header class="section-header text-center fade-up">
-      <h1 class="section-heading">{{ 'general.search' | t }}</h1>
-    </header>
-
-    <form action="{{ routes.search_url }}" method="get" role="search" class="search-form fade-up" style="max-width: 500px; margin: 0 auto 3rem auto; display: flex; gap: 0.5rem;">
-      <label for="Search-Input" class="visually-hidden">{{ 'general.search' | t }}</label>
-      <input
-        type="search"
-        id="Search-Input"
-        name="q"
-        value="{{ search.terms | escape }}"
-        placeholder="Search our atelier..."
-        class="form-input"
-      >
-      <button type="submit" class="btn btn--primary" style="min-width: 100px;">
-        Search
-      </button>
-    </form>
-
+<section class="main-search-section section-spacing hairline-bottom" data-search-page>
+  <div class="container">
+    <header class="section-header text-center"><h1 class="section-heading">Search the atelier</h1></header>
+    <div class="search-page-form">{%- assign search_input_id = 'SearchInput-' | append: section.id -%}{% render 'search-form', input_id: search_input_id, predictive: section.settings.enable_predictive_search %}</div>
     {%- if search.performed -%}
-      {%- if search.results_count == 0 -%}
-        <div class="text-center fade-up" style="padding: 2rem 0;">
-          <p class="text-muted" style="margin-bottom: 2rem;">No results found for &ldquo;{{ search.terms }}&rdquo;.</p>
-          <a href="{{ routes.root_url }}#ProductSpotlight" class="btn btn--secondary">Discover The Shoulder Bag</a>
-        </div>
-      {%- else -%}
-        <div class="search-results-list fade-up">
+      <p class="search-page-count" role="status">{{ search.results_count }} {% if search.results_count == 1 %}result{% else %}results{% endif %} for “{{ search.terms | escape }}”</p>
+      {%- paginate search.results by section.settings.results_per_page -%}
+        <div class="search-page-grid">
           {%- for item in search.results -%}
-            <div style="padding: 1.5rem 0; border-bottom: var(--border-hairline);">
-              <h2 class="font-heading" style="font-size: 1.25rem; margin-bottom: 0.5rem;">
-                <a href="{{ item.url }}">{{ item.title | escape }}</a>
-              </h2>
-              <p class="text-muted" style="font-size: 0.875rem;">
-                {{ item.content | strip_html | truncatewords: 30 }}
-              </p>
-            </div>
+            {%- if item.object_type == 'product' -%}
+              {%- assign eager = false -%}{%- if forloop.index <= 2 -%}{%- assign eager = true -%}{%- endif -%}
+              {% render 'product-card', product: item, section_id: section.id, card_index: forloop.index, eager: eager %}
+            {%- else -%}
+              <article class="search-page-card"><p class="eyebrow">Page</p><h2 class="font-heading"><a href="{{ item.url }}">{{ item.title | escape }}</a></h2><p class="text-muted">{{ item.content | strip_html | truncatewords: 30 | escape }}</p><a class="btn btn--link" href="{{ item.url }}">Read more<span class="visually-hidden"> — {{ item.title | escape }}</span></a></article>
+            {%- endif -%}
+          {%- else -%}
+            <div class="collection-empty"><h2 class="font-heading">No results found</h2><p class="text-muted">Try a product name, color, or a simpler search.</p><a class="btn btn--secondary" href="{{ routes.all_products_collection_url }}">Browse all products</a></div>
           {%- endfor -%}
         </div>
-      {%- endif -%}
-    {%- endif -%}
+        {% if paginate.pages > 1 %}<nav class="collection-pagination" aria-label="Pagination">{% if paginate.previous %}<a href="{{ paginate.previous.url }}">Previous</a>{% endif %}{% assign current_page_string = paginate.current_page | append: '' %}{% for part in paginate.parts %}{% assign part_title_string = part.title | append: '' %}{% if part.is_link %}<a href="{{ part.url }}" aria-label="Page {{ part.title }}">{{ part.title }}</a>{% elsif part_title_string == current_page_string %}<span aria-current="page" aria-label="Page {{ part.title }}">{{ part.title }}</span>{% else %}<span>{{ part.title }}</span>{% endif %}{% endfor %}{% if paginate.next %}<a href="{{ paginate.next.url }}">Next</a>{% endif %}</nav>{% endif %}
+      {%- endpaginate -%}
+    {%- else -%}<p class="text-center text-muted">Explore products and stories from our atelier.</p>{%- endif -%}
   </div>
 </section>
-
 {% schema %}
-{
-  "name": "Search",
-  "settings": []
-}
+{"name":"Search","settings":[{"type":"checkbox","id":"enable_predictive_search","label":"Enable predictive search","default":true},{"type":"range","id":"results_per_page","label":"Results per page","min":4,"max":48,"step":4,"default":12}]}
 {% endschema %}

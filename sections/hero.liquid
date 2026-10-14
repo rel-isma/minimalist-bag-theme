@@ -14,22 +14,24 @@
         {%- endif -%}
         {{
           section.settings.image
-          | image_url: width: 2400
+          | image_url: width: 1600
           | image_tag:
             loading: 'eager',
             fetchpriority: 'high',
             sizes: '100vw',
-            widths: '750, 1100, 1500, 1920, 2400',
+            widths: '480, 750, 1100, 1600',
             class: 'hero-section__image',
             alt: section.settings.heading
         }}
       </picture>
     {%- else -%}
       <img
-        src="{{ 'hero-lifestyle.jpg' | asset_url }}"
+        src="{{ 'demo-hero-1100.webp' | asset_url }}"
+        srcset="{{ 'demo-hero-750.webp' | asset_url }} 750w, {{ 'demo-hero-1100.webp' | asset_url }} 1100w, {{ 'demo-hero-1600.webp' | asset_url }} 1600w"
+        sizes="100vw"
         alt="{{ section.settings.heading | escape }}"
-        width="2400"
-        height="1440"
+        width="1600"
+        height="1067"
         loading="eager"
         fetchpriority="high"
         class="hero-section__image"
@@ -39,7 +41,7 @@
   </div>
 
   <div class="container hero-section__content-container">
-    <div class="hero-section__content text-center fade-up">
+    <div class="hero-section__content text-center">
       {%- if section.settings.eyebrow != blank -%}
         <p class="eyebrow hero-section__eyebrow">{{ section.settings.eyebrow | escape }}</p>
       {%- endif -%}
@@ -56,7 +58,7 @@
 
       {%- if section.settings.button_label != blank -%}
         <div class="hero-section__cta">
-          <a href="{{ section.settings.button_link | default: '#ProductSpotlight' }}" class="btn btn--primary">
+          <a href="{{ section.settings.button_link | default: routes.all_products_collection_url }}" class="btn btn--primary">
             {{ section.settings.button_label | escape }}
           </a>
         </div>
@@ -87,7 +89,7 @@
       "step": 5,
       "unit": "%",
       "label": "Overlay opacity",
-      "default": 25
+      "default": 60
     },
     {
       "type": "checkbox",
@@ -99,25 +101,25 @@
       "type": "text",
       "id": "eyebrow",
       "label": "Eyebrow label",
-      "default": "The Minimalist Shoulder Bag"
+      "default": "Bags and everyday essentials"
     },
     {
       "type": "text",
       "id": "heading",
       "label": "Heading",
-      "default": "Quietly Essential. Built to Outlast the Season."
+      "default": "Quietly essential."
     },
     {
       "type": "text",
       "id": "subhead",
       "label": "Subheading",
-      "default": "Sculpted in full-grain leather with uncluttered lines. An archetype refined for daily elegance."
+      "default": "Considered shapes for the things you carry."
     },
     {
       "type": "text",
       "id": "button_label",
       "label": "Button label",
-      "default": "Explore The Bag"
+      "default": "Explore the collection"
     },
     {
       "type": "url",

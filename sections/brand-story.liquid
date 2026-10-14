@@ -6,11 +6,13 @@
           {{
             section.settings.image
             | image_url: width: 1200
-            | image_tag: loading: 'lazy', class: 'brand-story__image', alt: section.settings.heading
+            | image_tag: loading: 'lazy', widths: '480, 750, 1200', sizes: '(min-width: 990px) 50vw, 100vw', class: 'brand-story__image', alt: section.settings.heading
           }}
         {%- else -%}
           <img
-            src="{{ 'model-wearing.jpg' | asset_url }}"
+            src="{{ 'demo-story-750.webp' | asset_url }}"
+            srcset="{{ 'demo-story-480.webp' | asset_url }} 480w, {{ 'demo-story-750.webp' | asset_url }} 750w, {{ 'demo-story-1200.webp' | asset_url }} 1200w"
+            sizes="(min-width: 990px) 50vw, 100vw"
             alt="{{ section.settings.heading | escape }}"
             class="brand-story__image"
             width="1200"
@@ -50,19 +52,19 @@
       "type": "text",
       "id": "eyebrow",
       "label": "Eyebrow",
-      "default": "Our Philosophy"
+      "default": "Our philosophy"
     },
     {
       "type": "text",
       "id": "heading",
       "label": "Heading",
-      "default": "Fewer, Better Things."
+      "default": "Fewer, better things."
     },
     {
       "type": "richtext",
       "id": "story_text",
       "label": "Story copy",
-      "default": "<p>We founded our studio on a single conviction: modern wardrobes do not need dozens of seasonal bags that quickly date and discard. They need one archetype, resolved so thoroughly in its proportion, feel, and durability that you reach for it without hesitation every morning.</p><p>We bypassed traditional wholesale markups and retail licensing to invest directly where it matters—in full-grain hides, hand-painted edge dyes, and solid brass components meant to outlast trends.</p>"
+      "default": "<p>Our starting point is simple: considered proportions, calm colors, and room for everyday essentials. Atelier Vane explores bags and small accessories that sit naturally within a thoughtful wardrobe.</p><p>This development collection is a design study. Real materials, construction and specifications will be shared when each piece is ready.</p>"
     },
     {
       "type": "image_picker",
@@ -73,13 +75,13 @@
       "type": "text",
       "id": "signoff_name",
       "label": "Sign-off name",
-      "default": "Atelier Studio"
+      "default": "Atelier Vane Studio"
     },
     {
       "type": "text",
       "id": "signoff_title",
       "label": "Sign-off title",
-      "default": "Design & Craftsmanship"
+      "default": "Design and proportion"
     }
   ],
   "presets": [

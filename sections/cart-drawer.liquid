@@ -2,6 +2,10 @@
   id="CartDrawer"
   class="cart-drawer"
   data-cart-drawer
+  data-cart-url="{{ routes.cart_url }}"
+  data-change-url="{{ routes.cart_change_url }}"
+  data-update-url="{{ routes.cart_update_url }}"
+  inert
   aria-hidden="true"
   role="dialog"
   aria-modal="true"
@@ -16,7 +20,7 @@
     <div class="cart-drawer__header">
       <div class="cart-drawer__title-wrap">
         <h2 class="cart-drawer__title font-heading">{{ 'sections.cart.title' | t }}</h2>
-        <span class="cart-drawer__count-badge" data-cart-drawer-count aria-label="{{ cart.item_count }} items">
+        <span class="cart-drawer__count-badge" data-cart-drawer-count data-item-count="{{ cart.item_count }}" aria-label="{{ cart.item_count }} items">
           ({{ cart.item_count }})
         </span>
       </div>
@@ -35,6 +39,7 @@
       {%- render 'free-shipping-bar', cart: cart -%}
     </div>
 
+    <p class="cart-error catalog-status" data-cart-error role="status" aria-live="polite"></p>
     <!-- Line Items List -->
     <div class="cart-drawer__body" data-cart-drawer-items>
       {%- if cart.empty? -%}
@@ -43,24 +48,23 @@
             {{ 'sections.cart.empty' | t }}
           </p>
           <p class="text-muted" style="font-size: 0.9375rem; margin-bottom: 2rem;">
-            Discover our single minimalist archetype in full-grain leather.
+            Explore bags and everyday essentials.
           </p>
-          <a href="#ProductSpotlight" class="btn btn--secondary" data-cart-drawer-close>
+          <a href="{{ routes.all_products_collection_url }}" class="btn btn--secondary" data-cart-drawer-close>
             {{ 'sections.cart.continue_shopping' | t }}
           </a>
         </div>
       {%- else -%}
         <div class="cart-drawer__items-list">
           {%- for item in cart.items -%}
-            {%- render 'cart-item', item: item -%}
+            {%- render 'cart-item', item: item, scope: section.id -%}
           {%- endfor -%}
         </div>
       {%- endif -%}
     </div>
 
     <!-- Drawer Footer (Subtotal & Checkout) -->
-    {%- unless cart.empty? -%}
-      <div class="cart-drawer__footer" data-cart-drawer-footer>
+      <div class="cart-drawer__footer" data-cart-drawer-footer {% if cart.empty? %}style="display: none;"{% endif %}>
         {%- if settings.enable_cart_notes -%}
           <details class="cart-drawer__note-accordion">
             <summary class="cart-drawer__note-summary">
@@ -76,7 +80,7 @@
                 rows="2"
                 placeholder="Special instructions or gift message..."
                 data-cart-note
-              >{{ cart.note }}</textarea>
+              >{{ cart.note | escape }}</textarea>
             </div>
           </details>
         {%- endif -%}
@@ -104,7 +108,6 @@
           </button>
         </form>
       </div>
-    {%- endunless -%}
   </div>
 </div>
 

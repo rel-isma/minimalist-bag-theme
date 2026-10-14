@@ -1,67 +1,62 @@
-<section class="main-collection-section section-spacing hairline-bottom">
+{%- liquid
+  assign sort_by = collection.sort_by | default: collection.default_sort_by
+  assign grid_columns = settings.collection_grid_columns | default: '3'
+  assign active_count = 0
+  for filter in collection.filters
+    assign active_count = active_count | plus: filter.active_values.size
+    if filter.type == 'price_range'
+      if filter.min_value.value != nil or filter.max_value.value != nil
+        assign active_count = active_count | plus: 1
+      endif
+    endif
+  endfor
+-%}
+<section class="main-collection-section section-spacing hairline-bottom" data-collection-section style="--collection-columns: {{ grid_columns }};">
   <div class="container">
-    <header class="section-header text-center fade-up">
-      <p class="eyebrow">{{ settings.brand_name | default: 'Our Atelier' }}</p>
-      <h1 class="section-heading">{{ collection.title | default: 'The Collection' | escape }}</h1>
-      {%- if collection.description != blank -%}
-        <div class="text-muted prose" style="margin: 0 auto;">
-          {{ collection.description }}
-        </div>
-      {%- endif -%}
+    <nav class="collection-breadcrumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span aria-hidden="true">/</span><a href="{{ routes.collections_url }}">Collections</a><span aria-hidden="true">/</span><span aria-current="page">{{ collection.title | default: 'Collection' | escape }}</span></nav>
+    <header class="collection-banner{% if section.settings.show_image and collection.image != blank %} collection-banner--with-image{% endif %}">
+      <div><p class="eyebrow">{{ settings.brand_name | escape }}</p><h1 class="section-heading">{{ collection.title | default: 'Collection' | escape }}</h1>{% if section.settings.show_description and collection.description != blank %}<div class="prose text-muted">{{ collection.description }}</div>{% endif %}</div>
+      {%- if section.settings.show_image and collection.image != blank -%}{{ collection.image | image_url: width: 1600 | image_tag: loading: 'eager', widths: '480, 720, 1000, 1600', sizes: '(min-width: 750px) 50vw, 100vw', class: 'collection-banner__image' }}{%- endif -%}
     </header>
-
-    <div class="collection-products-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 3rem; max-width: 900px; margin: 0 auto;">
-      {%- for product in collection.products -%}
-        <div class="collection-product-card text-center fade-up">
-          <div style="aspect-ratio: 4/5; background: var(--color-surface); margin-bottom: 1.5rem; overflow: hidden; border-radius: var(--radius-sm);">
-            {%- if product.featured_media != blank -%}
-              <a href="{{ product.url }}">
-                {{
-                  product.featured_media
-                  | image_url: width: 800
-                  | image_tag: loading: 'lazy', alt: product.title, style: 'width: 100%; height: 100%; object-fit: cover;'
-                }}
-              </a>
-            {%- else -%}
-              <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
-                <span class="label-caps">The Shoulder Bag</span>
-              </div>
-            {%- endif -%}
+    {%- paginate collection.products by section.settings.products_per_page -%}
+      <div class="collection-toolbar">
+        <p role="status">{{ collection.products_count }} {% if collection.products_count == 1 %}product{% else %}products{% endif %}</p>
+        {%- if collection.filters != blank -%}<button type="button" class="btn btn--secondary collection-filter-toggle" data-filter-open>Filters{% if active_count > 0 %} ({{ active_count }}){% endif %}</button>{%- endif -%}
+        <div class="collection-sort"><label for="Sort-{{ section.id }}">Sort by</label><select class="form-input" name="sort_by" id="Sort-{{ section.id }}" form="CollectionFilters-{{ section.id }}" data-collection-sort>{% for option in collection.sort_options %}<option value="{{ option.value | escape }}" {% if option.value == sort_by %}selected{% endif %}>{{ option.name | escape }}</option>{% endfor %}</select><button class="btn btn--link collection-sort-submit" type="submit" form="CollectionFilters-{{ section.id }}">Apply sorting</button></div>
+        <div class="collection-density" role="group" aria-label="Products per row">{% for columns in (2..4) %}{% assign columns_string = columns | append: '' %}<button type="button" data-grid-columns="{{ columns }}" aria-label="{{ columns }} products per row" aria-pressed="{% if grid_columns == columns_string %}true{% else %}false{% endif %}">{{ columns }}</button>{% endfor %}</div>
+      </div>
+      {%- if active_count > 0 -%}
+        <ul class="collection-active-filters" aria-label="Active filters">
+          {% for filter in collection.filters %}{% for value in filter.active_values %}<li><a href="{{ value.url_to_remove }}">{{ filter.label | escape }}: {{ value.label | escape }} <span aria-hidden="true">×</span><span class="visually-hidden"> — Remove filter</span></a></li>{% endfor %}{% if filter.type == 'price_range' %}{% if filter.min_value.value != nil or filter.max_value.value != nil %}<li><a href="{{ filter.url_to_remove }}">{{ filter.label | escape }}: {{ filter.min_value.value | default: 0 | money }}–{{ filter.max_value.value | default: filter.range_max | money }} <span aria-hidden="true">×</span><span class="visually-hidden"> — Remove filter</span></a></li>{% endif %}{% endif %}{% endfor %}
+          <li><a href="{{ collection.url }}?sort_by={{ sort_by | url_encode }}">Clear all</a></li>
+        </ul>
+      {%- endif -%}
+      <div class="collection-layout{% if collection.filters == blank %} collection-layout--no-filters{% endif %}">
+        <aside class="collection-sidebar" data-filter-home aria-label="Collection filters">{% render 'collection-filters', collection: collection, section: section %}</aside>
+        <div class="collection-results">
+          <div class="collection-product-grid" data-collection-grid>
+            {% for product in collection.products %}{% assign eager = false %}{% if forloop.index <= 2 %}{% if collection.image == blank or section.settings.show_image == false %}{% assign eager = true %}{% endif %}{% endif %}{% render 'product-card', product: product, section_id: section.id, card_index: forloop.index, eager: eager %}{% else %}
+              <div class="collection-empty"><h2 class="font-heading">{% if active_count > 0 %}No products match these filters{% else %}There are no products in this collection yet{% endif %}</h2><p class="text-muted">{% if active_count > 0 %}Try a different color or price range.{% else %}Explore our other collections.{% endif %}</p><a class="btn btn--secondary" href="{% if active_count > 0 %}{{ collection.url }}?sort_by={{ sort_by | url_encode }}{% else %}{{ routes.all_products_collection_url }}{% endif %}">{% if active_count > 0 %}Clear filters{% else %}Browse all products{% endif %}</a></div>
+            {% endfor %}
           </div>
-          <h2 class="font-heading" style="font-size: 1.5rem; margin-bottom: 0.5rem;">
-            <a href="{{ product.url }}">{{ product.title | escape }}</a>
-          </h2>
-          <div style="margin-bottom: 1.5rem;">
-            {%- render 'price', product: product -%}
-          </div>
-          <a href="{{ product.url }}" class="btn btn--primary">
-            View Details
-          </a>
+          {%- if paginate.pages > 1 -%}<nav class="collection-pagination" aria-label="Pagination">{% if paginate.previous %}<a href="{{ paginate.previous.url }}">Previous</a>{% endif %}{% assign current_page_string = paginate.current_page | append: '' %}{% for part in paginate.parts %}{% assign part_title_string = part.title | append: '' %}{% if part.is_link %}<a href="{{ part.url }}" aria-label="Page {{ part.title }}">{{ part.title }}</a>{% elsif part_title_string == current_page_string %}<span aria-current="page" aria-label="Page {{ part.title }}">{{ part.title }}</span>{% else %}<span>{{ part.title }}</span>{% endif %}{% endfor %}{% if paginate.next %}<a href="{{ paginate.next.url }}">Next</a>{% endif %}</nav>{%- endif -%}
         </div>
-      {%- else -%}
-        <!-- Single product fallback card -->
-        <div class="collection-product-card text-center fade-up" style="grid-column: 1 / -1; max-width: 480px; margin: 0 auto;">
-          <div style="aspect-ratio: 4/5; background: var(--color-surface); margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center;">
-            <span class="label-caps">The Minimalist Shoulder Bag</span>
-          </div>
-          <h2 class="font-heading" style="font-size: 1.5rem; margin-bottom: 0.5rem;">
-            {{ settings.product_name | default: 'The Minimalist Shoulder Bag' }}
-          </h2>
-          <div style="margin-bottom: 1.5rem;">
-            <span class="price-item font-medium">$295.00</span>
-          </div>
-          <a href="{{ routes.root_url }}#ProductSpotlight" class="btn btn--primary">
-            Shop The Bag
-          </a>
-        </div>
-      {%- endfor -%}
-    </div>
+      </div>
+      <dialog class="catalog-dialog collection-filter-dialog" data-filter-dialog aria-label="Collection filters"><div class="catalog-dialog__header"><h2 class="font-heading">Filters</h2><button type="button" class="btn btn--link" data-dialog-close aria-label="Close filters">Close</button></div><div data-filter-destination></div></dialog>
+    {%- endpaginate -%}
   </div>
 </section>
-
+{%- if collection != blank -%}
+  {%- capture breadcrumb_json -%}
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Home","item":{{ request.origin | append: routes.root_url | json }}},
+      {"@type":"ListItem","position":2,"name":"Collections","item":{{ request.origin | append: routes.collections_url | json }}},
+      {"@type":"ListItem","position":3,"name":{{ collection.title | json }},"item":{{ request.origin | append: collection.url | json }}}
+    ]}
+  {%- endcapture -%}
+  {%- capture json_less_than -%}\u003c{%- endcapture -%}
+  <script type="application/ld+json">{{ breadcrumb_json | replace: '<', json_less_than }}</script>
+{%- endif -%}
 {% schema %}
-{
-  "name": "Collection products",
-  "settings": []
-}
+{"name":"Collection products","settings":[{"type":"checkbox","id":"show_image","label":"Show collection image","default":true},{"type":"checkbox","id":"show_description","label":"Show collection description","default":true},{"type":"range","id":"products_per_page","label":"Products per page","min":4,"max":48,"step":4,"default":12}]}
 {% endschema %}

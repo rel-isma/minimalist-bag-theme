@@ -11,62 +11,46 @@
           "type": "price",
           "settings": {}
         },
-        "inventory": {
-          "type": "inventory_status",
-          "settings": {
-            "low_inventory_threshold": 5
-          }
-        },
-        "variants": {
+        "variant_picker": {
           "type": "variant_picker",
           "settings": {}
         },
-        "quantity": {
+        "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
+          "settings": {}
         },
-        "trust": {
-          "type": "trust_badges",
-          "settings": {
-            "shipping_text": "2–4 business days delivery with tracking",
-            "returns_text": "30-day complimentary return window"
-          }
+        "description": {
+          "type": "description",
+          "settings": {}
         },
-        "tab_materials": {
+        "material": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Details & Materials",
-            "content": "<p>100% full-grain calfskin leather, drum-dyed for enduring softness. Lined in breathable micro-suede. Custom solid brass magnetic hardware.</p>",
+            "heading": "Materials",
+            "source": "material",
+            "content": "<p>Information is being prepared. Contact us for details.</p>",
             "open_by_default": true
           }
         },
-        "tab_dimensions": {
+        "dimensions": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions & Fit",
-            "content": "<p>Width: 26 cm (10.2 in) · Height: 15 cm (5.9 in) · Depth: 7 cm (2.8 in). Shoulder strap drop: 28 cm (11.0 in). Weight: 380 grams.</p>",
+            "heading": "Dimensions",
+            "source": "dimensions",
+            "content": "<p>Information is being prepared. Contact us for details.</p>",
             "open_by_default": false
           }
         },
-        "tab_care": {
+        "care": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Guide",
-            "content": "<p>Wipe gently with a soft dry cloth. Store in the complimentary organic cotton dust bag away from direct sunlight. Treat with natural leather balm twice annually.</p>",
-            "open_by_default": false
-          }
-        },
-        "tab_shipping": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Complimentary Returns",
-            "content": "<p>Complimentary standard shipping on orders over $150. Domestic orders arrive within 2–4 business days. 30-day return window with prepaid return shipping.</p>",
+            "heading": "Care",
+            "source": "care",
+            "content": "<p>Information is being prepared. Contact us for details.</p>",
             "open_by_default": false
           }
         }
@@ -74,128 +58,52 @@
       "block_order": [
         "title",
         "price",
-        "inventory",
-        "variants",
-        "quantity",
+        "variant_picker",
+        "quantity_selector",
         "buy_buttons",
-        "trust",
-        "tab_materials",
-        "tab_dimensions",
-        "tab_care",
-        "tab_shipping"
+        "description",
+        "material",
+        "dimensions",
+        "care"
       ],
       "settings": {}
     },
-    "sticky-cart": {
-      "type": "sticky-cart",
+    "related": {
+      "type": "product-recommendations",
       "settings": {
-        "enable_sticky_cart": true
+        "intent": "related",
+        "heading": "You may also like",
+        "limit": 4
       }
     },
-    "why-this-bag": {
-      "type": "why-this-bag",
-      "blocks": {
-        "feature-1": {
-          "type": "feature",
-          "settings": {
-            "title": "Full-Grain Italian Calfskin",
-            "text": "Sourced from small family-run tanneries in Tuscany. Supple to the touch with a delicate pebble grain that develops a rich patina."
-          }
-        },
-        "feature-2": {
-          "type": "feature",
-          "settings": {
-            "title": "Unstructured Ergonomic Slouch",
-            "text": "Drapes naturally under the arm without rigid cardboard stiffeners. Soft yet structured enough to stand on its base when set down."
-          }
-        },
-        "feature-3": {
-          "type": "feature",
-          "settings": {
-            "title": "Custom Solid Brass Hardware",
-            "text": "Every buckle and magnetic closure is machined from solid brass and brushed to a warm satin finish that will never peel or rust."
-          }
-        },
-        "feature-4": {
-          "type": "feature",
-          "settings": {
-            "title": "Reinforced Saddle Stitching",
-            "text": "Critical stress points are hand-tacked with high-tensile waxed thread, ensuring the shoulder strap remains secure through years of daily commute."
-          }
-        }
+    "complementary": {
+      "type": "product-recommendations",
+      "settings": {
+        "intent": "complementary",
+        "heading": "To carry together",
+        "limit": 4
+      }
+    },
+    "recent": {
+      "type": "recently-viewed",
+      "settings": {}
+    },
+    "reviews": {
+      "type": "product-reviews",
+      "settings": {
+        "publish_reviews": true,
+        "heading": "Customer reviews",
+        "show_empty": true
       },
-      "block_order": [
-        "feature-1",
-        "feature-2",
-        "feature-3",
-        "feature-4"
-      ],
-      "settings": {
-        "eyebrow": "Design Principles",
-        "heading": "Why We Made It",
-        "subhead": "No extraneous hardware. No conspicuous logos. Just considered proportions and honest materials."
-      }
-    },
-    "detail-closeups": {
-      "type": "detail-closeups",
-      "settings": {
-        "eyebrow": "Up Close",
-        "heading": "The Integrity of Every Seam",
-        "subhead": "Every millimeter inspected by hand before leaving our studio workshop."
-      }
-    },
-    "what-fits": {
-      "type": "what-fits",
-      "settings": {
-        "eyebrow": "Capacity & Scale",
-        "heading": "Everything You Need. Nothing You Don't.",
-        "subhead": "Engineered to hold daily essentials without bulging or compromising its clean architectural drape."
-      }
-    },
-    "faq": {
-      "type": "faq-accordion",
-      "blocks": {
-        "faq-1": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Will my phone fit inside the bag?",
-            "answer": "<p>Yes. The bag easily accommodates all modern smartphones up to the iPhone 15 Pro Max and Galaxy Ultra.</p>"
-          }
-        },
-        "faq-2": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Is the leather water resistant?",
-            "answer": "<p>Our full-grain leather is naturally resilient to light humidity. Blot gently with a dry cotton cloth if exposed to rain.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "faq-1",
-        "faq-2"
-      ],
-      "settings": {
-        "eyebrow": "Inquiries",
-        "heading": "Frequently Asked Questions",
-        "subhead": "Straightforward answers regarding sizing, leather care, and shipping."
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
-        "eyebrow": "Correspondence",
-        "heading": "Join The Atelier Journal",
-        "subhead": "Subscribers receive advance notice for restocks and limited studio releases. We write sparingly."
-      }
+      "blocks": {},
+      "block_order": []
     }
   },
   "order": [
     "main",
-    "sticky-cart",
-    "why-this-bag",
-    "detail-closeups",
-    "what-fits",
-    "faq",
-    "newsletter"
+    "reviews",
+    "related",
+    "complementary",
+    "recent"
   ]
 }

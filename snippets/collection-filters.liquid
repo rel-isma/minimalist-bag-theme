@@ -1,0 +1,26 @@
+<form id="CollectionFilters-{{ section.id }}" class="collection-filters" action="{{ collection.url }}" method="get" data-collection-filters>
+  {%- for filter in collection.filters -%}
+    <details open class="collection-filter">
+      <summary>{{ filter.label | escape }}</summary>
+      <fieldset>
+        <legend class="visually-hidden">{{ filter.label | escape }}</legend>
+        {%- case filter.type -%}
+          {%- when 'boolean', 'list' -%}
+            {%- for value in filter.values -%}
+              <label class="collection-filter__value" for="Filter-{{ section.id }}-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+                <input type="checkbox" name="{{ value.param_name }}" value="{{ value.value | escape }}" id="Filter-{{ section.id }}-{{ forloop.parentloop.index }}-{{ forloop.index }}" {% if value.active %}checked{% endif %} {% if value.count == 0 and value.active == false %}disabled{% endif %}>
+                <span>{{ value.label | escape }} ({{ value.count }})</span>
+              </label>
+            {%- endfor -%}
+          {%- when 'price_range' -%}
+            <p class="text-muted">Up to {{ filter.range_max | money }}</p>
+            <div class="collection-filter__price">
+              <div><label class="form-label" for="FilterMin-{{ section.id }}-{{ forloop.index }}">From ({{ cart.currency.iso_code }})</label><input class="form-input" type="number" inputmode="decimal" min="0" max="{{ filter.range_max | divided_by: 100.0 }}" step="any" name="{{ filter.min_value.param_name }}" id="FilterMin-{{ section.id }}-{{ forloop.index }}" {% if filter.min_value.value != nil %}value="{{ filter.min_value.value | divided_by: 100.0 }}"{% endif %} placeholder="0"></div>
+              <div><label class="form-label" for="FilterMax-{{ section.id }}-{{ forloop.index }}">To ({{ cart.currency.iso_code }})</label><input class="form-input" type="number" inputmode="decimal" min="0" max="{{ filter.range_max | divided_by: 100.0 }}" step="any" name="{{ filter.max_value.param_name }}" id="FilterMax-{{ section.id }}-{{ forloop.index }}" {% if filter.max_value.value != nil %}value="{{ filter.max_value.value | divided_by: 100.0 }}"{% endif %} placeholder="{{ filter.range_max | divided_by: 100.0 }}"></div>
+            </div>
+        {%- endcase -%}
+      </fieldset>
+    </details>
+  {%- endfor -%}
+  <button type="submit" class="btn btn--primary">Apply filters</button>
+</form>

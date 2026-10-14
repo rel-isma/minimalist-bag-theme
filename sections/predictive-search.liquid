@@ -1,0 +1,24 @@
+{%- if predictive_search.performed -%}
+  <div data-predictive-results>
+    {%- if predictive_search.resources.products.size > 0 -%}
+      <div role="group" aria-label="Products">
+        <p class="eyebrow predictive-heading">Products</p>
+        {%- for product in predictive_search.resources.products -%}
+          <a href="{{ product.url }}" class="predictive-option" role="option" aria-selected="false" tabindex="-1">
+            {%- if product.featured_image != blank -%}{{ product.featured_image | image_url: width: 160 | image_tag: loading: 'lazy', widths: '80, 160', sizes: '64px', class: 'predictive-option__image' }}{%- endif -%}
+            <span><span class="predictive-option__title">{{ product.title | escape }}</span>{% render 'price', product: product %}</span>
+          </a>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+    {%- if predictive_search.resources.pages.size > 0 -%}
+      <div role="group" aria-label="Pages"><p class="eyebrow predictive-heading">Pages</p>
+        {%- for page in predictive_search.resources.pages -%}<a href="{{ page.url }}" class="predictive-option" role="option" aria-selected="false" tabindex="-1">{{ page.title | escape }}</a>{%- endfor -%}
+      </div>
+    {%- endif -%}
+    <a class="predictive-option predictive-option--all" href="{{ routes.search_url }}?q={{ predictive_search.terms | url_encode }}&amp;type=product,page&amp;options%5Bprefix%5D=last" role="option" aria-selected="false" tabindex="-1">Search all results for “{{ predictive_search.terms | escape }}”</a>
+  </div>
+{%- endif -%}
+{% schema %}
+{"name":"Predictive search","settings":[]}
+{% endschema %}
