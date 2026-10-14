@@ -1,15 +1,15 @@
 [
   {
     "handle": "story",
-    "title": "Story",
+    "title": "Our philosophy",
     "templateSuffix": "story",
-    "body": "<p>Atelier Vane begins with considered proportions and an appreciation for the pieces we reach for often. Our collection explores simple shapes for different moments of the day, from a compact shoulder bag to a roomy tote and the smaller objects carried inside.</p><p>This is editable demo brand copy. Replace it with your founder story, design process, and verified production information before launch. No manufacturing origin or material certification is implied.</p>"
+    "body": "<p>We believe the pieces you reach for every day should feel effortless. Simple shapes, calm colors and considered proportions are the starting point for everything we design.</p><p>From a compact shoulder bag to a roomy tote, each silhouette has a place in the rhythm of a day. Our philosophy is to keep the essentials in focus and let the details speak quietly.</p>"
   },
   {
     "handle": "faq",
-    "title": "FAQ",
+    "title": "Frequently Asked Questions",
     "templateSuffix": "faq",
-    "body": "<h2>Which bag is right for me?</h2><p>Compare your everyday essentials with the verified dimensions on each product page. Demo measurements and images are illustrative.</p><h2>How should I care for my bag?</h2><p>Follow the instructions confirmed for the actual material. Demo care copy must be replaced.</p><h2>What are your shipping and return terms?</h2><p>Shipping destinations, delivery estimates, charges, and return eligibility will be confirmed before launch.</p>"
+    "body": "<p>Straightforward answers regarding sizing, leather care, and shipping.</p><h2>Will my phone fit inside the bag?</h2><p>Yes. The bag easily accommodates all modern smartphones up to the iPhone 15 Pro Max and Samsung Galaxy Ultra series, even when enclosed in a protective case, alongside a bifold wallet and keys.</p><h2>Is the leather water resistant?</h2><p>Our full-grain leather is naturally resilient to light humidity and brief rainfall. If caught in rain, simply blot gently with a dry cotton cloth and allow it to air-dry at room temperature away from heat sources.</p><h2>How long does shipping take?</h2><p>Orders are dispatched from our studio warehouse within 24 hours on business days. Standard delivery within the US takes 2–4 business days. Complimentary tracking is emailed upon fulfillment.</p><h2>What is your return policy?</h2><p>We offer a 30-day trial period. If the bag does not suit your everyday needs, return it in original, unworn condition with its dust bag for a full refund. A prepaid return shipping label is provided.</p><h2>Can the shoulder strap length be adjusted?</h2><p>The strap has a fixed 28 cm drop proportioned specifically to tuck securely under the arm and stay positioned on the shoulder without sliding off your coat.</p>"
   },
   {
     "handle": "contact",

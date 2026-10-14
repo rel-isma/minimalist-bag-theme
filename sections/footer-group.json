@@ -7,8 +7,9 @@
       "settings": {
         "menu": "footer",
         "brand_bio": "Considered bags and everyday essentials. Calm colors, thoughtful proportions.",
-        "newsletter_subtext": "Product updates and occasional studio notes.",
-        "show_payment_icons": true
+        "newsletter_subtext": "New shapes, collection updates and occasional notes from the atelier.",
+        "show_payment_icons": true,
+        "show_newsletter": true
       }
     }
   },

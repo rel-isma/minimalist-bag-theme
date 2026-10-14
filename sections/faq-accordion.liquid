@@ -4,7 +4,7 @@
       {%- if section.settings.eyebrow != blank -%}
         <p class="eyebrow">{{ section.settings.eyebrow | escape }}</p>
       {%- endif -%}
-      <h2 class="section-heading">{{ section.settings.heading | escape }}</h2>
+      {% if section.settings.page_heading %}<h1 class="section-heading">{{ section.settings.heading | escape }}</h1>{% else %}<h2 class="section-heading">{{ section.settings.heading | escape }}</h2>{% endif %}
       {%- if section.settings.subhead != blank -%}
         <p class="text-muted prose" style="margin: 0 auto;">{{ section.settings.subhead | escape }}</p>
       {%- endif -%}
@@ -28,6 +28,7 @@
 {
   "name": "FAQ",
   "settings": [
+    {"type":"checkbox","id":"page_heading","label":"Use as page heading","default":false},
     {
       "type": "text",
       "id": "eyebrow",

@@ -1,12 +1,9 @@
 {%- if section.settings.show_announcement -%}
   <div class="announcement-bar" role="region" aria-label="{{ 'sections.header.announcement' | t }}">
-    <div class="container text-center">
-      {%- if section.settings.link != blank -%}
-        <a href="{{ section.settings.link }}">
-          {{ section.settings.text | escape }}
-        </a>
-      {%- else -%}
-        <span>{{ section.settings.text | escape }}</span>
+    <div class="container announcement-bar__inner">
+      <span>{{ section.settings.text | escape }}</span>
+      {%- if section.settings.cta_label != blank and section.settings.link != blank -%}
+        <a class="announcement-bar__cta" href="{{ section.settings.link }}">{{ section.settings.cta_label | escape }} <span aria-hidden="true">→</span></a>
       {%- endif -%}
     </div>
   </div>
@@ -20,18 +17,20 @@
       "type": "checkbox",
       "id": "show_announcement",
       "label": "Show announcement",
-      "default": false
+      "default": true
     },
     {
       "type": "text",
       "id": "text",
       "label": "Announcement text",
-      "default": "Welcome to Atelier Vane"
+      "default": "Considered bags. Everyday companions."
     },
+    {"type": "text", "id": "cta_label", "label": "CTA label", "default": "Shop the collection"},
     {
       "type": "url",
       "id": "link",
-      "label": "Link"
+      "label": "CTA link",
+      "default": "/collections/all"
     }
   ]
 }

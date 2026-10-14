@@ -61,3 +61,15 @@ The product review panel shows no invented reviews or average when empty. Produc
 No live review app, submission service, verified-purchase lookup or Shopify store was connected. Authentic reviews currently require merchant-managed blocks with a matching product, up to 50 per section. Updated tests total 14 (seven seed and seven store tests). The theme ZIP has been refreshed.
 
 The follow-up product audit also removed an unnecessary forced layout read during initial header setup. Latest local mobile scores after the requested refinements are recorded in the table above. Swatch selection now recognizes both media IDs and preview-image IDs when switching galleries, and the zoom link follows a replaced variant image.
+
+## Header refresh
+
+The header now uses a single desktop row with left navigation, centered brand and right search/cart actions. The Shop disclosure includes six linked collection image cards and a view-all link. Mouse hover opens it; click/keyboard activation remains available. Pointer exit, focus exit, Escape, outside click and breakpoint changes close it. Mobile retains the native menu dialog. The enabled announcement includes an editable CTA. `seed/check-header-refresh-browser.cjs` checks centering and overflow at 1440/1025/390/320 px, hover continuity, image loading, keyboard/Escape, mobile navigation and the CTA destination. Screenshot artifacts: `seed/header-shop-menu.png` and `seed/header-mobile.png`. Previous Lighthouse scores predate this header change.
+
+## Footer and philosophy refinement
+
+Customer reviews now finish the product template after recommendations and recently viewed. The footer uses separate Shop and Client care columns, one newsletter form, and real policy links along the bottom. Link destinations are deduplicated across nested menu entries and automatic policies. The homepage’s repeated newsletter section is removed. Our philosophy replaces Story in navigation and uses the image-and-text editorial section on `/pages/story`, with a single page heading and editable design copy. Two additional store tests verify deduplication, newsletter visibility, review ordering and the philosophy template. `seed/check-footer-philosophy-browser.cjs` verifies these layouts at 1440/1025/390/320 px without overflow or browser exceptions. Existing Lighthouse scores predate these refinements.
+
+## FAQ page alignment
+
+The FAQ page now uses the same Inquiries accordion section and five supplied answers as the homepage. Its page title is “Frequently Asked Questions” with one H1, while the homepage uses H2. The two placements are independently editable in the theme editor; content and shipping claims need merchant verification. A store test checks matching questions, accessible heading structure and five FAQ disclosures.

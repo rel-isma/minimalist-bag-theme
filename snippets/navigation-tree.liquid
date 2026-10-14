@@ -1,16 +1,28 @@
 {%- comment -%}Native disclosures support menu nesting and keyboard/no-JavaScript browsing.{%- endcomment -%}
 <ul class="header-menu header-menu--{{ mode }}">
+  {%- assign image_menu_title = mega_menu_title | default: 'Shop' | downcase -%}
   {%- for link in menu.links -%}
+    {%- assign link_title = link.title | downcase -%}
+    {%- assign image_menu = false -%}
+    {%- if mode == 'desktop' and link_title == image_menu_title -%}{%- assign image_menu = true -%}{%- endif -%}
     <li>
       {%- if link.links != blank -%}
-        <details class="header-menu__disclosure">
+        <details class="header-menu__disclosure{% if image_menu %} header-menu__disclosure--mega{% endif %}">
           <summary class="site-header__nav-link">{{ link.title | escape }}</summary>
-          <div class="header-menu__panel">
+          <div class="header-menu__panel{% if image_menu %} header-menu__panel--mega{% endif %}">
+            {% if image_menu %}<div class="mega-menu__intro"><span class="eyebrow">Explore the atelier</span><p class="font-heading">A shape for every day.</p><span class="mega-menu__description">Find your next everyday companion.</span>{% endif %}
             <a class="header-menu__parent" href="{{ link.url }}">{{ link.title | escape }} — View all</a>
-            <ul>
+            {% if image_menu %}</div>{% endif %}
+            <ul{% if image_menu %} class="mega-menu__collections"{% endif %}>
               {%- for child in link.links -%}
                 <li>
-                  <a href="{{ child.url }}" {% if child.current %}aria-current="page"{% endif %}>{{ child.title | escape }}</a>
+                  <a href="{{ child.url }}" {% if child.current %}aria-current="page"{% endif %}{% if image_menu %} class="mega-menu__card"{% endif %}>
+                    {% if image_menu %}
+                      {%- assign menu_image = child.object.image | default: child.object.featured_image | default: child.object.products.first.featured_image -%}
+                      <span class="mega-menu__image">{% if menu_image != blank %}{{ menu_image | image_url: width: 540 | image_tag: loading: 'lazy', widths: '240, 360, 540', sizes: '(min-width: 1025px) 22vw, 50vw', alt: '' }}{% else %}{{ 'collection-1' | placeholder_svg_tag }}{% endif %}</span>
+                    {% endif %}
+                    <span>{{ child.title | escape }}</span>{% if image_menu %}<span class="mega-menu__arrow" aria-hidden="true">↗</span>{% endif %}
+                  </a>
                   {%- if child.links != blank -%}
                     <ul class="header-menu__grandchildren">
                       {%- for grandchild in child.links -%}

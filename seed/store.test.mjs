@@ -77,3 +77,46 @@ test('review summary is scoped to the product and calculated from complete recor
   assert.ok(html.includes('data-review-rating'));
   assert.ok(html.includes('data-review-sort'));
 });
+
+test('footer deduplicates nested and policy URLs and respects newsletter visibility', async () => {
+  const policy = context.shop.privacy_policy;
+  const menu = { links: [
+    { title: 'Help', url: '/pages/faq', links: [
+      { title: 'FAQ', url: '/pages/faq', links: [{ title: 'FAQ again', url: '/pages/faq' }] },
+      { title: 'Privacy', url: policy.url, links: [] }
+    ] },
+    { title: 'Privacy repeated', url: policy.url, links: [] }
+  ] };
+  const html = await renderSection('footer', 'footer-test', {}, context);
+  const urls = [...html.matchAll(/href="([^"]+)"/g)].map(match => match[1]);
+  assert.equal(new Set(urls).size, urls.length);
+  const nested = await renderSection('footer', 'footer-dedupe', { menu, show_newsletter: false }, context);
+  assert.equal((nested.match(/href="\/pages\/faq"/g) || []).length, 1);
+  assert.equal((nested.match(/href="\/policies\/privacy-policy"/g) || []).length, 1);
+  assert.ok(!nested.includes('FooterNewsletter-'));
+});
+test('reviews finish the product content and philosophy uses its editorial page heading', async () => {
+  const html = await renderStore('product', { ...context, product: products[0], template: { name: 'product' } }, new URL(url.origin + products[0].url));
+  assert.ok(html.indexOf('id="shopify-section-reviews"') > html.indexOf('id="shopify-section-recent"'));
+  assert.ok(html.indexOf('id="shopify-section-reviews"') < html.indexOf('<footer'));
+  const philosophy = await renderStore('page.story', { ...context, template: { name: 'page' } }, new URL(url.origin + '/pages/story'));
+  assert.ok(philosophy.includes('<h1 class="brand-story__heading">Our philosophy</h1>'));
+  assert.ok(philosophy.includes('brand-story__image'));
+  assert.ok(!philosophy.includes('This is editable demo brand copy'));
+  const home = await renderStore('index', context, url);
+  assert.equal((home.match(/name="contact\[email\]"/g) || []).length, 1);
+});
+
+test('FAQ page matches the homepage inquiries with one page heading', async () => {
+  const home = await renderStore('index', context, url);
+  const faq = await renderStore('page.faq', { ...context, template: { name: 'page' } }, new URL(url.origin + '/pages/faq'));
+  assert.equal((faq.match(/class="faq-list/g) || []).length, 1);
+  assert.equal((faq.match(/<h1/g) || []).length, 1);
+  assert.ok(faq.includes('<h1 class="section-heading">Frequently Asked Questions</h1>'));
+  assert.ok(faq.includes('>Inquiries</p>'));
+  for (const question of ['Will my phone fit inside the bag?', 'Is the leather water resistant?', 'How long does shipping take?', 'What is your return policy?', 'Can the shoulder strap length be adjusted?']) {
+    assert.ok(home.includes(question));
+    assert.ok(faq.includes(question));
+  }
+  assert.equal((faq.match(/<details class="accordion-item"/g) || []).length, 5);
+});

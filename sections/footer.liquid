@@ -1,8 +1,73 @@
-<footer class="site-footer"><div class="container"><div class="site-footer__grid"><div><h2 class="site-footer__brand-title">{{ settings.brand_name | default: shop.name | escape }}</h2><p class="text-muted prose">{{ section.settings.brand_bio | escape }}</p></div>
-<nav aria-label="Footer"><ul class="footer-menu">{% for link in section.settings.menu.links %}<li><a class="site-footer__link" href="{{ link.url }}">{{ link.title | escape }}</a><ul>{% for child in link.links %}<li><a class="site-footer__link" href="{{ child.url }}">{{ child.title | escape }}</a>{% if child.links != blank %}<ul>{% for grandchild in child.links %}<li><a class="site-footer__link" href="{{ grandchild.url }}">{{ grandchild.title | escape }}</a></li>{% endfor %}</ul>{% endif %}</li>{% endfor %}</ul></li>{% else %}<li><a class="site-footer__link" href="{{ routes.all_products_collection_url }}">Shop all</a></li>{% endfor %}</ul></nav>
-<div><h2 class="site-footer__col-title">Policies</h2><ul class="site-footer__links">{% if shop.privacy_policy != blank %}<li><a class="site-footer__link" href="{{ shop.privacy_policy.url }}">Privacy policy</a></li>{% endif %}{% if shop.terms_of_service != blank %}<li><a class="site-footer__link" href="{{ shop.terms_of_service.url }}">Terms of service</a></li>{% endif %}{% if shop.refund_policy != blank %}<li><a class="site-footer__link" href="{{ shop.refund_policy.url }}">Refund policy</a></li>{% endif %}</ul></div>
-<div><h2 class="site-footer__col-title">Correspondence</h2><p class="text-muted">{{ section.settings.newsletter_subtext | escape }}</p>{% assign footer_form_id = 'FooterNewsletter-' | append: section.id %}{% form 'customer', id: footer_form_id %}<input type="hidden" name="contact[tags]" value="newsletter"><label for="FooterEmail-{{ section.id }}" class="visually-hidden">Email address</label><div class="footer-newsletter-fields"><input id="FooterEmail-{{ section.id }}" type="email" name="contact[email]" class="form-input" autocomplete="email" placeholder="Your email address" required><button type="submit" class="btn btn--primary">Join</button></div>{% if form.posted_successfully? %}<p role="status">Thank you for subscribing.</p>{% endif %}{% if form.errors %}<div role="alert">{{ form.errors | default_errors }}</div>{% endif %}{% endform %}</div></div>
-<div class="site-footer__bottom"><p>&copy; {{ 'now' | date: '%Y' }} {{ settings.brand_name | default: shop.name | escape }}</p>{% if section.settings.show_payment_icons and shop.enabled_payment_types != empty %}<div role="group" aria-label="Payment methods">{% for type in shop.enabled_payment_types %}{{ type | payment_type_svg_tag: class: 'site-footer__payment-icon' }}{% endfor %}</div>{% endif %}</div></div></footer>
+{%- assign footer_seen_urls = '|' -%}
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div class="site-footer__brand">
+        <a class="site-footer__brand-title" href="{{ routes.root_url }}">{{ settings.brand_name | default: shop.name | escape }}</a>
+        <p class="text-muted">{{ section.settings.brand_bio | escape }}</p>
+      </div>
+      <nav class="footer-navigation" aria-label="Footer navigation">
+        {%- for link in section.settings.menu.links -%}
+          <div class="footer-navigation__column">
+            {%- if link.links != blank -%}
+              <h2 class="site-footer__col-title">{{ link.title | escape }}</h2>
+              <ul class="site-footer__links">
+                {%- for child in link.links -%}
+                  {%- assign url_key = child.url | prepend: '|' | append: '|' -%}
+                  {%- unless footer_seen_urls contains url_key -%}
+                    <li><a class="site-footer__link" href="{{ child.url }}">{{ child.title | escape }}</a></li>
+                    {%- assign footer_seen_urls = footer_seen_urls | append: child.url | append: '|' -%}
+                  {%- endunless -%}
+                  {%- for grandchild in child.links -%}
+                    {%- assign url_key = grandchild.url | prepend: '|' | append: '|' -%}
+                    {%- unless footer_seen_urls contains url_key -%}
+                      <li><a class="site-footer__link" href="{{ grandchild.url }}">{{ grandchild.title | escape }}</a></li>
+                      {%- assign footer_seen_urls = footer_seen_urls | append: grandchild.url | append: '|' -%}
+                    {%- endunless -%}
+                  {%- endfor -%}
+                {%- endfor -%}
+              </ul>
+            {%- else -%}
+              {%- assign url_key = link.url | prepend: '|' | append: '|' -%}
+              {%- unless footer_seen_urls contains url_key -%}
+                <a class="site-footer__link" href="{{ link.url }}">{{ link.title | escape }}</a>
+                {%- assign footer_seen_urls = footer_seen_urls | append: link.url | append: '|' -%}
+              {%- endunless -%}
+            {%- endif -%}
+          </div>
+        {%- else -%}
+          <a class="site-footer__link" href="{{ routes.all_products_collection_url }}">Shop all</a>
+        {%- endfor -%}
+      </nav>
+      {%- if section.settings.show_newsletter -%}
+        <div class="site-footer__newsletter">
+          <h2 class="site-footer__col-title">Studio notes</h2>
+          <p class="text-muted">{{ section.settings.newsletter_subtext | escape }}</p>
+          {%- assign footer_form_id = 'FooterNewsletter-' | append: section.id -%}
+          {% form 'customer', id: footer_form_id %}
+            <input type="hidden" name="contact[tags]" value="newsletter">
+            <label for="FooterEmail-{{ section.id }}" class="visually-hidden">Email address</label>
+            <div class="footer-newsletter-fields">
+              <input id="FooterEmail-{{ section.id }}" type="email" name="contact[email]" class="form-input" autocomplete="email" placeholder="Your email address" required {% if form.errors %}aria-invalid="true" aria-describedby="FooterErrors-{{ section.id }}"{% endif %}>
+              <button type="submit" class="btn btn--primary">Join</button>
+            </div>
+            {% if form.posted_successfully? %}<p role="status">Thank you for subscribing.</p>{% endif %}
+            {% if form.errors %}<div id="FooterErrors-{{ section.id }}" role="alert">{{ form.errors | default_errors }}</div>{% endif %}
+          {% endform %}
+        </div>
+      {%- endif -%}
+    </div>
+    <div class="site-footer__bottom">
+      <p>&copy; {{ 'now' | date: '%Y' }} {{ settings.brand_name | default: shop.name | escape }}</p>
+      <nav class="footer-legal" aria-label="Store policies">
+        {% if shop.privacy_policy != blank %}{% assign url_key = shop.privacy_policy.url | prepend: '|' | append: '|' %}{% unless footer_seen_urls contains url_key %}<a href="{{ shop.privacy_policy.url }}">Privacy policy</a>{% assign footer_seen_urls = footer_seen_urls | append: shop.privacy_policy.url | append: '|' %}{% endunless %}{% endif %}
+        {% if shop.terms_of_service != blank %}{% assign url_key = shop.terms_of_service.url | prepend: '|' | append: '|' %}{% unless footer_seen_urls contains url_key %}<a href="{{ shop.terms_of_service.url }}">Terms of service</a>{% assign footer_seen_urls = footer_seen_urls | append: shop.terms_of_service.url | append: '|' %}{% endunless %}{% endif %}
+        {% if shop.refund_policy != blank %}{% assign url_key = shop.refund_policy.url | prepend: '|' | append: '|' %}{% unless footer_seen_urls contains url_key %}<a href="{{ shop.refund_policy.url }}">Refund policy</a>{% endunless %}{% endif %}
+      </nav>
+      {% if section.settings.show_payment_icons and shop.enabled_payment_types != empty %}<div class="site-footer__payment-icons" role="group" aria-label="Payment methods">{% for type in shop.enabled_payment_types %}{{ type | payment_type_svg_tag: class: 'site-footer__payment-icon' }}{% endfor %}</div>{% endif %}
+    </div>
+  </div>
+</footer>
 {% schema %}
-{"name":"Footer","settings":[{"type":"textarea","id":"brand_bio","label":"Brand bio","default":"Considered bags and everyday essentials. Calm colors, thoughtful proportions."},{"type":"link_list","id":"menu","label":"Footer menu"},{"type":"text","id":"newsletter_subtext","label":"Newsletter note","default":"Product updates and occasional studio notes."},{"type":"checkbox","id":"show_payment_icons","label":"Show enabled payment icons","default":true}]}
+{"name":"Footer","settings":[{"type":"textarea","id":"brand_bio","label":"Brand bio","default":"Considered bags and everyday essentials. Calm colors, thoughtful proportions."},{"type":"link_list","id":"menu","label":"Footer menu","info":"Nested groups become columns. Repeated destinations appear once."},{"type":"checkbox","id":"show_newsletter","label":"Show newsletter","default":true},{"type":"text","id":"newsletter_subtext","label":"Newsletter note","default":"New shapes, collection updates and occasional notes from the atelier."},{"type":"checkbox","id":"show_payment_icons","label":"Show enabled payment icons","default":true}]}
 {% endschema %}

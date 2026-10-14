@@ -5,8 +5,10 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "settings": {
-        "show_announcement": false,
-        "text": "Welcome to Atelier Vane"
+        "show_announcement": true,
+        "text": "Considered bags. Everyday companions.",
+        "cta_label": "Shop the collection",
+        "link": "/collections/all"
       }
     },
     "header": {

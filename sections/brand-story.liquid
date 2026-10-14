@@ -26,7 +26,7 @@
         {%- if section.settings.eyebrow != blank -%}
           <p class="eyebrow">{{ section.settings.eyebrow | escape }}</p>
         {%- endif -%}
-        <h2 class="brand-story__heading">{{ section.settings.heading | escape }}</h2>
+        {% if section.settings.page_heading %}<h1 class="brand-story__heading">{{ section.settings.heading | escape }}</h1>{% else %}<h2 class="brand-story__heading">{{ section.settings.heading | escape }}</h2>{% endif %}
         <div class="brand-story__body prose text-muted">
           {{ section.settings.story_text }}
         </div>
@@ -46,8 +46,9 @@
 
 {% schema %}
 {
-  "name": "Brand story",
+  "name": "Our philosophy",
   "settings": [
+    {"type":"checkbox","id":"page_heading","label":"Use as page heading","default":false},
     {
       "type": "text",
       "id": "eyebrow",
@@ -64,7 +65,7 @@
       "type": "richtext",
       "id": "story_text",
       "label": "Story copy",
-      "default": "<p>Our starting point is simple: considered proportions, calm colors, and room for everyday essentials. Atelier Vane explores bags and small accessories that sit naturally within a thoughtful wardrobe.</p><p>This development collection is a design study. Real materials, construction and specifications will be shared when each piece is ready.</p>"
+      "default": "<p>We believe the pieces you reach for every day should feel effortless. Simple shapes, calm colors and considered proportions are the starting point for everything we design.</p><p>From a compact shoulder bag to a roomy tote, each silhouette has a place in the rhythm of a day. Our philosophy is to keep the essentials in focus and let the details speak quietly.</p>"
     },
     {
       "type": "image_picker",
@@ -86,7 +87,7 @@
   ],
   "presets": [
     {
-      "name": "Brand story"
+      "name": "Our philosophy"
     }
   ]
 }

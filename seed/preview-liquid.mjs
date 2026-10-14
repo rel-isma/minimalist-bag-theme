@@ -28,7 +28,7 @@ export const collectionMap = Object.fromEntries(collections.map(collection => [c
 collectionMap.all = { ...collections[0], handle: 'all', title: 'The collection', url: '/collections/all', products, products_count: products.length, all_products_count: products.length, image: null };
 export const pages = Object.fromEntries(sourcePages.map(page => [page.handle, { handle: page.handle, title: page.title, content: page.body, object_type: 'page', url: `/pages/${page.handle}`, templateSuffix: page.templateSuffix }]));
 for (const [handle, title] of [['privacy-policy', 'Privacy policy'], ['terms-of-service', 'Terms of service'], ['refund-policy', 'Refund policy']]) pages[handle] = { title, content: '<p>Demo policy placeholder. The merchant must supply and verify this policy before launch.</p>', url: `/policies/${handle}`, object_type: 'page' };
-const link = item => ({ title: item.title, url: item.url || `/${item.type === 'COLLECTION' ? 'collections' : 'pages'}/${item.handle}`, links: (item.items || []).map(link), current: false, active: false });
+const link = item => ({ object: item.type === 'COLLECTION' ? collectionMap[item.handle] : null, title: item.title, url: item.url || `/${item.type === 'COLLECTION' ? 'collections' : 'pages'}/${item.handle}`, links: (item.items || []).map(link), current: false, active: false });
 export const menus = Object.fromEntries(sourceMenus.map(menu => [menu.handle, { handle: menu.handle, links: menu.items.map(link) }]));
 export const engine = new Liquid({ root: path.join(root, 'snippets'), extname: '.liquid' });
 function preprocess(source) {

@@ -1,11 +1,57 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {}
+    "inquiries": {
+      "type": "faq-accordion",
+      "settings": {
+        "page_heading": true
+      },
+      "blocks": {
+        "inquiries-0": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will my phone fit inside the bag?",
+            "answer": "<p>Yes. The bag easily accommodates all modern smartphones up to the iPhone 15 Pro Max and Samsung Galaxy Ultra series, even when enclosed in a protective case, alongside a bifold wallet and keys.</p>"
+          }
+        },
+        "inquiries-1": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is the leather water resistant?",
+            "answer": "<p>Our full-grain leather is naturally resilient to light humidity and brief rainfall. If caught in rain, simply blot gently with a dry cotton cloth and allow it to air-dry at room temperature away from heat sources.</p>"
+          }
+        },
+        "inquiries-2": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does shipping take?",
+            "answer": "<p>Orders are dispatched from our studio warehouse within 24 hours on business days. Standard delivery within the US takes 2–4 business days. Complimentary tracking is emailed upon fulfillment.</p>"
+          }
+        },
+        "inquiries-3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "<p>We offer a 30-day trial period. If the bag does not suit your everyday needs, return it in original, unworn condition with its dust bag for a full refund. A prepaid return shipping label is provided.</p>"
+          }
+        },
+        "inquiries-4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can the shoulder strap length be adjusted?",
+            "answer": "<p>The strap has a fixed 28 cm drop proportioned specifically to tuck securely under the arm and stay positioned on the shoulder without sliding off your coat.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "inquiries-0",
+        "inquiries-1",
+        "inquiries-2",
+        "inquiries-3",
+        "inquiries-4"
+      ]
     }
   },
   "order": [
-    "main"
+    "inquiries"
   ]
 }

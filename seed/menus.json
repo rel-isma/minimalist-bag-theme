@@ -46,7 +46,7 @@
         "handle": "new-arrivals"
       },
       {
-        "title": "Story",
+        "title": "Our philosophy",
         "type": "PAGE",
         "handle": "story"
       },
@@ -99,7 +99,7 @@
         ]
       },
       {
-        "title": "Help",
+        "title": "Client care",
         "type": "PAGE",
         "handle": "faq",
         "items": [
@@ -117,33 +117,11 @@
             "title": "Shipping and returns",
             "type": "PAGE",
             "handle": "shipping-returns"
-          }
-        ]
-      },
-      {
-        "title": "Policies",
-        "type": "PAGE",
-        "handle": "shipping-returns",
-        "items": [
+          },
           {
-            "title": "Shipping and returns",
+            "title": "Our philosophy",
             "type": "PAGE",
-            "handle": "shipping-returns"
-          },
-          {
-            "title": "Privacy policy",
-            "type": "HTTP",
-            "url": "/policies/privacy-policy"
-          },
-          {
-            "title": "Terms of service",
-            "type": "HTTP",
-            "url": "/policies/terms-of-service"
-          },
-          {
-            "title": "Refund policy",
-            "type": "HTTP",
-            "url": "/policies/refund-policy"
+            "handle": "story"
           }
         ]
       }

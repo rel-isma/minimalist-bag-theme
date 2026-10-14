@@ -1,8 +1,13 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
-      "settings": {}
+      "type": "brand-story",
+      "settings": {
+        "page_heading": true,
+        "eyebrow": "Atelier Vane",
+        "heading": "Our philosophy",
+        "story_text": "<p>We believe the pieces you reach for every day should feel effortless. Simple shapes, calm colors and considered proportions are the starting point for everything we design.</p><p>From a compact shoulder bag to a roomy tote, each silhouette has a place in the rhythm of a day. Our philosophy is to keep the essentials in focus and let the details speak quietly.</p>"
+      }
     }
   },
   "order": [

@@ -35,7 +35,7 @@ All 22 products carry `demo`. API cleanup deletes every exact `demo`-tagged prod
 
 ## Every page and collection text
 
-- `seed/pages.json`: Story (`story`, template `page.story`), FAQ (`faq`, `page.faq`), Contact (`contact`, `page.contact`), and Shipping and returns (`shipping-returns`, `page.shipping`). Replace all four page bodies. Configure a monitored customer-service email; establish response times and merchant policies.
+- `seed/pages.json`: Our philosophy (`story`, template `page.story`, with editorial copy editable in its section), FAQ (`faq`, `page.faq`, with accordion copy editable in its section), Contact (`contact`, `page.contact`), and Shipping and returns (`shipping-returns`, `page.shipping`). Replace page copy, both FAQ accordion placements, and the philosophy section text and image. Configure a monitored customer-service email; establish response times and merchant policies.
 - `seed/collections.json`: all eight editable demo descriptions and eight collection banners. Confirm category membership and intentional merchandising assignments.
 - `seed/catalog.json`: all 22 product descriptions, SEO fields, and three `custom` metafield values per product.
 - `seed/menus.json`: review all titles, child items, and links; replace demo collection/page references with the production resources. Set real policies under Shopify Settings > Policies.

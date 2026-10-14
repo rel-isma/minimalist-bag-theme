@@ -126,10 +126,6 @@
       },
       "blocks": {}
     },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {}
-    },
     "construction": {
       "type": "comparison-table",
       "settings": {},
@@ -242,7 +238,6 @@
     "benefits",
     "reviews",
     "construction",
-    "inquiries",
-    "newsletter"
+    "inquiries"
   ]
 }

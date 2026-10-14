@@ -52,11 +52,35 @@
     }, { signal });
     menu.addEventListener('click', event => { if (event.target.closest('a')) menu.close(); }, { signal });
     const disclosures = [...root.querySelectorAll('.header-menu--desktop details')];
+    const closeTimers = new Map();
+    const cancelClose = details => { clearTimeout(closeTimers.get(details)); closeTimers.delete(details); };
+    const closeMenus = () => disclosures.forEach(details => { cancelClose(details); details.open = false; });
+    disclosures.forEach(details => {
+      details.addEventListener('pointerenter', event => {
+        if (event.pointerType !== 'mouse' || window.innerWidth < 1025) return;
+        cancelClose(details);
+        disclosures.forEach(other => { if (other !== details) { cancelClose(other); other.open = false; } });
+        details.open = true;
+      }, { signal });
+      details.addEventListener('pointerleave', event => {
+        if (event.pointerType !== 'mouse') return;
+        cancelClose(details);
+        closeTimers.set(details, setTimeout(() => {
+          closeTimers.delete(details);
+          if (!details.contains(document.activeElement)) details.open = false;
+        }, 180));
+      }, { signal });
+      details.addEventListener('focusin', () => cancelClose(details), { signal });
+      details.addEventListener('focusout', event => {
+        if (!details.contains(event.relatedTarget)) { cancelClose(details); details.open = false; }
+      }, { signal });
+    });
+    lifecycle.signal.addEventListener('abort', closeMenus, { once: true });
     disclosures.forEach(details => details.addEventListener('toggle', () => {
       if (details.open) disclosures.forEach(other => { if (other !== details) other.open = false; });
     }, { signal }));
     document.addEventListener('click', event => {
-      if (!event.target.closest('.header-menu--desktop')) disclosures.forEach(details => { details.open = false; });
+      if (!event.target.closest('.header-menu--desktop')) closeMenus();
     }, { signal });
     root.addEventListener('keydown', event => {
       if (event.key !== 'Escape' || event.defaultPrevented) return;
@@ -66,7 +90,7 @@
       if (details) { details.open = false; details.querySelector('summary').focus(); }
     }, { signal });
     const desktop = window.matchMedia('(min-width: 1025px)');
-    desktop.addEventListener('change', () => { if (desktop.matches && menu.open) menu.close(); }, { signal });
+    desktop.addEventListener('change', () => { closeMenus(); if (desktop.matches && menu.open) menu.close(); }, { signal });
   }
 
   function initSearch(root) {

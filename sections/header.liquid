@@ -4,6 +4,7 @@
     <div class="container">
       <div class="site-header__inner">
         <div class="header-leading">
+          <nav class="site-header__nav" aria-label="Main navigation">{% render 'navigation-tree', menu: navigation_menu, mode: 'desktop', mega_menu_title: section.settings.mega_menu_title %}</nav>
           <button type="button" class="mobile-menu-toggle" data-mobile-menu-toggle aria-expanded="false" aria-controls="MobileNav-{{ section.id }}" aria-label="Open menu">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
           </button>
@@ -28,7 +29,6 @@
           </a>
         </div>
       </div>
-      <nav class="site-header__nav" aria-label="Main navigation">{% render 'navigation-tree', menu: navigation_menu, mode: 'desktop' %}</nav>
       <details class="header-mobile-fallback"><summary class="site-header__nav-link">Menu</summary><nav aria-label="Mobile navigation">{% render 'navigation-tree', menu: navigation_menu, mode: 'mobile' %}</nav>{% if shop.customer_accounts_enabled %}<a class="mobile-nav-link" href="{{ routes.account_url }}">Account</a>{% endif %}</details>
     </div>
   </header>
@@ -45,5 +45,5 @@
 </div>
 <style>#shopify-section-{{ section.id }} .site-header__logo-image { width: {{ section.settings.logo_width }}px; max-width: 100%; height: auto; }</style>
 {% schema %}
-{"name":"Header","class":"atelier-header-section","settings":[{"type":"image_picker","id":"logo","label":"Logo image"},{"type":"range","id":"logo_width","min":80,"max":240,"step":10,"unit":"px","label":"Custom logo width","default":140},{"type":"link_list","id":"menu","label":"Navigation menu","info":"Select Main menu. Nested links appear in desktop dropdowns and the mobile menu. An empty menu shows Shop all."},{"type":"checkbox","id":"enable_transparent_header","label":"Transparent header over home hero","default":false},{"type":"checkbox","id":"enable_predictive_search","label":"Enable predictive search","default":true}]}
+{"name":"Header","class":"atelier-header-section","settings":[{"type":"image_picker","id":"logo","label":"Logo image"},{"type":"range","id":"logo_width","min":80,"max":240,"step":10,"unit":"px","label":"Custom logo width","default":140},{"type":"link_list","id":"menu","label":"Navigation menu","info":"Select Main menu. Nested links appear in desktop dropdowns and the mobile menu. An empty menu shows Shop all."},{"type":"text","id":"mega_menu_title","label":"Image menu link title","default":"Shop","info":"Matches a top-level menu with nested collection links. Images use collection images or the first product image."},{"type":"checkbox","id":"enable_transparent_header","label":"Transparent header over home hero","default":false},{"type":"checkbox","id":"enable_predictive_search","label":"Enable predictive search","default":true}]}
 {% endschema %}

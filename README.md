@@ -78,7 +78,7 @@ Draft products will not appear as purchasable storefront collection items. On th
 ## Create pages and product metafields
 
 1. Open **Online Store > Pages > Add page**.
-2. Create **Story**, **FAQ**, **Contact**, and **Shipping and returns** using the editable HTML in `seed/pages.json`.
+2. Create **Our philosophy**, **FAQ**, **Contact**, and **Shipping and returns** using the editable HTML in `seed/pages.json`.
 3. Use **Search engine listing > Edit** to set handles `story`, `faq`, `contact`, and `shipping-returns`.
 4. Keep visibility **Hidden** until private development testing.
 5. Assign templates `page.story`, `page.faq`, `page.contact`, and `page.shipping` respectively when those templates are available in the store’s active theme.
@@ -87,7 +87,7 @@ Draft products will not appear as purchasable storefront collection items. On th
 8. Open each demo product and fill these fields from its `metafields` object in `seed/catalog.json`. The API seeder writes their demo values automatically.
 9. Replace the demo policy text with confirmed merchant policies under **Settings > Policies** before launch.
 
-Story, FAQ and Shipping templates display the editable page body. Contact displays that body with its native form. Product accordions read custom.material, custom.dimensions and custom.care, with editable fallback text.
+Our philosophy uses an editable image-and-text section in `page.story`. The FAQ page uses the same editable Inquiries accordion as the homepage, with its own heading and five question blocks in `page.faq`. Edit FAQ content in the theme editor for each placement. Shipping displays the editable page body. Contact displays that body with its native form. Product accordions read custom.material, custom.dimensions and custom.care, with editable fallback text.
 
 ## Create menus
 
@@ -95,11 +95,11 @@ Story, FAQ and Shipping templates display the editable page body. Contact displa
 2. Open **Main menu**, or add a menu with handle `main-menu` if it is absent.
 3. Add **Shop**, linking to all products (`/collections/all`).
 4. Add the six category collection links, then drag them beneath Shop to nest them.
-5. Add **New arrivals** (collection), **Story** (page), and **Contact** (page), then save.
+5. Add **New arrivals** (collection), **Our philosophy** (page), and **Contact** (page), then save.
 6. Open **Footer**, or create it with handle `footer`.
 7. Add **Shop** with the six category children.
-8. Add **Help**, linking to FAQ, with children **FAQ**, **Contact**, and **Shipping and returns**.
-9. Add **Policies**, linking to Shipping and returns, with children **Shipping and returns**, **Privacy policy**, **Terms of service**, and **Refund policy**. The last three link to your real Shopify policies.
+8. Add **Client care**, linking to FAQ, with children **FAQ**, **Contact**, **Shipping and returns**, and **Our philosophy**.
+9. Configure real policies in **Settings > Policies**. The footer shows these once along the bottom; policies already included in a custom footer menu are not repeated.
 10. Save. Compare the result with `seed/menus.json`.
 
 Source: [Shopify menu editing instructions](https://help.shopify.com/en/manual/online-store/menus-and-links/editing-menus). Header dropdowns and the mobile menu now read the selected Main menu, including nested links. The footer reads its selected Footer menu, including nested links.
@@ -152,16 +152,16 @@ Bone `#F5F1EA`, Stone `#ECE5DA`, Ink `#1B1A18`, Ash `#6B6258`, Clay `#9A4F36`, b
 
 ## Customize the completed storefront
 
-1. In **Online Store > Themes > Customize > Header**, select **Main menu**, upload a logo if desired, set its width, and choose transparent-home-header and predictive-search settings. Account links appear only when Shopify accounts are enabled. The cart setting selects a drawer or native cart page.
+1. In **Online Store > Themes > Customize > Header**, select **Main menu**, upload a logo if desired, set its width, and choose transparent-home-header and predictive-search settings. The desktop header places navigation on the left, the brand in the center, and actions on the right. The nested **Shop** menu opens on hover, click, or keyboard activation and shows each linked collection’s image (or its first product image). Change **Image menu link title** if you rename Shop; assign collection images in Shopify for the six visual category cards. Account links appear only when Shopify accounts are enabled. The cart setting selects a drawer or native cart page.
 2. In **Home page > Hero**, upload real desktop/mobile photography and edit the eyebrow, heading, subheading and collection link. The AI fallback scenes are replaceable placeholders. The default overlay protects text contrast; recheck contrast after changing it.
 3. In **Category tiles**, open each of the six blocks and select its collection. The known demo handles are assigned in the JSON template; missing resources show a friendly placeholder.
 4. In the two **Featured collection** sections, choose **New arrivals** and **Featured**, edit headings and product counts. Empty collections do not create fake products.
-5. In **Brand story**, replace demo editorial copy and photograph. In **Shop the look**, upload the matching scene, add Product pin blocks, select real products and position each pin; keyboard links below the scene duplicate the pin destinations. The template assigns two known demo products matching the work-scene image; missing products omit their pins. Resource defaults are not embedded in the section schema.
-6. **Benefits** starts empty. Add only verified claims. **Reviews** starts unpublished with no blocks; add authentic names/text and explicitly publish when verified. Verified buyer defaults to false. Edit **Email signup** and confirm real Shopify form delivery.
+5. In **Our philosophy**, replace demo editorial copy and photograph. In **Shop the look**, upload the matching scene, add Product pin blocks, select real products and position each pin; keyboard links below the scene duplicate the pin destinations. The template assigns two known demo products matching the work-scene image; missing products omit their pins. Resource defaults are not embedded in the section schema.
+6. **Benefits** starts empty. Add only verified claims. **Reviews** starts unpublished with no blocks; add authentic names/text and explicitly publish when verified. Verified buyer defaults to false. Edit the footer’s **Studio notes** newsletter and confirm real Shopify form delivery. The homepage uses this single signup form.
 7. Under **Theme settings > Product cards and collections**, choose image ratio, second image, swatches, quick shopping and desktop grid default. On a collection template, set banner/description visibility and products per page. Enable availability, price, Color and product-type filters as described above. Native filter state and sorting share a form; tag-route chips are intentionally omitted to avoid conflicting filter states.
-8. In **Products > [product]**, supply accurate material/dimensions/care metafields and real variant photos. On the product template, edit blocks and fallback accordion text. Related/complementary sections use Shopify recommendations and remain hidden when empty; configure complementary products in **Search & Discovery**. Recently viewed uses bounded localStorage inside try/catch and quietly hides if storage is blocked or invalid.
-9. In **Footer**, choose **Footer** and edit brand/newsletter copy. Configure real policies under **Settings > Policies**. Page templates display their admin-owned body content; gift cards use Shopify's real balance, code and validity state.
-10. Under **Theme settings > Cart and shipping**, enable notes and enter a free-shipping threshold only if the real shipping rules support it. The default 0 hides the bar; both page and drawer totals use Liquid money formatting in the active currency. The announcement is hidden until a verified message is supplied.
+8. In **Products > [product]**, supply accurate material/dimensions/care metafields and real variant photos. On the product template, edit blocks and fallback accordion text. Related/complementary sections use Shopify recommendations and remain hidden when empty; configure complementary products in **Search & Discovery**. Customer reviews appear last, after recommendations and recently viewed, before the footer. Recently viewed uses bounded localStorage inside try/catch and quietly hides if storage is blocked or invalid.
+9. In **Footer**, choose **Footer** and edit brand/newsletter copy. Configure real policies under **Settings > Policies**. The Our philosophy page uses its editable section; other page templates display their admin-owned body content. Gift cards use Shopify's real balance, code and validity state.
+10. Under **Theme settings > Cart and shipping**, enable notes and enter a free-shipping threshold only if the real shipping rules support it. The default 0 hides the bar; both page and drawer totals use Liquid money formatting in the active currency. The announcement bar is enabled with “Considered bags. Everyday companions.” and a “Shop the collection” CTA to `/collections/all`. Edit its text, CTA label and link in **Header > Announcement bar**, or disable it.
 
 The obsolete single-product buy flow and fabricated customer quotes have been removed. At your request, the Inquiries section and its supplied FAQ copy are restored, and Honest Construction returns as an editable comparison table. Confirm the FAQ capacity, material, strap, delivery and return statements against your actual catalog and policies before launch. Old imagery is archived outside the theme in `seed/legacy-images/`; IMAGE-LOG.md retains provenance.
 
@@ -201,7 +201,7 @@ When the store is available, run `shopify theme dev --store your-development-sto
 
 ## Swatches, Inquiries and product reviews
 
-The homepage again includes **Inquiries / Frequently Asked Questions**, with the five supplied questions and answers, and **Honest Construction / A Direct Comparison**. Edit both sections and their blocks in the theme editor. The construction table has editable product details/comparison notes and does not invent competitor specifications. FAQ text is the copy you requested; it is not a verified specification for all 22 demo products.
+The homepage and FAQ page include **Inquiries / Frequently Asked Questions**, with the five supplied questions and answers, and **Honest Construction / A Direct Comparison**. Edit both sections and their blocks in the theme editor. The construction table has editable product details/comparison notes and does not invent competitor specifications. FAQ text is the copy you requested; it is not a verified specification for all 22 demo products.
 
 Color-only product cards now submit the checked circular swatch directly as the variant ID, including without JavaScript. Selecting a circle updates its price and product link. Multi-option card circles link to the color variant and Choose options opens quick view. Product details and quick view use labeled Color radio buttons in the original swatch style and separate Size buttons. The hidden full-variant selector remains only as the product-page JavaScript-disabled fallback.
 
