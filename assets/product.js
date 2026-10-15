@@ -56,7 +56,7 @@
           showMedia(root, variant.imageId);
           if (variant.image && !root.querySelector(`[data-media-id="${variant.imageId}"], [data-image-id="${variant.imageId}"]`)) {
             const image = root.querySelector('[data-product-media].is-active img');
-            if (image) { image.removeAttribute('srcset');image.src = variant.image;const zoom = image.closest('[data-product-media]').querySelector('[data-product-zoom]');if (zoom) zoom.href = variant.image; }
+            if (image) { image.removeAttribute('srcset');image.src = variant.image;image.alt = variant.alt;const zoom = image.closest('[data-product-media]').querySelector('[data-product-zoom]');if (zoom) zoom.href = variant.image; }
           }
         }
       };

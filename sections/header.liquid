@@ -1,5 +1,5 @@
 {%- assign navigation_menu = section.settings.menu -%}
-<div data-header-section>
+<div data-header-section style="--header-logo-width: {{ section.settings.logo_width }}px;">
   <header class="site-header{% if section.settings.enable_transparent_header and template.name == 'index' %} is-transparent{% endif %}" data-header>
     <div class="container">
       <div class="site-header__inner">
@@ -43,7 +43,7 @@
     {% render 'search-form', input_id: search_input_id, predictive: section.settings.enable_predictive_search %}
   </dialog>
 </div>
-<style>#shopify-section-{{ section.id }} .site-header__logo-image { width: {{ section.settings.logo_width }}px; max-width: 100%; height: auto; }</style>
+
 {% schema %}
 {
   "name": "Header",

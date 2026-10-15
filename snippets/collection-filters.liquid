@@ -1,5 +1,6 @@
 <form id="CollectionFilters-{{ section.id }}" class="collection-filters" action="{{ collection.url }}" method="get" data-collection-filters>
   {%- for filter in collection.filters -%}
+    {%- assign filter_index = forloop.index -%}
     <details open class="collection-filter">
       <summary>{{ filter.label | escape }}</summary>
       <fieldset>
@@ -7,8 +8,8 @@
         {%- case filter.type -%}
           {%- when 'boolean', 'list' -%}
             {%- for value in filter.values -%}
-              <label class="collection-filter__value" for="Filter-{{ section.id }}-{{ forloop.parentloop.index }}-{{ forloop.index }}">
-                <input type="checkbox" name="{{ value.param_name }}" value="{{ value.value | escape }}" id="Filter-{{ section.id }}-{{ forloop.parentloop.index }}-{{ forloop.index }}" {% if value.active %}checked{% endif %} {% if value.count == 0 and value.active == false %}disabled{% endif %}>
+              <label class="collection-filter__value" for="Filter-{{ section.id }}-{{ filter_index }}-{{ forloop.index }}">
+                <input type="checkbox" name="{{ value.param_name }}" value="{{ value.value | escape }}" id="Filter-{{ section.id }}-{{ filter_index }}-{{ forloop.index }}" {% if value.active %}checked{% endif %} {% if value.count == 0 and value.active == false %}disabled{% endif %}>
                 <span>{{ value.label | escape }} ({{ value.count }})</span>
               </label>
             {%- endfor -%}

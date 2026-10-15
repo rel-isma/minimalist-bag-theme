@@ -6,7 +6,7 @@
         {%- for product in predictive_search.resources.products -%}
           <a href="{{ product.url }}" class="predictive-option" role="option" aria-selected="false" tabindex="-1">
             {%- if product.featured_image != blank -%}{{ product.featured_image | image_url: width: 160 | image_tag: loading: 'lazy', widths: '80, 160', sizes: '64px', class: 'predictive-option__image' }}{%- endif -%}
-            <span><span class="predictive-option__title">{{ product.title | escape }}</span>{% render 'price', product: product %}</span>
+            <div><span class="predictive-option__title">{{ product.title | escape }}</span>{% render 'price', product: product %}</div>
           </a>
         {%- endfor -%}
       </div>

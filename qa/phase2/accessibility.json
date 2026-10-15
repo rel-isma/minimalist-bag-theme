@@ -1,0 +1,36 @@
+[
+  {
+    "page": "home",
+    "axeViolations": []
+  },
+  {
+    "page": "collection",
+    "checked": [
+      {
+        "name": "filter.v.option.color",
+        "value": "Black"
+      }
+    ],
+    "duplicates": []
+  },
+  {
+    "route": "/",
+    "semanticHtmlErrors": 0
+  },
+  {
+    "route": "/products/line-tote-bag",
+    "semanticHtmlErrors": 0
+  },
+  {
+    "route": "/search?q=bag",
+    "semanticHtmlErrors": 0
+  },
+  {
+    "route": "/pages/contact",
+    "semanticHtmlErrors": 0
+  },
+  {
+    "route": "/search/suggest?q=bag&section_id=predictive-search",
+    "semanticHtmlErrors": 0
+  }
+]

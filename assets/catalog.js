@@ -110,7 +110,7 @@
     if (variant.comparePrice) { const comparison = document.createElement('s');comparison.className = 'text-muted';comparison.textContent = variant.comparePrice;price.append(' ', comparison); }
     form.querySelector('button[type="submit"]').disabled = !variant.available || form.dataset.adding === 'true';
     card.querySelectorAll('.product-card__media, .product-card__title a').forEach(link => { const url = new URL(link.href);url.searchParams.set('variant', variant.id);link.href = url; });
-    if (variant.image) { const image = card.querySelector('.product-card__image');if (image) { image.removeAttribute('srcset');image.src = variant.image; } }
+    if (variant.image) { const image = card.querySelector('.product-card__image');if (image) { image.removeAttribute('srcset');image.src = variant.image;image.alt = variant.alt; } }
   }
 
   async function openQuickView(link) {
