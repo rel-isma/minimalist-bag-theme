@@ -10,7 +10,43 @@
         "newsletter_subtext": "New shapes, collection updates and occasional notes from the atelier.",
         "show_payment_icons": true,
         "show_newsletter": true
-      }
+      },
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {}
+        },
+        "link_list": {
+          "type": "link_list",
+          "settings": {
+            "menu": "footer"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        },
+        "social": {
+          "type": "social",
+          "settings": {}
+        },
+        "payment": {
+          "type": "payment",
+          "settings": {}
+        },
+        "localization": {
+          "type": "localization",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "text",
+        "link_list",
+        "newsletter",
+        "social",
+        "payment",
+        "localization"
+      ]
     }
   },
   "order": [

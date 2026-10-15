@@ -120,3 +120,16 @@ test('FAQ page matches the homepage inquiries with one page heading', async () =
   }
   assert.equal((faq.match(/<details class="accordion-item"/g) || []).length, 5);
 });
+
+test('footer blocks expose native policies, contact fallback and conditional localization', async () => {
+  const blocks = { links: { type: 'link_list', settings: { menu: { links: [] } } }, locale: { type: 'localization', settings: {} }, social: { type: 'social', settings: {} } };
+  const country = { iso_code: 'US', name: 'United States', currency: { iso_code: 'USD', symbol: '$' } };
+  const language = { iso_code: 'en', endonym_name: 'English' };
+  const scoped = { ...context, settings: { ...settings, social_instagram_link: 'https://www.instagram.com/atelier-vane' }, shop: { ...context.shop, name: 'Store name', policies: [{ title: 'Shipping policy', url: '/policies/shipping-policy', body: '<p>Actual test policy.</p>' }] }, localization: { country, language, available_countries: [country], available_languages: [language] } };
+  const one = await renderSection('footer', 'footer-blocks', {}, scoped, blocks);
+  assert.ok(one.includes('/policies/shipping-policy')); assert.ok(one.includes('href="/pages/contact"'));
+  assert.ok(one.includes('Instagram')); assert.ok(!one.includes('name="country_code"'));
+  const multiple = await renderSection('footer', 'footer-blocks', {}, { ...scoped, localization: { ...scoped.localization, available_countries: [country, { ...country, iso_code: 'CA', name: 'Canada' }], available_languages: [language, { iso_code: 'fr', endonym_name: 'Français' }] } }, blocks);
+  assert.ok(multiple.includes('name="country_code"')); assert.ok(multiple.includes('name="language_code"'));
+  assert.ok(multiple.includes('Update preferences')); assert.ok(!multiple.includes('onchange='));
+});

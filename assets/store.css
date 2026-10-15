@@ -125,3 +125,8 @@ html.no-js .fade-up { opacity: 1; transform: none; }
   .site-footer__col-title { margin-bottom: .75rem; }
   .site-footer__bottom { gap: .75rem; padding-top: 1.5rem; }
 }
+.footer-social, .footer-localization { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 1rem; }
+.footer-social .site-footer__link { gap: .5rem; }
+.footer-localization form { display: flex; align-items: end; flex-wrap: wrap; gap: .75rem; }
+.footer-localization select { width: auto; max-width: 100%; }
+.site-footer__grid > .site-footer__payment-icons { grid-column: 1 / -1; }

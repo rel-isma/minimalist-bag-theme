@@ -1,13 +1,19 @@
 {%- assign footer_seen_urls = '|' -%}
-<footer class="site-footer">
-  <div class="container">
-    <div class="site-footer__grid">
-      <div class="site-footer__brand">
-        <a class="site-footer__brand-title" href="{{ routes.root_url }}">{{ settings.brand_name | default: shop.name | escape }}</a>
-        <p class="text-muted">{{ section.settings.brand_bio | escape }}</p>
+{%- assign footer_blocks = section.blocks -%}
+{%- if footer_blocks.size == 0 -%}{%- assign footer_blocks = 'text,link_list,newsletter,payment' | split: ',' -%}{%- endif -%}
+<footer class="site-footer"><div class="container"><div class="site-footer__grid">
+{% for block in footer_blocks %}
+  {% assign block_type = block.type | default: block %}
+  {% case block_type %}
+    {% when 'text' %}
+      <div class="site-footer__brand" {{ block.shopify_attributes }}>
+        <a class="site-footer__brand-title" href="{{ routes.root_url }}">{{ block.settings.heading | default: settings.brand_name | default: shop.name | escape }}</a>
+        {% if block.settings.body != blank %}<div class="text-muted prose">{{ block.settings.body }}</div>{% else %}<p class="text-muted">{{ section.settings.brand_bio | escape }}</p>{% endif %}
       </div>
-      <nav class="footer-navigation" aria-label="Footer navigation">
-        {%- for link in section.settings.menu.links -%}
+    {% when 'link_list' %}
+      {% assign footer_menu = block.settings.menu | default: section.settings.menu | default: linklists.footer %}
+      <nav {{ block.shopify_attributes }} class="footer-navigation" aria-label="{{ block.settings.heading | default: 'Footer navigation' | escape }}">
+        {%- for link in footer_menu.links -%}
           <div class="footer-navigation__column">
             {%- if link.links != blank -%}
               <h2 class="site-footer__col-title">{{ link.title | escape }}</h2>
@@ -39,35 +45,191 @@
           <a class="site-footer__link" href="{{ routes.all_products_collection_url }}">Shop all</a>
         {%- endfor -%}
       </nav>
-      {%- if section.settings.show_newsletter -%}
-        <div class="site-footer__newsletter">
-          <h2 class="site-footer__col-title">Studio notes</h2>
-          <p class="text-muted">{{ section.settings.newsletter_subtext | escape }}</p>
-          {%- assign footer_form_id = 'FooterNewsletter-' | append: section.id -%}
+    {% when 'newsletter' %}
+      {% if section.settings.show_newsletter %}<div class="site-footer__newsletter" {{ block.shopify_attributes }}>
+        <h2 class="site-footer__col-title">{{ block.settings.heading | default: 'Studio notes' | escape }}</h2>
+        <p class="text-muted">{{ block.settings.note | default: section.settings.newsletter_subtext | escape }}</p>
+          {%- assign footer_form_id = 'FooterNewsletter-' | append: section.id | append: '-' | append: block.id -%}
           {% form 'customer', id: footer_form_id %}
             <input type="hidden" name="contact[tags]" value="newsletter">
-            <label for="FooterEmail-{{ section.id }}" class="visually-hidden">Email address</label>
+            <label for="FooterEmail-{{ section.id }}-{{ block.id }}" class="visually-hidden">Email address</label>
             <div class="footer-newsletter-fields">
-              <input id="FooterEmail-{{ section.id }}" type="email" name="contact[email]" class="form-input" autocomplete="email" placeholder="Your email address" required {% if form.errors %}aria-invalid="true" aria-describedby="FooterErrors-{{ section.id }}"{% endif %}>
+              <input id="FooterEmail-{{ section.id }}-{{ block.id }}" type="email" name="contact[email]" class="form-input" autocomplete="email" placeholder="Your email address" required {% if form.errors %}aria-invalid="true" aria-describedby="FooterErrors-{{ section.id }}-{{ block.id }}"{% endif %}>
               <button type="submit" class="btn btn--primary">Join</button>
             </div>
             {% if form.posted_successfully? %}<p role="status">Thank you for subscribing.</p>{% endif %}
-            {% if form.errors %}<div id="FooterErrors-{{ section.id }}" role="alert">{{ form.errors | default_errors }}</div>{% endif %}
+            {% if form.errors %}<div id="FooterErrors-{{ section.id }}-{{ block.id }}" role="alert">{{ form.errors | default_errors }}</div>{% endif %}
+          {% endform %}
+      </div>{% endif %}
+    {% when 'social' %}
+      {% if settings.social_instagram_link != blank or settings.social_pinterest_link != blank %}
+        <nav class="footer-social" aria-label="Social media" {{ block.shopify_attributes }}>
+          {% if settings.social_instagram_link != blank %}<a class="site-footer__link" href="{{ settings.social_instagram_link | escape }}" aria-label="Instagram"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".75"/></svg><span>Instagram</span></a>{% endif %}
+          {% if settings.social_pinterest_link != blank %}<a class="site-footer__link" href="{{ settings.social_pinterest_link | escape }}" aria-label="Pinterest"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="m9 21 3-14c5-2 6 7 1 8-3 0-4-4-1-7"/></svg><span>Pinterest</span></a>{% endif %}
+        </nav>
+      {% endif %}
+    {% when 'localization' %}
+      {% if localization.available_countries.size > 1 or localization.available_languages.size > 1 %}
+        <div class="footer-localization" {{ block.shopify_attributes }}>
+          {% assign localization_id = 'FooterLocalization-' | append: section.id | append: '-' | append: block.id %}
+          {% form 'localization', id: localization_id %}
+            {% if localization.available_countries.size > 1 %}<label class="form-label" for="{{ localization_id }}-country">Country / region</label><select class="form-input" id="{{ localization_id }}-country" name="country_code">{% for country in localization.available_countries %}<option value="{{ country.iso_code }}" {% if country.iso_code == localization.country.iso_code %}selected{% endif %}>{{ country.name | escape }} ({{ country.currency.iso_code }} {{ country.currency.symbol }})</option>{% endfor %}</select>{% endif %}
+            {% if localization.available_languages.size > 1 %}<label class="form-label" for="{{ localization_id }}-language">Language</label><select class="form-input" id="{{ localization_id }}-language" name="language_code">{% for language in localization.available_languages %}<option value="{{ language.iso_code }}" lang="{{ language.iso_code }}" {% if language.iso_code == localization.language.iso_code %}selected{% endif %}>{{ language.endonym_name | escape }}</option>{% endfor %}</select>{% endif %}
+            <button class="btn btn--secondary" type="submit">Update preferences</button>
           {% endform %}
         </div>
-      {%- endif -%}
-    </div>
-    <div class="site-footer__bottom">
-      <p>&copy; {{ 'now' | date: '%Y' }} {{ settings.brand_name | default: shop.name | escape }}</p>
-      <nav class="footer-legal" aria-label="Store policies">
-        {% if shop.privacy_policy != blank %}{% assign url_key = shop.privacy_policy.url | prepend: '|' | append: '|' %}{% unless footer_seen_urls contains url_key %}<a href="{{ shop.privacy_policy.url }}">Privacy policy</a>{% assign footer_seen_urls = footer_seen_urls | append: shop.privacy_policy.url | append: '|' %}{% endunless %}{% endif %}
-        {% if shop.terms_of_service != blank %}{% assign url_key = shop.terms_of_service.url | prepend: '|' | append: '|' %}{% unless footer_seen_urls contains url_key %}<a href="{{ shop.terms_of_service.url }}">Terms of service</a>{% assign footer_seen_urls = footer_seen_urls | append: shop.terms_of_service.url | append: '|' %}{% endunless %}{% endif %}
-        {% if shop.refund_policy != blank %}{% assign url_key = shop.refund_policy.url | prepend: '|' | append: '|' %}{% unless footer_seen_urls contains url_key %}<a href="{{ shop.refund_policy.url }}">Refund policy</a>{% endunless %}{% endif %}
-      </nav>
-      {% if section.settings.show_payment_icons and shop.enabled_payment_types != empty %}<div class="site-footer__payment-icons" role="group" aria-label="Payment methods">{% for type in shop.enabled_payment_types %}{{ type | payment_type_svg_tag: class: 'site-footer__payment-icon' }}{% endfor %}</div>{% endif %}
-    </div>
-  </div>
-</footer>
+      {% endif %}
+    {% when 'payment' %}
+      {% if section.settings.show_payment_icons and shop.enabled_payment_types != empty %}<div class="site-footer__payment-icons" role="group" aria-label="Payment methods" {{ block.shopify_attributes }}>{% for type in shop.enabled_payment_types %}{{ type | payment_type_svg_tag: class: 'site-footer__payment-icon' }}{% endfor %}</div>{% endif %}
+  {% endcase %}
+{% endfor %}
+</div>
+<div class="site-footer__bottom">
+  <p>&copy; {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</p>
+  <nav class="footer-legal" aria-label="Store policies">
+    {% assign contact_url = pages.contact.url %}
+    {% if contact_url != blank %}{% assign url_key = contact_url | prepend: '|' | append: '|' %}{% unless footer_seen_urls contains url_key %}<a href="{{ contact_url }}">Contact</a>{% assign footer_seen_urls = footer_seen_urls | append: contact_url | append: '|' %}{% endunless %}{% endif %}
+    {% for policy in shop.policies %}{% if policy.body != blank %}{% assign url_key = policy.url | prepend: '|' | append: '|' %}{% unless footer_seen_urls contains url_key %}<a href="{{ policy.url }}">{{ policy.title | escape }}</a>{% assign footer_seen_urls = footer_seen_urls | append: policy.url | append: '|' %}{% endunless %}{% endif %}{% endfor %}
+  </nav>
+</div></div></footer>
 {% schema %}
-{"name":"Footer","settings":[{"type":"textarea","id":"brand_bio","label":"Brand bio","default":"Considered bags and everyday essentials. Calm colors, thoughtful proportions."},{"type":"link_list","id":"menu","label":"Footer menu","info":"Nested groups become columns. Repeated destinations appear once."},{"type":"checkbox","id":"show_newsletter","label":"Show newsletter","default":true},{"type":"text","id":"newsletter_subtext","label":"Newsletter note","default":"New shapes, collection updates and occasional notes from the atelier."},{"type":"checkbox","id":"show_payment_icons","label":"Show enabled payment icons","default":true}]}
+{
+  "name": "Footer",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "brand_bio",
+      "label": "Brand bio",
+      "default": "Considered bags and everyday essentials. Calm colors, thoughtful proportions."
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Footer menu",
+      "info": "Nested groups become columns. Repeated destinations appear once.",
+      "default": "footer"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_newsletter",
+      "label": "Show newsletter",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "newsletter_subtext",
+      "label": "Newsletter note",
+      "default": "New shapes, collection updates and occasional notes from the atelier."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_payment_icons",
+      "label": "Show enabled payment icons",
+      "default": true
+    }
+  ],
+  "limit": 1,
+  "enabled_on": {
+    "groups": [
+      "footer"
+    ]
+  },
+  "max_blocks": 12,
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "body",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "link_list",
+      "name": "Links",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Accessible navigation label"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu",
+          "default": "footer"
+        }
+      ]
+    },
+    {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Studio notes"
+        },
+        {
+          "type": "text",
+          "id": "note",
+          "label": "Note"
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "Social links",
+      "limit": 1,
+      "settings": []
+    },
+    {
+      "type": "payment",
+      "name": "Payment icons",
+      "limit": 1,
+      "settings": []
+    },
+    {
+      "type": "localization",
+      "name": "Country and language",
+      "limit": 1,
+      "settings": []
+    }
+  ],
+  "presets": [
+    {
+      "name": "Footer",
+      "blocks": [
+        {
+          "type": "text"
+        },
+        {
+          "type": "link_list"
+        },
+        {
+          "type": "newsletter"
+        },
+        {
+          "type": "social"
+        },
+        {
+          "type": "payment"
+        },
+        {
+          "type": "localization"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
