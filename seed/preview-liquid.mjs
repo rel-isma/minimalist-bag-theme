@@ -33,7 +33,7 @@ export const menus = Object.fromEntries(sourceMenus.map(menu => [menu.handle, { 
 export const engine = new Liquid({ root: path.join(root, 'snippets'), extname: '.liquid' });
 function preprocess(source) {
   return source.replace(/\{% schema %\}[\s\S]*?\{% endschema %\}/g, '').replace(/\{% layout none %\}/g, '').replace(/\{%-? form\s+'([^']+)'([\s\S]*?)-?%\}/g, (_, type, args) => {
-    const action = type === 'product' ? routes.cart_add_url : type === 'storefront_password' ? '/password' : '/contact';
+    const action = type === 'product' ? routes.cart_add_url : type === 'storefront_password' ? '/password' : type === 'localization' ? '/localization' : '/contact';
     const attrs = [...args.matchAll(/([a-zA-Z0-9_-]+):\s*('[^']*'|"[^"]*"|[\w.]+)/g)].map(([, key, value]) => `${key}="${/^['"]/.test(value) ? esc(value.slice(1, -1)) : `{{ ${value} }}`}"`).join(' ');
     return `<form action="${action}" method="post" ${attrs}>`;
   }).replace(/\{%-? endform -?%\}/g, '</form>').replace(/\{%-? paginate [\s\S]*?-?%\}/g, '{% assign paginate = fixture_paginate %}').replace(/\{%-? endpaginate -?%\}/g, '');
@@ -67,7 +67,7 @@ export function cartObject(state) {
   return { items, item_count: items.reduce((sum, line) => sum + line.quantity, 0), total_price: items.reduce((sum, line) => sum + line.final_line_price, 0), note: state.note, 'empty?': !items.length, currency: { iso_code: 'USD' }, taxes_included: false };
 }
 export function baseContext(url, state) {
-  return { settings, routes, shop: { name: 'Atelier Vane', url: url.origin, description: 'Considered bags and everyday essentials.', customer_accounts_enabled: false, enabled_payment_types: [], policies: ['privacy-policy', 'terms-of-service', 'refund-policy'].map(handle => pages[handle]), privacy_policy: pages['privacy-policy'], terms_of_service: pages['terms-of-service'], refund_policy: pages['refund-policy'] }, request: { origin: url.origin, locale: { iso_code: 'en' }, design_mode: false }, cart: cartObject(state), form: {}, current_page: Number(url.searchParams.get('page') || 1), canonical_url: url.origin + url.pathname, collections, pages, linklists: menus, template: { name: 'index' } };
+  return { settings, routes, shop: { name: 'Atelier Vane', currency: 'USD', url: url.origin, description: 'Considered bags and everyday essentials.', customer_accounts_enabled: false, enabled_payment_types: [], policies: ['privacy-policy', 'terms-of-service', 'refund-policy'].map(handle => pages[handle]), privacy_policy: pages['privacy-policy'], terms_of_service: pages['terms-of-service'], refund_policy: pages['refund-policy'] }, request: { origin: url.origin, locale: { iso_code: 'en' }, design_mode: false }, cart: cartObject(state), form: {}, current_page: Number(url.searchParams.get('page') || 1), canonical_url: url.origin + url.pathname, collections, pages, linklists: menus, template: { name: 'index' } };
 }
 const schemaCache = new Map();
 export async function schemaFor(type) {
@@ -113,10 +113,14 @@ export async function renderTemplate(name, context, url) {
   return html;
 }
 export async function renderStore(name, context, url) {
+  const definition = await jsonFile(`templates/${name}.json`);
+  const layoutName = definition.layout || 'theme';
   const body = await renderTemplate(name, context, url);
   const group = async file => { const data = await jsonFile(`sections/${file}.json`);let output = '';for (const id of data.order) { const spec = data.sections[id];output += `<div id="shopify-section-${id}" ${spec.type === 'header' ? 'class="atelier-header-section"' : ''}>${await renderSection(spec.type, id, spec.settings, context, spec.blocks, spec.block_order)}</div>`; }return output; };
-  const header = await group('header-group');const footer = await group('footer-group');const drawer = await renderSection('cart-drawer', 'cart-drawer', {}, context);
-  let layout = await readFile(path.join(root, 'layout/theme.liquid'), 'utf8');
+  const header = layoutName === 'theme' ? await group('header-group') : '';
+  const footer = layoutName === 'theme' ? await group('footer-group') : '';
+  const drawer = layoutName === 'theme' ? await renderSection('cart-drawer', 'cart-drawer', {}, context) : '';
+  let layout = await readFile(path.join(root, `layout/${layoutName}.liquid`), 'utf8');
   layout = layout.replace("{% sections 'header-group' %}", '{{ preview_header }}').replace("{% sections 'footer-group' %}", '{{ preview_footer }}').replace("{% section 'cart-drawer' %}", '{{ preview_drawer }}');
   const html = await engine.parseAndRender(layout, { ...context, content_for_layout: body, content_for_header: '', preview_header: header, preview_footer: footer, preview_drawer: drawer }, { globals: context });
   return html.replace('<main id="MainContent"', '<div class="local-preview-notice" role="note">Local demo preview · AI placeholder images · Checkout and contact submissions require Shopify</div><main id="MainContent"');

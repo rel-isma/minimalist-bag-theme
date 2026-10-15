@@ -206,7 +206,7 @@
         "id": "free_shipping_threshold",
         "label": "Free shipping threshold (in store currency)",
         "default": 0,
-        "info": "Set a verified threshold in store currency. 0 hides this message."
+        "info": "Set a verified threshold in the store base currency. 0 hides the bar. It stays hidden in other presentment currencies to avoid an incorrect shipping promise."
       },
       {
         "type": "checkbox",

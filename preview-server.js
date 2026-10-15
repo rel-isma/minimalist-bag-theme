@@ -74,6 +74,9 @@ async function main() {
       if (url.pathname === '/cart.js') return send(res, 200, JSON.stringify(theme.cartObject(state)), 'application/json');
       if (url.searchParams.get('sections') === 'cart-drawer') return send(res, 200, JSON.stringify({ 'cart-drawer': await drawer() }), 'application/json');
       if (url.pathname === '/cart/change') { const index = Number(url.searchParams.get('line')) - 1;if (state.items[index]) state.items[index].quantity = Number(url.searchParams.get('quantity') || 0);state.items = state.items.filter(line => line.quantity > 0);res.writeHead(303, { Location: '/cart' });res.end();return; }
+      if (url.pathname === '/favicon.ico') { res.writeHead(204); res.end(); return; }
+      if (url.pathname === '/password') return page('password', { page_title: 'Store access', template: { name: 'password' } });
+      if (url.pathname === '/blogs/journal') return page('blog', { blog: { title: 'Journal', url: '/blogs/journal', articles: [] }, page_title: 'Journal', template: { name: 'blog' } });
       if (url.pathname === '/') return page('index', { page_title: 'Atelier Vane', template: { name: 'index' } });
       if (url.pathname === '/collections') return page('list-collections', { page_title: 'Collections', template: { name: 'list-collections' } });
       const collectionHandle = /^\/collections\/([a-z0-9-]+)$/.exec(url.pathname)?.[1];

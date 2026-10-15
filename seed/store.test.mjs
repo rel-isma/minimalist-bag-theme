@@ -133,3 +133,13 @@ test('footer blocks expose native policies, contact fallback and conditional loc
   assert.ok(multiple.includes('name="country_code"')); assert.ok(multiple.includes('name="language_code"'));
   assert.ok(multiple.includes('Update preferences')); assert.ok(!multiple.includes('onchange='));
 });
+
+test('password uses its dedicated layout and free shipping does not promise a different currency threshold', async () => {
+  const password = await renderStore('password', { ...context, template: { name: 'password' } }, new URL(url.origin + '/password'));
+  assert.ok(password.includes('class="template-password"'));
+  assert.ok(password.includes('name="password"'));
+  assert.ok(!password.includes('data-header-section'));
+  assert.ok(!password.includes('<footer'));
+  const different = await renderSection('cart-drawer', 'currency-test', {}, { ...context, settings: { ...settings, free_shipping_threshold: 150 }, shop: { ...context.shop, currency: 'USD' }, cart: { ...context.cart, currency: { iso_code: 'EUR' }, total_price: 12000 } });
+  assert.ok(!different.includes('data-free-shipping-bar'));
+});
