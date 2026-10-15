@@ -1,21 +1,50 @@
 {
-  "at": "2026-10-15T14:14:37.425Z",
+  "at": "2026-10-15T14:22:46.376Z",
   "scope": "Native shared preview access probe; no checkout/forms/Admin writes.",
   "errors": [],
   "consoleErrors": [
     "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Framing 'https://shop.app/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://shop.app https://admin.shopify.com\". The request has been blocked.\n",
+    "Failed to load resource: the server responded with a status of 403 ()",
     "Failed to load resource: the server responded with a status of 404 ()"
   ],
   "httpStatus": 200,
+  "localPasswordSubmitted": true,
   "dom": {
     "title": "atelier-vane-test",
     "headings": [
-      "atelier-vane-test"
+      "Search the atelier",
+      "Quietly essential.",
+      "Explore by shape",
+      "New arrivals",
+      "Cove shoulder bag",
+      "Drift shoulder bag",
+      "Path crossbody bag",
+      "Plane tote bag",
+      "Dusk clutch",
+      "Slip cardholder",
+      "Fewer, better things.",
+      "In good company",
+      "A considered edit",
+      "Cove shoulder bag",
+      "Arc shoulder bag",
+      "Path crossbody bag",
+      "Plane tote bag",
+      "Line tote bag",
+      "Petal mini bag",
+      "A Direct Comparison",
+      "Frequently Asked Questions",
+      "Shop",
+      "Client care",
+      "Studio notes",
+      "Your Bag"
     ],
-    "nativeTheme": false,
-    "cards": 0,
-    "passwordForm": true,
-    "bodyExcerpt": "atelier-vane-test\n\nThis store is password protected. Use the password to enter the store.\n\nEnter store password\nEnter\nAre you the store owner? Log in here"
+    "nativeTheme": true,
+    "cards": 12,
+    "passwordForm": false,
+    "bodyExcerpt": "SKIP TO CONTENT\nConsidered bags. Everyday companions.\nShop the collection\n→\nSHOP\nNEW ARRIVALS\nOUR PHILOSOPHY\nCONTACT\nATELIER VANE\n0\n\nATELIER VANE\n\nQuietly essential.\n\nConsidered shapes for the things you carry.\n\nEXPLORE THE COLLECTION\nExplore by shape\nShoulder bags\nCrossbody bags\nTote bags\nMini and clutch bags\nWallets and cardholders\nAccessories\nNew arrivals\nVIEW ALL\nSOLD OUT\nNEW\nCove shoulder bag\nRegular price\n$99.00\nCOLOR\nBone — Sold out\nBlack — Sold out\nTaupe — Sold out\nSOLD OUT\n— COVE SHOULDER BAG\nSOLD OUT\nNEW\nSALE\nDrift shoulder bag\nSale price\n$89.00 \nRegular price\n$109.00\nCOLOR\nOlive — S"
   },
-  "accessible": false
+  "accessible": true
 }

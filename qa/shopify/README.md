@@ -1,3 +1,19 @@
+# Current native test evidence
+
+Password access is working. See [STOREFRONT-REPORT.md](STOREFRONT-REPORT.md) for 16 passing desktop/mobile checks, 86 native captures, remaining acceptance work, and the shared-preview localization limitation. Open [index.html](index.html) for local/native/diff screenshot links. The theme remains unpublished.
+
+To repeat, set `SHOPIFY_PREVIEW_URL` locally to the owner-provided visitor preview, retain the password only in ignored `.env.shopify-test`, and run:
+
+```sh
+NATIVE_PRIMARY_PREVIEW=1 node --env-file=.env.shopify-test qa/shopify/check-storefront.cjs
+NATIVE_PRIMARY_PREVIEW=1 node --env-file=.env.shopify-test qa/shopify/capture-native.cjs
+node qa/shopify/compare-native.mjs
+```
+
+Playwright and PNG tools currently resolve from `/tmp/atelier-phase0-tools/node_modules`; Chrome is `/usr/bin/google-chrome`. A fresh machine needs those dependencies or adjusted tool paths. Browser scripts do not save authentication state. The comparison requires the retained Phase 2 screenshot set.
+
+## Historical connection/import checkpoint
+
 # Native development-store connection and upload verification
 
 **Import update:** The owner approved Contact reuse and the two menu updates. The native import is now complete and read-only verification passed: 22 draft products/52 variants, 56 image records, eight collections, three new hidden pages plus unchanged existing Contact, and backed-up Main/Footer updates with Privacy Choices/account navigation preserved. See [IMPORT-REPORT.md](IMPORT-REPORT.md). The connection/preflight checkpoint below is retained as history; its pending-decision/no-import statements describe that earlier checkpoint.

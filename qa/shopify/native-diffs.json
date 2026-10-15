@@ -1,0 +1,1488 @@
+{
+  "scope": "Approved local Phase 2 approximation versus uploaded native draft. Differences are measurements, not accepted parity. Password captured in an already-unlocked context; quick-view product/data can differ.",
+  "threshold": 0.1,
+  "includeAA": false,
+  "alignment": "top left; unequal dimensions padded with transparent pixels; never rescaled",
+  "pairs": [
+    {
+      "width": 390,
+      "state": "home",
+      "before": "390/home.png",
+      "after": "390/home.png",
+      "beforeSize": [
+        390,
+        8979
+      ],
+      "afterSize": [
+        390,
+        8936
+      ],
+      "mismatchedPixels": 982334,
+      "ratio": 0.2805217873042798,
+      "diff": "diffs/390-home.png"
+    },
+    {
+      "width": 390,
+      "state": "collection-filters-open",
+      "before": "390/collection-filters-open.png",
+      "after": "390/collection-filters-open.png",
+      "beforeSize": [
+        390,
+        900
+      ],
+      "afterSize": [
+        390,
+        900
+      ],
+      "mismatchedPixels": 132279,
+      "ratio": 0.3768632478632479,
+      "diff": "diffs/390-collection-filters-open.png"
+    },
+    {
+      "width": 390,
+      "state": "product-variant-switched",
+      "before": "390/product-variant-switched.png",
+      "after": "390/product-variant-switched.png",
+      "beforeSize": [
+        390,
+        5963
+      ],
+      "afterSize": [
+        390,
+        5252
+      ],
+      "mismatchedPixels": 677974,
+      "ratio": 0.2915302484982176,
+      "diff": "diffs/390-product-variant-switched.png"
+    },
+    {
+      "width": 390,
+      "state": "cart-drawer",
+      "before": "390/cart-drawer.png",
+      "after": "390/cart-drawer.png",
+      "beforeSize": [
+        390,
+        900
+      ],
+      "afterSize": [
+        390,
+        900
+      ],
+      "mismatchedPixels": 15589,
+      "ratio": 0.04441310541310541,
+      "diff": "diffs/390-cart-drawer.png"
+    },
+    {
+      "width": 390,
+      "state": "cart-page",
+      "before": "390/cart-page.png",
+      "after": "390/cart-page.png",
+      "beforeSize": [
+        390,
+        1701
+      ],
+      "afterSize": [
+        390,
+        1657
+      ],
+      "mismatchedPixels": 94184,
+      "ratio": 0.1419738012330605,
+      "diff": "diffs/390-cart-page.png"
+    },
+    {
+      "width": 390,
+      "state": "search",
+      "before": "390/search.png",
+      "after": "390/search.png",
+      "beforeSize": [
+        390,
+        1461
+      ],
+      "afterSize": [
+        390,
+        1418
+      ],
+      "mismatchedPixels": 76710,
+      "ratio": 0.1346285473595535,
+      "diff": "diffs/390-search.png"
+    },
+    {
+      "width": 390,
+      "state": "search-results",
+      "before": "390/search-results.png",
+      "after": "390/search-results.png",
+      "beforeSize": [
+        390,
+        4333
+      ],
+      "afterSize": [
+        390,
+        4329
+      ],
+      "mismatchedPixels": 479488,
+      "ratio": 0.2837425364081261,
+      "diff": "diffs/390-search-results.png"
+    },
+    {
+      "width": 390,
+      "state": "page",
+      "before": "390/page.png",
+      "after": "390/page.png",
+      "beforeSize": [
+        390,
+        1594
+      ],
+      "afterSize": [
+        390,
+        1497
+      ],
+      "mismatchedPixels": 81350,
+      "ratio": 0.13085931216420552,
+      "diff": "diffs/390-page.png"
+    },
+    {
+      "width": 390,
+      "state": "contact",
+      "before": "390/contact.png",
+      "after": "390/contact.png",
+      "beforeSize": [
+        390,
+        2077
+      ],
+      "afterSize": [
+        390,
+        1858
+      ],
+      "mismatchedPixels": 154670,
+      "ratio": 0.19094354530079133,
+      "diff": "diffs/390-contact.png"
+    },
+    {
+      "width": 390,
+      "state": "404",
+      "before": "390/404.png",
+      "after": "390/404.png",
+      "beforeSize": [
+        390,
+        1398
+      ],
+      "afterSize": [
+        390,
+        1355
+      ],
+      "mismatchedPixels": 83201,
+      "ratio": 0.15260078500421848,
+      "diff": "diffs/390-404.png"
+    },
+    {
+      "width": 390,
+      "state": "password",
+      "before": "390/password.png",
+      "after": "390/password.png",
+      "beforeSize": [
+        390,
+        900
+      ],
+      "afterSize": [
+        390,
+        900
+      ],
+      "mismatchedPixels": 34267,
+      "ratio": 0.09762678062678062,
+      "diff": "diffs/390-password.png"
+    },
+    {
+      "width": 390,
+      "state": "header-menu-open",
+      "before": "390/header-menu-open.png",
+      "after": "390/header-menu-open.png",
+      "beforeSize": [
+        390,
+        900
+      ],
+      "afterSize": [
+        390,
+        900
+      ],
+      "mismatchedPixels": 4202,
+      "ratio": 0.011971509971509971,
+      "diff": "diffs/390-header-menu-open.png"
+    },
+    {
+      "width": 390,
+      "state": "mobile-navigation-open",
+      "before": "390/mobile-navigation-open.png",
+      "after": "390/mobile-navigation-open.png",
+      "beforeSize": [
+        390,
+        900
+      ],
+      "afterSize": [
+        390,
+        900
+      ],
+      "mismatchedPixels": 1361,
+      "ratio": 0.0038774928774928776,
+      "diff": "diffs/390-mobile-navigation-open.png"
+    },
+    {
+      "width": 390,
+      "state": "footer",
+      "before": "390/footer.png",
+      "after": "390/footer.png",
+      "beforeSize": [
+        390,
+        852
+      ],
+      "afterSize": [
+        390,
+        889
+      ],
+      "mismatchedPixels": 46269,
+      "ratio": 0.13345158778229643,
+      "diff": "diffs/390-footer.png"
+    },
+    {
+      "width": 390,
+      "state": "philosophy",
+      "before": "390/philosophy.png",
+      "after": "390/philosophy.png",
+      "beforeSize": [
+        390,
+        2071
+      ],
+      "afterSize": [
+        390,
+        2028
+      ],
+      "mismatchedPixels": 170665,
+      "ratio": 0.21130012752417388,
+      "diff": "diffs/390-philosophy.png"
+    },
+    {
+      "width": 390,
+      "state": "faq",
+      "before": "390/faq.png",
+      "after": "390/faq.png",
+      "beforeSize": [
+        390,
+        1715
+      ],
+      "afterSize": [
+        390,
+        1672
+      ],
+      "mismatchedPixels": 80135,
+      "ratio": 0.11981012185093817,
+      "diff": "diffs/390-faq.png"
+    },
+    {
+      "width": 390,
+      "state": "quick-view",
+      "before": "390/quick-view.png",
+      "after": "390/quick-view.png",
+      "beforeSize": [
+        390,
+        900
+      ],
+      "afterSize": [
+        390,
+        900
+      ],
+      "mismatchedPixels": 19642,
+      "ratio": 0.05596011396011396,
+      "diff": "diffs/390-quick-view.png"
+    },
+    {
+      "width": 390,
+      "state": "gallery-zoom",
+      "before": "390/gallery-zoom.png",
+      "after": "390/gallery-zoom.png",
+      "beforeSize": [
+        390,
+        900
+      ],
+      "afterSize": [
+        390,
+        900
+      ],
+      "mismatchedPixels": 54861,
+      "ratio": 0.1562991452991453,
+      "diff": "diffs/390-gallery-zoom.png"
+    },
+    {
+      "width": 390,
+      "state": "predictive-search",
+      "before": "390/predictive-search.png",
+      "after": "390/predictive-search.png",
+      "beforeSize": [
+        390,
+        900
+      ],
+      "afterSize": [
+        390,
+        900
+      ],
+      "mismatchedPixels": 32452,
+      "ratio": 0.09245584045584046,
+      "diff": "diffs/390-predictive-search.png"
+    },
+    {
+      "width": 390,
+      "state": "cart-empty",
+      "before": "390/cart-empty.png",
+      "after": "390/cart-empty.png",
+      "beforeSize": [
+        390,
+        1471
+      ],
+      "afterSize": [
+        390,
+        1428
+      ],
+      "mismatchedPixels": 69373,
+      "ratio": 0.120924192508149,
+      "diff": "diffs/390-cart-empty.png"
+    },
+    {
+      "width": 390,
+      "state": "collections-list",
+      "before": "390/collections-list.png",
+      "after": "390/collections-list.png",
+      "beforeSize": [
+        390,
+        2172
+      ],
+      "afterSize": [
+        390,
+        2355
+      ],
+      "mismatchedPixels": 279835,
+      "ratio": 0.3046818008601448,
+      "diff": "diffs/390-collections-list.png"
+    },
+    {
+      "width": 390,
+      "state": "policy",
+      "before": "390/policy.png",
+      "after": "390/policy.png",
+      "beforeSize": [
+        390,
+        1303
+      ],
+      "afterSize": [
+        390,
+        10070
+      ],
+      "mismatchedPixels": 3143276,
+      "ratio": 0.8003656456089425,
+      "diff": "diffs/390-policy.png"
+    },
+    {
+      "width": 768,
+      "state": "home",
+      "before": "768/home.png",
+      "after": "768/home.png",
+      "beforeSize": [
+        768,
+        11249
+      ],
+      "afterSize": [
+        768,
+        11162
+      ],
+      "mismatchedPixels": 1724982,
+      "ratio": 0.19966844275046672,
+      "diff": "diffs/768-home.png"
+    },
+    {
+      "width": 768,
+      "state": "collection-filters-open",
+      "before": "768/collection-filters-open.png",
+      "after": "768/collection-filters-open.png",
+      "beforeSize": [
+        768,
+        900
+      ],
+      "afterSize": [
+        768,
+        900
+      ],
+      "mismatchedPixels": 209483,
+      "ratio": 0.3030714699074074,
+      "diff": "diffs/768-collection-filters-open.png"
+    },
+    {
+      "width": 768,
+      "state": "product-variant-switched",
+      "before": "768/product-variant-switched.png",
+      "after": "768/product-variant-switched.png",
+      "beforeSize": [
+        768,
+        7015
+      ],
+      "afterSize": [
+        768,
+        6127
+      ],
+      "mismatchedPixels": 1460133,
+      "ratio": 0.2710213604775481,
+      "diff": "diffs/768-product-variant-switched.png"
+    },
+    {
+      "width": 768,
+      "state": "cart-drawer",
+      "before": "768/cart-drawer.png",
+      "after": "768/cart-drawer.png",
+      "beforeSize": [
+        768,
+        900
+      ],
+      "afterSize": [
+        768,
+        900
+      ],
+      "mismatchedPixels": 37446,
+      "ratio": 0.054175347222222225,
+      "diff": "diffs/768-cart-drawer.png"
+    },
+    {
+      "width": 768,
+      "state": "cart-page",
+      "before": "768/cart-page.png",
+      "after": "768/cart-page.png",
+      "beforeSize": [
+        768,
+        1409
+      ],
+      "afterSize": [
+        768,
+        1377
+      ],
+      "mismatchedPixels": 72374,
+      "ratio": 0.06688217116158032,
+      "diff": "diffs/768-cart-page.png"
+    },
+    {
+      "width": 768,
+      "state": "search",
+      "before": "768/search.png",
+      "after": "768/search.png",
+      "beforeSize": [
+        768,
+        1230
+      ],
+      "afterSize": [
+        768,
+        1199
+      ],
+      "mismatchedPixels": 103407,
+      "ratio": 0.10946709857723577,
+      "diff": "diffs/768-search.png"
+    },
+    {
+      "width": 768,
+      "state": "search-results",
+      "before": "768/search-results.png",
+      "after": "768/search-results.png",
+      "beforeSize": [
+        768,
+        5539
+      ],
+      "afterSize": [
+        768,
+        5149
+      ],
+      "mismatchedPixels": 1319417,
+      "ratio": 0.31016264405428173,
+      "diff": "diffs/768-search-results.png"
+    },
+    {
+      "width": 768,
+      "state": "page",
+      "before": "768/page.png",
+      "after": "768/page.png",
+      "beforeSize": [
+        768,
+        1302
+      ],
+      "afterSize": [
+        768,
+        1328
+      ],
+      "mismatchedPixels": 96648,
+      "ratio": 0.09476185993975904,
+      "diff": "diffs/768-page.png"
+    },
+    {
+      "width": 768,
+      "state": "contact",
+      "before": "768/contact.png",
+      "after": "768/contact.png",
+      "beforeSize": [
+        768,
+        1733
+      ],
+      "afterSize": [
+        768,
+        1571
+      ],
+      "mismatchedPixels": 214166,
+      "ratio": 0.1609128558376611,
+      "diff": "diffs/768-contact.png"
+    },
+    {
+      "width": 768,
+      "state": "404",
+      "before": "768/404.png",
+      "after": "768/404.png",
+      "beforeSize": [
+        768,
+        1202
+      ],
+      "afterSize": [
+        768,
+        1170
+      ],
+      "mismatchedPixels": 106472,
+      "ratio": 0.11533728508042151,
+      "diff": "diffs/768-404.png"
+    },
+    {
+      "width": 768,
+      "state": "password",
+      "before": "768/password.png",
+      "after": "768/password.png",
+      "beforeSize": [
+        768,
+        900
+      ],
+      "afterSize": [
+        768,
+        900
+      ],
+      "mismatchedPixels": 52958,
+      "ratio": 0.07661747685185186,
+      "diff": "diffs/768-password.png"
+    },
+    {
+      "width": 768,
+      "state": "header-menu-open",
+      "before": "768/header-menu-open.png",
+      "after": "768/header-menu-open.png",
+      "beforeSize": [
+        768,
+        900
+      ],
+      "afterSize": [
+        768,
+        900
+      ],
+      "mismatchedPixels": 47575,
+      "ratio": 0.06882957175925926,
+      "diff": "diffs/768-header-menu-open.png"
+    },
+    {
+      "width": 768,
+      "state": "mobile-navigation-open",
+      "before": "768/mobile-navigation-open.png",
+      "after": "768/mobile-navigation-open.png",
+      "beforeSize": [
+        768,
+        900
+      ],
+      "afterSize": [
+        768,
+        900
+      ],
+      "mismatchedPixels": 44734,
+      "ratio": 0.0647193287037037,
+      "diff": "diffs/768-mobile-navigation-open.png"
+    },
+    {
+      "width": 768,
+      "state": "footer",
+      "before": "768/footer.png",
+      "after": "768/footer.png",
+      "beforeSize": [
+        768,
+        686
+      ],
+      "afterSize": [
+        768,
+        691
+      ],
+      "mismatchedPixels": 54435,
+      "ratio": 0.10257439399421128,
+      "diff": "diffs/768-footer.png"
+    },
+    {
+      "width": 768,
+      "state": "philosophy",
+      "before": "768/philosophy.png",
+      "after": "768/philosophy.png",
+      "beforeSize": [
+        768,
+        2309
+      ],
+      "afterSize": [
+        768,
+        2278
+      ],
+      "mismatchedPixels": 276498,
+      "ratio": 0.1559218005630143,
+      "diff": "diffs/768-philosophy.png"
+    },
+    {
+      "width": 768,
+      "state": "faq",
+      "before": "768/faq.png",
+      "after": "768/faq.png",
+      "beforeSize": [
+        768,
+        1460
+      ],
+      "afterSize": [
+        768,
+        1428
+      ],
+      "mismatchedPixels": 64777,
+      "ratio": 0.05777058361872146,
+      "diff": "diffs/768-faq.png"
+    },
+    {
+      "width": 768,
+      "state": "quick-view",
+      "before": "768/quick-view.png",
+      "after": "768/quick-view.png",
+      "beforeSize": [
+        768,
+        900
+      ],
+      "afterSize": [
+        768,
+        900
+      ],
+      "mismatchedPixels": 107953,
+      "ratio": 0.15618200231481483,
+      "diff": "diffs/768-quick-view.png"
+    },
+    {
+      "width": 768,
+      "state": "gallery-zoom",
+      "before": "768/gallery-zoom.png",
+      "after": "768/gallery-zoom.png",
+      "beforeSize": [
+        768,
+        900
+      ],
+      "afterSize": [
+        768,
+        900
+      ],
+      "mismatchedPixels": 44591,
+      "ratio": 0.06451244212962963,
+      "diff": "diffs/768-gallery-zoom.png"
+    },
+    {
+      "width": 768,
+      "state": "predictive-search",
+      "before": "768/predictive-search.png",
+      "after": "768/predictive-search.png",
+      "beforeSize": [
+        768,
+        900
+      ],
+      "afterSize": [
+        768,
+        900
+      ],
+      "mismatchedPixels": 52724,
+      "ratio": 0.07627893518518518,
+      "diff": "diffs/768-predictive-search.png"
+    },
+    {
+      "width": 768,
+      "state": "cart-empty",
+      "before": "768/cart-empty.png",
+      "after": "768/cart-empty.png",
+      "beforeSize": [
+        768,
+        1300
+      ],
+      "afterSize": [
+        768,
+        1269
+      ],
+      "mismatchedPixels": 48452,
+      "ratio": 0.04852964743589744,
+      "diff": "diffs/768-cart-empty.png"
+    },
+    {
+      "width": 768,
+      "state": "collections-list",
+      "before": "768/collections-list.png",
+      "after": "768/collections-list.png",
+      "beforeSize": [
+        768,
+        2459
+      ],
+      "afterSize": [
+        768,
+        2781
+      ],
+      "mismatchedPixels": 726788,
+      "ratio": 0.3402871419153782,
+      "diff": "diffs/768-collections-list.png"
+    },
+    {
+      "width": 768,
+      "state": "policy",
+      "before": "768/policy.png",
+      "after": "768/policy.png",
+      "beforeSize": [
+        768,
+        1134
+      ],
+      "afterSize": [
+        768,
+        7975
+      ],
+      "mismatchedPixels": 4897048,
+      "ratio": 0.7995441483803553,
+      "diff": "diffs/768-policy.png"
+    },
+    {
+      "width": 1280,
+      "state": "home",
+      "before": "1280/home.png",
+      "after": "1280/home.png",
+      "beforeSize": [
+        1280,
+        10250
+      ],
+      "afterSize": [
+        1280,
+        10104
+      ],
+      "mismatchedPixels": 2290954,
+      "ratio": 0.17461539634146342,
+      "diff": "diffs/1280-home.png"
+    },
+    {
+      "width": 1280,
+      "state": "collection-filters-open",
+      "before": "1280/collection-filters-open.png",
+      "after": "1280/collection-filters-open.png",
+      "beforeSize": [
+        1280,
+        4043
+      ],
+      "afterSize": [
+        1280,
+        3913
+      ],
+      "mismatchedPixels": 1432169,
+      "ratio": 0.27674549375463764,
+      "diff": "diffs/1280-collection-filters-open.png"
+    },
+    {
+      "width": 1280,
+      "state": "product-variant-switched",
+      "before": "1280/product-variant-switched.png",
+      "after": "1280/product-variant-switched.png",
+      "beforeSize": [
+        1280,
+        5702
+      ],
+      "afterSize": [
+        1280,
+        4716
+      ],
+      "mismatchedPixels": 1908219,
+      "ratio": 0.26145143699579093,
+      "diff": "diffs/1280-product-variant-switched.png"
+    },
+    {
+      "width": 1280,
+      "state": "cart-drawer",
+      "before": "1280/cart-drawer.png",
+      "after": "1280/cart-drawer.png",
+      "beforeSize": [
+        1280,
+        900
+      ],
+      "afterSize": [
+        1280,
+        900
+      ],
+      "mismatchedPixels": 88646,
+      "ratio": 0.07694965277777778,
+      "diff": "diffs/1280-cart-drawer.png"
+    },
+    {
+      "width": 1280,
+      "state": "cart-page",
+      "before": "1280/cart-page.png",
+      "after": "1280/cart-page.png",
+      "beforeSize": [
+        1280,
+        1456
+      ],
+      "afterSize": [
+        1280,
+        1425
+      ],
+      "mismatchedPixels": 164615,
+      "ratio": 0.08832793183379122,
+      "diff": "diffs/1280-cart-page.png"
+    },
+    {
+      "width": 1280,
+      "state": "search",
+      "before": "1280/search.png",
+      "after": "1280/search.png",
+      "beforeSize": [
+        1280,
+        1275
+      ],
+      "afterSize": [
+        1280,
+        1244
+      ],
+      "mismatchedPixels": 145197,
+      "ratio": 0.08896875,
+      "diff": "diffs/1280-search.png"
+    },
+    {
+      "width": 1280,
+      "state": "search-results",
+      "before": "1280/search-results.png",
+      "after": "1280/search-results.png",
+      "beforeSize": [
+        1280,
+        4359
+      ],
+      "afterSize": [
+        1280,
+        4328
+      ],
+      "mismatchedPixels": 1219630,
+      "ratio": 0.2185904880706584,
+      "diff": "diffs/1280-search-results.png"
+    },
+    {
+      "width": 1280,
+      "state": "page",
+      "before": "1280/page.png",
+      "after": "1280/page.png",
+      "beforeSize": [
+        1280,
+        1394
+      ],
+      "afterSize": [
+        1280,
+        1424
+      ],
+      "mismatchedPixels": 155847,
+      "ratio": 0.08550243591994382,
+      "diff": "diffs/1280-page.png"
+    },
+    {
+      "width": 1280,
+      "state": "contact",
+      "before": "1280/contact.png",
+      "after": "1280/contact.png",
+      "beforeSize": [
+        1280,
+        1782
+      ],
+      "afterSize": [
+        1280,
+        1617
+      ],
+      "mismatchedPixels": 251204,
+      "ratio": 0.11013082210998877,
+      "diff": "diffs/1280-contact.png"
+    },
+    {
+      "width": 1280,
+      "state": "404",
+      "before": "1280/404.png",
+      "after": "1280/404.png",
+      "beforeSize": [
+        1280,
+        1223
+      ],
+      "afterSize": [
+        1280,
+        1192
+      ],
+      "mismatchedPixels": 148495,
+      "ratio": 0.09485831459525756,
+      "diff": "diffs/1280-404.png"
+    },
+    {
+      "width": 1280,
+      "state": "password",
+      "before": "1280/password.png",
+      "after": "1280/password.png",
+      "beforeSize": [
+        1280,
+        900
+      ],
+      "afterSize": [
+        1280,
+        900
+      ],
+      "mismatchedPixels": 88108,
+      "ratio": 0.07648263888888888,
+      "diff": "diffs/1280-password.png"
+    },
+    {
+      "width": 1280,
+      "state": "header-menu-open",
+      "before": "1280/header-menu-open.png",
+      "after": "1280/header-menu-open.png",
+      "beforeSize": [
+        1280,
+        900
+      ],
+      "afterSize": [
+        1280,
+        900
+      ],
+      "mismatchedPixels": 160080,
+      "ratio": 0.13895833333333332,
+      "diff": "diffs/1280-header-menu-open.png"
+    },
+    {
+      "width": 1280,
+      "state": "footer",
+      "before": "1280/footer.png",
+      "after": "1280/footer.png",
+      "beforeSize": [
+        1280,
+        567
+      ],
+      "afterSize": [
+        1280,
+        574
+      ],
+      "mismatchedPixels": 85057,
+      "ratio": 0.11576791158536585,
+      "diff": "diffs/1280-footer.png"
+    },
+    {
+      "width": 1280,
+      "state": "philosophy",
+      "before": "1280/philosophy.png",
+      "after": "1280/philosophy.png",
+      "beforeSize": [
+        1280,
+        1683
+      ],
+      "afterSize": [
+        1280,
+        1652
+      ],
+      "mismatchedPixels": 291095,
+      "ratio": 0.13512654114676173,
+      "diff": "diffs/1280-philosophy.png"
+    },
+    {
+      "width": 1280,
+      "state": "faq",
+      "before": "1280/faq.png",
+      "after": "1280/faq.png",
+      "beforeSize": [
+        1280,
+        1505
+      ],
+      "afterSize": [
+        1280,
+        1474
+      ],
+      "mismatchedPixels": 164240,
+      "ratio": 0.08525747508305648,
+      "diff": "diffs/1280-faq.png"
+    },
+    {
+      "width": 1280,
+      "state": "quick-view",
+      "before": "1280/quick-view.png",
+      "after": "1280/quick-view.png",
+      "beforeSize": [
+        1280,
+        900
+      ],
+      "afterSize": [
+        1280,
+        900
+      ],
+      "mismatchedPixels": 147767,
+      "ratio": 0.1282699652777778,
+      "diff": "diffs/1280-quick-view.png"
+    },
+    {
+      "width": 1280,
+      "state": "gallery-zoom",
+      "before": "1280/gallery-zoom.png",
+      "after": "1280/gallery-zoom.png",
+      "beforeSize": [
+        1280,
+        900
+      ],
+      "afterSize": [
+        1280,
+        900
+      ],
+      "mismatchedPixels": 105566,
+      "ratio": 0.09163715277777777,
+      "diff": "diffs/1280-gallery-zoom.png"
+    },
+    {
+      "width": 1280,
+      "state": "predictive-search",
+      "before": "1280/predictive-search.png",
+      "after": "1280/predictive-search.png",
+      "beforeSize": [
+        1280,
+        900
+      ],
+      "afterSize": [
+        1280,
+        900
+      ],
+      "mismatchedPixels": 107773,
+      "ratio": 0.09355295138888889,
+      "diff": "diffs/1280-predictive-search.png"
+    },
+    {
+      "width": 1280,
+      "state": "cart-empty",
+      "before": "1280/cart-empty.png",
+      "after": "1280/cart-empty.png",
+      "beforeSize": [
+        1280,
+        1345
+      ],
+      "afterSize": [
+        1280,
+        1314
+      ],
+      "mismatchedPixels": 142162,
+      "ratio": 0.08257551115241636,
+      "diff": "diffs/1280-cart-empty.png"
+    },
+    {
+      "width": 1280,
+      "state": "collections-list",
+      "before": "1280/collections-list.png",
+      "after": "1280/collections-list.png",
+      "beforeSize": [
+        1280,
+        2209
+      ],
+      "afterSize": [
+        1280,
+        2178
+      ],
+      "mismatchedPixels": 667994,
+      "ratio": 0.2362473121321865,
+      "diff": "diffs/1280-collections-list.png"
+    },
+    {
+      "width": 1280,
+      "state": "policy",
+      "before": "1280/policy.png",
+      "after": "1280/policy.png",
+      "beforeSize": [
+        1280,
+        1181
+      ],
+      "afterSize": [
+        1280,
+        8777
+      ],
+      "mismatchedPixels": 9344811,
+      "ratio": 0.8317914542269568,
+      "diff": "diffs/1280-policy.png"
+    },
+    {
+      "width": 1536,
+      "state": "home",
+      "before": "1536/home.png",
+      "after": "1536/home.png",
+      "beforeSize": [
+        1536,
+        10629
+      ],
+      "afterSize": [
+        1536,
+        10505
+      ],
+      "mismatchedPixels": 2437509,
+      "ratio": 0.14930096169677298,
+      "diff": "diffs/1536-home.png"
+    },
+    {
+      "width": 1536,
+      "state": "collection-filters-open",
+      "before": "1536/collection-filters-open.png",
+      "after": "1536/collection-filters-open.png",
+      "beforeSize": [
+        1536,
+        4180
+      ],
+      "afterSize": [
+        1536,
+        4044
+      ],
+      "mismatchedPixels": 1613029,
+      "ratio": 0.2512318393640351,
+      "diff": "diffs/1536-collection-filters-open.png"
+    },
+    {
+      "width": 1536,
+      "state": "product-variant-switched",
+      "before": "1536/product-variant-switched.png",
+      "after": "1536/product-variant-switched.png",
+      "beforeSize": [
+        1536,
+        5925
+      ],
+      "afterSize": [
+        1536,
+        4888
+      ],
+      "mismatchedPixels": 2295266,
+      "ratio": 0.2522048611111111,
+      "diff": "diffs/1536-product-variant-switched.png"
+    },
+    {
+      "width": 1536,
+      "state": "cart-drawer",
+      "before": "1536/cart-drawer.png",
+      "after": "1536/cart-drawer.png",
+      "beforeSize": [
+        1536,
+        900
+      ],
+      "afterSize": [
+        1536,
+        900
+      ],
+      "mismatchedPixels": 106054,
+      "ratio": 0.07671730324074075,
+      "diff": "diffs/1536-cart-drawer.png"
+    },
+    {
+      "width": 1536,
+      "state": "cart-page",
+      "before": "1536/cart-page.png",
+      "after": "1536/cart-page.png",
+      "beforeSize": [
+        1536,
+        1519
+      ],
+      "afterSize": [
+        1536,
+        1482
+      ],
+      "mismatchedPixels": 196276,
+      "ratio": 0.08412366962914197,
+      "diff": "diffs/1536-cart-page.png"
+    },
+    {
+      "width": 1536,
+      "state": "search",
+      "before": "1536/search.png",
+      "after": "1536/search.png",
+      "beforeSize": [
+        1536,
+        1339
+      ],
+      "afterSize": [
+        1536,
+        1301
+      ],
+      "mismatchedPixels": 99876,
+      "ratio": 0.048561193054518295,
+      "diff": "diffs/1536-search.png"
+    },
+    {
+      "width": 1536,
+      "state": "search-results",
+      "before": "1536/search-results.png",
+      "after": "1536/search-results.png",
+      "beforeSize": [
+        1536,
+        4505
+      ],
+      "afterSize": [
+        1536,
+        4467
+      ],
+      "mismatchedPixels": 1307530,
+      "ratio": 0.18895815991490936,
+      "diff": "diffs/1536-search-results.png"
+    },
+    {
+      "width": 1536,
+      "state": "page",
+      "before": "1536/page.png",
+      "after": "1536/page.png",
+      "beforeSize": [
+        1536,
+        1465
+      ],
+      "afterSize": [
+        1536,
+        1488
+      ],
+      "mismatchedPixels": 169212,
+      "ratio": 0.07403498823924731,
+      "diff": "diffs/1536-page.png"
+    },
+    {
+      "width": 1536,
+      "state": "contact",
+      "before": "1536/contact.png",
+      "after": "1536/contact.png",
+      "beforeSize": [
+        1536,
+        1846
+      ],
+      "afterSize": [
+        1536,
+        1674
+      ],
+      "mismatchedPixels": 388346,
+      "ratio": 0.13696068639400505,
+      "diff": "diffs/1536-contact.png"
+    },
+    {
+      "width": 1536,
+      "state": "404",
+      "before": "1536/404.png",
+      "after": "1536/404.png",
+      "beforeSize": [
+        1536,
+        1278
+      ],
+      "afterSize": [
+        1536,
+        1240
+      ],
+      "mismatchedPixels": 177615,
+      "ratio": 0.09048103726525822,
+      "diff": "diffs/1536-404.png"
+    },
+    {
+      "width": 1536,
+      "state": "password",
+      "before": "1536/password.png",
+      "after": "1536/password.png",
+      "beforeSize": [
+        1536,
+        900
+      ],
+      "afterSize": [
+        1536,
+        900
+      ],
+      "mismatchedPixels": 104492,
+      "ratio": 0.07558738425925926,
+      "diff": "diffs/1536-password.png"
+    },
+    {
+      "width": 1536,
+      "state": "header-menu-open",
+      "before": "1536/header-menu-open.png",
+      "after": "1536/header-menu-open.png",
+      "beforeSize": [
+        1536,
+        900
+      ],
+      "afterSize": [
+        1536,
+        900
+      ],
+      "mismatchedPixels": 196367,
+      "ratio": 0.14204788773148147,
+      "diff": "diffs/1536-header-menu-open.png"
+    },
+    {
+      "width": 1536,
+      "state": "footer",
+      "before": "1536/footer.png",
+      "after": "1536/footer.png",
+      "beforeSize": [
+        1536,
+        595
+      ],
+      "afterSize": [
+        1536,
+        595
+      ],
+      "mismatchedPixels": 103326,
+      "ratio": 0.11305803571428572,
+      "diff": "diffs/1536-footer.png"
+    },
+    {
+      "width": 1536,
+      "state": "philosophy",
+      "before": "1536/philosophy.png",
+      "after": "1536/philosophy.png",
+      "beforeSize": [
+        1536,
+        1750
+      ],
+      "afterSize": [
+        1536,
+        1712
+      ],
+      "mismatchedPixels": 326864,
+      "ratio": 0.12160119047619047,
+      "diff": "diffs/1536-philosophy.png"
+    },
+    {
+      "width": 1536,
+      "state": "faq",
+      "before": "1536/faq.png",
+      "after": "1536/faq.png",
+      "beforeSize": [
+        1536,
+        1568
+      ],
+      "afterSize": [
+        1536,
+        1530
+      ],
+      "mismatchedPixels": 105606,
+      "ratio": 0.04384815449617347,
+      "diff": "diffs/1536-faq.png"
+    },
+    {
+      "width": 1536,
+      "state": "quick-view",
+      "before": "1536/quick-view.png",
+      "after": "1536/quick-view.png",
+      "beforeSize": [
+        1536,
+        900
+      ],
+      "afterSize": [
+        1536,
+        900
+      ],
+      "mismatchedPixels": 168813,
+      "ratio": 0.12211588541666667,
+      "diff": "diffs/1536-quick-view.png"
+    },
+    {
+      "width": 1536,
+      "state": "gallery-zoom",
+      "before": "1536/gallery-zoom.png",
+      "after": "1536/gallery-zoom.png",
+      "beforeSize": [
+        1536,
+        900
+      ],
+      "afterSize": [
+        1536,
+        900
+      ],
+      "mismatchedPixels": 98768,
+      "ratio": 0.07144675925925927,
+      "diff": "diffs/1536-gallery-zoom.png"
+    },
+    {
+      "width": 1536,
+      "state": "predictive-search",
+      "before": "1536/predictive-search.png",
+      "after": "1536/predictive-search.png",
+      "beforeSize": [
+        1536,
+        900
+      ],
+      "afterSize": [
+        1536,
+        900
+      ],
+      "mismatchedPixels": 130796,
+      "ratio": 0.09461516203703704,
+      "diff": "diffs/1536-predictive-search.png"
+    },
+    {
+      "width": 1536,
+      "state": "cart-empty",
+      "before": "1536/cart-empty.png",
+      "after": "1536/cart-empty.png",
+      "beforeSize": [
+        1536,
+        1409
+      ],
+      "afterSize": [
+        1536,
+        1371
+      ],
+      "mismatchedPixels": 179131,
+      "ratio": 0.08276915883013958,
+      "diff": "diffs/1536-cart-empty.png"
+    },
+    {
+      "width": 1536,
+      "state": "collections-list",
+      "before": "1536/collections-list.png",
+      "after": "1536/collections-list.png",
+      "beforeSize": [
+        1536,
+        2299
+      ],
+      "afterSize": [
+        1536,
+        2262
+      ],
+      "mismatchedPixels": 740352,
+      "ratio": 0.20965637233579817,
+      "diff": "diffs/1536-collections-list.png"
+    },
+    {
+      "width": 1536,
+      "state": "policy",
+      "before": "1536/policy.png",
+      "after": "1536/policy.png",
+      "beforeSize": [
+        1536,
+        1244
+      ],
+      "afterSize": [
+        1536,
+        9003
+      ],
+      "mismatchedPixels": 11523601,
+      "ratio": 0.8333160503211893,
+      "diff": "diffs/1536-policy.png"
+    }
+  ],
+  "notCompared": [
+    {
+      "width": 1280,
+      "state": "mobile-navigation-open",
+      "reason": "not-applicable"
+    },
+    {
+      "width": 1536,
+      "state": "mobile-navigation-open",
+      "reason": "not-applicable"
+    }
+  ],
+  "summary": {
+    "compared": 86,
+    "identical": 0,
+    "changed": 86,
+    "notCompared": 2
+  }
+}

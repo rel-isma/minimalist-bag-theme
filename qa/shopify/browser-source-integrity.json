@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-15T14:37:46.154Z",
+  "sourceCommit": "e3dc58c",
+  "reference": "qa/phase4/post-cleanup-source-manifest.json",
+  "nativeFilesChecked": 93,
+  "changed": [],
+  "themeId": 189100065059,
+  "scope": "Local native source unchanged; uploaded-theme pull comparison is retained in the prior connection evidence."
+}

@@ -1,4 +1,11 @@
-# Phase 3 — native end-to-end test readiness
+# Phase 3 — native end-to-end checks (partial)
+
+**Current native browser update (2026-10-15):** Password access now works. The uploaded unpublished draft passed 16 desktop/mobile scenario checks after correcting a Contact test selector; 86 native screenshots were captured at four widths with zero capture failures. Native-versus-local pixel measurements are available, but visual parity and the complete 18-scenario acceptance matrix are not certified. Color/Product type filters, alternate-color media, shipping/discount/checkout, form delivery and actual editor operations still need configuration or verification. See [current storefront report](qa/shopify/STOREFRONT-REPORT.md) and [comparison gallery](qa/shopify/index.html).
+
+---
+
+## Historical checkpoints (superseded where noted above)
+
 
 **Shared preview update (2026-10-15):** The owner confirmed product-page color/size selection, add-to-bag, drawer quantity/remove and empty state manually. Native API checks confirm 22 Active products and the imported pages visible. A fresh Playwright context still reaches the generic storefront password screen from the supplied share link; automated native tests remain blocked until the password is entered in the local ignored environment file. See [PREVIEW-ACCESS.md](qa/shopify/PREVIEW-ACCESS.md). Manual reports are recorded separately from automated test passes.
 

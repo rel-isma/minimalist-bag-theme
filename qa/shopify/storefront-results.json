@@ -1,0 +1,304 @@
+{
+  "at": "2026-10-15T14:26:37.348Z",
+  "scope": "Native shared preview, US/USD, browser checks only; no Admin changes, checkout or form delivery.",
+  "country": "US",
+  "records": [
+    {
+      "width": 1280,
+      "name": "home",
+      "status": "fail",
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '\\n        Quietly essential.\\n      '\n- 'Quietly essential.'\n"
+    },
+    {
+      "width": 1280,
+      "name": "navigation",
+      "evidence": {
+        "kind": "Desktop hover image menu"
+      },
+      "status": "pass"
+    },
+    {
+      "width": 1280,
+      "name": "collection",
+      "evidence": {
+        "filters": [
+          "Availability",
+          "Price"
+        ],
+        "sortedPrices": [
+          39,
+          39,
+          45,
+          49,
+          59,
+          69,
+          79,
+          79,
+          89,
+          89,
+          89,
+          95
+        ],
+        "emptyPriceFilter": true,
+        "colorAndTypeFiltersConfigured": false
+      },
+      "status": "pass"
+    },
+    {
+      "width": 1280,
+      "name": "product-cart",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 1280,
+      "name": "card-add",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 1280,
+      "name": "quick-view-add",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 1280,
+      "name": "search",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 1280,
+      "name": "content-and-404",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 390,
+      "name": "home",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 390,
+      "name": "navigation",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 390,
+      "name": "collection",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 390,
+      "name": "product-cart",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 390,
+      "name": "card-add",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 390,
+      "name": "quick-view-add",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 390,
+      "name": "search",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    },
+    {
+      "width": 390,
+      "name": "content-and-404",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('main').first() to be visible\u001b[22m\n"
+    }
+  ],
+  "runtimeErrors": [],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()"
+  ],
+  "httpErrors": [
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/web-pixel-shopify-app-pixel@0530/sandbox/worker.modern.js"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/web-pixel-shopify-app-pixel@0530/sandbox/worker.modern.js"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/web-pixel-shopify-app-pixel@0530/sandbox/worker.modern.js"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/collections/all"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/web-pixel-shopify-app-pixel@0530/sandbox/worker.modern.js"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/collections/all"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/web-pixel-shopify-app-pixel@0530/sandbox/worker.modern.js"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/collections/all"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/web-pixel-shopify-app-pixel@0530/sandbox/worker.modern.js"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/web-pixel-shopify-app-pixel@0530/sandbox/worker.modern.js"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/web-pixels@b5acf91awd18c8882p8c792781mb6692deb/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/products/line-tote-bag"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    },
+    {
+      "status": 404,
+      "host": "[shared-preview-host]",
+      "path": "/services/currency/update"
+    }
+  ],
+  "gaps": [
+    "Admin product creation/propagation experiment",
+    "Alternate-color image proof: only primary-color images supplied",
+    "Positive shipping threshold",
+    "Applied discount",
+    "Bogus Gateway checkout",
+    "Contact/newsletter submission and delivery",
+    "Actual theme editor operations",
+    "Locked native theme password page/error validation",
+    "Exhaustive keyboard-only journey",
+    "Markets outside US"
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 14,
+    "runtimeErrors": 0
+  }
+}

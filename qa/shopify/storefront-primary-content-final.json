@@ -1,0 +1,127 @@
+{
+  "at": "2026-10-15T14:35:33.704Z",
+  "scope": "Native Shopify preview, US/USD, browser checks only; no Admin changes, checkout or form delivery.",
+  "country": "US",
+  "records": [
+    {
+      "width": 1280,
+      "name": "content-and-404",
+      "evidence": [
+        {
+          "route": "/pages/story",
+          "status": 200,
+          "heading": "Our philosophy"
+        },
+        {
+          "route": "/pages/faq",
+          "status": 200,
+          "heading": "Frequently Asked Questions"
+        },
+        {
+          "route": "/pages/contact",
+          "status": 200,
+          "heading": "Contact"
+        },
+        {
+          "route": "/pages/shipping-returns",
+          "status": 200,
+          "heading": "Shipping and returns"
+        },
+        {
+          "route": "/policies/privacy-policy",
+          "status": 200,
+          "heading": "Privacy policy"
+        },
+        {
+          "route": "/collections",
+          "status": 200,
+          "heading": "Collections"
+        },
+        {
+          "route": "/not-a-real-page",
+          "status": 404,
+          "heading": "Page not found"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "width": 390,
+      "name": "content-and-404",
+      "evidence": [
+        {
+          "route": "/pages/story",
+          "status": 200,
+          "heading": "Our philosophy"
+        },
+        {
+          "route": "/pages/faq",
+          "status": 200,
+          "heading": "Frequently Asked Questions"
+        },
+        {
+          "route": "/pages/contact",
+          "status": 200,
+          "heading": "Contact"
+        },
+        {
+          "route": "/pages/shipping-returns",
+          "status": 200,
+          "heading": "Shipping and returns"
+        },
+        {
+          "route": "/policies/privacy-policy",
+          "status": 200,
+          "heading": "Privacy policy"
+        },
+        {
+          "route": "/collections",
+          "status": 200,
+          "heading": "Collections"
+        },
+        {
+          "route": "/not-a-real-page",
+          "status": 404,
+          "heading": "Page not found"
+        }
+      ],
+      "status": "pass"
+    }
+  ],
+  "runtimeErrors": [],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()"
+  ],
+  "httpErrors": [
+    {
+      "status": 404,
+      "host": "atelier-vane-test.myshopify.com",
+      "path": "/not-a-real-page"
+    },
+    {
+      "status": 404,
+      "host": "atelier-vane-test.myshopify.com",
+      "path": "/not-a-real-page"
+    }
+  ],
+  "gaps": [
+    "Admin product creation/propagation experiment",
+    "Alternate-color image proof: only primary-color images supplied",
+    "Positive shipping threshold",
+    "Applied discount",
+    "Bogus Gateway checkout",
+    "Contact/newsletter submission and delivery",
+    "Actual theme editor operations",
+    "Locked native theme password page/error validation",
+    "Exhaustive keyboard-only journey",
+    "Markets outside US"
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 0,
+    "runtimeErrors": 0
+  },
+  "hostScope": "Original myshopify.com domain, uploaded draft ID pinned"
+}

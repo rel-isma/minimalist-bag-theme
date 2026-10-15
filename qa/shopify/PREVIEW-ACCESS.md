@@ -1,3 +1,9 @@
+# Preview access — unlocked
+
+**Current status (2026-10-15):** The locally saved password works. Native browser checks and captures have now run on the original store domain with draft `189100065059` pinned, using US/USD. Shared-preview country/currency navigation behaved differently; see [current storefront report](STOREFRONT-REPORT.md). No password, cookies or temporary share hostname are stored in these reports.
+
+## Historical initial access checkpoint
+
 # Shared preview checkpoint
 
 Date: 2026-10-15. The owner supplied a visitor preview link for theme `189100065059` after making the demo catalog visible in admin. Its temporary hostname is supplied through `SHOPIFY_PREVIEW_URL` and is not committed in scripts or reports.

@@ -1,4 +1,11 @@
-# Phase 1 parity report — blocked, not a pass
+# Native parity review — measured, awaiting acceptance
+
+**Current native browser update (2026-10-15):** Password access now works. The uploaded unpublished draft passed 16 desktop/mobile scenario checks after correcting a Contact test selector; 86 native screenshots were captured at four widths with zero capture failures. Native-versus-local pixel measurements are available, but visual parity and the complete 18-scenario acceptance matrix are not certified. Color/Product type filters, alternate-color media, shipping/discount/checkout, form delivery and actual editor operations still need configuration or verification. See [current storefront report](qa/shopify/STOREFRONT-REPORT.md) and [comparison gallery](qa/shopify/index.html).
+
+---
+
+## Historical checkpoints (superseded where noted above)
+
 
 **Native setup update (2026-10-15):** The owner has since created the development store, uploaded the updated 93-file ZIP and connected CLI/Admin API access. The native uploaded draft was pulled and checked, and the approved catalog import passed native Admin API verification: see [import evidence](qa/shopify/IMPORT-REPORT.md). Products remain drafts/new pages hidden; resource publication, verified native theme screenshots and pixel parity remain pending. The Phase 1 account of an unavailable store below is retained as historical evidence, not current connection status.
 
