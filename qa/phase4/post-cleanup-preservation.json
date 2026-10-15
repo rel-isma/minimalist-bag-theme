@@ -1,0 +1,11 @@
+{
+  "removed": [
+    "assets/demo-hero.webp",
+    "assets/demo-story.webp",
+    "assets/demo-look.webp"
+  ],
+  "unchangedNativeFiles": 93,
+  "modifiedSurvivingFiles": [],
+  "addedNativeFiles": [],
+  "zipMembersMatchSource": true
+}

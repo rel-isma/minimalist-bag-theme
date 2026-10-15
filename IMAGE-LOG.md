@@ -95,6 +95,8 @@
 
 The homepage uses compressed WebP derivatives of three already logged AI images; no new images were generated in stages (d)–(g). Hero: `seed/images/atelier-vane-demo-collection-hero.jpg`; story: `seed/images/atelier-vane-demo-lifestyle-shoulder.jpg`; shop the look: `seed/images/atelier-vane-demo-lifestyle-work.jpg`. Their original prompts and reference provenance remain in `seed/image-sources.json`.
 
-Theme assets: `assets/demo-hero.webp` (98,180 bytes), `assets/demo-story.webp` (76,710 bytes), `assets/demo-look.webp` (105,172 bytes), plus responsive `demo-hero-{750,1100,1600}.webp`, `demo-story-{480,750,1200}.webp` and `demo-look-{480,900,1600}.webp`. These are format/size derivatives, all <=1600px and <300KB. They are AI placeholders to replace with real photography or image-picker selections.
+Current theme assets: responsive `demo-hero-{750,1100,1600}.webp`, `demo-story-{480,750,1200}.webp` and `demo-look-{480,900,1600}.webp`. These are format/size derivatives, all <=1600px and <300KB. They are AI placeholders to replace with real photography or image-picker selections.
+
+On 2026-10-15 the owner approved cleanup candidates C01–C03: the unreferenced `assets/demo-hero.webp` (98,180 bytes), `assets/demo-story.webp` (76,710 bytes) and `assets/demo-look.webp` (105,172 bytes) were removed. Their provenance is retained here and in Git history. All nine referenced responsive derivatives and their source JPEGs remain. See `CLEANUP-REPORT.md` and `qa/phase4/POST-CLEANUP.md` for scope and verification.
 
 The original 12 single-product JPEG assets and the three intermediate demo JPEG copies are archived in `seed/legacy-images/`; they are excluded from the theme ZIP and upload. Original log entries are retained for provenance.

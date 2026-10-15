@@ -1,0 +1,1 @@
+PASS: 22 products, 52 variants, 8 collections, 2 menus, 4 pages, 56 images; official CSV headers and all catalog constraints verified.

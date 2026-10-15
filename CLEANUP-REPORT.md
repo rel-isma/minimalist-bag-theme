@@ -2,7 +2,9 @@
 
 Date: 2026-10-15, Africa/Casablanca. Native candidate: `504b15f`.
 
-**No theme file, selector, setting, translation or demo record has been removed.** This is the approved next phase's inspection report. Removal requires the owner's decision on the candidates below. Native E2E and parity remain blocked as recorded in [E2E-REPORT.md](E2E-REPORT.md); local coverage does not resolve that gate.
+**Approval update:** The owner subsequently approved C01–C03. Those exact three files have been removed; the original dry-run findings below are retained as the decision record. See [post-cleanup verification](qa/phase4/POST-CLEANUP.md) for the current package and checks. All deferred/protected candidates remain unchanged.
+
+**At the dry-run stop point, no theme file, selector, setting, translation or demo record had been removed.** The findings below document that inspection. The approval update above records the subsequent decision and links the applied changes. Native E2E and parity remain blocked as recorded in [E2E-REPORT.md](E2E-REPORT.md); local coverage does not resolve that gate.
 
 ## Method and evidence
 

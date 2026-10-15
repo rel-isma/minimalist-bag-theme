@@ -1,6 +1,6 @@
 # Phase 4 cleanup audit evidence
 
-Read `../../CLEANUP-REPORT.md` and `CANDIDATES.md`. This is a dry run: no theme deletion or cleanup has been applied.
+Read `../../CLEANUP-REPORT.md` and `CANDIDATES.md`. The graph, coverage and candidate appendix below are the pre-removal dry-run snapshot. C01–C03 were subsequently approved and applied; see [POST-CLEANUP.md](POST-CLEANUP.md) for current hashes, package and visual verification. CSS/locale candidates remain deferred.
 
 Reproduce the static graph with Python 3:
 
