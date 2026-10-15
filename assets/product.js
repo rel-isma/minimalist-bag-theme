@@ -2,6 +2,14 @@
 (() => {
   'use strict';
   const initialized = new WeakSet();
+  const controllers = new WeakMap();
+  function begin(root) {
+    if (initialized.has(root)) return null;
+    initialized.add(root);
+    const controller = new AbortController();
+    controllers.set(root, controller);
+    return controller;
+  }
   const historyKey = 'atelier-recent-products';
   function showMedia(root, id) {
     const slides = [...root.querySelectorAll('[data-product-media]')];
@@ -17,8 +25,9 @@
     });
   }
   function initProduct(root) {
-    if (initialized.has(root)) return;
-    initialized.add(root);
+    const controller = begin(root);
+    if (!controller) return;
+    const { signal } = controller;
     const variants = JSON.parse(root.querySelector('[data-product-variants]').dataset.variants);
     const selectors = [...root.querySelectorAll('[data-product-option]')];
     const form = root.querySelector('[data-product-form]');
@@ -51,32 +60,33 @@
           }
         }
       };
-      selectors.forEach(select => select.addEventListener('change', update));
+      selectors.forEach(select => select.addEventListener('change', update, { signal }));
       update();
     }
     root.querySelectorAll('[data-product-quantity]').forEach(button => button.addEventListener('click', () => {
       const input = root.querySelector('input[name="quantity"]');
       input.value = Math.max(1, Number(input.value || 1) + Number(button.dataset.productQuantity));
       input.dispatchEvent(new Event('change', { bubbles: true }));
-    }));
-    root.querySelectorAll('[data-media-select]').forEach(link => link.addEventListener('click', event => { event.preventDefault();showMedia(root, link.dataset.mediaSelect); }));
+    }, { signal }));
+    root.querySelectorAll('[data-media-select]').forEach(link => link.addEventListener('click', event => { event.preventDefault();showMedia(root, link.dataset.mediaSelect); }, { signal }));
     const dialog = root.querySelector('[data-product-zoom-dialog]');
     let trigger;
     root.querySelectorAll('[data-product-zoom]').forEach(link => link.addEventListener('click', event => {
       event.preventDefault();trigger = link;
       const image = document.createElement('img');image.src = link.href;image.alt = link.closest('[data-product-media]').querySelector('img')?.alt || '';
       dialog.querySelector('[data-product-zoom-content]').replaceChildren(image);dialog.showModal();document.body.style.overflow = 'hidden';
-    }));
-    dialog?.querySelector('[data-product-zoom-close]').addEventListener('click', () => dialog.close());
-    dialog?.addEventListener('close', () => { document.body.style.overflow = '';trigger?.focus(); });
+    }, { signal }));
+    dialog?.querySelector('[data-product-zoom-close]').addEventListener('click', () => dialog.close(), { signal });
+    dialog?.addEventListener('close', () => { window.AtelierTheme.syncScrollLock();if (trigger?.isConnected) trigger.focus(); }, { signal });
   }
   async function recommendations(root) {
-    if (initialized.has(root)) return;
-    initialized.add(root);
+    const controller = begin(root);
+    if (!controller) return;
+    const { signal } = controller;
     try {
       const url = new URL(root.dataset.url, location.origin);
       url.searchParams.set('section_id', root.dataset.sectionId);url.searchParams.set('product_id', root.dataset.productId);url.searchParams.set('intent', root.dataset.intent);url.searchParams.set('limit', root.dataset.limit);
-      const response = await fetch(url);if (!response.ok) return;
+      const response = await fetch(url, { signal });if (!response.ok) return;
       const html = new DOMParser().parseFromString(await response.text(), 'text/html');
       const content = html.querySelector('[data-recommendation-content]');
       if (!root.isConnected || !content?.querySelector('[data-product-card]')) return;
@@ -84,8 +94,9 @@
     } catch { /* Optional recommendations remain hidden on failure. */ }
   }
   async function recent(root) {
-    if (initialized.has(root)) return;
-    initialized.add(root);
+    const controller = begin(root);
+    if (!controller) return;
+    const { signal } = controller;
     try {
       const saved = JSON.parse(localStorage.getItem(historyKey) || '[]');
       if (!Array.isArray(saved)) return;
@@ -96,7 +107,7 @@
         return url.origin === location.origin && /^\/(?:[a-z]{2}(?:-[a-z]{2})?\/)?products\/[a-z0-9-]+$/i.test(url.pathname) && !url.search && !url.hash;
       }).slice(0, Number(root.dataset.limit));
       const cards = await Promise.all(urls.map(async value => {
-        try { const url = new URL(value, location.origin);url.searchParams.set('section_id', 'recent-product-card');const response = await fetch(url);if (!response.ok) return null;const html = new DOMParser().parseFromString(await response.text(), 'text/html');return html.querySelector('[data-recent-card]'); } catch { return null; }
+        try { const url = new URL(value, location.origin);url.searchParams.set('section_id', 'recent-product-card');const response = await fetch(url, { signal });if (!response.ok) return null;const html = new DOMParser().parseFromString(await response.text(), 'text/html');return html.querySelector('[data-recent-card]'); } catch { return null; }
       }));
       if (!root.isConnected) return;
       const available = cards.filter(Boolean);root.querySelector('[data-recent-products]').replaceChildren(...available);root.hidden = !available.length;root.dispatchEvent(new CustomEvent('catalog:cards:load', { bubbles: true, detail: { root } }));
@@ -111,4 +122,11 @@
   }
   document.addEventListener('DOMContentLoaded', () => init());
   document.addEventListener('shopify:section:load', event => init(event.target));
+  document.addEventListener('shopify:section:unload', event => {
+    event.target.querySelectorAll('[data-main-product], [data-product-recommendations], [data-recently-viewed]').forEach(root => {
+      controllers.get(root)?.abort();
+      controllers.delete(root);
+      initialized.delete(root);
+    });
+  });
 })();

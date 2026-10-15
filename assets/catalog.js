@@ -2,6 +2,7 @@
 (() => {
   'use strict';
   const initialized = new WeakSet();
+  const collections = new WeakMap();
   const quickDialog = () => document.querySelector('[data-quick-view-dialog]');
   let quickRequest;
   let quickTrigger;
@@ -13,7 +14,7 @@
       if (event.target.closest('[data-dialog-close]') || event.target === dialog) dialog.close();
     });
     dialog.addEventListener('close', () => {
-      document.body.style.overflow = '';
+      window.AtelierTheme.syncScrollLock();
       if (dialog.catalogReturnFocus?.getClientRects().length) dialog.catalogReturnFocus.focus();
       if (dialog === quickDialog()) {
         quickRequest?.abort();
@@ -41,6 +42,7 @@
       };
       moveFilters();
       media.addEventListener('change', moveFilters);
+      collections.set(section, () => { media.removeEventListener('change', moveFilters); if (dialog.open) dialog.close(); });
       openButton?.addEventListener('click', () => {
         dialog.catalogReturnFocus = openButton;
         dialog.showModal();
@@ -230,4 +232,11 @@
   document.addEventListener('DOMContentLoaded', () => { initCollections();initCards(); });
   document.addEventListener('catalog:cards:load', event => initCards(event.detail.root));
   document.addEventListener('shopify:section:load', event => { initCollections(event.target);initCards(event.target); });
+  document.addEventListener('shopify:section:unload', event => {
+    event.target.querySelectorAll('[data-collection-section]').forEach(section => {
+      collections.get(section)?.(); collections.delete(section); initialized.delete(section);
+    });
+    if (quickTrigger && event.target.contains(quickTrigger)) { quickRequest?.abort(); quickDialog()?.close(); quickTrigger = null; }
+    window.AtelierTheme.syncScrollLock();
+  });
 })();

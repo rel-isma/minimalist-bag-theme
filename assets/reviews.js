@@ -32,4 +32,7 @@
   }
   document.addEventListener('DOMContentLoaded', () => init());
   document.addEventListener('shopify:section:load', event => init(event.target));
+  document.addEventListener('shopify:section:unload', event => {
+    event.target.querySelectorAll('[data-reviews]').forEach(root => initialized.delete(root));
+  });
 })();
