@@ -90,7 +90,7 @@ test('footer deduplicates nested and policy URLs and respects newsletter visibil
   const html = await renderSection('footer', 'footer-test', {}, context);
   const urls = [...html.matchAll(/href="([^"]+)"/g)].map(match => match[1]);
   assert.equal(new Set(urls).size, urls.length);
-  const nested = await renderSection('footer', 'footer-dedupe', { menu, show_newsletter: false }, context);
+  const nested = await renderSection('footer', 'footer-dedupe', { menu, show_newsletter: false }, context, { links: { type: 'link_list', settings: {} } });
   assert.equal((nested.match(/href="\/pages\/faq"/g) || []).length, 1);
   assert.equal((nested.match(/href="\/policies\/privacy-policy"/g) || []).length, 1);
   assert.ok(!nested.includes('FooterNewsletter-'));
@@ -142,4 +142,12 @@ test('password uses its dedicated layout and free shipping does not promise a di
   assert.ok(!password.includes('<footer'));
   const different = await renderSection('cart-drawer', 'currency-test', {}, { ...context, settings: { ...settings, free_shipping_threshold: 150 }, shop: { ...context.shop, currency: 'USD' }, cart: { ...context.cart, currency: { iso_code: 'EUR' }, total_price: 12000 } });
   assert.ok(!different.includes('data-free-shipping-bar'));
+});
+
+test('removing every footer content block does not resurrect default content', async () => {
+  const empty = await renderSection('footer', 'empty-footer', {}, context, {});
+  assert.ok(!empty.includes('site-footer__brand-title'));
+  assert.ok(!empty.includes('FooterNewsletter-'));
+  assert.ok(!empty.includes('class="footer-navigation"'));
+  assert.ok(empty.includes('&copy;'));
 });
