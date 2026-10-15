@@ -82,7 +82,7 @@
 .mega-menu__card:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 4px; }
 .announcement-bar { background: var(--color-ink); color: var(--color-bg); padding: .625rem 0; letter-spacing: .04em; }
 .announcement-bar__inner { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .25rem 1.5rem; }
-.announcement-bar a.announcement-bar__cta { display: inline-flex; align-items: center; gap: .5rem; color: inherit; min-height: 44px; font-weight: 600; text-decoration-thickness: 1px; }
+.announcement-bar a.announcement-bar__cta { display: inline-flex; align-items: center; gap: .5rem; color: inherit; min-height: 28px; font-weight: 600; text-decoration-thickness: 1px; }
 @media (min-width: 1025px) and (max-width: 1150px) {
   [data-header-section] .site-header__logo-text { font-size: 1.4rem; }
 }
@@ -94,3 +94,7 @@
 @media (prefers-reduced-motion: reduce) { .mega-menu__image img { transition: none; } }
 
 [data-header-section] .site-header__logo-image { width: var(--header-logo-width, 140px); max-width: 100%; height: auto; }
+
+/* Enlarge the CTA hit area inside the existing bar without shifting its text/layout. */
+.announcement-bar__cta { position: relative; }
+.announcement-bar__cta::before { content: ''; position: absolute; top: 50%; left: 0; width: 100%; min-width: 44px; height: 44px; transform: translateY(-50%); }
