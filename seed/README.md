@@ -49,6 +49,10 @@ All resource collision checks finish before uploads or resource mutations. The s
 
 Editing source catalog content and rerunning will reset owned products to draft, owned pages to unpublished, and replace their demo fields. New filenames should be used for changed assets, or clean up the existing demo seed before replacing its images. Preserve the shop manifest until cleanup completes.
 
+For a deliberately reviewed existing page, the programmatic `runSeed` option `reusePages: { handle: exactNativePageId }` reuses its ID without changing its body, template, publication state or ownership marker. The ID must match before any upload/write; the reuse reference is saved for reruns. Cleanup continues to delete only owned pages, so the reused page survives. Unspecified collisions still stop the import. The owner-approved development-store runner is `qa/shopify/import-demo.mjs`; it backs up pages/menus locally under ignored `seed/store-backups/`, preserves Contact/Privacy Choices/account navigation and retains a Privacy Choices link in the updated Footer menu. `qa/shopify/check-import.mjs` verifies the native results without writing store data.
+
+The runner checks password protection through Shopify's [`onlineStore.passwordProtection.enabled`](https://shopify.dev/docs/api/admin-graphql/latest/objects/onlinestorepasswordprotection) field rather than relying on a storefront HTML request that can be rate-limited. It never publishes resources or the theme.
+
 ## Cleanup
 
 Review a local cleanup plan:

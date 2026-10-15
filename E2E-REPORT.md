@@ -1,6 +1,6 @@
 # Phase 3 — native end-to-end test readiness
 
-**Connection update (2026-10-15):** The development store is now connected and native theme `189100065059` is verified as unpublished, with all 93 current files present. [Native connection/preflight evidence](qa/shopify/README.md). Catalog setup and storefront browser authentication are still pending, so none of the 18 native E2E scenarios below has been executed. The original readiness snapshot below explains the earlier blockers; its missing-connection statement is historical.
+**Native setup update (2026-10-15):** The development store is connected and native theme `189100065059` is verified as unpublished, with all 93 current files present. The owner-approved catalog import and native Admin API verification passed: 22 draft products/52 variants, 56 image records, eight collections, three new hidden pages and existing Contact reused; Main/Footer updated with backups and Privacy Choices/account navigation preserved. See [IMPORT-REPORT.md](qa/shopify/IMPORT-REPORT.md). Resource publication, storefront authentication, test configuration and the 18 complete native E2E scenarios remain pending. The original readiness snapshot below explains the earlier blockers; its missing-connection statement is historical. Admin import counts are not a storefront/E01 pass.
 
 Date: 2026-10-15, Africa/Casablanca. Candidate source: `504b15f`.
 

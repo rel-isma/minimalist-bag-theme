@@ -1,5 +1,7 @@
 # Native development-store connection and upload verification
 
+**Import update:** The owner approved Contact reuse and the two menu updates. The native import is now complete and read-only verification passed: 22 draft products/52 variants, 56 image records, eight collections, three new hidden pages plus unchanged existing Contact, and backed-up Main/Footer updates with Privacy Choices/account navigation preserved. See [IMPORT-REPORT.md](IMPORT-REPORT.md). The connection/preflight checkpoint below is retained as history; its pending-decision/no-import statements describe that earlier checkpoint.
+
 Date: 2026-10-15. This records actual Shopify CLI/Admin API observations, not local fixture results. Native storefront E2E and visual parity remain unexecuted.
 
 - Store: `atelier-vane-test.myshopify.com`.
@@ -19,11 +21,13 @@ Theme CLI login succeeded. Separate `shopify store auth` also succeeded for prod
 
 The credential-based importer remains supported. The adapter does not by itself resolve existing Contact/menu handling or publish products/pages/collections/themes. [Local seed plan](seed-plan.json) lists the prepared resources: 22 products/52 variants, eight collections, four page definitions, two menus and 56 images. The store already has Contact, so reuse would create only three new pages.
 
-## Pending work
+## Work identified at the pre-import checkpoint
 
 1. Resolve the requested existing-content handling decision before modifying those resources.
 2. Import the chosen seed route once; preserve merchant/system content and store a restoration record before updating starter navigation.
 3. Make test catalog resources available on the password-protected development storefront and configure native filters, shipping/test discount and Bogus Gateway as required.
 4. Authenticate the test browser to the private storefront and run the actual native E2E/editor and four-width parity matrices. No full native test passes are claimed here.
+
+Items 1–2 have since been completed as recorded in the import report. Resource publication, test configuration and native browser/editor verification in items 3–4 remain pending.
 
 The draft theme remains unpublished. No native theme code, merchant editor settings or store privacy configuration was changed during connection verification.

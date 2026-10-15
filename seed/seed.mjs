@@ -15,7 +15,7 @@ export async function loadSeed() {
   return { catalog, collections, menus, pages, images };
 }
 
-export async function runSeed(admin, seed, { deleteDemo = false, replaceMenus = false, writeImageMap = true } = {}) {
+export async function runSeed(admin, seed, { deleteDemo = false, replaceMenus = false, writeImageMap = true, reusePages = {} } = {}) {
   const { shop } = await admin.graphql('query SeedStore { shop { id name currencyCode plan { partnerDevelopment } state: metafield(namespace: "atelier_vane_demo", key: "manifest") { value } } }');
   if (!shop.plan.partnerDevelopment) throw new Error('This seeder only writes to a Shopify partner development store.');
   if (!deleteDemo && shop.currencyCode !== 'USD') throw new Error('Demo prices are in USD. Configure USD as the development store currency before seeding, or revise the catalog intentionally.');
@@ -32,15 +32,24 @@ export async function runSeed(admin, seed, { deleteDemo = false, replaceMenus = 
   ]);
   const allMenus = await admin.all('menus', menuFields);
   const existingMenus = Object.fromEntries(seed.menus.map(menu => [menu.handle, allMenus.find(m => m.handle === menu.handle) ?? null]));
+  // Reusing a reviewed existing page does not grant ownership or permit edits/deletion.
+  const reusedPages = { ...(state.reusedPages ?? {}), ...reusePages };
+  for (const [handle, id] of Object.entries(reusedPages)) {
+    if (!seed.pages.some(page => page.handle === handle) || existingPages.find(page => page.handle === handle)?.id !== id) {
+      throw new Error(`Reused page ${handle} does not match the reviewed existing page ID.`);
+    }
+    if (state.reusedPages?.[handle] && state.reusedPages[handle] !== id) throw new Error(`Reused page ${handle} changed since the previous import.`);
+  }
   // Complete collision checks before any upload, product or menu mutation.
   for (const p of seed.catalog.products) assertDemoProduct(existingProducts.find(x => x.handle === p.handle), p.handle);
   for (const c of seed.collections) assertOwned(existingCollections.find(x => x.handle === c.handle), 'collection', c.handle);
-  for (const p of seed.pages) assertOwned(existingPages.find(x => x.handle === p.handle), 'page', p.handle);
+  for (const p of seed.pages) if (!reusedPages[p.handle]) assertOwned(existingPages.find(x => x.handle === p.handle), 'page', p.handle);
   for (const [handle, menu] of Object.entries(existingMenus)) {
     const recorded = state.menus[handle];
     if (menu && !recorded && !replaceMenus) throw new Error(`Menu ${handle} already exists. Inspect it, then use --replace-menus only if you intend to replace this development menu.`);
     if (menu && recorded?.hash && menuHash(menu) !== recorded.hash) throw new Error(`Menu ${handle} was edited after seeding. Reconcile it before running again.`);
   }
+  if (Object.keys(reusedPages).length) state.reusedPages = reusedPages;
   for (const image of seed.images) await admin.uploadImage(image, state, save);
   const fileIds = Object.fromEntries(Object.entries(state.files).map(([name, file]) => [name, file.id]));
 
@@ -68,6 +77,12 @@ export async function runSeed(admin, seed, { deleteDemo = false, replaceMenus = 
   }
   for (const page of seed.pages) {
     const existing = existingPages.find(p => p.handle === page.handle);
+    if (reusedPages[page.handle]) {
+      state.pages[page.handle] = existing.id;
+      await save();
+      console.log(`Reused existing page without editing: ${page.handle}`);
+      continue;
+    }
     const input = { title: page.title, handle: page.handle, body: page.body, templateSuffix: page.templateSuffix, isPublished: false, metafields: [MARKER] };
     const result = existing
       ? await admin.graphql('mutation Page($id: ID!, $page: PageUpdateInput!) { pageUpdate(id: $id, page: $page) { page { id handle } userErrors { field message } } }', { id: existing.id, page: input })

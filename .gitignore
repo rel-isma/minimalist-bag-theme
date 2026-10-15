@@ -13,6 +13,7 @@ node_modules/
 # Store-specific import output (keep the shared demo catalog and example map)
 /seed/image-urls*.json
 !/seed/image-urls.example.json
+/seed/store-backups/
 /seed/products.*.csv
 
 # Generated release packages

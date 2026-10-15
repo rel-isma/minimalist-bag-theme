@@ -137,3 +137,19 @@ test('repeat seed preserves product/variant IDs; cleanup restores menus and keep
   await runSeed(admin, seed, { deleteDemo: true });
   assert.deepEqual(admin.products.map(p => p.id), ['real-product']); assert.deepEqual(admin.menus, [original]);
 });
+
+test('reviewed page reuse preserves content and IDs through import, rerun and cleanup', async () => {
+  const seed = await loadSeed(); const admin = new DevelopmentStore();
+  const contact = { id: 'existing-contact', handle: 'contact', title: 'Contact', body: '', templateSuffix: 'contact' };
+  admin.pages.push(structuredClone(contact));
+  await assert.rejects(runSeed(admin, seed, { replaceMenus: true, reusePages: { contact: 'wrong-id' } }), /reviewed existing page ID/);
+  assert.equal(admin.writes, 0);
+  await runSeed(admin, seed, { replaceMenus: true, writeImageMap: false, reusePages: { contact: contact.id } });
+  assert.deepEqual(admin.pages.find(p => p.handle === 'contact'), contact);
+  assert.equal(admin.state.pages.contact, contact.id);
+  assert.equal(admin.state.reusedPages.contact, contact.id);
+  await runSeed(admin, seed, { writeImageMap: false });
+  assert.deepEqual(admin.pages.find(p => p.handle === 'contact'), contact);
+  await runSeed(admin, seed, { deleteDemo: true });
+  assert.deepEqual(admin.pages, [contact]);
+});
