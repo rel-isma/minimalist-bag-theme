@@ -1,0 +1,13 @@
+{
+  "modalScrollLock": "hidden",
+  "selection": {
+    "during": {
+      "hidden": false,
+      "open": true
+    },
+    "after": {
+      "hidden": true,
+      "open": false
+    }
+  }
+}

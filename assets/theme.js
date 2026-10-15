@@ -22,12 +22,15 @@
     nodes.forEach(node => observer.observe(node));
   }
   const selectedDisclosures = new WeakMap();
+  const selectedVisibility = new WeakMap();
   function reveal(event) {
     const root = event.target;
     root.closest?.('.fade-up')?.classList.add('is-visible');
     root.querySelectorAll('.fade-up').forEach(node => node.classList.add('is-visible'));
     if (root.matches?.('.fade-up')) root.classList.add('is-visible');
     if (event.type === 'shopify:block:select') {
+      selectedVisibility.set(root, root.hidden);
+      root.hidden = false;
       const details = root.matches?.('details') ? root : root.querySelector('details');
       if (details) { selectedDisclosures.set(root, details.open); details.open = true; }
     }
@@ -45,6 +48,7 @@
   document.addEventListener('shopify:block:select', reveal);
   document.addEventListener('shopify:block:deselect', event => {
     const root = event.target;
+    if (selectedVisibility.has(root)) { root.hidden = selectedVisibility.get(root); selectedVisibility.delete(root); }
     const details = root.matches?.('details') ? root : root.querySelector('details');
     if (details && selectedDisclosures.has(root)) { details.open = selectedDisclosures.get(root); selectedDisclosures.delete(root); }
   });

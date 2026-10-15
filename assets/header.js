@@ -38,7 +38,7 @@
       }, { signal });
       dialog.addEventListener('close', () => {
         const anotherOpen = menu.open || search.open;
-        document.body.style.overflow = anotherOpen ? 'hidden' : '';
+        document.body.style.overflow = document.querySelector('dialog[open], [data-cart-drawer].is-open') ? 'hidden' : '';
         toggle.setAttribute('aria-expanded', String(menu.open));
         updateHeader();
         if (!anotherOpen && !document.querySelector('[data-cart-drawer].is-open')) dialog.returnTrigger?.focus();
