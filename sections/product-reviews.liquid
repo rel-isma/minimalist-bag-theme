@@ -27,5 +27,98 @@
 </div></section>
 {% endif %}{% endif %}
 {% schema %}
-{"name":"Product reviews","settings":[{"type":"checkbox","id":"publish_reviews","label":"Publish authentic reviews","default":false},{"type":"checkbox","id":"show_empty","label":"Show empty review summary","default":false},{"type":"text","id":"eyebrow","label":"Eyebrow","default":"Client reflections"},{"type":"text","id":"heading","label":"Heading","default":"Customer reviews"},{"type":"paragraph","content":"Add only authentic reviews. On product pages each review must select its matching product. Use ISO dates (YYYY-MM-DD). Summary totals and rating bars are calculated from the published review blocks; no ratings are generated."}],"blocks":[{"type":"review","name":"Authentic review","settings":[{"type":"product","id":"product","label":"Reviewed product"},{"type":"text","id":"reviewer_name","label":"Reviewer name"},{"type":"text","id":"title","label":"Review title"},{"type":"range","id":"rating","label":"Rating","min":1,"max":5,"step":1,"default":5},{"type":"textarea","id":"review_text","label":"Review text"},{"type":"text","id":"date","label":"Review date","info":"YYYY-MM-DD for reliable sorting."},{"type":"checkbox","id":"verified_buyer","label":"Verified buyer","default":false}]}],"max_blocks":50,"presets":[{"name":"Product reviews","blocks":[]}]}
+{
+  "name": "Product reviews",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "publish_reviews",
+      "label": "Publish authentic reviews",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_empty",
+      "label": "Show empty review summary",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Client reflections"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Customer reviews"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add only authentic reviews. On product pages each review must select its matching product. Use ISO dates (YYYY-MM-DD). Summary totals and rating bars are calculated from the published review blocks; no ratings are generated."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Authentic review",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Reviewed product"
+        },
+        {
+          "type": "text",
+          "id": "reviewer_name",
+          "label": "Reviewer name"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Review title"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "label": "Rating",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "default": 5
+        },
+        {
+          "type": "textarea",
+          "id": "review_text",
+          "label": "Review text"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Review date",
+          "info": "YYYY-MM-DD for reliable sorting."
+        },
+        {
+          "type": "checkbox",
+          "id": "verified_buyer",
+          "label": "Verified buyer",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "max_blocks": 50,
+  "presets": [
+    {
+      "name": "Product reviews",
+      "blocks": []
+    }
+  ],
+  "enabled_on": {
+    "templates": [
+      "*"
+    ]
+  }
+}
 {% endschema %}

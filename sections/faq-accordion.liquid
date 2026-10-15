@@ -29,7 +29,12 @@
 {
   "name": "FAQ",
   "settings": [
-    {"type":"checkbox","id":"page_heading","label":"Use as page heading","default":false},
+    {
+      "type": "checkbox",
+      "id": "page_heading",
+      "label": "Use as page heading",
+      "default": false
+    },
     {
       "type": "text",
       "id": "eyebrow",
@@ -91,7 +96,7 @@
           "type": "faq_item",
           "settings": {
             "question": "How long does shipping take?",
-            "answer": "<p>Orders are dispatched from our studio warehouse within 24 hours on business days. Standard delivery within the US takes 2–4 business days. Complimentary tracking is emailed upon fulfillment.</p>"
+            "answer": "<p>Orders are dispatched from our studio warehouse within 24 hours on business days. Standard delivery within the US takes 2\u20134 business days. Complimentary tracking is emailed upon fulfillment.</p>"
           }
         },
         {
@@ -110,6 +115,11 @@
         }
       ]
     }
-  ]
+  ],
+  "enabled_on": {
+    "templates": [
+      "*"
+    ]
+  }
 }
 {% endschema %}

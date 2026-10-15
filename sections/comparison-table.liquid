@@ -1,4 +1,108 @@
 <section class="comparison-section section-spacing hairline-bottom"><div class="container"><header class="section-header text-center"><p class="eyebrow">{{ section.settings.eyebrow | escape }}</p><h2 class="section-heading">{{ section.settings.heading | escape }}</h2><p class="text-muted prose" style="margin-inline:auto;">{{ section.settings.subhead | escape }}</p></header><div class="comparison-table-wrap" role="region" tabindex="0" aria-label="{{ section.settings.heading | escape }}"><table class="comparison-table"><caption class="visually-hidden">{{ section.settings.heading | escape }}</caption><thead><tr><th scope="col">Feature and craft</th><th scope="col" class="comparison-table__brand-col">{{ settings.brand_name | escape }}</th><th scope="col">{{ section.settings.other_heading | escape }}</th></tr></thead><tbody>{% for block in section.blocks %}<tr {{ block.shopify_attributes }}><th scope="row">{{ block.settings.feature | escape }}</th><td class="is-highlight">{{ block.settings.our_text | escape }}</td><td class="text-muted">{{ block.settings.compare_text | escape }}</td></tr>{% endfor %}</tbody></table></div></div></section>
 {% schema %}
-{"name":"Honest construction","settings":[{"type":"text","id":"eyebrow","label":"Eyebrow","default":"Honest Construction"},{"type":"text","id":"heading","label":"Heading","default":"A Direct Comparison"},{"type":"text","id":"subhead","label":"Subheading","default":"A closer look at the details that matter."},{"type":"text","id":"other_heading","label":"Comparison column heading","default":"What to look for"}],"blocks":[{"type":"feature","name":"Construction detail","settings":[{"type":"text","id":"feature","label":"Feature"},{"type":"textarea","id":"our_text","label":"Our product details"},{"type":"textarea","id":"compare_text","label":"Comparison notes"}]}],"max_blocks":10,"presets":[{"name":"Honest construction","blocks":[{"type":"feature","settings":{"feature":"Materials","our_text":"Find the stated composition on each product page.","compare_text":"Check the material and finish for the piece you choose."}},{"type":"feature","settings":{"feature":"Hardware","our_text":"Check the closure and hardware details for each design.","compare_text":"Look for clear information about hardware and fastening."}},{"type":"feature","settings":{"feature":"Edges and seams","our_text":"Explore the close-up product photographs.","compare_text":"Compare finishing details using actual product photography."}},{"type":"feature","settings":{"feature":"Interior","our_text":"See each product's dimensions and interior details.","compare_text":"Compare capacity and pocket placement with your essentials."}},{"type":"feature","settings":{"feature":"Care","our_text":"Follow the care information supplied for your product.","compare_text":"Check the care instructions for the actual material."}}]}]}
+{
+  "name": "Honest construction",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Honest Construction"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "A Direct Comparison"
+    },
+    {
+      "type": "text",
+      "id": "subhead",
+      "label": "Subheading",
+      "default": "A closer look at the details that matter."
+    },
+    {
+      "type": "text",
+      "id": "other_heading",
+      "label": "Comparison column heading",
+      "default": "What to look for"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Construction detail",
+      "settings": [
+        {
+          "type": "text",
+          "id": "feature",
+          "label": "Feature"
+        },
+        {
+          "type": "textarea",
+          "id": "our_text",
+          "label": "Our product details"
+        },
+        {
+          "type": "textarea",
+          "id": "compare_text",
+          "label": "Comparison notes"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Honest construction",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "feature": "Materials",
+            "our_text": "Find the stated composition on each product page.",
+            "compare_text": "Check the material and finish for the piece you choose."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "feature": "Hardware",
+            "our_text": "Check the closure and hardware details for each design.",
+            "compare_text": "Look for clear information about hardware and fastening."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "feature": "Edges and seams",
+            "our_text": "Explore the close-up product photographs.",
+            "compare_text": "Compare finishing details using actual product photography."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "feature": "Interior",
+            "our_text": "See each product's dimensions and interior details.",
+            "compare_text": "Compare capacity and pocket placement with your essentials."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "feature": "Care",
+            "our_text": "Follow the care information supplied for your product.",
+            "compare_text": "Check the care instructions for the actual material."
+          }
+        }
+      ]
+    }
+  ],
+  "enabled_on": {
+    "templates": [
+      "*"
+    ]
+  }
+}
 {% endschema %}
