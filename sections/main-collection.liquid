@@ -58,5 +58,36 @@
   <script type="application/ld+json">{{ breadcrumb_json | replace: '<', json_less_than }}</script>
 {%- endif -%}
 {% schema %}
-{"name":"Collection products","settings":[{"type":"checkbox","id":"show_image","label":"Show collection image","default":true},{"type":"checkbox","id":"show_description","label":"Show collection description","default":true},{"type":"range","id":"products_per_page","label":"Products per page","min":4,"max":48,"step":4,"default":12}]}
+{
+  "name": "Collection products",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_image",
+      "label": "Show collection image",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_description",
+      "label": "Show collection description",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "label": "Products per page",
+      "min": 4,
+      "max": 48,
+      "step": 4,
+      "default": 12
+    }
+  ],
+  "enabled_on": {
+    "templates": [
+      "collection"
+    ]
+  },
+  "limit": 1
+}
 {% endschema %}

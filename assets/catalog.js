@@ -142,7 +142,7 @@
       content.removeAttribute('role');
       content.removeAttribute('aria-live');
       content.replaceChildren(product);
-      dialog.setAttribute('aria-labelledby', 'QuickViewTitle');
+      dialog.setAttribute('aria-labelledby', product.querySelector('h2').id);
       const form = product.querySelector('[data-variant-form]');
       updateVariant(form);
       product.querySelector('input[type="radio"]:checked, button, a')?.focus();

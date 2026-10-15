@@ -9,7 +9,7 @@
       {%- else -%}{{ 'product-1' | placeholder_svg_tag }}{%- endif -%}
     </div>
     <div>
-      <h2 id="QuickViewTitle" class="font-heading">{{ product.title | escape }}</h2>
+      <h2 id="QuickViewTitle-{{ section.id }}" class="font-heading">{{ product.title | escape }}</h2>
       <div data-quick-view-price>{%- render 'price', product: product, use_variant: true -%}</div>
       <form action="{{ routes.cart_add_url }}" method="post" data-catalog-add-form data-variant-form>
         <input type="hidden" name="id" value="{{ selected_variant.id }}">

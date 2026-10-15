@@ -1,0 +1,9 @@
+<article class="section-spacing hairline-bottom"><div class="container container--narrow">
+  <header class="section-header"><h1 class="section-heading">{{ article.title | default: 'Journal entry' | escape }}</h1>{% if article.published_at %}<time class="text-muted" datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: '%B %d, %Y' }}</time>{% endif %}</header>
+  {% if article.image %}{{ article.image | image_url: width: 1200 | image_tag: loading: 'eager', widths: '480, 750, 1200', sizes: '100vw' }}{% endif %}
+  <div class="prose">{{ article.content }}</div>
+  {% if blog.url != blank %}<a class="btn btn--link" href="{{ blog.url }}">{{ section.settings.back_label | escape }}</a>{% endif %}
+</div></article>
+{% schema %}
+{"name":"Article","limit":1,"enabled_on":{"templates":["article"]},"settings":[{"type":"text","id":"back_label","label":"Back link label","default":"Back to journal"}]}
+{% endschema %}

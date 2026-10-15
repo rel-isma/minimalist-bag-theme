@@ -1,4 +1,4 @@
-<section id="Faq" class="faq-section section-spacing hairline-bottom">
+<section id="Faq-{{ section.id }}" class="faq-section section-spacing hairline-bottom">
   <div class="container container--narrow">
     <div class="section-header text-center fade-up">
       {%- if section.settings.eyebrow != blank -%}
@@ -12,9 +12,10 @@
 
     <div class="faq-list fade-up">
       {%- for block in section.blocks -%}
-        {%- assign faq_id = 'faq-' | append: block.id -%}
+        {%- assign faq_id = 'faq-' | append: section.id | append: '-' | append: block.id -%}
         {%- render 'product-accordion',
           id: faq_id,
+          block_attributes: block.shopify_attributes,
           title: block.settings.question,
           content: block.settings.answer,
           open_by_default: false

@@ -18,5 +18,116 @@
 </section>
 {% else %}<section class="section-spacing container"><h1 class="section-heading">Product unavailable</h1><a class="btn btn--secondary" href="{{ routes.all_products_collection_url }}">Browse all products</a></section>{% endif %}
 {% schema %}
-{"name":"Product information","settings":[],"blocks":[{"type":"@app"},{"type":"title","name":"Title","limit":1},{"type":"price","name":"Price","limit":1},{"type":"variant_picker","name":"Variant picker","limit":1},{"type":"quantity_selector","name":"Quantity","limit":1},{"type":"buy_buttons","name":"Buy buttons","limit":1,"settings":[{"type":"checkbox","id":"show_dynamic_checkout","label":"Show accelerated checkout","default":false}]},{"type":"description","name":"Description","limit":1},{"type":"collapsible_tab","name":"Accordion","settings":[{"type":"text","id":"heading","label":"Heading","default":"Details"},{"type":"select","id":"source","label":"Content source","options":[{"value":"custom","label":"Custom text"},{"value":"material","label":"Material metafield"},{"value":"dimensions","label":"Dimensions metafield"},{"value":"care","label":"Care metafield"}],"default":"custom"},{"type":"richtext","id":"content","label":"Fallback text","default":"<p>Details are being prepared. Contact us with any questions.</p>"},{"type":"checkbox","id":"open_by_default","label":"Open by default","default":false}]},{"type":"custom_liquid","name":"Custom Liquid","settings":[{"type":"liquid","id":"custom_liquid","label":"Custom Liquid"}]}]}
+{
+  "name": "Product information",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "type": "title",
+      "name": "Title",
+      "limit": 1
+    },
+    {
+      "type": "price",
+      "name": "Price",
+      "limit": 1
+    },
+    {
+      "type": "variant_picker",
+      "name": "Variant picker",
+      "limit": 1
+    },
+    {
+      "type": "quantity_selector",
+      "name": "Quantity",
+      "limit": 1
+    },
+    {
+      "type": "buy_buttons",
+      "name": "Buy buttons",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_dynamic_checkout",
+          "label": "Show accelerated checkout",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "Description",
+      "limit": 1
+    },
+    {
+      "type": "collapsible_tab",
+      "name": "Accordion",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Details"
+        },
+        {
+          "type": "select",
+          "id": "source",
+          "label": "Content source",
+          "options": [
+            {
+              "value": "custom",
+              "label": "Custom text"
+            },
+            {
+              "value": "material",
+              "label": "Material metafield"
+            },
+            {
+              "value": "dimensions",
+              "label": "Dimensions metafield"
+            },
+            {
+              "value": "care",
+              "label": "Care metafield"
+            }
+          ],
+          "default": "custom"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Fallback text",
+          "default": "<p>Details are being prepared. Contact us with any questions.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "open_by_default",
+          "label": "Open by default",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "custom_liquid",
+      "name": "Custom Liquid",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "Custom Liquid"
+        }
+      ]
+    }
+  ],
+  "enabled_on": {
+    "templates": [
+      "product"
+    ]
+  },
+  "limit": 1
+}
 {% endschema %}

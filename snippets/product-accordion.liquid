@@ -7,7 +7,7 @@
   - open_by_default: {Boolean} Whether open on load
 {%- endcomment -%}
 
-<details class="accordion-item" id="accordion-{{ id }}" {% if open_by_default %}open{% endif %}>
+<details class="accordion-item" {{ block_attributes }} id="accordion-{{ id }}" {% if open_by_default %}open{% endif %}>
   <summary class="accordion-item__summary">
     <span class="accordion-item__title">{{ title | escape }}</span>
     <span class="accordion-item__icon" aria-hidden="true">

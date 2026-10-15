@@ -1,10 +1,11 @@
+{% assign contact_form_id = 'ContactForm-' | append: section.id %}
 <section class="main-contact-section section-spacing hairline-bottom">
   <div class="container container--narrow">
     <header class="section-header text-center fade-up">
       <p class="eyebrow">{{ 'templates.contact.form.send' | t }}</p>
-      <h1 class="section-heading">{{ page.title | default: 'Client Correspondence' | escape }}</h1>
+      <h1 class="section-heading">{{ section.settings.heading | default: page.title | default: 'Client Correspondence' | escape }}</h1>
       <p class="text-muted prose" style="margin: 0 auto;">
-        Questions about a product or order? Send a message to our atelier.
+        {{ section.settings.intro | escape }}
       </p>
     </header>
 
@@ -15,7 +16,7 @@
     {%- endif -%}
 
     <div class="contact-form-wrap fade-up">
-      {%- form 'contact', id: 'ContactForm', class: 'contact-form' -%}
+      {%- form 'contact', id: contact_form_id, class: 'contact-form' -%}
         {%- if form.posted_successfully? -%}
           <div class="alert alert--success text-center" tabindex="-1" autofocus style="padding: 1.5rem; background: var(--color-surface); border: 1px solid var(--color-border); margin-bottom: 2rem;">
             <p class="text-accent font-medium">{{ 'templates.contact.form.post_success' | t }}</p>
@@ -33,10 +34,10 @@
 
         <div class="contact-fields">
           <div>
-            <label for="ContactForm-name" class="form-label">{{ 'templates.contact.form.name' | t }}</label>
+            <label for="ContactForm-{{ section.id }}-name" class="form-label">{{ 'templates.contact.form.name' | t }}</label>
             <input
               type="text"
-              id="ContactForm-name"
+              id="ContactForm-{{ section.id }}-name"
               name="contact[name]"
               class="form-input"
               value="{% if form.name %}{{ form.name | escape }}{% elsif customer %}{{ customer.name | escape }}{% endif %}"
@@ -46,10 +47,10 @@
           </div>
 
           <div>
-            <label for="ContactForm-email" class="form-label">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
+            <label for="ContactForm-{{ section.id }}-email" class="form-label">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
             <input
               type="email"
-              id="ContactForm-email"
+              id="ContactForm-{{ section.id }}-email"
               name="contact[email]"
               class="form-input"
               value="{% if form.email %}{{ form.email | escape }}{% elsif customer %}{{ customer.email | escape }}{% endif %}"
@@ -65,10 +66,10 @@
         </div>
 
         <div style="margin-bottom: 1.5rem;">
-          <label for="ContactForm-phone" class="form-label">{{ 'templates.contact.form.phone' | t }}</label>
+          <label for="ContactForm-{{ section.id }}-phone" class="form-label">{{ 'templates.contact.form.phone' | t }}</label>
           <input
             type="tel"
-            id="ContactForm-phone"
+            id="ContactForm-{{ section.id }}-phone"
             name="contact[phone]"
             class="form-input"
             value="{% if form.phone %}{{ form.phone | escape }}{% elsif customer %}{{ customer.phone | escape }}{% endif %}"
@@ -78,10 +79,10 @@
         </div>
 
         <div style="margin-bottom: 2rem;">
-          <label for="ContactForm-body" class="form-label">{{ 'templates.contact.form.comment' | t }} <span aria-hidden="true">*</span></label>
+          <label for="ContactForm-{{ section.id }}-body" class="form-label">{{ 'templates.contact.form.comment' | t }} <span aria-hidden="true">*</span></label>
           <textarea
             rows="6"
-            id="ContactForm-body"
+            id="ContactForm-{{ section.id }}-body"
             name="contact[body]"
             class="form-input"
             aria-required="true"
@@ -103,6 +104,24 @@
 {% schema %}
 {
   "name": "Contact form",
-  "settings": []
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading override"
+    },
+    {
+      "type": "text",
+      "id": "intro",
+      "label": "Introduction",
+      "default": "Questions about a product or order? Send a message to our atelier."
+    }
+  ],
+  "enabled_on": {
+    "templates": [
+      "page"
+    ]
+  },
+  "limit": 1
 }
 {% endschema %}

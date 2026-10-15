@@ -45,5 +45,62 @@
 </div>
 <style>#shopify-section-{{ section.id }} .site-header__logo-image { width: {{ section.settings.logo_width }}px; max-width: 100%; height: auto; }</style>
 {% schema %}
-{"name":"Header","class":"atelier-header-section","settings":[{"type":"image_picker","id":"logo","label":"Logo image"},{"type":"range","id":"logo_width","min":80,"max":240,"step":10,"unit":"px","label":"Custom logo width","default":140},{"type":"link_list","id":"menu","label":"Navigation menu","info":"Select Main menu. Nested links appear in desktop dropdowns and the mobile menu. An empty menu shows Shop all."},{"type":"text","id":"mega_menu_title","label":"Image menu link title","default":"Shop","info":"Matches a top-level menu with nested collection links. Images use collection images or the first product image."},{"type":"checkbox","id":"enable_transparent_header","label":"Transparent header over home hero","default":false},{"type":"checkbox","id":"enable_predictive_search","label":"Enable predictive search","default":true}]}
+{
+  "name": "Header",
+  "class": "atelier-header-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo image"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "min": 80,
+      "max": 240,
+      "step": 10,
+      "unit": "px",
+      "label": "Custom logo width",
+      "default": 140
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Navigation menu",
+      "info": "Select Main menu. Nested links appear in desktop dropdowns and the mobile menu. An empty menu shows Shop all.",
+      "default": "main-menu"
+    },
+    {
+      "type": "text",
+      "id": "mega_menu_title",
+      "label": "Image menu link title",
+      "default": "Shop",
+      "info": "Matches a top-level menu with nested collection links. Images use collection images or the first product image."
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_transparent_header",
+      "label": "Transparent header over home hero",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_predictive_search",
+      "label": "Enable predictive search",
+      "default": true
+    }
+  ],
+  "limit": 1,
+  "enabled_on": {
+    "groups": [
+      "header"
+    ]
+  },
+  "presets": [
+    {
+      "name": "Header"
+    }
+  ]
+}
 {% endschema %}

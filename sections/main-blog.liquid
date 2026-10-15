@@ -1,0 +1,10 @@
+<section class="section-spacing hairline-bottom"><div class="container">
+  <header class="section-header"><h1 class="section-heading">{{ section.settings.heading | default: blog.title | default: 'Journal' | escape }}</h1></header>
+  {% paginate blog.articles by 12 %}
+    <div class="category-grid">{% for article in blog.articles %}<article><a class="category-tile" href="{{ article.url }}">{% if article.image %}{{ article.image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '360, 540, 900', sizes: '(min-width: 990px) 33vw, 100vw' }}{% endif %}<h2 class="font-heading">{{ article.title | escape }}</h2></a><p class="text-muted">{{ article.excerpt_or_content | strip_html | truncatewords: 35 }}</p></article>{% else %}<p class="text-muted">{{ section.settings.empty_text | escape }}</p>{% endfor %}</div>
+    {% if paginate.pages > 1 %}<nav class="collection-pagination" aria-label="Journal pages">{% if paginate.previous %}<a href="{{ paginate.previous.url }}">Previous</a>{% endif %}<span aria-current="page">{{ paginate.current_page }}</span>{% if paginate.next %}<a href="{{ paginate.next.url }}">Next</a>{% endif %}</nav>{% endif %}
+  {% endpaginate %}
+</div></section>
+{% schema %}
+{"name":"Blog","limit":1,"enabled_on":{"templates":["blog"]},"settings":[{"type":"text","id":"heading","label":"Heading override"},{"type":"text","id":"empty_text","label":"Empty journal text","default":"Journal entries are being prepared."}]}
+{% endschema %}

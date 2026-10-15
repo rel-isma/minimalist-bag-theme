@@ -1,5 +1,5 @@
 <div
-  id="CartDrawer"
+  id="CartDrawer-{{ section.id }}"
   class="cart-drawer"
   data-cart-drawer
   data-cart-url="{{ routes.cart_url }}"
@@ -72,9 +72,9 @@
               <span class="cart-drawer__note-icon">▼</span>
             </summary>
             <div class="cart-drawer__note-content">
-              <label for="CartDrawer-Note" class="visually-hidden">{{ 'sections.cart.note' | t }}</label>
+              <label for="CartDrawer-Note-{{ section.id }}" class="visually-hidden">{{ 'sections.cart.note' | t }}</label>
               <textarea
-                id="CartDrawer-Note"
+                id="CartDrawer-Note-{{ section.id }}"
                 name="note"
                 class="form-input cart-drawer__note-input"
                 rows="2"
@@ -98,7 +98,7 @@
         </p>
 
         <!-- Checkout Form Button -->
-        <form action="{{ routes.cart_url }}" method="post" id="CartDrawer-Form" class="cart-drawer__form">
+        <form action="{{ routes.cart_url }}" method="post" id="CartDrawer-Form-{{ section.id }}" class="cart-drawer__form">
           <button
             type="submit"
             name="checkout"
