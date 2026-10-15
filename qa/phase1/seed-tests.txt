@@ -1,0 +1,92 @@
+✔ CSV survives commas, quotes, Unicode, and embedded newlines (2.018089ms)
+✔ CSV URL preparation requires complete public image URLs (19.565135ms)
+✔ product payloads keep every color/size combination, draft status, and untracked inventory (1.184443ms)
+✔ GraphQL failures and user errors stop writes without retrying ambiguous server errors (22.78208ms)
+✔ resource lookup follows pagination without dropping records (0.807896ms)
+Development store: Demo; currency: USD; API 2026-10.
+Development store: Demo; currency: USD; API 2026-10.
+✔ development-store and collision checks finish before any mutation (20.261756ms)
+Development store: Demo; currency: USD; API 2026-10.
+Draft product: cove-shoulder-bag
+Draft product: fold-shoulder-bag
+Draft product: drift-shoulder-bag
+Draft product: arc-shoulder-bag
+Draft product: ledge-shoulder-bag
+Draft product: nest-shoulder-bag
+Draft product: path-crossbody-bag
+Draft product: loop-crossbody-bag
+Draft product: field-crossbody-bag
+Draft product: vale-crossbody-bag
+Draft product: plane-tote-bag
+Draft product: gather-tote-bag
+Draft product: line-tote-bag
+Draft product: open-tote-bag
+Draft product: dusk-clutch
+Draft product: petal-mini-bag
+Draft product: frame-mini-bag
+Draft product: slip-cardholder
+Draft product: turn-wallet
+Draft product: keep-zip-wallet
+Draft product: reach-shoulder-strap
+Draft product: pebble-bag-charm
+Seed complete. Products remain draft; pages remain unpublished. Collection publication and password-protected preview are manual steps.
+Development store: Demo; currency: USD; API 2026-10.
+Draft product: cove-shoulder-bag
+Draft product: fold-shoulder-bag
+Draft product: drift-shoulder-bag
+Draft product: arc-shoulder-bag
+Draft product: ledge-shoulder-bag
+Draft product: nest-shoulder-bag
+Draft product: path-crossbody-bag
+Draft product: loop-crossbody-bag
+Draft product: field-crossbody-bag
+Draft product: vale-crossbody-bag
+Draft product: plane-tote-bag
+Draft product: gather-tote-bag
+Draft product: line-tote-bag
+Draft product: open-tote-bag
+Draft product: dusk-clutch
+Draft product: petal-mini-bag
+Draft product: frame-mini-bag
+Draft product: slip-cardholder
+Draft product: turn-wallet
+Draft product: keep-zip-wallet
+Draft product: reach-shoulder-strap
+Draft product: pebble-bag-charm
+Seed complete. Products remain draft; pages remain unpublished. Collection publication and password-protected preview are manual steps.
+Development store: Demo; currency: USD; API 2026-10.
+Deleted demo product: cove-shoulder-bag
+Deleted demo product: fold-shoulder-bag
+Deleted demo product: drift-shoulder-bag
+Deleted demo product: arc-shoulder-bag
+Deleted demo product: ledge-shoulder-bag
+Deleted demo product: nest-shoulder-bag
+Deleted demo product: path-crossbody-bag
+Deleted demo product: loop-crossbody-bag
+Deleted demo product: field-crossbody-bag
+Deleted demo product: vale-crossbody-bag
+Deleted demo product: plane-tote-bag
+Deleted demo product: gather-tote-bag
+Deleted demo product: line-tote-bag
+Deleted demo product: open-tote-bag
+Deleted demo product: dusk-clutch
+Deleted demo product: petal-mini-bag
+Deleted demo product: frame-mini-bag
+Deleted demo product: slip-cardholder
+Deleted demo product: turn-wallet
+Deleted demo product: keep-zip-wallet
+Deleted demo product: reach-shoulder-strap
+Deleted demo product: pebble-bag-charm
+Deleted demo product: other-demo
+Removed products tagged demo and this seed’s owned collections, pages and files; original menus restored where applicable.
+Development store: Demo; currency: USD; API 2026-10.
+Removed products tagged demo and this seed’s owned collections, pages and files; original menus restored where applicable.
+✔ repeat seed preserves product/variant IDs; cleanup restores menus and keeps unrelated resources (25.331652ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 97.860148

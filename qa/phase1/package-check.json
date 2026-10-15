@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "files": 92,
+  "issues": [
+    "Missing required-by-brief file: templates/article.json",
+    "Missing required-by-brief file: templates/blog.json"
+  ]
+}

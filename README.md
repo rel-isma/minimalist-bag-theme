@@ -99,7 +99,7 @@ Our philosophy uses an editable image-and-text section in `page.story`. The FAQ 
 6. Open **Footer**, or create it with handle `footer`.
 7. Add **Shop** with the six category children.
 8. Add **Client care**, linking to FAQ, with children **FAQ**, **Contact**, **Shipping and returns**, and **Our philosophy**.
-9. Configure real policies in **Settings > Policies**. The footer shows these once along the bottom; policies already included in a custom footer menu are not repeated.
+9. Configure real policies in **Settings > Policies**. The footer shows all published policies once along the bottom; policies already included in a custom footer menu are not repeated.
 10. Save. Compare the result with `seed/menus.json`.
 
 Source: [Shopify menu editing instructions](https://help.shopify.com/en/manual/online-store/menus-and-links/editing-menus). Header dropdowns and the mobile menu now read the selected Main menu, including nested links. The footer reads its selected Footer menu, including nested links.
@@ -160,8 +160,8 @@ Bone `#F5F1EA`, Stone `#ECE5DA`, Ink `#1B1A18`, Ash `#6B6258`, Clay `#9A4F36`, b
 6. **Benefits** starts empty. Add only verified claims. **Reviews** starts unpublished with no blocks; add authentic names/text and explicitly publish when verified. Verified buyer defaults to false. Edit the footer’s **Studio notes** newsletter and confirm real Shopify form delivery. The homepage uses this single signup form.
 7. Under **Theme settings > Product cards and collections**, choose image ratio, second image, swatches, quick shopping and desktop grid default. On a collection template, set banner/description visibility and products per page. Enable availability, price, Color and product-type filters as described above. Native filter state and sorting share a form; tag-route chips are intentionally omitted to avoid conflicting filter states.
 8. In **Products > [product]**, supply accurate material/dimensions/care metafields and real variant photos. On the product template, edit blocks and fallback accordion text. Related/complementary sections use Shopify recommendations and remain hidden when empty; configure complementary products in **Search & Discovery**. Customer reviews appear last, after recommendations and recently viewed, before the footer. Recently viewed uses bounded localStorage inside try/catch and quietly hides if storage is blocked or invalid.
-9. In **Footer**, choose **Footer** and edit brand/newsletter copy. Configure real policies under **Settings > Policies**. The Our philosophy page uses its editable section; other page templates display their admin-owned body content. Gift cards use Shopify's real balance, code and validity state.
-10. Under **Theme settings > Cart and shipping**, enable notes and enter a free-shipping threshold only if the real shipping rules support it. The default 0 hides the bar; both page and drawer totals use Liquid money formatting in the active currency. The announcement bar is enabled with “Considered bags. Everyday companions.” and a “Shop the collection” CTA to `/collections/all`. Edit its text, CTA label and link in **Header > Announcement bar**, or disable it.
+9. In **Footer**, use its Text, Links, Newsletter, Social links, Payment icons, and Country and language blocks. Links defaults to the **Footer** menu. Edit brand/newsletter copy and reorder blocks as needed. Social links stay hidden until configured in Theme settings. Country/language selectors appear only when Shopify provides multiple choices and use an explicit Update preferences button. Configure real policies under **Settings > Policies**. The Our philosophy page uses its editable section; other page templates display their admin-owned body content. Gift cards use Shopify's real balance, code and validity state.
+10. Under **Theme settings > Cart and shipping**, enable notes and enter a free-shipping threshold only if the real shipping rules support it. The default 0 hides the bar; it is also hidden when cart presentment currency differs from the store base currency so a base-currency amount cannot promise an incorrect shipping threshold. Both page and drawer totals use Liquid money formatting in the active currency. The announcement bar is enabled with “Considered bags. Everyday companions.” and a “Shop the collection” CTA to `/collections/all`. Edit its text, CTA label and link in **Header > Announcement bar**, or disable it.
 
 The obsolete single-product buy flow and fabricated customer quotes have been removed. At your request, the Inquiries section and its supplied FAQ copy are restored, and Honest Construction returns as an editable comparison table. Confirm the FAQ capacity, material, strap, delivery and return statements against your actual catalog and policies before launch. Old imagery is archived outside the theme in `seed/legacy-images/`; IMAGE-LOG.md retains provenance.
 
@@ -215,3 +215,12 @@ Review-control tests use `seed/reviews-test-preview.html`, clearly marked **synt
 node seed/build-reviews-test.mjs
 node seed/check-refinements-browser.cjs  # requires npm start and Chrome
 ```
+
+
+## Approved Phase 2 hardening
+
+The original design is preserved while editor re-renders now initialize visible content, release dialog scroll locks, and clean up requests/listeners. Colors, typography and page-width settings take precedence over CSS defaults. Required blog/article templates are included without adding navigation links. The password template selects its dedicated layout and the local preview now renders `/password`; authentication still requires Shopify. FAQ blocks carry editor attributes and instance IDs are scoped.
+
+Use `bash scripts/package.sh --check` to validate release structure, or `npm run package:theme` to write `dist/atelier-vane-theme.zip` and `dist/package-manifest.json`. The archive contains native theme files only, including optional `blocks/` if used; it excludes the seed catalog, QA and development files. The full-project ZIP used to share the local demo is a separate development bundle and must not be uploaded as a theme.
+
+See `PHASE-2-REPORT.md` for local verification and approved visual differences. Shopify parity, real editor behavior, import, form delivery, checkout, Markets and large-variant catalogs remain unverified until a development store is connected. No real customer reviews, policies or product specification claims were created by these fixes. The font picker now works; approve real Shopify font output against the design when connecting the store.

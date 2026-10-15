@@ -1,0 +1,9 @@
+{
+  "node": "v26.11.1",
+  "chrome": "147.0.7727.116",
+  "playwright": "1.64.1",
+  "axe": "4.14.0",
+  "htmlValidate": "11.16.2",
+  "lighthouse": "12.8.2",
+  "liquidjs": "10.30.0"
+}

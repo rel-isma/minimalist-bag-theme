@@ -10,3 +10,11 @@ package-lock.json
 preview-server.js
 dist/**
 node_modules/**
+qa/**
+scripts/**
+INVENTORY.md
+AUDIT.md
+PARITY-REPORT.md
+PHASE-2-REPORT.md
+E2E-REPORT.md
+CLEANUP-REPORT.md
