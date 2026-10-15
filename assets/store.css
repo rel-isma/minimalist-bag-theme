@@ -131,4 +131,4 @@ html.no-js .fade-up { opacity: 1; transform: none; }
 .footer-localization select { width: auto; max-width: 100%; }
 .site-footer__grid > .site-footer__payment-icons { grid-column: 1 / -1; }
 /* Standalone text buttons retain their type while providing a 44px target. */
-.btn.btn--link { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; }
+.btn.btn--link { min-height: 44px; min-width: 44px; }
