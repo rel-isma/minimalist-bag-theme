@@ -1,0 +1,94 @@
+{
+  "store": "atelier-vane-test.myshopify.com",
+  "themeId": 189100065059,
+  "developmentStore": true,
+  "currency": "USD",
+  "passwordProtected": true,
+  "productCountObserved": 0,
+  "existingPages": [
+    {
+      "id": "gid://shopify/Page/164134158627",
+      "handle": "contact",
+      "title": "Contact",
+      "bodyEmpty": true,
+      "templateSuffix": "contact",
+      "ownedBySeeder": false
+    },
+    {
+      "id": "gid://shopify/Page/164134191395",
+      "handle": "data-sharing-opt-out",
+      "title": "Your Privacy Choices",
+      "bodyEmpty": false,
+      "templateSuffix": null,
+      "ownedBySeeder": false
+    }
+  ],
+  "existingCollections": [
+    {
+      "id": "gid://shopify/Collection/511175065891",
+      "handle": "frontpage",
+      "title": "Home page",
+      "marker": null
+    }
+  ],
+  "menus": [
+    {
+      "id": "gid://shopify/Menu/316461056291",
+      "handle": "main-menu",
+      "title": "Main menu",
+      "items": [
+        {
+          "title": "Home",
+          "type": "FRONTPAGE",
+          "url": "/"
+        },
+        {
+          "title": "Catalog",
+          "type": "CATALOG",
+          "url": "/collections/all"
+        },
+        {
+          "title": "Contact",
+          "type": "PAGE",
+          "url": "/pages/contact"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Menu/316461089059",
+      "handle": "footer",
+      "title": "Footer menu",
+      "items": [
+        {
+          "title": "Search",
+          "type": "SEARCH",
+          "url": "/search"
+        },
+        {
+          "title": "Your Privacy Choices",
+          "type": "PAGE",
+          "url": "/pages/data-sharing-opt-out"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Menu/316461121827",
+      "handle": "customer-account-main-menu",
+      "title": "Customer account main menu",
+      "items": [
+        {
+          "title": "Orders",
+          "type": "CUSTOMER_ACCOUNT_PAGE",
+          "url": "https://shopify.com/100505420067/account/orders"
+        },
+        {
+          "title": "Profile",
+          "type": "CUSTOMER_ACCOUNT_PAGE",
+          "url": "https://shopify.com/100505420067/account/profile"
+        }
+      ]
+    }
+  ],
+  "writesPerformed": false,
+  "pendingDecision": "Reuse existing Contact page without overwriting/deleting it; update only main-menu/footer while preserving privacy-choice access. Owner decision requested."
+}

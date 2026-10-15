@@ -1,5 +1,7 @@
 # Phase 1 parity report — blocked, not a pass
 
+**Connection update (2026-10-15):** The owner has since created the development store, uploaded the updated 93-file ZIP and connected CLI/Admin API access. The native uploaded draft was pulled and checked; see [native evidence](qa/shopify/README.md). Catalog import, native screenshots and pixel parity remain pending. The Phase 1 account of an unavailable store below is retained as historical evidence, not current connection status.
+
 Date: 2026-10-15, Africa/Casablanca. Commit: `49b87cf`.
 
 **No Shopify-side pixel comparison has been run.** The owner explicitly selected “Continue with local baseline; connect Shopify later.” There is no connected development store, uploaded test theme, imported native dataset or Shopify screenshot set. No measured differences or zero-difference claim can be produced.

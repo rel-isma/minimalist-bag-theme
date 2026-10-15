@@ -1,5 +1,7 @@
 # Phase 3 — native end-to-end test readiness
 
+**Connection update (2026-10-15):** The development store is now connected and native theme `189100065059` is verified as unpublished, with all 93 current files present. [Native connection/preflight evidence](qa/shopify/README.md). Catalog setup and storefront browser authentication are still pending, so none of the 18 native E2E scenarios below has been executed. The original readiness snapshot below explains the earlier blockers; its missing-connection statement is historical.
+
 Date: 2026-10-15, Africa/Casablanca. Candidate source: `504b15f`.
 
 **Execution blocked: 0 passed, 0 failed, 18 blocked.** The owner approved moving to Phase 3, while the earlier instruction to connect Shopify later remains in effect. No native Playwright session, admin operation, checkout, submission or editor operation was performed. This report prepares the required tests; it does not certify Phase 3 completion.

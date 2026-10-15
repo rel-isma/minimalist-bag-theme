@@ -2,7 +2,7 @@
 
 The existing Online Store 2.0 theme is being extended into a multi-product store without changing its palette, typography, buttons, or editorial style.
 
-**Stages (a)–(g) are complete for local preparation.** The native theme, 22-product seed package, multi-product preview, local tests and theme ZIP are ready. Shopify import, theme-editor and checkout validation remain pending because no development store is connected. See [QA-REPORT.md](QA-REPORT.md).
+**Stages (a)–(g) are complete for local preparation.** The native theme, 22-product seed package, multi-product preview, local tests and theme ZIP are ready. The development store is now connected and the uploaded draft theme is verified; Shopify catalog import, theme-editor and checkout validation remain pending. See [native connection evidence](qa/shopify/README.md) and [the original local QA report](QA-REPORT.md).
 
 Run `npm install`, then `npm start`, and open **http://localhost:3333**. The preview renders the actual theme Liquid with local fixture objects, supports browsing/search/filters and a simulated cart, and clearly labels its limits. It never creates a real order, account, subscription or contact message.
 

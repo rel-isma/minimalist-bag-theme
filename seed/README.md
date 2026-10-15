@@ -18,6 +18,8 @@ The downloaded sample currently labels its barcode column `Variant Barcodes`; th
 
 ## API setup
 
+For the connected development-store run, `cli-admin.mjs` can reuse a locally authorized Shopify CLI `store auth` session through `store execute`, without exporting a token. Instantiate `ShopifyCliAdmin` with the store and CLI executable path; it is read-only by default and accepts `allowMutations: true` only for a deliberately authorized import. It inherits the existing image-upload/pagination helpers. `node --test seed/cli-admin.test.mjs` checks private argument files, mutation gating, user-error propagation and cleanup after failures. The actual native preflight and unresolved existing-content decisions are recorded in `qa/shopify/README.md`; no import has been performed at that checkpoint.
+
 1. Create/use a partner development store, set its currency to USD for these demo prices, and keep its storefront password enabled.
 2. Create an app or integration with Admin API access. Give it product, file, page/content, and online-store navigation read/write access: `read_products`, `write_products`, `read_files`, `write_files`, `read_content`, `write_content`, `read_online_store_navigation`, and `write_online_store_navigation`. Page access can alternatively use `read_online_store_pages`/`write_online_store_pages`.
 3. Set `SHOPIFY_STORE` to the store’s `.myshopify.com` domain, without a scheme or path. Set `SHOPIFY_ADMIN_TOKEN` in your local environment or secret manager. Do not put tokens in source files or chat. `.env` files are ignored; these scripts do not load them automatically. On Node 22+, `node --env-file=/your/private/file ...` is an option.
