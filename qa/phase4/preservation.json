@@ -1,0 +1,7 @@
+{
+  "reference": "qa/phase2/source-manifest.json",
+  "nativeFiles": 96,
+  "changedOrMissing": [],
+  "allNativeHashesUnchanged": true,
+  "zipSha256": "1518bd351fa386f1d7961158d72b938a3222268348803f23fd16463f339d67fc"
+}

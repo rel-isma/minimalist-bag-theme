@@ -1,0 +1,496 @@
+{
+  "scope": "LOCAL approximation only. Native editor, services, platform states and all-content coverage unavailable.",
+  "browser": "147.0.7727.116",
+  "at": "2026-10-15T10:51:17.105Z",
+  "widths": [
+    390,
+    1280
+  ],
+  "records": [
+    {
+      "width": 390,
+      "route": "/",
+      "states": [
+        "render and scroll",
+        "header navigation",
+        "predictive search results",
+        "predictive no results",
+        "FAQ accordion",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/collections/all",
+      "states": [
+        "render and scroll",
+        "filter open",
+        "card hover",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/collections/all?page=2",
+      "states": [
+        "render and scroll",
+        "quick view",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/collections/all?filter.v.price.lte=1",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/products/cove-shoulder-bag",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/products/line-tote-bag",
+      "states": [
+        "render and scroll",
+        "variant switching",
+        "zoom",
+        "add and drawer",
+        "drawer quantity",
+        "synthetic editor lifecycle",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/cart",
+      "states": [
+        "render and scroll",
+        "drawer remove",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/search",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/search?q=bag",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/search?q=zzznomatch",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/pages/story",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/pages/faq",
+      "states": [
+        "render and scroll",
+        "FAQ accordion",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/pages/contact",
+      "states": [
+        "render and scroll",
+        "contact invalid validation",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/pages/shipping-returns",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/collections",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/policies/privacy-policy",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/not-a-real-page",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 404
+    },
+    {
+      "width": 390,
+      "route": "/password",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/blogs/journal",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/seed/reviews-test-preview.html",
+      "states": [
+        "render and scroll",
+        "synthetic review filter/sort",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/",
+      "states": [
+        "render and scroll",
+        "header navigation",
+        "predictive search results",
+        "predictive no results",
+        "FAQ accordion",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/collections/all",
+      "states": [
+        "render and scroll",
+        "filter open",
+        "card hover",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/collections/all?page=2",
+      "states": [
+        "render and scroll",
+        "quick view",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/collections/all?filter.v.price.lte=1",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/products/cove-shoulder-bag",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/products/line-tote-bag",
+      "states": [
+        "render and scroll",
+        "variant switching",
+        "zoom",
+        "add and drawer",
+        "drawer quantity",
+        "synthetic editor lifecycle",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/cart",
+      "states": [
+        "render and scroll",
+        "drawer remove",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/search",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/search?q=bag",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/search?q=zzznomatch",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/pages/story",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/pages/faq",
+      "states": [
+        "render and scroll",
+        "FAQ accordion",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/pages/contact",
+      "states": [
+        "render and scroll",
+        "contact invalid validation",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/pages/shipping-returns",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/collections",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/policies/privacy-policy",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/not-a-real-page",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 404
+    },
+    {
+      "width": 1280,
+      "route": "/password",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/blogs/journal",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/seed/reviews-test-preview.html",
+      "states": [
+        "render and scroll",
+        "synthetic review filter/sort",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    }
+  ],
+  "files": [],
+  "gaps": [
+    "Actual theme editor",
+    "Gift card object",
+    "Article with real content",
+    "Authentic reviews",
+    "App blocks",
+    "Video/external media",
+    "Native discounts/checkout/form responses",
+    "Markets/localization/payment icons",
+    "Unconfigured addable sections and all merchant settings combinations",
+    "JavaScript-disabled rendering"
+  ]
+}

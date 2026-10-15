@@ -1,0 +1,3288 @@
+{
+  "scope": "LOCAL approximation only. Native editor, services, platform states and all-content coverage unavailable.",
+  "browser": "147.0.7727.116",
+  "at": "2026-10-15T10:51:17.105Z",
+  "widths": [
+    390,
+    1280
+  ],
+  "records": [
+    {
+      "width": 390,
+      "route": "/",
+      "states": [
+        "render and scroll",
+        "header navigation",
+        "predictive search results",
+        "predictive no results",
+        "FAQ accordion",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/collections/all",
+      "states": [
+        "render and scroll",
+        "filter open",
+        "card hover",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/collections/all?page=2",
+      "states": [
+        "render and scroll",
+        "quick view",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/collections/all?filter.v.price.lte=1",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/products/cove-shoulder-bag",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/products/line-tote-bag",
+      "states": [
+        "render and scroll",
+        "variant switching",
+        "zoom",
+        "add and drawer",
+        "drawer quantity",
+        "synthetic editor lifecycle",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/cart",
+      "states": [
+        "render and scroll",
+        "drawer remove",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/search",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/search?q=bag",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/search?q=zzznomatch",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/pages/story",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/pages/faq",
+      "states": [
+        "render and scroll",
+        "FAQ accordion",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/pages/contact",
+      "states": [
+        "render and scroll",
+        "contact invalid validation",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/pages/shipping-returns",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/collections",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/policies/privacy-policy",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/not-a-real-page",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 404
+    },
+    {
+      "width": 390,
+      "route": "/password",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/blogs/journal",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 390,
+      "route": "/seed/reviews-test-preview.html",
+      "states": [
+        "render and scroll",
+        "synthetic review filter/sort",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/",
+      "states": [
+        "render and scroll",
+        "header navigation",
+        "predictive search results",
+        "predictive no results",
+        "FAQ accordion",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/collections/all",
+      "states": [
+        "render and scroll",
+        "filter open",
+        "card hover",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/collections/all?page=2",
+      "states": [
+        "render and scroll",
+        "quick view",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/collections/all?filter.v.price.lte=1",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/products/cove-shoulder-bag",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/products/line-tote-bag",
+      "states": [
+        "render and scroll",
+        "variant switching",
+        "zoom",
+        "add and drawer",
+        "drawer quantity",
+        "synthetic editor lifecycle",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/cart",
+      "states": [
+        "render and scroll",
+        "drawer remove",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/search",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/search?q=bag",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/search?q=zzznomatch",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/pages/story",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/pages/faq",
+      "states": [
+        "render and scroll",
+        "FAQ accordion",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/pages/contact",
+      "states": [
+        "render and scroll",
+        "contact invalid validation",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/pages/shipping-returns",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/collections",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/policies/privacy-policy",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/not-a-real-page",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 404
+    },
+    {
+      "width": 1280,
+      "route": "/password",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/blogs/journal",
+      "states": [
+        "render and scroll",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    },
+    {
+      "width": 1280,
+      "route": "/seed/reviews-test-preview.html",
+      "states": [
+        "render and scroll",
+        "synthetic review filter/sort",
+        "keyboard focus"
+      ],
+      "errors": [],
+      "actionFailures": [],
+      "httpStatus": 200
+    }
+  ],
+  "files": [
+    {
+      "source": "assets/store.css",
+      "sha256": "cf79a0e03ed70bf44e6871e0afd55f801f1574dbc9dab45bcb34e44aa765ef02",
+      "kind": "css",
+      "length": 9654,
+      "ranges": [
+        {
+          "start": 56,
+          "end": 150
+        },
+        {
+          "start": 151,
+          "end": 199
+        },
+        {
+          "start": 200,
+          "end": 341
+        },
+        {
+          "start": 342,
+          "end": 422
+        },
+        {
+          "start": 423,
+          "end": 528
+        },
+        {
+          "start": 529,
+          "end": 570
+        },
+        {
+          "start": 571,
+          "end": 623
+        },
+        {
+          "start": 624,
+          "end": 870
+        },
+        {
+          "start": 871,
+          "end": 938
+        },
+        {
+          "start": 1236,
+          "end": 1319
+        },
+        {
+          "start": 1320,
+          "end": 1411
+        },
+        {
+          "start": 1412,
+          "end": 1461
+        },
+        {
+          "start": 1462,
+          "end": 1506
+        },
+        {
+          "start": 1507,
+          "end": 1570
+        },
+        {
+          "start": 1571,
+          "end": 1631
+        },
+        {
+          "start": 1632,
+          "end": 1709
+        },
+        {
+          "start": 1710,
+          "end": 1776
+        },
+        {
+          "start": 1777,
+          "end": 1834
+        },
+        {
+          "start": 1835,
+          "end": 1982
+        },
+        {
+          "start": 1983,
+          "end": 2045
+        },
+        {
+          "start": 2046,
+          "end": 2160
+        },
+        {
+          "start": 2161,
+          "end": 2192
+        },
+        {
+          "start": 2193,
+          "end": 2323
+        },
+        {
+          "start": 2324,
+          "end": 2361
+        },
+        {
+          "start": 2362,
+          "end": 2402
+        },
+        {
+          "start": 2403,
+          "end": 2440
+        },
+        {
+          "start": 2441,
+          "end": 2487
+        },
+        {
+          "start": 2488,
+          "end": 2629
+        },
+        {
+          "start": 2630,
+          "end": 2666
+        },
+        {
+          "start": 2667,
+          "end": 2771
+        },
+        {
+          "start": 2779,
+          "end": 2798
+        },
+        {
+          "start": 2801,
+          "end": 2885
+        },
+        {
+          "start": 2887,
+          "end": 2954
+        },
+        {
+          "start": 2956,
+          "end": 2994
+        },
+        {
+          "start": 2996,
+          "end": 3050
+        },
+        {
+          "start": 3060,
+          "end": 3079
+        },
+        {
+          "start": 3082,
+          "end": 3174
+        },
+        {
+          "start": 3176,
+          "end": 3237
+        },
+        {
+          "start": 3239,
+          "end": 3278
+        },
+        {
+          "start": 3280,
+          "end": 3332
+        },
+        {
+          "start": 3334,
+          "end": 3402
+        },
+        {
+          "start": 3465,
+          "end": 3498
+        },
+        {
+          "start": 3500,
+          "end": 3637
+        },
+        {
+          "start": 3640,
+          "end": 3747
+        },
+        {
+          "start": 3748,
+          "end": 3807
+        },
+        {
+          "start": 3808,
+          "end": 3906
+        },
+        {
+          "start": 3907,
+          "end": 4099
+        },
+        {
+          "start": 4185,
+          "end": 4227
+        },
+        {
+          "start": 4228,
+          "end": 4274
+        },
+        {
+          "start": 4275,
+          "end": 4350
+        },
+        {
+          "start": 4351,
+          "end": 4423
+        },
+        {
+          "start": 4431,
+          "end": 4451
+        },
+        {
+          "start": 4454,
+          "end": 4500
+        },
+        {
+          "start": 4502,
+          "end": 4577
+        },
+        {
+          "start": 4587,
+          "end": 4606
+        },
+        {
+          "start": 4609,
+          "end": 4651
+        },
+        {
+          "start": 4653,
+          "end": 4708
+        },
+        {
+          "start": 4710,
+          "end": 4752
+        },
+        {
+          "start": 4838,
+          "end": 4912
+        },
+        {
+          "start": 4913,
+          "end": 5006
+        },
+        {
+          "start": 5187,
+          "end": 5282
+        },
+        {
+          "start": 5358,
+          "end": 5411
+        },
+        {
+          "start": 5412,
+          "end": 5590
+        },
+        {
+          "start": 5591,
+          "end": 5693
+        },
+        {
+          "start": 5694,
+          "end": 5767
+        },
+        {
+          "start": 5768,
+          "end": 5828
+        },
+        {
+          "start": 5829,
+          "end": 6003
+        },
+        {
+          "start": 6004,
+          "end": 6063
+        },
+        {
+          "start": 6064,
+          "end": 6109
+        },
+        {
+          "start": 6110,
+          "end": 6371
+        },
+        {
+          "start": 6372,
+          "end": 6487
+        },
+        {
+          "start": 6488,
+          "end": 6537
+        },
+        {
+          "start": 6538,
+          "end": 6625
+        },
+        {
+          "start": 6626,
+          "end": 6718
+        },
+        {
+          "start": 6719,
+          "end": 6831
+        },
+        {
+          "start": 6832,
+          "end": 6876
+        },
+        {
+          "start": 6877,
+          "end": 6923
+        },
+        {
+          "start": 6924,
+          "end": 7030
+        },
+        {
+          "start": 7031,
+          "end": 7084
+        },
+        {
+          "start": 7085,
+          "end": 7129
+        },
+        {
+          "start": 7130,
+          "end": 7181
+        },
+        {
+          "start": 7182,
+          "end": 7221
+        },
+        {
+          "start": 7222,
+          "end": 7265
+        },
+        {
+          "start": 7266,
+          "end": 7305
+        },
+        {
+          "start": 7313,
+          "end": 7332
+        },
+        {
+          "start": 7334,
+          "end": 7472
+        },
+        {
+          "start": 7541,
+          "end": 7665
+        },
+        {
+          "start": 7666,
+          "end": 7718
+        },
+        {
+          "start": 7719,
+          "end": 7800
+        },
+        {
+          "start": 7801,
+          "end": 7934
+        },
+        {
+          "start": 7935,
+          "end": 7979
+        },
+        {
+          "start": 7980,
+          "end": 8071
+        },
+        {
+          "start": 8072,
+          "end": 8140
+        },
+        {
+          "start": 8141,
+          "end": 8212
+        },
+        {
+          "start": 8213,
+          "end": 8270
+        },
+        {
+          "start": 8271,
+          "end": 8343
+        },
+        {
+          "start": 8344,
+          "end": 8414
+        },
+        {
+          "start": 8415,
+          "end": 8495
+        },
+        {
+          "start": 8580,
+          "end": 8617
+        },
+        {
+          "start": 8625,
+          "end": 8645
+        },
+        {
+          "start": 8649,
+          "end": 8725
+        },
+        {
+          "start": 8728,
+          "end": 8795
+        },
+        {
+          "start": 8805,
+          "end": 8824
+        },
+        {
+          "start": 8828,
+          "end": 8900
+        },
+        {
+          "start": 8903,
+          "end": 8945
+        },
+        {
+          "start": 8948,
+          "end": 9020
+        },
+        {
+          "start": 9023,
+          "end": 9073
+        },
+        {
+          "start": 9076,
+          "end": 9134
+        },
+        {
+          "start": 9600,
+          "end": 9653
+        }
+      ],
+      "observations": 38,
+      "usedCharacters": 7995,
+      "usedPercent": 82.82,
+      "matchesSource": true
+    },
+    {
+      "source": "assets/header.css",
+      "sha256": "6f798b5face6e0541466cd19908d606df4ab07a1d7a0d3e60aa43fb8bc21d53c",
+      "kind": "css",
+      "length": 8166,
+      "ranges": [
+        {
+          "start": 71,
+          "end": 137
+        },
+        {
+          "start": 138,
+          "end": 235
+        },
+        {
+          "start": 236,
+          "end": 329
+        },
+        {
+          "start": 330,
+          "end": 455
+        },
+        {
+          "start": 456,
+          "end": 534
+        },
+        {
+          "start": 535,
+          "end": 622
+        },
+        {
+          "start": 623,
+          "end": 700
+        },
+        {
+          "start": 701,
+          "end": 792
+        },
+        {
+          "start": 793,
+          "end": 850
+        },
+        {
+          "start": 851,
+          "end": 946
+        },
+        {
+          "start": 947,
+          "end": 1069
+        },
+        {
+          "start": 1070,
+          "end": 1112
+        },
+        {
+          "start": 1177,
+          "end": 1222
+        },
+        {
+          "start": 1223,
+          "end": 1284
+        },
+        {
+          "start": 1285,
+          "end": 1333
+        },
+        {
+          "start": 1334,
+          "end": 1472
+        },
+        {
+          "start": 1473,
+          "end": 1619
+        },
+        {
+          "start": 1704,
+          "end": 1760
+        },
+        {
+          "start": 1761,
+          "end": 1861
+        },
+        {
+          "start": 1988,
+          "end": 2080
+        },
+        {
+          "start": 2132,
+          "end": 2174
+        },
+        {
+          "start": 2175,
+          "end": 2246
+        },
+        {
+          "start": 2247,
+          "end": 2509
+        },
+        {
+          "start": 2510,
+          "end": 2576
+        },
+        {
+          "start": 2577,
+          "end": 2642
+        },
+        {
+          "start": 2643,
+          "end": 2718
+        },
+        {
+          "start": 2719,
+          "end": 2798
+        },
+        {
+          "start": 2799,
+          "end": 2862
+        },
+        {
+          "start": 2863,
+          "end": 2920
+        },
+        {
+          "start": 2921,
+          "end": 2970
+        },
+        {
+          "start": 2971,
+          "end": 3103
+        },
+        {
+          "start": 3104,
+          "end": 3149
+        },
+        {
+          "start": 3150,
+          "end": 3253
+        },
+        {
+          "start": 3254,
+          "end": 3358
+        },
+        {
+          "start": 3359,
+          "end": 3450
+        },
+        {
+          "start": 3451,
+          "end": 3496
+        },
+        {
+          "start": 3497,
+          "end": 3586
+        },
+        {
+          "start": 3587,
+          "end": 3647
+        },
+        {
+          "start": 3648,
+          "end": 3691
+        },
+        {
+          "start": 3692,
+          "end": 3789
+        },
+        {
+          "start": 3951,
+          "end": 3971
+        },
+        {
+          "start": 3975,
+          "end": 4069
+        },
+        {
+          "start": 4072,
+          "end": 4173
+        },
+        {
+          "start": 4176,
+          "end": 4283
+        },
+        {
+          "start": 4286,
+          "end": 4341
+        },
+        {
+          "start": 4381,
+          "end": 4447
+        },
+        {
+          "start": 4450,
+          "end": 4509
+        },
+        {
+          "start": 4512,
+          "end": 4599
+        },
+        {
+          "start": 4602,
+          "end": 4689
+        },
+        {
+          "start": 4699,
+          "end": 4718
+        },
+        {
+          "start": 4722,
+          "end": 4768
+        },
+        {
+          "start": 4771,
+          "end": 4818
+        },
+        {
+          "start": 4821,
+          "end": 4855
+        },
+        {
+          "start": 4926,
+          "end": 5030
+        },
+        {
+          "start": 5031,
+          "end": 5115
+        },
+        {
+          "start": 5116,
+          "end": 5224
+        },
+        {
+          "start": 5225,
+          "end": 5338
+        },
+        {
+          "start": 5339,
+          "end": 5413
+        },
+        {
+          "start": 5414,
+          "end": 5587
+        },
+        {
+          "start": 5588,
+          "end": 5739
+        },
+        {
+          "start": 5740,
+          "end": 5858
+        },
+        {
+          "start": 5859,
+          "end": 5954
+        },
+        {
+          "start": 5955,
+          "end": 6047
+        },
+        {
+          "start": 6048,
+          "end": 6188
+        },
+        {
+          "start": 6189,
+          "end": 6295
+        },
+        {
+          "start": 6296,
+          "end": 6439
+        },
+        {
+          "start": 6440,
+          "end": 6572
+        },
+        {
+          "start": 6573,
+          "end": 6715
+        },
+        {
+          "start": 6867,
+          "end": 6985
+        },
+        {
+          "start": 6986,
+          "end": 7112
+        },
+        {
+          "start": 7113,
+          "end": 7297
+        },
+        {
+          "start": 7431,
+          "end": 7451
+        },
+        {
+          "start": 7455,
+          "end": 7549
+        },
+        {
+          "start": 7552,
+          "end": 7610
+        },
+        {
+          "start": 7613,
+          "end": 7655
+        },
+        {
+          "start": 7665,
+          "end": 7698
+        },
+        {
+          "start": 7700,
+          "end": 7743
+        },
+        {
+          "start": 7959,
+          "end": 8005
+        },
+        {
+          "start": 8006,
+          "end": 8165
+        }
+      ],
+      "observations": 36,
+      "usedCharacters": 6874,
+      "usedPercent": 84.18,
+      "matchesSource": true
+    },
+    {
+      "source": "assets/base.css",
+      "sha256": "489c201be1f0c99f9c9b40dabb784f424140f88d38cf8da7cd51df26220c0584",
+      "kind": "css",
+      "length": 43615,
+      "ranges": [
+        {
+          "start": 261,
+          "end": 2039
+        },
+        {
+          "start": 2216,
+          "end": 2295
+        },
+        {
+          "start": 2297,
+          "end": 2385
+        },
+        {
+          "start": 2387,
+          "end": 2658
+        },
+        {
+          "start": 2660,
+          "end": 2741
+        },
+        {
+          "start": 2743,
+          "end": 2813
+        },
+        {
+          "start": 2815,
+          "end": 2880
+        },
+        {
+          "start": 2882,
+          "end": 2930
+        },
+        {
+          "start": 2932,
+          "end": 2962
+        },
+        {
+          "start": 3148,
+          "end": 3437
+        },
+        {
+          "start": 3439,
+          "end": 3478
+        },
+        {
+          "start": 3480,
+          "end": 3560
+        },
+        {
+          "start": 3562,
+          "end": 3844
+        },
+        {
+          "start": 4019,
+          "end": 4163
+        },
+        {
+          "start": 4165,
+          "end": 4237
+        },
+        {
+          "start": 4239,
+          "end": 4313
+        },
+        {
+          "start": 4315,
+          "end": 4389
+        },
+        {
+          "start": 4453,
+          "end": 4476
+        },
+        {
+          "start": 4478,
+          "end": 4659
+        },
+        {
+          "start": 4661,
+          "end": 4705
+        },
+        {
+          "start": 4755,
+          "end": 4793
+        },
+        {
+          "start": 4795,
+          "end": 4836
+        },
+        {
+          "start": 5025,
+          "end": 5219
+        },
+        {
+          "start": 5221,
+          "end": 5322
+        },
+        {
+          "start": 5517,
+          "end": 5578
+        },
+        {
+          "start": 5773,
+          "end": 6322
+        },
+        {
+          "start": 6324,
+          "end": 6439
+        },
+        {
+          "start": 6441,
+          "end": 6518
+        },
+        {
+          "start": 6520,
+          "end": 6637
+        },
+        {
+          "start": 6639,
+          "end": 6728
+        },
+        {
+          "start": 6730,
+          "end": 7031
+        },
+        {
+          "start": 7033,
+          "end": 7280
+        },
+        {
+          "start": 7282,
+          "end": 7360
+        },
+        {
+          "start": 7362,
+          "end": 7391
+        },
+        {
+          "start": 7393,
+          "end": 7502
+        },
+        {
+          "start": 7683,
+          "end": 7955
+        },
+        {
+          "start": 7957,
+          "end": 8040
+        },
+        {
+          "start": 8211,
+          "end": 8497
+        },
+        {
+          "start": 8636,
+          "end": 8765
+        },
+        {
+          "start": 8767,
+          "end": 8918
+        },
+        {
+          "start": 8920,
+          "end": 8994
+        },
+        {
+          "start": 9079,
+          "end": 9306
+        },
+        {
+          "start": 9308,
+          "end": 9369
+        },
+        {
+          "start": 9371,
+          "end": 9481
+        },
+        {
+          "start": 9483,
+          "end": 9670
+        },
+        {
+          "start": 9672,
+          "end": 9752
+        },
+        {
+          "start": 9754,
+          "end": 10020
+        },
+        {
+          "start": 10022,
+          "end": 10284
+        },
+        {
+          "start": 10286,
+          "end": 10564
+        },
+        {
+          "start": 10566,
+          "end": 10612
+        },
+        {
+          "start": 10621,
+          "end": 10641
+        },
+        {
+          "start": 10645,
+          "end": 10768
+        },
+        {
+          "start": 10772,
+          "end": 10825
+        },
+        {
+          "start": 10829,
+          "end": 10900
+        },
+        {
+          "start": 10904,
+          "end": 11135
+        },
+        {
+          "start": 11139,
+          "end": 11240
+        },
+        {
+          "start": 11244,
+          "end": 11348
+        },
+        {
+          "start": 11359,
+          "end": 11378
+        },
+        {
+          "start": 11382,
+          "end": 11425
+        },
+        {
+          "start": 11429,
+          "end": 11512
+        },
+        {
+          "start": 11703,
+          "end": 11992
+        },
+        {
+          "start": 12056,
+          "end": 12217
+        },
+        {
+          "start": 12592,
+          "end": 12780
+        },
+        {
+          "start": 12782,
+          "end": 12939
+        },
+        {
+          "start": 12941,
+          "end": 13105
+        },
+        {
+          "start": 13107,
+          "end": 13276
+        },
+        {
+          "start": 13278,
+          "end": 13361
+        },
+        {
+          "start": 13363,
+          "end": 13480
+        },
+        {
+          "start": 13541,
+          "end": 13819
+        },
+        {
+          "start": 14203,
+          "end": 14486
+        },
+        {
+          "start": 14488,
+          "end": 14560
+        },
+        {
+          "start": 14562,
+          "end": 14736
+        },
+        {
+          "start": 14936,
+          "end": 15099
+        },
+        {
+          "start": 15101,
+          "end": 15166
+        },
+        {
+          "start": 15175,
+          "end": 15208
+        },
+        {
+          "start": 15212,
+          "end": 15410
+        },
+        {
+          "start": 15413,
+          "end": 15486
+        },
+        {
+          "start": 15666,
+          "end": 15996
+        },
+        {
+          "start": 15998,
+          "end": 16107
+        },
+        {
+          "start": 16116,
+          "end": 16135
+        },
+        {
+          "start": 16139,
+          "end": 16253
+        },
+        {
+          "start": 16257,
+          "end": 16369
+        },
+        {
+          "start": 16371,
+          "end": 16474
+        },
+        {
+          "start": 16627,
+          "end": 16803
+        },
+        {
+          "start": 16805,
+          "end": 17073
+        },
+        {
+          "start": 17075,
+          "end": 17267
+        },
+        {
+          "start": 17269,
+          "end": 17441
+        },
+        {
+          "start": 17443,
+          "end": 17590
+        },
+        {
+          "start": 17592,
+          "end": 17818
+        },
+        {
+          "start": 17820,
+          "end": 17909
+        },
+        {
+          "start": 17911,
+          "end": 18052
+        },
+        {
+          "start": 19295,
+          "end": 19437
+        },
+        {
+          "start": 19538,
+          "end": 19589
+        },
+        {
+          "start": 19591,
+          "end": 19700
+        },
+        {
+          "start": 19702,
+          "end": 19814
+        },
+        {
+          "start": 19816,
+          "end": 19882
+        },
+        {
+          "start": 19884,
+          "end": 19967
+        },
+        {
+          "start": 19969,
+          "end": 20020
+        },
+        {
+          "start": 20022,
+          "end": 20218
+        },
+        {
+          "start": 20220,
+          "end": 20292
+        },
+        {
+          "start": 21680,
+          "end": 21831
+        },
+        {
+          "start": 21833,
+          "end": 22156
+        },
+        {
+          "start": 22158,
+          "end": 22262
+        },
+        {
+          "start": 22264,
+          "end": 22455
+        },
+        {
+          "start": 22457,
+          "end": 22676
+        },
+        {
+          "start": 22678,
+          "end": 22789
+        },
+        {
+          "start": 23013,
+          "end": 23234
+        },
+        {
+          "start": 23236,
+          "end": 23522
+        },
+        {
+          "start": 23595,
+          "end": 23812
+        },
+        {
+          "start": 23814,
+          "end": 23947
+        },
+        {
+          "start": 24709,
+          "end": 24791
+        },
+        {
+          "start": 24793,
+          "end": 24864
+        },
+        {
+          "start": 24866,
+          "end": 25007
+        },
+        {
+          "start": 25080,
+          "end": 25238
+        },
+        {
+          "start": 25240,
+          "end": 25325
+        },
+        {
+          "start": 25327,
+          "end": 25403
+        },
+        {
+          "start": 25405,
+          "end": 25507
+        },
+        {
+          "start": 25530,
+          "end": 25572
+        },
+        {
+          "start": 25691,
+          "end": 25750
+        },
+        {
+          "start": 25752,
+          "end": 25807
+        },
+        {
+          "start": 25809,
+          "end": 25887
+        },
+        {
+          "start": 26132,
+          "end": 26213
+        },
+        {
+          "start": 26215,
+          "end": 26438
+        },
+        {
+          "start": 26440,
+          "end": 26523
+        },
+        {
+          "start": 26525,
+          "end": 26610
+        },
+        {
+          "start": 27201,
+          "end": 27220
+        },
+        {
+          "start": 27224,
+          "end": 27286
+        },
+        {
+          "start": 27536,
+          "end": 27600
+        },
+        {
+          "start": 27602,
+          "end": 27699
+        },
+        {
+          "start": 32751,
+          "end": 32913
+        },
+        {
+          "start": 32915,
+          "end": 33043
+        },
+        {
+          "start": 33045,
+          "end": 33214
+        },
+        {
+          "start": 33216,
+          "end": 33339
+        },
+        {
+          "start": 33529,
+          "end": 33613
+        },
+        {
+          "start": 33615,
+          "end": 33763
+        },
+        {
+          "start": 33765,
+          "end": 33905
+        },
+        {
+          "start": 33907,
+          "end": 33998
+        },
+        {
+          "start": 34000,
+          "end": 34072
+        },
+        {
+          "start": 34276,
+          "end": 34342
+        },
+        {
+          "start": 34519,
+          "end": 34561
+        },
+        {
+          "start": 34746,
+          "end": 34875
+        },
+        {
+          "start": 34877,
+          "end": 34983
+        },
+        {
+          "start": 34985,
+          "end": 35060
+        },
+        {
+          "start": 35220,
+          "end": 35321
+        },
+        {
+          "start": 35323,
+          "end": 35373
+        },
+        {
+          "start": 35375,
+          "end": 35481
+        },
+        {
+          "start": 35490,
+          "end": 35509
+        },
+        {
+          "start": 35513,
+          "end": 35569
+        },
+        {
+          "start": 38890,
+          "end": 39017
+        },
+        {
+          "start": 39019,
+          "end": 39067
+        },
+        {
+          "start": 39069,
+          "end": 39261
+        },
+        {
+          "start": 39263,
+          "end": 39324
+        },
+        {
+          "start": 39326,
+          "end": 39663
+        },
+        {
+          "start": 39665,
+          "end": 39737
+        },
+        {
+          "start": 39739,
+          "end": 39902
+        },
+        {
+          "start": 39904,
+          "end": 39989
+        },
+        {
+          "start": 39991,
+          "end": 40061
+        },
+        {
+          "start": 40063,
+          "end": 40144
+        },
+        {
+          "start": 40146,
+          "end": 40317
+        },
+        {
+          "start": 40319,
+          "end": 40457
+        },
+        {
+          "start": 40459,
+          "end": 40536
+        },
+        {
+          "start": 40538,
+          "end": 40580
+        },
+        {
+          "start": 40582,
+          "end": 40710
+        },
+        {
+          "start": 40712,
+          "end": 40842
+        },
+        {
+          "start": 40844,
+          "end": 40918
+        },
+        {
+          "start": 40920,
+          "end": 41055
+        },
+        {
+          "start": 41057,
+          "end": 41308
+        },
+        {
+          "start": 41383,
+          "end": 41437
+        },
+        {
+          "start": 41439,
+          "end": 41528
+        },
+        {
+          "start": 41736,
+          "end": 41858
+        },
+        {
+          "start": 41860,
+          "end": 41906
+        },
+        {
+          "start": 41908,
+          "end": 41958
+        },
+        {
+          "start": 41960,
+          "end": 42127
+        },
+        {
+          "start": 42129,
+          "end": 42202
+        },
+        {
+          "start": 42312,
+          "end": 42423
+        },
+        {
+          "start": 42425,
+          "end": 42540
+        },
+        {
+          "start": 42542,
+          "end": 42654
+        },
+        {
+          "start": 42656,
+          "end": 42776
+        },
+        {
+          "start": 42778,
+          "end": 42961
+        },
+        {
+          "start": 42963,
+          "end": 43203
+        },
+        {
+          "start": 43205,
+          "end": 43254
+        },
+        {
+          "start": 43350,
+          "end": 43550
+        },
+        {
+          "start": 43552,
+          "end": 43611
+        }
+      ],
+      "observations": 40,
+      "usedCharacters": 24723,
+      "usedPercent": 56.68,
+      "matchesSource": true
+    },
+    {
+      "source": "assets/catalog.css",
+      "sha256": "0660651de3c0b2bbd53555dafca35b7ae8adca5e4f15cb245ebef72ac2bc271e",
+      "kind": "css",
+      "length": 6858,
+      "ranges": [
+        {
+          "start": 72,
+          "end": 103
+        },
+        {
+          "start": 104,
+          "end": 254
+        },
+        {
+          "start": 255,
+          "end": 353
+        },
+        {
+          "start": 354,
+          "end": 458
+        },
+        {
+          "start": 466,
+          "end": 481
+        },
+        {
+          "start": 483,
+          "end": 554
+        },
+        {
+          "start": 557,
+          "end": 636
+        },
+        {
+          "start": 637,
+          "end": 771
+        },
+        {
+          "start": 772,
+          "end": 859
+        },
+        {
+          "start": 860,
+          "end": 966
+        },
+        {
+          "start": 967,
+          "end": 1055
+        },
+        {
+          "start": 1282,
+          "end": 1322
+        },
+        {
+          "start": 1323,
+          "end": 1402
+        },
+        {
+          "start": 1403,
+          "end": 1452
+        },
+        {
+          "start": 1453,
+          "end": 1536
+        },
+        {
+          "start": 1537,
+          "end": 1577
+        },
+        {
+          "start": 1578,
+          "end": 1691
+        },
+        {
+          "start": 1692,
+          "end": 1782
+        },
+        {
+          "start": 1783,
+          "end": 1835
+        },
+        {
+          "start": 1836,
+          "end": 1879
+        },
+        {
+          "start": 2089,
+          "end": 2263
+        },
+        {
+          "start": 2264,
+          "end": 2300
+        },
+        {
+          "start": 2301,
+          "end": 2389
+        },
+        {
+          "start": 2390,
+          "end": 2448
+        },
+        {
+          "start": 2449,
+          "end": 2500
+        },
+        {
+          "start": 2501,
+          "end": 2557
+        },
+        {
+          "start": 2558,
+          "end": 2721
+        },
+        {
+          "start": 2722,
+          "end": 2844
+        },
+        {
+          "start": 2845,
+          "end": 2938
+        },
+        {
+          "start": 3083,
+          "end": 3218
+        },
+        {
+          "start": 3219,
+          "end": 3310
+        },
+        {
+          "start": 3311,
+          "end": 3444
+        },
+        {
+          "start": 3445,
+          "end": 3496
+        },
+        {
+          "start": 3497,
+          "end": 3554
+        },
+        {
+          "start": 3555,
+          "end": 3634
+        },
+        {
+          "start": 3635,
+          "end": 3769
+        },
+        {
+          "start": 3770,
+          "end": 3880
+        },
+        {
+          "start": 3881,
+          "end": 3960
+        },
+        {
+          "start": 3961,
+          "end": 4049
+        },
+        {
+          "start": 4050,
+          "end": 4113
+        },
+        {
+          "start": 4114,
+          "end": 4236
+        },
+        {
+          "start": 4237,
+          "end": 4418
+        },
+        {
+          "start": 4419,
+          "end": 4498
+        },
+        {
+          "start": 4499,
+          "end": 4540
+        },
+        {
+          "start": 4541,
+          "end": 4585
+        },
+        {
+          "start": 4586,
+          "end": 4699
+        },
+        {
+          "start": 4700,
+          "end": 4851
+        },
+        {
+          "start": 4852,
+          "end": 4936
+        },
+        {
+          "start": 4937,
+          "end": 5153
+        },
+        {
+          "start": 5154,
+          "end": 5216
+        },
+        {
+          "start": 5217,
+          "end": 5346
+        },
+        {
+          "start": 5347,
+          "end": 5408
+        },
+        {
+          "start": 5409,
+          "end": 5482
+        },
+        {
+          "start": 5483,
+          "end": 5560
+        },
+        {
+          "start": 5561,
+          "end": 5617
+        },
+        {
+          "start": 5618,
+          "end": 5679
+        },
+        {
+          "start": 5680,
+          "end": 5738
+        },
+        {
+          "start": 5739,
+          "end": 5783
+        },
+        {
+          "start": 5784,
+          "end": 5844
+        },
+        {
+          "start": 5852,
+          "end": 5871
+        },
+        {
+          "start": 5875,
+          "end": 5936
+        },
+        {
+          "start": 5939,
+          "end": 5995
+        },
+        {
+          "start": 5998,
+          "end": 6067
+        },
+        {
+          "start": 6070,
+          "end": 6137
+        },
+        {
+          "start": 6140,
+          "end": 6218
+        },
+        {
+          "start": 6221,
+          "end": 6277
+        },
+        {
+          "start": 6287,
+          "end": 6306
+        },
+        {
+          "start": 6388,
+          "end": 6454
+        },
+        {
+          "start": 6457,
+          "end": 6524
+        },
+        {
+          "start": 6527,
+          "end": 6571
+        },
+        {
+          "start": 6574,
+          "end": 6637
+        },
+        {
+          "start": 6640,
+          "end": 6696
+        },
+        {
+          "start": 6699,
+          "end": 6760
+        },
+        {
+          "start": 6770,
+          "end": 6803
+        },
+        {
+          "start": 6805,
+          "end": 6855
+        }
+      ],
+      "observations": 36,
+      "usedCharacters": 5990,
+      "usedPercent": 87.34,
+      "matchesSource": true
+    },
+    {
+      "source": "assets/theme.js",
+      "sha256": "3b08391e5c2002f162087190565ea9ebc5e413a4d9f8d91f74a93f15739f6982",
+      "kind": "js",
+      "length": 2959,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 342
+        },
+        {
+          "start": 352,
+          "end": 424
+        },
+        {
+          "start": 436,
+          "end": 654
+        },
+        {
+          "start": 1020,
+          "end": 1199
+        },
+        {
+          "start": 1210,
+          "end": 1276
+        },
+        {
+          "start": 1316,
+          "end": 1355
+        },
+        {
+          "start": 1388,
+          "end": 1436
+        },
+        {
+          "start": 1696,
+          "end": 1942
+        },
+        {
+          "start": 1954,
+          "end": 2012
+        },
+        {
+          "start": 2060,
+          "end": 2121
+        },
+        {
+          "start": 2145,
+          "end": 2214
+        },
+        {
+          "start": 2266,
+          "end": 2479
+        },
+        {
+          "start": 2863,
+          "end": 2959
+        }
+      ],
+      "observations": 36,
+      "usedCharacters": 1707,
+      "usedPercent": 57.69,
+      "matchesSource": true
+    },
+    {
+      "source": "assets/product.js",
+      "sha256": "afdc5339401df42875a9ac9e207593468260d4501652e82a0c540f63e535f4b4",
+      "kind": "js",
+      "length": 8812,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 247
+        },
+        {
+          "start": 259,
+          "end": 848
+        },
+        {
+          "start": 870,
+          "end": 1232
+        },
+        {
+          "start": 1239,
+          "end": 1726
+        },
+        {
+          "start": 1750,
+          "end": 2050
+        },
+        {
+          "start": 2063,
+          "end": 2175
+        },
+        {
+          "start": 2180,
+          "end": 2301
+        },
+        {
+          "start": 2316,
+          "end": 2352
+        },
+        {
+          "start": 2364,
+          "end": 2666
+        },
+        {
+          "start": 2817,
+          "end": 2919
+        },
+        {
+          "start": 2978,
+          "end": 3301
+        },
+        {
+          "start": 3632,
+          "end": 3868
+        },
+        {
+          "start": 4114,
+          "end": 4705
+        },
+        {
+          "start": 4710,
+          "end": 4955
+        },
+        {
+          "start": 4975,
+          "end": 5234
+        },
+        {
+          "start": 5241,
+          "end": 5646
+        },
+        {
+          "start": 5653,
+          "end": 5896
+        },
+        {
+          "start": 5903,
+          "end": 6123
+        },
+        {
+          "start": 6189,
+          "end": 6283
+        },
+        {
+          "start": 6290,
+          "end": 6443
+        },
+        {
+          "start": 6450,
+          "end": 6615
+        },
+        {
+          "start": 6628,
+          "end": 7127
+        },
+        {
+          "start": 7139,
+          "end": 7271
+        },
+        {
+          "start": 7293,
+          "end": 7334
+        },
+        {
+          "start": 7341,
+          "end": 7597
+        },
+        {
+          "start": 7649,
+          "end": 8108
+        },
+        {
+          "start": 8130,
+          "end": 8223
+        },
+        {
+          "start": 8227,
+          "end": 8311
+        },
+        {
+          "start": 8344,
+          "end": 8812
+        }
+      ],
+      "observations": 36,
+      "usedCharacters": 7624,
+      "usedPercent": 86.52,
+      "matchesSource": true
+    },
+    {
+      "source": "assets/reviews.js",
+      "sha256": "117a550915bc8d7b520e5dd437785ed3626df6fdd0c9ce42477e14effcf61c8f",
+      "kind": "js",
+      "length": 2667,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 631
+        },
+        {
+          "start": 635,
+          "end": 636
+        },
+        {
+          "start": 639,
+          "end": 1096
+        },
+        {
+          "start": 1163,
+          "end": 1230
+        },
+        {
+          "start": 1248,
+          "end": 1249
+        },
+        {
+          "start": 1269,
+          "end": 1313
+        },
+        {
+          "start": 1330,
+          "end": 1350
+        },
+        {
+          "start": 1370,
+          "end": 2257
+        },
+        {
+          "start": 2318,
+          "end": 2620
+        },
+        {
+          "start": 2652,
+          "end": 2667
+        }
+      ],
+      "observations": 38,
+      "usedCharacters": 2425,
+      "usedPercent": 90.93,
+      "matchesSource": true
+    },
+    {
+      "source": "assets/cart-drawer.js",
+      "sha256": "d52981bd15a38ec9364376f48c6616089a3419a2674682273d3049e8d1b385e7",
+      "kind": "js",
+      "length": 5609,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 419
+        },
+        {
+          "start": 426,
+          "end": 804
+        },
+        {
+          "start": 811,
+          "end": 1126
+        },
+        {
+          "start": 1131,
+          "end": 1200
+        },
+        {
+          "start": 1282,
+          "end": 1449
+        },
+        {
+          "start": 1455,
+          "end": 1711
+        },
+        {
+          "start": 1718,
+          "end": 2384
+        },
+        {
+          "start": 2461,
+          "end": 2528
+        },
+        {
+          "start": 2759,
+          "end": 2955
+        },
+        {
+          "start": 2996,
+          "end": 3081
+        },
+        {
+          "start": 3148,
+          "end": 3455
+        },
+        {
+          "start": 3474,
+          "end": 3693
+        },
+        {
+          "start": 3700,
+          "end": 4114
+        },
+        {
+          "start": 4489,
+          "end": 4615
+        },
+        {
+          "start": 4622,
+          "end": 4748
+        },
+        {
+          "start": 4756,
+          "end": 5133
+        },
+        {
+          "start": 5450,
+          "end": 5452
+        },
+        {
+          "start": 5552,
+          "end": 5554
+        },
+        {
+          "start": 5596,
+          "end": 5609
+        }
+      ],
+      "observations": 36,
+      "usedCharacters": 4204,
+      "usedPercent": 74.95,
+      "matchesSource": true
+    },
+    {
+      "source": "assets/catalog.js",
+      "sha256": "19180ae42d1ee481784c4ec7aa04487bb28b6452f0a9de972354676bdc77c3b6",
+      "kind": "js",
+      "length": 12787,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 380
+        },
+        {
+          "start": 387,
+          "end": 454
+        },
+        {
+          "start": 570,
+          "end": 1097
+        },
+        {
+          "start": 1104,
+          "end": 1692
+        },
+        {
+          "start": 1753,
+          "end": 1779
+        },
+        {
+          "start": 1794,
+          "end": 1982
+        },
+        {
+          "start": 2074,
+          "end": 2346
+        },
+        {
+          "start": 2372,
+          "end": 2490
+        },
+        {
+          "start": 2623,
+          "end": 2741
+        },
+        {
+          "start": 2982,
+          "end": 3574
+        },
+        {
+          "start": 3589,
+          "end": 3625
+        },
+        {
+          "start": 3637,
+          "end": 3672
+        },
+        {
+          "start": 3677,
+          "end": 4013
+        },
+        {
+          "start": 4217,
+          "end": 4543
+        },
+        {
+          "start": 4571,
+          "end": 4620
+        },
+        {
+          "start": 4647,
+          "end": 4730
+        },
+        {
+          "start": 4789,
+          "end": 4905
+        },
+        {
+          "start": 4912,
+          "end": 5057
+        },
+        {
+          "start": 5064,
+          "end": 6086
+        },
+        {
+          "start": 6132,
+          "end": 6149
+        },
+        {
+          "start": 6156,
+          "end": 6873
+        },
+        {
+          "start": 6916,
+          "end": 7009
+        },
+        {
+          "start": 7016,
+          "end": 7203
+        },
+        {
+          "start": 7251,
+          "end": 7631
+        },
+        {
+          "start": 7962,
+          "end": 8189
+        },
+        {
+          "start": 8196,
+          "end": 8332
+        },
+        {
+          "start": 8358,
+          "end": 9049
+        },
+        {
+          "start": 9133,
+          "end": 9202
+        },
+        {
+          "start": 9246,
+          "end": 9402
+        },
+        {
+          "start": 9407,
+          "end": 9491
+        },
+        {
+          "start": 9780,
+          "end": 9829
+        },
+        {
+          "start": 9843,
+          "end": 9907
+        },
+        {
+          "start": 9929,
+          "end": 10171
+        },
+        {
+          "start": 10176,
+          "end": 10434
+        },
+        {
+          "start": 10603,
+          "end": 10809
+        },
+        {
+          "start": 10814,
+          "end": 11105
+        },
+        {
+          "start": 11112,
+          "end": 11507
+        },
+        {
+          "start": 11555,
+          "end": 11557
+        },
+        {
+          "start": 11577,
+          "end": 11666
+        },
+        {
+          "start": 11709,
+          "end": 11711
+        },
+        {
+          "start": 11732,
+          "end": 11869
+        },
+        {
+          "start": 11876,
+          "end": 12485
+        },
+        {
+          "start": 12597,
+          "end": 12621
+        },
+        {
+          "start": 12659,
+          "end": 12661
+        },
+        {
+          "start": 12732,
+          "end": 12787
+        }
+      ],
+      "observations": 36,
+      "usedCharacters": 10206,
+      "usedPercent": 79.82,
+      "matchesSource": true
+    },
+    {
+      "source": "assets/header.js",
+      "sha256": "3fdea2a1ae030683fc5bfedd289d363c3f03a35b0c2fff568fc5aaa97de91f3e",
+      "kind": "js",
+      "length": 12062,
+      "ranges": [
+        {
+          "start": 0,
+          "end": 204
+        },
+        {
+          "start": 211,
+          "end": 934
+        },
+        {
+          "start": 946,
+          "end": 947
+        },
+        {
+          "start": 960,
+          "end": 961
+        },
+        {
+          "start": 976,
+          "end": 1212
+        },
+        {
+          "start": 1226,
+          "end": 1711
+        },
+        {
+          "start": 1838,
+          "end": 2161
+        },
+        {
+          "start": 2171,
+          "end": 2836
+        },
+        {
+          "start": 2849,
+          "end": 3371
+        },
+        {
+          "start": 3378,
+          "end": 3471
+        },
+        {
+          "start": 3514,
+          "end": 3671
+        },
+        {
+          "start": 3678,
+          "end": 3753
+        },
+        {
+          "start": 3888,
+          "end": 3961
+        },
+        {
+          "start": 3987,
+          "end": 4045
+        },
+        {
+          "start": 4163,
+          "end": 4418
+        },
+        {
+          "start": 4437,
+          "end": 4849
+        },
+        {
+          "start": 5019,
+          "end": 5141
+        },
+        {
+          "start": 5212,
+          "end": 5292
+        },
+        {
+          "start": 5299,
+          "end": 5718
+        },
+        {
+          "start": 5725,
+          "end": 6485
+        },
+        {
+          "start": 6538,
+          "end": 7812
+        },
+        {
+          "start": 7860,
+          "end": 7972
+        },
+        {
+          "start": 7979,
+          "end": 8152
+        },
+        {
+          "start": 8200,
+          "end": 8762
+        },
+        {
+          "start": 9052,
+          "end": 9290
+        },
+        {
+          "start": 9297,
+          "end": 9471
+        },
+        {
+          "start": 9516,
+          "end": 9609
+        },
+        {
+          "start": 9616,
+          "end": 9650
+        },
+        {
+          "start": 9714,
+          "end": 9716
+        },
+        {
+          "start": 9807,
+          "end": 10027
+        },
+        {
+          "start": 10073,
+          "end": 10083
+        },
+        {
+          "start": 10276,
+          "end": 10341
+        },
+        {
+          "start": 10474,
+          "end": 11249
+        },
+        {
+          "start": 11591,
+          "end": 11967
+        },
+        {
+          "start": 11991,
+          "end": 12062
+        }
+      ],
+      "observations": 36,
+      "usedCharacters": 9843,
+      "usedPercent": 81.6,
+      "matchesSource": true
+    }
+  ],
+  "gaps": [
+    "Actual theme editor",
+    "Gift card object",
+    "Article with real content",
+    "Authentic reviews",
+    "App blocks",
+    "Video/external media",
+    "Native discounts/checkout/form responses",
+    "Markets/localization/payment icons",
+    "Unconfigured addable sections and all merchant settings combinations",
+    "JavaScript-disabled rendering"
+  ],
+  "observedClassTokens": [
+    "accordion-item",
+    "accordion-item__content",
+    "accordion-item__icon",
+    "accordion-item__summary",
+    "accordion-item__title",
+    "announcement-bar",
+    "announcement-bar__cta",
+    "announcement-bar__inner",
+    "atelier-header-section",
+    "atelier-search",
+    "atelier-search__controls",
+    "atelier-search__form",
+    "badge",
+    "badge--sale",
+    "brand-story-section",
+    "brand-story__body",
+    "brand-story__content",
+    "brand-story__grid",
+    "brand-story__heading",
+    "brand-story__image",
+    "brand-story__media",
+    "brand-story__signoff",
+    "btn",
+    "btn--full",
+    "btn--link",
+    "btn--primary",
+    "btn--secondary",
+    "cart-count-badge",
+    "cart-drawer",
+    "cart-drawer__backdrop",
+    "cart-drawer__body",
+    "cart-drawer__checkout-btn",
+    "cart-drawer__close-btn",
+    "cart-drawer__count-badge",
+    "cart-drawer__empty",
+    "cart-drawer__footer",
+    "cart-drawer__form",
+    "cart-drawer__header",
+    "cart-drawer__items-list",
+    "cart-drawer__note-accordion",
+    "cart-drawer__note-content",
+    "cart-drawer__note-icon",
+    "cart-drawer__note-input",
+    "cart-drawer__note-summary",
+    "cart-drawer__panel",
+    "cart-drawer__shipping-banner",
+    "cart-drawer__subtotal",
+    "cart-drawer__subtotal-line",
+    "cart-drawer__tax-note",
+    "cart-drawer__title",
+    "cart-drawer__title-wrap",
+    "cart-error",
+    "cart-item",
+    "cart-item__actions",
+    "cart-item__details",
+    "cart-item__header",
+    "cart-item__image",
+    "cart-item__media",
+    "cart-item__price",
+    "cart-item__remove-btn",
+    "cart-item__stepper",
+    "cart-item__stepper-btn",
+    "cart-item__title",
+    "catalog-dialog",
+    "catalog-dialog__header",
+    "catalog-enhanced",
+    "catalog-status",
+    "category-grid",
+    "category-tile",
+    "collection-active-filters",
+    "collection-banner",
+    "collection-breadcrumbs",
+    "collection-density",
+    "collection-empty",
+    "collection-filter",
+    "collection-filter-dialog",
+    "collection-filter-toggle",
+    "collection-filter__price",
+    "collection-filter__value",
+    "collection-filters",
+    "collection-layout",
+    "collection-pagination",
+    "collection-product-grid",
+    "collection-results",
+    "collection-row-header",
+    "collection-sidebar",
+    "collection-sort",
+    "collection-sort-submit",
+    "collection-toolbar",
+    "color-swatch-circle",
+    "color-swatch-group",
+    "color-swatch-item",
+    "color-swatch-item--color",
+    "color-swatch-name",
+    "comparison-section",
+    "comparison-table",
+    "comparison-table-wrap",
+    "comparison-table__brand-col",
+    "contact-fields",
+    "contact-form",
+    "contact-form-wrap",
+    "container",
+    "container--narrow",
+    "content-for-layout",
+    "eyebrow",
+    "fade-up",
+    "faq-list",
+    "faq-section",
+    "font-heading",
+    "font-medium",
+    "footer-legal",
+    "footer-navigation",
+    "footer-navigation__column",
+    "footer-newsletter-fields",
+    "form-input",
+    "form-label",
+    "hairline-bottom",
+    "header-enhanced",
+    "header-icon",
+    "header-leading",
+    "header-menu",
+    "header-menu--desktop",
+    "header-menu--mobile",
+    "header-menu__disclosure",
+    "header-menu__disclosure--mega",
+    "header-menu__panel",
+    "header-menu__panel--mega",
+    "header-menu__parent",
+    "header-mobile-fallback",
+    "header-search-dialog",
+    "hero-section",
+    "hero-section--full-height",
+    "hero-section__content",
+    "hero-section__content-container",
+    "hero-section__cta",
+    "hero-section__eyebrow",
+    "hero-section__heading",
+    "hero-section__image",
+    "hero-section__media",
+    "hero-section__overlay",
+    "hero-section__subhead",
+    "icon",
+    "icon-cart",
+    "icon-chevron",
+    "icon-close",
+    "is-active",
+    "is-highlight",
+    "is-open",
+    "is-scrolled",
+    "is-visible",
+    "js",
+    "label-caps",
+    "local-preview-notice",
+    "main-404-section",
+    "main-cart__footer-grid",
+    "main-collection-section",
+    "main-contact-section",
+    "main-page-section",
+    "main-page__content",
+    "main-product-section",
+    "main-search-section",
+    "mega-menu__arrow",
+    "mega-menu__card",
+    "mega-menu__collections",
+    "mega-menu__description",
+    "mega-menu__image",
+    "mega-menu__intro",
+    "mobile-menu-toggle",
+    "mobile-nav-drawer",
+    "mobile-nav-header",
+    "no-js",
+    "password-form-wrap",
+    "password-main",
+    "predictive-heading",
+    "predictive-option",
+    "predictive-option--all",
+    "predictive-option__image",
+    "predictive-option__title",
+    "predictive-results",
+    "price",
+    "price--on-sale",
+    "price-item",
+    "price-item--regular",
+    "price-item--sale",
+    "price__container",
+    "product-buy-box",
+    "product-buy-box__actions",
+    "product-buy-box__header",
+    "product-buy-box__price-line",
+    "product-buy-box__title",
+    "product-card",
+    "product-card__badges",
+    "product-card__image",
+    "product-card__image--second",
+    "product-card__media",
+    "product-card__swatch",
+    "product-card__swatches",
+    "product-card__title",
+    "product-enhanced",
+    "product-enhancement-only",
+    "product-gallery",
+    "product-gallery__image",
+    "product-gallery__image-container",
+    "product-gallery__main",
+    "product-gallery__slide",
+    "product-gallery__thumb",
+    "product-gallery__thumbs",
+    "product-native-variant",
+    "product-spotlight__grid",
+    "product-zoom-dialog",
+    "product-zoom-link",
+    "prose",
+    "quantity-input-stepper",
+    "quantity__button",
+    "quantity__input",
+    "quick-view",
+    "quick-view__media",
+    "review-card",
+    "review-card__author",
+    "review-card__quote",
+    "review-card__stars",
+    "review-star",
+    "reviews-average",
+    "reviews-breakdown",
+    "reviews-controls",
+    "reviews-empty",
+    "reviews-list",
+    "reviews-rating-row",
+    "reviews-rating-track",
+    "reviews-section",
+    "reviews-summary",
+    "reviews-summary__score",
+    "search-page-count",
+    "search-page-form",
+    "search-page-grid",
+    "section-header",
+    "section-heading",
+    "section-spacing",
+    "shop-look",
+    "shop-look__image",
+    "shop-look__pin",
+    "shop-look__products",
+    "site-footer",
+    "site-footer__bottom",
+    "site-footer__brand",
+    "site-footer__brand-title",
+    "site-footer__col-title",
+    "site-footer__grid",
+    "site-footer__link",
+    "site-footer__links",
+    "site-footer__newsletter",
+    "site-header",
+    "site-header__actions",
+    "site-header__cart-trigger",
+    "site-header__inner",
+    "site-header__logo",
+    "site-header__logo-text",
+    "site-header__nav",
+    "site-header__nav-link",
+    "skip-to-content",
+    "swatch-options",
+    "swatch-options--card",
+    "template-404",
+    "template-blog",
+    "template-cart",
+    "template-collection",
+    "template-index",
+    "template-list-collections",
+    "template-page",
+    "template-password",
+    "template-product",
+    "template-search",
+    "text-center",
+    "text-muted",
+    "visually-hidden"
+  ],
+  "summary": {
+    "navigations": 40,
+    "navigationFailures": 0,
+    "actionFailures": 0,
+    "runtimeErrors": 0
+  }
+}
