@@ -84,7 +84,7 @@
 {% endfor %}
 </div>
 <div class="site-footer__bottom">
-  <p>&copy; {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</p>
+  <p>&copy; {{ 'now' | date: '%Y' }} {{ settings.brand_name | default: shop.name | escape }}</p>
   <nav class="footer-legal" aria-label="Store policies">
     {% assign contact_url = pages.contact.url %}
     {% if contact_url != blank %}{% assign url_key = contact_url | prepend: '|' | append: '|' %}{% unless footer_seen_urls contains url_key %}<a href="{{ contact_url }}">Contact</a>{% assign footer_seen_urls = footer_seen_urls | append: contact_url | append: '|' %}{% endunless %}{% endif %}

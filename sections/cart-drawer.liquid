@@ -39,9 +39,10 @@
       {%- render 'free-shipping-bar', cart: cart -%}
     </div>
 
-    <p class="cart-error catalog-status" data-cart-error role="status" aria-live="polite"></p>
+    {% render 'pairing-offer', offer_context: 'drawer' %}
     <!-- Line Items List -->
     <div class="cart-drawer__body" data-cart-drawer-items>
+      <p class="cart-error catalog-status" data-cart-error role="status" aria-live="polite"></p>
       {%- if cart.empty? -%}
         <div class="cart-drawer__empty text-center">
           <p class="font-heading" style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--color-ink);">
@@ -60,11 +61,6 @@
             {%- render 'cart-item', item: item, scope: section.id -%}
           {%- endfor -%}
         </div>
-      {%- endif -%}
-    </div>
-
-    <!-- Drawer Footer (Subtotal & Checkout) -->
-      <div class="cart-drawer__footer" data-cart-drawer-footer {% if cart.empty? %}style="display: none;"{% endif %}>
         {%- if settings.enable_cart_notes -%}
           <details class="cart-drawer__note-accordion">
             <summary class="cart-drawer__note-summary">
@@ -85,6 +81,12 @@
           </details>
         {%- endif -%}
 
+      {%- endif -%}
+    </div>
+
+    <!-- Drawer Footer (Subtotal & Checkout) -->
+      <div class="cart-drawer__footer" data-cart-drawer-footer {% if cart.empty? %}style="display: none;"{% endif %}>
+        {% render 'cart-discounts', cart: cart %}
         <!-- Subtotal -->
         <div class="cart-drawer__subtotal-line">
           <span class="label-caps">{{ 'sections.cart.subtotal' | t }}</span>

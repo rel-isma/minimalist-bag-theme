@@ -11,9 +11,21 @@
     "heading_font": "garamond_n4",
     "body_font": "assistant_n4",
     "page_width": 1320,
-    "brand_name": "Atelier Vane",
+    "brand_name": "Atelier Veyne",
     "cart_type": "drawer",
     "free_shipping_threshold": 0,
-    "enable_cart_notes": true
+    "enable_cart_notes": true,
+    "offers_enabled": true,
+    "welcome_auto_open": true,
+    "welcome_delay": 2,
+    "welcome_frequency": 7,
+    "offers_collection": "wallets-and-cardholders",
+    "welcome_discount_enabled": false,
+    "bundle_offer_enabled": true,
+    "bundle_offer_code": "TEST10",
+    "bundle_offer_heading": "Add a wallet. Save 10% on your bag.",
+    "bundle_offer_terms": "Buy a bag with a wallet, cardholder or accessory and use TEST10 for 10% off one bag. One discounted bag per order. Shopify confirms eligibility and final savings.",
+    "offer_bag": "cove-shoulder-bag",
+    "offer_wallet": "turn-wallet"
   }
 }

@@ -3,9 +3,17 @@
     "main": {
       "type": "main-collection",
       "settings": {}
+    },
+    "carry_edit": {
+      "type": "complete-your-carry",
+      "settings": {
+        "collection": "wallets-and-cardholders",
+        "limit": 3
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "carry_edit"
   ]
 }

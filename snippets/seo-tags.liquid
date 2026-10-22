@@ -1,3 +1,4 @@
+{% assign seo_brand = settings.brand_name | default: shop.name %}
 {%- comment -%}
   SEO Meta Tags & Social Sharing Snippet
 {%- endcomment -%}
@@ -5,23 +6,23 @@
   {{ page_title | escape }}
   {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
   {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-  {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+  {%- unless page_title contains seo_brand %} &ndash; {{ seo_brand }}{% endunless -%}
 </title>
 
 {%- if page_description -%}
   <meta name="description" content="{{ page_description | escape }}">
 {%- else -%}
-  <meta name="description" content="{{ shop.description | default: shop.name | escape }}">
+  <meta name="description" content="{{ shop.description | default: seo_brand | escape }}">
 {%- endif -%}
 
 <link rel="canonical" href="{{ canonical_url }}">
 
 {%- comment -%} OpenGraph & Twitter Cards {%- endcomment -%}
-<meta property="og:site_name" content="{{ shop.name | escape }}">
+<meta property="og:site_name" content="{{ seo_brand | escape }}">
 <meta property="og:url" content="{{ canonical_url }}">
-<meta property="og:title" content="{{ page_title | default: shop.name | escape }}">
+<meta property="og:title" content="{{ page_title | default: seo_brand | escape }}">
 <meta property="og:type" content="{% if template contains 'product' %}product{% else %}website{% endif %}">
-<meta property="og:description" content="{{ page_description | default: shop.description | default: shop.name | escape }}">
+<meta property="og:description" content="{{ page_description | default: shop.description | default: seo_brand | escape }}">
 
 {%- if page_image -%}
   <meta property="og:image" content="http:{{ page_image | image_url: width: 1200 }}">
@@ -32,5 +33,5 @@
 {%- endif -%}
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ page_title | default: shop.name | escape }}">
-<meta name="twitter:description" content="{{ page_description | default: shop.description | default: shop.name | escape }}">
+<meta name="twitter:title" content="{{ page_title | default: seo_brand | escape }}">
+<meta name="twitter:description" content="{{ page_description | default: shop.description | default: seo_brand | escape }}">

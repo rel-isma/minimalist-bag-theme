@@ -1,0 +1,49 @@
+{%- if settings.offers_enabled -%}
+  {%- assign pair_bag = settings.offer_bag -%}
+  {%- assign bag_types = '|shoulder bag|crossbody bag|tote bag|mini and clutch bag|mini bag|clutch bag|' -%}
+  {%- assign current_type = product.type | downcase | prepend: '|' | append: '|' -%}
+  {%- if product != blank and bag_types contains current_type -%}{%- assign pair_bag = product -%}{%- endif -%}
+  {%- assign pair_wallet = settings.offer_wallet -%}
+  {%- if pair_wallet == blank or pair_wallet.available == false -%}{%- assign pair_wallet = nil -%}{%- for candidate in settings.offers_collection.products -%}{%- if candidate.available -%}{%- assign pair_wallet = candidate -%}{%- break -%}{%- endif -%}{%- endfor -%}{%- endif -%}
+  {%- assign wallet_ids = '|' -%}
+  {% capture wallet_choices %}
+    {% if pair_wallet != blank and pair_wallet.available %}{% render 'offer-wallet-choice', wallet: pair_wallet %}{% assign wallet_ids = wallet_ids | append: pair_wallet.id | append: '|' %}{% endif %}
+    {% for candidate in settings.offers_collection.products %}{% assign wallet_key = candidate.id | prepend: '|' | append: '|' %}{% unless wallet_ids contains wallet_key or candidate.available == false %}{% render 'offer-wallet-choice', wallet: candidate %}{% assign wallet_ids = wallet_ids | append: candidate.id | append: '|' %}{% endunless %}{% endfor %}
+  {% endcapture %}
+  {% assign addon_collection = collections['accessories'] %}
+  {% capture wallet_choices %}{{ wallet_choices }}{% for candidate in addon_collection.products %}{% assign wallet_key = candidate.id | prepend: '|' | append: '|' %}{% unless wallet_ids contains wallet_key or candidate.available == false %}{% render 'offer-wallet-choice', wallet: candidate %}{% assign wallet_ids = wallet_ids | append: candidate.id | append: '|' %}{% endunless %}{% endfor %}{% endcapture %}
+  {% assign bag_ids = '|' %}
+  {% capture bag_choices %}
+    {% assign bag_handles = 'shoulder-bags,crossbody-bags,tote-bags,mini-and-clutch-bags' | split: ',' %}
+    {% for handle in bag_handles %}{% for candidate in collections[handle].products %}{% assign bag_key = candidate.id | prepend: '|' | append: '|' %}{% unless bag_ids contains bag_key or candidate.available == false %}{% render 'offer-wallet-choice', wallet: candidate, choice_role: 'bag' %}{% assign bag_ids = bag_ids | append: candidate.id | append: '|' %}{% endunless %}{% endfor %}{% endfor %}
+  {% endcapture %}
+  <div data-store-offers data-auto-open="{{ settings.welcome_auto_open }}" data-delay="{{ settings.welcome_delay | default: 2 }}" data-frequency="{{ settings.welcome_frequency | default: 7 }}" data-cart-url="{{ routes.cart_url }}" data-add-url="{{ routes.cart_add_url }}" data-update-url="{{ routes.cart_update_url }}" data-code="{% if settings.bundle_offer_enabled %}{{ settings.bundle_offer_code | escape }}{% endif %}" data-currency="{{ cart.currency.iso_code | default: shop.currency }}" {% if request.design_mode %}data-design-mode{% endif %}>
+    <button class="offers-launcher" type="button" data-offers-open aria-haspopup="dialog" aria-controls="AtelierOffers" aria-label="Shop the bag and add-on offer" hidden>{% render 'icon-gift' %}<span>Offers</span></button>
+    <dialog id="AtelierWelcome" class="offers-dialog welcome-dialog" aria-labelledby="WelcomeHeading">
+      <button class="offers-close" type="button" data-welcome-close aria-label="Close welcome">{% render 'icon-close' %}</button>
+      <div class="offers-dialog__grid">
+        <div class="offers-dialog__visual">{% if settings.welcome_image != blank %}{{ settings.welcome_image | image_url: width: 800 | image_tag: loading: 'lazy', widths: '400,600,800', sizes: '(min-width: 750px) 360px, 100vw' }}{% else %}<img src="{{ 'demo-story-1200.webp' | asset_url }}" width="1200" height="800" loading="lazy" alt="An everyday bag from Atelier Veyne">{% endif %}<div><p class="eyebrow">{{ settings.brand_name | default: shop.name | escape }}</p><p class="offers-dialog__visual-title">Good things,<br>carried together.</p></div></div>
+        <div class="offers-dialog__content"><p class="eyebrow">You're invited</p><h2 id="WelcomeHeading">{{ settings.welcome_heading | escape }}</h2><p class="text-muted">{{ settings.welcome_text | escape }}</p>
+          {% form 'customer', id: 'AtelierWelcomeForm', class: 'offers-signup' %}
+            <input type="hidden" name="contact[tags]" value="newsletter,atelier-welcome">
+            {% if form.posted_successfully? %}<div class="offers-signup__success" data-offers-success role="status" tabindex="-1"><span class="offers-signup__check" aria-hidden="true">✓</span><h3>You're on the list.</h3><p>Thank you for joining {{ settings.brand_name | default: shop.name | escape }}. Look out for collection updates and notes from the atelier.</p><p class="offers-fine-print">If a confirmation email arrives, follow its link to finish subscribing.</p>{% if settings.welcome_discount_enabled and settings.welcome_discount_code != blank %}<p>Your welcome code: <strong class="offers-code">{{ settings.welcome_discount_code | escape }}</strong></p><p>{{ settings.welcome_discount_terms | escape }}</p>{% endif %}</div>
+            {% else %}
+              {% if form.errors %}<div id="WelcomeErrors" data-offers-error role="alert">{{ form.errors | default_errors }}</div>{% endif %}
+              {% if settings.welcome_discount_enabled and settings.welcome_discount_code != blank %}<p class="offers-welcome-perk">{{ settings.welcome_discount_terms | escape }}</p>{% endif %}
+              <label for="WelcomeEmail" class="form-label">Your email address</label><div class="offers-signup__fields"><input id="WelcomeEmail" class="form-input" type="email" name="contact[email]" value="{{ form.email | escape }}" autocomplete="email" required {% if form.errors %}aria-invalid="true" aria-describedby="WelcomeErrors"{% endif %}><button class="btn btn--primary" type="submit" data-welcome-submit><span data-welcome-submit-label>{{ settings.welcome_button | escape }}</span><span class="offers-signup__spinner" aria-hidden="true"></span></button></div><p class="offers-signup__status" data-welcome-status role="status" aria-live="polite"></p><p class="offers-fine-print">By joining, you agree to receive emails from {{ settings.brand_name | default: shop.name | escape }}. Unsubscribe anytime.{% if shop.privacy_policy != blank %} <a href="{{ shop.privacy_policy.url }}">Privacy policy</a>.{% endif %}</p>
+            {% endif %}
+          {% endform %}
+          <button class="offers-switch btn btn--link" type="button" data-offers-open>Find your pair · save 10% on your bag <span aria-hidden="true">→</span></button><button class="offers-dismiss" type="button" data-welcome-close>I'll keep exploring</button>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="AtelierOffers" class="pair-dialog" aria-labelledby="PairHeading">
+      <button class="offers-close" type="button" data-offers-close aria-label="Close pairing offer">{% render 'icon-close' %}</button>
+      <div class="pair-dialog__scroll"><header class="pair-dialog__header"><p class="eyebrow">{{ settings.brand_name | default: shop.name | escape }}</p><h2 id="PairHeading">Pair &amp; save.</h2><p data-pair-intro>Choose a bag and a wallet or accessory.</p>{% if settings.bundle_offer_enabled and settings.bundle_offer_code != blank %}<span class="pair-discount">10% off one bag with a wallet or accessory · {{ settings.bundle_offer_code | escape }}</span>{% endif %}</header>
+        <div class="pair-dialog__products">{% render 'offer-product', offer_product: pair_bag, offer_role: 'bag' %}{% render 'offer-product', offer_product: pair_wallet, offer_role: 'wallet' %}<div class="wallet-chooser" id="OfferWalletChoices" data-wallet-chooser hidden><div class="wallet-chooser__header"><span>Choose your add-on</span><button type="button" data-wallet-chooser-close aria-label="Close wallet choices">{% render 'icon-close' %}</button></div><p class="pair-choice-help">Wallets, cardholders &amp; accessories. Choose what works for you.</p><div class="wallet-chooser__list" role="group" aria-label="Available wallets and accessories">{{ wallet_choices }}</div></div><div class="wallet-chooser" id="OfferBagChoices" data-bag-chooser hidden><div class="wallet-chooser__header"><span>Choose your bag</span><button type="button" data-bag-chooser-close aria-label="Close bag choices">{% render 'icon-close' %}</button></div><div class="wallet-chooser__list" role="group" aria-label="Available bags">{{ bag_choices }}</div></div></div>
+        <div class="pair-dialog__browse"><a href="{{ routes.all_products_collection_url }}">Browse bags <span aria-hidden="true">↗</span></a>{% if settings.offers_collection != blank %}<a href="{{ settings.offers_collection.url }}">Browse wallets <span aria-hidden="true">↗</span></a>{% endif %}</div>
+        <div class="pair-dialog__footer"><p class="pair-dialog__subtotal">Pair subtotal <strong data-pair-subtotal>—</strong></p><button class="btn btn--primary btn--full" type="button" data-pair-add disabled>Add both to bag</button><p class="pair-dialog__status" data-pair-status role="status" aria-live="polite"></p>{% if settings.bundle_offer_enabled and settings.bundle_offer_code != blank %}<p class="offers-fine-print">{{ settings.bundle_offer_terms | escape }}</p>{% endif %}<a class="pair-dialog__cart-link" href="{{ routes.cart_url }}">View your bag</a></div>
+      </div>
+    </dialog>
+  </div>
+{%- endif -%}

@@ -1,0 +1,1 @@
+{% if cart.total_discount > 0 %}<div class="cart-discounts" data-cart-discounts>{% for application in cart.cart_level_discount_applications %}<p><span>{{ application.title | escape }}</span><span>−{{ application.total_allocated_amount | money }}</span></p>{% endfor %}<p><strong>Total savings</strong><strong>{{ cart.total_discount | money }}</strong></p></div>{% endif %}

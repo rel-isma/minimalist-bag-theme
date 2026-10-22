@@ -1,0 +1,6 @@
+{% assign choice_role = choice_role | default: 'wallet' %}
+<button type="button" class="wallet-choice" {% if choice_role == 'bag' %}data-bag-choice="{{ wallet.id }}"{% else %}data-wallet-choice="{{ wallet.id }}"{% endif %} aria-pressed="false">
+  {% if wallet.featured_image %}{{ wallet.featured_image | image_url: width: 100 | image_tag: loading: 'lazy', widths: '50,100', sizes: '40px' }}{% endif %}
+  <span class="wallet-choice__name">{{ wallet.title | escape }}<small>{% if wallet.price_varies %}From {% endif %}{{ wallet.price | money }}</small></span><span class="wallet-choice__check" aria-hidden="true">✓</span>
+</button>
+<template {% if choice_role == 'bag' %}data-bag-template="{{ wallet.id }}"{% else %}data-wallet-template="{{ wallet.id }}"{% endif %}>{% render 'offer-product', offer_product: wallet, offer_role: choice_role %}</template>

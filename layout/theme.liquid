@@ -19,6 +19,8 @@
     {{ 'catalog.css' | asset_url | stylesheet_tag }}
     {{ 'header.css' | asset_url | stylesheet_tag }}
     {{ 'store.css' | asset_url | stylesheet_tag }}
+    {{ 'offers.css' | asset_url | stylesheet_tag }}
+    {{ 'select.css' | asset_url | stylesheet_tag }}
 
     <style>
       {{ settings.heading_font | font_face: font_display: 'swap' }}
@@ -47,6 +49,8 @@
     <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'catalog.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'header.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'offers.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'select.js' | asset_url }}" defer="defer"></script>
   </head>
 
   <body class="template-{{ template.name | handle }}">
@@ -63,6 +67,7 @@
     {% sections 'footer-group' %}
 
     {% section 'cart-drawer' %}
+    {% render 'store-offers' %}
     <div hidden data-catalog-config data-cart-url="{{ routes.cart_url }}" data-cart-type="{{ settings.cart_type | default: 'drawer' }}"></div>
     <dialog class="catalog-dialog" data-quick-view-dialog aria-label="Choose product options">
       <div class="catalog-dialog__header"><span class="eyebrow">{{ settings.brand_name | escape }}</span><button type="button" class="btn btn--link" data-dialog-close aria-label="Close quick view">Close</button></div>

@@ -1,29 +1,18 @@
-# Installed dependencies and Shopify CLI state
-node_modules/
-.shopify/
-
-# Local environment and credentials
+# Local credentials and environment files
 .env
 .env.*
-!.env.example
-/.aws
-/.codex
-/.agents
 
-# Store-specific import output (keep the shared demo catalog and example map)
-/seed/image-urls*.json
-!/seed/image-urls.example.json
-/seed/store-backups/
-/seed/products.*.csv
+# Editor and tool state
+/.aws/
+/.codex/
+/.agents/
+/.shopify/
+/node_modules/
 
-# Generated release packages
+# Generated packages and local files
 /dist/
 /*.zip
-
-# Local OS and tool logs
 .DS_Store
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-*.pyc
+*.log
 __pycache__/
+*.pyc

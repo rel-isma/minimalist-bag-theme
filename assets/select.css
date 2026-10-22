@@ -1,0 +1,18 @@
+/* Progressive enhancement: native fields remain available without JavaScript. */
+.theme-select { position: relative; width: 100%; min-width: 0; }
+.theme-select__native { display: none; }
+.theme-select__trigger { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; text-align: left; cursor: pointer; background: var(--color-bg); }
+.theme-select__trigger::after { content: ''; width: 7px; height: 7px; flex: 0 0 7px; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform .18s ease; }
+.theme-select__trigger[aria-expanded="true"] { border-color: var(--color-ink); }
+.theme-select__trigger[aria-expanded="true"]::after { transform: translateY(2px) rotate(225deg); }
+.theme-select__trigger:focus-visible { outline: 2px solid var(--color-ink); outline-offset: 3px; }
+.theme-select__trigger:disabled { opacity: .5; cursor: default; }
+.theme-select__menu { position: fixed; z-index: 120; margin: 0; padding: 6px; list-style: none; overflow-y: auto; overscroll-behavior: contain; background: var(--color-bg); color: var(--color-ink); border: 1px solid var(--color-border); border-radius: 4px; box-shadow: 0 12px 32px rgb(27 26 24 / 12%); }
+.theme-select__menu[hidden] { display: none; }
+.theme-select__option { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 44px; padding: 10px 12px; font-size: .875rem; line-height: 1.4; cursor: pointer; border-radius: 2px; }
+.theme-select__option.is-active, .theme-select__option:not([aria-disabled="true"]):hover { background: var(--color-surface); }
+.theme-select__option[aria-selected="true"]::after { content: '✓'; font-size: .875rem; }
+.theme-select__option[aria-disabled="true"] { opacity: .4; cursor: default; }
+.collection-sort .theme-select { width: 230px; max-width: 100%; }
+@media (max-width: 749px) { .collection-sort .theme-select { flex: 1; width: auto; min-width: 160px; } }
+@media (prefers-reduced-motion: reduce) { .theme-select__trigger::after { transition: none; } }

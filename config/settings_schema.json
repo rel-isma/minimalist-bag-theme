@@ -1,9 +1,9 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Atelier Vane",
+    "theme_name": "Atelier Veyne",
     "theme_version": "2.0.1",
-    "theme_author": "Atelier Vane",
+    "theme_author": "Atelier Veyne",
     "theme_documentation_url": "https://github.com/shopify/skeleton-theme",
     "theme_support_url": "https://help.shopify.com"
   },
@@ -178,7 +178,7 @@
         "type": "text",
         "id": "brand_name",
         "label": "Brand name",
-        "default": "Atelier Vane"
+        "default": "Atelier Veyne"
       }
     ]
   },
@@ -239,6 +239,135 @@
         "type": "text",
         "id": "social_pinterest_link",
         "label": "Pinterest url"
+      }
+    ]
+  },
+  {
+    "name": "Welcome & offers",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "offers_enabled",
+        "label": "Enable welcome popup and gift button",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "welcome_auto_open",
+        "label": "Open welcome popup for new visitors",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "welcome_delay",
+        "label": "Welcome delay",
+        "unit": "s",
+        "min": 1,
+        "max": 15,
+        "step": 1,
+        "default": 2
+      },
+      {
+        "type": "range",
+        "id": "welcome_frequency",
+        "label": "Days before showing welcome again",
+        "min": 1,
+        "max": 30,
+        "step": 1,
+        "default": 7
+      },
+      {
+        "type": "image_picker",
+        "id": "welcome_image",
+        "label": "Welcome image"
+      },
+      {
+        "type": "text",
+        "id": "welcome_heading",
+        "label": "Welcome heading",
+        "default": "Welcome to Atelier Veyne."
+      },
+      {
+        "type": "text",
+        "id": "welcome_text",
+        "label": "Welcome text",
+        "default": "A little something for your everyday. Join our list for private offers, new arrivals and notes from the atelier."
+      },
+      {
+        "type": "text",
+        "id": "welcome_button",
+        "label": "Signup button",
+        "default": "Join the atelier"
+      },
+      {
+        "type": "collection",
+        "id": "offers_collection",
+        "label": "Wallet choices collection",
+        "info": "All available products in this collection can be selected in the bag + wallet offer."
+      },
+      {
+        "type": "header",
+        "content": "Welcome discount"
+      },
+      {
+        "type": "paragraph",
+        "content": "Create and test the matching Shopify discount before enabling it. Theme settings do not create discounts. The code is shown after Shopify confirms the signup; use an email platform for private or unique codes."
+      },
+      {
+        "type": "checkbox",
+        "id": "welcome_discount_enabled",
+        "label": "Show configured welcome discount",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "welcome_discount_code",
+        "label": "Existing welcome discount code"
+      },
+      {
+        "type": "text",
+        "id": "welcome_discount_terms",
+        "label": "Welcome offer and conditions",
+        "default": "Join for 10% off your first order. One use per customer. Cannot be combined with other discounts."
+      },
+      {
+        "type": "header",
+        "content": "Bag pairing offer"
+      },
+      {
+        "type": "checkbox",
+        "id": "bundle_offer_enabled",
+        "label": "Show configured bag pairing offer",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "bundle_offer_heading",
+        "label": "Pairing heading",
+        "default": "Add a wallet. Save 10% on your bag."
+      },
+      {
+        "type": "text",
+        "id": "bundle_offer_code",
+        "label": "Existing pairing discount code"
+      },
+      {
+        "type": "text",
+        "id": "bundle_offer_terms",
+        "label": "Pairing conditions",
+        "default": "Buy a bag with a wallet, cardholder or accessory and use TEST10 for 10% off one bag. One discounted bag per order. Shopify confirms eligibility and final savings."
+      },
+      {
+        "type": "product",
+        "id": "offer_bag",
+        "label": "Suggested bag",
+        "info": "Choose a bag for visitors who do not already have one in their cart."
+      },
+      {
+        "type": "product",
+        "id": "offer_wallet",
+        "label": "Suggested wallet",
+        "info": "Initial suggestion. Customers can switch to other available products from the wallet choices collection."
       }
     ]
   }

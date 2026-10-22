@@ -5,7 +5,7 @@
       "settings": {
         "overlay_opacity": 60,
         "full_height": true,
-        "eyebrow": "Atelier Vane",
+        "eyebrow": "Atelier Veyne",
         "heading": "Quietly essential.",
         "subhead": "Considered shapes for the things you carry.",
         "button_label": "Explore the collection",
@@ -226,11 +226,23 @@
         "inquiries-3",
         "inquiries-4"
       ]
+    },
+    "best_sellers": {
+      "type": "featured-collection",
+      "settings": {
+        "eyebrow": "The everyday edit",
+        "heading": "Best Sellers",
+        "text": "Find your everyday companion. Explore the shapes at the heart of Atelier Veyne.",
+        "collection": "featured",
+        "limit": 4,
+        "columns": "4"
+      }
     }
   },
   "order": [
     "hero",
     "categories",
+    "best_sellers",
     "new",
     "story",
     "look",

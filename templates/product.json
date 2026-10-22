@@ -53,6 +53,10 @@
             "content": "<p>Information is being prepared. Contact us for details.</p>",
             "open_by_default": false
           }
+        },
+        "pairing_offer": {
+          "type": "pairing_offer",
+          "settings": {}
         }
       },
       "block_order": [
@@ -61,6 +65,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "pairing_offer",
         "description",
         "material",
         "dimensions",
@@ -97,10 +102,18 @@
       },
       "blocks": {},
       "block_order": []
+    },
+    "carry_edit": {
+      "type": "complete-your-carry",
+      "settings": {
+        "collection": "wallets-and-cardholders",
+        "limit": 3
+      }
     }
   },
   "order": [
     "main",
+    "carry_edit",
     "related",
     "complementary",
     "recent",

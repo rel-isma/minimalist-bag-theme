@@ -1,0 +1,16 @@
+{%- if settings.offers_enabled and settings.bundle_offer_enabled and settings.bundle_offer_code != blank and settings.offer_wallet != blank -%}
+  {%- assign has_bag = false -%}{%- assign has_addon = false -%}{%- assign offer_savings = 0 -%}
+  {%- assign bag_types = '|shoulder bag|crossbody bag|tote bag|mini and clutch bag|mini bag|clutch bag|' -%}
+  {%- for line in cart.items -%}
+    {%- assign line_type = line.product.type | downcase | prepend: '|' | append: '|' -%}
+    {%- if bag_types contains line_type -%}{%- assign has_bag = true -%}
+      {%- for allocation in line.line_level_discount_allocations -%}{%- assign allocation_code = allocation.discount_application.title | upcase -%}{%- assign offer_code = settings.bundle_offer_code | upcase -%}{%- if allocation_code == offer_code -%}{%- assign offer_savings = offer_savings | plus: allocation.amount -%}{%- endif -%}{%- endfor -%}
+    {%- endif -%}
+    {%- if line.product.tags contains 'wallet' or line.product.tags contains 'accessory' -%}{%- assign has_addon = true -%}{%- endif -%}
+  {%- endfor -%}
+  <aside class="pairing-bar{% if has_bag and has_addon %} pairing-bar--complete{% endif %}" data-wallet-upsell aria-label="Pair and save" {% if cart.empty? and offer_context == 'drawer' %}hidden{% endif %}>
+    <span class="pairing-bar__icon" aria-hidden="true">{% render 'icon-gift' %}</span>
+    <div><p data-upsell-heading>{% if offer_savings > 0 %}{{ settings.bundle_offer_code | escape }} · {{ offer_savings | money }} saved on your bag{% elsif has_bag and has_addon %}Your pair is ready. Save 10% on one bag.{% elsif has_addon %}Add a bag. Save 10% on it.{% else %}Add a wallet or accessory. Save 10% on one bag.{% endif %}</p><p data-upsell-status role="status" aria-live="polite"></p></div>
+    <button type="button" class="pairing-bar__action" data-offers-open {% if offer_savings > 0 %}hidden{% endif %}>{% if has_bag and has_addon %}View offer{% elsif has_addon %}Choose bag{% else %}Choose add-on{% endif %}<span aria-hidden="true"> →</span></button>
+  </aside>
+{%- endif -%}

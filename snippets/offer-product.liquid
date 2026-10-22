@@ -1,0 +1,13 @@
+{% if offer_product != blank %}
+  {% assign offer_variant = offer_product.selected_or_first_available_variant %}
+  {% assign offer_prefix = 'Pair-' | append: offer_role | append: '-' | append: offer_product.id %}
+  <article class="pair-product" data-offer-product data-role="{{ offer_role }}" data-product-id="{{ offer_product.id }}" data-product-url="{{ offer_product.url }}" data-price="{{ offer_variant.price }}" data-variant-id="{{ offer_variant.id }}">
+    <a class="pair-product__image" href="{{ offer_variant.url }}" data-pair-image-link>{% if offer_product.featured_image %}{{ offer_product.featured_image | image_url: width: 240 | image_tag: loading: 'lazy', widths: '120,180,240', sizes: '88px', data-pair-image: '' }}{% endif %}</a>
+    <div class="pair-product__body"><div class="pair-product__label-line"><p class="pair-product__label">{% if offer_role == 'bag' %}Bag{% else %}Wallet / accessory{% endif %}</p>{% if offer_role == 'bag' %}<button type="button" class="wallet-change" data-bag-choose aria-controls="OfferBagChoices" aria-expanded="false">Choose bag <span aria-hidden="true">⌄</span></button>{% endif %}{% if offer_role == 'wallet' %}<button type="button" class="wallet-change" data-wallet-choose aria-controls="OfferWalletChoices" aria-expanded="false">Choose add-on <span aria-hidden="true">⌄</span></button>{% endif %}</div><div class="pair-product__info"><a class="pair-product__title" href="{{ offer_variant.url }}" data-pair-title>{{ offer_product.title | escape }}</a><p class="pair-product__price" data-pair-price>{{ offer_variant.price | money }}</p><span class="pair-product__badge" data-pair-badge hidden>Already in your bag</span></div>
+    <div class="pair-product__options" data-pair-options>{% render 'product-options', product: offer_product, selected_variant: offer_variant, prefix: offer_prefix, view: 'offer' %}</div>
+    <div class="pair-product__meta"><p class="pair-product__variant" data-pair-variant-note>{{ offer_variant.title | escape }}</p>
+    <a class="pair-product__details" href="{{ offer_variant.url }}" data-pair-details>Details <span aria-hidden="true">↗</span></a></div></div>
+    {% capture pair_variant_data %}[{% for variant in offer_product.variants %}{"id":{{ variant.id | json }},"options":{{ variant.options | json }},"available":{{ variant.available | json }},"price":{{ variant.price | json }},"url":{{ variant.url | json }},"image":{% if variant.featured_image %}{{ variant.featured_image | image_url: width: 600 | json }}{% else %}null{% endif %}}{% unless forloop.last %},{% endunless %}{% endfor %}]{% endcapture %}
+    <div hidden data-pair-variants data-variants="{{ pair_variant_data | escape }}"></div>
+  </article>
+{% endif %}
