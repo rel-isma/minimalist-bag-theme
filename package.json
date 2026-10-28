@@ -1,0 +1,23 @@
+{
+  "name": "atelier-veyne-catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node studio/server.mjs",
+    "dev": "vite --config studio/vite.config.js --host 127.0.0.1",
+    "build": "vite build --config studio/vite.config.js",
+    "test": "node studio/test.mjs && node studio/test-connections.mjs && node studio/test-inventory.mjs && node studio/test-workflow.mjs && node studio/test-media.mjs && node studio/test-shipping.mjs",
+    "backup:private": "python3 scripts/backup-workspace.py"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

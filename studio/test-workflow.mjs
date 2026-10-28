@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {contentSignature,shippingSignature} from './approval.mjs';
+import {setupSignature,validateShippingChoice} from './workflow.mjs';
+const d={id:'example',title:'Approved bag',variants:[{cjVariantId:'source-1',proposedRetailPrice:{amount:'99'}}],images:[{id:'photo-1'}],collectionIds:[],fulfillment:{sourceCountryCode:'CN',defaultArea:1,targetCountryCode:'US',locationIds:['cj-location'],logistics:'Method',deliveryProfileId:'profile'}};
+const changed=structuredClone(d);changed.fulfillment.logistics='Another method';changed.savedAt='today';assert.equal(contentSignature(d),contentSignature(changed));assert.notEqual(shippingSignature(d.fulfillment),shippingSignature(changed.fulfillment));
+changed.variants[0].proposedRetailPrice.amount='109';assert.notEqual(contentSignature(d),contentSignature(changed));
+const check={signature:setupSignature(d),checkedAt:new Date().toISOString(),quotes:[{logisticName:'Method'}],profiles:[{id:'profile'}],profileRequired:true},choice={logistics:'Method',deliveryProfileId:'profile',acknowledgeRates:true};
+assert.equal(validateShippingChoice(d,check,choice),true);
+assert.throws(()=>validateShippingChoice(d,check,{...choice,logistics:'Invented'}),/current CJ/);
+assert.throws(()=>validateShippingChoice(d,check,{...choice,deliveryProfileId:'wrong'}),/returned by CJ/);
+assert.throws(()=>validateShippingChoice(d,check,{...choice,acknowledgeRates:false}),/Review the selected/);
+assert.throws(()=>validateShippingChoice(d,{...check,checkedAt:'invalid'},choice),/expired/);
+assert.throws(()=>validateShippingChoice(d,{...check,checkedAt:new Date(Date.now()-16*60e3).toISOString()},choice),/expired/);
+const other=structuredClone(d);other.fulfillment.locationIds=['merchant-location'];assert.throws(()=>validateShippingChoice(other,check,choice),/settings changed/);
+other.fulfillment=structuredClone(d.fulfillment);other.variants.push({cjVariantId:'another'});assert.throws(()=>validateShippingChoice(other,check,choice),/settings changed/);
+console.log('Workflow checks passed: approval invalidation, real methods/profiles, acknowledgment, expired checks, variant/location changes. No external writes.');

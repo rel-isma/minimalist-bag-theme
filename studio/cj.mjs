@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';import {createHash} from 'node:crypto';import {fileURLToPath} from 'node:url';
+const root=fileURLToPath(new URL('../',import.meta.url));try{process.loadEnvFile(root+'.env');}catch{}
+let token=null,expires=0,last=0,queue=Promise.resolve();
+export function parseCJ(text){return JSON.parse(text.replace(/("(?:\\.|[^"\\])*")|(-?\d{16,})(?=\s*[,}\]])/g,(m,quoted,n)=>quoted||JSON.stringify(n)));}
+async function execute(endpoint,query={},body){const key=process.env.CJ_API_KEY?.trim();if(!key)throw new Error('CJ_API_KEY is missing from the local .env');
+ if(token&&Date.now()>expires-60000)token=null;
+ if(!token){try{const t=JSON.parse(await fs.readFile(root+'products/.state/cj-token.json'));if(t.keyHash===createHash('sha256').update(key).digest('hex')&&Date.parse(t.expiresAt)>Date.now()+60000){token=t.accessToken;expires=Date.parse(t.expiresAt);}}catch{}}
+ async function call(ep,q,b,auth=true){await new Promise(r=>setTimeout(r,Math.max(0,1200-(Date.now()-last))));last=Date.now();const url=new URL('https://developers.cjdropshipping.com/api2.0/v1/'+ep);for(const[k,v]of Object.entries(q))if(v!==undefined&&v!==null)for(const x of Array.isArray(v)?v:[v])url.searchParams.append(k,String(x));const r=await fetch(url,{method:b?'POST':'GET',redirect:'error',signal:AbortSignal.timeout(45000),headers:{'Content-Type':'application/json',...(auth?{'CJ-Access-Token':token}:{})},...(b?{body:JSON.stringify(b)}:{})});const raw=await r.text();let p;try{p=parseCJ(raw);}catch{p={};}if(!r.ok||!((p.result===true&&p.code===200)||(p.success===true&&[0,200].includes(p.code)))){const message=String(p.message||'No error details returned').replaceAll(key,'[redacted]').replaceAll(token||'__no_token__','[redacted]').slice(0,400);const e=new Error(`CJ ${ep}: ${message} (HTTP ${r.status}, code ${p.code??'unknown'}).`);e.code=p.code;e.requestId=p.requestId;throw e;}return p.data;}
+ if(!token){const t=await call('authentication/getAccessToken',{}, {apiKey:key},false);token=t.accessToken;expires=Date.parse(t.accessTokenExpiryDate);if(!token)throw new Error('CJ returned no access token');await fs.mkdir(root+'products/.state',{recursive:true});await fs.writeFile(root+'products/.state/cj-token.json',JSON.stringify({accessToken:token,expiresAt:t.accessTokenExpiryDate,keyHash:createHash('sha256').update(key).digest('hex')}),{mode:0o600});}
+ return call(endpoint,query,body);
+}
+export function cj(endpoint,query={},body){const result=queue.then(()=>execute(endpoint,query,body));queue=result.catch(()=>{});return result;}

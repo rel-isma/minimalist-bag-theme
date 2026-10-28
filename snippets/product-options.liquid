@@ -1,7 +1,8 @@
-{% comment %}Shared radio options: product/quick use option values; single-option cards submit variant IDs directly.{% endcomment %}
+{% comment %}Shared radio options: product/quick use option values; cards submit variant IDs for their selectable option.{% endcomment %}
 {% unless product.has_only_default_variant %}
   {% for option in product.options_with_values %}
     {% assign option_index = forloop.index0 %}{% assign option_name = option.name | downcase %}
+    {% if view == 'card' and product.options.size > 1 %}{% unless option_name == 'color' or option_name == 'colour' %}{% continue %}{% endunless %}{% endif %}
     <fieldset class="swatch-options{% if view == 'card' %} swatch-options--card{% endif %}" {% if view == 'product' %}data-product-option{% elsif view == 'quick' %}data-variant-option{% endif %} data-option-position="{{ forloop.index }}">
       <legend class="form-label{% if view == 'card' %} visually-hidden{% endif %}">{{ option.name | escape }}</legend>
       <div class="color-swatch-group">
@@ -10,7 +11,7 @@
           {% assign option_variant = nil %}{% if view == 'card' %}{% for variant in product.variants %}{% if variant.options[option_index] == value_name %}{% assign option_variant = variant %}{% break %}{% endif %}{% endfor %}{% endif %}
           <label class="color-swatch-item{% if option_name == 'color' or option_name == 'colour' %} color-swatch-item--color{% endif %}" title="{{ value_name | escape }}" for="Option-{{ prefix }}-{{ option.position }}-{{ forloop.index }}">
             <input class="visually-hidden" type="radio" id="Option-{{ prefix }}-{{ option.position }}-{{ forloop.index }}" name="{% if view == 'card' %}id{% else %}Option-{{ prefix }}-{{ option.position }}{% endif %}" value="{% if view == 'card' %}{{ option_variant.id }}{% else %}{{ value_name | escape }}{% endif %}" data-option-value {% if is_checked %}checked{% endif %} {% if view == 'card' and option_variant.available == false %}disabled{% endif %}>
-            {% if option_name == 'color' or option_name == 'colour' %}{% render 'color-swatch', value: value %}{% endif %}
+            {% if option_name == 'color' or option_name == 'colour' %}{% render 'color-swatch', value: value, swatch_product: product %}{% endif %}
             <span class="color-swatch-name{% if view == 'card' and option_name == 'color' %} visually-hidden{% endif %}">{{ value_name | escape }}{% if view == 'card' and option_variant.available == false %} — Sold out{% endif %}</span>
           </label>
         {% endfor %}

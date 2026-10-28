@@ -9,12 +9,11 @@
         "heading": "Quietly essential.",
         "subhead": "Considered shapes for the things you carry.",
         "button_label": "Explore the collection",
-        "button_link": "/collections/all"
+        "button_link": "/collections/new-arrivals"
       }
     },
     "categories": {
       "type": "category-tiles",
-      "settings": {},
       "blocks": {
         "c0": {
           "type": "category",
@@ -66,11 +65,28 @@
         "c3",
         "c4",
         "c5"
-      ]
+      ],
+      "settings": {
+        "heading": "Explore by shape"
+      }
+    },
+    "best_sellers": {
+      "type": "featured-collection",
+      "settings": {
+        "columns": "4",
+        "eyebrow": "The everyday edit",
+        "text": "Find your everyday companion. Explore the shapes at the heart of Atelier Veyne.",
+        "heading": "Best Sellers",
+        "collection": "best-sellers",
+        "limit": 4
+      }
     },
     "new": {
       "type": "featured-collection",
       "settings": {
+        "columns": "global",
+        "eyebrow": "",
+        "text": "",
         "heading": "New arrivals",
         "collection": "new-arrivals",
         "limit": 6
@@ -78,11 +94,17 @@
     },
     "story": {
       "type": "brand-story",
-      "settings": {}
+      "settings": {
+        "page_heading": false,
+        "eyebrow": "Our philosophy",
+        "heading": "Fewer, better things.",
+        "story_text": "<p>We believe the pieces you reach for every day should feel effortless. Simple shapes, calm colors and considered proportions are the starting point for the pieces we select.</p><p>From a compact shoulder bag to a roomy tote, each silhouette has a place in the rhythm of a day. Our philosophy is to keep the essentials in focus and let the details speak quietly.</p>",
+        "signoff_name": "Atelier Veyne Studio",
+        "signoff_title": "Selection and detail"
+      }
     },
     "look": {
       "type": "shop-the-look",
-      "settings": {},
       "blocks": {
         "tote": {
           "type": "pin",
@@ -104,11 +126,18 @@
       "block_order": [
         "tote",
         "wallet"
-      ]
+      ],
+      "settings": {
+        "heading": "In good company"
+      },
+      "disabled": true
     },
     "featured": {
       "type": "featured-collection",
       "settings": {
+        "columns": "global",
+        "eyebrow": "",
+        "text": "",
         "heading": "A considered edit",
         "collection": "featured",
         "limit": 6
@@ -116,19 +145,19 @@
     },
     "benefits": {
       "type": "trust-strip",
-      "settings": {},
-      "blocks": {}
+      "settings": {}
     },
     "reviews": {
       "type": "product-reviews",
       "settings": {
-        "publish_reviews": false
-      },
-      "blocks": {}
+        "publish_reviews": false,
+        "show_empty": false,
+        "eyebrow": "Client reflections",
+        "heading": "Customer reviews"
+      }
     },
     "construction": {
       "type": "comparison-table",
-      "settings": {},
       "blocks": {
         "construction-0": {
           "type": "feature",
@@ -177,45 +206,50 @@
         "construction-2",
         "construction-3",
         "construction-4"
-      ]
+      ],
+      "settings": {
+        "eyebrow": "Honest Construction",
+        "heading": "A Direct Comparison",
+        "subhead": "A closer look at the details that matter.",
+        "other_heading": "What to look for"
+      }
     },
     "inquiries": {
       "type": "faq-accordion",
-      "settings": {},
       "blocks": {
         "inquiries-0": {
           "type": "faq_item",
           "settings": {
             "question": "Will my phone fit inside the bag?",
-            "answer": "<p>Yes. The bag easily accommodates all modern smartphones up to the iPhone 15 Pro Max and Samsung Galaxy Ultra series, even when enclosed in a protective case, alongside a bifold wallet and keys.</p>"
+            "answer": "<p>Compare the dimensions and interior details on the product page with your phone and other essentials. Fit varies by design. Contact us before ordering if you need help checking a specific item.</p>"
           }
         },
         "inquiries-1": {
           "type": "faq_item",
           "settings": {
             "question": "Is the leather water resistant?",
-            "answer": "<p>Our full-grain leather is naturally resilient to light humidity and brief rainfall. If caught in rain, simply blot gently with a dry cotton cloth and allow it to air-dry at room temperature away from heat sources.</p>"
+            "answer": "<p>Materials and finishes vary by product. Do not assume a bag is waterproof or water resistant. Follow the care guidance provided for the specific material, and contact us if those details are not available.</p>"
           }
         },
         "inquiries-2": {
           "type": "faq_item",
           "settings": {
             "question": "How long does shipping take?",
-            "answer": "<p>Orders are dispatched from our studio warehouse within 24 hours on business days. Standard delivery within the US takes 2\u20134 business days. Complimentary tracking is emailed upon fulfillment.</p>"
+            "answer": "<p>Delivery options and estimates depend on the item and destination. Check the shipping information and options shown at checkout, or contact us before ordering. Processing and delivery times can vary.</p>"
           }
         },
         "inquiries-3": {
           "type": "faq_item",
           "settings": {
             "question": "What is your return policy?",
-            "answer": "<p>We offer a 30-day trial period. If the bag does not suit your everyday needs, return it in original, unworn condition with its dust bag for a full refund. A prepaid return shipping label is provided.</p>"
+            "answer": "<p>Please read our published return policy before ordering for the applicable conditions and return process. Contact us if you need clarification before making a purchase.</p>"
           }
         },
         "inquiries-4": {
           "type": "faq_item",
           "settings": {
             "question": "Can the shoulder strap length be adjusted?",
-            "answer": "<p>The strap has a fixed 28 cm drop proportioned specifically to tuck securely under the arm and stay positioned on the shoulder without sliding off your coat.</p>"
+            "answer": "<p>Strap length and adjustability vary by design. Check the selected product’s description and photographs, and contact us if a measurement or adjustment detail is missing.</p>"
           }
         }
       },
@@ -225,17 +259,12 @@
         "inquiries-2",
         "inquiries-3",
         "inquiries-4"
-      ]
-    },
-    "best_sellers": {
-      "type": "featured-collection",
+      ],
       "settings": {
-        "eyebrow": "The everyday edit",
-        "heading": "Best Sellers",
-        "text": "Find your everyday companion. Explore the shapes at the heart of Atelier Veyne.",
-        "collection": "featured",
-        "limit": 4,
-        "columns": "4"
+        "page_heading": false,
+        "eyebrow": "Inquiries",
+        "heading": "Frequently Asked Questions",
+        "subhead": "Straightforward answers regarding sizing, leather care, and shipping."
       }
     }
   },

@@ -1,5 +1,27 @@
-{% if product != blank %}<section data-product-recommendations data-url="{{ routes.product_recommendations_url }}" data-product-id="{{ product.id }}" data-section-id="{{ section.id }}" data-intent="{{ section.settings.intent }}" data-limit="{{ section.settings.limit }}" {% unless recommendations.products_count > 0 %}hidden{% endunless %}>
-<div data-recommendation-content>{% if recommendations.products_count > 0 %}<div class="section-spacing hairline-bottom"><div class="container"><h2 class="section-heading">{{ section.settings.heading | escape }}</h2><div class="collection-product-grid" style="--collection-columns: 4;">{% for product in recommendations.products %}{% render 'product-card', product: product, section_id: section.id, card_index: forloop.index %}{% endfor %}</div></div></div>{% endif %}</div></section>{% endif %}
+{% if product != blank %}
+  {% assign recommendation_count = 0 %}
+  {% capture recommendation_cards %}
+    {% for recommended_product in recommendations.products %}
+      {% unless recommended_product.tags contains 'demo' %}
+        {% if recommended_product.available and recommended_product.id != product.id %}
+          {% assign recommendation_count = recommendation_count | plus: 1 %}
+          {% render 'product-card', product: recommended_product, section_id: section.id, card_index: recommendation_count %}
+          {% if recommendation_count >= section.settings.limit %}{% break %}{% endif %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+  {% endcapture %}
+  <section data-product-recommendations data-url="{{ routes.product_recommendations_url }}" data-product-id="{{ product.id }}" data-section-id="{{ section.id }}" data-intent="{{ section.settings.intent }}" data-limit="10" {% if recommendation_count == 0 %}hidden{% endif %}>
+    <div data-recommendation-content>
+      {% if recommendation_count > 0 %}
+        <div class="section-spacing hairline-bottom"><div class="container">
+          <h2 class="section-heading">{{ section.settings.heading | escape }}</h2>
+          <div class="collection-product-grid" style="--collection-columns: 4;">{{ recommendation_cards }}</div>
+        </div></div>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}
 {% schema %}
 {
   "name": "Product recommendations",

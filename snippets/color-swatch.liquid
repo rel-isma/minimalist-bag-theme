@@ -1,5 +1,11 @@
+{% doc %}
+  Renders a color circle for a named product option value, preferring native Shopify swatches.
+  @param {product_option_value} value - Product color option value.
+  @param {product} [swatch_product] - Product whose saved color mappings should be used.
+{% enddoc %}
 {% liquid
-  assign color_name = value.name | default: value | strip | downcase
+  assign color_label = value.name | default: value | strip
+  assign color_name = color_label | downcase
   assign swatch_color = 'var(--color-surface)'
   assign known_color = true
   case color_name
@@ -49,9 +55,26 @@
       assign swatch_color = '#B69A58'
     when 'silver'
       assign swatch_color = '#B6B8B7'
+    when 'milkshake white'
+      assign swatch_color = '#EFE9DA'
+    when 'elephant gray'
+      assign swatch_color = '#9C8C72'
+    when 'caramel mocha'
+      assign swatch_color = '#A86E43'
+    when 'angora red'
+      assign swatch_color = '#6E2D37'
+    when 'earthy yellow'
+      assign swatch_color = '#A76131'
+    when 'reddish brown'
+      assign swatch_color = '#6F4330'
     else
       assign known_color = false
   endcase
+  assign mapped_color = swatch_product.metafields.custom.color_swatches.value[color_label]
+  if mapped_color != blank
+    assign swatch_color = mapped_color
+    assign known_color = true
+  endif
   if value.swatch.color != blank
     assign swatch_color = value.swatch.color
     assign known_color = true

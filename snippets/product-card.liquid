@@ -27,6 +27,14 @@
       if settings.card_show_swatches != false or color_option == blank or product.has_only_default_variant
         assign can_quick_add = true
       endif
+    elsif color_option != blank and settings.card_show_swatches != false
+      assign can_quick_add = true
+      for option in product.options_with_values
+        if option.position != color_option.position and option.values.size > 1
+          assign can_quick_add = false
+          break
+        endif
+      endfor
     endif
   -%}
   <article class="product-card" data-product-card style="--card-ratio: {{ ratio }};">
@@ -50,11 +58,11 @@
     <h2 class="product-card__title font-heading"><a href="{{ product.url }}">{{ product.title | escape }}</a></h2>
     <div data-card-price>{%- render 'price', product: product -%}</div>
     {%- if settings.card_show_swatches != false and color_option != blank -%}
-    {%- if product.options.size > 1 or settings.card_show_quick_add == false -%}
+    {%- if can_quick_add == false or settings.card_show_quick_add == false -%}
       <ul class="product-card__swatches" aria-label="{{ product.title | escape }} colors">
         {%- for value in color_option.values -%}
           {% assign value_name = value.name | default: value %}{% assign color_index = color_option.position | minus: 1 %}{% assign swatch_variant = nil %}{% for variant in product.variants %}{% if variant.options[color_index] == value_name %}{% assign swatch_variant = variant %}{% break %}{% endif %}{% endfor %}
-          <li><a class="product-card__swatch" href="{{ product.url }}?variant={{ swatch_variant.id }}" title="{{ value_name | escape }}">{% render 'color-swatch', value: value %}<span class="visually-hidden">{{ value_name | escape }} — {{ product.title | escape }}</span></a></li>
+          <li><a class="product-card__swatch" href="{{ product.url }}?variant={{ swatch_variant.id }}" title="{{ value_name | escape }}">{% render 'color-swatch', value: value, swatch_product: product %}<span class="visually-hidden">{{ value_name | escape }} — {{ product.title | escape }}</span></a></li>
         {%- endfor -%}
       </ul>
       {%- endif -%}
