@@ -1,0 +1,3939 @@
+{
+  "checkedAt": "2026-10-23T11:48:17.553Z",
+  "products": [
+    {
+      "id": "gid://shopify/Product/15445457338687",
+      "title": "Cove shoulder bag",
+      "handle": "cove-shoulder-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Shoulder bag",
+      "tags": [
+        "black",
+        "bone",
+        "demo",
+        "everyday",
+        "featured",
+        "material-smooth",
+        "new-arrival",
+        "shoulder-bag",
+        "taupe"
+      ],
+      "templateSuffix": "cove-shoulder-bag",
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Cove shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the cove shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913877791039",
+          "name": "Color",
+          "values": [
+            "Bone",
+            "Black",
+            "Taupe",
+            "read"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434559295",
+              "name": "Bone",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434592063",
+              "name": "Black",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434624831",
+              "name": "Taupe",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15153046356287",
+              "name": "read",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797853438271",
+            "sku": "AV-DEMO-01-BONE",
+            "price": "99.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783630872895",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797853471039",
+            "sku": "AV-DEMO-01-BLACK",
+            "price": "99.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783630905663",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797853503807",
+            "sku": "AV-DEMO-01-TAUPE",
+            "price": "99.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783630938431",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67837620027711",
+            "sku": null,
+            "price": "99.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "read"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69823732220223",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457404223",
+      "title": "Fold shoulder bag",
+      "handle": "fold-shoulder-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Shoulder bag",
+      "tags": [
+        "bone",
+        "demo",
+        "everyday",
+        "material-smooth",
+        "shoulder-bag",
+        "taupe",
+        "work"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Fold shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the fold shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913877856575",
+          "name": "Color",
+          "values": [
+            "Taupe",
+            "Bone"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434690367",
+              "name": "Taupe",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434723135",
+              "name": "Bone",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797853569343",
+            "sku": "AV-DEMO-02-TAUPE",
+            "price": "109.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631003967",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797853602111",
+            "sku": "AV-DEMO-02-BONE",
+            "price": "109.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631036735",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457436991",
+      "title": "Drift shoulder bag",
+      "handle": "drift-shoulder-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Shoulder bag",
+      "tags": [
+        "black",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "new-arrival",
+        "olive",
+        "shoulder-bag",
+        "travel"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Drift shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the drift shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913877889343",
+          "name": "Color",
+          "values": [
+            "Olive",
+            "Black"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434755903",
+              "name": "Olive",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434788671",
+              "name": "Black",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797853634879",
+            "sku": "AV-DEMO-03-OLIVE",
+            "price": "89.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Olive"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631069503",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797853667647",
+            "sku": "AV-DEMO-03-BLACK",
+            "price": "89.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631102271",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457469759",
+      "title": "Arc shoulder bag",
+      "handle": "arc-shoulder-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Shoulder bag",
+      "tags": [
+        "black",
+        "bone",
+        "cognac",
+        "demo",
+        "evening",
+        "everyday",
+        "featured",
+        "material-smooth",
+        "shoulder-bag"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Arc shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the arc shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913877922111",
+          "name": "Color",
+          "values": [
+            "Black",
+            "Cognac",
+            "Bone"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434821439",
+              "name": "Black",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434854207",
+              "name": "Cognac",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434886975",
+              "name": "Bone",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797853700415",
+            "sku": "AV-DEMO-04-BLACK",
+            "price": "119.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631135039",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797853733183",
+            "sku": "AV-DEMO-04-COGNAC",
+            "price": "119.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Cognac"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631167807",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797853765951",
+            "sku": "AV-DEMO-04-BONE",
+            "price": "119.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631200575",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457502527",
+      "title": "Ledge shoulder bag",
+      "handle": "ledge-shoulder-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Shoulder bag",
+      "tags": [
+        "cognac",
+        "demo",
+        "material-pebbled",
+        "shoulder-bag",
+        "taupe",
+        "work"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Ledge shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the ledge shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913877954879",
+          "name": "Color",
+          "values": [
+            "Cognac",
+            "Taupe"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434919743",
+              "name": "Cognac",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108434952511",
+              "name": "Taupe",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797853798719",
+            "sku": "AV-DEMO-05-COGNAC",
+            "price": "129.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Cognac"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631233343",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797853831487",
+            "sku": "AV-DEMO-05-TAUPE",
+            "price": "129.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631266111",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457600831",
+      "title": "Nest shoulder bag",
+      "handle": "nest-shoulder-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Shoulder bag",
+      "tags": [
+        "bone",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "shoulder-bag"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Nest shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the nest shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913878053183",
+          "name": "Color",
+          "values": [
+            "Bone"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435050815",
+              "name": "Bone",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797853929791",
+            "sku": "AV-DEMO-06-BONE",
+            "price": "95.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631364415",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457633599",
+      "title": "Path crossbody bag",
+      "handle": "path-crossbody-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Crossbody bag",
+      "tags": [
+        "black",
+        "crossbody-bag",
+        "demo",
+        "everyday",
+        "featured",
+        "material-smooth",
+        "new-arrival",
+        "olive",
+        "taupe",
+        "travel"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Path crossbody bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the path crossbody bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913878085951",
+          "name": "Color",
+          "values": [
+            "Taupe",
+            "Black",
+            "Olive"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435083583",
+              "name": "Taupe",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435116351",
+              "name": "Black",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435149119",
+              "name": "Olive",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797853962559",
+            "sku": "AV-DEMO-07-TAUPE",
+            "price": "89.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631397183",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797853995327",
+            "sku": "AV-DEMO-07-BLACK",
+            "price": "89.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631429951",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797854028095",
+            "sku": "AV-DEMO-07-OLIVE",
+            "price": "89.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Olive"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631462719",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457699135",
+      "title": "Loop crossbody bag",
+      "handle": "loop-crossbody-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Crossbody bag",
+      "tags": [
+        "bone",
+        "crossbody-bag",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "olive"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Loop crossbody bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the loop crossbody bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913878151487",
+          "name": "Color",
+          "values": [
+            "Olive",
+            "Bone"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435214655",
+              "name": "Olive",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435247423",
+              "name": "Bone",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797854093631",
+            "sku": "AV-DEMO-08-OLIVE",
+            "price": "79.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Olive"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631528255",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797854126399",
+            "sku": "AV-DEMO-08-BONE",
+            "price": "79.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631561023",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457731903",
+      "title": "Field crossbody bag",
+      "handle": "field-crossbody-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Crossbody bag",
+      "tags": [
+        "black",
+        "cognac",
+        "crossbody-bag",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "travel"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Field crossbody bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the field crossbody bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913878184255",
+          "name": "Color",
+          "values": [
+            "Cognac",
+            "Black"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435280191",
+              "name": "Cognac",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435312959",
+              "name": "Black",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797854159167",
+            "sku": "AV-DEMO-09-COGNAC",
+            "price": "99.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Cognac"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631593791",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797854191935",
+            "sku": "AV-DEMO-09-BLACK",
+            "price": "99.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631626559",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457764671",
+      "title": "Vale crossbody bag",
+      "handle": "vale-crossbody-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Crossbody bag",
+      "tags": [
+        "black",
+        "crossbody-bag",
+        "demo",
+        "evening",
+        "material-smooth",
+        "taupe",
+        "travel"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Vale crossbody bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the vale crossbody bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913878217023",
+          "name": "Color",
+          "values": [
+            "Black",
+            "Taupe"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435345727",
+              "name": "Black",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435378495",
+              "name": "Taupe",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797854224703",
+            "sku": "AV-DEMO-10-BLACK",
+            "price": "109.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631659327",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797854257471",
+            "sku": "AV-DEMO-10-TAUPE",
+            "price": "109.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631692095",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457797439",
+      "title": "Plane tote bag",
+      "handle": "plane-tote-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Tote bag",
+      "tags": [
+        "black",
+        "bone",
+        "demo",
+        "everyday",
+        "featured",
+        "material-smooth",
+        "new-arrival",
+        "taupe",
+        "tote-bag",
+        "work"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Plane tote bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the plane tote bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913878249791",
+          "name": "Color",
+          "values": [
+            "Bone",
+            "Taupe",
+            "Black"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435411263",
+              "name": "Bone",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435444031",
+              "name": "Taupe",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435476799",
+              "name": "Black",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797854290239",
+            "sku": "AV-DEMO-11-BONE",
+            "price": "119.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631724863",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797854323007",
+            "sku": "AV-DEMO-11-TAUPE",
+            "price": "119.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631757631",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797854355775",
+            "sku": "AV-DEMO-11-BLACK",
+            "price": "119.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631790399",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457895743",
+      "title": "Gather tote bag",
+      "handle": "gather-tote-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Tote bag",
+      "tags": [
+        "cognac",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "olive",
+        "tote-bag",
+        "travel"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Gather tote bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the gather tote bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913878348095",
+          "name": "Color",
+          "values": [
+            "Cognac",
+            "Olive"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435542335",
+              "name": "Cognac",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435575103",
+              "name": "Olive",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797854421311",
+            "sku": "AV-DEMO-12-COGNAC",
+            "price": "109.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Cognac"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631855935",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797854454079",
+            "sku": "AV-DEMO-12-OLIVE",
+            "price": "109.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Olive"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631888703",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457928511",
+      "title": "Line tote bag",
+      "handle": "line-tote-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Tote bag",
+      "tags": [
+        "black",
+        "demo",
+        "featured",
+        "material-smooth",
+        "taupe",
+        "tote-bag",
+        "work"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Line tote bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the line tote bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913878380863",
+          "name": "Color",
+          "values": [
+            "Black",
+            "Taupe"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435640639",
+              "name": "Black",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435673407",
+              "name": "Taupe",
+              "swatch": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductOption/17913878413631",
+          "name": "Size",
+          "values": [
+            "Standard",
+            "Wide"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435706175",
+              "name": "Standard",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435738943",
+              "name": "Wide",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797854519615",
+            "sku": "AV-DEMO-13-BLACK-STANDARD",
+            "price": "129.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              },
+              {
+                "name": "Size",
+                "value": "Standard"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631954239",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797854552383",
+            "sku": "AV-DEMO-13-BLACK-WIDE",
+            "price": "129.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              },
+              {
+                "name": "Size",
+                "value": "Wide"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783631987007",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797854585151",
+            "sku": "AV-DEMO-13-TAUPE-STANDARD",
+            "price": "129.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              },
+              {
+                "name": "Size",
+                "value": "Standard"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783632019775",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797854617919",
+            "sku": "AV-DEMO-13-TAUPE-WIDE",
+            "price": "129.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              },
+              {
+                "name": "Size",
+                "value": "Wide"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783632052543",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445458125119",
+      "title": "Open tote bag",
+      "handle": "open-tote-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Tote bag",
+      "tags": [
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "olive",
+        "tote-bag",
+        "travel"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Open tote bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the open tote bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913878610239",
+          "name": "Color",
+          "values": [
+            "Olive"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108435935551",
+              "name": "Olive",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797854814527",
+            "sku": "AV-DEMO-14-OLIVE",
+            "price": "99.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Olive"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783632249151",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445458616639",
+      "title": "Dusk clutch",
+      "handle": "dusk-clutch",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Mini and clutch bag",
+      "tags": [
+        "black",
+        "cognac",
+        "demo",
+        "evening",
+        "material-smooth",
+        "mini-bag",
+        "new-arrival"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Dusk clutch | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the dusk clutch concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913879101759",
+          "name": "Color",
+          "values": [
+            "Black",
+            "Cognac"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108436459839",
+              "name": "Black",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108436492607",
+              "name": "Cognac",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797855338815",
+            "sku": "AV-DEMO-15-BLACK",
+            "price": "69.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783632773439",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797855371583",
+            "sku": "AV-DEMO-15-COGNAC",
+            "price": "69.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Cognac"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783632806207",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445459304767",
+      "title": "Petal mini bag",
+      "handle": "petal-mini-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Mini and clutch bag",
+      "tags": [
+        "bone",
+        "demo",
+        "evening",
+        "everyday",
+        "featured",
+        "material-pebbled",
+        "mini-bag",
+        "olive"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Petal mini bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the petal mini bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913879789887",
+          "name": "Color",
+          "values": [
+            "Bone",
+            "Olive"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108437147967",
+              "name": "Bone",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108437180735",
+              "name": "Olive",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797856026943",
+            "sku": "AV-DEMO-16-BONE",
+            "price": "79.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783633461567",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797856059711",
+            "sku": "AV-DEMO-16-OLIVE",
+            "price": "79.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Olive"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783633494335",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445459960127",
+      "title": "Frame mini bag",
+      "handle": "frame-mini-bag",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Mini and clutch bag",
+      "tags": [
+        "black",
+        "bone",
+        "demo",
+        "evening",
+        "material-smooth",
+        "mini-bag",
+        "taupe"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Frame mini bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the frame mini bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913880445247",
+          "name": "Color",
+          "values": [
+            "Taupe",
+            "Black",
+            "Bone"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108437868863",
+              "name": "Taupe",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108437901631",
+              "name": "Black",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108437934399",
+              "name": "Bone",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797856747839",
+            "sku": "AV-DEMO-17-TAUPE",
+            "price": "89.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783634182463",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797856780607",
+            "sku": "AV-DEMO-17-BLACK",
+            "price": "89.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783634215231",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797856813375",
+            "sku": "AV-DEMO-17-BONE",
+            "price": "89.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783634247999",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445460681023",
+      "title": "Slip cardholder",
+      "handle": "slip-cardholder",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Wallet and cardholder",
+      "tags": [
+        "black",
+        "bone",
+        "cognac",
+        "demo",
+        "everyday",
+        "featured",
+        "material-smooth",
+        "new-arrival",
+        "wallet"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Slip cardholder | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the slip cardholder concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913881133375",
+          "name": "Color",
+          "values": [
+            "Bone",
+            "Black",
+            "Cognac"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108438622527",
+              "name": "Bone",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108438655295",
+              "name": "Black",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108438688063",
+              "name": "Cognac",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797857501503",
+            "sku": "AV-DEMO-18-BONE",
+            "price": "39.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783634936127",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797857534271",
+            "sku": "AV-DEMO-18-BLACK",
+            "price": "39.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783634968895",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797857567039",
+            "sku": "AV-DEMO-18-COGNAC",
+            "price": "39.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Cognac"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783635001663",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445461401919",
+      "title": "Turn wallet",
+      "handle": "turn-wallet",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Wallet and cardholder",
+      "tags": [
+        "cognac",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "taupe",
+        "travel",
+        "wallet"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Turn wallet | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the turn wallet concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913881887039",
+          "name": "Color",
+          "values": [
+            "Cognac",
+            "Taupe"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108439441727",
+              "name": "Cognac",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108439474495",
+              "name": "Taupe",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797858320703",
+            "sku": "AV-DEMO-19-COGNAC",
+            "price": "59.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Cognac"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783635755327",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797858353471",
+            "sku": "AV-DEMO-19-TAUPE",
+            "price": "59.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783635788095",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445462122815",
+      "title": "Keep zip wallet",
+      "handle": "keep-zip-wallet",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Wallet and cardholder",
+      "tags": [
+        "black",
+        "demo",
+        "everyday",
+        "material-smooth",
+        "olive",
+        "wallet"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Keep zip wallet | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the keep zip wallet concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913882607935",
+          "name": "Color",
+          "values": [
+            "Black",
+            "Olive"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108440195391",
+              "name": "Black",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108440228159",
+              "name": "Olive",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797859074367",
+            "sku": "AV-DEMO-20-BLACK",
+            "price": "49.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783636508991",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797859107135",
+            "sku": "AV-DEMO-20-OLIVE",
+            "price": "49.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Olive"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783636541759",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445462843711",
+      "title": "Reach shoulder strap",
+      "handle": "reach-shoulder-strap",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Bag accessory",
+      "tags": [
+        "accessory",
+        "black",
+        "demo",
+        "everyday",
+        "material-smooth",
+        "new-arrival",
+        "taupe",
+        "travel"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Reach shoulder strap | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the reach shoulder strap concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913883328831",
+          "name": "Color",
+          "values": [
+            "Taupe",
+            "Black"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108440949055",
+              "name": "Taupe",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108440981823",
+              "name": "Black",
+              "swatch": null
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductOption/17913883361599",
+          "name": "Size",
+          "values": [
+            "Standard",
+            "Long"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108441014591",
+              "name": "Standard",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108441047359",
+              "name": "Long",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797859828031",
+            "sku": "AV-DEMO-21-TAUPE-STANDARD",
+            "price": "45.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              },
+              {
+                "name": "Size",
+                "value": "Standard"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783637262655",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797859860799",
+            "sku": "AV-DEMO-21-TAUPE-LONG",
+            "price": "45.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Taupe"
+              },
+              {
+                "name": "Size",
+                "value": "Long"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783637295423",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797859893567",
+            "sku": "AV-DEMO-21-BLACK-STANDARD",
+            "price": "45.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              },
+              {
+                "name": "Size",
+                "value": "Standard"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783637328191",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797859926335",
+            "sku": "AV-DEMO-21-BLACK-LONG",
+            "price": "45.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black"
+              },
+              {
+                "name": "Size",
+                "value": "Long"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783637360959",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445463630143",
+      "title": "Pebble bag charm",
+      "handle": "pebble-bag-charm",
+      "status": "ACTIVE",
+      "vendor": "Atelier Veyne",
+      "productType": "Bag accessory",
+      "tags": [
+        "accessory",
+        "bone",
+        "cognac",
+        "demo",
+        "everyday",
+        "featured",
+        "material-pebbled"
+      ],
+      "templateSuffix": null,
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "type": "single_line_text_field",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "type": "multi_line_text_field",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "type": "string",
+            "value": "Pebble bag charm | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "type": "string",
+            "value": "Explore the pebble bag charm concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "gid://shopify/ProductOption/17913884148031",
+          "name": "Color",
+          "values": [
+            "Cognac",
+            "Bone"
+          ],
+          "optionValues": [
+            {
+              "id": "gid://shopify/ProductOptionValue/15108441801023",
+              "name": "Cognac",
+              "swatch": null
+            },
+            {
+              "id": "gid://shopify/ProductOptionValue/15108441833791",
+              "name": "Bone",
+              "swatch": null
+            }
+          ]
+        }
+      ],
+      "variants": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/ProductVariant/67797860679999",
+            "sku": "AV-DEMO-22-COGNAC",
+            "price": "39.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Cognac"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783638114623",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          },
+          {
+            "id": "gid://shopify/ProductVariant/67797860712767",
+            "sku": "AV-DEMO-22-BONE",
+            "price": "39.00",
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone"
+              }
+            ],
+            "inventoryItem": {
+              "id": "gid://shopify/InventoryItem/69783638147391",
+              "tracked": false
+            },
+            "metafields": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "shop": {
+      "name": "Atelier Veyne",
+      "myshopifyDomain": "s35my0-uu.myshopify.com",
+      "currencyCode": "USD"
+    },
+    "collections": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519832305983",
+          "title": "Home page",
+          "handle": "frontpage",
+          "ruleSet": null
+        },
+        {
+          "id": "gid://shopify/Collection/519837024575",
+          "title": "Shoulder bags",
+          "handle": "shoulder-bags",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "shoulder-bag"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837057343",
+          "title": "Crossbody bags",
+          "handle": "crossbody-bags",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "crossbody-bag"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837122879",
+          "title": "Tote bags",
+          "handle": "tote-bags",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "tote-bag"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837155647",
+          "title": "Mini and clutch bags",
+          "handle": "mini-and-clutch-bags",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "mini-bag"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837188415",
+          "title": "Wallets and cardholders",
+          "handle": "wallets-and-cardholders",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "wallet"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837221183",
+          "title": "Accessories",
+          "handle": "accessories",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "accessory"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals",
+          "handle": "new-arrivals",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "new-arrival"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837286719",
+          "title": "Featured",
+          "handle": "featured",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "featured"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "metafieldDefinitions": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "namespace": "shopify--discovery--product_search_boost",
+          "key": "queries",
+          "type": {
+            "name": "list.single_line_text_field"
+          }
+        },
+        {
+          "namespace": "shopify--discovery--product_recommendation",
+          "key": "related_products",
+          "type": {
+            "name": "list.product_reference"
+          }
+        },
+        {
+          "namespace": "shopify--discovery--product_recommendation",
+          "key": "related_products_display",
+          "type": {
+            "name": "single_line_text_field"
+          }
+        },
+        {
+          "namespace": "shopify--discovery--product_recommendation",
+          "key": "complementary_products",
+          "type": {
+            "name": "list.product_reference"
+          }
+        },
+        {
+          "namespace": "mm-google-shopping",
+          "key": "custom_product",
+          "type": {
+            "name": "boolean"
+          }
+        }
+      ]
+    },
+    "publications": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Publication/312653283647",
+          "name": "Online Store"
+        },
+        {
+          "id": "gid://shopify/Publication/312653316415",
+          "name": "Point of Sale"
+        },
+        {
+          "id": "gid://shopify/Publication/313128485183",
+          "name": "Facebook & Instagram"
+        },
+        {
+          "id": "gid://shopify/Publication/313128616255",
+          "name": "Google & YouTube"
+        }
+      ]
+    },
+    "themes": {
+      "nodes": [
+        {
+          "id": "gid://shopify/OnlineStoreTheme/189632381247",
+          "name": "Helio",
+          "role": "MAIN"
+        },
+        {
+          "id": "gid://shopify/OnlineStoreTheme/189635821887",
+          "name": "atelier-veyne-theme",
+          "role": "UNPUBLISHED"
+        }
+      ]
+    }
+  },
+  "schema": {
+    "ProductCreateInput": {
+      "name": "ProductCreateInput",
+      "inputFields": [
+        {
+          "name": "descriptionHtml",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "handle",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "seo",
+          "type": {
+            "kind": "INPUT_OBJECT",
+            "name": "SEOInput",
+            "ofType": null
+          }
+        },
+        {
+          "name": "productType",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "tags",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String"
+              }
+            }
+          }
+        },
+        {
+          "name": "templateSuffix",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "giftCardTemplateSuffix",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "title",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "vendor",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "category",
+          "type": {
+            "kind": "SCALAR",
+            "name": "ID",
+            "ofType": null
+          }
+        },
+        {
+          "name": "giftCard",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        },
+        {
+          "name": "collectionsToJoin",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "ID"
+              }
+            }
+          }
+        },
+        {
+          "name": "combinedListingRole",
+          "type": {
+            "kind": "ENUM",
+            "name": "CombinedListingsRole",
+            "ofType": null
+          }
+        },
+        {
+          "name": "metafields",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "MetafieldInput"
+              }
+            }
+          }
+        },
+        {
+          "name": "productOptions",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "OptionCreateInput"
+              }
+            }
+          }
+        },
+        {
+          "name": "status",
+          "type": {
+            "kind": "ENUM",
+            "name": "ProductStatus",
+            "ofType": null
+          }
+        },
+        {
+          "name": "requiresSellingPlan",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        },
+        {
+          "name": "claimOwnership",
+          "type": {
+            "kind": "INPUT_OBJECT",
+            "name": "ProductClaimOwnershipInput",
+            "ofType": null
+          }
+        }
+      ]
+    },
+    "ProductVariantsBulkInput": {
+      "name": "ProductVariantsBulkInput",
+      "inputFields": [
+        {
+          "name": "barcodes",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "BarcodeInput"
+              }
+            }
+          }
+        },
+        {
+          "name": "compareAtPrice",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Money",
+            "ofType": null
+          }
+        },
+        {
+          "name": "id",
+          "type": {
+            "kind": "SCALAR",
+            "name": "ID",
+            "ofType": null
+          }
+        },
+        {
+          "name": "mediaSrc",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String"
+              }
+            }
+          }
+        },
+        {
+          "name": "inventoryPolicy",
+          "type": {
+            "kind": "ENUM",
+            "name": "ProductVariantInventoryPolicy",
+            "ofType": null
+          }
+        },
+        {
+          "name": "inventoryQuantities",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "InventoryLevelInput"
+              }
+            }
+          }
+        },
+        {
+          "name": "quantityAdjustments",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "InventoryAdjustmentInput"
+              }
+            }
+          }
+        },
+        {
+          "name": "inventoryItem",
+          "type": {
+            "kind": "INPUT_OBJECT",
+            "name": "InventoryItemInput",
+            "ofType": null
+          }
+        },
+        {
+          "name": "mediaId",
+          "type": {
+            "kind": "SCALAR",
+            "name": "ID",
+            "ofType": null
+          }
+        },
+        {
+          "name": "metafields",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "MetafieldInput"
+              }
+            }
+          }
+        },
+        {
+          "name": "optionValues",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "VariantOptionValueInput"
+              }
+            }
+          }
+        },
+        {
+          "name": "price",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Money",
+            "ofType": null
+          }
+        },
+        {
+          "name": "taxable",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        },
+        {
+          "name": "taxCode",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "unitPriceMeasurement",
+          "type": {
+            "kind": "INPUT_OBJECT",
+            "name": "UnitPriceMeasurementInput",
+            "ofType": null
+          }
+        },
+        {
+          "name": "showUnitPrice",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        },
+        {
+          "name": "requiresComponents",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        },
+        {
+          "name": "published",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        }
+      ]
+    },
+    "ProductOptionUpdateInput": null,
+    "OptionValueCreateInput": {
+      "name": "OptionValueCreateInput",
+      "inputFields": [
+        {
+          "name": "name",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "linkedMetafieldValue",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        }
+      ]
+    },
+    "OptionValueUpdateInput": {
+      "name": "OptionValueUpdateInput",
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "kind": "SCALAR",
+              "name": "ID",
+              "ofType": null
+            }
+          }
+        },
+        {
+          "name": "name",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "linkedMetafieldValue",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        }
+      ]
+    },
+    "FileSetInput": {
+      "name": "FileSetInput",
+      "inputFields": [
+        {
+          "name": "filename",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "contentType",
+          "type": {
+            "kind": "ENUM",
+            "name": "FileContentType",
+            "ofType": null
+          }
+        },
+        {
+          "name": "alt",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "duplicateResolutionMode",
+          "type": {
+            "kind": "ENUM",
+            "name": "FileCreateInputDuplicateResolutionMode",
+            "ofType": null
+          }
+        },
+        {
+          "name": "id",
+          "type": {
+            "kind": "SCALAR",
+            "name": "ID",
+            "ofType": null
+          }
+        },
+        {
+          "name": "originalSource",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        }
+      ]
+    },
+    "ProductVariantSetInput": {
+      "name": "ProductVariantSetInput",
+      "inputFields": [
+        {
+          "name": "id",
+          "type": {
+            "kind": "SCALAR",
+            "name": "ID",
+            "ofType": null
+          }
+        },
+        {
+          "name": "optionValues",
+          "type": {
+            "kind": "NON_NULL",
+            "name": null,
+            "ofType": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null
+              }
+            }
+          }
+        },
+        {
+          "name": "price",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Money",
+            "ofType": null
+          }
+        },
+        {
+          "name": "sku",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "barcodes",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "BarcodeInput"
+              }
+            }
+          }
+        },
+        {
+          "name": "position",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Int",
+            "ofType": null
+          }
+        },
+        {
+          "name": "file",
+          "type": {
+            "kind": "INPUT_OBJECT",
+            "name": "FileSetInput",
+            "ofType": null
+          }
+        },
+        {
+          "name": "metafields",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "MetafieldInput"
+              }
+            }
+          }
+        },
+        {
+          "name": "published",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        },
+        {
+          "name": "compareAtPrice",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Money",
+            "ofType": null
+          }
+        },
+        {
+          "name": "requiresComponents",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        },
+        {
+          "name": "inventoryPolicy",
+          "type": {
+            "kind": "ENUM",
+            "name": "ProductVariantInventoryPolicy",
+            "ofType": null
+          }
+        },
+        {
+          "name": "inventoryQuantities",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "ProductSetInventoryInput"
+              }
+            }
+          }
+        },
+        {
+          "name": "inventoryItem",
+          "type": {
+            "kind": "INPUT_OBJECT",
+            "name": "InventoryItemInput",
+            "ofType": null
+          }
+        },
+        {
+          "name": "taxable",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        },
+        {
+          "name": "taxCode",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "unitPriceMeasurement",
+          "type": {
+            "kind": "INPUT_OBJECT",
+            "name": "UnitPriceMeasurementInput",
+            "ofType": null
+          }
+        },
+        {
+          "name": "showUnitPrice",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        }
+      ]
+    },
+    "InventoryItemInput": {
+      "name": "InventoryItemInput",
+      "inputFields": [
+        {
+          "name": "sku",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "cost",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Decimal",
+            "ofType": null
+          }
+        },
+        {
+          "name": "tracked",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        },
+        {
+          "name": "countryCodeOfOrigin",
+          "type": {
+            "kind": "ENUM",
+            "name": "CountryCode",
+            "ofType": null
+          }
+        },
+        {
+          "name": "harmonizedSystemCode",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "countryHarmonizedSystemCodes",
+          "type": {
+            "kind": "LIST",
+            "name": null,
+            "ofType": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "INPUT_OBJECT",
+                "name": "CountryHarmonizedSystemCodeInput"
+              }
+            }
+          }
+        },
+        {
+          "name": "provinceCodeOfOrigin",
+          "type": {
+            "kind": "SCALAR",
+            "name": "String",
+            "ofType": null
+          }
+        },
+        {
+          "name": "measurement",
+          "type": {
+            "kind": "INPUT_OBJECT",
+            "name": "InventoryItemMeasurementInput",
+            "ofType": null
+          }
+        },
+        {
+          "name": "requiresShipping",
+          "type": {
+            "kind": "SCALAR",
+            "name": "Boolean",
+            "ofType": null
+          }
+        }
+      ]
+    }
+  }
+}

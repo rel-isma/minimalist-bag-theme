@@ -1,9 +1,14 @@
-# Local credentials (only blank setup templates belong in Git)
+# Real credentials and authentication state never belong in Git
 .env
 .env.*
 !.env.example
+**/*token*.json
+**/*credentials*.json
+**/cookies*.json
+**/storage-state*.json
+**/auth-state*.json
 
-# Editor, dependency and tool state
+# Local tools, dependencies, builds and duplicate archives
 /.aws/
 /.codex/
 /.agents/
@@ -18,27 +23,3 @@
 *.log
 __pycache__/
 *.pyc
-
-# Supplier records, product media, account snapshots and one-off migrations
-/products/*
-!/products/README.md
-!/products/shopify-client.mjs
-!/products/image-selection.mjs
-!/products/store-organization/
-/products/store-organization/*
-!/products/store-organization/FINAL-LAUNCH-REVIEW.md
-!/products/finish-launch/
-/products/finish-launch/*
-!/products/finish-launch/COMPLETION-REPORT.md
-!/products/finish-launch/SUPPLIER-CONFIRMATION-NEEDED.md
-
-# Dashboard source and portable tests only; local results remain private
-/studio/.state/
-/studio/*.png
-/studio/*.json
-/studio/check-*
-/studio/validate-operations.mjs
-/studio/*REPORT.md
-/studio/STATUS.md
-/studio/NEW-PRODUCT-REVIEW.md
-/qa/

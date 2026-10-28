@@ -1,0 +1,157 @@
+{
+  "id": "gid://shopify/Product/15459352838463",
+  "title": "Rhea crossbody bag",
+  "handle": "rhea-crossbody-bag",
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67841894842687",
+        "sku": "CJNS239887801AZ",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 8231,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Reddish Brown"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828020896063",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828020896063",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114770706751",
+                  "name": "El Massira",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              },
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828020896063",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 8231
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 8231
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metafield/191310699364671",
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Cowhide leather with polyester lining.",
+        "compareDigest": "3df23d4c8a07cc20231fcacda4aaaaeaa5acdfc8e90108b4d83c6db6fe38d6ce"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310699397439",
+        "namespace": "custom",
+        "key": "cj_product_id",
+        "type": "single_line_text_field",
+        "value": "2506110631251623700",
+        "compareDigest": "d09d56fa5614327e3ee2ceaa02bc8f5f5ad6b7892d0481796adc987c8ca1b4af"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310699430207",
+        "namespace": "custom",
+        "key": "cj_import_batch",
+        "type": "single_line_text_field",
+        "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd",
+        "compareDigest": "14883250a0bd7b68aa09cb9ac39cbe11ed612f1682fa13c6657aef3f7259c9a7"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310699462975",
+        "namespace": "custom",
+        "key": "cj_fulfillment_link_verified",
+        "type": "boolean",
+        "value": "false",
+        "compareDigest": "401f18ad0cca38559086c36f9e0295f1ca3a7023e5f095aeef69177a9b8f10ce"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310699495743",
+        "namespace": "custom",
+        "key": "color_swatches",
+        "type": "json",
+        "value": "{\"Reddish Brown\":\"#6F4330\"}",
+        "compareDigest": "c3f351f65f36aba38185c4f5557fdc9311a19357f6bdeeceaa1f164f628d4ef8"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310699561279",
+        "namespace": "global",
+        "key": "title_tag",
+        "type": "string",
+        "value": "Rhea crossbody bag | Atelier Veyne",
+        "compareDigest": "5cb236ed21a91590a1044e33da8e2f548a90bd0b8369904c262d746b922c4f60"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310699594047",
+        "namespace": "global",
+        "key": "description_tag",
+        "type": "string",
+        "value": "Rhea crossbody bag. Horizontal silhouette. Internal phone and document pockets. Discover considered everyday bags at Atelier Veyne.",
+        "compareDigest": "d4a9e010296ca4a10c42c5a02d34b63b0394275d39ca55a765dd2339166f7cb9"
+      }
+    ]
+  }
+}

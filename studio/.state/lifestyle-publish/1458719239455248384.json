@@ -1,0 +1,290 @@
+{
+  "productId": "gid://shopify/Product/15459352412479",
+  "before": {
+    "id": "gid://shopify/Product/15459352412479",
+    "title": "Elin bucket bag",
+    "handle": "elin-bucket-bag",
+    "status": "ACTIVE",
+    "updatedAt": "2026-10-23T23:51:17Z",
+    "descriptionHtml": "<p>Elin gives the everyday bucket bag a simple, composed outline. A soft handle and a lock closure frame the design, with internal pockets for keeping smaller essentials together. Bucket shape with soft handle Lock closure Internal zip, phone and card pockets</p>",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "templateSuffix": "",
+    "tags": [
+      "black",
+      "brown",
+      "cj-import",
+      "new-arrival",
+      "shoulder-bag",
+      "yellow"
+    ],
+    "seo": {
+      "title": "Elin bucket bag | Atelier Veyne",
+      "description": "Elin bucket bag. Bucket shape with soft handle. Lock closure. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Yellow",
+          "Black",
+          "Brown"
+        ]
+      }
+    ],
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519837024575",
+          "title": "Shoulder bags"
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "custom",
+          "key": "material",
+          "type": "multi_line_text_field",
+          "value": "Split cowhide leather with polyester lining."
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": "single_line_text_field",
+          "value": "1458719239455248384"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_import_batch",
+          "type": "single_line_text_field",
+          "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_fulfillment_link_verified",
+          "type": "boolean",
+          "value": "false"
+        },
+        {
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": "json",
+          "value": "{\"Yellow\":\"#C99640\",\"Black\":\"#1B1A18\",\"Brown\":\"#A15D3D\"}"
+        },
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Elin bucket bag | Atelier Veyne"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "Elin bucket bag. Bucket shape with soft handle. Lock closure. Discover considered everyday bags at Atelier Veyne."
+        },
+        {
+          "namespace": "custom",
+          "key": "dimensions",
+          "type": "multi_line_text_field",
+          "value": "xcvxcvcxvcxv"
+        },
+        {
+          "namespace": "custom",
+          "key": "care",
+          "type": "multi_line_text_field",
+          "value": "xvxvxcv"
+        }
+      ]
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/46157955170623",
+          "alt": "Elin bucket bag in Yellow",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/elin-bucket-bag-01.png?v=1792756273",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157955203391",
+          "alt": "Elin bucket bag in Black",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/elin-bucket-bag-02.png?v=1792756273",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157955236159",
+          "alt": "Elin bucket bag in Brown",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/elin-bucket-bag-03.png?v=1792756273",
+            "width": 1086,
+            "height": 1448
+          }
+        }
+      ]
+    },
+    "variants": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/67841888289087",
+          "sku": "CJNS134996001AZ",
+          "price": "99.00",
+          "inventoryQuantity": 49820,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Yellow"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828014342463",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/elin-bucket-bag-01.png?v=1792756273"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "1458719239455248384"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "1458719239522357248"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Yellow"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841888321855",
+          "sku": "CJNS134996002BY",
+          "price": "99.00",
+          "inventoryQuantity": 46186,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828014375231",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/elin-bucket-bag-02.png?v=1792756273"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "1458719239455248384"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "1458719239526551552"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Black"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841888354623",
+          "sku": "CJNS134996003CX",
+          "price": "99.00",
+          "inventoryQuantity": 39637,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Brown"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828014407999",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/elin-bucket-bag-03.png?v=1792756273"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "1458719239455248384"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "1458719239526551553"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Brown"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "image": {
+    "id": "7c683149f2ec6e60",
+    "file": "products/1458719239455248384/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/1458719239455248384/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Elin bucket bag in Brown, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-source-edit",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/ae6399cb-7451-4bb1-bfe2-815b457ba9c8.jpg",
+    "sourceFile": "products/1458719239455248384/source/images/001-a30e4a1c-5119297d.jpg",
+    "generated": true
+  },
+  "fileId": "gid://shopify/MediaImage/46179928015167",
+  "startedAt": "2026-10-25T16:48:32.309Z",
+  "result": {
+    "id": "1458719239455248384",
+    "title": "Elin bucket bag",
+    "shopifyId": "gid://shopify/Product/15459352412479",
+    "addedMediaId": "gid://shopify/MediaImage/46179928015167",
+    "galleryCount": 4,
+    "allOriginalMediaRetained": true,
+    "nonGalleryDataUnchanged": true,
+    "verifiedAt": "2026-10-25T16:48:34.884Z"
+  },
+  "complete": true
+}

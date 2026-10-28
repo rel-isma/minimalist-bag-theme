@@ -1,0 +1,184 @@
+{
+  "id": "gid://shopify/Product/15464451539263",
+  "title": "Ellis long-handle bag",
+  "handle": "ellis-long-handle-bag",
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67861840953663",
+        "sku": "CJNS297034101AZ",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 7776,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "33x12x21cm"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848016453951",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848016453951",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 7776
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 7776
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861840986431",
+        "sku": "CJNS297034102BY",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 7287,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Brown"
+          },
+          {
+            "name": "Size",
+            "value": "33x12x21cm"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848016486719",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848016486719",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 7287
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 7287
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metafield/191425040384319",
+        "namespace": "global",
+        "key": "title_tag",
+        "type": "string",
+        "value": "Ellis long-handle bag | Atelier Veyne",
+        "compareDigest": "bf9914a35194c5b0943611132f7b2bc1fbf8c4328077448ad477c1be67c15752"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425040417087",
+        "namespace": "global",
+        "key": "description_tag",
+        "type": "string",
+        "value": "Discover Ellis, a pebbled leather bag with long twin handles and a curved zip opening. Available in Black and Brown at Atelier Veyne.",
+        "compareDigest": "3e2ae093f5a17c95f45219f8a37226b7f6194b169054648d46700ffed3817e81"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425091109183",
+        "namespace": "custom",
+        "key": "cj_product_id",
+        "type": "single_line_text_field",
+        "value": "2607070313251623100",
+        "compareDigest": "e00265dc1f9ab5bc074f05e9cdbf0c6512513fd081ee730450924fc060adb183"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425091141951",
+        "namespace": "custom",
+        "key": "color_swatches",
+        "type": "json",
+        "value": "{\"Black\":\"#1B1A18\",\"Brown\":\"#44312B\"}",
+        "compareDigest": "046b5455f7d5278a4e7bbba089be304648aa228ef98bd269ddc510d5c20342d2"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425091174719",
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Leather exterior with polyester-cotton lining.",
+        "compareDigest": "52b56370fd31b6278c3aa912b3fa4fdaea39cece3f92a355fe6856d52c90c77d"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425091207487",
+        "namespace": "custom",
+        "key": "dimensions",
+        "type": "multi_line_text_field",
+        "value": "33 × 12 × 21 cm, as stated by the supplier.",
+        "compareDigest": "cd69333b4e9051032f3ebb563ad7c5471213409c7b809c9a25e4740f19a1f0b7"
+      }
+    ]
+  }
+}

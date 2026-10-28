@@ -1,0 +1,52 @@
+{
+  "images": [
+    {
+      "file": "01-ffc49dd675bf.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/d6a20c1e-a5b7-4e33-8961-01f8efc6e9f8.jpg",
+      "sha256": "ffc49dd675bfbffadb282ba6868d13a150a892561707ed81ef4b3449c17b7105",
+      "bytes": 121517
+    },
+    {
+      "file": "02-71d5906d5dcb.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/92ab20e2-41d9-4147-b9c5-b8b73d1465e1.jpg",
+      "sha256": "71d5906d5dcb63958e014133c59d668004fda9f56c8564f1dcf70a41e380def4",
+      "bytes": 145252
+    },
+    {
+      "file": "03-1755b226fc7d.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/ca8cd4e1-3190-473e-9dd0-e83278005493.jpg",
+      "sha256": "1755b226fc7dfea6bf61d09bbfe3e79f0a9354717b76f03e1ee13f56eea87c89",
+      "bytes": 129936
+    },
+    {
+      "file": "04-7562552e205b.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0d45b2b4-089c-44d7-ac5d-920638a3442c.jpg",
+      "sha256": "7562552e205b65c81ba63339e6431819904936f75841bf224ff5562d347ec490",
+      "bytes": 204319
+    },
+    {
+      "file": "05-9eaa3687fb03.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/9640c777-6f59-424b-bd1d-abb2fb434380.jpg",
+      "sha256": "9eaa3687fb035e5cb838c54f883a110468124e0adad3ad9d6a3dda4cd672fb94",
+      "bytes": 385471
+    },
+    {
+      "file": "06-05100b63e94a.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/a6ffee68-3f74-4107-87a7-1b70673225fa.jpg",
+      "sha256": "05100b63e94a313cc6970e0b0583cf4b703d7f6a2097db51d81c5628db6518fa",
+      "bytes": 410920
+    },
+    {
+      "file": "07-71d5906d5dcb.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/a9df60fa-6e74-4a18-8649-7d707679928d.jpg",
+      "sha256": "71d5906d5dcb63958e014133c59d668004fda9f56c8564f1dcf70a41e380def4",
+      "bytes": 145252
+    },
+    {
+      "file": "08-71d5906d5dcb.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/6c3e4736-60f4-4168-af32-d54ae0321873.jpg",
+      "sha256": "71d5906d5dcb63958e014133c59d668004fda9f56c8564f1dcf70a41e380def4",
+      "bytes": 145252
+    }
+  ]
+}

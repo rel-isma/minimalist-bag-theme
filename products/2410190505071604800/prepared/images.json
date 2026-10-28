@@ -1,0 +1,128 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/012-63149078-d7dcb291.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/604b36e7-e307-46dd-9467-2f1a7cc73e95.jpg",
+    "sourceSha256": "d7dcb29156c8b9bb558d6d019e21694b719bd0ec751de53526798101411d4cb8",
+    "sha256": "afdeea874c531d23600b7235befbe3c92c8be9fcb7ae4cffd9115d9185145a3f",
+    "variantIds": [
+      "2410190505071605000"
+    ],
+    "colors": [
+      "Red"
+    ],
+    "alt": "Sable soft tote in Red",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/004-a8fb0740-736fca47.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/e307ad09-6874-4b60-9dab-063d893cf3a0.jpg",
+    "sourceSha256": "736fca47a10cc9a1718d60103dc056c5fdde3a64f950daf9bb56cb7fef8affc6",
+    "sha256": "30897206524b6601904f880a6502a978380b90ce72e76f50aafe7bf3e1cb3492",
+    "variantIds": [
+      "2410190505071605200"
+    ],
+    "colors": [
+      "Beige"
+    ],
+    "alt": "Sable soft tote in Beige",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/003-f9c95655-8cf600fa.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/c7eb0b56-d547-4fd0-a365-dfb64b030fab.jpg",
+    "sourceSha256": "8cf600fa788588aa1b48d3c1fc6751566e13b775ad9d08d581622c70144315f4",
+    "sha256": "0e095323bf5030f77163694d62e5a081f7cbcfdbc66c9ea39352d04d99bbd179",
+    "variantIds": [
+      "2410190505071605400"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Sable soft tote in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/04-atelier-veyne.png",
+    "sourceFile": "../source/images/011-82f76e64-c9c02a47.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/37b1a453-2bb6-4e48-8fe5-bce45ff75406.jpg",
+    "sourceSha256": "c9c02a47d287b644b642e4db6e89812216da34d877c0365a2c66c2b0f8fa72f0",
+    "sha256": "e7f9ddba283484bb047f50ed9ef279e54d582b887b9a7641d4be825686c4916e",
+    "variantIds": [
+      "2410190505071605500"
+    ],
+    "colors": [
+      "Green"
+    ],
+    "alt": "Sable soft tote in Green",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/05-atelier-veyne.png",
+    "sourceFile": "../source/images/006-3c4df3f1-6e441bce.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/895f3f60-3028-4e3a-af91-3d0b30d5fc0f.jpg",
+    "sourceSha256": "6e441bce5b61c41226bd162708e0186d61eeaba7eee1cf5171c5302fe77f9271",
+    "sha256": "f3d01f79ab1cb44c3610604f2ad45dd3374f8fae24c18b4249a379f3ec459e9c",
+    "variantIds": [
+      "2410190505071605700"
+    ],
+    "colors": [
+      "Dark Gray"
+    ],
+    "alt": "Sable soft tote in Dark Gray",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/06-atelier-veyne.png",
+    "sourceFile": "../source/images/005-eb4980b3-ba0fd339.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/6af3bfbd-018f-473e-b29f-a20051194606.jpg",
+    "sourceSha256": "ba0fd3391969e3a4f4548432b8300ef63c13dcb25156ed23458a45ebe703dd6c",
+    "sha256": "4b73d5e27a00fa84108bbf6833c64f12129a9fa92776bc8aaee6b547a784668e",
+    "variantIds": [
+      "2410190505071605900"
+    ],
+    "colors": [
+      "Blue"
+    ],
+    "alt": "Sable soft tote in Blue",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/07-atelier-veyne.png",
+    "sourceFile": "../source/images/008-89175eae-fa52f891.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/6d2e5c56-0285-4f1a-b1b1-3bd5919f425e.jpg",
+    "sourceSha256": "fa52f891cdfb56964401a132791517476a4463e36851e236e54e5c86506b1296",
+    "sha256": "9793100e354c20e2ffd100bcba8048b50db842d0a32d23e550069c4b328e4ca5",
+    "variantIds": [
+      "2410190505071606000"
+    ],
+    "colors": [
+      "Brown"
+    ],
+    "alt": "Sable soft tote in Brown",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

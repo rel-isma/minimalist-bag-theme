@@ -1,0 +1,52 @@
+{
+  "images": [
+    {
+      "file": "01-2ffc33b599cf.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/a2fc011a-b6f7-4b63-82e4-d3fdcf66c4e6.jpg",
+      "sha256": "2ffc33b599cf5d0a991b1548b3a77d806bccb6826de4b6d7351bd875c72beab2",
+      "bytes": 173359
+    },
+    {
+      "file": "02-a8cbc21e5526.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/fcd3f0c4-34e9-4c9b-92c0-93cb9bc8d9af.jpg",
+      "sha256": "a8cbc21e55264bbc45784bca9abf8453b5f0c737e6360ace66a5f941515fdaf6",
+      "bytes": 66499
+    },
+    {
+      "file": "03-71b1b2e1272c.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/01e3c810-5cde-4610-b22f-ab868c2350d9.jpg",
+      "sha256": "71b1b2e1272ca779437543583a2b107bf94513c54a575d6b6cca5acd9266eaa9",
+      "bytes": 98684
+    },
+    {
+      "file": "04-1eba5ea142f4.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/e7b99b65-e62f-4225-814e-35cca47fa57c.jpg",
+      "sha256": "1eba5ea142f4c32ce809e5d16428099ff5f87a4444d7812d4683ed37dbdc9132",
+      "bytes": 68807
+    },
+    {
+      "file": "05-f373f05c44cc.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/7a64838f-78c3-4936-a016-18997b09e90b.jpg",
+      "sha256": "f373f05c44cc7cbd9a959eebe82994f3f64f36c379d973d10c59648030ff7afc",
+      "bytes": 99458
+    },
+    {
+      "file": "06-efd3d74eedbf.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b2b49452-a663-499d-98e2-2590040853b1.jpg",
+      "sha256": "efd3d74eedbf706ac37c14e123e508f3d8e678da57f983cd605e0dcdaeed336c",
+      "bytes": 128936
+    },
+    {
+      "file": "07-1bc8588a9829.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/6e97290c-7eb9-44bd-873b-42bdb44560fe.jpg",
+      "sha256": "1bc8588a982901cfa8fce4ce065a0e78496980479ae9770a41d3e701cf5c7603",
+      "bytes": 88522
+    },
+    {
+      "file": "08-8ad5f79a2a53.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/037cf6e2-25e7-4461-824c-a01db88f37a1.jpg",
+      "sha256": "8ad5f79a2a5346bd5fb7866827a4b49ff6955ab39dc4048868ce8456f43089ef",
+      "bytes": 203094
+    }
+  ]
+}

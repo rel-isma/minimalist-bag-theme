@@ -1,0 +1,74 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/004-28c5e771-fa7752cb.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0da4241d-aead-44ac-9cb1-20dc72747b56.jpg",
+    "sourceSha256": "fa7752cb3117d4589d6abe1e67876bcdcf110e78f0a6b51cef6e9cbe796b52ef",
+    "sha256": "58840931cb3e5ee1338f62544c57c3ffdf7cff0b54152c2a6e9370b5af3ec3a6",
+    "variantIds": [
+      "2607121014121623600"
+    ],
+    "colors": [
+      "Brown"
+    ],
+    "alt": "Sora bucket bag in Brown",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/006-8bdb9efb-16cbf064.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f6113101-6e8f-4f21-9552-9a1c3b2394c9.jpg",
+    "sourceSha256": "16cbf064a829eb7af003245d0086ce6f8591c8cf0c273901e0e62a07bcf8d3ec",
+    "sha256": "f7437b012c3663aad18305d643ad0a8ee45390df66fec8bb2d4a2eb21042c736",
+    "variantIds": [
+      "2607121014121624000"
+    ],
+    "colors": [
+      "Caramel Mocha"
+    ],
+    "alt": "Sora bucket bag in Caramel Mocha",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/005-60ce9ebf-ea150a7f.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/d8d68806-36dd-4988-b0ae-26e62300a9c1.jpg",
+    "sourceSha256": "ea150a7f434dab3c895abf12fff0d6b257a029888b8afac6b6cf5d41fef98126",
+    "sha256": "6884b502de01461441ec164d7efff7d53be896cd39aff50ebac9b376cb0959a8",
+    "variantIds": [
+      "2607121014121624500"
+    ],
+    "colors": [
+      "Angora Red"
+    ],
+    "alt": "Sora bucket bag in Angora Red",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/04-atelier-veyne.png",
+    "sourceFile": "../source/images/007-2a8f1eaf-7b508231.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/760bfe3d-5c3a-4f5b-9289-552fd0325d9a.jpg",
+    "sourceSha256": "7b508231ce334432552750c9a064530b53a2b1c3ab1d4f25bec5644b06b4d0bb",
+    "sha256": "ebd4296ca5e90f39ee31bde71c988bc943c5a35d23d24d64b53b0f2014969336",
+    "variantIds": [
+      "2607121014121624900"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Sora bucket bag in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

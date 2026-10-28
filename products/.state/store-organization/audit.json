@@ -1,0 +1,2793 @@
+{
+  "checkedAt": "2026-10-27T14:16:26.632Z",
+  "audit": {
+    "shop": {
+      "name": "Atelier Veyne",
+      "myshopifyDomain": "s35my0-uu.myshopify.com",
+      "currencyCode": "USD",
+      "primaryDomain": {
+        "url": "https://s35my0-uu.myshopify.com"
+      }
+    },
+    "currentAppInstallation": {
+      "accessScopes": [
+        {
+          "handle": "read_products"
+        },
+        {
+          "handle": "write_products"
+        },
+        {
+          "handle": "read_files"
+        },
+        {
+          "handle": "write_files"
+        },
+        {
+          "handle": "read_publications"
+        },
+        {
+          "handle": "write_publications"
+        },
+        {
+          "handle": "read_themes"
+        },
+        {
+          "handle": "read_inventory"
+        },
+        {
+          "handle": "write_inventory"
+        },
+        {
+          "handle": "read_locations"
+        },
+        {
+          "handle": "read_shipping"
+        },
+        {
+          "handle": "write_shipping"
+        },
+        {
+          "handle": "read_markets"
+        }
+      ]
+    },
+    "collections": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519832305983",
+          "title": "Home page",
+          "handle": "frontpage",
+          "sortOrder": "MOST_RELEVANT",
+          "ruleSet": null
+        },
+        {
+          "id": "gid://shopify/Collection/519837024575",
+          "title": "Shoulder bags",
+          "handle": "shoulder-bags",
+          "sortOrder": "MANUAL",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "shoulder-bag"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837057343",
+          "title": "Crossbody bags",
+          "handle": "crossbody-bags",
+          "sortOrder": "MANUAL",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "crossbody-bag"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837122879",
+          "title": "Tote bags",
+          "handle": "tote-bags",
+          "sortOrder": "MANUAL",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "tote-bag"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837155647",
+          "title": "Mini and clutch bags",
+          "handle": "mini-and-clutch-bags",
+          "sortOrder": "MANUAL",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "mini-bag"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837188415",
+          "title": "Wallets and cardholders",
+          "handle": "wallets-and-cardholders",
+          "sortOrder": "MANUAL",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "wallet"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837221183",
+          "title": "Accessories",
+          "handle": "accessories",
+          "sortOrder": "MANUAL",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "accessory"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals",
+          "handle": "new-arrivals",
+          "sortOrder": "MANUAL",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "new-arrival"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/Collection/519837286719",
+          "title": "Featured",
+          "handle": "featured",
+          "sortOrder": "MANUAL",
+          "ruleSet": {
+            "appliedDisjunctively": false,
+            "rules": [
+              {
+                "column": "TAG",
+                "relation": "EQUALS",
+                "condition": "featured"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "themes": {
+      "nodes": [
+        {
+          "id": "gid://shopify/OnlineStoreTheme/189632381247",
+          "name": "Helio",
+          "role": "MAIN"
+        },
+        {
+          "id": "gid://shopify/OnlineStoreTheme/189635821887",
+          "name": "atelier-veyne-theme",
+          "role": "UNPUBLISHED"
+        }
+      ]
+    },
+    "publications": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Publication/312653283647",
+          "name": "Online Store"
+        },
+        {
+          "id": "gid://shopify/Publication/312653316415",
+          "name": "Point of Sale"
+        },
+        {
+          "id": "gid://shopify/Publication/313128485183",
+          "name": "Facebook & Instagram"
+        },
+        {
+          "id": "gid://shopify/Publication/313128616255",
+          "name": "Google & YouTube"
+        }
+      ]
+    }
+  },
+  "products": [
+    {
+      "id": "gid://shopify/Product/15445457338687",
+      "title": "Cove shoulder bag",
+      "handle": "cove-shoulder-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "bone",
+        "demo",
+        "everyday",
+        "featured",
+        "material-smooth",
+        "new-arrival",
+        "shoulder-bag",
+        "taupe"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Cove follows a soft crescent line that sits close to the shoulder and leaves room for the small things you reach for throughout the day. Its uncluttered exterior pairs easily with relaxed layers or tailored pieces. A curved top opening keeps the silhouette simple, while the short strap gives it a quiet, compact presence. This demo design explores an everyday proportion; materials, capacity, and measurements must be confirmed with a physical sample before sale.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519832305983",
+            "handle": "frontpage"
+          },
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          },
+          {
+            "id": "gid://shopify/Collection/519837286719",
+            "handle": "featured"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Cove shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the cove shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457404223",
+      "title": "Fold shoulder bag",
+      "handle": "fold-shoulder-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "bone",
+        "demo",
+        "everyday",
+        "material-smooth",
+        "shoulder-bag",
+        "taupe",
+        "work"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Fold brings a crisp envelope shape to an otherwise relaxed wardrobe. The broad flap creates a clean front, and the short shoulder strap keeps the bag close without adding visual weight. It is imagined for a cardholder, phone, keys, and a few personal essentials, with an interior arrangement that stays easy to understand. This is an illustrative catalog sample, so its proposed construction, storage layout, and dimensions require physical verification before it becomes a retail product.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Fold shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the fold shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457436991",
+      "title": "Drift shoulder bag",
+      "handle": "drift-shoulder-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "new-arrival",
+        "olive",
+        "shoulder-bag",
+        "travel"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Drift takes its cue from the easy movement of a softly gathered silhouette. A wide shoulder strap and an understated top opening give the design a relaxed rhythm, suited to casual layers and unhurried days. The proposed interior makes space for daily essentials without turning the bag into a carryall. These photographs and details describe a demo concept only; the finished feel, carrying capacity, material composition, and strap fit need review against a real production sample.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Drift shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the drift shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457469759",
+      "title": "Arc shoulder bag",
+      "handle": "arc-shoulder-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "bone",
+        "cognac",
+        "demo",
+        "evening",
+        "everyday",
+        "featured",
+        "material-smooth",
+        "shoulder-bag"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Arc balances a rounded base with a clean curved flap, creating a shape that feels composed from morning through evening. The short strap follows the same gentle line, and the front remains free of decorative plaques. It is a proposal for a compact companion to a simple wardrobe, with space planned around small essentials. This demo listing is intended for theme testing; all material, fit, capacity, and closure details must be checked before commercial use.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837286719",
+            "handle": "featured"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Arc shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the arc shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457502527",
+      "title": "Ledge shoulder bag",
+      "handle": "ledge-shoulder-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "cognac",
+        "demo",
+        "material-pebbled",
+        "shoulder-bag",
+        "taupe",
+        "work"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Ledge offers a horizontal silhouette with a defined base and a straightforward zip opening. Its broad shoulder strap gives the design a practical presence, while the spare front lets color and proportion do the work. The proposed shape suits a pared back daily routine and sits neatly beside tailored clothing. This is editable demo copy rather than a verified specification: lining, hardware, capacity, weight, and dimensions must be replaced with details from your actual product.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Ledge shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the ledge shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457600831",
+      "title": "Nest shoulder bag",
+      "handle": "nest-shoulder-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "bone",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "shoulder-bag"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Nest softens the everyday bag into a rounded bucket form with a lightly gathered opening. The short strap continues the simple outline, making the design an easy companion to knitwear, linen, and understated layers. A small collection of essentials is the intended starting point for its interior. This sample exists to test product presentation and shopping behavior; the actual closure, materials, carrying comfort, and usable space must be established with a physical bag before launch.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Nest shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the nest shoulder bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457633599",
+      "title": "Path crossbody bag",
+      "handle": "path-crossbody-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "crossbody-bag",
+        "demo",
+        "everyday",
+        "featured",
+        "material-smooth",
+        "new-arrival",
+        "olive",
+        "taupe",
+        "travel"
+      ],
+      "productType": "Crossbody bag",
+      "descriptionHtml": "<p>Path keeps the crossbody idea direct: a slim rectangle, a simple opening, and a long strap that leaves your hands free. The proposed design is for short walks, errands, and days when a larger bag would feel unnecessary. Its quiet front works across casual and tailored outfits without demanding attention. This is a demo product for development use, and its strap adjustment, internal capacity, hardware, and material specifications need verification before customers can purchase it.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837057343",
+            "handle": "crossbody-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          },
+          {
+            "id": "gid://shopify/Collection/519837286719",
+            "handle": "featured"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Path crossbody bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the path crossbody bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457699135",
+      "title": "Loop crossbody bag",
+      "handle": "loop-crossbody-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "bone",
+        "crossbody-bag",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "olive"
+      ],
+      "productType": "Crossbody bag",
+      "descriptionHtml": "<p>Loop introduces a vertical oval shape that feels compact and easy to place within an everyday wardrobe. A narrow crossbody strap follows the understated outline, and a zip opening keeps the proposed layout familiar. The concept centers on carrying a few essentials while staying comfortable in motion. These are illustrative product details for a development catalog; confirm the finished strap, lining, storage arrangement, materials, and measurements against a physical sample before offering it for sale.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837057343",
+            "handle": "crossbody-bags"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Loop crossbody bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the loop crossbody bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457731903",
+      "title": "Field crossbody bag",
+      "handle": "field-crossbody-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "cognac",
+        "crossbody-bag",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "travel"
+      ],
+      "productType": "Crossbody bag",
+      "descriptionHtml": "<p>Field pairs a rounded flap with a grounded rectangular body for a crossbody shape that feels calm and practical. The broad strap is imagined for easy adjustment over changing layers, while the clean exterior keeps the styling flexible. It is a concept for the things you want close during a day out. This demo listing does not establish manufacturing specifications; strap range, closure, capacity, weight, and materials must be confirmed before the product is launched.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837057343",
+            "handle": "crossbody-bags"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Field crossbody bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the field crossbody bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457764671",
+      "title": "Vale crossbody bag",
+      "handle": "vale-crossbody-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "crossbody-bag",
+        "demo",
+        "evening",
+        "material-smooth",
+        "taupe",
+        "travel"
+      ],
+      "productType": "Crossbody bag",
+      "descriptionHtml": "<p>Vale has a gently tapered body and a smooth flap that keeps the crossbody silhouette light. It is imagined as an easy transition between daytime plans and a quiet evening, with a narrow strap and room proposed for a small set of essentials. The form is intentionally spare, allowing it to sit comfortably within different wardrobes. This is test catalog copy; replace the proposed materials, fit, closure, and interior details after reviewing an actual sample.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837057343",
+            "handle": "crossbody-bags"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Vale crossbody bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the vale crossbody bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457797439",
+      "title": "Plane tote bag",
+      "handle": "plane-tote-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "bone",
+        "demo",
+        "everyday",
+        "featured",
+        "material-smooth",
+        "new-arrival",
+        "taupe",
+        "tote-bag",
+        "work"
+      ],
+      "productType": "Tote bag",
+      "descriptionHtml": "<p>Plane reduces the tote to a tall rectangle and two clean handles, with an open shape that makes the interior easy to reach. It is imagined for a day that moves between work and personal plans, with room proposed for a notebook and everyday belongings. The exterior stays simple enough to complement a considered wardrobe. This development sample uses illustrative dimensions and materials; test its usable space, handle comfort, and construction with real items before sale.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837122879",
+            "handle": "tote-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          },
+          {
+            "id": "gid://shopify/Collection/519837286719",
+            "handle": "featured"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Plane tote bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the plane tote bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457895743",
+      "title": "Gather tote bag",
+      "handle": "gather-tote-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "cognac",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "olive",
+        "tote-bag",
+        "travel"
+      ],
+      "productType": "Tote bag",
+      "descriptionHtml": "<p>Gather gives the tote a softer outline through a broad base and a gently drawn opening. Two understated handles keep the design familiar, while the relaxed body offers an easy visual counterpoint to tailored layers. Its proposed interior is arranged around the belongings of a full day rather than a rigid packing list. This is a demo concept for store testing; actual materials, capacity, handle drop, closure, and construction must be verified before launch.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837122879",
+            "handle": "tote-bags"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Gather tote bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the gather tote bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445457928511",
+      "title": "Line tote bag",
+      "handle": "line-tote-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "demo",
+        "featured",
+        "material-smooth",
+        "taupe",
+        "tote-bag",
+        "work"
+      ],
+      "productType": "Tote bag",
+      "descriptionHtml": "<p>Line brings a wider architectural shape to the everyday tote, with a zip opening and two flat handles that continue its spare outline. The design is imagined for a more organized workday, where personal essentials and a notebook share the same space. Its front stays clean and unobtrusive beside simple clothing. This editable demo listing is not a capacity guarantee; verify device fit, dimensions, materials, handle comfort, and interior construction using the final physical product.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837122879",
+            "handle": "tote-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837286719",
+            "handle": "featured"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Line tote bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the line tote bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445458125119",
+      "title": "Open tote bag",
+      "handle": "open-tote-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "olive",
+        "tote-bag",
+        "travel"
+      ],
+      "productType": "Tote bag",
+      "descriptionHtml": "<p>Open takes a rounded approach to the carryall, keeping the opening broad and the pair of handles visually simple. The proposed silhouette is for relaxed days when a compact bag would leave too much behind. Its soft outline pairs naturally with informal layers and a restrained color palette. This product is an illustrative development sample, so the actual carrying capacity, materials, closure choice, handle drop, and weight need confirmation with a physical sample before retail use.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837122879",
+            "handle": "tote-bags"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Open tote bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the open tote bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445458616639",
+      "title": "Dusk clutch",
+      "handle": "dusk-clutch",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "cognac",
+        "demo",
+        "evening",
+        "material-smooth",
+        "mini-bag",
+        "new-arrival"
+      ],
+      "productType": "Mini and clutch bag",
+      "descriptionHtml": "<p>Dusk is an envelope clutch with a broad folded flap and a clean horizontal shape. The concept keeps an evening carry simple, allowing the bag to accompany an outfit without becoming its centerpiece. Its proposed interior centers on a few small essentials, and the exterior avoids ornamental hardware. This demo design is for testing an editorial product page; the closure, lining, usable dimensions, materials, and comfortable hand feel must be established with a physical sample before sale.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837155647",
+            "handle": "mini-and-clutch-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Dusk clutch | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the dusk clutch concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445459304767",
+      "title": "Petal mini bag",
+      "handle": "petal-mini-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "bone",
+        "demo",
+        "evening",
+        "everyday",
+        "featured",
+        "material-pebbled",
+        "mini-bag",
+        "olive"
+      ],
+      "productType": "Mini and clutch bag",
+      "descriptionHtml": "<p>Petal brings a rounded body and a small top handle together in a compact shape. A curved flap carries the same gentle line across the front, making the design easy to pair with understated day or evening clothing. It is imagined for the items that need to stay close when you travel light. These are proposed demo details only; confirm the actual storage space, closure, materials, handle clearance, and dimensions before making the product available.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837155647",
+            "handle": "mini-and-clutch-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837286719",
+            "handle": "featured"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Petal mini bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the petal mini bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445459960127",
+      "title": "Frame mini bag",
+      "handle": "frame-mini-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "bone",
+        "demo",
+        "evening",
+        "material-smooth",
+        "mini-bag",
+        "taupe"
+      ],
+      "productType": "Mini and clutch bag",
+      "descriptionHtml": "<p>Frame is a small rectangular bag with a defined outline and an understated top handle. The proposed form brings a little structure to simple clothing while keeping its front free of decorative branding. A flat flap completes the shape, and the interior is imagined around a small selection of personal items. This is illustrative development copy; the finished hardware, construction, capacity, lining, and measurements require a real sample review before the bag can be offered for sale.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837155647",
+            "handle": "mini-and-clutch-bags"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Frame mini bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the frame mini bag concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445460681023",
+      "title": "Slip cardholder",
+      "handle": "slip-cardholder",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "bone",
+        "cognac",
+        "demo",
+        "everyday",
+        "featured",
+        "material-smooth",
+        "new-arrival",
+        "wallet"
+      ],
+      "productType": "Wallet and cardholder",
+      "descriptionHtml": "<p>Slip keeps the cardholder small and direct, with a flat rectangular outline and a simple arrangement of slots. It is imagined for the cards you use most, fitting easily into a smaller bag or a pocket when you want to carry less. The plain exterior follows the same quiet approach as the larger collection. This demo item is intended for catalog testing; slot count, card fit, material thickness, dimensions, and edge finishing must be checked before launch.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837188415",
+            "handle": "wallets-and-cardholders"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          },
+          {
+            "id": "gid://shopify/Collection/519837286719",
+            "handle": "featured"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Slip cardholder | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the slip cardholder concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445461401919",
+      "title": "Turn wallet",
+      "handle": "turn-wallet",
+      "status": "ACTIVE",
+      "tags": [
+        "cognac",
+        "demo",
+        "everyday",
+        "material-pebbled",
+        "taupe",
+        "travel",
+        "wallet"
+      ],
+      "productType": "Wallet and cardholder",
+      "descriptionHtml": "<p>Turn folds a compact wallet into a simple rectangle with softly rounded corners. The proposed layout brings cards and small paper essentials together without adding unnecessary layers to the exterior. It is imagined as a practical companion to a shoulder bag or crossbody, sharing the collection's restrained proportions. This editable demo product does not confirm an interior configuration; verify the compartments, closure, material composition, dimensions, and everyday usability with an actual wallet before sale.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837188415",
+            "handle": "wallets-and-cardholders"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Turn wallet | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the turn wallet concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445462122815",
+      "title": "Keep zip wallet",
+      "handle": "keep-zip-wallet",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "demo",
+        "everyday",
+        "material-smooth",
+        "olive",
+        "wallet"
+      ],
+      "productType": "Wallet and cardholder",
+      "descriptionHtml": "<p>Keep gives the small wallet a familiar zip outline and a clean front that slips easily into a considered daily routine. The proposed interior is for a few cards and loose essentials, kept together in one compact place. Its shape is intended to complement the smaller bags in the collection without competing with them. This is development catalog copy; confirm the actual compartments, zipper, materials, capacity, and dimensions with a physical wallet before publishing a retail listing.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837188415",
+            "handle": "wallets-and-cardholders"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Keep zip wallet | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the keep zip wallet concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445462843711",
+      "title": "Reach shoulder strap",
+      "handle": "reach-shoulder-strap",
+      "status": "ACTIVE",
+      "tags": [
+        "accessory",
+        "black",
+        "demo",
+        "everyday",
+        "material-smooth",
+        "new-arrival",
+        "taupe",
+        "travel"
+      ],
+      "productType": "Bag accessory",
+      "descriptionHtml": "<p>Reach is a detachable strap concept designed to offer another way to carry a compatible bag. Its flat outline and understated end clips follow the same restrained visual language as the collection. Two proposed lengths let the development store exercise size selection alongside color options. This is a demo accessory, not a compatibility promise: attachment dimensions, load capacity, length, adjustment, hardware, and materials must be tested against the actual bags before customers can purchase it.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837221183",
+            "handle": "accessories"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo smooth material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Reach shoulder strap | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the reach shoulder strap concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15445463630143",
+      "title": "Pebble bag charm",
+      "handle": "pebble-bag-charm",
+      "status": "ACTIVE",
+      "tags": [
+        "accessory",
+        "bone",
+        "cognac",
+        "demo",
+        "everyday",
+        "featured",
+        "material-pebbled"
+      ],
+      "productType": "Bag accessory",
+      "descriptionHtml": "<p>Pebble adds a small oval accent to a bag through a narrow loop and a simple clasp. The proposed design keeps the scale modest, bringing a little variation in shape and color while respecting the collection's quiet exterior. It is imagined as an optional personal detail rather than an essential attachment. This charm is an illustrative demo item; verify its fastening, finish, materials, dimensions, and compatibility with the actual bag hardware before it is sold.</p>",
+      "totalInventory": 0,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837221183",
+            "handle": "accessories"
+          },
+          {
+            "id": "gid://shopify/Collection/519837286719",
+            "handle": "featured"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "atelier_vane_demo",
+            "key": "seed_id",
+            "value": "atelier-vane-demo-v1"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Demo pebbled material placeholder. Verify composition and lining before sale."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "Demo dimensions are not verified. Measure the physical sample before launch."
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "Demo care guidance: consult the confirmed material supplier instructions before sale."
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Pebble bag charm | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore the pebble bag charm concept in our Atelier Veyne development catalog. Demo imagery and specifications require replacement before sale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15459351593279",
+      "title": "Marlow top-handle bag",
+      "handle": "marlow-top-handle-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "cj-import",
+        "crossbody-bag",
+        "elephant-gray",
+        "milkshake-white",
+        "new-arrival"
+      ],
+      "productType": "Crossbody bag",
+      "descriptionHtml": "<p>A rounded flap and a neat top handle give Marlow its understated shape. Pebbled texture and contrast stitching bring definition to the exterior, while a shoulder strap offers another way to carry it.</p><ul>\n<li>Top handle and shoulder strap</li>\n<li>Flap-front design</li>\n<li>Internal phone pocket and zippered compartment</li>\n</ul>",
+      "totalInventory": 35092,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837057343",
+            "handle": "crossbody-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Cowhide leather with polyester lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2408310805071622300"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_import_batch",
+            "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_fulfillment_link_verified",
+            "value": "false"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Milkshake White\":\"#EFE9DA\",\"Black\":\"#1B1A18\",\"Elephant Gray\":\"#9C8C72\"}"
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Marlow top-handle bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Marlow top-handle bag. Top handle and shoulder strap. Flap-front design. Discover considered everyday bags at Atelier Veyne."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15459352117567",
+      "title": "Alder bucket bag",
+      "handle": "alder-bucket-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "cj-import",
+        "khaki",
+        "new-arrival",
+        "shoulder-bag"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Alder pairs a tall bucket silhouette with softly textured leather and a simple turn-lock detail. A top handle and longer strap keep the shape adaptable, while internal pockets give small essentials a place.</p><ul>\n<li>Bucket silhouette with top handle</li>\n<li>Long shoulder strap</li>\n<li>Internal phone pocket and zippered compartment</li>\n</ul>",
+      "totalInventory": 21387,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Split cowhide leather."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "1756516170586402816"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_import_batch",
+            "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_fulfillment_link_verified",
+            "value": "false"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Black\":\"#1B1A18\",\"Khaki\":\"#847966\"}"
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Alder bucket bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Alder bucket bag. Bucket silhouette with top handle. Long shoulder strap. Discover considered everyday bags at Atelier Veyne."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15459352281407",
+      "title": "Sora bucket bag",
+      "handle": "sora-bucket-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "angora-red",
+        "black",
+        "brown",
+        "caramel-mocha",
+        "cj-import",
+        "new-arrival",
+        "shoulder-bag"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Sora brings a clean bucket shape together with a slim handle and a small metal fastening. The softly structured body and understated stitching make it an easy companion to a considered everyday wardrobe.</p><ul>\n<li>Bucket silhouette</li>\n<li>Top handle and longer strap</li>\n<li>Internal phone, card and zippered pockets</li>\n</ul>",
+      "totalInventory": 34179,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Split cowhide leather with polyester-cotton lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2607121014121623000"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_import_batch",
+            "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_fulfillment_link_verified",
+            "value": "false"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Brown\":\"#57392D\",\"Caramel Mocha\":\"#A86E43\",\"Angora Red\":\"#6E2D37\",\"Black\":\"#1B1A18\"}"
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Sora bucket bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Sora bucket bag. Bucket silhouette. Top handle and longer strap. Discover considered everyday bags at Atelier Veyne."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15459352412479",
+      "title": "Elin bucket bag",
+      "handle": "elin-bucket-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "brown",
+        "cj-import",
+        "new-arrival",
+        "shoulder-bag",
+        "yellow"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Elin gives the everyday bucket bag a simple, composed outline. A soft handle and a lock closure frame the design, with internal pockets for keeping smaller essentials together. Bucket shape with soft handle Lock closure Internal zip, phone and card pockets</p>",
+      "totalInventory": 135643,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Split cowhide leather with polyester lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "1458719239455248384"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_import_batch",
+            "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_fulfillment_link_verified",
+            "value": "false"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Yellow\":\"#C99640\",\"Black\":\"#1B1A18\",\"Brown\":\"#A15D3D\"}"
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Elin bucket bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Elin bucket bag. Bucket shape with soft handle. Lock closure. Discover considered everyday bags at Atelier Veyne."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "xcvxcvcxvcxv"
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "xvxvxcv"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15459352478015",
+      "title": "Orla barrel bag",
+      "handle": "orla-barrel-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "beige",
+        "black",
+        "brown",
+        "cj-import",
+        "coffee",
+        "new-arrival",
+        "shoulder-bag",
+        "wine-red"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Orla brings a compact cylindrical shape to everyday dressing. The structured outline, single shoulder strap and restrained metal accents give it a simple, distinctive presence.</p><ul>\n<li>Cylindrical silhouette</li>\n<li>Single shoulder strap</li>\n<li>Internal zippered pocket</li>\n</ul>",
+      "totalInventory": 37017,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Cowhide leather with polyester-cotton lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "20 × 10 × 12 cm."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2607070853511612201"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_import_batch",
+            "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_fulfillment_link_verified",
+            "value": "false"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Black\":\"#1B1A18\",\"Beige\":\"#E8E2D4\",\"Coffee\":\"#3D2B23\",\"Wine Red\":\"#73343E\",\"Brown\":\"#654735\"}"
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Orla barrel bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Orla barrel bag. Cylindrical silhouette. Single shoulder strap. Discover considered everyday bags at Atelier Veyne."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15459352674623",
+      "title": "Linden zip handbag",
+      "handle": "linden-zip-handbag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "cj-import",
+        "coffee",
+        "earthy-yellow",
+        "new-arrival",
+        "red",
+        "shoulder-bag"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Linden keeps its lines simple with a soft handle, stitched detailing and a zip opening. The understated shape is finished with an internal slip pocket for smaller essentials.</p><ul>\n<li>Soft handle</li>\n<li>Zip opening</li>\n<li>Internal slip pocket</li>\n</ul>",
+      "totalInventory": 80000,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Split cowhide leather with polyester lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "295A6204-FA3E-4BFF-A999-D44F5C61CA21"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_import_batch",
+            "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_fulfillment_link_verified",
+            "value": "false"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Black\":\"#1B1A18\",\"Earthy yellow\":\"#A76131\",\"Coffee\":\"#684335\",\"Red\":\"#A43E3D\"}"
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Linden zip handbag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Linden zip handbag. Soft handle. Zip opening. Discover considered everyday bags at Atelier Veyne."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15459352838463",
+      "title": "Rhea crossbody bag",
+      "handle": "rhea-crossbody-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "cj-import",
+        "crossbody-bag",
+        "new-arrival",
+        "reddish-brown"
+      ],
+      "productType": "Crossbody bag",
+      "descriptionHtml": "<p>Rhea pairs a horizontal silhouette with a warm reddish-brown finish. Visible stitching gives the exterior definition, while internal pockets help separate the small things you reach for throughout the day.</p><ul>\n<li>Horizontal silhouette</li>\n<li>Internal phone and document pockets</li>\n<li>Internal zippered pocket</li>\n</ul>",
+      "totalInventory": 8231,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837057343",
+            "handle": "crossbody-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Cowhide leather with polyester lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2506110631251623700"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_import_batch",
+            "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_fulfillment_link_verified",
+            "value": "false"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Reddish Brown\":\"#6F4330\"}"
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Rhea crossbody bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Rhea crossbody bag. Horizontal silhouette. Internal phone and document pockets. Discover considered everyday bags at Atelier Veyne."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15459353002303",
+      "title": "Luma shoulder bag",
+      "handle": "luma-shoulder-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "beige",
+        "black",
+        "cj-import",
+        "new-arrival",
+        "shoulder-bag"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Luma has a softly shaped body with understated stitched detailing. The simple silhouette and internal compartment make it a quiet addition to an everyday wardrobe.</p><ul>\n<li>Soft pillow-style silhouette</li>\n<li>Single-shoulder design</li>\n<li>Internal compartment</li>\n</ul>",
+      "totalInventory": 25870,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Cowhide leather with polyester lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2407270630041615800"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_import_batch",
+            "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_fulfillment_link_verified",
+            "value": "false"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Black\":\"#1B1A18\",\"Beige\":\"#EEE7D1\"}"
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Luma shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Luma shoulder bag. Soft pillow-style silhouette. Single-shoulder design. Discover considered everyday bags at Atelier Veyne."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15459353133375",
+      "title": "Esme crossbody bag",
+      "handle": "esme-crossbody-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "black",
+        "caramel",
+        "cj-import",
+        "crossbody-bag",
+        "khaki",
+        "new-arrival"
+      ],
+      "productType": "Crossbody bag",
+      "descriptionHtml": "<p>Esme keeps its horizontal shape simple, with soft leather and an understated exterior. Internal zippered and document pockets give smaller essentials their own place.</p><ul>\n<li>Soft horizontal silhouette</li>\n<li>Internal zippered pocket</li>\n<li>Internal document pocket</li>\n</ul>",
+      "totalInventory": 20110,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837057343",
+            "handle": "crossbody-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Cowhide leather with polyester lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "26 × 16 × 9 cm."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2509070113221629600"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_import_batch",
+            "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_fulfillment_link_verified",
+            "value": "false"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Black\":\"#1B1A18\",\"Khaki\":\"#9D8A67\",\"Caramel\":\"#A26636\"}"
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Esme crossbody bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Esme crossbody bag. Soft horizontal silhouette. Internal zippered pocket. Discover considered everyday bags at Atelier Veyne."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15459353362751",
+      "title": "Milo compact crossbody",
+      "handle": "milo-compact-crossbody",
+      "status": "ACTIVE",
+      "tags": [
+        "beige",
+        "black",
+        "caramel",
+        "cj-import",
+        "crossbody-bag",
+        "gray",
+        "green",
+        "new-arrival"
+      ],
+      "productType": "Crossbody bag",
+      "descriptionHtml": "<p>Milo brings a softly curved profile to a pared-back everyday edit. Pebbled leather, a zip opening and two ways to carry keep the design simple, with five source colors to choose from.</p><ul>\n<li>Curved zip-top silhouette</li>\n<li>Soft construction</li>\n<li>Top handle and longer strap</li>\n</ul>",
+      "totalInventory": 39812,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837057343",
+            "handle": "crossbody-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Cowhide leather."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2510110122001632000"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_import_batch",
+            "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_fulfillment_link_verified",
+            "value": "false"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Black\":\"#1B1A18\",\"Beige\":\"#D6C3A5\",\"Gray\":\"#85817C\",\"Caramel\":\"#B58B60\",\"Green\":\"#3F604B\"}"
+          },
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Milo compact crossbody | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Milo compact crossbody. Curved zip-top silhouette with soft construction. Explore the everyday edit at Atelier Veyne."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15464176746815",
+      "title": "Lune zip handbag",
+      "handle": "lune-zip-handbag",
+      "status": "ACTIVE",
+      "tags": [
+        "cj-import",
+        "everyday",
+        "new-arrival",
+        "shoulder-bag"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Lune brings a softly rounded shape to everyday dressing. Its pebbled surface, curved zip opening and pared-back front keep the silhouette quietly defined. Carry it by the twin handles or use the longer strap for another way to wear it.</p><p>A zippered interior pocket and phone pocket help keep smaller belongings together. Available in Black, Brown and Light Gray.</p>",
+      "totalInventory": 18850,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Lune zip handbag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "A softly rounded leather handbag with twin handles, a curved zip opening and a longer strap. Discover Lune by Atelier Veyne in three colors."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2602240521431615000"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Black\":\"#1B1A18\",\"Brown\":\"#3E2B22\",\"Light Gray\":\"#C4BEAC\"}"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Leather exterior with polyester lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "32 × 11 × 22 cm (length × width × height), as stated by the supplier."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15464394752319",
+      "title": "Reed baguette bag",
+      "handle": "reed-baguette-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "cj-import",
+        "everyday",
+        "new-arrival",
+        "shoulder-bag"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>A long, low silhouette gives Reed its understated character. Smooth leather, elongated twin handles and pointed handle attachments create a clean line against everyday layers. A paired zip opening follows the top of the bag, while an internal phone pocket gives a small essential its own place.</p><p>Choose Black, Coffee or Wine Red. The quiet shape moves easily from a simple daytime outfit to an evening look.</p>",
+      "totalInventory": 21042,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Reed baguette bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Discover Reed, a slim leather baguette bag with long twin handles and a paired zip opening. Available in Black, Coffee and Wine Red at Atelier Veyne."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2604020624051609200"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Black\":\"#1B1A18\",\"Coffee\":\"#583A2C\",\"Wine Red\":\"#65242D\"}"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Split cowhide leather exterior with polyester-cotton lining."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15464427880767",
+      "title": "Iris soft shoulder bag",
+      "handle": "iris-soft-shoulder-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "cj-import",
+        "everyday",
+        "new-arrival",
+        "shoulder-bag"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Iris brings a soft, gently tapered shape to an everyday shoulder bag. A single handle follows the curve of its folded front, finished with a small silver-tone turn lock. The pebbled surface and pared-back outline keep the focus on the silhouette.</p><p>Available in Beige, Elephant Gray, Pink, Brown, Black and Blue, Iris adds a quiet accent to simple layers.</p>",
+      "totalInventory": 44020,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Iris soft shoulder bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Explore Iris, a softly shaped leather shoulder bag with a single handle and discreet silver-tone turn lock. Six colors, by Atelier Veyne."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2606280932411629600"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Beige\":\"#E8DFD2\",\"Elephant Gray\":\"#B6A08A\",\"Pink\":\"#E7BBC7\",\"Brown\":\"#4B363A\",\"Black\":\"#24252A\",\"Blue\":\"#AFC9DF\"}"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Leather exterior with polyester-cotton lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "ffdgdfgfdg"
+          },
+          {
+            "namespace": "custom",
+            "key": "care",
+            "value": "dfgfdgfdgdgf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15464451539263",
+      "title": "Ellis long-handle bag",
+      "handle": "ellis-long-handle-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "cj-import",
+        "everyday",
+        "new-arrival",
+        "shoulder-bag"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Ellis pairs a rounded rectangular body with long twin handles and a softly pebbled finish. A curved zip opening follows its upper edge, while the uncluttered front keeps the shape understated. Choose Black or Brown for an easy companion to everyday layers.</p><p>A zippered inner pocket, phone pocket and card pocket give smaller belongings their own place. The long handles offer an easy way to carry it through the day.</p>",
+      "totalInventory": 15063,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Ellis long-handle bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Discover Ellis, a pebbled leather bag with long twin handles and a curved zip opening. Available in Black and Brown at Atelier Veyne."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2607070313251623100"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Black\":\"#1B1A18\",\"Brown\":\"#44312B\"}"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Leather exterior with polyester-cotton lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "33 × 12 × 21 cm, as stated by the supplier."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15464459665727",
+      "title": "Wren bowling bag",
+      "handle": "wren-bowling-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "cj-import",
+        "everyday",
+        "new-arrival",
+        "shoulder-bag"
+      ],
+      "productType": "Shoulder bag",
+      "descriptionHtml": "<p>Wren gives the bowling-bag silhouette a restrained everyday expression. Its softly rounded body, pebbled finish and long twin handles create a clean profile, with a zip opening along the top and a small hanging leather detail.</p><p>A phone pocket and zippered compartment help organize the interior. Choose from Ebony Colors, Black, Milkshake White, Golden Brown and Dark Gray.</p>",
+      "totalInventory": 42021,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Wren bowling bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Meet Wren, a pebbled leather bowling bag with long twin handles and a zip opening. Discover five colors in the Atelier Veyne collection."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2608040718451626300"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Ebony Colors\":\"#453C32\",\"Black\":\"#1B1A18\",\"Milkshake White\":\"#E6DECE\",\"Golden Brown\":\"#A66D38\",\"Dark Gray\":\"#746A60\"}"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Cowhide leather exterior with synthetic-leather lining."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15464465563967",
+      "title": "Alba mini crossbody bag",
+      "handle": "alba-mini-crossbody-bag",
+      "status": "ACTIVE",
+      "tags": [
+        "cj-import",
+        "crossbody-bag",
+        "everyday",
+        "new-arrival"
+      ],
+      "productType": "Crossbody bag",
+      "descriptionHtml": "<p>A small crescent shape, a curved zip opening and a softly pebbled surface give Alba its quiet character. The short handle keeps the silhouette compact, while the longer strap offers another way to carry it. Silver-tone hardware adds a restrained finishing detail.</p><p>Inside, a zippered pocket and card compartment help separate smaller belongings. At 15 × 10 × 14 cm, Alba is a compact choice for a light everyday carry.</p>",
+      "totalInventory": 43496,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519837057343",
+            "handle": "crossbody-bags"
+          },
+          {
+            "id": "gid://shopify/Collection/519837253951",
+            "handle": "new-arrivals"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": [
+          {
+            "namespace": "global",
+            "key": "title_tag",
+            "value": "Alba mini crossbody bag | Atelier Veyne"
+          },
+          {
+            "namespace": "global",
+            "key": "description_tag",
+            "value": "Meet Alba, a compact crescent crossbody bag with a curved zip opening, short handle and longer strap. Explore six colors at Atelier Veyne."
+          },
+          {
+            "namespace": "custom",
+            "key": "cj_product_id",
+            "value": "2608221231211620900"
+          },
+          {
+            "namespace": "custom",
+            "key": "color_swatches",
+            "value": "{\"Chick Yellow\":\"#E3D26B\",\"Milk Shake Powder\":\"#DDC6CD\",\"Matcha Green\":\"#B7C6AF\",\"Milkshake White\":\"#E7E1D4\",\"Black\":\"#1B1A18\",\"Elephant Gray\":\"#A79780\"}"
+          },
+          {
+            "namespace": "custom",
+            "key": "material",
+            "value": "Leather exterior with polyester-cotton lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "value": "15 × 10 × 14 cm, as stated by the supplier."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Product/15464659386687",
+      "title": "Bags Women New Mumm",
+      "handle": "bags-women-new-mummy-bags-european-and-american-fashion-womens-bags-shoulder-bags-handbags-one-drop-shipping-bags",
+      "status": "ACTIVE",
+      "tags": [],
+      "productType": "Tote bag",
+      "descriptionHtml": "<p>\n <b>Product information:</b>\n <br>\n <br>\n Material: High quality cowhide \n</p>\n<p>Color: Silver, bronze, wine, red, blue and black </p>\n<p>Accessories: Shoulder straps </p>\n<p>Suitable place: leisure party, work and shopping </p>\n<p>Back method: one shoulder/hand/slung </p>\n<p>Structure: 1 main bag/1 liner </p>\n<p>Size: 34CM long, 15CM wide, 31CM high</p>",
+      "totalInventory": 200000,
+      "onlineStoreUrl": null,
+      "collections": {
+        "nodes": [
+          {
+            "id": "gid://shopify/Collection/519832305983",
+            "handle": "frontpage"
+          },
+          {
+            "id": "gid://shopify/Collection/519837024575",
+            "handle": "shoulder-bags"
+          }
+        ]
+      },
+      "metafields": {
+        "nodes": []
+      }
+    }
+  ],
+  "theme": {
+    "id": "gid://shopify/OnlineStoreTheme/189635821887",
+    "name": "atelier-veyne-theme",
+    "role": "UNPUBLISHED",
+    "files": {
+      "nodes": [
+        {
+          "filename": "config/settings_data.json",
+          "body": {
+            "content": "/*\n * ------------------------------------------------------------\n * IMPORTANT: The contents of this file are auto-generated.\n *\n * This file may be updated by the Shopify admin theme editor\n * or related systems. Please exercise caution as any changes\n * made to this file may be overwritten.\n * ------------------------------------------------------------\n */\n{\n  \"current\": {\n    \"color_bg\": \"#F5F1EA\",\n    \"color_surface\": \"#ECE5DA\",\n    \"color_ink\": \"#1B1A18\",\n    \"color_muted\": \"#6B6258\",\n    \"color_accent\": \"#9A4F36\",\n    \"color_border\": \"#D9D0C3\",\n    \"color_inverse_bg\": \"#1B1A18\",\n    \"color_inverse_text\": \"#F5F1EA\",\n    \"heading_font\": \"garamond_n4\",\n    \"body_font\": \"assistant_n4\",\n    \"page_width\": 1320,\n    \"brand_name\": \"Atelier Veyne\",\n    \"cart_type\": \"drawer\",\n    \"free_shipping_threshold\": 0,\n    \"enable_cart_notes\": true,\n    \"offers_enabled\": true,\n    \"welcome_auto_open\": true,\n    \"welcome_delay\": 2,\n    \"welcome_frequency\": 7,\n    \"offers_collection\": \"wallets-and-cardholders\",\n    \"welcome_discount_enabled\": false,\n    \"bundle_offer_enabled\": true,\n    \"bundle_offer_code\": \"TEST10\",\n    \"bundle_offer_heading\": \"Add a wallet. Save 10% on your bag.\",\n    \"bundle_offer_terms\": \"Buy a bag with a wallet, cardholder or accessory and use TEST10 for 10% off one bag. One discounted bag per order. Shopify confirms eligibility and final savings.\",\n    \"offer_bag\": \"cove-shoulder-bag\",\n    \"offer_wallet\": \"turn-wallet\"\n  }\n}\n"
+          }
+        },
+        {
+          "filename": "sections/footer-group.json",
+          "body": {
+            "content": "/*\n * ------------------------------------------------------------\n * IMPORTANT: The contents of this file are auto-generated.\n *\n * This file may be updated by the Shopify admin theme editor\n * or related systems. Please exercise caution as any changes\n * made to this file may be overwritten.\n * ------------------------------------------------------------\n */\n{\n  \"name\": \"Footer\",\n  \"type\": \"footer\",\n  \"sections\": {\n    \"footer\": {\n      \"type\": \"footer\",\n      \"settings\": {\n        \"menu\": \"footer\",\n        \"brand_bio\": \"Considered bags and everyday essentials. Calm colors, thoughtful proportions.\",\n        \"newsletter_subtext\": \"New shapes, collection updates and occasional notes from the atelier.\",\n        \"show_payment_icons\": true,\n        \"show_newsletter\": true\n      },\n      \"blocks\": {\n        \"text\": {\n          \"type\": \"text\",\n          \"settings\": {}\n        },\n        \"link_list\": {\n          \"type\": \"link_list\",\n          \"settings\": {\n            \"menu\": \"footer\"\n          }\n        },\n        \"newsletter\": {\n          \"type\": \"newsletter\",\n          \"settings\": {}\n        },\n        \"social\": {\n          \"type\": \"social\",\n          \"settings\": {}\n        },\n        \"payment\": {\n          \"type\": \"payment\",\n          \"settings\": {}\n        },\n        \"localization\": {\n          \"type\": \"localization\",\n          \"settings\": {}\n        }\n      },\n      \"block_order\": [\n        \"text\",\n        \"link_list\",\n        \"newsletter\",\n        \"social\",\n        \"payment\",\n        \"localization\"\n      ]\n    }\n  },\n  \"order\": [\n    \"footer\"\n  ]\n}\n"
+          }
+        },
+        {
+          "filename": "sections/header-group.json",
+          "body": {
+            "content": "/*\n * ------------------------------------------------------------\n * IMPORTANT: The contents of this file are auto-generated.\n *\n * This file may be updated by the Shopify admin theme editor\n * or related systems. Please exercise caution as any changes\n * made to this file may be overwritten.\n * ------------------------------------------------------------\n */\n{\n  \"name\": \"Header\",\n  \"type\": \"header\",\n  \"sections\": {\n    \"announcement-bar\": {\n      \"type\": \"announcement-bar\",\n      \"settings\": {\n        \"show_announcement\": true,\n        \"text\": \"Considered bags. Everyday companions.\",\n        \"cta_label\": \"Shop the collection\",\n        \"link\": \"/collections/all\"\n      }\n    },\n    \"header\": {\n      \"type\": \"header\",\n      \"settings\": {\n        \"enable_transparent_header\": false,\n        \"menu\": \"main-menu\"\n      }\n    }\n  },\n  \"order\": [\n    \"announcement-bar\",\n    \"header\"\n  ]\n}\n"
+          }
+        },
+        {
+          "filename": "templates/index.json",
+          "body": {
+            "content": "/*\n * ------------------------------------------------------------\n * IMPORTANT: The contents of this file are auto-generated.\n *\n * This file may be updated by the Shopify admin theme editor\n * or related systems. Please exercise caution as any changes\n * made to this file may be overwritten.\n * ------------------------------------------------------------\n */\n{\n  \"sections\": {\n    \"hero\": {\n      \"type\": \"hero\",\n      \"settings\": {\n        \"overlay_opacity\": 60,\n        \"full_height\": true,\n        \"eyebrow\": \"Atelier Veyne\",\n        \"heading\": \"Quietly essential.\",\n        \"subhead\": \"Considered shapes for the things you carry.\",\n        \"button_label\": \"Explore the collection\",\n        \"button_link\": \"/collections/all\"\n      }\n    },\n    \"categories\": {\n      \"type\": \"category-tiles\",\n      \"blocks\": {\n        \"c0\": {\n          \"type\": \"category\",\n          \"settings\": {\n            \"collection\": \"shoulder-bags\",\n            \"label\": \"Shoulder bags\"\n          }\n        },\n        \"c1\": {\n          \"type\": \"category\",\n          \"settings\": {\n            \"collection\": \"crossbody-bags\",\n            \"label\": \"Crossbody bags\"\n          }\n        },\n        \"c2\": {\n          \"type\": \"category\",\n          \"settings\": {\n            \"collection\": \"tote-bags\",\n            \"label\": \"Tote bags\"\n          }\n        },\n        \"c3\": {\n          \"type\": \"category\",\n          \"settings\": {\n            \"collection\": \"mini-and-clutch-bags\",\n            \"label\": \"Mini and clutch bags\"\n          }\n        },\n        \"c4\": {\n          \"type\": \"category\",\n          \"settings\": {\n            \"collection\": \"wallets-and-cardholders\",\n            \"label\": \"Wallets and cardholders\"\n          }\n        },\n        \"c5\": {\n          \"type\": \"category\",\n          \"settings\": {\n            \"collection\": \"accessories\",\n            \"label\": \"Accessories\"\n          }\n        }\n      },\n      \"block_order\": [\n        \"c0\",\n        \"c1\",\n        \"c2\",\n        \"c3\",\n        \"c4\",\n        \"c5\"\n      ],\n      \"settings\": {\n        \"heading\": \"Explore by shape\"\n      }\n    },\n    \"best_sellers\": {\n      \"type\": \"featured-collection\",\n      \"settings\": {\n        \"columns\": \"4\",\n        \"eyebrow\": \"The everyday edit\",\n        \"text\": \"Find your everyday companion. Explore the shapes at the heart of Atelier Veyne.\",\n        \"heading\": \"Best Sellers\",\n        \"collection\": \"featured\",\n        \"limit\": 4\n      }\n    },\n    \"new\": {\n      \"type\": \"featured-collection\",\n      \"settings\": {\n        \"columns\": \"global\",\n        \"eyebrow\": \"\",\n        \"text\": \"\",\n        \"heading\": \"New arrivals\",\n        \"collection\": \"new-arrivals\",\n        \"limit\": 6\n      }\n    },\n    \"story\": {\n      \"type\": \"brand-story\",\n      \"settings\": {\n        \"page_heading\": false,\n        \"eyebrow\": \"Our philosophy\",\n        \"heading\": \"Fewer, better things.\",\n        \"story_text\": \"<p>We believe the pieces you reach for every day should feel effortless. Simple shapes, calm colors and considered proportions are the starting point for everything we design.</p><p>From a compact shoulder bag to a roomy tote, each silhouette has a place in the rhythm of a day. Our philosophy is to keep the essentials in focus and let the details speak quietly.</p>\",\n        \"signoff_name\": \"Atelier Veyne Studio\",\n        \"signoff_title\": \"Design and proportion\"\n      }\n    },\n    \"look\": {\n      \"type\": \"shop-the-look\",\n      \"blocks\": {\n        \"tote\": {\n          \"type\": \"pin\",\n          \"settings\": {\n            \"product\": \"plane-tote-bag\",\n            \"x\": 34,\n            \"y\": 60\n          }\n        },\n        \"wallet\": {\n          \"type\": \"pin\",\n          \"settings\": {\n            \"product\": \"turn-wallet\",\n            \"x\": 72,\n            \"y\": 54\n          }\n        }\n      },\n      \"block_order\": [\n        \"tote\",\n        \"wallet\"\n      ],\n      \"settings\": {\n        \"heading\": \"In good company\"\n      }\n    },\n    \"featured\": {\n      \"type\": \"featured-collection\",\n      \"settings\": {\n        \"columns\": \"global\",\n        \"eyebrow\": \"\",\n        \"text\": \"\",\n        \"heading\": \"A considered edit\",\n        \"collection\": \"featured\",\n        \"limit\": 6\n      }\n    },\n    \"benefits\": {\n      \"type\": \"trust-strip\",\n      \"settings\": {}\n    },\n    \"reviews\": {\n      \"type\": \"product-reviews\",\n      \"settings\": {\n        \"publish_reviews\": false,\n        \"show_empty\": false,\n        \"eyebrow\": \"Client reflections\",\n        \"heading\": \"Customer reviews\"\n      }\n    },\n    \"construction\": {\n      \"type\": \"comparison-table\",\n      \"blocks\": {\n        \"construction-0\": {\n          \"type\": \"feature\",\n          \"settings\": {\n            \"feature\": \"Materials\",\n            \"our_text\": \"Find the stated composition on each product page.\",\n            \"compare_text\": \"Check the material and finish for the piece you choose.\"\n          }\n        },\n        \"construction-1\": {\n          \"type\": \"feature\",\n          \"settings\": {\n            \"feature\": \"Hardware\",\n            \"our_text\": \"Check the closure and hardware details for each design.\",\n            \"compare_text\": \"Look for clear information about hardware and fastening.\"\n          }\n        },\n        \"construction-2\": {\n          \"type\": \"feature\",\n          \"settings\": {\n            \"feature\": \"Edges and seams\",\n            \"our_text\": \"Explore the close-up product photographs.\",\n            \"compare_text\": \"Compare finishing details using actual product photography.\"\n          }\n        },\n        \"construction-3\": {\n          \"type\": \"feature\",\n          \"settings\": {\n            \"feature\": \"Interior\",\n            \"our_text\": \"See each product's dimensions and interior details.\",\n            \"compare_text\": \"Compare capacity and pocket placement with your essentials.\"\n          }\n        },\n        \"construction-4\": {\n          \"type\": \"feature\",\n          \"settings\": {\n            \"feature\": \"Care\",\n            \"our_text\": \"Follow the care information supplied for your product.\",\n            \"compare_text\": \"Check the care instructions for the actual material.\"\n          }\n        }\n      },\n      \"block_order\": [\n        \"construction-0\",\n        \"construction-1\",\n        \"construction-2\",\n        \"construction-3\",\n        \"construction-4\"\n      ],\n      \"settings\": {\n        \"eyebrow\": \"Honest Construction\",\n        \"heading\": \"A Direct Comparison\",\n        \"subhead\": \"A closer look at the details that matter.\",\n        \"other_heading\": \"What to look for\"\n      }\n    },\n    \"inquiries\": {\n      \"type\": \"faq-accordion\",\n      \"blocks\": {\n        \"inquiries-0\": {\n          \"type\": \"faq_item\",\n          \"settings\": {\n            \"question\": \"Will my phone fit inside the bag?\",\n            \"answer\": \"<p>Yes. The bag easily accommodates all modern smartphones up to the iPhone 15 Pro Max and Samsung Galaxy Ultra series, even when enclosed in a protective case, alongside a bifold wallet and keys.</p>\"\n          }\n        },\n        \"inquiries-1\": {\n          \"type\": \"faq_item\",\n          \"settings\": {\n            \"question\": \"Is the leather water resistant?\",\n            \"answer\": \"<p>Our full-grain leather is naturally resilient to light humidity and brief rainfall. If caught in rain, simply blot gently with a dry cotton cloth and allow it to air-dry at room temperature away from heat sources.</p>\"\n          }\n        },\n        \"inquiries-2\": {\n          \"type\": \"faq_item\",\n          \"settings\": {\n            \"question\": \"How long does shipping take?\",\n            \"answer\": \"<p>Orders are dispatched from our studio warehouse within 24 hours on business days. Standard delivery within the US takes 2–4 business days. Complimentary tracking is emailed upon fulfillment.</p>\"\n          }\n        },\n        \"inquiries-3\": {\n          \"type\": \"faq_item\",\n          \"settings\": {\n            \"question\": \"What is your return policy?\",\n            \"answer\": \"<p>We offer a 30-day trial period. If the bag does not suit your everyday needs, return it in original, unworn condition with its dust bag for a full refund. A prepaid return shipping label is provided.</p>\"\n          }\n        },\n        \"inquiries-4\": {\n          \"type\": \"faq_item\",\n          \"settings\": {\n            \"question\": \"Can the shoulder strap length be adjusted?\",\n            \"answer\": \"<p>The strap has a fixed 28 cm drop proportioned specifically to tuck securely under the arm and stay positioned on the shoulder without sliding off your coat.</p>\"\n          }\n        }\n      },\n      \"block_order\": [\n        \"inquiries-0\",\n        \"inquiries-1\",\n        \"inquiries-2\",\n        \"inquiries-3\",\n        \"inquiries-4\"\n      ],\n      \"settings\": {\n        \"page_heading\": false,\n        \"eyebrow\": \"Inquiries\",\n        \"heading\": \"Frequently Asked Questions\",\n        \"subhead\": \"Straightforward answers regarding sizing, leather care, and shipping.\"\n      }\n    }\n  },\n  \"order\": [\n    \"hero\",\n    \"categories\",\n    \"best_sellers\",\n    \"new\",\n    \"story\",\n    \"look\",\n    \"featured\",\n    \"benefits\",\n    \"reviews\",\n    \"construction\",\n    \"inquiries\"\n  ]\n}\n"
+          }
+        },
+        {
+          "filename": "templates/product.json",
+          "body": {
+            "content": "/*\n * ------------------------------------------------------------\n * IMPORTANT: The contents of this file are auto-generated.\n *\n * This file may be updated by the Shopify admin theme editor\n * or related systems. Please exercise caution as any changes\n * made to this file may be overwritten.\n * ------------------------------------------------------------\n */\n{\n  \"sections\": {\n    \"main\": {\n      \"type\": \"main-product\",\n      \"blocks\": {\n        \"title\": {\n          \"type\": \"title\",\n          \"settings\": {}\n        },\n        \"price\": {\n          \"type\": \"price\",\n          \"settings\": {}\n        },\n        \"variant_picker\": {\n          \"type\": \"variant_picker\",\n          \"settings\": {}\n        },\n        \"quantity_selector\": {\n          \"type\": \"quantity_selector\",\n          \"settings\": {}\n        },\n        \"buy_buttons\": {\n          \"type\": \"buy_buttons\",\n          \"settings\": {}\n        },\n        \"description\": {\n          \"type\": \"description\",\n          \"settings\": {}\n        },\n        \"material\": {\n          \"type\": \"collapsible_tab\",\n          \"settings\": {\n            \"heading\": \"Materials\",\n            \"source\": \"material\",\n            \"content\": \"<p>Information is being prepared. Contact us for details.</p>\",\n            \"open_by_default\": true\n          }\n        },\n        \"dimensions\": {\n          \"type\": \"collapsible_tab\",\n          \"settings\": {\n            \"heading\": \"Dimensions\",\n            \"source\": \"dimensions\",\n            \"content\": \"<p>Information is being prepared. Contact us for details.</p>\",\n            \"open_by_default\": false\n          }\n        },\n        \"care\": {\n          \"type\": \"collapsible_tab\",\n          \"settings\": {\n            \"heading\": \"Care\",\n            \"source\": \"care\",\n            \"content\": \"<p>Information is being prepared. Contact us for details.</p>\",\n            \"open_by_default\": false\n          }\n        },\n        \"pairing_offer\": {\n          \"type\": \"pairing_offer\",\n          \"settings\": {}\n        }\n      },\n      \"block_order\": [\n        \"title\",\n        \"price\",\n        \"variant_picker\",\n        \"quantity_selector\",\n        \"buy_buttons\",\n        \"pairing_offer\",\n        \"description\",\n        \"material\",\n        \"dimensions\",\n        \"care\"\n      ],\n      \"settings\": {}\n    },\n    \"related\": {\n      \"type\": \"product-recommendations\",\n      \"settings\": {\n        \"heading\": \"You may also like\",\n        \"intent\": \"related\",\n        \"limit\": 4\n      }\n    },\n    \"complementary\": {\n      \"type\": \"product-recommendations\",\n      \"settings\": {\n        \"heading\": \"To carry together\",\n        \"intent\": \"complementary\",\n        \"limit\": 4\n      }\n    },\n    \"recent\": {\n      \"type\": \"recently-viewed\",\n      \"settings\": {}\n    },\n    \"reviews\": {\n      \"type\": \"product-reviews\",\n      \"settings\": {\n        \"publish_reviews\": true,\n        \"show_empty\": true,\n        \"heading\": \"Customer reviews\"\n      }\n    },\n    \"carry_edit\": {\n      \"type\": \"complete-your-carry\",\n      \"settings\": {\n        \"collection\": \"wallets-and-cardholders\",\n        \"limit\": 3\n      }\n    }\n  },\n  \"order\": [\n    \"main\",\n    \"carry_edit\",\n    \"related\",\n    \"complementary\",\n    \"recent\",\n    \"reviews\"\n  ]\n}\n"
+          }
+        }
+      ]
+    }
+  }
+}

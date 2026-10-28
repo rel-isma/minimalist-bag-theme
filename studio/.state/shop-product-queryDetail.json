@@ -1,0 +1,72 @@
+[
+  {
+    "shopId": "2610192154423535300",
+    "shopName": "s35my0-uu",
+    "shopType": "Shopify",
+    "platformProductId": "15459351593279",
+    "platformProductTitle": "Marlow top-handle bag",
+    "platformProductImage": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-01.png?v=1792756235",
+    "platformProductPrices": "99.00",
+    "platformProductPricesCurrency": null,
+    "platformProductHandle": "marlow-top-handle-bag",
+    "platformProductType": "Crossbody bag",
+    "platformProductCategoryId": "",
+    "platformProductTags": "[\"black\",\"cj-import\",\"crossbody-bag\",\"elephant-gray\",\"milkshake-white\",\"new-arrival\"]",
+    "shopProductStatus": 4,
+    "relevanceStatus": 2,
+    "createDateTime": 1792768562000,
+    "variants": [
+      {
+        "platformProductId": "15459351593279",
+        "platformVariantId": "67841875378495",
+        "platformVariantSku": "CJNS212501201AZ",
+        "platformVariantTitle": "Milkshake White",
+        "platformVariantImage": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-01.png?v=1792756235",
+        "price": 99,
+        "priceUSD": null,
+        "priceCurrency": null,
+        "grams": "0",
+        "weight": 0,
+        "weightUnit": "kg",
+        "relevanceStatus": "2",
+        "inventoryItemStatus": "2",
+        "shopProductStatus": null,
+        "createDateTime": 1792768562000
+      },
+      {
+        "platformProductId": "15459351593279",
+        "platformVariantId": "67841875411263",
+        "platformVariantSku": "CJNS212501202BY",
+        "platformVariantTitle": "Black",
+        "platformVariantImage": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-02.png?v=1792756234",
+        "price": 99,
+        "priceUSD": null,
+        "priceCurrency": null,
+        "grams": "0",
+        "weight": 0,
+        "weightUnit": "kg",
+        "relevanceStatus": "2",
+        "inventoryItemStatus": "2",
+        "shopProductStatus": null,
+        "createDateTime": 1792768562000
+      },
+      {
+        "platformProductId": "15459351593279",
+        "platformVariantId": "67841875444031",
+        "platformVariantSku": "CJNS212501203CX",
+        "platformVariantTitle": "Elephant Gray",
+        "platformVariantImage": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-03.png?v=1792756235",
+        "price": 99,
+        "priceUSD": null,
+        "priceCurrency": null,
+        "grams": "0",
+        "weight": 0,
+        "weightUnit": "kg",
+        "relevanceStatus": "2",
+        "inventoryItemStatus": "2",
+        "shopProductStatus": null,
+        "createDateTime": 1792768562000
+      }
+    ]
+  }
+]

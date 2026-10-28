@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "stage": "prepared_for_owner_review",
+  "publishingApproved": false,
+  "source": {
+    "cjProductId": "2407270630041615800",
+    "cjProductSku": "CJNS2094768",
+    "originalTitle": "Leather Large Capacity Shoulder Crossbody Bag",
+    "productFile": "../source/product.json",
+    "variantsFile": "../source/variants.json"
+  },
+  "shopify": {
+    "title": "Luma shoulder bag",
+    "handle": "luma-shoulder-bag",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "descriptionHtml": "<p>Luma has a softly shaped body with understated stitched detailing. The simple silhouette and internal compartment make it a quiet addition to an everyday wardrobe.</p><ul><li>Soft pillow-style silhouette</li><li>Single-shoulder design</li><li>Internal compartment</li></ul>",
+    "shortDescription": "Luma has a softly shaped body with understated stitched detailing. The simple silhouette and internal compartment make it a quiet addition to an everyday wardrobe.",
+    "seo": {
+      "title": "Luma shoulder bag | Atelier Veyne",
+      "description": "Luma shoulder bag. Soft pillow-style silhouette. Single-shoulder design. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "Beige"
+        ]
+      }
+    ],
+    "tags": [
+      "shoulder-bag",
+      "cj-import",
+      "black",
+      "beige"
+    ],
+    "suggestedCollections": [
+      "Shoulder bags"
+    ],
+    "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+    "templateSuffix": null,
+    "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+    "statusOnFirstUpload": "DRAFT",
+    "metafields": [
+      {
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Cowhide leather with polyester lining."
+      }
+    ],
+    "omittedMetafields": [
+      "custom.dimensions",
+      "custom.care"
+    ],
+    "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+  },
+  "variants": [
+    {
+      "cjVariantId": "2407270630041616000",
+      "cjProductId": "2407270630041615800",
+      "sku": "CJNS209476801AZ",
+      "barcode": "1600004315277",
+      "sourceOptionKey": "Black",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/f357d2c5-323e-4d21-952f-8c053d6e07df.jpg",
+      "supplierCost": {
+        "amount": "6.41",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "79.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 210,
+        "width": 140,
+        "height": 60,
+        "weight": 420,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2407270630041616200",
+      "cjProductId": "2407270630041615800",
+      "sku": "CJNS209476802BY",
+      "barcode": "1600004315278",
+      "sourceOptionKey": "Beige",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Beige"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/124d47b6-a8d7-4bb7-81c8-72db3f2a9fb4.jpg",
+      "supplierCost": {
+        "amount": "6.41",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "79.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 210,
+        "width": 140,
+        "height": 60,
+        "weight": 420,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Beige",
+      "proposedHex": "#EEE7D1",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "pricing": {
+    "currency": "USD",
+    "suggestedPrice": "79.00",
+    "approved": false,
+    "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+    "excludes": [
+      "Shipping",
+      "Duties and import taxes",
+      "Payment fees",
+      "Returns",
+      "Advertising",
+      "Other operating costs"
+    ]
+  },
+  "specifications": {
+    "material": "Cowhide leather with polyester lining.",
+    "dimensions": null,
+    "care": null,
+    "features": [
+      "Soft pillow-style silhouette",
+      "Single-shoulder design",
+      "Internal compartment"
+    ],
+    "supplierFacts": [
+      "Description identifies genuine cowhide, polyester lining and soft construction."
+    ]
+  },
+  "reviewIssues": [
+    "No dependable product dimensions in descriptive text; do not substitute variant shipping/package measurements."
+  ],
+  "publicationRequirements": [
+    "Owner approval of content, prices and generated photos",
+    "Resolve source specification/variant issues",
+    "Fresh Shopify authorization",
+    "Check existing product CJ IDs, SKUs and proposed handle before deciding create/update",
+    "Verify native CJ-to-Shopify variant fulfillment links",
+    "Verify stock, shipping weight, delivery regions and commercial policies",
+    "Check collection membership, swatches, templates and offer eligibility"
+  ],
+  "media": [
+    {
+      "file": "images/01-atelier-veyne.png",
+      "sourceFile": "../source/images/019-8ec89bc8-1ee7e3a7.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f357d2c5-323e-4d21-952f-8c053d6e07df.jpg",
+      "sourceSha256": "1ee7e3a72474ce1051b8df249dc05ecb36af3c61563d4ce31e4ed620d1a5ccd1",
+      "sha256": "4411b36d57152777942aa024d0b1d519fd5b7c1a26f127dcab4e83d7d7520265",
+      "variantIds": [
+        "2407270630041616000"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "alt": "Luma shoulder bag in Black",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/02-atelier-veyne.png",
+      "sourceFile": "../source/images/003-eed5164c-4cb2c7ee.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/124d47b6-a8d7-4bb7-81c8-72db3f2a9fb4.jpg",
+      "sourceSha256": "4cb2c7eebcfbf34f466b10453e99c277a95e1a6b2b351f65101b484e1b0b6ac8",
+      "sha256": "b4ab0f6a7c0b0f1776084a6f92f5cc580a3e77065e9ad3146b6e7044bd73cf7d",
+      "variantIds": [
+        "2407270630041616200"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "alt": "Luma shoulder bag in Beige",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/03-atelier-veyne.png",
+      "sourceFile": "../source/images/001-8f10179e-1a8f2ee8.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/94032383-44d7-44e1-b2c2-f2918fe859ae.jpg",
+      "sourceSha256": "1a8f2ee8d4fa2a1d47562c37918859e22be86369cd5ddd05ca217ebd6ace3d7f",
+      "sha256": "9d5d8f4246a911821fae0f68d8291922436bf2f398a4db714109ef3aebfc6be3",
+      "variantIds": [],
+      "colors": [],
+      "alt": "Luma shoulder bag, additional view",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    }
+  ],
+  "ownerApproved": false
+}

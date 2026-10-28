@@ -1,0 +1,56 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/008-a47f6915-c14cb3a7.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/a59344fb-f01d-4955-8bce-29e49dc32c20.jpg",
+    "sourceSha256": "c14cb3a7bb5a71d4dbd61f26024c5f4984b7365012ac6627ec8bf7322a745dcb",
+    "sha256": "eaa0ebb00bf00d3d816bc4ce0d3d161bf7df34d6e79f1b873355a811c7e630b1",
+    "variantIds": [
+      "2602021300441600400"
+    ],
+    "colors": [
+      "Brown Viney"
+    ],
+    "alt": "Rowan flap bag in Brown Viney",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/005-31c22fda-d15171db.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/564445d5-d5ab-4ccc-a31f-cf24b4d7a340.jpg",
+    "sourceSha256": "d15171db4b368f58b4a5b99dbd17af4eb2dc83c799f2569a29fda767637f5ab3",
+    "sha256": "5324d870ccc1937a0f59915f6fe5bf514eb2a6abc175c277681e3b45479e010f",
+    "variantIds": [
+      "2602021300441600700"
+    ],
+    "colors": [
+      "Black Viney"
+    ],
+    "alt": "Rowan flap bag in Black Viney",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/001-497e5adc-d01ae952.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b819398d-2b07-4fda-805a-faa8852b5a3f.jpg",
+    "sourceSha256": "d01ae9527e1fce8b282bec8a91b3f5a9ec3a08eeb77a1d2ad9983183bd7823b0",
+    "sha256": "fd95364670b2723e00b935075619ec47363c7dc7bf4ec7bfe01ca7f7475dedb6",
+    "variantIds": [
+      "2602021300441601000"
+    ],
+    "colors": [
+      "Brown public version"
+    ],
+    "alt": "Rowan flap bag in Brown public version",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

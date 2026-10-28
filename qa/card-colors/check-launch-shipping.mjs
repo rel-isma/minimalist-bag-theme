@@ -1,0 +1,15 @@
+import {chromium} from '/tmp/atelier-card-qa/node_modules/playwright/index.mjs';import fs from 'node:fs/promises';
+const base='https://s35my0-uu.myshopify.com',out='products/.state/finish-launch';const browser=await chromium.launch({executablePath:'/usr/bin/google-chrome',headless:true,args:['--no-sandbox']});const results=[];
+try{for(const [country,region,zip,expected] of [['United States','NY','10011',19.95],['United Kingdom','England','SW1A 2AA',12.95]]){
+ const context=await browser.newContext();const page=await context.newPage();await page.goto(base+'/products/marlow-top-handle-bag?preview_theme_id=189635821887',{waitUntil:'domcontentloaded'});
+ if(await page.locator('input[name=password]').count()){await page.locator('input[name=password]').fill(process.env.STOREFRONT_PASSWORD);await page.locator('form[action*=password] button[type=submit]').click();await page.waitForLoadState('domcontentloaded');}
+ for(const quantity of [1,2]){
+ const add=await page.evaluate(async quantity=>{await fetch('/cart/clear.js',{method:'POST'});const r=await fetch('/cart/add.js',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({items:[{id:67841875378495,quantity}]})});return {ok:r.ok,status:r.status};},quantity);if(!add.ok)throw Error('Marlow cart rejected: '+add.status);
+ const q=new URLSearchParams({'shipping_address[country]':country,'shipping_address[province]':region,'shipping_address[zip]':zip});
+ let rates,code;for(let i=0;i<6;i++){const r=await page.evaluate(async q=>{const r=await fetch('/cart/shipping_rates.json?'+q);return {status:r.status,data:await r.json()};},q.toString());code=r.status;rates=r.data;if(code!==202)break;await page.waitForTimeout(1500);}
+ const row={country,quantity,status:code,rates,expectedUSD:expected,passed:code===200&&rates.shipping_rates?.some(r=>r.name==='Standard tracked shipping'&&Number(r.price)===expected)};results.push(row);console.log(JSON.stringify(row));
+ }
+ await page.goto(base+'/checkout',{waitUntil:'domcontentloaded',timeout:60000});await page.waitForTimeout(1800);await fs.writeFile(out+'/checkout-'+(country==='United States'?'US':'GB')+'.txt',(await page.locator('body').innerText()).slice(0,25000),{mode:0o600});await page.screenshot({path:out+'/checkout-'+(country==='United States'?'US':'GB')+'.png',fullPage:true});console.log('Checkout page reached: '+new URL(page.url()).pathname.split('/').slice(0,3).join('/'));
+ await page.evaluate(()=>fetch('/cart/clear.js',{method:'POST'}));await context.close();
+ }}catch(e){results.push({blocked:true,error:e.message});console.log('Checkout test incomplete: '+e.message);}finally{await fs.writeFile('products/finish-launch/checkout-shipping-validation.json',JSON.stringify({at:new Date().toISOString(),ordersPlaced:0,paymentsAttempted:0,method:'Isolated storefront cart tests; checkout opened only after successful shipping calculations. No contact or payment submitted.',results},null,2));await browser.close();}
+if(results.some(r=>!r.passed))process.exitCode=1;

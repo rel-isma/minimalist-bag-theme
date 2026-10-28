@@ -1,0 +1,329 @@
+{
+  "productId": "gid://shopify/Product/15459352281407",
+  "before": {
+    "id": "gid://shopify/Product/15459352281407",
+    "title": "Sora bucket bag",
+    "handle": "sora-bucket-bag",
+    "status": "ACTIVE",
+    "updatedAt": "2026-10-23T23:51:10Z",
+    "descriptionHtml": "<p>Sora brings a clean bucket shape together with a slim handle and a small metal fastening. The softly structured body and understated stitching make it an easy companion to a considered everyday wardrobe.</p><ul>\n<li>Bucket silhouette</li>\n<li>Top handle and longer strap</li>\n<li>Internal phone, card and zippered pockets</li>\n</ul>",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "templateSuffix": "",
+    "tags": [
+      "angora-red",
+      "black",
+      "brown",
+      "caramel-mocha",
+      "cj-import",
+      "new-arrival",
+      "shoulder-bag"
+    ],
+    "seo": {
+      "title": "Sora bucket bag | Atelier Veyne",
+      "description": "Sora bucket bag. Bucket silhouette. Top handle and longer strap. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Brown",
+          "Caramel Mocha",
+          "Angora Red",
+          "Black"
+        ]
+      }
+    ],
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519837024575",
+          "title": "Shoulder bags"
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "custom",
+          "key": "material",
+          "type": "multi_line_text_field",
+          "value": "Split cowhide leather with polyester-cotton lining."
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": "single_line_text_field",
+          "value": "2607121014121623000"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_import_batch",
+          "type": "single_line_text_field",
+          "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_fulfillment_link_verified",
+          "type": "boolean",
+          "value": "false"
+        },
+        {
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": "json",
+          "value": "{\"Brown\":\"#57392D\",\"Caramel Mocha\":\"#A86E43\",\"Angora Red\":\"#6E2D37\",\"Black\":\"#1B1A18\"}"
+        },
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Sora bucket bag | Atelier Veyne"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "Sora bucket bag. Bucket silhouette. Top handle and longer strap. Discover considered everyday bags at Atelier Veyne."
+        }
+      ]
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/46157954056511",
+          "alt": "Sora bucket bag in Brown",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/sora-bucket-bag-01.png?v=1792756266",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157954089279",
+          "alt": "Sora bucket bag in Caramel Mocha",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/sora-bucket-bag-02.png?v=1792756266",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157954122047",
+          "alt": "Sora bucket bag in Angora Red",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/sora-bucket-bag-03.png?v=1792756266",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157954154815",
+          "alt": "Sora bucket bag in Black",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/sora-bucket-bag-04.png?v=1792756266",
+            "width": 1086,
+            "height": 1448
+          }
+        }
+      ]
+    },
+    "variants": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/67841887076671",
+          "sku": "CJNS298100901AZ",
+          "price": "89.00",
+          "inventoryQuantity": 8022,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Brown"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828013130047",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/sora-bucket-bag-01.png?v=1792756266"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2607121014121623000"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2607121014121623600"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Brown"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841887109439",
+          "sku": "CJNS298100902BY",
+          "price": "89.00",
+          "inventoryQuantity": 7530,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Caramel Mocha"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828013162815",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/sora-bucket-bag-02.png?v=1792756266"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2607121014121623000"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2607121014121624000"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Caramel Mocha"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841887142207",
+          "sku": "CJNS298100903CX",
+          "price": "89.00",
+          "inventoryQuantity": 8964,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Angora Red"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828013195583",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/sora-bucket-bag-03.png?v=1792756266"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2607121014121623000"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2607121014121624500"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Angora Red"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841887174975",
+          "sku": "CJNS298100904DW",
+          "price": "89.00",
+          "inventoryQuantity": 9663,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828013228351",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/sora-bucket-bag-04.png?v=1792756266"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2607121014121623000"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2607121014121624900"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Black"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "image": {
+    "id": "6bbc69a8cf1393a8",
+    "file": "products/2607121014121623000/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/2607121014121623000/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Sora bucket bag in Brown, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-source-edit",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/5253cf5f-907a-4f8f-a09e-6e623f5438f6.jpg",
+    "sourceFile": "products/2607121014121623000/source/images/008-2da2f5da-5bc12df0.jpg",
+    "generated": true
+  },
+  "fileId": "gid://shopify/MediaImage/46179927982399",
+  "startedAt": "2026-10-25T16:48:23.544Z",
+  "result": {
+    "id": "2607121014121623000",
+    "title": "Sora bucket bag",
+    "shopifyId": "gid://shopify/Product/15459352281407",
+    "addedMediaId": "gid://shopify/MediaImage/46179927982399",
+    "galleryCount": 5,
+    "allOriginalMediaRetained": true,
+    "nonGalleryDataUnchanged": true,
+    "verifiedAt": "2026-10-25T16:48:26.265Z"
+  },
+  "complete": true
+}

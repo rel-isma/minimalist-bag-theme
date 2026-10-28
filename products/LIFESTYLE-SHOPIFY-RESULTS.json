@@ -1,0 +1,138 @@
+{
+  "checkedAt": "2026-10-25T16:47:59.019Z",
+  "products": [
+    {
+      "id": "2408310805071622300",
+      "title": "Marlow top-handle bag",
+      "shopifyId": "gid://shopify/Product/15459351593279",
+      "addedMediaId": "gid://shopify/MediaImage/46179927916863",
+      "galleryCount": 4,
+      "allOriginalMediaRetained": true,
+      "nonGalleryDataUnchanged": true,
+      "verifiedAt": "2026-10-25T16:48:09.650Z",
+      "cjLinksVerified": 3,
+      "cjInventoryManaged": true
+    },
+    {
+      "id": "1756516170586402816",
+      "title": "Alder bucket bag",
+      "shopifyId": "gid://shopify/Product/15459352117567",
+      "addedMediaId": "gid://shopify/MediaImage/46179927949631",
+      "galleryCount": 3,
+      "allOriginalMediaRetained": true,
+      "nonGalleryDataUnchanged": true,
+      "verifiedAt": "2026-10-25T16:48:17.959Z",
+      "cjLinksVerified": 2,
+      "cjInventoryManaged": true
+    },
+    {
+      "id": "2607121014121623000",
+      "title": "Sora bucket bag",
+      "shopifyId": "gid://shopify/Product/15459352281407",
+      "addedMediaId": "gid://shopify/MediaImage/46179927982399",
+      "galleryCount": 5,
+      "allOriginalMediaRetained": true,
+      "nonGalleryDataUnchanged": true,
+      "verifiedAt": "2026-10-25T16:48:26.265Z",
+      "cjLinksVerified": 4,
+      "cjInventoryManaged": true
+    },
+    {
+      "id": "1458719239455248384",
+      "title": "Elin bucket bag",
+      "shopifyId": "gid://shopify/Product/15459352412479",
+      "addedMediaId": "gid://shopify/MediaImage/46179928015167",
+      "galleryCount": 4,
+      "allOriginalMediaRetained": true,
+      "nonGalleryDataUnchanged": true,
+      "verifiedAt": "2026-10-25T16:48:34.884Z",
+      "cjLinksVerified": 3,
+      "cjInventoryManaged": true
+    },
+    {
+      "id": "2607070853511612201",
+      "title": "Orla barrel bag",
+      "shopifyId": "gid://shopify/Product/15459352478015",
+      "addedMediaId": "gid://shopify/MediaImage/46179928047935",
+      "galleryCount": 6,
+      "allOriginalMediaRetained": true,
+      "nonGalleryDataUnchanged": true,
+      "verifiedAt": "2026-10-25T16:48:43.085Z",
+      "cjLinksVerified": 5,
+      "cjInventoryManaged": true
+    },
+    {
+      "id": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+      "title": "Linden zip handbag",
+      "shopifyId": "gid://shopify/Product/15459352674623",
+      "addedMediaId": "gid://shopify/MediaImage/46179928080703",
+      "galleryCount": 5,
+      "allOriginalMediaRetained": true,
+      "nonGalleryDataUnchanged": true,
+      "verifiedAt": "2026-10-25T16:48:51.718Z",
+      "cjLinksVerified": 4,
+      "cjInventoryManaged": true
+    },
+    {
+      "id": "2407270630041615800",
+      "title": "Luma shoulder bag",
+      "shopifyId": "gid://shopify/Product/15459353002303",
+      "addedMediaId": "gid://shopify/MediaImage/46179928179007",
+      "galleryCount": 4,
+      "allOriginalMediaRetained": true,
+      "nonGalleryDataUnchanged": true,
+      "verifiedAt": "2026-10-25T16:48:59.979Z",
+      "cjLinksVerified": 2,
+      "cjInventoryManaged": true
+    },
+    {
+      "id": "2509070113221629600",
+      "title": "Esme crossbody bag",
+      "shopifyId": "gid://shopify/Product/15459353133375",
+      "addedMediaId": "gid://shopify/MediaImage/46179928211775",
+      "galleryCount": 4,
+      "allOriginalMediaRetained": true,
+      "nonGalleryDataUnchanged": true,
+      "verifiedAt": "2026-10-25T16:49:08.414Z",
+      "cjLinksVerified": 3,
+      "cjInventoryManaged": true
+    },
+    {
+      "id": "2510110122001632000",
+      "title": "Milo compact crossbody",
+      "shopifyId": "gid://shopify/Product/15459353362751",
+      "addedMediaId": "gid://shopify/MediaImage/46179928244543",
+      "galleryCount": 6,
+      "allOriginalMediaRetained": true,
+      "nonGalleryDataUnchanged": true,
+      "verifiedAt": "2026-10-25T16:49:16.870Z",
+      "cjLinksVerified": 5,
+      "cjInventoryManaged": true
+    },
+    {
+      "id": "2608221231211620900",
+      "title": "Alba mini crossbody bag",
+      "shopifyId": "gid://shopify/Product/15464465563967",
+      "addedMediaId": "gid://shopify/MediaImage/46179928310079",
+      "galleryCount": 8,
+      "allOriginalMediaRetained": true,
+      "nonGalleryDataUnchanged": true,
+      "verifiedAt": "2026-10-25T16:49:25.102Z",
+      "cjLinksVerified": 6,
+      "cjInventoryManaged": true
+    },
+    {
+      "id": "2608040718451626300",
+      "title": "Wren bowling bag",
+      "shopifyId": "gid://shopify/Product/15464459665727",
+      "addedMediaId": "gid://shopify/MediaImage/46179928342847",
+      "galleryCount": 7,
+      "allOriginalMediaRetained": true,
+      "nonGalleryDataUnchanged": true,
+      "verifiedAt": "2026-10-25T16:49:33.742Z",
+      "cjLinksVerified": 5,
+      "cjInventoryManaged": true
+    }
+  ],
+  "mode": "image-only existing Shopify gallery additions"
+}

@@ -1,0 +1,1 @@
+mutation StudioProduct($product:ProductUpdateInput!,$media:[CreateMediaInput!]){productUpdate(product:$product,media:$media){product{id handle}userErrors{field message}}}

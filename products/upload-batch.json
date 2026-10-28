@@ -1,0 +1,2885 @@
+{
+  "createdAt": "2026-10-23T11:33:27.919Z",
+  "store": "s35my0-uu.myshopify.com",
+  "status": "reviewed_awaiting_shopify_admin_connection",
+  "shopifyChanged": false,
+  "authorization": true,
+  "duplicatePolicy": "Read live CJ product IDs, SKUs and handles before creating. Reuse a uniquely matched listing; stop on ambiguous matches. Never delete existing store products.",
+  "publicationPolicy": "User authorized suitable products. Verify live metadata, fulfillment and availability before making products purchasable; never invent inventory or delivery facts.",
+  "products": [
+    {
+      "cjProductId": "2408310805071622300",
+      "preparedFile": "2408310805071622300/prepared/product.json",
+      "contentApproval": "Delegated review authorized by user: review products, exclude unsuitable ones, and upload suitable ones.",
+      "shopify": {
+        "title": "Marlow top-handle bag",
+        "handle": "marlow-top-handle-bag",
+        "vendor": "Atelier Veyne",
+        "productType": "Crossbody bag",
+        "descriptionHtml": "<p>A rounded flap and a neat top handle give Marlow its understated shape. Pebbled texture and contrast stitching bring definition to the exterior, while a shoulder strap offers another way to carry it.</p><ul><li>Top handle and shoulder strap</li><li>Flap-front design</li><li>Internal phone pocket and zippered compartment</li></ul>",
+        "shortDescription": "A rounded flap and a neat top handle give Marlow its understated shape. Pebbled texture and contrast stitching bring definition to the exterior, while a shoulder strap offers another way to carry it.",
+        "seo": {
+          "title": "Marlow top-handle bag | Atelier Veyne",
+          "description": "Marlow top-handle bag. Top handle and shoulder strap. Flap-front design. Discover considered everyday bags at Atelier Veyne."
+        },
+        "options": [
+          {
+            "name": "Color",
+            "values": [
+              "Milkshake White",
+              "Black",
+              "Elephant Gray"
+            ]
+          }
+        ],
+        "tags": [
+          "crossbody-bag",
+          "cj-import",
+          "milkshake-white",
+          "black",
+          "elephant-gray"
+        ],
+        "suggestedCollections": [
+          "Crossbody bags"
+        ],
+        "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+        "templateSuffix": null,
+        "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+        "statusOnFirstUpload": "DRAFT",
+        "metafields": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Cowhide leather with polyester lining."
+          }
+        ],
+        "omittedMetafields": [
+          "custom.dimensions",
+          "custom.care"
+        ],
+        "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+      },
+      "pricing": {
+        "currency": "USD",
+        "suggestedPrice": "99.00",
+        "approved": false,
+        "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+        "excludes": [
+          "Shipping",
+          "Duties and import taxes",
+          "Payment fees",
+          "Returns",
+          "Advertising",
+          "Other operating costs"
+        ]
+      },
+      "variants": [
+        {
+          "cjVariantId": "2408310805071622500",
+          "cjProductId": "2408310805071622300",
+          "sku": "CJNS212501201AZ",
+          "barcode": "1600004628482",
+          "sourceOptionKey": "Milkshake White",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Milkshake White"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/d8288bd2-2c7e-415d-abc4-4cebf95a166a.jpg",
+          "supplierCost": {
+            "amount": "19.07",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "99.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 230,
+            "width": 170,
+            "height": 60,
+            "weight": 420,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2408310805071622700",
+          "cjProductId": "2408310805071622300",
+          "sku": "CJNS212501202BY",
+          "barcode": "1600004628483",
+          "sourceOptionKey": "Black",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b949c6be-3e8a-4598-8c9a-52e9f23e8800.jpg",
+          "supplierCost": {
+            "amount": "19.07",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "99.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 230,
+            "width": 170,
+            "height": 60,
+            "weight": 578,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2408310805071622900",
+          "cjProductId": "2408310805071622300",
+          "sku": "CJNS212501203CX",
+          "barcode": "1600004628484",
+          "sourceOptionKey": "Elephant Gray",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Elephant Gray"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/0e0eb27c-3795-40ab-8c31-89815a578094.jpg",
+          "supplierCost": {
+            "amount": "19.07",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "99.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 230,
+            "width": 170,
+            "height": 60,
+            "weight": 420,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        }
+      ],
+      "media": [
+        {
+          "file": "2408310805071622300/prepared/images/01-atelier-veyne.png",
+          "sourceFile": "2408310805071622300/prepared/../source/images/007-ce10fa45-6c145a14.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/d8288bd2-2c7e-415d-abc4-4cebf95a166a.jpg",
+          "sourceSha256": "6c145a1428c7526119c951b8833e53cdc2648722a4ba0b1e74c75b82f98f2aea",
+          "sha256": "394005b7700c48b60d14313e6c6bf2343db43eebc8ab8ac6ec3c1857a9593af0",
+          "variantIds": [
+            "2408310805071622500"
+          ],
+          "colors": [
+            "Milkshake White"
+          ],
+          "alt": "Marlow top-handle bag in Milkshake White",
+          "promptFile": "../../IMAGE-PROMPT-first.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2408310805071622300/prepared/images/02-atelier-veyne.png",
+          "sourceFile": "2408310805071622300/prepared/../source/images/005-07b8f20f-614c87bc.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b949c6be-3e8a-4598-8c9a-52e9f23e8800.jpg",
+          "sourceSha256": "614c87bc185df942801785fc4519b8f9a32f1c6e1f2dc19d174b057eeda7e1db",
+          "sha256": "5dc6b92ed7a5d989c6a799d5c5fd81587db58b2d9248c3c4626c025885386bdb",
+          "variantIds": [
+            "2408310805071622700"
+          ],
+          "colors": [
+            "Black"
+          ],
+          "alt": "Marlow top-handle bag in Black",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2408310805071622300/prepared/images/03-atelier-veyne.png",
+          "sourceFile": "2408310805071622300/prepared/../source/images/006-3c0da61b-c5d1d59a.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0e0eb27c-3795-40ab-8c31-89815a578094.jpg",
+          "sourceSha256": "c5d1d59a0f881b6184a3006695086d444f7c7bfbd6bf0954cb7ed6345869f0ea",
+          "sha256": "dfa3dfbc8d442b908f991a1c2d92c39922b38f5d09062dc8e492458007deaa8d",
+          "variantIds": [
+            "2408310805071622900"
+          ],
+          "colors": [
+            "Elephant Gray"
+          ],
+          "alt": "Marlow top-handle bag in Elephant Gray",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        }
+      ],
+      "swatches": [
+        {
+          "optionValue": "Milkshake White",
+          "proposedHex": "#EFE9DA",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Black",
+          "proposedHex": "#1B1A18",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Elephant Gray",
+          "proposedHex": "#9C8C72",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        }
+      ],
+      "publicationChecks": {
+        "freshShopifyAdminAuthorization": false,
+        "liveDuplicateCheck": false,
+        "liveMetafieldAndCollectionCheck": false,
+        "cjFulfillmentLinkVerified": false,
+        "inventoryAndShippingVerified": false
+      }
+    },
+    {
+      "cjProductId": "1756516170586402816",
+      "preparedFile": "1756516170586402816/prepared/product.json",
+      "contentApproval": "Delegated review authorized by user: review products, exclude unsuitable ones, and upload suitable ones.",
+      "shopify": {
+        "title": "Alder bucket bag",
+        "handle": "alder-bucket-bag",
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "descriptionHtml": "<p>Alder pairs a tall bucket silhouette with softly textured leather and a simple turn-lock detail. A top handle and longer strap keep the shape adaptable, while internal pockets give small essentials a place.</p><ul><li>Bucket silhouette with top handle</li><li>Long shoulder strap</li><li>Internal phone pocket and zippered compartment</li></ul>",
+        "shortDescription": "Alder pairs a tall bucket silhouette with softly textured leather and a simple turn-lock detail. A top handle and longer strap keep the shape adaptable, while internal pockets give small essentials a place.",
+        "seo": {
+          "title": "Alder bucket bag | Atelier Veyne",
+          "description": "Alder bucket bag. Bucket silhouette with top handle. Long shoulder strap. Discover considered everyday bags at Atelier Veyne."
+        },
+        "options": [
+          {
+            "name": "Color",
+            "values": [
+              "Black",
+              "Khaki"
+            ]
+          }
+        ],
+        "tags": [
+          "shoulder-bag",
+          "cj-import",
+          "black",
+          "khaki"
+        ],
+        "suggestedCollections": [
+          "Shoulder bags"
+        ],
+        "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+        "templateSuffix": null,
+        "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+        "statusOnFirstUpload": "DRAFT",
+        "metafields": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Split cowhide leather."
+          }
+        ],
+        "omittedMetafields": [
+          "custom.dimensions",
+          "custom.care"
+        ],
+        "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+      },
+      "pricing": {
+        "currency": "USD",
+        "suggestedPrice": "109.00",
+        "approved": false,
+        "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+        "excludes": [
+          "Shipping",
+          "Duties and import taxes",
+          "Payment fees",
+          "Returns",
+          "Advertising",
+          "Other operating costs"
+        ]
+      },
+      "variants": [
+        {
+          "cjVariantId": "1756516170695454720",
+          "cjProductId": "1756516170586402816",
+          "sku": "CJNS196704501AZ",
+          "barcode": "1600002946828",
+          "sourceOptionKey": "Black",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/5c3969ef-31b3-4612-9b0c-ba5f82339875.jpg",
+          "supplierCost": {
+            "amount": "24.05",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "109.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 240,
+            "width": 180,
+            "height": 50,
+            "weight": 630,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "1756516170783535104",
+          "cjProductId": "1756516170586402816",
+          "sku": "CJNS196704502BY",
+          "barcode": "1600002946829",
+          "sourceOptionKey": "Khaki",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Khaki"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/4d65de71-2efd-48f3-ba05-612ad5b760b5.jpg",
+          "supplierCost": {
+            "amount": "24.05",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "109.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 240,
+            "width": 180,
+            "height": 50,
+            "weight": 1283,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        }
+      ],
+      "media": [
+        {
+          "file": "1756516170586402816/prepared/images/01-atelier-veyne.png",
+          "sourceFile": "1756516170586402816/prepared/../source/images/004-28e10b21-aac481f1.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/5c3969ef-31b3-4612-9b0c-ba5f82339875.jpg",
+          "sourceSha256": "aac481f1a9b80024bbe6008c02db8513b45764a6de8803e62e9c41e972fabb96",
+          "sha256": "1a8c1ee2ffd200a777a6ede027ca48990787afe823ddee60c738959671c8d39c",
+          "variantIds": [
+            "1756516170695454720"
+          ],
+          "colors": [
+            "Black"
+          ],
+          "alt": "Alder bucket bag in Black",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "1756516170586402816/prepared/images/02-atelier-veyne.png",
+          "sourceFile": "1756516170586402816/prepared/../source/images/002-9935cb90-6a423a9a.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/4d65de71-2efd-48f3-ba05-612ad5b760b5.jpg",
+          "sourceSha256": "6a423a9ad5841cda4f032a3b26ec2a1e714fd1d2e820d46864e740bd4a3496b9",
+          "sha256": "59b0f79458b008f1c6686761439eb79092465ce9150965dc52a0ab672a7205dc",
+          "variantIds": [
+            "1756516170783535104"
+          ],
+          "colors": [
+            "Khaki"
+          ],
+          "alt": "Alder bucket bag in Khaki",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        }
+      ],
+      "swatches": [
+        {
+          "optionValue": "Black",
+          "proposedHex": "#1B1A18",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Khaki",
+          "proposedHex": "#847966",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        }
+      ],
+      "publicationChecks": {
+        "freshShopifyAdminAuthorization": false,
+        "liveDuplicateCheck": false,
+        "liveMetafieldAndCollectionCheck": false,
+        "cjFulfillmentLinkVerified": false,
+        "inventoryAndShippingVerified": false
+      }
+    },
+    {
+      "cjProductId": "2607121014121623000",
+      "preparedFile": "2607121014121623000/prepared/product.json",
+      "contentApproval": "Delegated review authorized by user: review products, exclude unsuitable ones, and upload suitable ones.",
+      "shopify": {
+        "title": "Sora bucket bag",
+        "handle": "sora-bucket-bag",
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "descriptionHtml": "<p>Sora brings a clean bucket shape together with a slim handle and a small metal fastening. The softly structured body and understated stitching make it an easy companion to a considered everyday wardrobe.</p><ul><li>Bucket silhouette</li><li>Top handle and longer strap</li><li>Internal phone, card and zippered pockets</li></ul>",
+        "shortDescription": "Sora brings a clean bucket shape together with a slim handle and a small metal fastening. The softly structured body and understated stitching make it an easy companion to a considered everyday wardrobe.",
+        "seo": {
+          "title": "Sora bucket bag | Atelier Veyne",
+          "description": "Sora bucket bag. Bucket silhouette. Top handle and longer strap. Discover considered everyday bags at Atelier Veyne."
+        },
+        "options": [
+          {
+            "name": "Color",
+            "values": [
+              "Brown",
+              "Caramel Mocha",
+              "Angora Red",
+              "Black"
+            ]
+          }
+        ],
+        "tags": [
+          "shoulder-bag",
+          "cj-import",
+          "brown",
+          "caramel-mocha",
+          "angora-red",
+          "black"
+        ],
+        "suggestedCollections": [
+          "Shoulder bags"
+        ],
+        "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+        "templateSuffix": null,
+        "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+        "statusOnFirstUpload": "DRAFT",
+        "metafields": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Split cowhide leather with polyester-cotton lining."
+          }
+        ],
+        "omittedMetafields": [
+          "custom.dimensions",
+          "custom.care"
+        ],
+        "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+      },
+      "pricing": {
+        "currency": "USD",
+        "suggestedPrice": "89.00",
+        "approved": false,
+        "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+        "excludes": [
+          "Shipping",
+          "Duties and import taxes",
+          "Payment fees",
+          "Returns",
+          "Advertising",
+          "Other operating costs"
+        ]
+      },
+      "variants": [
+        {
+          "cjVariantId": "2607121014121623600",
+          "cjProductId": "2607121014121623000",
+          "sku": "CJNS298100901AZ",
+          "barcode": "1600015076355",
+          "sourceOptionKey": "Brown",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Brown"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/0da4241d-aead-44ac-9cb1-20dc72747b56.jpg",
+          "supplierCost": {
+            "amount": "16.58",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 250,
+            "width": 150,
+            "height": 100,
+            "weight": 580,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2607121014121624000",
+          "cjProductId": "2607121014121623000",
+          "sku": "CJNS298100902BY",
+          "barcode": "1600015076356",
+          "sourceOptionKey": "Caramel Mocha",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Caramel Mocha"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/f6113101-6e8f-4f21-9552-9a1c3b2394c9.jpg",
+          "supplierCost": {
+            "amount": "16.58",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 250,
+            "width": 150,
+            "height": 100,
+            "weight": 580,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2607121014121624500",
+          "cjProductId": "2607121014121623000",
+          "sku": "CJNS298100903CX",
+          "barcode": "1600015076357",
+          "sourceOptionKey": "Angora Red",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Angora Red"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/d8d68806-36dd-4988-b0ae-26e62300a9c1.jpg",
+          "supplierCost": {
+            "amount": "16.58",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 250,
+            "width": 150,
+            "height": 100,
+            "weight": 580,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2607121014121624900",
+          "cjProductId": "2607121014121623000",
+          "sku": "CJNS298100904DW",
+          "barcode": "1600015076358",
+          "sourceOptionKey": "Black",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/760bfe3d-5c3a-4f5b-9289-552fd0325d9a.jpg",
+          "supplierCost": {
+            "amount": "16.58",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 250,
+            "width": 150,
+            "height": 100,
+            "weight": 580,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        }
+      ],
+      "media": [
+        {
+          "file": "2607121014121623000/prepared/images/01-atelier-veyne.png",
+          "sourceFile": "2607121014121623000/prepared/../source/images/004-28c5e771-fa7752cb.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0da4241d-aead-44ac-9cb1-20dc72747b56.jpg",
+          "sourceSha256": "fa7752cb3117d4589d6abe1e67876bcdcf110e78f0a6b51cef6e9cbe796b52ef",
+          "sha256": "58840931cb3e5ee1338f62544c57c3ffdf7cff0b54152c2a6e9370b5af3ec3a6",
+          "variantIds": [
+            "2607121014121623600"
+          ],
+          "colors": [
+            "Brown"
+          ],
+          "alt": "Sora bucket bag in Brown",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2607121014121623000/prepared/images/02-atelier-veyne.png",
+          "sourceFile": "2607121014121623000/prepared/../source/images/006-8bdb9efb-16cbf064.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f6113101-6e8f-4f21-9552-9a1c3b2394c9.jpg",
+          "sourceSha256": "16cbf064a829eb7af003245d0086ce6f8591c8cf0c273901e0e62a07bcf8d3ec",
+          "sha256": "f7437b012c3663aad18305d643ad0a8ee45390df66fec8bb2d4a2eb21042c736",
+          "variantIds": [
+            "2607121014121624000"
+          ],
+          "colors": [
+            "Caramel Mocha"
+          ],
+          "alt": "Sora bucket bag in Caramel Mocha",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2607121014121623000/prepared/images/03-atelier-veyne.png",
+          "sourceFile": "2607121014121623000/prepared/../source/images/005-60ce9ebf-ea150a7f.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/d8d68806-36dd-4988-b0ae-26e62300a9c1.jpg",
+          "sourceSha256": "ea150a7f434dab3c895abf12fff0d6b257a029888b8afac6b6cf5d41fef98126",
+          "sha256": "6884b502de01461441ec164d7efff7d53be896cd39aff50ebac9b376cb0959a8",
+          "variantIds": [
+            "2607121014121624500"
+          ],
+          "colors": [
+            "Angora Red"
+          ],
+          "alt": "Sora bucket bag in Angora Red",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2607121014121623000/prepared/images/04-atelier-veyne.png",
+          "sourceFile": "2607121014121623000/prepared/../source/images/007-2a8f1eaf-7b508231.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/760bfe3d-5c3a-4f5b-9289-552fd0325d9a.jpg",
+          "sourceSha256": "7b508231ce334432552750c9a064530b53a2b1c3ab1d4f25bec5644b06b4d0bb",
+          "sha256": "ebd4296ca5e90f39ee31bde71c988bc943c5a35d23d24d64b53b0f2014969336",
+          "variantIds": [
+            "2607121014121624900"
+          ],
+          "colors": [
+            "Black"
+          ],
+          "alt": "Sora bucket bag in Black",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        }
+      ],
+      "swatches": [
+        {
+          "optionValue": "Brown",
+          "proposedHex": "#57392D",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Caramel Mocha",
+          "proposedHex": "#A86E43",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Angora Red",
+          "proposedHex": "#6E2D37",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Black",
+          "proposedHex": "#1B1A18",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        }
+      ],
+      "publicationChecks": {
+        "freshShopifyAdminAuthorization": false,
+        "liveDuplicateCheck": false,
+        "liveMetafieldAndCollectionCheck": false,
+        "cjFulfillmentLinkVerified": false,
+        "inventoryAndShippingVerified": false
+      }
+    },
+    {
+      "cjProductId": "1458719239455248384",
+      "preparedFile": "1458719239455248384/prepared/product.json",
+      "contentApproval": "Delegated review authorized by user: review products, exclude unsuitable ones, and upload suitable ones.",
+      "shopify": {
+        "title": "Elin bucket bag",
+        "handle": "elin-bucket-bag",
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "descriptionHtml": "<p>Elin gives the everyday bucket bag a simple, composed outline. A soft handle and a lock closure frame the design, with internal pockets for keeping smaller essentials together.</p><ul><li>Bucket shape with soft handle</li><li>Lock closure</li><li>Internal zip, phone and card pockets</li></ul>",
+        "shortDescription": "Elin gives the everyday bucket bag a simple, composed outline. A soft handle and a lock closure frame the design, with internal pockets for keeping smaller essentials together.",
+        "seo": {
+          "title": "Elin bucket bag | Atelier Veyne",
+          "description": "Elin bucket bag. Bucket shape with soft handle. Lock closure. Discover considered everyday bags at Atelier Veyne."
+        },
+        "options": [
+          {
+            "name": "Color",
+            "values": [
+              "Yellow",
+              "Black",
+              "Brown"
+            ]
+          }
+        ],
+        "tags": [
+          "shoulder-bag",
+          "cj-import",
+          "yellow",
+          "black",
+          "brown"
+        ],
+        "suggestedCollections": [
+          "Shoulder bags"
+        ],
+        "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+        "templateSuffix": null,
+        "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+        "statusOnFirstUpload": "DRAFT",
+        "metafields": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Split cowhide leather with polyester lining."
+          }
+        ],
+        "omittedMetafields": [
+          "custom.dimensions",
+          "custom.care"
+        ],
+        "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+      },
+      "pricing": {
+        "currency": "USD",
+        "suggestedPrice": "99.00",
+        "approved": false,
+        "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+        "excludes": [
+          "Shipping",
+          "Duties and import taxes",
+          "Payment fees",
+          "Returns",
+          "Advertising",
+          "Other operating costs"
+        ]
+      },
+      "variants": [
+        {
+          "cjVariantId": "1458719239522357248",
+          "cjProductId": "1458719239455248384",
+          "sku": "CJNS134996001AZ",
+          "barcode": "1598449932490",
+          "sourceOptionKey": "Yellow",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Yellow"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/a418ef64-00be-403a-bf77-9e094b259a85.jpg",
+          "supplierCost": {
+            "amount": "22.65",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "99.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 300,
+            "width": 200,
+            "height": 60,
+            "weight": 916,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "1458719239526551552",
+          "cjProductId": "1458719239455248384",
+          "sku": "CJNS134996002BY",
+          "barcode": "1598449932491",
+          "sourceOptionKey": "Black",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/401a54b4-cf1d-4747-81d0-1803766edcc3.jpg",
+          "supplierCost": {
+            "amount": "22.65",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "99.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 300,
+            "width": 200,
+            "height": 60,
+            "weight": 916,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "1458719239526551553",
+          "cjProductId": "1458719239455248384",
+          "sku": "CJNS134996003CX",
+          "barcode": "1598449932492",
+          "sourceOptionKey": "Brown",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Brown"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/a24fff8c-dff2-409d-adc3-1eedabf22b03.jpg",
+          "supplierCost": {
+            "amount": "22.65",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "99.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 300,
+            "width": 200,
+            "height": 60,
+            "weight": 916,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        }
+      ],
+      "media": [
+        {
+          "file": "1458719239455248384/prepared/images/01-atelier-veyne.png",
+          "sourceFile": "1458719239455248384/prepared/../source/images/009-b28c41ed-1c0e1f50.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/a418ef64-00be-403a-bf77-9e094b259a85.jpg",
+          "sourceSha256": "1c0e1f504d1ab6f1a8cf1d158c491006986e09ea0190520fc1c299929428937e",
+          "sha256": "eadd624e4182d0f5d95cc8087b667253d8ad81d526bd9e37cdd23bb8cb418af0",
+          "variantIds": [
+            "1458719239522357248"
+          ],
+          "colors": [
+            "Yellow"
+          ],
+          "alt": "Elin bucket bag in Yellow",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "1458719239455248384/prepared/images/02-atelier-veyne.png",
+          "sourceFile": "1458719239455248384/prepared/../source/images/006-e28188e1-c4a09d4a.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/401a54b4-cf1d-4747-81d0-1803766edcc3.jpg",
+          "sourceSha256": "c4a09d4a4bbe0f66d24c9c9968666439078f2e37e62bfd6bc72743e7c3dd9ddb",
+          "sha256": "d8aa581b41e49af0069ae1cba1d40fc75924d57785f71df0f8e01747fc1b2b07",
+          "variantIds": [
+            "1458719239526551552"
+          ],
+          "colors": [
+            "Black"
+          ],
+          "alt": "Elin bucket bag in Black",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "1458719239455248384/prepared/images/03-atelier-veyne.png",
+          "sourceFile": "1458719239455248384/prepared/../source/images/002-e593e7aa-a06023a9.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/a24fff8c-dff2-409d-adc3-1eedabf22b03.jpg",
+          "sourceSha256": "a06023a9339cc2d42e18225f9fd0de37fb6d5cec26ebbeda7931156fc39804fa",
+          "sha256": "cc6a0e28f24241500eaa49c47c01d92478c816461e3e7556930d9bbccc373465",
+          "variantIds": [
+            "1458719239526551553"
+          ],
+          "colors": [
+            "Brown"
+          ],
+          "alt": "Elin bucket bag in Brown",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        }
+      ],
+      "swatches": [
+        {
+          "optionValue": "Yellow",
+          "proposedHex": "#C99640",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Black",
+          "proposedHex": "#1B1A18",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Brown",
+          "proposedHex": "#A15D3D",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        }
+      ],
+      "publicationChecks": {
+        "freshShopifyAdminAuthorization": false,
+        "liveDuplicateCheck": false,
+        "liveMetafieldAndCollectionCheck": false,
+        "cjFulfillmentLinkVerified": false,
+        "inventoryAndShippingVerified": false
+      }
+    },
+    {
+      "cjProductId": "2607070853511612201",
+      "preparedFile": "2607070853511612201/prepared/product.json",
+      "contentApproval": "Delegated review authorized by user: review products, exclude unsuitable ones, and upload suitable ones.",
+      "shopify": {
+        "title": "Orla barrel bag",
+        "handle": "orla-barrel-bag",
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "descriptionHtml": "<p>Orla brings a compact cylindrical shape to everyday dressing. The structured outline, single shoulder strap and restrained metal accents give it a simple, distinctive presence.</p><ul><li>Cylindrical silhouette</li><li>Single shoulder strap</li><li>Internal zippered pocket</li></ul>",
+        "shortDescription": "Orla brings a compact cylindrical shape to everyday dressing. The structured outline, single shoulder strap and restrained metal accents give it a simple, distinctive presence.",
+        "seo": {
+          "title": "Orla barrel bag | Atelier Veyne",
+          "description": "Orla barrel bag. Cylindrical silhouette. Single shoulder strap. Discover considered everyday bags at Atelier Veyne."
+        },
+        "options": [
+          {
+            "name": "Color",
+            "values": [
+              "Black",
+              "Beige",
+              "Coffee",
+              "Wine Red",
+              "Brown"
+            ]
+          },
+          {
+            "name": "Size",
+            "values": [
+              "20x10x12"
+            ]
+          }
+        ],
+        "tags": [
+          "shoulder-bag",
+          "cj-import",
+          "black",
+          "beige",
+          "coffee",
+          "wine-red",
+          "brown"
+        ],
+        "suggestedCollections": [
+          "Shoulder bags"
+        ],
+        "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+        "templateSuffix": null,
+        "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+        "statusOnFirstUpload": "DRAFT",
+        "metafields": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Cowhide leather with polyester-cotton lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "20 × 10 × 12 cm."
+          }
+        ],
+        "omittedMetafields": [
+          "custom.care"
+        ],
+        "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+      },
+      "pricing": {
+        "currency": "USD",
+        "suggestedPrice": "89.00",
+        "approved": false,
+        "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+        "excludes": [
+          "Shipping",
+          "Duties and import taxes",
+          "Payment fees",
+          "Returns",
+          "Advertising",
+          "Other operating costs"
+        ]
+      },
+      "variants": [
+        {
+          "cjVariantId": "2607070853511613000",
+          "cjProductId": "2607070853511612201",
+          "sku": "CJNS297227401AZ",
+          "barcode": "1600014959506",
+          "sourceOptionKey": "Black-20x10x12",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "20x10x12"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/596d39f6-89d2-486b-9ef1-14a2f8c2ef65.jpg",
+          "supplierCost": {
+            "amount": "17.91",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 200,
+            "width": 120,
+            "height": 100,
+            "weight": 700,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2607070853511613600",
+          "cjProductId": "2607070853511612201",
+          "sku": "CJNS297227402BY",
+          "barcode": "1600014959507",
+          "sourceOptionKey": "Beige-20x10x12",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Beige"
+            },
+            {
+              "name": "Size",
+              "value": "20x10x12"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/cd018ab3-59ca-4e5e-9898-42fba224aff0.jpg",
+          "supplierCost": {
+            "amount": "17.91",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 200,
+            "width": 120,
+            "height": 100,
+            "weight": 700,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2607070853511614100",
+          "cjProductId": "2607070853511612201",
+          "sku": "CJNS297227403CX",
+          "barcode": "1600014959508",
+          "sourceOptionKey": "Coffee-20x10x12",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Coffee"
+            },
+            {
+              "name": "Size",
+              "value": "20x10x12"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/4e9e4881-def0-4de7-9133-b7bc006c932a.jpg",
+          "supplierCost": {
+            "amount": "17.91",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 200,
+            "width": 120,
+            "height": 100,
+            "weight": 700,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2607070853511614600",
+          "cjProductId": "2607070853511612201",
+          "sku": "CJNS297227404DW",
+          "barcode": "1600014959509",
+          "sourceOptionKey": "Wine Red-20x10x12",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Wine Red"
+            },
+            {
+              "name": "Size",
+              "value": "20x10x12"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/e3f3b3d9-bd1d-4d51-ad9d-c33a81e474db.jpg",
+          "supplierCost": {
+            "amount": "17.91",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 200,
+            "width": 120,
+            "height": 100,
+            "weight": 700,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2607070853511615100",
+          "cjProductId": "2607070853511612201",
+          "sku": "CJNS297227405EV",
+          "barcode": "1600014959510",
+          "sourceOptionKey": "Brown-20x10x12",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Brown"
+            },
+            {
+              "name": "Size",
+              "value": "20x10x12"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/7c3965f0-29ac-491a-b1dc-45f8baf2ace7.jpg",
+          "supplierCost": {
+            "amount": "17.91",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 200,
+            "width": 120,
+            "height": 100,
+            "weight": 700,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        }
+      ],
+      "media": [
+        {
+          "file": "2607070853511612201/prepared/images/01-atelier-veyne.png",
+          "sourceFile": "2607070853511612201/prepared/../source/images/004-12b69fb0-fa645517.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/596d39f6-89d2-486b-9ef1-14a2f8c2ef65.jpg",
+          "sourceSha256": "fa645517c9e046d4c550ca98f00ddf70c58c081fe4d4c7838f60a0d7a835d10a",
+          "sha256": "ca24f9813e49f2788e6f2ec86cf802790f28e0a9df76ecb5fc2b6e760d69f1b7",
+          "variantIds": [
+            "2607070853511613000"
+          ],
+          "colors": [
+            "Black"
+          ],
+          "alt": "Orla barrel bag in Black",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2607070853511612201/prepared/images/02-atelier-veyne.png",
+          "sourceFile": "2607070853511612201/prepared/../source/images/005-852a222f-e697edb1.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/cd018ab3-59ca-4e5e-9898-42fba224aff0.jpg",
+          "sourceSha256": "e697edb14abe08b0b2c9f8e1f633f0e3832eee658376e860fd98f522ef6b8c2c",
+          "sha256": "43ddfb8ddac9ec82921e1e2720ea4b0740a57621da111e762118573ea2e01ad9",
+          "variantIds": [
+            "2607070853511613600"
+          ],
+          "colors": [
+            "Beige"
+          ],
+          "alt": "Orla barrel bag in Beige",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2607070853511612201/prepared/images/03-atelier-veyne.png",
+          "sourceFile": "2607070853511612201/prepared/../source/images/009-cc0ad171-e4dc6603.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/4e9e4881-def0-4de7-9133-b7bc006c932a.jpg",
+          "sourceSha256": "e4dc6603f432dac5c1f557397c1062d2ec62ca4510a76854c63d370d38fc9ca0",
+          "sha256": "d9af93c825217db02134ce3babb109aadc3e546b47f75f12c72726f0b9f23b37",
+          "variantIds": [
+            "2607070853511614100"
+          ],
+          "colors": [
+            "Coffee"
+          ],
+          "alt": "Orla barrel bag in Coffee",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2607070853511612201/prepared/images/04-atelier-veyne.png",
+          "sourceFile": "2607070853511612201/prepared/../source/images/008-4b991184-5e3a7d11.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/e3f3b3d9-bd1d-4d51-ad9d-c33a81e474db.jpg",
+          "sourceSha256": "5e3a7d11ee9b4709cf2b82b020b93177419f7664879e2a4581eeab3103483030",
+          "sha256": "46d05de67c1745f3ba5778e9ae0e85c8aa4a5d59a8ea71818ba8ddeced9c48b9",
+          "variantIds": [
+            "2607070853511614600"
+          ],
+          "colors": [
+            "Wine Red"
+          ],
+          "alt": "Orla barrel bag in Wine Red",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2607070853511612201/prepared/images/05-atelier-veyne.png",
+          "sourceFile": "2607070853511612201/prepared/../source/images/007-37cc7a59-3397cd6f.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/7c3965f0-29ac-491a-b1dc-45f8baf2ace7.jpg",
+          "sourceSha256": "3397cd6f4e00ee048b91686b9cf16a64450ac6bb6be621fad937f09ee7f58894",
+          "sha256": "ab1fdaba22f8733e90dbcbb77b1d784bf03665485cf732340833c027e78bd94b",
+          "variantIds": [
+            "2607070853511615100"
+          ],
+          "colors": [
+            "Brown"
+          ],
+          "alt": "Orla barrel bag in Brown",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        }
+      ],
+      "swatches": [
+        {
+          "optionValue": "Black",
+          "proposedHex": "#1B1A18",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Beige",
+          "proposedHex": "#E8E2D4",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Coffee",
+          "proposedHex": "#3D2B23",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Wine Red",
+          "proposedHex": "#73343E",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Brown",
+          "proposedHex": "#654735",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        }
+      ],
+      "publicationChecks": {
+        "freshShopifyAdminAuthorization": false,
+        "liveDuplicateCheck": false,
+        "liveMetafieldAndCollectionCheck": false,
+        "cjFulfillmentLinkVerified": false,
+        "inventoryAndShippingVerified": false
+      }
+    },
+    {
+      "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+      "preparedFile": "295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/product.json",
+      "contentApproval": "Delegated review authorized by user: review products, exclude unsuitable ones, and upload suitable ones.",
+      "shopify": {
+        "title": "Linden zip handbag",
+        "handle": "linden-zip-handbag",
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "descriptionHtml": "<p>Linden keeps its lines simple with a soft handle, stitched detailing and a zip opening. The understated shape is finished with an internal slip pocket for smaller essentials.</p><ul><li>Soft handle</li><li>Zip opening</li><li>Internal slip pocket</li></ul>",
+        "shortDescription": "Linden keeps its lines simple with a soft handle, stitched detailing and a zip opening. The understated shape is finished with an internal slip pocket for smaller essentials.",
+        "seo": {
+          "title": "Linden zip handbag | Atelier Veyne",
+          "description": "Linden zip handbag. Soft handle. Zip opening. Discover considered everyday bags at Atelier Veyne."
+        },
+        "options": [
+          {
+            "name": "Color",
+            "values": [
+              "Black",
+              "Earthy yellow",
+              "Coffee",
+              "Red"
+            ]
+          }
+        ],
+        "tags": [
+          "shoulder-bag",
+          "cj-import",
+          "black",
+          "earthy-yellow",
+          "coffee",
+          "red"
+        ],
+        "suggestedCollections": [
+          "Shoulder bags"
+        ],
+        "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+        "templateSuffix": null,
+        "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+        "statusOnFirstUpload": "DRAFT",
+        "metafields": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Split cowhide leather with polyester lining."
+          }
+        ],
+        "omittedMetafields": [
+          "custom.dimensions",
+          "custom.care"
+        ],
+        "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+      },
+      "pricing": {
+        "currency": "USD",
+        "suggestedPrice": "79.00",
+        "approved": false,
+        "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+        "excludes": [
+          "Shipping",
+          "Duties and import taxes",
+          "Payment fees",
+          "Returns",
+          "Advertising",
+          "Other operating costs"
+        ]
+      },
+      "variants": [
+        {
+          "cjVariantId": "047C6A32-C0E3-4D59-8D51-26E37A3DBA88",
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "sku": "CJBHNSNS27768-Black",
+          "barcode": "1598445219981",
+          "sourceOptionKey": "Black",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/2044/35115917318.jpg",
+          "supplierCost": {
+            "amount": "12.2",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "79.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 270,
+            "width": 100,
+            "height": 150,
+            "weight": 750,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "04AA4F85-E5F3-4BCD-8821-3460A76F3F45",
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "sku": "CJBHNSNS27768-Earthy yellow",
+          "barcode": "1598445219982",
+          "sourceOptionKey": "Earthy yellow",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Earthy yellow"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/2044/2103869739470.jpg",
+          "supplierCost": {
+            "amount": "12.2",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "79.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 270,
+            "width": 100,
+            "height": 150,
+            "weight": 750,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "3636A15F-751B-402A-9A74-D362D99CFB84",
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "sku": "CJBHNSNS27768-Coffee",
+          "barcode": "1598445219983",
+          "sourceOptionKey": "Coffee",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Coffee"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/2044/663113957872.jpg",
+          "supplierCost": {
+            "amount": "12.2",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "79.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 270,
+            "width": 100,
+            "height": 150,
+            "weight": 750,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "EA26C552-7EC1-4A6D-9779-B951C7EF6728",
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "sku": "CJBHNSNS27768-Red",
+          "barcode": "1598445219980",
+          "sourceOptionKey": "Red",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Red"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/2044/3078256194364.jpg",
+          "supplierCost": {
+            "amount": "12.2",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "79.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 270,
+            "width": 100,
+            "height": 150,
+            "weight": 750,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        }
+      ],
+      "media": [
+        {
+          "file": "295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/01-atelier-veyne.png",
+          "sourceFile": "295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/../source/images/001-f4ac7508-3dba9b79.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/2044/35115917318.jpg",
+          "sourceSha256": "3dba9b79517ba2b648c0f15e7f2e4a5c2b21a540c2216a9587848a40faf7cf9e",
+          "sha256": "ddfe16dff694a687d5a790f427facab03e3e4e546984dac2171f350d8dc5d514",
+          "variantIds": [
+            "047C6A32-C0E3-4D59-8D51-26E37A3DBA88"
+          ],
+          "colors": [
+            "Black"
+          ],
+          "alt": "Linden zip handbag in Black",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/02-atelier-veyne.png",
+          "sourceFile": "295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/../source/images/004-8c83c1b1-b23bbcab.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/2044/2103869739470.jpg",
+          "sourceSha256": "b23bbcab8de63077979d1c317b2a9b89fbb338d0997271b431a0ea9c72a4fa6a",
+          "sha256": "e2088c6db84435b52cd5b336625a2960f4f8c6a726e4e6d412d86f77bb214e49",
+          "variantIds": [
+            "04AA4F85-E5F3-4BCD-8821-3460A76F3F45"
+          ],
+          "colors": [
+            "Earthy yellow"
+          ],
+          "alt": "Linden zip handbag in Earthy yellow",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/03-atelier-veyne.png",
+          "sourceFile": "295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/../source/images/005-c8fb5a70-f71a8207.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/2044/663113957872.jpg",
+          "sourceSha256": "f71a8207f8ab39bf75b735b3d38fb0b8cc34eda0e071f20ca2b2a8a692feef56",
+          "sha256": "b17e3b1f674196bae6945f6108c0238f8bd2f05ef371a9b8ba5b717a49841f0a",
+          "variantIds": [
+            "3636A15F-751B-402A-9A74-D362D99CFB84"
+          ],
+          "colors": [
+            "Coffee"
+          ],
+          "alt": "Linden zip handbag in Coffee",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/04-atelier-veyne.png",
+          "sourceFile": "295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/../source/images/006-78e91559-1f92c8fb.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/2044/3078256194364.jpg",
+          "sourceSha256": "1f92c8fb117a3bece84cc29d4c2e8e4ccdf0b9a1558e043996940eaa5e6f2a27",
+          "sha256": "250d2cacc375220ec1918f05122facb5cac0e532d9a6667f525851be7adcdd39",
+          "variantIds": [
+            "EA26C552-7EC1-4A6D-9779-B951C7EF6728"
+          ],
+          "colors": [
+            "Red"
+          ],
+          "alt": "Linden zip handbag in Red",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        }
+      ],
+      "swatches": [
+        {
+          "optionValue": "Black",
+          "proposedHex": "#1B1A18",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Earthy yellow",
+          "proposedHex": "#A76131",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Coffee",
+          "proposedHex": "#684335",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Red",
+          "proposedHex": "#A43E3D",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        }
+      ],
+      "publicationChecks": {
+        "freshShopifyAdminAuthorization": false,
+        "liveDuplicateCheck": false,
+        "liveMetafieldAndCollectionCheck": false,
+        "cjFulfillmentLinkVerified": false,
+        "inventoryAndShippingVerified": false
+      }
+    },
+    {
+      "cjProductId": "2506110631251623700",
+      "preparedFile": "2506110631251623700/prepared/product.json",
+      "contentApproval": "Delegated review authorized by user: review products, exclude unsuitable ones, and upload suitable ones.",
+      "shopify": {
+        "title": "Rhea crossbody bag",
+        "handle": "rhea-crossbody-bag",
+        "vendor": "Atelier Veyne",
+        "productType": "Crossbody bag",
+        "descriptionHtml": "<p>Rhea pairs a horizontal silhouette with a warm reddish-brown finish. Visible stitching gives the exterior definition, while internal pockets help separate the small things you reach for throughout the day.</p><ul><li>Horizontal silhouette</li><li>Internal phone and document pockets</li><li>Internal zippered pocket</li></ul>",
+        "shortDescription": "Rhea pairs a horizontal silhouette with a warm reddish-brown finish. Visible stitching gives the exterior definition, while internal pockets help separate the small things you reach for throughout the day.",
+        "seo": {
+          "title": "Rhea crossbody bag | Atelier Veyne",
+          "description": "Rhea crossbody bag. Horizontal silhouette. Internal phone and document pockets. Discover considered everyday bags at Atelier Veyne."
+        },
+        "options": [
+          {
+            "name": "Color",
+            "values": [
+              "Reddish Brown"
+            ]
+          }
+        ],
+        "tags": [
+          "crossbody-bag",
+          "cj-import",
+          "reddish-brown"
+        ],
+        "suggestedCollections": [
+          "Crossbody bags"
+        ],
+        "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+        "templateSuffix": null,
+        "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+        "statusOnFirstUpload": "DRAFT",
+        "metafields": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Cowhide leather with polyester lining."
+          }
+        ],
+        "omittedMetafields": [
+          "custom.dimensions",
+          "custom.care"
+        ],
+        "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+      },
+      "pricing": {
+        "currency": "USD",
+        "suggestedPrice": "129.00",
+        "approved": false,
+        "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+        "excludes": [
+          "Shipping",
+          "Duties and import taxes",
+          "Payment fees",
+          "Returns",
+          "Advertising",
+          "Other operating costs"
+        ]
+      },
+      "variants": [
+        {
+          "cjVariantId": "2506110631251623900",
+          "cjProductId": "2506110631251623700",
+          "sku": "CJNS239887801AZ",
+          "barcode": "1600007050368",
+          "sourceOptionKey": "Reddish Brown",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Reddish Brown"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/81cd92e3-6bc9-4ecf-be31-480fd3588ff8.jpg",
+          "supplierCost": {
+            "amount": "39.3",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "129.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 300,
+            "width": 200,
+            "height": 40,
+            "weight": 950,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        }
+      ],
+      "media": [
+        {
+          "file": "2506110631251623700/prepared/images/01-atelier-veyne.png",
+          "sourceFile": "2506110631251623700/prepared/../source/images/003-c74427d5-3030de41.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/81cd92e3-6bc9-4ecf-be31-480fd3588ff8.jpg",
+          "sourceSha256": "3030de4140d50fb863acda4b156639fa8492bb7eb0183ab859789ba8f990d6d6",
+          "sha256": "c970a483cf7756d562bb89b67cb2b5bc447e84c30224b86fe4f558c953ea5dd1",
+          "variantIds": [
+            "2506110631251623900"
+          ],
+          "colors": [
+            "Reddish Brown"
+          ],
+          "alt": "Rhea crossbody bag in Reddish Brown",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2506110631251623700/prepared/images/02-atelier-veyne.png",
+          "sourceFile": "2506110631251623700/prepared/../source/images/001-68c91781-533daa18.jpg",
+          "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2025/06/11/09/00f0c595-1325-4c03-925d-db46dbcf2d71.jpg",
+          "sourceSha256": "533daa18edd899f73cc36dc10a0669497642bc0bc4d163b1be41dae927172604",
+          "sha256": "1e9ca6209a26c43258fa910f10058a42af7a260eec9aa8a303eaeccf7618f8bc",
+          "variantIds": [],
+          "colors": [],
+          "alt": "Rhea crossbody bag, additional view",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        }
+      ],
+      "swatches": [
+        {
+          "optionValue": "Reddish Brown",
+          "proposedHex": "#6F4330",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        }
+      ],
+      "publicationChecks": {
+        "freshShopifyAdminAuthorization": false,
+        "liveDuplicateCheck": false,
+        "liveMetafieldAndCollectionCheck": false,
+        "cjFulfillmentLinkVerified": false,
+        "inventoryAndShippingVerified": false
+      }
+    },
+    {
+      "cjProductId": "2407270630041615800",
+      "preparedFile": "2407270630041615800/prepared/product.json",
+      "contentApproval": "Delegated review authorized by user: review products, exclude unsuitable ones, and upload suitable ones.",
+      "shopify": {
+        "title": "Luma shoulder bag",
+        "handle": "luma-shoulder-bag",
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "descriptionHtml": "<p>Luma has a softly shaped body with understated stitched detailing. The simple silhouette and internal compartment make it a quiet addition to an everyday wardrobe.</p><ul><li>Soft pillow-style silhouette</li><li>Single-shoulder design</li><li>Internal compartment</li></ul>",
+        "shortDescription": "Luma has a softly shaped body with understated stitched detailing. The simple silhouette and internal compartment make it a quiet addition to an everyday wardrobe.",
+        "seo": {
+          "title": "Luma shoulder bag | Atelier Veyne",
+          "description": "Luma shoulder bag. Soft pillow-style silhouette. Single-shoulder design. Discover considered everyday bags at Atelier Veyne."
+        },
+        "options": [
+          {
+            "name": "Color",
+            "values": [
+              "Black",
+              "Beige"
+            ]
+          }
+        ],
+        "tags": [
+          "shoulder-bag",
+          "cj-import",
+          "black",
+          "beige"
+        ],
+        "suggestedCollections": [
+          "Shoulder bags"
+        ],
+        "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+        "templateSuffix": null,
+        "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+        "statusOnFirstUpload": "DRAFT",
+        "metafields": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Cowhide leather with polyester lining."
+          }
+        ],
+        "omittedMetafields": [
+          "custom.dimensions",
+          "custom.care"
+        ],
+        "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+      },
+      "pricing": {
+        "currency": "USD",
+        "suggestedPrice": "79.00",
+        "approved": false,
+        "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+        "excludes": [
+          "Shipping",
+          "Duties and import taxes",
+          "Payment fees",
+          "Returns",
+          "Advertising",
+          "Other operating costs"
+        ]
+      },
+      "variants": [
+        {
+          "cjVariantId": "2407270630041616000",
+          "cjProductId": "2407270630041615800",
+          "sku": "CJNS209476801AZ",
+          "barcode": "1600004315277",
+          "sourceOptionKey": "Black",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/f357d2c5-323e-4d21-952f-8c053d6e07df.jpg",
+          "supplierCost": {
+            "amount": "6.41",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "79.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 210,
+            "width": 140,
+            "height": 60,
+            "weight": 420,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2407270630041616200",
+          "cjProductId": "2407270630041615800",
+          "sku": "CJNS209476802BY",
+          "barcode": "1600004315278",
+          "sourceOptionKey": "Beige",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Beige"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/124d47b6-a8d7-4bb7-81c8-72db3f2a9fb4.jpg",
+          "supplierCost": {
+            "amount": "6.41",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "79.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 210,
+            "width": 140,
+            "height": 60,
+            "weight": 420,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        }
+      ],
+      "media": [
+        {
+          "file": "2407270630041615800/prepared/images/01-atelier-veyne.png",
+          "sourceFile": "2407270630041615800/prepared/../source/images/019-8ec89bc8-1ee7e3a7.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f357d2c5-323e-4d21-952f-8c053d6e07df.jpg",
+          "sourceSha256": "1ee7e3a72474ce1051b8df249dc05ecb36af3c61563d4ce31e4ed620d1a5ccd1",
+          "sha256": "4411b36d57152777942aa024d0b1d519fd5b7c1a26f127dcab4e83d7d7520265",
+          "variantIds": [
+            "2407270630041616000"
+          ],
+          "colors": [
+            "Black"
+          ],
+          "alt": "Luma shoulder bag in Black",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2407270630041615800/prepared/images/02-atelier-veyne.png",
+          "sourceFile": "2407270630041615800/prepared/../source/images/003-eed5164c-4cb2c7ee.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/124d47b6-a8d7-4bb7-81c8-72db3f2a9fb4.jpg",
+          "sourceSha256": "4cb2c7eebcfbf34f466b10453e99c277a95e1a6b2b351f65101b484e1b0b6ac8",
+          "sha256": "b4ab0f6a7c0b0f1776084a6f92f5cc580a3e77065e9ad3146b6e7044bd73cf7d",
+          "variantIds": [
+            "2407270630041616200"
+          ],
+          "colors": [
+            "Beige"
+          ],
+          "alt": "Luma shoulder bag in Beige",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2407270630041615800/prepared/images/03-atelier-veyne.png",
+          "sourceFile": "2407270630041615800/prepared/../source/images/001-8f10179e-1a8f2ee8.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/94032383-44d7-44e1-b2c2-f2918fe859ae.jpg",
+          "sourceSha256": "1a8f2ee8d4fa2a1d47562c37918859e22be86369cd5ddd05ca217ebd6ace3d7f",
+          "sha256": "9d5d8f4246a911821fae0f68d8291922436bf2f398a4db714109ef3aebfc6be3",
+          "variantIds": [],
+          "colors": [],
+          "alt": "Luma shoulder bag, additional view",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        }
+      ],
+      "swatches": [
+        {
+          "optionValue": "Black",
+          "proposedHex": "#1B1A18",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Beige",
+          "proposedHex": "#EEE7D1",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        }
+      ],
+      "publicationChecks": {
+        "freshShopifyAdminAuthorization": false,
+        "liveDuplicateCheck": false,
+        "liveMetafieldAndCollectionCheck": false,
+        "cjFulfillmentLinkVerified": false,
+        "inventoryAndShippingVerified": false
+      }
+    },
+    {
+      "cjProductId": "2509070113221629600",
+      "preparedFile": "2509070113221629600/prepared/product.json",
+      "contentApproval": "Delegated review authorized by user: review products, exclude unsuitable ones, and upload suitable ones.",
+      "shopify": {
+        "title": "Esme crossbody bag",
+        "handle": "esme-crossbody-bag",
+        "vendor": "Atelier Veyne",
+        "productType": "Crossbody bag",
+        "descriptionHtml": "<p>Esme keeps its horizontal shape simple, with soft leather and an understated exterior. Internal zippered and document pockets give smaller essentials their own place.</p><ul><li>Soft horizontal silhouette</li><li>Internal zippered pocket</li><li>Internal document pocket</li></ul>",
+        "shortDescription": "Esme keeps its horizontal shape simple, with soft leather and an understated exterior. Internal zippered and document pockets give smaller essentials their own place.",
+        "seo": {
+          "title": "Esme crossbody bag | Atelier Veyne",
+          "description": "Esme crossbody bag. Soft horizontal silhouette. Internal zippered pocket. Discover considered everyday bags at Atelier Veyne."
+        },
+        "options": [
+          {
+            "name": "Color",
+            "values": [
+              "Black",
+              "Khaki",
+              "Caramel"
+            ]
+          },
+          {
+            "name": "Size",
+            "values": [
+              "26X16X9CM"
+            ]
+          }
+        ],
+        "tags": [
+          "crossbody-bag",
+          "cj-import",
+          "black",
+          "khaki",
+          "caramel"
+        ],
+        "suggestedCollections": [
+          "Crossbody bags"
+        ],
+        "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+        "templateSuffix": null,
+        "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+        "statusOnFirstUpload": "DRAFT",
+        "metafields": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Cowhide leather with polyester lining."
+          },
+          {
+            "namespace": "custom",
+            "key": "dimensions",
+            "type": "multi_line_text_field",
+            "value": "26 × 16 × 9 cm."
+          }
+        ],
+        "omittedMetafields": [
+          "custom.care"
+        ],
+        "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+      },
+      "pricing": {
+        "currency": "USD",
+        "suggestedPrice": "99.00",
+        "approved": false,
+        "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+        "excludes": [
+          "Shipping",
+          "Duties and import taxes",
+          "Payment fees",
+          "Returns",
+          "Advertising",
+          "Other operating costs"
+        ]
+      },
+      "variants": [
+        {
+          "cjVariantId": "2509070113221629800",
+          "cjProductId": "2509070113221629600",
+          "sku": "CJNS249060301AZ",
+          "barcode": "1600008014290",
+          "sourceOptionKey": "Black-26X16X9CM",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "26X16X9CM"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/f3b35731-8163-4a87-9a57-f2d3b0192ca2.jpg",
+          "supplierCost": {
+            "amount": "20.73",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "99.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 270,
+            "width": 200,
+            "height": 40,
+            "weight": 620,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2509070113221629900",
+          "cjProductId": "2509070113221629600",
+          "sku": "CJNS249060302BY",
+          "barcode": "1600008014291",
+          "sourceOptionKey": "Khaki-26X16X9CM",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Khaki"
+            },
+            {
+              "name": "Size",
+              "value": "26X16X9CM"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/351ab9fd-fa3e-4138-8d93-ff426276d3bc.jpg",
+          "supplierCost": {
+            "amount": "20.73",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "99.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 270,
+            "width": 200,
+            "height": 40,
+            "weight": 620,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2509070113231620100",
+          "cjProductId": "2509070113221629600",
+          "sku": "CJNS249060303CX",
+          "barcode": "1600008014292",
+          "sourceOptionKey": "Caramel-26X16X9CM",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Caramel"
+            },
+            {
+              "name": "Size",
+              "value": "26X16X9CM"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/4c153b15-9f68-4268-bbce-d51a7974c1e9.jpg",
+          "supplierCost": {
+            "amount": "20.73",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "99.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 270,
+            "width": 200,
+            "height": 40,
+            "weight": 620,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        }
+      ],
+      "media": [
+        {
+          "file": "2509070113221629600/prepared/images/01-atelier-veyne.png",
+          "sourceFile": "2509070113221629600/prepared/../source/images/007-16ea45f0-a2a31790.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f3b35731-8163-4a87-9a57-f2d3b0192ca2.jpg",
+          "sourceSha256": "a2a31790dab3bb294923809394f711e901de997a3d216b5dfcba25a2de753b8d",
+          "sha256": "95bf05d0d5593350abd0382234c3ef0e39df822da080d615e796b9f354b67e3d",
+          "variantIds": [
+            "2509070113221629800"
+          ],
+          "colors": [
+            "Black"
+          ],
+          "alt": "Esme crossbody bag in Black",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2509070113221629600/prepared/images/02-atelier-veyne.png",
+          "sourceFile": "2509070113221629600/prepared/../source/images/008-c2551284-66dbb3c2.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/351ab9fd-fa3e-4138-8d93-ff426276d3bc.jpg",
+          "sourceSha256": "66dbb3c2fb2d9d15eb1aa559f5be071b6f63401e5b75e0d62fe50f0fc5a93e65",
+          "sha256": "5bccfbe6a18890ca5a2dd9558acce4a46312e149ec3a25988b3e2b6508f3fd13",
+          "variantIds": [
+            "2509070113221629900"
+          ],
+          "colors": [
+            "Khaki"
+          ],
+          "alt": "Esme crossbody bag in Khaki",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2509070113221629600/prepared/images/03-atelier-veyne.png",
+          "sourceFile": "2509070113221629600/prepared/../source/images/003-0ad15ee7-ec2f8dae.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/4c153b15-9f68-4268-bbce-d51a7974c1e9.jpg",
+          "sourceSha256": "ec2f8daed96b630ed4493f53c2b058908260361a1facd0ac4ee92fd54bb216eb",
+          "sha256": "a3e22f805cc1d85c97f56c45fab4a01a632fe4b972ccd134b569403213b48059",
+          "variantIds": [
+            "2509070113231620100"
+          ],
+          "colors": [
+            "Caramel"
+          ],
+          "alt": "Esme crossbody bag in Caramel",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        }
+      ],
+      "swatches": [
+        {
+          "optionValue": "Black",
+          "proposedHex": "#1B1A18",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Khaki",
+          "proposedHex": "#9D8A67",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Caramel",
+          "proposedHex": "#A26636",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        }
+      ],
+      "publicationChecks": {
+        "freshShopifyAdminAuthorization": false,
+        "liveDuplicateCheck": false,
+        "liveMetafieldAndCollectionCheck": false,
+        "cjFulfillmentLinkVerified": false,
+        "inventoryAndShippingVerified": false
+      }
+    },
+    {
+      "cjProductId": "2510110122001632000",
+      "preparedFile": "2510110122001632000/prepared/product.json",
+      "contentApproval": "Delegated review authorized by user: review products, exclude unsuitable ones, and upload suitable ones.",
+      "shopify": {
+        "title": "Milo compact crossbody",
+        "handle": "milo-compact-crossbody",
+        "vendor": "Atelier Veyne",
+        "productType": "Crossbody bag",
+        "descriptionHtml": "<p>Milo brings a softly curved profile to a pared-back everyday edit. Pebbled leather, a zip opening and two ways to carry keep the design simple, with five source colors to choose from.</p><ul><li>Curved zip-top silhouette</li><li>Soft construction</li><li>Top handle and longer strap</li></ul>",
+        "shortDescription": "Milo brings a softly curved profile to a pared-back everyday edit. Pebbled leather, a zip opening and two ways to carry keep the design simple, with five source colors to choose from.",
+        "seo": {
+          "title": "Milo compact crossbody | Atelier Veyne",
+          "description": "Milo compact crossbody. Curved zip-top silhouette with soft construction. Explore the everyday edit at Atelier Veyne."
+        },
+        "options": [
+          {
+            "name": "Color",
+            "values": [
+              "Black",
+              "Beige",
+              "Gray",
+              "Caramel",
+              "Green"
+            ]
+          },
+          {
+            "name": "Size",
+            "values": [
+              "23x11x14"
+            ]
+          }
+        ],
+        "tags": [
+          "crossbody-bag",
+          "cj-import",
+          "black",
+          "beige",
+          "gray",
+          "caramel",
+          "green"
+        ],
+        "suggestedCollections": [
+          "Crossbody bags"
+        ],
+        "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+        "templateSuffix": null,
+        "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+        "statusOnFirstUpload": "DRAFT",
+        "metafields": [
+          {
+            "namespace": "custom",
+            "key": "material",
+            "type": "multi_line_text_field",
+            "value": "Cowhide leather."
+          }
+        ],
+        "omittedMetafields": [
+          "custom.dimensions",
+          "custom.care"
+        ],
+        "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+      },
+      "pricing": {
+        "currency": "USD",
+        "suggestedPrice": "89.00",
+        "approved": false,
+        "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+        "excludes": [
+          "Shipping",
+          "Duties and import taxes",
+          "Payment fees",
+          "Returns",
+          "Advertising",
+          "Other operating costs"
+        ]
+      },
+      "variants": [
+        {
+          "cjVariantId": "2510110122001632300",
+          "cjProductId": "2510110122001632000",
+          "sku": "CJNS255498201AZ",
+          "barcode": "1600008411868",
+          "sourceOptionKey": "Black-23x11x14",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "23x11x14"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b7d58ef9-91fc-4aca-a0eb-9ec106c484cf.jpg",
+          "supplierCost": {
+            "amount": "18.91",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 230,
+            "width": 140,
+            "height": 100,
+            "weight": 400,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2510110122001632400",
+          "cjProductId": "2510110122001632000",
+          "sku": "CJNS255498202BY",
+          "barcode": "1600008411869",
+          "sourceOptionKey": "Beige-23x11x14",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Beige"
+            },
+            {
+              "name": "Size",
+              "value": "23x11x14"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/de5c6a14-d472-4de2-af29-071eddc6b04d.jpg",
+          "supplierCost": {
+            "amount": "18.91",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 230,
+            "width": 140,
+            "height": 100,
+            "weight": 400,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2510110122001632600",
+          "cjProductId": "2510110122001632000",
+          "sku": "CJNS255498203CX",
+          "barcode": "1600008411870",
+          "sourceOptionKey": "Gray-23x11x14",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Gray"
+            },
+            {
+              "name": "Size",
+              "value": "23x11x14"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/77453237-115f-4d77-8cc1-8ead5e6ab98a.jpg",
+          "supplierCost": {
+            "amount": "18.91",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 230,
+            "width": 140,
+            "height": 100,
+            "weight": 400,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2510110122001632800",
+          "cjProductId": "2510110122001632000",
+          "sku": "CJNS255498204DW",
+          "barcode": "1600008411871",
+          "sourceOptionKey": "Caramel-23x11x14",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Caramel"
+            },
+            {
+              "name": "Size",
+              "value": "23x11x14"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b1e6aa02-63fd-4a6c-8033-c7bdf414ab30.jpg",
+          "supplierCost": {
+            "amount": "18.91",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 230,
+            "width": 140,
+            "height": 100,
+            "weight": 646,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        },
+        {
+          "cjVariantId": "2510110122001632900",
+          "cjProductId": "2510110122001632000",
+          "sku": "CJNS255498205EV",
+          "barcode": "1600008411872",
+          "sourceOptionKey": "Green-23x11x14",
+          "optionValues": [
+            {
+              "name": "Color",
+              "value": "Green"
+            },
+            {
+              "name": "Size",
+              "value": "23x11x14"
+            }
+          ],
+          "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b540b634-a0dd-49db-8ce3-311db3745efb.jpg",
+          "supplierCost": {
+            "amount": "18.91",
+            "currency": "USD",
+            "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+          },
+          "proposedRetailPrice": {
+            "amount": "89.00",
+            "currency": "USD",
+            "status": "suggested_for_owner_review"
+          },
+          "compareAtPrice": null,
+          "inventory": {
+            "tracked": null,
+            "quantity": null,
+            "status": "not_verified"
+          },
+          "sourceMeasurements": {
+            "length": 230,
+            "width": 140,
+            "height": 100,
+            "weight": 679,
+            "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+          }
+        }
+      ],
+      "media": [
+        {
+          "file": "2510110122001632000/prepared/images/01-atelier-veyne.png",
+          "sourceFile": "2510110122001632000/prepared/../source/images/003-32e4551a-3e8acf33.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b7d58ef9-91fc-4aca-a0eb-9ec106c484cf.jpg",
+          "sourceSha256": "3e8acf330c81e3b1d55b9fdf65dd0e1f3be8f742bd491a3ffdfe4aaa4e8237f8",
+          "sha256": "09f173d9b61201d3d6c027c6d61edd76be76d7ca7e58da58b3807310444ee7a9",
+          "variantIds": [
+            "2510110122001632300"
+          ],
+          "colors": [
+            "Black"
+          ],
+          "alt": "Milo compact crossbody in Black",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2510110122001632000/prepared/images/02-atelier-veyne.png",
+          "sourceFile": "2510110122001632000/prepared/../source/images/008-5a689600-7d102c40.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/de5c6a14-d472-4de2-af29-071eddc6b04d.jpg",
+          "sourceSha256": "7d102c40c0cc43a3e0f850569362c729de5ffeb202f4abd47c6eecfb294a94f0",
+          "sha256": "e116e7e695d63544e7624ff763ae33e6221b7e9afde27deb93d466b469c8a371",
+          "variantIds": [
+            "2510110122001632400"
+          ],
+          "colors": [
+            "Beige"
+          ],
+          "alt": "Milo compact crossbody in Beige",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2510110122001632000/prepared/images/03-atelier-veyne.png",
+          "sourceFile": "2510110122001632000/prepared/../source/images/005-1653e4b9-b0a635c5.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/77453237-115f-4d77-8cc1-8ead5e6ab98a.jpg",
+          "sourceSha256": "b0a635c5428ba7732e1741a87c984ab15e996267ae54138ef166ea05b27d76c8",
+          "sha256": "ba79029b6b709cc280a644da9cab359564fff4da032fe61f4705c9b5ac8eddcd",
+          "variantIds": [
+            "2510110122001632600"
+          ],
+          "colors": [
+            "Gray"
+          ],
+          "alt": "Milo compact crossbody in Gray",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2510110122001632000/prepared/images/04-atelier-veyne.png",
+          "sourceFile": "2510110122001632000/prepared/../source/images/006-cc1bb071-7da056b1.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b1e6aa02-63fd-4a6c-8033-c7bdf414ab30.jpg",
+          "sourceSha256": "7da056b1f79ac7dc7db46fa3f46ce0f536e828f2a246b954dca61f4f2bf7d95f",
+          "sha256": "64d615a2fbedc9d423b7a9213ed8b596b90f32d9c2db23aa9e03dc15cb866bb2",
+          "variantIds": [
+            "2510110122001632800"
+          ],
+          "colors": [
+            "Caramel"
+          ],
+          "alt": "Milo compact crossbody in Caramel",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        },
+        {
+          "file": "2510110122001632000/prepared/images/05-atelier-veyne.png",
+          "sourceFile": "2510110122001632000/prepared/../source/images/002-1eb647c7-6f4bc445.jpg",
+          "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b540b634-a0dd-49db-8ce3-311db3745efb.jpg",
+          "sourceSha256": "6f4bc4455ba5a09b48fdfa71e14eef1fd0b163805eee7a6c4a178c14e2590717",
+          "sha256": "4a09885b857341b0f40393cf02d6647dc55ef15d37faf9083883e79cfbab0ae9",
+          "variantIds": [
+            "2510110122001632900"
+          ],
+          "colors": [
+            "Green"
+          ],
+          "alt": "Milo compact crossbody in Green",
+          "promptFile": "../../IMAGE-PROMPT.txt",
+          "promptSuffix": null,
+          "tool": "built-in image_gen",
+          "reviewStatus": "candidate_needs_owner_comparison"
+        }
+      ],
+      "swatches": [
+        {
+          "optionValue": "Black",
+          "proposedHex": "#1B1A18",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Beige",
+          "proposedHex": "#D6C3A5",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Gray",
+          "proposedHex": "#85817C",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Caramel",
+          "proposedHex": "#B58B60",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        },
+        {
+          "optionValue": "Green",
+          "proposedHex": "#3F604B",
+          "status": "approximate_source_photo_color_for_review",
+          "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+        }
+      ],
+      "publicationChecks": {
+        "freshShopifyAdminAuthorization": false,
+        "liveDuplicateCheck": false,
+        "liveMetafieldAndCollectionCheck": false,
+        "cjFulfillmentLinkVerified": false,
+        "inventoryAndShippingVerified": false
+      }
+    }
+  ]
+}

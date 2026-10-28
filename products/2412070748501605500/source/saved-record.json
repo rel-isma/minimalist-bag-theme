@@ -1,0 +1,53 @@
+{
+  "productId": "2412070748501605500",
+  "userId": null,
+  "packWeight": "570.00",
+  "weight": "550.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/ca07bd30-b5f2-449c-8153-30a564dd1943.jpg",
+  "nameEn": "Fashion Retro Portable Messenger Bag",
+  "sku": "CJYD2236426",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": null,
+  "createAt": 1792491096000,
+  "sellPrice": "5.31",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "LuWei Ordinary US",
+  "trialCountry": "US",
+  "trialFreight": "12.39",
+  "totalPrice": "17.70",
+  "listedShopNum": "1",
+  "listedShopIds": [
+    "2610192154423535300"
+  ],
+  "vid": "2412070748501605700",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    300,
+    300
+  ],
+  "heightList": [
+    100,
+    100
+  ],
+  "widthList": [
+    200,
+    200
+  ],
+  "volumeList": [
+    6000000,
+    6000000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_savedProductId": "2412070748501605500"
+}

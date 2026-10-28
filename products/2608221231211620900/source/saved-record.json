@@ -1,0 +1,51 @@
+{
+  "productId": "2608221231211620900",
+  "userId": null,
+  "packWeight": "415.00",
+  "weight": "395.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/882a444e-d33e-4936-b957-26badc6f3b7d.jpg",
+  "nameEn": "Elegant Casual Commuter Crossbody Bag",
+  "sku": "CJNS3086242",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": [],
+  "createAt": 1792860736870,
+  "sellPrice": "23.78",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "CJPacket Ordinary",
+  "trialCountry": null,
+  "trialFreight": "0",
+  "totalPrice": "23.78",
+  "listedShopNum": "0",
+  "listedShopIds": [],
+  "vid": "2608221231211621804",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    150,
+    150
+  ],
+  "heightList": [
+    100,
+    100
+  ],
+  "widthList": [
+    140,
+    140
+  ],
+  "volumeList": [
+    2100000,
+    2100000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_id": "2608221231211620900"
+}

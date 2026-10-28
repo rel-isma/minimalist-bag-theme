@@ -1,0 +1,424 @@
+{
+  "id": "gid://shopify/Product/15464465563967",
+  "title": "Alba mini crossbody bag",
+  "handle": "alba-mini-crossbody-bag",
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67861981004095",
+        "sku": "CJNS308624201AZ",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 9261,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Chick Yellow"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848156635455",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848156635455",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 9261
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 9261
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861981036863",
+        "sku": "CJNS308624202BY",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 8615,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Milk Shake Powder"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848156668223",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848156668223",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 8615
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 8615
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861981069631",
+        "sku": "CJNS308624203CX",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 6546,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Matcha Green"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848156700991",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848156700991",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 6546
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 6546
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861981102399",
+        "sku": "CJNS308624204DW",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 5944,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Milkshake White"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848156733759",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848156733759",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 5944
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 5944
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861981135167",
+        "sku": "CJNS308624205EV",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 5444,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848156766527",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848156766527",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 5444
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 5444
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861981167935",
+        "sku": "CJNS308624206FU",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 7686,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Elephant Gray"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848156799295",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848156799295",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 7686
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 7686
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metafield/191425400209727",
+        "namespace": "global",
+        "key": "title_tag",
+        "type": "string",
+        "value": "Alba mini crossbody bag | Atelier Veyne",
+        "compareDigest": "da8c6648701751344ea08566d150186f3d58101d5cc1455d54f7cee2aad111ed"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425400242495",
+        "namespace": "global",
+        "key": "description_tag",
+        "type": "string",
+        "value": "Meet Alba, a compact crescent crossbody bag with a curved zip opening, short handle and longer strap. Explore six colors at Atelier Veyne.",
+        "compareDigest": "04ff9350ba791169fa7b78ca66fb5745200eaade4066eb36760626443cc1305f"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425428816191",
+        "namespace": "custom",
+        "key": "cj_product_id",
+        "type": "single_line_text_field",
+        "value": "2608221231211620900",
+        "compareDigest": "bf82b530c6352e654ae3884f8fefb6d2d45e9229cc3531f1b91f083b224c1b9a"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425428848959",
+        "namespace": "custom",
+        "key": "color_swatches",
+        "type": "json",
+        "value": "{\"Chick Yellow\":\"#E3D26B\",\"Milk Shake Powder\":\"#DDC6CD\",\"Matcha Green\":\"#B7C6AF\",\"Milkshake White\":\"#E7E1D4\",\"Black\":\"#1B1A18\",\"Elephant Gray\":\"#A79780\"}",
+        "compareDigest": "219e4198b327fb9c268ea739d9eb36c8b20ccbf9826b5b3f49923ba5bb650b24"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425428881727",
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Leather exterior with polyester-cotton lining.",
+        "compareDigest": "52b56370fd31b6278c3aa912b3fa4fdaea39cece3f92a355fe6856d52c90c77d"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425428914495",
+        "namespace": "custom",
+        "key": "dimensions",
+        "type": "multi_line_text_field",
+        "value": "15 × 10 × 14 cm, as stated by the supplier.",
+        "compareDigest": "de29d09b19b15efd2282f68a1be807b0cf2c42e085c47d9318dade7444144ba3"
+      }
+    ]
+  }
+}

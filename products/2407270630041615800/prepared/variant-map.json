@@ -1,0 +1,28 @@
+[
+  {
+    "cjProductId": "2407270630041615800",
+    "cjVariantId": "2407270630041616000",
+    "sku": "CJNS209476801AZ",
+    "sourceOptionKey": "Black",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/f357d2c5-323e-4d21-952f-8c053d6e07df.jpg"
+  },
+  {
+    "cjProductId": "2407270630041615800",
+    "cjVariantId": "2407270630041616200",
+    "sku": "CJNS209476802BY",
+    "sourceOptionKey": "Beige",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Beige"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/124d47b6-a8d7-4bb7-81c8-72db3f2a9fb4.jpg"
+  }
+]

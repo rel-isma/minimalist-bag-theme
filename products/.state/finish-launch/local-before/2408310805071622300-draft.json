@@ -1,0 +1,224 @@
+{
+  "id": "2408310805071622300",
+  "cjProductSku": "CJNS2125012",
+  "title": "Marlow top-handle bag",
+  "handle": "marlow-top-handle-bag",
+  "description": "A rounded flap and a neat top handle give Marlow its understated shape. Pebbled texture and contrast stitching bring definition to the exterior, while a shoulder strap offers another way to carry it. Top handle and shoulder strap Flap-front design Internal phone pocket and zippered compartment",
+  "vendor": "Atelier Veyne",
+  "productType": "Crossbody bag",
+  "tags": [
+    "black",
+    "cj-import",
+    "crossbody-bag",
+    "elephant-gray",
+    "milkshake-white",
+    "new-arrival"
+  ],
+  "seo": {
+    "title": "Marlow top-handle bag | Atelier Veyne",
+    "description": "Marlow top-handle bag. Top handle and shoulder strap. Flap-front design. Discover considered everyday bags at Atelier Veyne."
+  },
+  "material": "Cowhide leather with polyester lining.",
+  "dimensions": "",
+  "care": "",
+  "variants": [
+    {
+      "cjVariantId": "2408310805071622500",
+      "cjProductId": "2408310805071622300",
+      "sku": "CJNS212501201AZ",
+      "barcode": "1600004628482",
+      "sourceOptionKey": "Milkshake White",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Milkshake White"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/d8288bd2-2c7e-415d-abc4-4cebf95a166a.jpg",
+      "supplierCost": {
+        "amount": "19.07",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 230,
+        "width": 170,
+        "height": 60,
+        "weight": 420,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2408310805071622700",
+      "cjProductId": "2408310805071622300",
+      "sku": "CJNS212501202BY",
+      "barcode": "1600004628483",
+      "sourceOptionKey": "Black",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b949c6be-3e8a-4598-8c9a-52e9f23e8800.jpg",
+      "supplierCost": {
+        "amount": "19.07",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 230,
+        "width": 170,
+        "height": 60,
+        "weight": 578,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2408310805071622900",
+      "cjProductId": "2408310805071622300",
+      "sku": "CJNS212501203CX",
+      "barcode": "1600004628484",
+      "sourceOptionKey": "Elephant Gray",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Elephant Gray"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/0e0eb27c-3795-40ab-8c31-89815a578094.jpg",
+      "supplierCost": {
+        "amount": "19.07",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 230,
+        "width": 170,
+        "height": 60,
+        "weight": 420,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Milkshake White",
+      "proposedHex": "#EFE9DA",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Elephant Gray",
+      "proposedHex": "#9C8C72",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "images": [
+    {
+      "id": "d9810e4fe39d7d5b",
+      "file": "products/2408310805071622300/prepared/images/01-atelier-veyne.png",
+      "url": "/media/products/2408310805071622300/prepared/images/01-atelier-veyne.png",
+      "alt": "Marlow top-handle bag in Milkshake White",
+      "variantIds": [
+        "2408310805071622500"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/d8288bd2-2c7e-415d-abc4-4cebf95a166a.jpg"
+    },
+    {
+      "id": "9a714eddbfd47495",
+      "file": "products/2408310805071622300/prepared/images/lifestyle-woman-v1.png",
+      "url": "/media/products/2408310805071622300/prepared/images/lifestyle-woman-v1.png",
+      "alt": "Marlow top-handle bag in Elephant Gray, carried by an adult woman",
+      "variantIds": [],
+      "enabled": true,
+      "kind": "lifestyle-source-edit",
+      "role": "lifestyle",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0f317201-e6c3-4fdf-aa80-bd7f128bb9ab.jpg",
+      "sourceFile": "products/2408310805071622300/source/images/003-099a5ef0-d8538217.jpg",
+      "generated": true
+    },
+    {
+      "id": "e8807e822295dead",
+      "file": "products/2408310805071622300/prepared/images/02-atelier-veyne.png",
+      "url": "/media/products/2408310805071622300/prepared/images/02-atelier-veyne.png",
+      "alt": "Marlow top-handle bag in Black",
+      "variantIds": [
+        "2408310805071622700"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b949c6be-3e8a-4598-8c9a-52e9f23e8800.jpg"
+    },
+    {
+      "id": "c8853fd858699553",
+      "file": "products/2408310805071622300/prepared/images/03-atelier-veyne.png",
+      "url": "/media/products/2408310805071622300/prepared/images/03-atelier-veyne.png",
+      "alt": "Marlow top-handle bag in Elephant Gray",
+      "variantIds": [
+        "2408310805071622900"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0e0eb27c-3795-40ab-8c31-89815a578094.jpg"
+    }
+  ],
+  "reviewNotes": [
+    "Leather grade is a supplier claim; do not upgrade it to full-grain."
+  ],
+  "resolvedNotes": [],
+  "replaceGallery": true,
+  "savedAt": "2026-10-23T18:35:28.887Z",
+  "sourceName": "Genuine Leather High-grade Bag For Women",
+  "sourceDescription": "Product information: Lining texture: Polyester Color: Milkshake white, black, elephant gray Outer bag type: Sandwich pocket Leather characteristics: first layer cowhide Hardness: medium Material: genuine leather Suitcase shape: Horizontal Square Bag internal structure: zipper changing bag, mobile phone bag, interlayer zipper bag Style: Urban Simplicity Number of shoulder straps: Single Packing list: Crossbody bag * 1 Product Image:",
+  "fulfillment": {
+    "sourceCountryCode": "CN",
+    "defaultArea": 1,
+    "targetCountryCode": "US",
+    "logistics": "",
+    "locationIds": [],
+    "deliveryProfileId": ""
+  },
+  "collectionIds": [],
+  "templateSuffix": "",
+  "taxable": false
+}

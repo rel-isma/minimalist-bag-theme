@@ -1,0 +1,341 @@
+{
+  "id": "2607070853511612201",
+  "cjProductSku": "CJNS2972274",
+  "title": "Orla barrel bag",
+  "handle": "orla-barrel-bag",
+  "description": "Orla brings a compact cylindrical shape to everyday dressing. The structured outline, single shoulder strap and restrained metal accents give it a simple, distinctive presence. Cylindrical silhouette Single shoulder strap Internal zippered pocket",
+  "vendor": "Atelier Veyne",
+  "productType": "Shoulder bag",
+  "tags": [
+    "beige",
+    "black",
+    "brown",
+    "cj-import",
+    "coffee",
+    "new-arrival",
+    "shoulder-bag",
+    "wine-red"
+  ],
+  "seo": {
+    "title": "Orla barrel bag | Atelier Veyne",
+    "description": "Orla barrel bag. Cylindrical silhouette. Single shoulder strap. Discover considered everyday bags at Atelier Veyne."
+  },
+  "material": "Cowhide leather with polyester-cotton lining.",
+  "dimensions": "20 × 10 × 12 cm.",
+  "care": "",
+  "variants": [
+    {
+      "cjVariantId": "2607070853511613000",
+      "cjProductId": "2607070853511612201",
+      "sku": "CJNS297227401AZ",
+      "barcode": "1600014959506",
+      "sourceOptionKey": "Black-20x10x12",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        },
+        {
+          "name": "Size",
+          "value": "20x10x12"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/596d39f6-89d2-486b-9ef1-14a2f8c2ef65.jpg",
+      "supplierCost": {
+        "amount": "17.91",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 200,
+        "width": 120,
+        "height": 100,
+        "weight": 700,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2607070853511613600",
+      "cjProductId": "2607070853511612201",
+      "sku": "CJNS297227402BY",
+      "barcode": "1600014959507",
+      "sourceOptionKey": "Beige-20x10x12",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Beige"
+        },
+        {
+          "name": "Size",
+          "value": "20x10x12"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/cd018ab3-59ca-4e5e-9898-42fba224aff0.jpg",
+      "supplierCost": {
+        "amount": "17.91",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 200,
+        "width": 120,
+        "height": 100,
+        "weight": 700,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2607070853511614100",
+      "cjProductId": "2607070853511612201",
+      "sku": "CJNS297227403CX",
+      "barcode": "1600014959508",
+      "sourceOptionKey": "Coffee-20x10x12",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Coffee"
+        },
+        {
+          "name": "Size",
+          "value": "20x10x12"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/4e9e4881-def0-4de7-9133-b7bc006c932a.jpg",
+      "supplierCost": {
+        "amount": "17.91",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 200,
+        "width": 120,
+        "height": 100,
+        "weight": 700,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2607070853511614600",
+      "cjProductId": "2607070853511612201",
+      "sku": "CJNS297227404DW",
+      "barcode": "1600014959509",
+      "sourceOptionKey": "Wine Red-20x10x12",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Wine Red"
+        },
+        {
+          "name": "Size",
+          "value": "20x10x12"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/e3f3b3d9-bd1d-4d51-ad9d-c33a81e474db.jpg",
+      "supplierCost": {
+        "amount": "17.91",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 200,
+        "width": 120,
+        "height": 100,
+        "weight": 700,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2607070853511615100",
+      "cjProductId": "2607070853511612201",
+      "sku": "CJNS297227405EV",
+      "barcode": "1600014959510",
+      "sourceOptionKey": "Brown-20x10x12",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Brown"
+        },
+        {
+          "name": "Size",
+          "value": "20x10x12"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/7c3965f0-29ac-491a-b1dc-45f8baf2ace7.jpg",
+      "supplierCost": {
+        "amount": "17.91",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 200,
+        "width": 120,
+        "height": 100,
+        "weight": 700,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Beige",
+      "proposedHex": "#E8E2D4",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Coffee",
+      "proposedHex": "#3D2B23",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Wine Red",
+      "proposedHex": "#73343E",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Brown",
+      "proposedHex": "#654735",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "images": [
+    {
+      "id": "d9810e4fe39d7d5b",
+      "file": "products/2607070853511612201/prepared/images/01-atelier-veyne.png",
+      "url": "/media/products/2607070853511612201/prepared/images/01-atelier-veyne.png",
+      "alt": "Orla barrel bag in Black",
+      "variantIds": [
+        "2607070853511613000"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/596d39f6-89d2-486b-9ef1-14a2f8c2ef65.jpg"
+    },
+    {
+      "id": "e8807e822295dead",
+      "file": "products/2607070853511612201/prepared/images/02-atelier-veyne.png",
+      "url": "/media/products/2607070853511612201/prepared/images/02-atelier-veyne.png",
+      "alt": "Orla barrel bag in Beige",
+      "variantIds": [
+        "2607070853511613600"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/cd018ab3-59ca-4e5e-9898-42fba224aff0.jpg"
+    },
+    {
+      "id": "c8853fd858699553",
+      "file": "products/2607070853511612201/prepared/images/03-atelier-veyne.png",
+      "url": "/media/products/2607070853511612201/prepared/images/03-atelier-veyne.png",
+      "alt": "Orla barrel bag in Coffee",
+      "variantIds": [
+        "2607070853511614100"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/4e9e4881-def0-4de7-9133-b7bc006c932a.jpg"
+    },
+    {
+      "id": "96d600413ed700d4",
+      "file": "products/2607070853511612201/prepared/images/04-atelier-veyne.png",
+      "url": "/media/products/2607070853511612201/prepared/images/04-atelier-veyne.png",
+      "alt": "Orla barrel bag in Wine Red",
+      "variantIds": [
+        "2607070853511614600"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/e3f3b3d9-bd1d-4d51-ad9d-c33a81e474db.jpg"
+    },
+    {
+      "id": "b929f3801513d414",
+      "file": "products/2607070853511612201/prepared/images/05-atelier-veyne.png",
+      "url": "/media/products/2607070853511612201/prepared/images/05-atelier-veyne.png",
+      "alt": "Orla barrel bag in Brown",
+      "variantIds": [
+        "2607070853511615100"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/7c3965f0-29ac-491a-b1dc-45f8baf2ace7.jpg"
+    }
+  ],
+  "reviewNotes": [
+    "Dimensions follow supplier order; length/width/height orientation is not stated, so labels are not invented."
+  ],
+  "resolvedNotes": [],
+  "replaceGallery": true,
+  "savedAt": null,
+  "sourceName": "Luxury Niche One-Shoulder Tote Bag For Women",
+  "sourceDescription": "Product information: Lining material: Polyester-cotton Occasion: Everyday wear Pocket type: Three-dimensional pocket Leather type: Cowhide Hardness: Medium-hard Material: Genuine leather Bag shape: Cylindrical Dimensions: 20 x 10 x 12 cm Internal structure: Zippered hidden pocket Trendy elements: Metal accents, solid color Style: Casual Strap type: Single shoulder strap Layered design: None Packing list: Bag*1 Product Image:",
+  "fulfillment": {
+    "sourceCountryCode": "CN",
+    "defaultArea": 1,
+    "targetCountryCode": "",
+    "logistics": "",
+    "locationIds": [],
+    "deliveryProfileId": ""
+  },
+  "collectionIds": [],
+  "templateSuffix": "",
+  "taxable": false
+}

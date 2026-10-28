@@ -1,0 +1,454 @@
+{
+  "checkedAt": "2026-10-27T14:55:43.089Z",
+  "config": {
+    "metafieldDefinitions": {
+      "nodes": [
+        {
+          "namespace": "shopify--discovery--product_search_boost",
+          "key": "queries",
+          "type": {
+            "name": "list.single_line_text_field"
+          }
+        },
+        {
+          "namespace": "shopify--discovery--product_recommendation",
+          "key": "related_products",
+          "type": {
+            "name": "list.product_reference"
+          }
+        },
+        {
+          "namespace": "shopify--discovery--product_recommendation",
+          "key": "related_products_display",
+          "type": {
+            "name": "single_line_text_field"
+          }
+        },
+        {
+          "namespace": "shopify--discovery--product_recommendation",
+          "key": "complementary_products",
+          "type": {
+            "name": "list.product_reference"
+          }
+        },
+        {
+          "namespace": "mm-google-shopping",
+          "key": "custom_product",
+          "type": {
+            "name": "boolean"
+          }
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": {
+            "name": "single_line_text_field"
+          }
+        },
+        {
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": {
+            "name": "json"
+          }
+        },
+        {
+          "namespace": "custom",
+          "key": "material",
+          "type": {
+            "name": "multi_line_text_field"
+          }
+        },
+        {
+          "namespace": "custom",
+          "key": "dimensions",
+          "type": {
+            "name": "multi_line_text_field"
+          }
+        },
+        {
+          "namespace": "custom",
+          "key": "care",
+          "type": {
+            "name": "multi_line_text_field"
+          }
+        }
+      ]
+    },
+    "currentAppInstallation": {
+      "accessScopes": [
+        {
+          "handle": "read_products"
+        },
+        {
+          "handle": "write_products"
+        },
+        {
+          "handle": "read_files"
+        },
+        {
+          "handle": "write_files"
+        },
+        {
+          "handle": "read_publications"
+        },
+        {
+          "handle": "write_publications"
+        },
+        {
+          "handle": "read_themes"
+        },
+        {
+          "handle": "read_inventory"
+        },
+        {
+          "handle": "write_inventory"
+        },
+        {
+          "handle": "read_locations"
+        },
+        {
+          "handle": "read_shipping"
+        },
+        {
+          "handle": "write_shipping"
+        },
+        {
+          "handle": "read_markets"
+        }
+      ]
+    },
+    "shop": {
+      "name": "Atelier Veyne",
+      "myshopifyDomain": "s35my0-uu.myshopify.com",
+      "contactEmail": "veyneatelier@gmail.com"
+    }
+  },
+  "product": {
+    "id": "gid://shopify/Product/15459351593279",
+    "title": "Marlow top-handle bag",
+    "handle": "marlow-top-handle-bag",
+    "variants": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/67841875378495",
+          "sku": "CJNS212501201AZ",
+          "availableForSale": true,
+          "sellableOnlineQuantity": 11850,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Milkshake White"
+            }
+          ],
+          "deliveryProfile": {
+            "id": "gid://shopify/DeliveryProfile/134354403647",
+            "name": "General profile"
+          },
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828001431871",
+            "tracked": true,
+            "inventoryLevels": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "nodes": [
+                {
+                  "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828001431871",
+                  "isActive": true,
+                  "canDeactivate": true,
+                  "location": {
+                    "id": "gid://shopify/Location/114770706751",
+                    "name": "El Massira",
+                    "isActive": true,
+                    "fulfillsOnlineOrders": true
+                  },
+                  "quantities": [
+                    {
+                      "name": "available",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "on_hand",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "committed",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "reserved",
+                      "quantity": 0
+                    }
+                  ]
+                },
+                {
+                  "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828001431871",
+                  "isActive": true,
+                  "canDeactivate": true,
+                  "location": {
+                    "id": "gid://shopify/Location/114800427327",
+                    "name": "cjdropshipping",
+                    "isActive": true,
+                    "fulfillsOnlineOrders": true
+                  },
+                  "quantities": [
+                    {
+                      "name": "available",
+                      "quantity": 11850
+                    },
+                    {
+                      "name": "on_hand",
+                      "quantity": 11850
+                    },
+                    {
+                      "name": "committed",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "reserved",
+                      "quantity": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841875411263",
+          "sku": "CJNS212501202BY",
+          "availableForSale": true,
+          "sellableOnlineQuantity": 10540,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "deliveryProfile": {
+            "id": "gid://shopify/DeliveryProfile/134354403647",
+            "name": "General profile"
+          },
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828001464639",
+            "tracked": true,
+            "inventoryLevels": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "nodes": [
+                {
+                  "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828001464639",
+                  "isActive": true,
+                  "canDeactivate": true,
+                  "location": {
+                    "id": "gid://shopify/Location/114770706751",
+                    "name": "El Massira",
+                    "isActive": true,
+                    "fulfillsOnlineOrders": true
+                  },
+                  "quantities": [
+                    {
+                      "name": "available",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "on_hand",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "committed",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "reserved",
+                      "quantity": 0
+                    }
+                  ]
+                },
+                {
+                  "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828001464639",
+                  "isActive": true,
+                  "canDeactivate": true,
+                  "location": {
+                    "id": "gid://shopify/Location/114800427327",
+                    "name": "cjdropshipping",
+                    "isActive": true,
+                    "fulfillsOnlineOrders": true
+                  },
+                  "quantities": [
+                    {
+                      "name": "available",
+                      "quantity": 10540
+                    },
+                    {
+                      "name": "on_hand",
+                      "quantity": 10540
+                    },
+                    {
+                      "name": "committed",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "reserved",
+                      "quantity": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841875444031",
+          "sku": "CJNS212501203CX",
+          "availableForSale": true,
+          "sellableOnlineQuantity": 12702,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Elephant Gray"
+            }
+          ],
+          "deliveryProfile": {
+            "id": "gid://shopify/DeliveryProfile/134354403647",
+            "name": "General profile"
+          },
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828001497407",
+            "tracked": true,
+            "inventoryLevels": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "nodes": [
+                {
+                  "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828001497407",
+                  "isActive": true,
+                  "canDeactivate": true,
+                  "location": {
+                    "id": "gid://shopify/Location/114770706751",
+                    "name": "El Massira",
+                    "isActive": true,
+                    "fulfillsOnlineOrders": true
+                  },
+                  "quantities": [
+                    {
+                      "name": "available",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "on_hand",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "committed",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "reserved",
+                      "quantity": 0
+                    }
+                  ]
+                },
+                {
+                  "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828001497407",
+                  "isActive": true,
+                  "canDeactivate": true,
+                  "location": {
+                    "id": "gid://shopify/Location/114800427327",
+                    "name": "cjdropshipping",
+                    "isActive": true,
+                    "fulfillsOnlineOrders": true
+                  },
+                  "quantities": [
+                    {
+                      "name": "available",
+                      "quantity": 12702
+                    },
+                    {
+                      "name": "on_hand",
+                      "quantity": 12702
+                    },
+                    {
+                      "name": "committed",
+                      "quantity": 0
+                    },
+                    {
+                      "name": "reserved",
+                      "quantity": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Metafield/191310671348031",
+          "namespace": "custom",
+          "key": "material",
+          "type": "multi_line_text_field",
+          "value": "Cowhide leather with polyester lining.",
+          "compareDigest": "3df23d4c8a07cc20231fcacda4aaaaeaa5acdfc8e90108b4d83c6db6fe38d6ce"
+        },
+        {
+          "id": "gid://shopify/Metafield/191310671380799",
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": "single_line_text_field",
+          "value": "2408310805071622300",
+          "compareDigest": "c1a57285aaccfe856e4bb4331ea5baa4e74e40df051655046641170f2c6cfbf9"
+        },
+        {
+          "id": "gid://shopify/Metafield/191310671413567",
+          "namespace": "custom",
+          "key": "cj_import_batch",
+          "type": "single_line_text_field",
+          "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd",
+          "compareDigest": "14883250a0bd7b68aa09cb9ac39cbe11ed612f1682fa13c6657aef3f7259c9a7"
+        },
+        {
+          "id": "gid://shopify/Metafield/191310671446335",
+          "namespace": "custom",
+          "key": "cj_fulfillment_link_verified",
+          "type": "boolean",
+          "value": "false",
+          "compareDigest": "401f18ad0cca38559086c36f9e0295f1ca3a7023e5f095aeef69177a9b8f10ce"
+        },
+        {
+          "id": "gid://shopify/Metafield/191310671479103",
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": "json",
+          "value": "{\"Milkshake White\":\"#EFE9DA\",\"Black\":\"#1B1A18\",\"Elephant Gray\":\"#9C8C72\"}",
+          "compareDigest": "beff0617e2c24f540cd6fd779abbbe68d3047cf98b55083ce1b3c477f42a82b5"
+        },
+        {
+          "id": "gid://shopify/Metafield/191310671511871",
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Marlow top-handle bag | Atelier Veyne",
+          "compareDigest": "89644948fbbb3efa40fef7ce270d85b243100b24837c814a34e24e9ec7f40e53"
+        },
+        {
+          "id": "gid://shopify/Metafield/191310671544639",
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "Marlow top-handle bag. Top handle and shoulder strap. Flap-front design. Discover considered everyday bags at Atelier Veyne.",
+          "compareDigest": "ded2c17317beadc0e11e2bb0892372f9ba6f713d0b907f5696f30d06106dd90f"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "productId": "gid://shopify/Product/15459352674623",
+  "before": {
+    "id": "gid://shopify/Product/15459352674623",
+    "title": "Linden zip handbag",
+    "handle": "linden-zip-handbag",
+    "status": "ACTIVE",
+    "updatedAt": "2026-10-23T23:51:35Z",
+    "descriptionHtml": "<p>Linden keeps its lines simple with a soft handle, stitched detailing and a zip opening. The understated shape is finished with an internal slip pocket for smaller essentials.</p><ul>\n<li>Soft handle</li>\n<li>Zip opening</li>\n<li>Internal slip pocket</li>\n</ul>",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "templateSuffix": "",
+    "tags": [
+      "black",
+      "cj-import",
+      "coffee",
+      "earthy-yellow",
+      "new-arrival",
+      "red",
+      "shoulder-bag"
+    ],
+    "seo": {
+      "title": "Linden zip handbag | Atelier Veyne",
+      "description": "Linden zip handbag. Soft handle. Zip opening. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "Earthy yellow",
+          "Coffee",
+          "Red"
+        ]
+      }
+    ],
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519837024575",
+          "title": "Shoulder bags"
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "custom",
+          "key": "material",
+          "type": "multi_line_text_field",
+          "value": "Split cowhide leather with polyester lining."
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": "single_line_text_field",
+          "value": "295A6204-FA3E-4BFF-A999-D44F5C61CA21"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_import_batch",
+          "type": "single_line_text_field",
+          "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_fulfillment_link_verified",
+          "type": "boolean",
+          "value": "false"
+        },
+        {
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": "json",
+          "value": "{\"Black\":\"#1B1A18\",\"Earthy yellow\":\"#A76131\",\"Coffee\":\"#684335\",\"Red\":\"#A43E3D\"}"
+        },
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Linden zip handbag | Atelier Veyne"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "Linden zip handbag. Soft handle. Zip opening. Discover considered everyday bags at Atelier Veyne."
+        }
+      ]
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/46157959332159",
+          "alt": "Linden zip handbag in Black",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/linden-zip-handbag-01.png?v=1792756290",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157959364927",
+          "alt": "Linden zip handbag in Earthy yellow",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/linden-zip-handbag-02.png?v=1792756290",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157959397695",
+          "alt": "Linden zip handbag in Coffee",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/linden-zip-handbag-03.png?v=1792756290",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157959430463",
+          "alt": "Linden zip handbag in Red",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/linden-zip-handbag-04.png?v=1792756290",
+            "width": 1086,
+            "height": 1448
+          }
+        }
+      ]
+    },
+    "variants": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/67841893630271",
+          "sku": "CJBHNSNS27768-Black",
+          "price": "79.00",
+          "inventoryQuantity": 20000,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828019683647",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/linden-zip-handbag-01.png?v=1792756290"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "295A6204-FA3E-4BFF-A999-D44F5C61CA21"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "047C6A32-C0E3-4D59-8D51-26E37A3DBA88"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Black"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841893663039",
+          "sku": "CJBHNSNS27768-Earthy yellow",
+          "price": "79.00",
+          "inventoryQuantity": 20000,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Earthy yellow"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828019716415",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/linden-zip-handbag-02.png?v=1792756290"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "295A6204-FA3E-4BFF-A999-D44F5C61CA21"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "04AA4F85-E5F3-4BCD-8821-3460A76F3F45"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Earthy yellow"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841893695807",
+          "sku": "CJBHNSNS27768-Coffee",
+          "price": "79.00",
+          "inventoryQuantity": 20000,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Coffee"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828019749183",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/linden-zip-handbag-03.png?v=1792756290"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "295A6204-FA3E-4BFF-A999-D44F5C61CA21"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "3636A15F-751B-402A-9A74-D362D99CFB84"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Coffee"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841893728575",
+          "sku": "CJBHNSNS27768-Red",
+          "price": "79.00",
+          "inventoryQuantity": 20000,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Red"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828019781951",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/linden-zip-handbag-04.png?v=1792756290"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "295A6204-FA3E-4BFF-A999-D44F5C61CA21"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "EA26C552-7EC1-4A6D-9779-B951C7EF6728"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Red"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "image": {
+    "id": "ffb9aeda96449db2",
+    "file": "products/295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Linden zip handbag in Black, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-composite",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/2044/35115917318.jpg",
+    "sourceFile": "products/295A6204-FA3E-4BFF-A999-D44F5C61CA21/source/images/001-f4ac7508-3dba9b79.jpg",
+    "generated": true
+  },
+  "fileId": "gid://shopify/MediaImage/46179928080703",
+  "startedAt": "2026-10-25T16:48:48.699Z",
+  "result": {
+    "id": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+    "title": "Linden zip handbag",
+    "shopifyId": "gid://shopify/Product/15459352674623",
+    "addedMediaId": "gid://shopify/MediaImage/46179928080703",
+    "galleryCount": 5,
+    "allOriginalMediaRetained": true,
+    "nonGalleryDataUnchanged": true,
+    "verifiedAt": "2026-10-25T16:48:51.718Z"
+  },
+  "complete": true
+}

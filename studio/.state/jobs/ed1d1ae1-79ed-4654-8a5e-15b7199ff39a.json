@@ -1,0 +1,67 @@
+{
+  "id": "ed1d1ae1-79ed-4654-8a5e-15b7199ff39a",
+  "productId": "2602240521431615000",
+  "title": "Lune zip handbag",
+  "action": "publish",
+  "planId": "792deddd-5733-44ff-81d9-3187385fa6cb",
+  "status": "complete",
+  "startedAt": "2026-10-25T13:59:29.741Z",
+  "events": [
+    {
+      "at": "2026-10-25T13:59:32.255Z",
+      "message": "Hosting approved images for the native CJ listing"
+    },
+    {
+      "at": "2026-10-25T14:00:01.084Z",
+      "message": "Submitting native CJ listing; CJ will create fulfillment connections",
+      "nativePublishIntent": true
+    },
+    {
+      "at": "2026-10-25T14:00:03.190Z",
+      "message": "CJ listing submitted",
+      "listedId": "2610251400020659400"
+    },
+    {
+      "at": "2026-10-25T14:00:22.372Z",
+      "message": "Verifying every native CJ product and variant reference"
+    },
+    {
+      "at": "2026-10-25T14:00:25.050Z",
+      "message": "CJ inventory location and quantity tracking verified; checking supplier sync"
+    },
+    {
+      "at": "2026-10-25T14:08:22.337Z",
+      "message": "Finishing source-backed theme fields after confirmed CJ listing"
+    },
+    {
+      "at": "2026-10-25T14:22:23.349Z",
+      "message": "Finishing source-backed theme fields after confirmed CJ listing"
+    },
+    {
+      "at": "2026-10-25T14:24:20.948Z",
+      "message": "Finishing source-backed theme fields after confirmed CJ listing"
+    }
+  ],
+  "nativePublishIntent": true,
+  "listedId": "2610251400020659400",
+  "finishedAt": "2026-10-25T14:24:26.139Z",
+  "lastListingCheckAt": 1792938249710,
+  "result": {
+    "shopifyId": "gid://shopify/Product/15464176746815",
+    "contentUpdated": true,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 3,
+      "total": 3,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15464176746815",
+      "stock": 18850
+    },
+    "inventoryManaged": true,
+    "listingStatus": "PRODUCT_SUCCESS",
+    "note": "CJ listing, connections and inventory management verified."
+  },
+  "listingStatus": "PRODUCT_SUCCESS"
+}

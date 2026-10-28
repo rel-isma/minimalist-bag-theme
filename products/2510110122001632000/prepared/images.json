@@ -1,0 +1,92 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/003-32e4551a-3e8acf33.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b7d58ef9-91fc-4aca-a0eb-9ec106c484cf.jpg",
+    "sourceSha256": "3e8acf330c81e3b1d55b9fdf65dd0e1f3be8f742bd491a3ffdfe4aaa4e8237f8",
+    "sha256": "09f173d9b61201d3d6c027c6d61edd76be76d7ca7e58da58b3807310444ee7a9",
+    "variantIds": [
+      "2510110122001632300"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Milo compact crossbody in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/008-5a689600-7d102c40.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/de5c6a14-d472-4de2-af29-071eddc6b04d.jpg",
+    "sourceSha256": "7d102c40c0cc43a3e0f850569362c729de5ffeb202f4abd47c6eecfb294a94f0",
+    "sha256": "e116e7e695d63544e7624ff763ae33e6221b7e9afde27deb93d466b469c8a371",
+    "variantIds": [
+      "2510110122001632400"
+    ],
+    "colors": [
+      "Beige"
+    ],
+    "alt": "Milo compact crossbody in Beige",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/005-1653e4b9-b0a635c5.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/77453237-115f-4d77-8cc1-8ead5e6ab98a.jpg",
+    "sourceSha256": "b0a635c5428ba7732e1741a87c984ab15e996267ae54138ef166ea05b27d76c8",
+    "sha256": "ba79029b6b709cc280a644da9cab359564fff4da032fe61f4705c9b5ac8eddcd",
+    "variantIds": [
+      "2510110122001632600"
+    ],
+    "colors": [
+      "Gray"
+    ],
+    "alt": "Milo compact crossbody in Gray",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/04-atelier-veyne.png",
+    "sourceFile": "../source/images/006-cc1bb071-7da056b1.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b1e6aa02-63fd-4a6c-8033-c7bdf414ab30.jpg",
+    "sourceSha256": "7da056b1f79ac7dc7db46fa3f46ce0f536e828f2a246b954dca61f4f2bf7d95f",
+    "sha256": "64d615a2fbedc9d423b7a9213ed8b596b90f32d9c2db23aa9e03dc15cb866bb2",
+    "variantIds": [
+      "2510110122001632800"
+    ],
+    "colors": [
+      "Caramel"
+    ],
+    "alt": "Milo compact crossbody in Caramel",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/05-atelier-veyne.png",
+    "sourceFile": "../source/images/002-1eb647c7-6f4bc445.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b540b634-a0dd-49db-8ce3-311db3745efb.jpg",
+    "sourceSha256": "6f4bc4455ba5a09b48fdfa71e14eef1fd0b163805eee7a6c4a178c14e2590717",
+    "sha256": "4a09885b857341b0f40393cf02d6647dc55ef15d37faf9083883e79cfbab0ae9",
+    "variantIds": [
+      "2510110122001632900"
+    ],
+    "colors": [
+      "Green"
+    ],
+    "alt": "Milo compact crossbody in Green",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

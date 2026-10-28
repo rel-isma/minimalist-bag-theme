@@ -1,0 +1,419 @@
+{
+  "preparedAt": "2026-10-25T12:36:14.839Z",
+  "publishingApproved": false,
+  "ownerApproved": false,
+  "pricingApproved": false,
+  "draft": {
+    "id": "2608221231211620900",
+    "cjProductSku": "CJNS3086242",
+    "title": "Alba mini crossbody bag",
+    "handle": "alba-mini-crossbody-bag",
+    "description": "A small crescent shape, a curved zip opening and a softly pebbled surface give Alba its quiet character. The short handle keeps the silhouette compact, while the longer strap offers another way to carry it. Silver-tone hardware adds a restrained finishing detail.\n\nInside, a zippered pocket and card compartment help separate smaller belongings. At 15 × 10 × 14 cm, Alba is a compact choice for a light everyday carry.",
+    "vendor": "Atelier Veyne",
+    "productType": "Crossbody bag",
+    "tags": [
+      "cj-import",
+      "crossbody-bag",
+      "everyday",
+      "new-arrival"
+    ],
+    "seo": {
+      "title": "Alba mini crossbody bag | Atelier Veyne",
+      "description": "Meet Alba, a compact crescent crossbody bag with a curved zip opening, short handle and longer strap. Explore six colors at Atelier Veyne."
+    },
+    "material": "Leather exterior with polyester-cotton lining.",
+    "dimensions": "15 × 10 × 14 cm, as stated by the supplier.",
+    "care": "",
+    "variants": [
+      {
+        "cjVariantId": "2608221231211621800",
+        "cjProductId": "2608221231211620900",
+        "sku": "CJNS308624201AZ",
+        "sourceOptionKey": "Chick Yellow-15x10x14CM",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Chick Yellow"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "supplierCost": {
+          "amount": "23.78",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/cdfe6104-8152-4a10-8317-3685deb1ff86.jpg"
+      },
+      {
+        "cjVariantId": "2608221231211621801",
+        "cjProductId": "2608221231211620900",
+        "sku": "CJNS308624202BY",
+        "sourceOptionKey": "Milk Shake Powder-15x10x14CM",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Milk Shake Powder"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "supplierCost": {
+          "amount": "23.78",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/fa2f0555-078e-4eed-a825-62b1eea0d2cb.jpg"
+      },
+      {
+        "cjVariantId": "2608221231211621802",
+        "cjProductId": "2608221231211620900",
+        "sku": "CJNS308624203CX",
+        "sourceOptionKey": "Matcha Green-15x10x14CM",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Matcha Green"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "supplierCost": {
+          "amount": "23.78",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/1f224272-a892-42d4-aca6-dbe056c04cfb.jpg"
+      },
+      {
+        "cjVariantId": "2608221231211621803",
+        "cjProductId": "2608221231211620900",
+        "sku": "CJNS308624204DW",
+        "sourceOptionKey": "Milkshake White-15x10x14CM",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Milkshake White"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "supplierCost": {
+          "amount": "23.78",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/c92d7d19-927a-4fa4-8e28-c04d064a4e72.jpg"
+      },
+      {
+        "cjVariantId": "2608221231211621804",
+        "cjProductId": "2608221231211620900",
+        "sku": "CJNS308624205EV",
+        "sourceOptionKey": "Black-15x10x14CM",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "supplierCost": {
+          "amount": "23.78",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/dc491b92-2230-43b2-ab02-0e7590c37db6.jpg"
+      },
+      {
+        "cjVariantId": "2608221231211621805",
+        "cjProductId": "2608221231211620900",
+        "sku": "CJNS308624206FU",
+        "sourceOptionKey": "Elephant Gray-15x10x14CM",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Elephant Gray"
+          },
+          {
+            "name": "Size",
+            "value": "15x10x14CM"
+          }
+        ],
+        "supplierCost": {
+          "amount": "23.78",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/ac5a661b-cfe2-48f3-aa42-a54a9540b561.jpg"
+      }
+    ],
+    "swatches": [
+      {
+        "optionValue": "Chick Yellow",
+        "proposedHex": "#E3D26B"
+      },
+      {
+        "optionValue": "Milk Shake Powder",
+        "proposedHex": "#DDC6CD"
+      },
+      {
+        "optionValue": "Matcha Green",
+        "proposedHex": "#B7C6AF"
+      },
+      {
+        "optionValue": "Milkshake White",
+        "proposedHex": "#E7E1D4"
+      },
+      {
+        "optionValue": "Black",
+        "proposedHex": "#1B1A18"
+      },
+      {
+        "optionValue": "Elephant Gray",
+        "proposedHex": "#A79780"
+      }
+    ],
+    "images": [
+      {
+        "id": "cfbe3c75bfa915e7",
+        "file": "products/2608221231211620900/prepared/images/catalog-1.png",
+        "url": "/media/products/2608221231211620900/prepared/images/catalog-1.png",
+        "alt": "Alba mini crossbody bag — Chick Yellow-15x10x14CM",
+        "variantIds": [
+          "2608221231211621800"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/cdfe6104-8152-4a10-8317-3685deb1ff86.jpg",
+        "sourceFile": "products/2608221231211620900/source/images/02-aa22ecf047fa.jpg"
+      },
+      {
+        "id": "831e84ab6b700334",
+        "file": "products/2608221231211620900/prepared/images/lifestyle-woman-v1.png",
+        "url": "/media/products/2608221231211620900/prepared/images/lifestyle-woman-v1.png",
+        "alt": "Alba mini crossbody bag in Chick Yellow, carried by an adult woman",
+        "variantIds": [],
+        "enabled": true,
+        "kind": "lifestyle-composite",
+        "role": "lifestyle",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/cdfe6104-8152-4a10-8317-3685deb1ff86.jpg",
+        "sourceFile": "products/2608221231211620900/source/images/02-aa22ecf047fa.jpg",
+        "generated": true
+      },
+      {
+        "id": "287d102b70c3eff6",
+        "file": "products/2608221231211620900/prepared/images/catalog-2.png",
+        "url": "/media/products/2608221231211620900/prepared/images/catalog-2.png",
+        "alt": "Alba mini crossbody bag — Milk Shake Powder-15x10x14CM",
+        "variantIds": [
+          "2608221231211621801"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/fa2f0555-078e-4eed-a825-62b1eea0d2cb.jpg",
+        "sourceFile": "products/2608221231211620900/source/images/03-cd69f9d6bee8.jpg"
+      },
+      {
+        "id": "42866de7ca7ddf59",
+        "file": "products/2608221231211620900/prepared/images/catalog-3.png",
+        "url": "/media/products/2608221231211620900/prepared/images/catalog-3.png",
+        "alt": "Alba mini crossbody bag — Matcha Green-15x10x14CM",
+        "variantIds": [
+          "2608221231211621802"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/1f224272-a892-42d4-aca6-dbe056c04cfb.jpg",
+        "sourceFile": "products/2608221231211620900/source/images/04-9466526aa3f5.jpg"
+      },
+      {
+        "id": "73d4ecbc32c85376",
+        "file": "products/2608221231211620900/prepared/images/catalog-4.png",
+        "url": "/media/products/2608221231211620900/prepared/images/catalog-4.png",
+        "alt": "Alba mini crossbody bag — Milkshake White-15x10x14CM",
+        "variantIds": [
+          "2608221231211621803"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/c92d7d19-927a-4fa4-8e28-c04d064a4e72.jpg",
+        "sourceFile": "products/2608221231211620900/source/images/05-64e73db268ea.jpg"
+      },
+      {
+        "id": "e50885b032aa95ce",
+        "file": "products/2608221231211620900/prepared/images/catalog-5.png",
+        "url": "/media/products/2608221231211620900/prepared/images/catalog-5.png",
+        "alt": "Alba mini crossbody bag — Black-15x10x14CM",
+        "variantIds": [
+          "2608221231211621804"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/dc491b92-2230-43b2-ab02-0e7590c37db6.jpg",
+        "sourceFile": "products/2608221231211620900/source/images/06-2142ee518b91.jpg"
+      },
+      {
+        "id": "93ea276124e9a668",
+        "file": "products/2608221231211620900/prepared/images/catalog-6.png",
+        "url": "/media/products/2608221231211620900/prepared/images/catalog-6.png",
+        "alt": "Alba mini crossbody bag — Elephant Gray-15x10x14CM",
+        "variantIds": [
+          "2608221231211621805"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/ac5a661b-cfe2-48f3-aa42-a54a9540b561.jpg",
+        "sourceFile": "products/2608221231211620900/source/images/07-5e19fbafaacb.jpg"
+      },
+      {
+        "id": "da4d733a2b27bd43",
+        "file": "products/2608221231211620900/prepared/images/detail-open-yellow.png",
+        "url": "/media/products/2608221231211620900/prepared/images/detail-open-yellow.png",
+        "alt": "Alba mini crossbody bag — Chick Yellow, actual open interior",
+        "variantIds": [],
+        "enabled": true,
+        "kind": "branded",
+        "role": "interior",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/ad8c7f3a-c822-4e3d-98ce-3cda910f3c22.jpg",
+        "sourceFile": "products/2608221231211620900/source/images/review-805414ccebbe.jpg"
+      }
+    ],
+    "reviewNotes": [
+      "Price is a USD retail proposal; shipping, fees and margin require approval before listing.",
+      "Supplier states 15 × 10 × 14 cm. This is a mini bag; no phone-fit or large-capacity promise is made.",
+      "CJ color labels are retained exactly, including Milk Shake Powder. Proposed swatches follow the source photographs.",
+      "Supplier full-grain claim is not independently verified; final copy says leather only.",
+      "Supplier care instructions are absent; the care field remains empty. Compare edited photos with their CJ originals before publication."
+    ],
+    "resolvedNotes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "replaceGallery": true,
+    "savedAt": "2026-10-25T15:41:23.527Z",
+    "sourceName": "Elegant Casual Commuter Crossbody Bag",
+    "sourceDescription": "Product information: Lining material: Polyester-cotton Suitable occasion: Everyday wear Exterior pocket type: Interior hidden pocket Leather characteristic: Full-grain cowhide Hardness: Medium-soft Material: Genuine leather Bag shape: Pillow style Dimensions: 15 x 10 x 14 cm Internal structure: Zippered hidden pocket, ID/card holder Trendy detail: Topstitching craftsmanship Number of shoulder straps: Two straps With compartments: None Packing list: Bag*1 Product Image:",
+    "fulfillment": {
+      "sourceCountryCode": "CN",
+      "defaultArea": 1,
+      "targetCountryCode": "US",
+      "logistics": "DHL Official",
+      "locationIds": [
+        "114800427327"
+      ],
+      "deliveryProfileId": "134383960383",
+      "shippingReviewSignature": "8e2dda1c3cb572fe231a9b009d92293faade0ac13aee55272c0529f05193a354"
+    },
+    "collectionIds": [],
+    "templateSuffix": "",
+    "taxable": false
+  },
+  "shopifyDescriptionHtml": "<p>A small crescent shape, a curved zip opening and a softly pebbled surface give Alba its quiet character. The short handle keeps the silhouette compact, while the longer strap offers another way to carry it. Silver-tone hardware adds a restrained finishing detail.</p><p>Inside, a zippered pocket and card compartment help separate smaller belongings. At 15 × 10 × 14 cm, Alba is a compact choice for a light everyday carry.</p>",
+  "source": {
+    "pid": "2608221231211620900",
+    "sku": "CJNS3086242"
+  },
+  "reviewNotes": [
+    "Price is a USD retail proposal; shipping, fees and margin require approval before listing.",
+    "Supplier states 15 × 10 × 14 cm. This is a mini bag; no phone-fit or large-capacity promise is made.",
+    "CJ color labels are retained exactly, including Milk Shake Powder. Proposed swatches follow the source photographs.",
+    "Supplier full-grain claim is not independently verified; final copy says leather only.",
+    "Supplier care instructions are absent; the care field remains empty. Compare edited photos with their CJ originals before publication."
+  ],
+  "mediaValidation": [
+    {
+      "file": "products/2608221231211620900/prepared/images/catalog-1.png",
+      "sha256": "133f417b8ff23d4c4865eae44e6c8eb0e0ea2d394b455a5312ac12bc0d3a58e2",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2608221231211620900/source/images/02-aa22ecf047fa.jpg"
+    },
+    {
+      "file": "products/2608221231211620900/prepared/images/lifestyle-woman-v1.png",
+      "sha256": "ac9ecf00f754f5a22816f352db90cecaaca2bb86bb19d573bd81c2c45c1d0c67",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2608221231211620900/source/images/02-aa22ecf047fa.jpg"
+    },
+    {
+      "file": "products/2608221231211620900/prepared/images/catalog-2.png",
+      "sha256": "0f6720f733d3b57e2f34bcdbbc322f630e457060b2e33845f6c204e36e918b97",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2608221231211620900/source/images/03-cd69f9d6bee8.jpg"
+    },
+    {
+      "file": "products/2608221231211620900/prepared/images/catalog-3.png",
+      "sha256": "4e544d3f1268ba627f59f215da64b2fa5612a69b8b4f4d296a00521cf1b7ffc6",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2608221231211620900/source/images/04-9466526aa3f5.jpg"
+    },
+    {
+      "file": "products/2608221231211620900/prepared/images/catalog-4.png",
+      "sha256": "0ea9898b0ed05f901d02c55f660feefdc48f1cfcb3f097abef9d77c035fe4973",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2608221231211620900/source/images/05-64e73db268ea.jpg"
+    },
+    {
+      "file": "products/2608221231211620900/prepared/images/catalog-5.png",
+      "sha256": "17e959e9202963ef792c23c8a98ef45395522e0decf12d0bda6ab19b010ce663",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2608221231211620900/source/images/06-2142ee518b91.jpg"
+    },
+    {
+      "file": "products/2608221231211620900/prepared/images/catalog-6.png",
+      "sha256": "01327ed291aea2d46228e4dfca464c0b047cb9f5d97b523668ba7c0029c0a83e",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2608221231211620900/source/images/07-5e19fbafaacb.jpg"
+    },
+    {
+      "file": "products/2608221231211620900/prepared/images/detail-open-yellow.png",
+      "sha256": "06b28f399ec38fb3f631dea3fec766748f920603223e546efdec958406197ae6",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2608221231211620900/source/images/review-805414ccebbe.jpg"
+    }
+  ]
+}

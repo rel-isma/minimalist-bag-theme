@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-27T14:38:19.702Z",
+  "passed": true,
+  "results": [
+    {
+      "product": "Lune zip handbag",
+      "colorChangesOnCard": true,
+      "noNavigation": true,
+      "detailsLinkPreservesVariant": true
+    },
+    {
+      "product": "Ellis long-handle bag",
+      "colorChangesOnCard": true,
+      "noNavigation": true,
+      "detailsLinkPreservesVariant": true
+    }
+  ],
+  "cartWrites": false
+}

@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "overlay_opacity": 60,
+        "full_height": true,
+        "eyebrow": "Atelier Veyne",
+        "heading": "Quietly essential.",
+        "subhead": "Considered shapes for the things you carry.",
+        "button_label": "Explore the collection",
+        "button_link": "/collections/all"
+      }
+    },
+    "categories": {
+      "type": "category-tiles",
+      "settings": {},
+      "blocks": {
+        "c0": {
+          "type": "category",
+          "settings": {
+            "collection": "shoulder-bags",
+            "label": "Shoulder bags"
+          }
+        },
+        "c1": {
+          "type": "category",
+          "settings": {
+            "collection": "crossbody-bags",
+            "label": "Crossbody bags"
+          }
+        },
+        "c2": {
+          "type": "category",
+          "settings": {
+            "collection": "tote-bags",
+            "label": "Tote bags"
+          }
+        },
+        "c3": {
+          "type": "category",
+          "settings": {
+            "collection": "mini-and-clutch-bags",
+            "label": "Mini and clutch bags"
+          }
+        },
+        "c4": {
+          "type": "category",
+          "settings": {
+            "collection": "wallets-and-cardholders",
+            "label": "Wallets and cardholders"
+          }
+        },
+        "c5": {
+          "type": "category",
+          "settings": {
+            "collection": "accessories",
+            "label": "Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "c0",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ]
+    },
+    "new": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "New arrivals",
+        "collection": "new-arrivals",
+        "limit": 6
+      }
+    },
+    "story": {
+      "type": "brand-story",
+      "settings": {}
+    },
+    "look": {
+      "type": "shop-the-look",
+      "settings": {},
+      "blocks": {
+        "tote": {
+          "type": "pin",
+          "settings": {
+            "product": "plane-tote-bag",
+            "x": 34,
+            "y": 60
+          }
+        },
+        "wallet": {
+          "type": "pin",
+          "settings": {
+            "product": "turn-wallet",
+            "x": 72,
+            "y": 54
+          }
+        }
+      },
+      "block_order": [
+        "tote",
+        "wallet"
+      ]
+    },
+    "featured": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "A considered edit",
+        "collection": "featured",
+        "limit": 6
+      }
+    },
+    "benefits": {
+      "type": "trust-strip",
+      "settings": {},
+      "blocks": {}
+    },
+    "reviews": {
+      "type": "product-reviews",
+      "settings": {
+        "publish_reviews": false
+      },
+      "blocks": {}
+    },
+    "construction": {
+      "type": "comparison-table",
+      "settings": {},
+      "blocks": {
+        "construction-0": {
+          "type": "feature",
+          "settings": {
+            "feature": "Materials",
+            "our_text": "Find the stated composition on each product page.",
+            "compare_text": "Check the material and finish for the piece you choose."
+          }
+        },
+        "construction-1": {
+          "type": "feature",
+          "settings": {
+            "feature": "Hardware",
+            "our_text": "Check the closure and hardware details for each design.",
+            "compare_text": "Look for clear information about hardware and fastening."
+          }
+        },
+        "construction-2": {
+          "type": "feature",
+          "settings": {
+            "feature": "Edges and seams",
+            "our_text": "Explore the close-up product photographs.",
+            "compare_text": "Compare finishing details using actual product photography."
+          }
+        },
+        "construction-3": {
+          "type": "feature",
+          "settings": {
+            "feature": "Interior",
+            "our_text": "See each product's dimensions and interior details.",
+            "compare_text": "Compare capacity and pocket placement with your essentials."
+          }
+        },
+        "construction-4": {
+          "type": "feature",
+          "settings": {
+            "feature": "Care",
+            "our_text": "Follow the care information supplied for your product.",
+            "compare_text": "Check the care instructions for the actual material."
+          }
+        }
+      },
+      "block_order": [
+        "construction-0",
+        "construction-1",
+        "construction-2",
+        "construction-3",
+        "construction-4"
+      ]
+    },
+    "inquiries": {
+      "type": "faq-accordion",
+      "settings": {},
+      "blocks": {
+        "inquiries-0": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will my phone fit inside the bag?",
+            "answer": "<p>Yes. The bag easily accommodates all modern smartphones up to the iPhone 15 Pro Max and Samsung Galaxy Ultra series, even when enclosed in a protective case, alongside a bifold wallet and keys.</p>"
+          }
+        },
+        "inquiries-1": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is the leather water resistant?",
+            "answer": "<p>Our full-grain leather is naturally resilient to light humidity and brief rainfall. If caught in rain, simply blot gently with a dry cotton cloth and allow it to air-dry at room temperature away from heat sources.</p>"
+          }
+        },
+        "inquiries-2": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does shipping take?",
+            "answer": "<p>Orders are dispatched from our studio warehouse within 24 hours on business days. Standard delivery within the US takes 2\u20134 business days. Complimentary tracking is emailed upon fulfillment.</p>"
+          }
+        },
+        "inquiries-3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "<p>We offer a 30-day trial period. If the bag does not suit your everyday needs, return it in original, unworn condition with its dust bag for a full refund. A prepaid return shipping label is provided.</p>"
+          }
+        },
+        "inquiries-4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can the shoulder strap length be adjusted?",
+            "answer": "<p>The strap has a fixed 28 cm drop proportioned specifically to tuck securely under the arm and stay positioned on the shoulder without sliding off your coat.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "inquiries-0",
+        "inquiries-1",
+        "inquiries-2",
+        "inquiries-3",
+        "inquiries-4"
+      ]
+    },
+    "best_sellers": {
+      "type": "featured-collection",
+      "settings": {
+        "eyebrow": "The everyday edit",
+        "heading": "Best Sellers",
+        "text": "Find your everyday companion. Explore the shapes at the heart of Atelier Veyne.",
+        "collection": "featured",
+        "limit": 4,
+        "columns": "4"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "categories",
+    "best_sellers",
+    "new",
+    "story",
+    "look",
+    "featured",
+    "benefits",
+    "reviews",
+    "construction",
+    "inquiries"
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "stage": "prepared_for_owner_review",
+  "publishingApproved": false,
+  "source": {
+    "cjProductId": "2412070748501605500",
+    "cjProductSku": "CJYD2236426",
+    "originalTitle": "Fashion Retro Portable Messenger Bag",
+    "productFile": "../source/product.json",
+    "variantsFile": "../source/variants.json"
+  },
+  "shopify": {
+    "title": "Remy everyday bag",
+    "handle": "remy-everyday-bag",
+    "vendor": "Atelier Veyne",
+    "productType": "Crossbody bag",
+    "descriptionHtml": "<p>Remy pairs stitched detailing with a simple everyday silhouette. Its clasp detail and internal compartments keep the design practical, with dedicated places for a phone, cards and smaller items.</p><ul><li>Stitched exterior detailing</li><li>Clasp detail</li><li>Internal phone, card and zippered pockets</li></ul>",
+    "shortDescription": "Remy pairs stitched detailing with a simple everyday silhouette. Its clasp detail and internal compartments keep the design practical, with dedicated places for a phone, cards and smaller items.",
+    "seo": {
+      "title": "Remy everyday bag | Atelier Veyne",
+      "description": "Remy everyday bag. Stitched exterior detailing. Clasp detail. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "Gray",
+          "Brown",
+          "Beige",
+          "Coffee"
+        ]
+      }
+    ],
+    "tags": [
+      "crossbody-bag",
+      "cj-import",
+      "black",
+      "gray",
+      "brown",
+      "beige",
+      "coffee"
+    ],
+    "suggestedCollections": [
+      "Crossbody bags"
+    ],
+    "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+    "templateSuffix": null,
+    "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+    "statusOnFirstUpload": "DRAFT",
+    "metafields": [
+      {
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "PU with nylon lining."
+      }
+    ],
+    "omittedMetafields": [
+      "custom.dimensions",
+      "custom.care"
+    ],
+    "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+  },
+  "variants": [
+    {
+      "cjVariantId": "2412070748501605700",
+      "cjProductId": "2412070748501605500",
+      "sku": "CJYD223642601AZ",
+      "barcode": "1600005538342",
+      "sourceOptionKey": "Black",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/99cbb312-5fcd-41c8-890f-6278ae8842be.jpg",
+      "supplierCost": {
+        "amount": "5.31",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "59.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 300,
+        "width": 200,
+        "height": 100,
+        "weight": 570,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2412070748501605900",
+      "cjProductId": "2412070748501605500",
+      "sku": "CJYD223642602BY",
+      "barcode": "1600005538343",
+      "sourceOptionKey": "Gray",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Gray"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/0cf37ffa-9c31-4017-8f67-62dc76a8bee0.jpg",
+      "supplierCost": {
+        "amount": "5.31",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "59.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 300,
+        "width": 200,
+        "height": 100,
+        "weight": 570,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2412070748501606000",
+      "cjProductId": "2412070748501605500",
+      "sku": "CJYD223642603CX",
+      "barcode": "1600005538344",
+      "sourceOptionKey": "Brown",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Brown"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/ec41309e-b49b-43c6-878b-e80cfb31194f.jpg",
+      "supplierCost": {
+        "amount": "5.31",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "59.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 300,
+        "width": 200,
+        "height": 100,
+        "weight": 570,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2412070748501606200",
+      "cjProductId": "2412070748501605500",
+      "sku": "CJYD223642604DW",
+      "barcode": "1600005538345",
+      "sourceOptionKey": "Beige",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Beige"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/fc40e401-4a4a-45d3-bb84-56ca3b0a4d70.jpg",
+      "supplierCost": {
+        "amount": "5.31",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "59.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 300,
+        "width": 200,
+        "height": 100,
+        "weight": 570,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2412070748501606400",
+      "cjProductId": "2412070748501605500",
+      "sku": "CJYD223642605EV",
+      "barcode": "1600005538346",
+      "sourceOptionKey": "Coffee",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Coffee"
+        }
+      ],
+      "sourceImageUrl": "https://oss-cf.cjdropshipping.com/product/2024/12/08/03/944109a6-a0a3-4935-a05f-c3a05a1d9397.jpg",
+      "supplierCost": {
+        "amount": "5.31",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "59.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 300,
+        "width": 200,
+        "height": 100,
+        "weight": 570,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Gray",
+      "proposedHex": "#AE9C81",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Brown",
+      "proposedHex": "#B97842",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Beige",
+      "proposedHex": "#EDE4CE",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Coffee",
+      "proposedHex": "#9A6C45",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "pricing": {
+    "currency": "USD",
+    "suggestedPrice": "59.00",
+    "approved": false,
+    "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+    "excludes": [
+      "Shipping",
+      "Duties and import taxes",
+      "Payment fees",
+      "Returns",
+      "Advertising",
+      "Other operating costs"
+    ]
+  },
+  "specifications": {
+    "material": "PU with nylon lining.",
+    "dimensions": null,
+    "care": null,
+    "features": [
+      "Stitched exterior detailing",
+      "Clasp detail",
+      "Internal phone, card and zippered pockets"
+    ],
+    "supplierFacts": [
+      "Description explicitly identifies PU and nylon lining."
+    ]
+  },
+  "reviewIssues": [
+    "Material conflict: structured field says Leather while description says PU. Proposed copy uses PU.",
+    "Supplier packing list describes a mother-child set; confirm exactly what is included before publication.",
+    "Translated color descriptions are inconsistent; native variant labels are preserved."
+  ],
+  "publicationRequirements": [
+    "Owner approval of content, prices and generated photos",
+    "Resolve source specification/variant issues",
+    "Fresh Shopify authorization",
+    "Check existing product CJ IDs, SKUs and proposed handle before deciding create/update",
+    "Verify native CJ-to-Shopify variant fulfillment links",
+    "Verify stock, shipping weight, delivery regions and commercial policies",
+    "Check collection membership, swatches, templates and offer eligibility"
+  ],
+  "media": [
+    {
+      "file": "images/01-atelier-veyne.png",
+      "sourceFile": "../source/images/008-2d6ccbd7-4247c14d.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/99cbb312-5fcd-41c8-890f-6278ae8842be.jpg",
+      "sourceSha256": "4247c14d007c2001b0f32c3d8769b0ced31858253bf761798ee543200aa268db",
+      "sha256": "6e76921744b601f6ea1b1dbfba1c36e32a247ef27c40c528406e0f57519edad9",
+      "variantIds": [
+        "2412070748501605700"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "alt": "Remy everyday bag in Black",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": "The target is ONLY the main bag, not the small separate pouch. Remove the separate pouch, magazine, glass ornament and clothing props. Preserve the main bag exactly as shown, including the existing flat-lay camera angle, its strap, handles, grain and gold clasp. Place that same visible bag on the pale limestone background as a refined product flat lay. Do not imply that the pouch or any decor is included.",
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/02-atelier-veyne.png",
+      "sourceFile": "../source/images/002-bcdade95-f394fcc5.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0cf37ffa-9c31-4017-8f67-62dc76a8bee0.jpg",
+      "sourceSha256": "f394fcc55eb6151d741d810cfe4588b3e0bcf0e8cfffd53702c102f0c609ddbf",
+      "sha256": "e4029f86b7adfc3b9bbe68c35da02e3a825beb062dec3cbec6dd7419fb8cbdaf",
+      "variantIds": [
+        "2412070748501605900"
+      ],
+      "colors": [
+        "Gray"
+      ],
+      "alt": "Remy everyday bag in Gray",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": "The target is ONLY the main bag, not the small separate pouch. Remove the separate pouch, magazine, glass ornament and clothing props. Preserve the main bag exactly as shown, including the existing flat-lay camera angle, its strap, handles, grain and gold clasp. Place that same visible bag on the pale limestone background as a refined product flat lay. Do not imply that the pouch or any decor is included.",
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/03-atelier-veyne.png",
+      "sourceFile": "../source/images/007-b4a2be6a-0687c999.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/ec41309e-b49b-43c6-878b-e80cfb31194f.jpg",
+      "sourceSha256": "0687c9996f1e08bc5bff42ea90b7ba00192684f13272b47f6caa9cedba1520d9",
+      "sha256": "560b9646555a243cb34c5b3965aa9006a5e4b21b00c3fb691f551799d36d70fe",
+      "variantIds": [
+        "2412070748501606000"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "alt": "Remy everyday bag in Brown",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": "The target is ONLY the main bag, not the small separate pouch. Remove the separate pouch, magazine, glass ornament and clothing props. Preserve the main bag exactly as shown, including the existing flat-lay camera angle, its strap, handles, grain and gold clasp. Place that same visible bag on the pale limestone background as a refined product flat lay. Do not imply that the pouch or any decor is included.",
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/04-atelier-veyne.png",
+      "sourceFile": "../source/images/003-a603319a-d16ffb34.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/fc40e401-4a4a-45d3-bb84-56ca3b0a4d70.jpg",
+      "sourceSha256": "d16ffb341ece2abf41d592045c0985c93cd37e516648e6ba2a04898db826eaed",
+      "sha256": "b8da3fa280cc4f13df249c1e47a0ce84eceab73ff9a6847977c911face6649c8",
+      "variantIds": [
+        "2412070748501606200"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "alt": "Remy everyday bag in Beige",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": "The target is ONLY the main bag, not the small separate pouch. Remove the separate pouch, magazine, glass ornament and clothing props. Preserve the main bag exactly as shown, including the existing flat-lay camera angle, its strap, handles, grain and gold clasp. Place that same visible bag on the pale limestone background as a refined product flat lay. Do not imply that the pouch or any decor is included.",
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/05-atelier-veyne.png",
+      "sourceFile": "../source/images/009-e4da9007-c9c29efe.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2024/12/08/03/944109a6-a0a3-4935-a05f-c3a05a1d9397.jpg",
+      "sourceSha256": "c9c29efe5ddf6c8302089861105f82e93b95b37b9651715d6f09e8dbafef8b9f",
+      "sha256": "a5f482576c2483a807e4e0920cdef5914e6123513568a34cf15f2bdc33fedba1",
+      "variantIds": [
+        "2412070748501606400"
+      ],
+      "colors": [
+        "Coffee"
+      ],
+      "alt": "Remy everyday bag in Coffee",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": "The target is ONLY the main bag, not the small separate pouch. Remove the separate pouch, magazine, glass ornament and clothing props. Preserve the main bag exactly as shown, including the existing flat-lay camera angle, its strap, handles, grain and gold clasp. Place that same visible bag on the pale limestone background as a refined product flat lay. Do not imply that the pouch or any decor is included.",
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    }
+  ],
+  "ownerApproved": false
+}

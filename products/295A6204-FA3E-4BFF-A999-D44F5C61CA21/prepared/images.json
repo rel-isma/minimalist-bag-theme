@@ -1,0 +1,74 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/001-f4ac7508-3dba9b79.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/2044/35115917318.jpg",
+    "sourceSha256": "3dba9b79517ba2b648c0f15e7f2e4a5c2b21a540c2216a9587848a40faf7cf9e",
+    "sha256": "ddfe16dff694a687d5a790f427facab03e3e4e546984dac2171f350d8dc5d514",
+    "variantIds": [
+      "047C6A32-C0E3-4D59-8D51-26E37A3DBA88"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Linden zip handbag in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/004-8c83c1b1-b23bbcab.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/2044/2103869739470.jpg",
+    "sourceSha256": "b23bbcab8de63077979d1c317b2a9b89fbb338d0997271b431a0ea9c72a4fa6a",
+    "sha256": "e2088c6db84435b52cd5b336625a2960f4f8c6a726e4e6d412d86f77bb214e49",
+    "variantIds": [
+      "04AA4F85-E5F3-4BCD-8821-3460A76F3F45"
+    ],
+    "colors": [
+      "Earthy yellow"
+    ],
+    "alt": "Linden zip handbag in Earthy yellow",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/005-c8fb5a70-f71a8207.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/2044/663113957872.jpg",
+    "sourceSha256": "f71a8207f8ab39bf75b735b3d38fb0b8cc34eda0e071f20ca2b2a8a692feef56",
+    "sha256": "b17e3b1f674196bae6945f6108c0238f8bd2f05ef371a9b8ba5b717a49841f0a",
+    "variantIds": [
+      "3636A15F-751B-402A-9A74-D362D99CFB84"
+    ],
+    "colors": [
+      "Coffee"
+    ],
+    "alt": "Linden zip handbag in Coffee",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/04-atelier-veyne.png",
+    "sourceFile": "../source/images/006-78e91559-1f92c8fb.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/2044/3078256194364.jpg",
+    "sourceSha256": "1f92c8fb117a3bece84cc29d4c2e8e4ccdf0b9a1558e043996940eaa5e6f2a27",
+    "sha256": "250d2cacc375220ec1918f05122facb5cac0e532d9a6667f525851be7adcdd39",
+    "variantIds": [
+      "EA26C552-7EC1-4A6D-9779-B951C7EF6728"
+    ],
+    "colors": [
+      "Red"
+    ],
+    "alt": "Linden zip handbag in Red",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

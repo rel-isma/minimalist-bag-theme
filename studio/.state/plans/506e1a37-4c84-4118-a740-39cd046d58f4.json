@@ -1,0 +1,212 @@
+{
+  "id": "506e1a37-4c84-4118-a740-39cd046d58f4",
+  "createdAt": 1792942586673,
+  "draftHash": "0eee6e41db5c310654311ee307028e25ddf132a4f3d6f422b30ecd289867befe",
+  "draft": {
+    "id": "2607070313251623100",
+    "cjProductSku": "CJNS2970341",
+    "title": "Ellis long-handle bag",
+    "handle": "ellis-long-handle-bag",
+    "description": "Ellis pairs a rounded rectangular body with long twin handles and a softly pebbled finish. A curved zip opening follows its upper edge, while the uncluttered front keeps the shape understated. Choose Black or Brown for an easy companion to everyday layers.\n\nA zippered inner pocket, phone pocket and card pocket give smaller belongings their own place. The long handles offer an easy way to carry it through the day.",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "tags": [
+      "cj-import",
+      "shoulder-bag",
+      "everyday",
+      "new-arrival"
+    ],
+    "seo": {
+      "title": "Ellis long-handle bag | Atelier Veyne",
+      "description": "Discover Ellis, a pebbled leather bag with long twin handles and a curved zip opening. Available in Black and Brown at Atelier Veyne."
+    },
+    "material": "Leather exterior with polyester-cotton lining.",
+    "dimensions": "33 × 12 × 21 cm, as stated by the supplier.",
+    "care": "",
+    "variants": [
+      {
+        "cjVariantId": "2607070313251624400",
+        "cjProductId": "2607070313251623100",
+        "sku": "CJNS297034101AZ",
+        "sourceOptionKey": "Black-33x12x21cm",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "33x12x21cm"
+          }
+        ],
+        "supplierCost": {
+          "amount": "25.7",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "109.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/bf8d2a2b-7b80-41fe-a2fc-b7265189b4a8.jpg"
+      },
+      {
+        "cjVariantId": "2607070313251625200",
+        "cjProductId": "2607070313251623100",
+        "sku": "CJNS297034102BY",
+        "sourceOptionKey": "Brown-33x12x21cm",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Brown"
+          },
+          {
+            "name": "Size",
+            "value": "33x12x21cm"
+          }
+        ],
+        "supplierCost": {
+          "amount": "25.7",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "109.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/44951623-640b-4ac0-9cf6-76a9d71382a0.jpg"
+      }
+    ],
+    "swatches": [
+      {
+        "optionValue": "Black",
+        "proposedHex": "#1B1A18"
+      },
+      {
+        "optionValue": "Brown",
+        "proposedHex": "#44312B"
+      }
+    ],
+    "images": [
+      {
+        "id": "5d3ad0cb3ca9d360",
+        "file": "products/2607070313251623100/prepared/images/catalog-1.png",
+        "url": "/media/products/2607070313251623100/prepared/images/catalog-1.png",
+        "alt": "Ellis long-handle bag — Black-33x12x21cm",
+        "variantIds": [
+          "2607070313251624400"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/bf8d2a2b-7b80-41fe-a2fc-b7265189b4a8.jpg",
+        "sourceFile": "products/2607070313251623100/source/images/02-a95828c6e664.jpg"
+      },
+      {
+        "id": "5035159c3358aa50",
+        "file": "products/2607070313251623100/prepared/images/lifestyle-brown.png",
+        "url": "/media/products/2607070313251623100/prepared/images/lifestyle-brown.png",
+        "alt": "Ellis long-handle bag in Brown, carried by a woman",
+        "variantIds": [],
+        "enabled": true,
+        "kind": "branded",
+        "role": "lifestyle",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/529ea523-03aa-4d30-b3f1-a32cc2c7e08a.jpg",
+        "sourceFile": "products/2607070313251623100/source/images/01-cb2babf99be6.jpg"
+      },
+      {
+        "id": "29f992cd9c3f00a4",
+        "file": "products/2607070313251623100/prepared/images/lifestyle-black.png",
+        "url": "/media/products/2607070313251623100/prepared/images/lifestyle-black.png",
+        "alt": "Ellis long-handle bag — Black, carried by a woman",
+        "variantIds": [],
+        "enabled": true,
+        "kind": "branded",
+        "role": "lifestyle",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/753ea216-ab5c-4431-b6f7-f6903b60d468.jpg",
+        "sourceFile": "products/2607070313251623100/source/images/04-5b73d02b873c.jpg"
+      },
+      {
+        "id": "76694c77cca6e211",
+        "file": "products/2607070313251623100/prepared/images/lifestyle-brown-shoulder.png",
+        "url": "/media/products/2607070313251623100/prepared/images/lifestyle-brown-shoulder.png",
+        "alt": "Ellis long-handle bag in Brown, carried by a woman",
+        "variantIds": [],
+        "enabled": true,
+        "kind": "branded",
+        "role": "lifestyle",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/48ad174d-fca9-4208-a34a-087514d87bd8.jpg",
+        "sourceFile": "products/2607070313251623100/source/images/05-aceb56d0a278.jpg"
+      },
+      {
+        "id": "eab4474f942434bc",
+        "file": "products/2607070313251623100/prepared/images/catalog-2.png",
+        "url": "/media/products/2607070313251623100/prepared/images/catalog-2.png",
+        "alt": "Ellis long-handle bag — Brown-33x12x21cm",
+        "variantIds": [
+          "2607070313251625200"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/44951623-640b-4ac0-9cf6-76a9d71382a0.jpg",
+        "sourceFile": "products/2607070313251623100/source/images/03-8402f53b1c74.jpg"
+      }
+    ],
+    "reviewNotes": [
+      "Price is a USD retail proposal; shipping, fees and margin require approval before listing.",
+      "Supplier says no separate shoulder strap. Copy describes only the long handles visible in the photos; no detachable strap is promised.",
+      "The Brown variant is called Coffee in the description. Original variant label Brown is retained; verify against photos.",
+      "Supplier full-grain claim is unverified; final copy says leather only.",
+      "Supplier care instructions are absent; compare generated photographs with originals before publication."
+    ],
+    "resolvedNotes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "replaceGallery": true,
+    "savedAt": "2026-10-25T15:36:19.200Z",
+    "sourceName": "Leather Niche Shoulder Bag With A Long Handle",
+    "sourceDescription": "Product information: Lining material: Polyester-cotton Suitable occasion: Everyday wear Color: Black, Coffee Exterior pocket type: Three-dimensional pocket Leather characteristic: Full-grain cowhide Hardness: Medium-soft Material: Genuine leather Bag shape: Horizontal rectangle Product dimensions: 33 x 12 x 21 cm Internal structure: Zippered hidden pocket, phone pocket, ID card pocket Trendy element: Solid color Style: European and American retro Shoulder strap quantity: No shoulder strap Packing list: Bag x1 Product Image:",
+    "fulfillment": {
+      "sourceCountryCode": "CN",
+      "defaultArea": 1,
+      "targetCountryCode": "US",
+      "logistics": "CJPacket Sensitive",
+      "locationIds": [
+        "114800427327"
+      ],
+      "deliveryProfileId": "134383960383",
+      "shippingReviewSignature": "ed96d9626c5dabfb2d2d5d41ed766f9cbb07d29f7b20e3dc77c0f0e3c6dd1ffc"
+    },
+    "collectionIds": [],
+    "templateSuffix": "",
+    "taxable": false
+  },
+  "action": "publish",
+  "inventoryLocationId": "gid://shopify/Location/114800427327",
+  "shopId": "2610192154423535300",
+  "existingId": null,
+  "existingFingerprint": null,
+  "connected": null,
+  "summary": {
+    "title": "Ellis long-handle bag",
+    "action": "List through CJ, verify native connections, then apply theme fields",
+    "variants": 2,
+    "images": 5,
+    "shop": "s35my0-uu.myshopify.com",
+    "existing": null,
+    "inventory": "Automatically enable quantity tracking at cjdropshipping. Empty merchant locations are removed only when safely deactivatable with all stock states at zero. No stock quantity is manually set. CJ stock updates may take time.",
+    "publication": "CJ native listing may make a new product active. Review before confirming.",
+    "supplierNotes": [
+      "Price is a USD retail proposal; shipping, fees and margin require approval before listing.",
+      "Supplier says no separate shoulder strap. Copy describes only the long handles visible in the photos; no detachable strap is promised.",
+      "The Brown variant is called Coffee in the description. Original variant label Brown is retained; verify against photos.",
+      "Supplier full-grain claim is unverified; final copy says leather only.",
+      "Supplier care instructions are absent; compare generated photographs with originals before publication."
+    ],
+    "clearedFields": []
+  },
+  "consumedAt": 1792942588169
+}

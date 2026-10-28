@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-10-23T19:42:30.008Z",
+  "products": [
+    {
+      "title": "Marlow top-handle bag",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 3,
+      "total": 3,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459351593279",
+      "stock": 35092
+    },
+    {
+      "title": "Alder bucket bag",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 2,
+      "total": 2,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352117567",
+      "stock": 21387
+    },
+    {
+      "title": "Sora bucket bag",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 4,
+      "total": 4,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352281407",
+      "stock": 34179
+    },
+    {
+      "title": "Elin bucket bag",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 3,
+      "total": 3,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352412479",
+      "stock": 135643
+    },
+    {
+      "title": "Orla barrel bag",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 5,
+      "total": 5,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352478015",
+      "stock": 37017
+    },
+    {
+      "title": "Linden zip handbag",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 4,
+      "total": 4,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352674623",
+      "stock": 80000
+    },
+    {
+      "title": "Rhea crossbody bag",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 1,
+      "total": 1,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352838463",
+      "stock": 8231
+    },
+    {
+      "title": "Luma shoulder bag",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 2,
+      "total": 2,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459353002303",
+      "stock": 25870
+    },
+    {
+      "title": "Esme crossbody bag",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 3,
+      "total": 3,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459353133375",
+      "stock": 20110
+    },
+    {
+      "title": "Milo compact crossbody",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 5,
+      "total": 5,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459353362751",
+      "stock": 39812
+    }
+  ]
+}

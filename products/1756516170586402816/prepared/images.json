@@ -1,0 +1,52 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/004-28e10b21-aac481f1.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/5c3969ef-31b3-4612-9b0c-ba5f82339875.jpg",
+    "sourceSha256": "aac481f1a9b80024bbe6008c02db8513b45764a6de8803e62e9c41e972fabb96",
+    "sha256": "1a8c1ee2ffd200a777a6ede027ca48990787afe823ddee60c738959671c8d39c",
+    "variantIds": [
+      "1756516170695454720"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Alder bucket bag in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/002-9935cb90-6a423a9a.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/4d65de71-2efd-48f3-ba05-612ad5b760b5.jpg",
+    "sourceSha256": "6a423a9ad5841cda4f032a3b26ec2a1e714fd1d2e820d46864e740bd4a3496b9",
+    "sha256": "59b0f79458b008f1c6686761439eb79092465ce9150965dc52a0ab672a7205dc",
+    "variantIds": [
+      "1756516170783535104"
+    ],
+    "colors": [
+      "Khaki"
+    ],
+    "alt": "Alder bucket bag in Khaki",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/001-b94c00d2-31998a01.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/12ccb826-2d46-47bd-9401-8056249bd5d0.jpg",
+    "sourceSha256": "31998a01c4db9855a7892a3f9cfa55265eeeef753b39cf7f405b9a9bb6399229",
+    "sha256": "e8d5bc671365c81e7144bbcd395d5490adfd3259c5619c1d2d07f0ff3e2607ec",
+    "variantIds": [],
+    "colors": [],
+    "alt": "Alder bucket bag, additional view",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

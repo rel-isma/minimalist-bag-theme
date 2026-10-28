@@ -1,0 +1,472 @@
+[
+  {
+    "id": "gid://shopify/Product/15459351593279",
+    "title": "Marlow top-handle bag",
+    "dimensions": "Approx. 21 cm wide × 15 cm high. Shoulder strap: 120 cm. Supplier measurements; allow 1–2 cm variation.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67841875378495",
+        "sku": "CJNS212501201AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 11850
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841875411263",
+        "sku": "CJNS212501202BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 10540
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841875444031",
+        "sku": "CJNS212501203CX",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 12702
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15459352117567",
+    "title": "Alder bucket bag",
+    "dimensions": "Approx. 22 cm long × 22.5 cm high, according to the supplier diagram.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67841883996479",
+        "sku": "CJNS196704501AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 10750
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841884029247",
+        "sku": "CJNS196704502BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 10637
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15459352281407",
+    "title": "Sora bucket bag",
+    "dimensions": "Approx. 24 cm base length × 8 cm depth × 15 cm height, according to the supplier diagram.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67841887076671",
+        "sku": "CJNS298100901AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 8022
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841887109439",
+        "sku": "CJNS298100902BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 7530
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841887142207",
+        "sku": "CJNS298100903CX",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 8964
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841887174975",
+        "sku": "CJNS298100904DW",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 9663
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15459352412479",
+    "title": "Elin bucket bag",
+    "dimensions": "Approx. 20 cm long × 12 cm deep × 25 cm high, according to the supplier diagram.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67841888289087",
+        "sku": "CJNS134996001AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 49820
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841888321855",
+        "sku": "CJNS134996002BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 46186
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841888354623",
+        "sku": "CJNS134996003CX",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 39637
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15459352478015",
+    "title": "Orla barrel bag",
+    "dimensions": "20 × 10 × 12 cm.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67841890353471",
+        "sku": "CJNS297227401AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 9023
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841890386239",
+        "sku": "CJNS297227402BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 6188
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841890419007",
+        "sku": "CJNS297227403CX",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 5949
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841890451775",
+        "sku": "CJNS297227404DW",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 9480
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841890484543",
+        "sku": "CJNS297227405EV",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 6377
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15459352674623",
+    "title": "Linden zip handbag",
+    "dimensions": null,
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67841893630271",
+        "sku": "CJBHNSNS27768-Black",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 20000
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841893663039",
+        "sku": "CJBHNSNS27768-Earthy yellow",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 20000
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841893695807",
+        "sku": "CJBHNSNS27768-Coffee",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 20000
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841893728575",
+        "sku": "CJBHNSNS27768-Red",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 20000
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15459352838463",
+    "title": "Rhea crossbody bag",
+    "dimensions": null,
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67841894842687",
+        "sku": "CJNS239887801AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 8231
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15459353002303",
+    "title": "Luma shoulder bag",
+    "dimensions": "Approx. 21 cm long × 12 cm deep × 14 cm high, according to the supplier diagram.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67841897627967",
+        "sku": "CJNS209476801AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 11017
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841897660735",
+        "sku": "CJNS209476802BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 14853
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15459353133375",
+    "title": "Esme crossbody bag",
+    "dimensions": "26 × 16 × 9 cm.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67841898905919",
+        "sku": "CJNS249060301AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 8739
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841898938687",
+        "sku": "CJNS249060302BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 6022
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841898971455",
+        "sku": "CJNS249060303CX",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 5349
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15459353362751",
+    "title": "Milo compact crossbody",
+    "dimensions": null,
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67841902117183",
+        "sku": "CJNS255498201AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 9539
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841902149951",
+        "sku": "CJNS255498202BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 7167
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841902182719",
+        "sku": "CJNS255498203CX",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 7603
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841902215487",
+        "sku": "CJNS255498204DW",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 6957
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841902248255",
+        "sku": "CJNS255498205EV",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 8546
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15464176746815",
+    "title": "Lune zip handbag",
+    "dimensions": "32 × 11 × 22 cm (length × width × height), as stated by the supplier.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67860789035327",
+        "sku": "CJNS276585201AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 5820
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67860789068095",
+        "sku": "CJNS276585202BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 7271
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67860789100863",
+        "sku": "CJNS276585203CX",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 5759
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15464394752319",
+    "title": "Reed baguette bag",
+    "dimensions": null,
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67861404778815",
+        "sku": "CJNS281612201AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 5465
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861404811583",
+        "sku": "CJNS281612202BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 5777
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861404844351",
+        "sku": "CJNS281612203CX",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 9800
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15464427880767",
+    "title": "Iris soft shoulder bag",
+    "dimensions": "Approx. 32 cm long × 11 cm deep × 17 cm high, according to the supplier diagram.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67861458846015",
+        "sku": "CJNS295878201AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 6889
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861458878783",
+        "sku": "CJNS295878202BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 7267
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861458911551",
+        "sku": "CJNS295878203CX",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 7345
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861458944319",
+        "sku": "CJNS295878204DW",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 6238
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861458977087",
+        "sku": "CJNS295878205EV",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 8445
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861459009855",
+        "sku": "CJNS295878206FU",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 7836
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15464451539263",
+    "title": "Ellis long-handle bag",
+    "dimensions": "33 × 12 × 21 cm, as stated by the supplier.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67861840953663",
+        "sku": "CJNS297034101AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 7776
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861840986431",
+        "sku": "CJNS297034102BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 7287
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15464459665727",
+    "title": "Wren bowling bag",
+    "dimensions": "Approx. 34 cm long × 13 cm deep × 18 cm high, according to the supplier diagram.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67861973860671",
+        "sku": "CJNS303491801AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 6750
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861973893439",
+        "sku": "CJNS303491802BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 9221
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861973926207",
+        "sku": "CJNS303491803CX",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 7835
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861973958975",
+        "sku": "CJNS303491804DW",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 8658
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861973991743",
+        "sku": "CJNS303491805EV",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 9557
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Product/15464465563967",
+    "title": "Alba mini crossbody bag",
+    "dimensions": "15 × 10 × 14 cm, as stated by the supplier.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/67861981004095",
+        "sku": "CJNS308624201AZ",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 9261
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861981036863",
+        "sku": "CJNS308624202BY",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 8615
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861981069631",
+        "sku": "CJNS308624203CX",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 6546
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861981102399",
+        "sku": "CJNS308624204DW",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 5944
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861981135167",
+        "sku": "CJNS308624205EV",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 5444
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861981167935",
+        "sku": "CJNS308624206FU",
+        "profile": "gid://shopify/DeliveryProfile/134383960383",
+        "sellableOnlineQuantity": 7686
+      }
+    ]
+  }
+]

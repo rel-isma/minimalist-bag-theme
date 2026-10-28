@@ -1,0 +1,40 @@
+{
+  "id": "0390d358-227f-4a37-bd3d-43e6b36e9d50",
+  "productId": "1458719239455248384",
+  "title": "Elin bucket bag",
+  "action": "connect",
+  "planId": "f7f35a75-411d-4d6b-a6fd-b4c9de84e0a6",
+  "status": "complete",
+  "startedAt": "2026-10-23T18:48:23.628Z",
+  "events": [
+    {
+      "at": "2026-10-23T18:48:28.053Z",
+      "message": "Reusing the existing CJ store-product record"
+    },
+    {
+      "at": "2026-10-23T18:48:28.054Z",
+      "message": "Creating native CJ variant connections"
+    },
+    {
+      "at": "2026-10-23T18:48:30.010Z",
+      "message": "Verifying every native CJ product and variant reference"
+    }
+  ],
+  "result": {
+    "shopifyId": "gid://shopify/Product/15459352412479",
+    "contentUpdated": false,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 3,
+      "total": 3,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352412479",
+      "stock": 0
+    },
+    "inventoryManaged": false,
+    "note": "CJ variant links verified. Inventory management is not yet confirmed; use CJ Fulfillment settings before enabling sale."
+  },
+  "finishedAt": "2026-10-23T18:48:32.211Z"
+}

@@ -1,0 +1,11 @@
+query StudioShippingAccess{shop{myshopifyDomain currencyCode}currentAppInstallation{accessScopes{handle}}}
+query StudioShippingMarkets($after:String){markets(first:2,after:$after){pageInfo{hasNextPage endCursor}nodes{id name status conditions{regionsCondition{regions(first:250){pageInfo{hasNextPage}nodes{... on MarketRegionCountry{code}}}}}}}}
+query StudioShippingProfiles($after:String){deliveryProfiles(first:2,after:$after){pageInfo{hasNextPage endCursor}nodes{id name default profileLocationGroups{locationGroup{id locations(first:20,includeLegacy:true){pageInfo{hasNextPage}nodes{id name}}}}}}}
+query StudioShippingZones($id:ID!,$groupId:ID!,$after:String){deliveryProfile(id:$id){profileLocationGroups(locationGroupId:$groupId){locationGroupZones(first:5,after:$after){pageInfo{hasNextPage endCursor}nodes{zone{id name countries{code{countryCode restOfWorld}provinces{code}}}methodDefinitions(first:50){pageInfo{hasNextPage}nodes{id name active methodConditions{field}rateProvider{... on DeliveryRateDefinition{price{amount currencyCode}}}}}}}}}}
+mutation StudioShippingProfile($id:ID!,$profile:DeliveryProfileInput!){deliveryProfileUpdate(id:$id,profile:$profile){profile{id name}userErrors{field message}}}query FinishPages{pages(first:30){pageInfo{hasNextPage}nodes{id title handle body templateSuffix updatedAt}}shop{contactEmail shopPolicies{type body url}}}
+mutation FinishPageUpdate($id:ID!,$page:PageUpdateInput!){pageUpdate(id:$id,page:$page){page{id handle body}userErrors{field message}}}
+mutation FinishPolicy($shopPolicy:ShopPolicyInput!){shopPolicyUpdate(shopPolicy:$shopPolicy){shopPolicy{type body url}userErrors{field message}}}
+mutation FinishMarketCreate($input:MarketCreateInput!){marketCreate(input:$input){market{id name status}userErrors{field message}}}
+mutation FinishMarketUpdate($id:ID!,$input:MarketUpdateInput!){marketUpdate(id:$id,input:$input){market{id name status}userErrors{field message}}}
+query FinishProfiles{deliveryProfiles(first:10){nodes{id name default profileLocationGroups{locationGroup{id locations(first:20,includeLegacy:true){nodes{id name}}}}}}}
+mutation FinishProfile($id:ID!,$profile:DeliveryProfileInput!){deliveryProfileUpdate(id:$id,profile:$profile){profile{id name}userErrors{field message}}}

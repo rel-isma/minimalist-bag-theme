@@ -1,0 +1,40 @@
+{
+  "id": "5f74a172-47e3-4190-b3f5-e82cfeacd4f2",
+  "productId": "2509070113221629600",
+  "title": "Esme crossbody bag",
+  "action": "connect",
+  "planId": "bf06b091-939f-4e34-ba6b-2a7b770c6145",
+  "status": "complete",
+  "startedAt": "2026-10-23T18:51:28.192Z",
+  "events": [
+    {
+      "at": "2026-10-23T18:51:37.995Z",
+      "message": "Reusing the existing CJ store-product record"
+    },
+    {
+      "at": "2026-10-23T18:51:37.996Z",
+      "message": "Creating native CJ variant connections"
+    },
+    {
+      "at": "2026-10-23T18:51:40.319Z",
+      "message": "Verifying every native CJ product and variant reference"
+    }
+  ],
+  "result": {
+    "shopifyId": "gid://shopify/Product/15459353133375",
+    "contentUpdated": false,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 3,
+      "total": 3,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459353133375",
+      "stock": 0
+    },
+    "inventoryManaged": false,
+    "note": "CJ variant links verified. Inventory management is not yet confirmed; use CJ Fulfillment settings before enabling sale."
+  },
+  "finishedAt": "2026-10-23T18:51:42.513Z"
+}

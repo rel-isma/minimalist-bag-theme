@@ -1,0 +1,41 @@
+[
+  {
+    "cjProductId": "2408310805071622300",
+    "cjVariantId": "2408310805071622500",
+    "sku": "CJNS212501201AZ",
+    "sourceOptionKey": "Milkshake White",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Milkshake White"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/d8288bd2-2c7e-415d-abc4-4cebf95a166a.jpg"
+  },
+  {
+    "cjProductId": "2408310805071622300",
+    "cjVariantId": "2408310805071622700",
+    "sku": "CJNS212501202BY",
+    "sourceOptionKey": "Black",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b949c6be-3e8a-4598-8c9a-52e9f23e8800.jpg"
+  },
+  {
+    "cjProductId": "2408310805071622300",
+    "cjVariantId": "2408310805071622900",
+    "sku": "CJNS212501203CX",
+    "sourceOptionKey": "Elephant Gray",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Elephant Gray"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/0e0eb27c-3795-40ab-8c31-89815a578094.jpg"
+  }
+]

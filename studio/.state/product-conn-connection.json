@@ -1,0 +1,61 @@
+{
+  "pageNum": 1,
+  "pageSize": 100,
+  "list": [
+    {
+      "shopId": "2610192154423535300",
+      "platformVariantId": "67841875378495",
+      "platformProductId": "15459351593279",
+      "platformSku": "CJNS212501201AZ",
+      "platformImg": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-01.png?v=1792756235",
+      "platformPrice": "99.00",
+      "platformTitle": "Marlow top-handle bag",
+      "sellDiscount": null,
+      "cjTitle": "Genuine Leather High-grade Bag For Women Milkshake White",
+      "cjPrice": "19.07",
+      "cjPackageWeight": 420,
+      "cjSku": "CJNS212501201AZ",
+      "cjShortSku": "1600004628482",
+      "cjVariantId": "2408310805071622500",
+      "cjProductId": "2408310805071622300",
+      "cjVariantImg": "https://cf.cjdropshipping.com/quick/product/d8288bd2-2c7e-415d-abc4-4cebf95a166a.jpg"
+    },
+    {
+      "shopId": "2610192154423535300",
+      "platformVariantId": "67841875444031",
+      "platformProductId": "15459351593279",
+      "platformSku": "CJNS212501203CX",
+      "platformImg": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-03.png?v=1792756235",
+      "platformPrice": "99.00",
+      "platformTitle": "Marlow top-handle bag",
+      "sellDiscount": null,
+      "cjTitle": "Genuine Leather High-grade Bag For Women Elephant Gray",
+      "cjPrice": "19.07",
+      "cjPackageWeight": 420,
+      "cjSku": "CJNS212501203CX",
+      "cjShortSku": "1600004628484",
+      "cjVariantId": "2408310805071622900",
+      "cjProductId": "2408310805071622300",
+      "cjVariantImg": "https://cf.cjdropshipping.com/quick/product/0e0eb27c-3795-40ab-8c31-89815a578094.jpg"
+    },
+    {
+      "shopId": "2610192154423535300",
+      "platformVariantId": "67841875411263",
+      "platformProductId": "15459351593279",
+      "platformSku": "CJNS212501202BY",
+      "platformImg": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-02.png?v=1792756234",
+      "platformPrice": "99.00",
+      "platformTitle": "Marlow top-handle bag",
+      "sellDiscount": null,
+      "cjTitle": "Genuine Leather High-grade Bag For Women Black",
+      "cjPrice": "19.07",
+      "cjPackageWeight": 578,
+      "cjSku": "CJNS212501202BY",
+      "cjShortSku": "1600004628483",
+      "cjVariantId": "2408310805071622700",
+      "cjProductId": "2408310805071622300",
+      "cjVariantImg": "https://cf.cjdropshipping.com/quick/product/b949c6be-3e8a-4598-8c9a-52e9f23e8800.jpg"
+    }
+  ],
+  "total": 3
+}

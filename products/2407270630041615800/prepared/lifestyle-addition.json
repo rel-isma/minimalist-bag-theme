@@ -1,0 +1,33 @@
+{
+  "id": "2407270630041615800",
+  "title": "Luma shoulder bag",
+  "color": "Black",
+  "mode": "composite",
+  "reference": "products/2407270630041615800/source/images/019-8ec89bc8-1ee7e3a7.jpg",
+  "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f357d2c5-323e-4d21-952f-8c053d6e07df.jpg",
+  "output": "products/2407270630041615800/prepared/images/lifestyle-woman-v1.png",
+  "status": "visually_reviewed",
+  "prompt": "Create one photorealistic premium Atelier Veyne e-commerce lifestyle composite using the supplied original CJ bag photograph as the strict product reference. Show an ADULT woman naturally carrying this exact Luma shoulder bag in Black, holding its EXISTING short handles in one hand near her thigh; keep the product fully visible.  Preserve the product's EXACT silhouette, color, texture, seam pattern, hardware, handle length, zipper/closure, pocket shapes and existing strap attachment points. The source photo defines the bag: do not invent or simplify its design, recolor it, add an extra strap or pocket, or change its proportions. If an existing long strap is visible, let it hang naturally without altering it. The adult woman wears tasteful ivory or taupe minimalist clothing. Crop face out, torso-to-thigh editorial framing; natural hand anatomy. Warm ivory plaster and pale sandstone backdrop, soft window daylight, realistic contact shadows, restrained premium fashion photograph matching Atelier Veyne. Single clean portrait 3:4 image. No words, logos, sales graphics or watermarks.",
+  "generatedFile": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-9d995ebe-8dfd-410c-8f87-81bff26cd393.png",
+  "sha256": "2ddb2ee499f46416965a7e40ba78914e6861c1b5326b9b2e53ca97960e20ea65",
+  "sourceSha256": "1ee7e3a72474ce1051b8df249dc05ecb36af3c61563d4ce31e4ed620d1a5ccd1",
+  "width": 1086,
+  "height": 1448,
+  "tool": "built-in image_gen",
+  "reviewedAt": "2026-10-25T16:46:49.313Z",
+  "visualReview": "Compared with original: correct product silhouette, source color, closures/handles/hardware; adult carrying view; no visible text or anatomy defects.",
+  "image": {
+    "id": "08ffa142a5120eee",
+    "file": "products/2407270630041615800/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/2407270630041615800/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Luma shoulder bag in Black, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-composite",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f357d2c5-323e-4d21-952f-8c053d6e07df.jpg",
+    "sourceFile": "products/2407270630041615800/source/images/019-8ec89bc8-1ee7e3a7.jpg",
+    "generated": true
+  },
+  "addedToStudioAt": "2026-10-25T16:46:49.807Z"
+}

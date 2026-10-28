@@ -1,0 +1,60 @@
+{
+  "id": "918575db-7402-4d2a-9e38-25779a6ee99c",
+  "productId": "2608221231211620900",
+  "title": "Alba mini crossbody bag",
+  "action": "publish",
+  "planId": "f644479e-9dfc-4fd9-a144-9760f040f755",
+  "status": "complete",
+  "startedAt": "2026-10-25T15:41:34.137Z",
+  "events": [
+    {
+      "at": "2026-10-25T15:41:36.074Z",
+      "message": "Submitting native CJ listing; CJ will create fulfillment connections",
+      "nativePublishIntent": true
+    },
+    {
+      "at": "2026-10-25T15:41:37.416Z",
+      "message": "CJ listing submitted",
+      "listedId": "2610251541370641800"
+    },
+    {
+      "at": "2026-10-25T15:41:56.739Z",
+      "message": "Verifying every native CJ product and variant reference"
+    },
+    {
+      "at": "2026-10-25T15:41:59.453Z",
+      "message": "CJ inventory location and quantity tracking verified; checking supplier sync"
+    },
+    {
+      "at": "2026-10-25T15:42:08.061Z",
+      "message": "Applying approved branded gallery and theme fields to the CJ-linked product"
+    }
+  ],
+  "nativePublishIntent": true,
+  "listedId": "2610251541370641800",
+  "result": {
+    "shopifyId": "gid://shopify/Product/15464465563967",
+    "contentUpdated": true,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 6,
+      "total": 6,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15464465563967",
+      "stock": 43496
+    },
+    "inventorySetup": {
+      "configured": true,
+      "locationId": "gid://shopify/Location/114800427327",
+      "variants": 6,
+      "quantitiesWritten": false,
+      "available": 43496
+    },
+    "inventoryManaged": true,
+    "note": "CJ connections, quantity tracking and inventory management verified."
+  },
+  "finishedAt": "2026-10-25T15:42:53.825Z",
+  "refreshedAt": "2026-10-25T15:43:00.961Z"
+}

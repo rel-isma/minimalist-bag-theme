@@ -1,0 +1,93 @@
+[
+  {
+    "cjProductId": "2410190505071604800",
+    "cjVariantId": "2410190505071605000",
+    "sku": "CJNS216456801AZ",
+    "sourceOptionKey": "Red",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Red"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/604b36e7-e307-46dd-9467-2f1a7cc73e95.jpg"
+  },
+  {
+    "cjProductId": "2410190505071604800",
+    "cjVariantId": "2410190505071605200",
+    "sku": "CJNS216456802BY",
+    "sourceOptionKey": "Beige",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Beige"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/e307ad09-6874-4b60-9dab-063d893cf3a0.jpg"
+  },
+  {
+    "cjProductId": "2410190505071604800",
+    "cjVariantId": "2410190505071605400",
+    "sku": "CJNS216456803CX",
+    "sourceOptionKey": "Black",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/c7eb0b56-d547-4fd0-a365-dfb64b030fab.jpg"
+  },
+  {
+    "cjProductId": "2410190505071604800",
+    "cjVariantId": "2410190505071605500",
+    "sku": "CJNS216456804DW",
+    "sourceOptionKey": "Green",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Green"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/37b1a453-2bb6-4e48-8fe5-bce45ff75406.jpg"
+  },
+  {
+    "cjProductId": "2410190505071604800",
+    "cjVariantId": "2410190505071605700",
+    "sku": "CJNS216456805EV",
+    "sourceOptionKey": "Dark Gray",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Dark Gray"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/895f3f60-3028-4e3a-af91-3d0b30d5fc0f.jpg"
+  },
+  {
+    "cjProductId": "2410190505071604800",
+    "cjVariantId": "2410190505071605900",
+    "sku": "CJNS216456806FU",
+    "sourceOptionKey": "Blue",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Blue"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/6af3bfbd-018f-473e-b29f-a20051194606.jpg"
+  },
+  {
+    "cjProductId": "2410190505071604800",
+    "cjVariantId": "2410190505071606000",
+    "sku": "CJNS216456807GT",
+    "sourceOptionKey": "Brown",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Brown"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/6d2e5c56-0285-4f1a-b1b1-3bd5919f425e.jpg"
+  }
+]

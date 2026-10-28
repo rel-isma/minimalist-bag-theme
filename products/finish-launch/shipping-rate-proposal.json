@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-27T15:13:02.664Z",
+  "scope": "16 existing CJ products, all 57 variants, one unit per freight calculation, China origin, no postcode",
+  "customerCharge": {
+    "US": "19.95",
+    "GB": "12.95"
+  },
+  "currency": "USD",
+  "method": "CJPacket Ordinary",
+  "basis": "Rounded above the second-highest quoted one-item freight cost in each country; a deliberate subsidy remains for the heaviest Alder variant and potentially multi-item orders.",
+  "applied": true,
+  "approved": true,
+  "countries": {
+    "US": {
+      "min": 10.4,
+      "max": 23.84,
+      "variants": 57,
+      "highestCost": "CJNS196704502BY"
+    },
+    "GB": {
+      "min": 6.69,
+      "max": 14.87,
+      "variants": 57,
+      "highestCost": "CJNS196704502BY"
+    }
+  },
+  "approvedAt": "2026-10-27T15:47:40.031Z",
+  "verification": "Read back live rates and active US/UK markets; actual isolated storefront carts with one and two Marlow bags returned the approved rates."
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "cjProductId": "2606090550321621400",
+    "cjVariantId": "2606090550321622300",
+    "sku": "CJNS292724601AZ",
+    "sourceOptionKey": "Khaki-30X12X22",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Khaki"
+      },
+      {
+        "name": "Size",
+        "value": "30X12X22"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/0673bd65-96ba-4e87-9597-2ab661d3baa5.jpg"
+  },
+  {
+    "cjProductId": "2606090550321621400",
+    "cjVariantId": "2606090550321622800",
+    "sku": "CJNS292724602BY",
+    "sourceOptionKey": "Beige-30X12X22",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Beige"
+      },
+      {
+        "name": "Size",
+        "value": "30X12X22"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/c921f6fe-3be3-4538-a808-05d97aa13b98.jpg"
+  },
+  {
+    "cjProductId": "2606090550321621400",
+    "cjVariantId": "2606090550321623300",
+    "sku": "CJNS292724603CX",
+    "sourceOptionKey": "Black-30X12X22",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Size",
+        "value": "30X12X22"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/1a0a19c4-7c1e-4eb9-a882-e82074388f45.jpg"
+  },
+  {
+    "cjProductId": "2606090550321621400",
+    "cjVariantId": "2606090550321623700",
+    "sku": "CJNS292724604DW",
+    "sourceOptionKey": "Brown-30X12X22",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Brown"
+      },
+      {
+        "name": "Size",
+        "value": "30X12X22"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/62178b93-c333-4ea0-878a-9b3bfac19c1e.jpg"
+  },
+  {
+    "cjProductId": "2606090550321621400",
+    "cjVariantId": "2608050816511627800",
+    "sku": "CJNS292724605EV",
+    "sourceOptionKey": "White-30X12X22",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "White"
+      },
+      {
+        "name": "Size",
+        "value": "30X12X22"
+      }
+    ],
+    "sourceImageUrl": "https://oss-cf.cjdropshipping.com/product/2026/08/05/08/2236d4ad-4a78-4737-83de-0557cef35caf.jpg"
+  }
+]

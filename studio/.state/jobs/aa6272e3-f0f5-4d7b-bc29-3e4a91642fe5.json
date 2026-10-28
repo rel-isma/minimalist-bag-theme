@@ -1,0 +1,55 @@
+{
+  "id": "aa6272e3-f0f5-4d7b-bc29-3e4a91642fe5",
+  "productId": "1458719239455248384",
+  "title": "Elin bucket bag",
+  "action": "connect",
+  "planId": "2029e8c4-7e63-413c-914b-2324a2831bbe",
+  "status": "complete",
+  "startedAt": "2026-10-23T19:23:57.592Z",
+  "events": [
+    {
+      "at": "2026-10-23T19:24:00.475Z",
+      "message": "Verifying every native CJ product and variant reference"
+    },
+    {
+      "at": "2026-10-23T19:24:03.706Z",
+      "message": "Removing empty store location for CJNS134996001AZ so CJ handles stock"
+    },
+    {
+      "at": "2026-10-23T19:24:04.030Z",
+      "message": "Removing empty store location for CJNS134996002BY so CJ handles stock"
+    },
+    {
+      "at": "2026-10-23T19:24:04.333Z",
+      "message": "Removing empty store location for CJNS134996003CX so CJ handles stock"
+    },
+    {
+      "at": "2026-10-23T19:24:04.940Z",
+      "message": "CJ inventory location and quantity tracking verified; checking supplier sync"
+    }
+  ],
+  "result": {
+    "shopifyId": "gid://shopify/Product/15459352412479",
+    "contentUpdated": false,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 3,
+      "total": 3,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352412479",
+      "stock": 0
+    },
+    "inventorySetup": {
+      "configured": true,
+      "locationId": "gid://shopify/Location/114800427327",
+      "variants": 3,
+      "quantitiesWritten": false,
+      "available": 0
+    },
+    "inventoryManaged": false,
+    "note": "CJ connections and Shopify inventory setup verified. Waiting for CJ to confirm inventory management and its first stock update; refresh to recheck."
+  },
+  "finishedAt": "2026-10-23T19:24:27.143Z"
+}

@@ -1,0 +1,242 @@
+{
+  "id": "gid://shopify/Product/15459353002303",
+  "title": "Luma shoulder bag",
+  "handle": "luma-shoulder-bag",
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67841897627967",
+        "sku": "CJNS209476801AZ",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 11017,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828023681343",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828023681343",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114770706751",
+                  "name": "El Massira",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              },
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828023681343",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 11017
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 11017
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841897660735",
+        "sku": "CJNS209476802BY",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 14853,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Beige"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828023714111",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828023714111",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114770706751",
+                  "name": "El Massira",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              },
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828023714111",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 14853
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 14853
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metafield/191310702674239",
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Cowhide leather with polyester lining.",
+        "compareDigest": "3df23d4c8a07cc20231fcacda4aaaaeaa5acdfc8e90108b4d83c6db6fe38d6ce"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310702707007",
+        "namespace": "custom",
+        "key": "cj_product_id",
+        "type": "single_line_text_field",
+        "value": "2407270630041615800",
+        "compareDigest": "b0d52139b753460c8dd85f4cbff9551e226fd4bbfc8209dca6b45743771a6dda"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310702739775",
+        "namespace": "custom",
+        "key": "cj_import_batch",
+        "type": "single_line_text_field",
+        "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd",
+        "compareDigest": "14883250a0bd7b68aa09cb9ac39cbe11ed612f1682fa13c6657aef3f7259c9a7"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310702772543",
+        "namespace": "custom",
+        "key": "cj_fulfillment_link_verified",
+        "type": "boolean",
+        "value": "false",
+        "compareDigest": "401f18ad0cca38559086c36f9e0295f1ca3a7023e5f095aeef69177a9b8f10ce"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310702805311",
+        "namespace": "custom",
+        "key": "color_swatches",
+        "type": "json",
+        "value": "{\"Black\":\"#1B1A18\",\"Beige\":\"#EEE7D1\"}",
+        "compareDigest": "633f822b0feb7c90c496c6ff1977873a1c7c001df36129546318adb84d4233ec"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310702838079",
+        "namespace": "global",
+        "key": "title_tag",
+        "type": "string",
+        "value": "Luma shoulder bag | Atelier Veyne",
+        "compareDigest": "8f05f02703696326092a6f4a542da9e291a7c545836e12bf5a44c5f1a10222d9"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310702870847",
+        "namespace": "global",
+        "key": "description_tag",
+        "type": "string",
+        "value": "Luma shoulder bag. Soft pillow-style silhouette. Single-shoulder design. Discover considered everyday bags at Atelier Veyne.",
+        "compareDigest": "cbbcd5bef8f1441937aa7db57bf717a520c3ac5e290445593320ca37da8e2936"
+      }
+    ]
+  }
+}

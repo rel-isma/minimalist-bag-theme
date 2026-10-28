@@ -1,0 +1,60 @@
+{
+  "id": "26eb5e3d-a8ca-48e2-9b05-1eb861dae532",
+  "productId": "2604020624051609200",
+  "title": "Reed baguette bag",
+  "action": "publish",
+  "planId": "4ec5dba8-1da7-41d7-8fbe-30e5365bd18d",
+  "status": "complete",
+  "startedAt": "2026-10-25T15:16:58.002Z",
+  "events": [
+    {
+      "at": "2026-10-25T15:16:59.749Z",
+      "message": "Submitting native CJ listing; CJ will create fulfillment connections",
+      "nativePublishIntent": true
+    },
+    {
+      "at": "2026-10-25T15:17:01.135Z",
+      "message": "CJ listing submitted",
+      "listedId": "2610251517000679600"
+    },
+    {
+      "at": "2026-10-25T15:17:20.402Z",
+      "message": "Verifying every native CJ product and variant reference"
+    },
+    {
+      "at": "2026-10-25T15:17:23.000Z",
+      "message": "CJ inventory location and quantity tracking verified; checking supplier sync"
+    },
+    {
+      "at": "2026-10-25T15:17:28.446Z",
+      "message": "Applying approved branded gallery and theme fields to the CJ-linked product"
+    }
+  ],
+  "nativePublishIntent": true,
+  "listedId": "2610251517000679600",
+  "result": {
+    "shopifyId": "gid://shopify/Product/15464394752319",
+    "contentUpdated": true,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 3,
+      "total": 3,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15464394752319",
+      "stock": 21042
+    },
+    "inventorySetup": {
+      "configured": true,
+      "locationId": "gid://shopify/Location/114800427327",
+      "variants": 3,
+      "quantitiesWritten": false,
+      "available": 21042
+    },
+    "inventoryManaged": true,
+    "note": "CJ connections, quantity tracking and inventory management verified."
+  },
+  "finishedAt": "2026-10-25T15:18:03.962Z",
+  "refreshedAt": "2026-10-25T15:18:11.518Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "07b312c4-368f-46de-bf67-20a2a7970b0d",
+  "productId": "2510110122001632000",
+  "title": "Milo compact crossbody",
+  "action": "connect",
+  "planId": "6340355b-5b62-45f2-bd87-03590e6552b1",
+  "status": "complete",
+  "startedAt": "2026-10-23T18:51:43.207Z",
+  "events": [
+    {
+      "at": "2026-10-23T18:51:54.686Z",
+      "message": "Reusing the existing CJ store-product record"
+    },
+    {
+      "at": "2026-10-23T18:51:54.686Z",
+      "message": "Creating native CJ variant connections"
+    },
+    {
+      "at": "2026-10-23T18:51:56.372Z",
+      "message": "Verifying every native CJ product and variant reference"
+    }
+  ],
+  "result": {
+    "shopifyId": "gid://shopify/Product/15459353362751",
+    "contentUpdated": false,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 5,
+      "total": 5,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459353362751",
+      "stock": 0
+    },
+    "inventoryManaged": false,
+    "note": "CJ variant links verified. Inventory management is not yet confirmed; use CJ Fulfillment settings before enabling sale."
+  },
+  "finishedAt": "2026-10-23T18:51:59.239Z"
+}

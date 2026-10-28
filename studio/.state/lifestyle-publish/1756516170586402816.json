@@ -1,0 +1,227 @@
+{
+  "productId": "gid://shopify/Product/15459352117567",
+  "before": {
+    "id": "gid://shopify/Product/15459352117567",
+    "title": "Alder bucket bag",
+    "handle": "alder-bucket-bag",
+    "status": "ACTIVE",
+    "updatedAt": "2026-10-23T23:51:03Z",
+    "descriptionHtml": "<p>Alder pairs a tall bucket silhouette with softly textured leather and a simple turn-lock detail. A top handle and longer strap keep the shape adaptable, while internal pockets give small essentials a place.</p><ul>\n<li>Bucket silhouette with top handle</li>\n<li>Long shoulder strap</li>\n<li>Internal phone pocket and zippered compartment</li>\n</ul>",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "templateSuffix": "",
+    "tags": [
+      "black",
+      "cj-import",
+      "khaki",
+      "new-arrival",
+      "shoulder-bag"
+    ],
+    "seo": {
+      "title": "Alder bucket bag | Atelier Veyne",
+      "description": "Alder bucket bag. Bucket silhouette with top handle. Long shoulder strap. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "Khaki"
+        ]
+      }
+    ],
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519837024575",
+          "title": "Shoulder bags"
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "custom",
+          "key": "material",
+          "type": "multi_line_text_field",
+          "value": "Split cowhide leather."
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": "single_line_text_field",
+          "value": "1756516170586402816"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_import_batch",
+          "type": "single_line_text_field",
+          "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_fulfillment_link_verified",
+          "type": "boolean",
+          "value": "false"
+        },
+        {
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": "json",
+          "value": "{\"Black\":\"#1B1A18\",\"Khaki\":\"#847966\"}"
+        },
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Alder bucket bag | Atelier Veyne"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "Alder bucket bag. Bucket silhouette with top handle. Long shoulder strap. Discover considered everyday bags at Atelier Veyne."
+        }
+      ]
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/46157950943551",
+          "alt": "Alder bucket bag in Black",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/alder-bucket-bag-01.png?v=1792756259",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157950976319",
+          "alt": "Alder bucket bag in Khaki",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/alder-bucket-bag-02.png?v=1792756258",
+            "width": 1086,
+            "height": 1448
+          }
+        }
+      ]
+    },
+    "variants": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/67841883996479",
+          "sku": "CJNS196704501AZ",
+          "price": "109.00",
+          "inventoryQuantity": 10750,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828010049855",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/alder-bucket-bag-01.png?v=1792756259"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "1756516170586402816"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "1756516170695454720"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Black"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841884029247",
+          "sku": "CJNS196704502BY",
+          "price": "109.00",
+          "inventoryQuantity": 10637,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Khaki"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828010082623",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/alder-bucket-bag-02.png?v=1792756258"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "1756516170586402816"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "1756516170783535104"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Khaki"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "image": {
+    "id": "a78f71926257aca0",
+    "file": "products/1756516170586402816/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/1756516170586402816/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Alder bucket bag in Khaki, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-source-edit",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/cd7ee9c8-0d45-4bab-b99a-057382662d4b.jpg",
+    "sourceFile": "products/1756516170586402816/source/images/006-952a3013-5fb5c32d.jpg",
+    "generated": true
+  },
+  "fileId": "gid://shopify/MediaImage/46179927949631",
+  "startedAt": "2026-10-25T16:48:15.279Z",
+  "result": {
+    "id": "1756516170586402816",
+    "title": "Alder bucket bag",
+    "shopifyId": "gid://shopify/Product/15459352117567",
+    "addedMediaId": "gid://shopify/MediaImage/46179927949631",
+    "galleryCount": 3,
+    "allOriginalMediaRetained": true,
+    "nonGalleryDataUnchanged": true,
+    "verifiedAt": "2026-10-25T16:48:17.959Z"
+  },
+  "complete": true
+}

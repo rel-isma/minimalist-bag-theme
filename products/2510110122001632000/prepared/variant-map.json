@@ -1,0 +1,87 @@
+[
+  {
+    "cjProductId": "2510110122001632000",
+    "cjVariantId": "2510110122001632300",
+    "sku": "CJNS255498201AZ",
+    "sourceOptionKey": "Black-23x11x14",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Size",
+        "value": "23x11x14"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b7d58ef9-91fc-4aca-a0eb-9ec106c484cf.jpg"
+  },
+  {
+    "cjProductId": "2510110122001632000",
+    "cjVariantId": "2510110122001632400",
+    "sku": "CJNS255498202BY",
+    "sourceOptionKey": "Beige-23x11x14",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Beige"
+      },
+      {
+        "name": "Size",
+        "value": "23x11x14"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/de5c6a14-d472-4de2-af29-071eddc6b04d.jpg"
+  },
+  {
+    "cjProductId": "2510110122001632000",
+    "cjVariantId": "2510110122001632600",
+    "sku": "CJNS255498203CX",
+    "sourceOptionKey": "Gray-23x11x14",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Gray"
+      },
+      {
+        "name": "Size",
+        "value": "23x11x14"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/77453237-115f-4d77-8cc1-8ead5e6ab98a.jpg"
+  },
+  {
+    "cjProductId": "2510110122001632000",
+    "cjVariantId": "2510110122001632800",
+    "sku": "CJNS255498204DW",
+    "sourceOptionKey": "Caramel-23x11x14",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Caramel"
+      },
+      {
+        "name": "Size",
+        "value": "23x11x14"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b1e6aa02-63fd-4a6c-8033-c7bdf414ab30.jpg"
+  },
+  {
+    "cjProductId": "2510110122001632000",
+    "cjVariantId": "2510110122001632900",
+    "sku": "CJNS255498205EV",
+    "sourceOptionKey": "Green-23x11x14",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Green"
+      },
+      {
+        "name": "Size",
+        "value": "23x11x14"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b540b634-a0dd-49db-8ce3-311db3745efb.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/007-ce10fa45-6c145a14.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/d8288bd2-2c7e-415d-abc4-4cebf95a166a.jpg",
+    "sourceSha256": "6c145a1428c7526119c951b8833e53cdc2648722a4ba0b1e74c75b82f98f2aea",
+    "sha256": "394005b7700c48b60d14313e6c6bf2343db43eebc8ab8ac6ec3c1857a9593af0",
+    "variantIds": [
+      "2408310805071622500"
+    ],
+    "colors": [
+      "Milkshake White"
+    ],
+    "alt": "Marlow top-handle bag in Milkshake White",
+    "promptFile": "../../IMAGE-PROMPT-first.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/005-07b8f20f-614c87bc.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b949c6be-3e8a-4598-8c9a-52e9f23e8800.jpg",
+    "sourceSha256": "614c87bc185df942801785fc4519b8f9a32f1c6e1f2dc19d174b057eeda7e1db",
+    "sha256": "5dc6b92ed7a5d989c6a799d5c5fd81587db58b2d9248c3c4626c025885386bdb",
+    "variantIds": [
+      "2408310805071622700"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Marlow top-handle bag in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/006-3c0da61b-c5d1d59a.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0e0eb27c-3795-40ab-8c31-89815a578094.jpg",
+    "sourceSha256": "c5d1d59a0f881b6184a3006695086d444f7c7bfbd6bf0954cb7ed6345869f0ea",
+    "sha256": "dfa3dfbc8d442b908f991a1c2d92c39922b38f5d09062dc8e492458007deaa8d",
+    "variantIds": [
+      "2408310805071622900"
+    ],
+    "colors": [
+      "Elephant Gray"
+    ],
+    "alt": "Marlow top-handle bag in Elephant Gray",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

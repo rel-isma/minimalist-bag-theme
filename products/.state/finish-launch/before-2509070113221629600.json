@@ -1,0 +1,347 @@
+{
+  "id": "gid://shopify/Product/15459353133375",
+  "title": "Esme crossbody bag",
+  "handle": "esme-crossbody-bag",
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67841898905919",
+        "sku": "CJNS249060301AZ",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 8739,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "26X16X9CM"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828024959295",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828024959295",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114770706751",
+                  "name": "El Massira",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              },
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828024959295",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 8739
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 8739
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841898938687",
+        "sku": "CJNS249060302BY",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 6022,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Khaki"
+          },
+          {
+            "name": "Size",
+            "value": "26X16X9CM"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828024992063",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828024992063",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114770706751",
+                  "name": "El Massira",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              },
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828024992063",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 6022
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 6022
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841898971455",
+        "sku": "CJNS249060303CX",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 5349,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Caramel"
+          },
+          {
+            "name": "Size",
+            "value": "26X16X9CM"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828025024831",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828025024831",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114770706751",
+                  "name": "El Massira",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              },
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828025024831",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 5349
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 5349
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metafield/191310705721663",
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Cowhide leather with polyester lining.",
+        "compareDigest": "3df23d4c8a07cc20231fcacda4aaaaeaa5acdfc8e90108b4d83c6db6fe38d6ce"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310705754431",
+        "namespace": "custom",
+        "key": "dimensions",
+        "type": "multi_line_text_field",
+        "value": "26 × 16 × 9 cm.",
+        "compareDigest": "2309b4b261ef4ce4d0ea87bca979bf01583101ad874b66257370a92cbfd32a98"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310705787199",
+        "namespace": "custom",
+        "key": "cj_product_id",
+        "type": "single_line_text_field",
+        "value": "2509070113221629600",
+        "compareDigest": "33cb4d01220fa5521501ee2641f07a87a1ec98dfcd0fafa3a1f220d70d4883f7"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310705819967",
+        "namespace": "custom",
+        "key": "cj_import_batch",
+        "type": "single_line_text_field",
+        "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd",
+        "compareDigest": "14883250a0bd7b68aa09cb9ac39cbe11ed612f1682fa13c6657aef3f7259c9a7"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310705852735",
+        "namespace": "custom",
+        "key": "cj_fulfillment_link_verified",
+        "type": "boolean",
+        "value": "false",
+        "compareDigest": "401f18ad0cca38559086c36f9e0295f1ca3a7023e5f095aeef69177a9b8f10ce"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310705885503",
+        "namespace": "custom",
+        "key": "color_swatches",
+        "type": "json",
+        "value": "{\"Black\":\"#1B1A18\",\"Khaki\":\"#9D8A67\",\"Caramel\":\"#A26636\"}",
+        "compareDigest": "6b91023b97e31df8beba50538724f5a9494805f57540303060c06f195fee300e"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310705918271",
+        "namespace": "global",
+        "key": "title_tag",
+        "type": "string",
+        "value": "Esme crossbody bag | Atelier Veyne",
+        "compareDigest": "4120c56b4b6497070bcdc65a78023fe5d8f4bc0000895d32e09fdf63f12ff8e9"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310705951039",
+        "namespace": "global",
+        "key": "description_tag",
+        "type": "string",
+        "value": "Esme crossbody bag. Soft horizontal silhouette. Internal zippered pocket. Discover considered everyday bags at Atelier Veyne.",
+        "compareDigest": "dcd4b170518118c8c5664e590f520be794372fe144a1034c24603a4bcc8cd64f"
+      }
+    ]
+  }
+}

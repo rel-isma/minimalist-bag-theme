@@ -1,0 +1,301 @@
+{
+  "verifiedAt": "2026-10-23T11:53:40.496Z",
+  "store": "s35my0-uu.myshopify.com",
+  "cjFulfillmentLinksVerified": false,
+  "products": [
+    {
+      "cjProductId": "2408310805071622300",
+      "shopifyProductId": "gid://shopify/Product/15459351593279",
+      "title": "Marlow top-handle bag",
+      "variants": [
+        {
+          "cjProductId": "2408310805071622300",
+          "cjVariantId": "2408310805071622500",
+          "sku": "CJNS212501201AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841875378495",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2408310805071622300",
+          "cjVariantId": "2408310805071622700",
+          "sku": "CJNS212501202BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841875411263",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2408310805071622300",
+          "cjVariantId": "2408310805071622900",
+          "sku": "CJNS212501203CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841875444031",
+          "cjFulfillmentLinkVerified": false
+        }
+      ]
+    },
+    {
+      "cjProductId": "1756516170586402816",
+      "shopifyProductId": "gid://shopify/Product/15459352117567",
+      "title": "Alder bucket bag",
+      "variants": [
+        {
+          "cjProductId": "1756516170586402816",
+          "cjVariantId": "1756516170695454720",
+          "sku": "CJNS196704501AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841883996479",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "1756516170586402816",
+          "cjVariantId": "1756516170783535104",
+          "sku": "CJNS196704502BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841884029247",
+          "cjFulfillmentLinkVerified": false
+        }
+      ]
+    },
+    {
+      "cjProductId": "2607121014121623000",
+      "shopifyProductId": "gid://shopify/Product/15459352281407",
+      "title": "Sora bucket bag",
+      "variants": [
+        {
+          "cjProductId": "2607121014121623000",
+          "cjVariantId": "2607121014121623600",
+          "sku": "CJNS298100901AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841887076671",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607121014121623000",
+          "cjVariantId": "2607121014121624000",
+          "sku": "CJNS298100902BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841887109439",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607121014121623000",
+          "cjVariantId": "2607121014121624500",
+          "sku": "CJNS298100903CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841887142207",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607121014121623000",
+          "cjVariantId": "2607121014121624900",
+          "sku": "CJNS298100904DW",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841887174975",
+          "cjFulfillmentLinkVerified": false
+        }
+      ]
+    },
+    {
+      "cjProductId": "1458719239455248384",
+      "shopifyProductId": "gid://shopify/Product/15459352412479",
+      "title": "Elin bucket bag",
+      "variants": [
+        {
+          "cjProductId": "1458719239455248384",
+          "cjVariantId": "1458719239522357248",
+          "sku": "CJNS134996001AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841888289087",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "1458719239455248384",
+          "cjVariantId": "1458719239526551552",
+          "sku": "CJNS134996002BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841888321855",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "1458719239455248384",
+          "cjVariantId": "1458719239526551553",
+          "sku": "CJNS134996003CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841888354623",
+          "cjFulfillmentLinkVerified": false
+        }
+      ]
+    },
+    {
+      "cjProductId": "2607070853511612201",
+      "shopifyProductId": "gid://shopify/Product/15459352478015",
+      "title": "Orla barrel bag",
+      "variants": [
+        {
+          "cjProductId": "2607070853511612201",
+          "cjVariantId": "2607070853511613000",
+          "sku": "CJNS297227401AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841890353471",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607070853511612201",
+          "cjVariantId": "2607070853511613600",
+          "sku": "CJNS297227402BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841890386239",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607070853511612201",
+          "cjVariantId": "2607070853511614100",
+          "sku": "CJNS297227403CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841890419007",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607070853511612201",
+          "cjVariantId": "2607070853511614600",
+          "sku": "CJNS297227404DW",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841890451775",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607070853511612201",
+          "cjVariantId": "2607070853511615100",
+          "sku": "CJNS297227405EV",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841890484543",
+          "cjFulfillmentLinkVerified": false
+        }
+      ]
+    },
+    {
+      "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+      "shopifyProductId": "gid://shopify/Product/15459352674623",
+      "title": "Linden zip handbag",
+      "variants": [
+        {
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "cjVariantId": "047C6A32-C0E3-4D59-8D51-26E37A3DBA88",
+          "sku": "CJBHNSNS27768-Black",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841893630271",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "cjVariantId": "04AA4F85-E5F3-4BCD-8821-3460A76F3F45",
+          "sku": "CJBHNSNS27768-Earthy yellow",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841893663039",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "cjVariantId": "3636A15F-751B-402A-9A74-D362D99CFB84",
+          "sku": "CJBHNSNS27768-Coffee",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841893695807",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "cjVariantId": "EA26C552-7EC1-4A6D-9779-B951C7EF6728",
+          "sku": "CJBHNSNS27768-Red",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841893728575",
+          "cjFulfillmentLinkVerified": false
+        }
+      ]
+    },
+    {
+      "cjProductId": "2506110631251623700",
+      "shopifyProductId": "gid://shopify/Product/15459352838463",
+      "title": "Rhea crossbody bag",
+      "variants": [
+        {
+          "cjProductId": "2506110631251623700",
+          "cjVariantId": "2506110631251623900",
+          "sku": "CJNS239887801AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841894842687",
+          "cjFulfillmentLinkVerified": false
+        }
+      ]
+    },
+    {
+      "cjProductId": "2407270630041615800",
+      "shopifyProductId": "gid://shopify/Product/15459353002303",
+      "title": "Luma shoulder bag",
+      "variants": [
+        {
+          "cjProductId": "2407270630041615800",
+          "cjVariantId": "2407270630041616000",
+          "sku": "CJNS209476801AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841897627967",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2407270630041615800",
+          "cjVariantId": "2407270630041616200",
+          "sku": "CJNS209476802BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841897660735",
+          "cjFulfillmentLinkVerified": false
+        }
+      ]
+    },
+    {
+      "cjProductId": "2509070113221629600",
+      "shopifyProductId": "gid://shopify/Product/15459353133375",
+      "title": "Esme crossbody bag",
+      "variants": [
+        {
+          "cjProductId": "2509070113221629600",
+          "cjVariantId": "2509070113221629800",
+          "sku": "CJNS249060301AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841898905919",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2509070113221629600",
+          "cjVariantId": "2509070113221629900",
+          "sku": "CJNS249060302BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841898938687",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2509070113221629600",
+          "cjVariantId": "2509070113231620100",
+          "sku": "CJNS249060303CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841898971455",
+          "cjFulfillmentLinkVerified": false
+        }
+      ]
+    },
+    {
+      "cjProductId": "2510110122001632000",
+      "shopifyProductId": "gid://shopify/Product/15459353362751",
+      "title": "Milo compact crossbody",
+      "variants": [
+        {
+          "cjProductId": "2510110122001632000",
+          "cjVariantId": "2510110122001632300",
+          "sku": "CJNS255498201AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841902117183",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2510110122001632000",
+          "cjVariantId": "2510110122001632400",
+          "sku": "CJNS255498202BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841902149951",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2510110122001632000",
+          "cjVariantId": "2510110122001632600",
+          "sku": "CJNS255498203CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841902182719",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2510110122001632000",
+          "cjVariantId": "2510110122001632800",
+          "sku": "CJNS255498204DW",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841902215487",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2510110122001632000",
+          "cjVariantId": "2510110122001632900",
+          "sku": "CJNS255498205EV",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841902248255",
+          "cjFulfillmentLinkVerified": false
+        }
+      ]
+    }
+  ]
+}

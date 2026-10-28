@@ -1,0 +1,92 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/007-864ea674-d370f577.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0673bd65-96ba-4e87-9597-2ab661d3baa5.jpg",
+    "sourceSha256": "d370f577bebeba3e2363407be9811fc9bb3d550f0faa2826ac9bb3063a3e72bb",
+    "sha256": "8ce85ce37aa9075a6a1395d7caf06644f5f421933fcd90a662d13b23ffe58109",
+    "variantIds": [
+      "2606090550321622300"
+    ],
+    "colors": [
+      "Khaki"
+    ],
+    "alt": "Talia shoulder bag in Khaki",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/004-db70ae2c-8b1652b6.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/c921f6fe-3be3-4538-a808-05d97aa13b98.jpg",
+    "sourceSha256": "8b1652b6465fa3af15bc263303b69621cd32906f18953ba635b2c487aab43901",
+    "sha256": "6446e67930fc10c1a5521eeb8590a03029d642dc6e5eb47deffe603873994262",
+    "variantIds": [
+      "2606090550321622800"
+    ],
+    "colors": [
+      "Beige"
+    ],
+    "alt": "Talia shoulder bag in Beige",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/008-19ebfa9a-2aa5a3bc.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/1a0a19c4-7c1e-4eb9-a882-e82074388f45.jpg",
+    "sourceSha256": "2aa5a3bc3c202aab565e9145d83a011a6dfea3f62539ef15ee290422179a4941",
+    "sha256": "11b6668e30ae7ad0868538cfaff7c37301ef8f0351c53ed8e254f7fb978baa3a",
+    "variantIds": [
+      "2606090550321623300"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Talia shoulder bag in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/04-atelier-veyne.png",
+    "sourceFile": "../source/images/005-18cf6325-8605cdd4.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/62178b93-c333-4ea0-878a-9b3bfac19c1e.jpg",
+    "sourceSha256": "8605cdd4d381c5b368034961abb3fb60813e5f8c09782ebb242ec356d04914b1",
+    "sha256": "1287914bdcb382fd5059684b701c53ade5675a1c5a4dc1dea96fa544f2f811eb",
+    "variantIds": [
+      "2606090550321623700"
+    ],
+    "colors": [
+      "Brown"
+    ],
+    "alt": "Talia shoulder bag in Brown",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/05-atelier-veyne.png",
+    "sourceFile": "../source/images/002-e897baa0-d459fdee.jpg",
+    "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/08/05/08/2236d4ad-4a78-4737-83de-0557cef35caf.jpg",
+    "sourceSha256": "d459fdee437955d5f8b21232a54d8bbc70fe21288a86208ada49c8994737e2f0",
+    "sha256": "5ae3e054ec5df9e717f953f3af316d6934c6836caca0e8dbf5ef7f8f971c290b",
+    "variantIds": [
+      "2608050816511627800"
+    ],
+    "colors": [
+      "White"
+    ],
+    "alt": "Talia shoulder bag in White",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

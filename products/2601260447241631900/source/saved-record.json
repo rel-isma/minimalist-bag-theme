@@ -1,0 +1,51 @@
+{
+  "productId": "2601260447241631900",
+  "userId": null,
+  "packWeight": "820.00",
+  "weight": "800.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/af4871a7-5780-4eaf-8f8c-58d91a0fadc3.jpg",
+  "nameEn": "Women's Hand-carrying Shoulder Crossbody Bag",
+  "sku": "CJNS2742618",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": [],
+  "createAt": 1792860755274,
+  "sellPrice": "17.91",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "CJPacket Ordinary",
+  "trialCountry": null,
+  "trialFreight": "0",
+  "totalPrice": "17.91",
+  "listedShopNum": "0",
+  "listedShopIds": [],
+  "vid": "2601260447241632200",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    400,
+    400
+  ],
+  "heightList": [
+    310,
+    310
+  ],
+  "widthList": [
+    50,
+    50
+  ],
+  "volumeList": [
+    6200000,
+    6200000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_id": "2601260447241631900"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/005-38925467-173fc076.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/21e18088-c404-4d9d-83f1-251ab4dc94a8.jpg",
+    "sourceSha256": "173fc0761a66f10c991f7e01de642403cae6faba898b0d45ab7a065359ece56f",
+    "sha256": "575cb518ba496042ae9cac18635f294d99e6a42c38f7220a76fb418bb63c8109",
+    "variantIds": [
+      "2072251249920352258"
+    ],
+    "colors": [
+      "Coffee Brown"
+    ],
+    "alt": "Mira pillow bag in Coffee Brown",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": "Keep the exact bag and full strap lengths from this hanging product photo. Replace the denim jacket, letterboard, railing and street background with the cream plaster studio backdrop; retain a discreet simple neutral support for the hanging straps. The bag remains in the same suspended pose and angle. No denim, lettering or added products.",
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/010-1a69cb78-ebbdc084.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/de4df96f-069d-43a6-b8be-eb51197b7517.jpg",
+    "sourceSha256": "ebbdc084debac6dcda8898620907b6e89c49016e048919249b42090a6a2d0872",
+    "sha256": "fb59ef7ce913b6873014595babf74c66aa0d7def3d9ccae81f047d19de3b212c",
+    "variantIds": [
+      "2072251249920352259"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Mira pillow bag in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": "Keep the exact bag and full strap lengths from this hanging product photo. Replace the denim jacket, letterboard, railing and street background with the cream plaster studio backdrop; retain a discreet simple neutral support for the hanging straps. The bag remains in the same suspended pose and angle. No denim, lettering or added products.",
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/008-b94c8b99-1fd6b280.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/23442b0a-3860-4d66-be35-b54b8a147538.jpg",
+    "sourceSha256": "1fd6b280b0f2f1f5bf9e5ac25bd83c300ef2cd4602b0ebd84154e7c848d39447",
+    "sha256": "6654e3ad0ea55aabd49da087b71ff704575a6cdf7ed24be87eee9be2e25e67d0",
+    "variantIds": [
+      "2072251249920352260"
+    ],
+    "colors": [
+      "Elephant gray"
+    ],
+    "alt": "Mira pillow bag in Elephant gray",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": "Keep the exact bag and full strap lengths from this hanging product photo. Replace the denim jacket, letterboard, railing and street background with the cream plaster studio backdrop; retain a discreet simple neutral support for the hanging straps. The bag remains in the same suspended pose and angle. No denim, lettering or added products.",
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/04-atelier-veyne.png",
+    "sourceFile": "../source/images/011-f919851e-89981d71.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/644f31c4-92c0-41bd-9cde-a62be0bbc381.jpg",
+    "sourceSha256": "89981d710eb1fdc4508d582b93ec65354bcf34c0a11028700355fdffa7db6954",
+    "sha256": "8453d7e1a5b73f2152b29e17ec3da53c0b5734e88b1b616c4b433b20942e2629",
+    "variantIds": [
+      "2072251249920352261"
+    ],
+    "colors": [
+      "Off white"
+    ],
+    "alt": "Mira pillow bag in Off white",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": "Keep the exact bag and full strap lengths from this hanging product photo. Replace the denim jacket, letterboard, railing and street background with the cream plaster studio backdrop; retain a discreet simple neutral support for the hanging straps. The bag remains in the same suspended pose and angle. No denim, lettering or added products.",
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/05-atelier-veyne.png",
+    "sourceFile": "../source/images/006-96495e58-6f3135f1.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/ca5fe22c-4a13-44ff-ac6d-484b46f10ac1.jpg",
+    "sourceSha256": "6f3135f136320654631a1b5642d45386a5c1480296876b509fea830973073865",
+    "sha256": "167349d856b37258cab031d77c9ad4241d6819731e5e63c1757c8fbfa408cbce",
+    "variantIds": [
+      "2072251249920352262"
+    ],
+    "colors": [
+      "Encore Red"
+    ],
+    "alt": "Mira pillow bag in Encore Red",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": "Keep the exact bag and full strap lengths from this hanging product photo. Replace the denim jacket, letterboard, railing and street background with the cream plaster studio backdrop; retain a discreet simple neutral support for the hanging straps. The bag remains in the same suspended pose and angle. No denim, lettering or added products.",
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

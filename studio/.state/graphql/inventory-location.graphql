@@ -1,0 +1,1 @@
+query StudioInventoryLocation($id:ID!){location(id:$id){id name isActive fulfillmentService{id serviceName inventoryManagement}}}

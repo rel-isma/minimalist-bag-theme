@@ -1,0 +1,1 @@
+query AvailabilityDiagnosis{location(id:"gid://shopify/Location/114800427327"){id name isActive fulfillsOnlineOrders}products(first:10,query:"handle:marlow-top-handle-bag OR handle:esme-crossbody-bag"){nodes{title variants(first:10){nodes{id title inventoryQuantity sellableOnlineQuantity}}}}}

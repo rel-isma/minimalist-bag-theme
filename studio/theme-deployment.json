@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-23T18:21:24.796Z",
+  "theme": "gid://shopify/OnlineStoreTheme/189635821887",
+  "role": "UNPUBLISHED",
+  "checks": [
+    {
+      "filename": "snippets/color-swatch.liquid",
+      "matches": true,
+      "sha256": "78f22e20ae846b206b299a5053e143837f817d55d07c489a20c666ebecbce17b"
+    },
+    {
+      "filename": "snippets/product-card.liquid",
+      "matches": true,
+      "sha256": "37c0cd8c28233461b279fd66f862b744f547262610c4a5490eae531e29e41fec"
+    },
+    {
+      "filename": "snippets/product-options.liquid",
+      "matches": true,
+      "sha256": "4e15afccd642a9a3eecf756ac19cbf6b2ab7fb30a902401a9824edb073c6c6a4"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "id": "gid://shopify/Product/15464176746815",
+  "title": "Lune zip handbag",
+  "handle": "lune-zip-handbag",
+  "status": "ACTIVE",
+  "updatedAt": "2026-10-25T14:00:21Z",
+  "descriptionHtml": "<p>Lune brings a softly rounded shape to everyday dressing. Its pebbled surface, curved zip opening and pared-back front keep the silhouette quietly defined. Carry it by the twin handles or use the longer strap for another way to wear it.</p>\n<p>A zippered interior pocket and phone pocket help keep smaller belongings together. Available in Black, Brown and Light Gray.</p>",
+  "vendor": "Atelier Veyne",
+  "productType": "Shoulder bag",
+  "templateSuffix": null,
+  "tags": [
+    "cj-import",
+    "everyday",
+    "new-arrival",
+    "shoulder-bag"
+  ],
+  "seo": {
+    "title": null,
+    "description": null
+  },
+  "options": [
+    {
+      "name": "Color",
+      "values": [
+        "Black",
+        "Brown",
+        "Light Gray"
+      ]
+    },
+    {
+      "name": "Size",
+      "values": [
+        "32x11x22cm"
+      ]
+    }
+  ],
+  "collections": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Collection/519837024575",
+        "title": "Shoulder bags"
+      },
+      {
+        "id": "gid://shopify/Collection/519837253951",
+        "title": "New arrivals"
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": []
+  },
+  "media": {
+    "nodes": [
+      {
+        "id": "gid://shopify/MediaImage/46179187556671",
+        "alt": "17bf6c915bd5a1c4a95b9a340c3672b8",
+        "status": "FAILED",
+        "image": null
+      },
+      {
+        "id": "gid://shopify/MediaImage/46179187589439",
+        "alt": "3337876694a729a2729feea6423a5f5",
+        "status": "FAILED",
+        "image": null
+      },
+      {
+        "id": "gid://shopify/MediaImage/46179187622207",
+        "alt": "4e55fd3fee861a18b930774f526ec2ac",
+        "status": "FAILED",
+        "image": null
+      },
+      {
+        "id": "gid://shopify/MediaImage/46179187654975",
+        "alt": "635361478a43c14939f72474acedad0d",
+        "status": "FAILED",
+        "image": null
+      },
+      {
+        "id": "gid://shopify/MediaImage/46179187687743",
+        "alt": "daa5b059b97d74158d29f7488e67d6d5",
+        "status": "FAILED",
+        "image": null
+      },
+      {
+        "id": "gid://shopify/MediaImage/46179187720511",
+        "alt": "b8ac97416a0beee9779d7b6fbe5f3bfb",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/67f0be80-54b2-42be-91da-e51db10500bf.jpg?v=1792936814",
+          "width": 800,
+          "height": 800
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46179187753279",
+        "alt": "ac8c0398dca7ada2855071fdfc59c940",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/9539dec0-f55b-4aa8-9993-2997333a8952.jpg?v=1792936814",
+          "width": 800,
+          "height": 800
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/46179187786047",
+        "alt": "18fb5ba6c48aaad877baffa2fdf12b6d",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/7740dc33-89bf-4993-9a42-847d073e2cf3.jpg?v=1792936813",
+          "width": 800,
+          "height": 800
+        }
+      }
+    ]
+  },
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67860789035327",
+        "sku": "CJNS276585201AZ",
+        "price": "109.00",
+        "inventoryQuantity": 5820,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "32x11x22cm"
+          }
+        ],
+        "inventoryPolicy": "DENY",
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69846962372927",
+          "tracked": true
+        },
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/67f0be80-54b2-42be-91da-e51db10500bf.jpg?v=1792936814"
+        },
+        "metafields": {
+          "nodes": []
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67860789068095",
+        "sku": "CJNS276585202BY",
+        "price": "109.00",
+        "inventoryQuantity": 7271,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Brown"
+          },
+          {
+            "name": "Size",
+            "value": "32x11x22cm"
+          }
+        ],
+        "inventoryPolicy": "DENY",
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69846962405695",
+          "tracked": true
+        },
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/9539dec0-f55b-4aa8-9993-2997333a8952.jpg?v=1792936814"
+        },
+        "metafields": {
+          "nodes": []
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67860789100863",
+        "sku": "CJNS276585203CX",
+        "price": "109.00",
+        "inventoryQuantity": 5759,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Light Gray"
+          },
+          {
+            "name": "Size",
+            "value": "32x11x22cm"
+          }
+        ],
+        "inventoryPolicy": "DENY",
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69846962438463",
+          "tracked": true
+        },
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/7740dc33-89bf-4993-9a42-847d073e2cf3.jpg?v=1792936813"
+        },
+        "metafields": {
+          "nodes": []
+        }
+      }
+    ]
+  }
+}

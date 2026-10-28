@@ -1,0 +1,1 @@
+query($id:ID!){product(id:$id){media(first:100){nodes{id alt status}}}}

@@ -1,0 +1,364 @@
+{
+  "productId": "gid://shopify/Product/15464465563967",
+  "before": {
+    "id": "gid://shopify/Product/15464465563967",
+    "title": "Alba mini crossbody bag",
+    "handle": "alba-mini-crossbody-bag",
+    "status": "ACTIVE",
+    "updatedAt": "2026-10-25T15:42:52Z",
+    "descriptionHtml": "<p>A small crescent shape, a curved zip opening and a softly pebbled surface give Alba its quiet character. The short handle keeps the silhouette compact, while the longer strap offers another way to carry it. Silver-tone hardware adds a restrained finishing detail.</p><p>Inside, a zippered pocket and card compartment help separate smaller belongings. At 15 × 10 × 14 cm, Alba is a compact choice for a light everyday carry.</p>",
+    "vendor": "Atelier Veyne",
+    "productType": "Crossbody bag",
+    "templateSuffix": "",
+    "tags": [
+      "cj-import",
+      "crossbody-bag",
+      "everyday",
+      "new-arrival"
+    ],
+    "seo": {
+      "title": "Alba mini crossbody bag | Atelier Veyne",
+      "description": "Meet Alba, a compact crescent crossbody bag with a curved zip opening, short handle and longer strap. Explore six colors at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Chick Yellow",
+          "Milk Shake Powder",
+          "Matcha Green",
+          "Milkshake White",
+          "Black",
+          "Elephant Gray"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "15x10x14CM"
+        ]
+      }
+    ],
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519837057343",
+          "title": "Crossbody bags"
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Alba mini crossbody bag | Atelier Veyne"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "Meet Alba, a compact crescent crossbody bag with a curved zip opening, short handle and longer strap. Explore six colors at Atelier Veyne."
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": "single_line_text_field",
+          "value": "2608221231211620900"
+        },
+        {
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": "json",
+          "value": "{\"Chick Yellow\":\"#E3D26B\",\"Milk Shake Powder\":\"#DDC6CD\",\"Matcha Green\":\"#B7C6AF\",\"Milkshake White\":\"#E7E1D4\",\"Black\":\"#1B1A18\",\"Elephant Gray\":\"#A79780\"}"
+        },
+        {
+          "namespace": "custom",
+          "key": "material",
+          "type": "multi_line_text_field",
+          "value": "Leather exterior with polyester-cotton lining."
+        },
+        {
+          "namespace": "custom",
+          "key": "dimensions",
+          "type": "multi_line_text_field",
+          "value": "15 × 10 × 14 cm, as stated by the supplier."
+        }
+      ]
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/46179782099263",
+          "alt": "Alba mini crossbody bag — Chick Yellow-15x10x14CM",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-1_48630e5f-9cbe-453f-abd6-c5bf46d6bca1.png?v=1792942933",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46179782132031",
+          "alt": "Alba mini crossbody bag — Milk Shake Powder-15x10x14CM",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-2_52b85e35-6244-4eb4-9b95-f041cf9cd224.png?v=1792942939",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46179782164799",
+          "alt": "Alba mini crossbody bag — Matcha Green-15x10x14CM",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-3_7d5ffb27-f2f4-49e7-b750-6f5905b2b7ff.png?v=1792942944",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46179782197567",
+          "alt": "Alba mini crossbody bag — Milkshake White-15x10x14CM",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-4_1e050e1e-27a6-4fa1-a2f8-5d1d6cce2a45.png?v=1792942950",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46179782230335",
+          "alt": "Alba mini crossbody bag — Black-15x10x14CM",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-5_26b6dba1-784c-45d1-8158-69276b4cc48a.png?v=1792942956",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46179782295871",
+          "alt": "Alba mini crossbody bag — Elephant Gray-15x10x14CM",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-6_91105c1c-b8ab-424d-b7c6-eca48fad2efe.png?v=1792942961",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46179782459711",
+          "alt": "Alba mini crossbody bag — Chick Yellow, actual open interior",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/detail-open-yellow.png?v=1792942967",
+            "width": 1086,
+            "height": 1448
+          }
+        }
+      ]
+    },
+    "variants": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/67861981004095",
+          "sku": "CJNS308624201AZ",
+          "price": "99.00",
+          "inventoryQuantity": 9261,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Chick Yellow"
+            },
+            {
+              "name": "Size",
+              "value": "15x10x14CM"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69848156635455",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-1_48630e5f-9cbe-453f-abd6-c5bf46d6bca1.png?v=1792942933"
+          },
+          "metafields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67861981036863",
+          "sku": "CJNS308624202BY",
+          "price": "99.00",
+          "inventoryQuantity": 8615,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Milk Shake Powder"
+            },
+            {
+              "name": "Size",
+              "value": "15x10x14CM"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69848156668223",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-2_52b85e35-6244-4eb4-9b95-f041cf9cd224.png?v=1792942939"
+          },
+          "metafields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67861981069631",
+          "sku": "CJNS308624203CX",
+          "price": "99.00",
+          "inventoryQuantity": 6546,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Matcha Green"
+            },
+            {
+              "name": "Size",
+              "value": "15x10x14CM"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69848156700991",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-3_7d5ffb27-f2f4-49e7-b750-6f5905b2b7ff.png?v=1792942944"
+          },
+          "metafields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67861981102399",
+          "sku": "CJNS308624204DW",
+          "price": "99.00",
+          "inventoryQuantity": 5944,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Milkshake White"
+            },
+            {
+              "name": "Size",
+              "value": "15x10x14CM"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69848156733759",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-4_1e050e1e-27a6-4fa1-a2f8-5d1d6cce2a45.png?v=1792942950"
+          },
+          "metafields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67861981135167",
+          "sku": "CJNS308624205EV",
+          "price": "99.00",
+          "inventoryQuantity": 5444,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "15x10x14CM"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69848156766527",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-5_26b6dba1-784c-45d1-8158-69276b4cc48a.png?v=1792942956"
+          },
+          "metafields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67861981167935",
+          "sku": "CJNS308624206FU",
+          "price": "99.00",
+          "inventoryQuantity": 7686,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Elephant Gray"
+            },
+            {
+              "name": "Size",
+              "value": "15x10x14CM"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69848156799295",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-6_91105c1c-b8ab-424d-b7c6-eca48fad2efe.png?v=1792942961"
+          },
+          "metafields": {
+            "nodes": []
+          }
+        }
+      ]
+    }
+  },
+  "image": {
+    "id": "831e84ab6b700334",
+    "file": "products/2608221231211620900/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/2608221231211620900/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Alba mini crossbody bag in Chick Yellow, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-composite",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/cdfe6104-8152-4a10-8317-3685deb1ff86.jpg",
+    "sourceFile": "products/2608221231211620900/source/images/02-aa22ecf047fa.jpg",
+    "generated": true
+  },
+  "fileId": "gid://shopify/MediaImage/46179928310079",
+  "startedAt": "2026-10-25T16:49:22.451Z",
+  "result": {
+    "id": "2608221231211620900",
+    "title": "Alba mini crossbody bag",
+    "shopifyId": "gid://shopify/Product/15464465563967",
+    "addedMediaId": "gid://shopify/MediaImage/46179928310079",
+    "galleryCount": 8,
+    "allOriginalMediaRetained": true,
+    "nonGalleryDataUnchanged": true,
+    "verifiedAt": "2026-10-25T16:49:25.102Z"
+  },
+  "complete": true
+}

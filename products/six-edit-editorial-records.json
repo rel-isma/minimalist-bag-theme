@@ -1,0 +1,61 @@
+{
+  "method": "built-in image_gen",
+  "records": [
+    {
+      "source": "products/2607070313251623100/source/images/01-cb2babf99be6.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-fe69cb15-fb23-4dee-a8c8-3faec1214e74.png",
+      "file": "products/2607070313251623100/prepared/images/lifestyle-brown.png",
+      "prompt": "Use case identity-preserve. Background-only edit of EXISTING CJ lifestyle photograph. Keep EXACT woman, pose, hands, clothing, all jewelry and original bag size relative to her body. Preserve exact bag, silhouette, original color, grain, stitching, strap and handle lengths/positions, clasp/zipper and SILVER hardware. Change ONLY the room background to understated warm ivory plaster with gentle natural daylight, soft shadows, Atelier Veyne cream/stone palette. Retain woman actually carrying the bag in same use view, no standalone replacement. Portrait 3:4. Do not add face if source cropped; no text, logo, props, product redesign or fabricated features.",
+      "role": "lifestyle",
+      "label": "Brown, carried by a woman"
+    },
+    {
+      "source": "products/2606280932411629600/source/images/01-2ffc33b599cf.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-b9bbdbc6-63a3-412d-938f-d9c6757b8622.png",
+      "file": "products/2606280932411629600/prepared/images/lifestyle-pink.png",
+      "prompt": "Use case identity-preserve. Background-only edit of EXISTING CJ lifestyle photograph. Keep EXACT woman, pose, hands, clothing, all jewelry and original bag size relative to her body. Preserve exact bag, silhouette, original color, grain, stitching, strap and handle lengths/positions, clasp/zipper and SILVER hardware. Change ONLY the room background to understated warm ivory plaster with gentle natural daylight, soft shadows, Atelier Veyne cream/stone palette. Retain woman actually carrying the bag in same use view, no standalone replacement. Portrait 3:4. Do not add face if source cropped; no text, logo, props, product redesign or fabricated features.",
+      "role": "lifestyle",
+      "label": "Pink, carried by a woman"
+    },
+    {
+      "source": "products/2606280932411629600/source/images/08-8ad5f79a2a53.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-7fe7e420-585d-4a39-b183-34057d95dd7b.png",
+      "file": "products/2606280932411629600/prepared/images/lifestyle-pink-strap.png",
+      "prompt": "Use case identity-preserve. Background-only edit of EXISTING CJ lifestyle photograph. Keep EXACT woman, pose, hands, clothing, all jewelry and original bag size relative to her body. Preserve exact bag, silhouette, original color, grain, stitching, strap and handle lengths/positions, clasp/zipper and SILVER hardware. Change ONLY the room background to understated warm ivory plaster with gentle natural daylight, soft shadows, Atelier Veyne cream/stone palette. Retain woman actually carrying the bag in same use view, no standalone replacement. Portrait 3:4. Do not add face if source cropped; no text, logo, props, product redesign or fabricated features.",
+      "role": "lifestyle",
+      "label": "Pink, strap detail with a woman"
+    },
+    {
+      "source": "products/2608221231211620900/source/images/review-805414ccebbe.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-b7e485f6-4e95-4ff0-af18-7bf57cc9b05a.png",
+      "file": "products/2608221231211620900/prepared/images/detail-open-yellow.png",
+      "prompt": "Precise background-only edit of actual CJ OPEN BAG INTERIOR photo. Preserve exact overhead angle, open zipper, yellow leather body/edges, tan woven lining, inner zip pocket, slip/card pocket, stitching, metal teeth, zipper pull and visible short handle position. This is an actual product interior: never invent compartments, remove existing pockets, change lining color, add contents or close the bag. Replace only white background with pale cream matte travertine surface, soft natural daylight, understated Atelier Veyne styling. Full open bag visible with safe margins, portrait 3:4. No text, logo, people, props or collage.",
+      "role": "interior",
+      "label": "Chick Yellow, actual open interior"
+    },
+    {
+      "source": "products/2608040718451626300/source/images/07-925c7562c15f.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-f5685f6f-a0c6-4a0a-897e-7a13fdb1fb3f.png",
+      "file": "products/2608040718451626300/prepared/images/detail-black-angle.png",
+      "prompt": "Edit only the room background of this exact CJ product angle photograph. Retain precise bag shape, black pebbled finish, side panel, stitching, silver zipper and lock, handles and all hardware. Do not add a hanging tag where not visible, change angle, add or remove components. Warm ivory plaster wall and pale travertine tabletop, soft daylight, understated Atelier Veyne photography. Portrait 3:4, full bag and handles visible, safe margins, no person, props, text or logo.",
+      "role": "detail",
+      "label": "Black, zipper and side view"
+    },
+    {
+      "source": "products/2607070313251623100/source/images/04-5b73d02b873c.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-5b5c9842-21ff-4684-bee9-3e65a0bfeb3d.png",
+      "file": "products/2607070313251623100/prepared/images/lifestyle-black.png",
+      "prompt": "Background-only edit of existing CJ lifestyle image. Preserve exact woman, beige blazer, pose, hands, product scale relative to her body and how she carries the actual black pebbled bag. Keep exact bag body, two handles, tag, silver zipper and silver lock, seams and proportions. Change only room background to warm ivory plaster and subdued stone floor, soft daylight, Atelier Veyne editorial palette. Portrait 3:4; woman carrying bag stays in shot, no invented face where source cropped, no props or text, no product changes.",
+      "role": "lifestyle",
+      "label": "Black, carried by a woman"
+    },
+    {
+      "source": "products/2607070313251623100/source/images/05-aceb56d0a278.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-c05cbadb-6842-44fe-8789-b71e5aac0b40.png",
+      "file": "products/2607070313251623100/prepared/images/lifestyle-brown-shoulder.png",
+      "prompt": "Preserve exact original woman and shoulder-worn brown bag, pose, dark knit clothing, bag scale against body, original true handle length, seam pattern, grain, silver zipper and silver lock. Change ONLY gray background to warm cream plaster wall with gentle soft daylight, Atelier Veyne restrained lifestyle photography. Portrait 3:4. Do not change carrying mode, invent face, recolor bag, add hardware, text or props. Preserve real CJ product accuracy.",
+      "role": "lifestyle",
+      "label": "Brown, worn on shoulder"
+    }
+  ]
+}

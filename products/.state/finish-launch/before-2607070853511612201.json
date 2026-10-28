@@ -1,0 +1,525 @@
+{
+  "id": "gid://shopify/Product/15459352478015",
+  "title": "Orla barrel bag",
+  "handle": "orla-barrel-bag",
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67841890353471",
+        "sku": "CJNS297227401AZ",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 9023,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "20x10x12"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828016406847",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828016406847",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114770706751",
+                  "name": "El Massira",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              },
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828016406847",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 9023
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 9023
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841890386239",
+        "sku": "CJNS297227402BY",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 6188,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Beige"
+          },
+          {
+            "name": "Size",
+            "value": "20x10x12"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828016439615",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828016439615",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114770706751",
+                  "name": "El Massira",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              },
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828016439615",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 6188
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 6188
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841890419007",
+        "sku": "CJNS297227403CX",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 5949,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Coffee"
+          },
+          {
+            "name": "Size",
+            "value": "20x10x12"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828016472383",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828016472383",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114770706751",
+                  "name": "El Massira",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              },
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828016472383",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 5949
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 5949
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841890451775",
+        "sku": "CJNS297227404DW",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 9480,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Wine Red"
+          },
+          {
+            "name": "Size",
+            "value": "20x10x12"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828016505151",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828016505151",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114770706751",
+                  "name": "El Massira",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              },
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828016505151",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 9480
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 9480
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841890484543",
+        "sku": "CJNS297227405EV",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 6377,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Brown"
+          },
+          {
+            "name": "Size",
+            "value": "20x10x12"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828016537919",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178705957183?inventory_item_id=69828016537919",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114770706751",
+                  "name": "El Massira",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              },
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828016537919",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 6377
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 6377
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metafield/191310691893567",
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Cowhide leather with polyester-cotton lining.",
+        "compareDigest": "d0eed1f59f2b22acf2a361a19e64eda6690ba2bdf0145f8b853b08aa38f9b884"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310691926335",
+        "namespace": "custom",
+        "key": "dimensions",
+        "type": "multi_line_text_field",
+        "value": "20 × 10 × 12 cm.",
+        "compareDigest": "052cf49f500f9aa34df56e674e93cf1508d88027e4e49cc79e7a04074cf0bfc1"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310691959103",
+        "namespace": "custom",
+        "key": "cj_product_id",
+        "type": "single_line_text_field",
+        "value": "2607070853511612201",
+        "compareDigest": "06fe57ea80559686fb3f89077311fb42870b14990849b2bd34d4a66a964638df"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310691991871",
+        "namespace": "custom",
+        "key": "cj_import_batch",
+        "type": "single_line_text_field",
+        "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd",
+        "compareDigest": "14883250a0bd7b68aa09cb9ac39cbe11ed612f1682fa13c6657aef3f7259c9a7"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310692024639",
+        "namespace": "custom",
+        "key": "cj_fulfillment_link_verified",
+        "type": "boolean",
+        "value": "false",
+        "compareDigest": "401f18ad0cca38559086c36f9e0295f1ca3a7023e5f095aeef69177a9b8f10ce"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310692057407",
+        "namespace": "custom",
+        "key": "color_swatches",
+        "type": "json",
+        "value": "{\"Black\":\"#1B1A18\",\"Beige\":\"#E8E2D4\",\"Coffee\":\"#3D2B23\",\"Wine Red\":\"#73343E\",\"Brown\":\"#654735\"}",
+        "compareDigest": "9035fa08165de0b47d9fea8d9c3e3a8ca046e30423a798295464eba62389398c"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310692090175",
+        "namespace": "global",
+        "key": "title_tag",
+        "type": "string",
+        "value": "Orla barrel bag | Atelier Veyne",
+        "compareDigest": "bc1296a7d7ee7a8b3aa52ca22e26323c78b65ba80a2076d47d61b94055743212"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310692122943",
+        "namespace": "global",
+        "key": "description_tag",
+        "type": "string",
+        "value": "Orla barrel bag. Cylindrical silhouette. Single shoulder strap. Discover considered everyday bags at Atelier Veyne.",
+        "compareDigest": "3a8ad41665d73e79e15c2ef3c89ceb9980068df09a1fd2c3f961dd058685b704"
+      }
+    ]
+  }
+}

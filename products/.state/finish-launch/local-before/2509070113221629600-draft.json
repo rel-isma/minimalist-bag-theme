@@ -1,0 +1,236 @@
+{
+  "id": "2509070113221629600",
+  "cjProductSku": "CJNS2490603",
+  "title": "Esme crossbody bag",
+  "handle": "esme-crossbody-bag",
+  "description": "Esme keeps its horizontal shape simple, with soft leather and an understated exterior. Internal zippered and document pockets give smaller essentials their own place. Soft horizontal silhouette Internal zippered pocket Internal document pocket",
+  "vendor": "Atelier Veyne",
+  "productType": "Crossbody bag",
+  "tags": [
+    "black",
+    "caramel",
+    "cj-import",
+    "crossbody-bag",
+    "khaki",
+    "new-arrival"
+  ],
+  "seo": {
+    "title": "Esme crossbody bag | Atelier Veyne",
+    "description": "Esme crossbody bag. Soft horizontal silhouette. Internal zippered pocket. Discover considered everyday bags at Atelier Veyne."
+  },
+  "material": "Cowhide leather with polyester lining.",
+  "dimensions": "26 × 16 × 9 cm.",
+  "care": "",
+  "variants": [
+    {
+      "cjVariantId": "2509070113221629800",
+      "cjProductId": "2509070113221629600",
+      "sku": "CJNS249060301AZ",
+      "barcode": "1600008014290",
+      "sourceOptionKey": "Black-26X16X9CM",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        },
+        {
+          "name": "Size",
+          "value": "26X16X9CM"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/f3b35731-8163-4a87-9a57-f2d3b0192ca2.jpg",
+      "supplierCost": {
+        "amount": "20.73",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 270,
+        "width": 200,
+        "height": 40,
+        "weight": 620,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2509070113221629900",
+      "cjProductId": "2509070113221629600",
+      "sku": "CJNS249060302BY",
+      "barcode": "1600008014291",
+      "sourceOptionKey": "Khaki-26X16X9CM",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Khaki"
+        },
+        {
+          "name": "Size",
+          "value": "26X16X9CM"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/351ab9fd-fa3e-4138-8d93-ff426276d3bc.jpg",
+      "supplierCost": {
+        "amount": "20.73",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 270,
+        "width": 200,
+        "height": 40,
+        "weight": 620,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2509070113231620100",
+      "cjProductId": "2509070113221629600",
+      "sku": "CJNS249060303CX",
+      "barcode": "1600008014292",
+      "sourceOptionKey": "Caramel-26X16X9CM",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Caramel"
+        },
+        {
+          "name": "Size",
+          "value": "26X16X9CM"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/4c153b15-9f68-4268-bbce-d51a7974c1e9.jpg",
+      "supplierCost": {
+        "amount": "20.73",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 270,
+        "width": 200,
+        "height": 40,
+        "weight": 620,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Khaki",
+      "proposedHex": "#9D8A67",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Caramel",
+      "proposedHex": "#A26636",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "images": [
+    {
+      "id": "d9810e4fe39d7d5b",
+      "file": "products/2509070113221629600/prepared/images/01-atelier-veyne.png",
+      "url": "/media/products/2509070113221629600/prepared/images/01-atelier-veyne.png",
+      "alt": "Esme crossbody bag in Black",
+      "variantIds": [
+        "2509070113221629800"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f3b35731-8163-4a87-9a57-f2d3b0192ca2.jpg"
+    },
+    {
+      "id": "9d430594b1fcb4f8",
+      "file": "products/2509070113221629600/prepared/images/lifestyle-woman-v1.png",
+      "url": "/media/products/2509070113221629600/prepared/images/lifestyle-woman-v1.png",
+      "alt": "Esme crossbody bag in Black, carried by an adult woman",
+      "variantIds": [],
+      "enabled": true,
+      "kind": "lifestyle-composite",
+      "role": "lifestyle",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f3b35731-8163-4a87-9a57-f2d3b0192ca2.jpg",
+      "sourceFile": "products/2509070113221629600/source/images/007-16ea45f0-a2a31790.jpg",
+      "generated": true
+    },
+    {
+      "id": "e8807e822295dead",
+      "file": "products/2509070113221629600/prepared/images/02-atelier-veyne.png",
+      "url": "/media/products/2509070113221629600/prepared/images/02-atelier-veyne.png",
+      "alt": "Esme crossbody bag in Khaki",
+      "variantIds": [
+        "2509070113221629900"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/351ab9fd-fa3e-4138-8d93-ff426276d3bc.jpg"
+    },
+    {
+      "id": "c8853fd858699553",
+      "file": "products/2509070113221629600/prepared/images/03-atelier-veyne.png",
+      "url": "/media/products/2509070113221629600/prepared/images/03-atelier-veyne.png",
+      "alt": "Esme crossbody bag in Caramel",
+      "variantIds": [
+        "2509070113231620100"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/4c153b15-9f68-4268-bbce-d51a7974c1e9.jpg"
+    }
+  ],
+  "reviewNotes": [
+    "Dimension orientation is not stated; preserve supplier order."
+  ],
+  "resolvedNotes": [],
+  "replaceGallery": true,
+  "savedAt": null,
+  "sourceName": "Leather Shoulder Bag Women's Cowhide All-matching",
+  "sourceDescription": "Product information: Lining texture: Polyester Applicable scenarios: Daily matching Color: black, khaki, caramel Outer bag type: Sandwich pocket Leather characteristics: first layer cowhide Hardness: soft Material: genuine leather Suitcase shape: Horizontal Square Size: 26*16*9 Bag internal structure: zipper changing bag, document bag Packing list: 1*Bag Product Image:",
+  "fulfillment": {
+    "sourceCountryCode": "CN",
+    "defaultArea": 1,
+    "targetCountryCode": "",
+    "logistics": "",
+    "locationIds": [],
+    "deliveryProfileId": ""
+  },
+  "collectionIds": [],
+  "templateSuffix": "",
+  "taxable": false
+}

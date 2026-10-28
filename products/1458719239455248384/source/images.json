@@ -1,0 +1,70 @@
+{
+  "fetchedAt": "2026-10-23T09:49:21.694Z",
+  "selectionPolicy": "Maximum 8 distinct product gallery/variant photos. Description HTML images excluded. Primary and variant photos prioritized.",
+  "images": [
+    {
+      "sourceUrl": "https://cf.cjdropshipping.com/ae6399cb-7451-4bb1-bfe2-815b457ba9c8.jpg",
+      "file": "001-a30e4a1c-5119297d.jpg",
+      "sha256": "5119297d22e2c9da47ceada736d84fdaa5e24b3fad546c36bb5b36497e2946cc",
+      "bytes": 147147,
+      "finalUrl": "https://cf.cjdropshipping.com/ae6399cb-7451-4bb1-bfe2-815b457ba9c8.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://cf.cjdropshipping.com/a418ef64-00be-403a-bf77-9e094b259a85.jpg",
+      "file": "009-b28c41ed-1c0e1f50.jpg",
+      "sha256": "1c0e1f504d1ab6f1a8cf1d158c491006986e09ea0190520fc1c299929428937e",
+      "bytes": 124274,
+      "finalUrl": "https://cf.cjdropshipping.com/a418ef64-00be-403a-bf77-9e094b259a85.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://cf.cjdropshipping.com/401a54b4-cf1d-4747-81d0-1803766edcc3.jpg",
+      "file": "006-e28188e1-c4a09d4a.jpg",
+      "sha256": "c4a09d4a4bbe0f66d24c9c9968666439078f2e37e62bfd6bc72743e7c3dd9ddb",
+      "bytes": 120746,
+      "finalUrl": "https://cf.cjdropshipping.com/401a54b4-cf1d-4747-81d0-1803766edcc3.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://cf.cjdropshipping.com/a24fff8c-dff2-409d-adc3-1eedabf22b03.jpg",
+      "file": "002-e593e7aa-a06023a9.jpg",
+      "sha256": "a06023a9339cc2d42e18225f9fd0de37fb6d5cec26ebbeda7931156fc39804fa",
+      "bytes": 79200,
+      "finalUrl": "https://cf.cjdropshipping.com/a24fff8c-dff2-409d-adc3-1eedabf22b03.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://cf.cjdropshipping.com/006febf0-29b4-48b7-b652-adb4cf952b61.jpg",
+      "file": "004-9d98dc69-f22fe6a6.jpg",
+      "sha256": "f22fe6a6726901c851ff22e867a1a104e42927a518167f909dd77e19a24ff5d7",
+      "bytes": 75623,
+      "finalUrl": "https://cf.cjdropshipping.com/006febf0-29b4-48b7-b652-adb4cf952b61.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://cf.cjdropshipping.com/bce61bdf-b3e9-4b2d-9d4d-0de17444d657.jpg",
+      "file": "005-713bdd6c-3513794f.jpg",
+      "sha256": "3513794fc29b36d7ddd2e03069b3b9362922952fef1877150514b2e2aef8e61a",
+      "bytes": 64610,
+      "finalUrl": "https://cf.cjdropshipping.com/bce61bdf-b3e9-4b2d-9d4d-0de17444d657.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://cf.cjdropshipping.com/500c2144-cf17-4b06-b600-aae92af9001b.jpg",
+      "file": "003-9d5c5eb5-0bf6295b.jpg",
+      "sha256": "0bf6295bfa51db18f656fe615b9bc101dae94861e4c88e2dd4fb7712e50bfad1",
+      "bytes": 181679,
+      "finalUrl": "https://cf.cjdropshipping.com/500c2144-cf17-4b06-b600-aae92af9001b.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://cf.cjdropshipping.com/fa2bb81b-4b53-435a-8faf-0e0958ddd4cd.jpg",
+      "file": "008-20002bf4-ce73bf9c.jpg",
+      "sha256": "ce73bf9ce5539bd4bef2c503837f3ad5e545cc4382d77a6884b3a8338c97c37f",
+      "bytes": 145320,
+      "finalUrl": "https://cf.cjdropshipping.com/fa2bb81b-4b53-435a-8faf-0e0958ddd4cd.jpg",
+      "status": "downloaded"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "targetTheme": "gid://shopify/OnlineStoreTheme/189635821887",
+  "role": "UNPUBLISHED",
+  "files": [
+    "templates/index.json",
+    "sections/product-recommendations.liquid"
+  ],
+  "changedHomepageSections": [
+    "hero",
+    "best_sellers",
+    "story",
+    "look",
+    "inquiries"
+  ],
+  "publishTheme": false
+}

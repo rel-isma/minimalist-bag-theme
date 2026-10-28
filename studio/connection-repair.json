@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-10-23T18:52:05.479Z",
+  "rootCause": "CJ code 415: Product already exists. The integration tried to register already-synced Shopify listings instead of reusing their verified CJ store records.",
+  "fix": "Verify existing CJ product and variant records, register only missing records, then create and read back native connections. Show the sanitized CJ error message.",
+  "connectedProducts": 10,
+  "linkedVariants": 32,
+  "needsConnection": 0,
+  "notListed": 6,
+  "inventoryManagedProducts": 1,
+  "shopifyContentChanged": false,
+  "inventoryQuantitiesWritten": false,
+  "regressionTestsPassed": 6,
+  "products": [
+    {
+      "title": "Marlow top-handle bag",
+      "cjProductId": "2408310805071622300",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 3,
+      "total": 3,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459351593279",
+      "stock": 35092
+    },
+    {
+      "title": "Alder bucket bag",
+      "cjProductId": "1756516170586402816",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 2,
+      "total": 2,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352117567",
+      "stock": 0
+    },
+    {
+      "title": "Rowan flap bag",
+      "cjProductId": "2602021300441600000",
+      "state": "not-listed",
+      "label": "Not listed",
+      "linked": 0,
+      "total": 3,
+      "inventoryManaged": false
+    },
+    {
+      "title": "Sora bucket bag",
+      "cjProductId": "2607121014121623000",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 4,
+      "total": 4,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352281407",
+      "stock": 0
+    },
+    {
+      "title": "Elin bucket bag",
+      "cjProductId": "1458719239455248384",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 3,
+      "total": 3,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352412479",
+      "stock": 0
+    },
+    {
+      "title": "Nola everyday bag",
+      "cjProductId": "1731929813339873280",
+      "state": "not-listed",
+      "label": "Not listed",
+      "linked": 0,
+      "total": 4,
+      "inventoryManaged": false
+    },
+    {
+      "title": "Orla barrel bag",
+      "cjProductId": "2607070853511612201",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 5,
+      "total": 5,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352478015",
+      "stock": 0
+    },
+    {
+      "title": "Linden zip handbag",
+      "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 4,
+      "total": 4,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352674623",
+      "stock": 0
+    },
+    {
+      "title": "Rhea crossbody bag",
+      "cjProductId": "2506110631251623700",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 1,
+      "total": 1,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352838463",
+      "stock": 0
+    },
+    {
+      "title": "Mira pillow bag",
+      "cjProductId": "2072251249807106049",
+      "state": "not-listed",
+      "label": "Not listed",
+      "linked": 0,
+      "total": 5,
+      "inventoryManaged": false
+    },
+    {
+      "title": "Sable soft tote",
+      "cjProductId": "2410190505071604800",
+      "state": "not-listed",
+      "label": "Not listed",
+      "linked": 0,
+      "total": 7,
+      "inventoryManaged": false
+    },
+    {
+      "title": "Remy everyday bag",
+      "cjProductId": "2412070748501605500",
+      "state": "not-listed",
+      "label": "Not listed",
+      "linked": 0,
+      "total": 5,
+      "inventoryManaged": false
+    },
+    {
+      "title": "Luma shoulder bag",
+      "cjProductId": "2407270630041615800",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 2,
+      "total": 2,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459353002303",
+      "stock": 0
+    },
+    {
+      "title": "Talia shoulder bag",
+      "cjProductId": "2606090550321621400",
+      "state": "not-listed",
+      "label": "Not listed",
+      "linked": 0,
+      "total": 5,
+      "inventoryManaged": false
+    },
+    {
+      "title": "Esme crossbody bag",
+      "cjProductId": "2509070113221629600",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 3,
+      "total": 3,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459353133375",
+      "stock": 0
+    },
+    {
+      "title": "Milo compact crossbody",
+      "cjProductId": "2510110122001632000",
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 5,
+      "total": 5,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459353362751",
+      "stock": 0
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+query StudioConfiguration{shop{name myshopifyDomain currencyCode}collections(first:100){pageInfo{hasNextPage}nodes{id title handle ruleSet{rules{column relation condition}appliedDisjunctively}}}themes(first:20){nodes{id name role}}metafieldDefinitions(first:100,ownerType:PRODUCT){nodes{namespace key type{name}}}currentAppInstallation{accessScopes{handle}}}

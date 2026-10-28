@@ -1,0 +1,52 @@
+{
+  "images": [
+    {
+      "file": "01-aac9dd3fbdc8.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/c67d7c40-c682-433f-8d88-4a1bed55e079.jpg",
+      "sha256": "aac9dd3fbdc815aa9269e6940254aa3e37ce44e3885ac13ba543856760df7ebc",
+      "bytes": 132565
+    },
+    {
+      "file": "02-d4ec167c7b6d.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0672b825-182b-49cc-8736-8fa52da9ca8b.jpg",
+      "sha256": "d4ec167c7b6db3d54ad0ae6de1ce00035cd871a73278ebf54b131b2bfe44b780",
+      "bytes": 71444
+    },
+    {
+      "file": "03-a053907d715f.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/ba6564b8-b29f-4d77-a3e5-7e627bc3a995.jpg",
+      "sha256": "a053907d715fa42ceec90095cb78440190f39714bd8d1870cfa21b769ee29bd4",
+      "bytes": 87219
+    },
+    {
+      "file": "04-73b6ba2ccf66.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/cfa6127e-3696-4254-8b39-87bd6346d14b.jpg",
+      "sha256": "73b6ba2ccf6643621e52fcd183f181d9822272586f617fcca55ec365c00ef501",
+      "bytes": 79257
+    },
+    {
+      "file": "05-e332f538111a.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2025/12/11/08/d5179910-b1e7-4414-9c23-52afdb2acc20.jpg",
+      "sha256": "e332f538111a6c333f25127e2bd810b378070dc275d942109907f8e3e9fd4661",
+      "bytes": 121504
+    },
+    {
+      "file": "06-1224177ddeff.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2025/12/11/08/7fede2b9-dcb1-4240-815b-da29ba7ef048.jpg",
+      "sha256": "1224177ddeff49e40d7070ba2a7b66746a0abd34432c980d91fc31ec6e3c8731",
+      "bytes": 149713
+    },
+    {
+      "file": "07-501986cfb745.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2025/12/11/08/6187ddfe-5147-4efc-9949-98335f859add.jpg",
+      "sha256": "501986cfb74504a10e1539ac95c06ff2368f3b8667c49777429ca1fd5d397c27",
+      "bytes": 144434
+    },
+    {
+      "file": "08-2268b59208c5.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2025/12/11/08/8e8e9981-ae74-4d18-a5e5-c9247f38a11b.jpg",
+      "sha256": "2268b59208c5f39e6579a0eeb6d4482d47a2861b1073251d81d72b240288b83f",
+      "bytes": 157855
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "preparedAt": "2026-10-25T12:36:15.008Z",
+  "publishingApproved": false,
+  "ownerApproved": false,
+  "pricingApproved": false,
+  "draft": {
+    "id": "2606280932411629600",
+    "cjProductSku": "CJNS2958782",
+    "title": "Iris soft shoulder bag",
+    "handle": "iris-soft-shoulder-bag",
+    "description": "Iris brings a soft, gently tapered shape to an everyday shoulder bag. A single handle follows the curve of its folded front, finished with a small silver-tone turn lock. The pebbled surface and pared-back outline keep the focus on the silhouette.\n\nAvailable in Beige, Elephant Gray, Pink, Brown, Black and Blue, Iris adds a quiet accent to simple layers.",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "tags": [
+      "cj-import",
+      "shoulder-bag",
+      "everyday",
+      "new-arrival"
+    ],
+    "seo": {
+      "title": "Iris soft shoulder bag | Atelier Veyne",
+      "description": "Explore Iris, a softly shaped leather shoulder bag with a single handle and discreet silver-tone turn lock. Six colors, by Atelier Veyne."
+    },
+    "material": "Leather exterior with polyester-cotton lining.",
+    "dimensions": "ffdgdfgfdg",
+    "care": "dfgfdgfdgdgf",
+    "variants": [
+      {
+        "cjVariantId": "2606280932421620700",
+        "cjProductId": "2606280932411629600",
+        "sku": "CJNS295878201AZ",
+        "sourceOptionKey": "Beige",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Beige"
+          }
+        ],
+        "supplierCost": {
+          "amount": "22.39",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/fcd3f0c4-34e9-4c9b-92c0-93cb9bc8d9af.jpg"
+      },
+      {
+        "cjVariantId": "2606280932421621100",
+        "cjProductId": "2606280932411629600",
+        "sku": "CJNS295878202BY",
+        "sourceOptionKey": "Elephant Gray",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Elephant Gray"
+          }
+        ],
+        "supplierCost": {
+          "amount": "22.39",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/01e3c810-5cde-4610-b22f-ab868c2350d9.jpg"
+      },
+      {
+        "cjVariantId": "2606280932421621800",
+        "cjProductId": "2606280932411629600",
+        "sku": "CJNS295878203CX",
+        "sourceOptionKey": "Pink",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Pink"
+          }
+        ],
+        "supplierCost": {
+          "amount": "22.39",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/e7b99b65-e62f-4225-814e-35cca47fa57c.jpg"
+      },
+      {
+        "cjVariantId": "2606280932421622600",
+        "cjProductId": "2606280932411629600",
+        "sku": "CJNS295878204DW",
+        "sourceOptionKey": "Brown",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Brown"
+          }
+        ],
+        "supplierCost": {
+          "amount": "22.39",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/7a64838f-78c3-4936-a016-18997b09e90b.jpg"
+      },
+      {
+        "cjVariantId": "2606280932421623101",
+        "cjProductId": "2606280932411629600",
+        "sku": "CJNS295878205EV",
+        "sourceOptionKey": "Black",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ],
+        "supplierCost": {
+          "amount": "22.39",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b2b49452-a663-499d-98e2-2590040853b1.jpg"
+      },
+      {
+        "cjVariantId": "2606280932421623900",
+        "cjProductId": "2606280932411629600",
+        "sku": "CJNS295878206FU",
+        "sourceOptionKey": "Blue",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Blue"
+          }
+        ],
+        "supplierCost": {
+          "amount": "22.39",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/6e97290c-7eb9-44bd-873b-42bdb44560fe.jpg"
+      }
+    ],
+    "swatches": [
+      {
+        "optionValue": "Beige",
+        "proposedHex": "#E8DFD2"
+      },
+      {
+        "optionValue": "Elephant Gray",
+        "proposedHex": "#B6A08A"
+      },
+      {
+        "optionValue": "Pink",
+        "proposedHex": "#E7BBC7"
+      },
+      {
+        "optionValue": "Brown",
+        "proposedHex": "#4B363A"
+      },
+      {
+        "optionValue": "Black",
+        "proposedHex": "#24252A"
+      },
+      {
+        "optionValue": "Blue",
+        "proposedHex": "#AFC9DF"
+      }
+    ],
+    "images": [
+      {
+        "id": "b6e7fc46b1601694",
+        "file": "products/2606280932411629600/prepared/images/catalog-1.png",
+        "url": "/media/products/2606280932411629600/prepared/images/catalog-1.png",
+        "alt": "Iris soft shoulder bag — Beige",
+        "variantIds": [
+          "2606280932421620700"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/fcd3f0c4-34e9-4c9b-92c0-93cb9bc8d9af.jpg",
+        "sourceFile": "products/2606280932411629600/source/images/02-a8cbc21e5526.jpg"
+      },
+      {
+        "id": "7d846b0643bd7ab9",
+        "file": "products/2606280932411629600/prepared/images/lifestyle-pink.png",
+        "url": "/media/products/2606280932411629600/prepared/images/lifestyle-pink.png",
+        "alt": "Iris soft shoulder bag — Pink, carried by a woman",
+        "variantIds": [],
+        "enabled": true,
+        "kind": "branded",
+        "role": "lifestyle",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/a2fc011a-b6f7-4b63-82e4-d3fdcf66c4e6.jpg",
+        "sourceFile": "products/2606280932411629600/source/images/01-2ffc33b599cf.jpg"
+      },
+      {
+        "id": "18c768c72d4420d8",
+        "file": "products/2606280932411629600/prepared/images/lifestyle-pink-strap.png",
+        "url": "/media/products/2606280932411629600/prepared/images/lifestyle-pink-strap.png",
+        "alt": "Iris soft shoulder bag — Pink, strap detail with a woman",
+        "variantIds": [],
+        "enabled": true,
+        "kind": "branded",
+        "role": "lifestyle",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/037cf6e2-25e7-4461-824c-a01db88f37a1.jpg",
+        "sourceFile": "products/2606280932411629600/source/images/08-8ad5f79a2a53.jpg"
+      },
+      {
+        "id": "887527cee61f3d77",
+        "file": "products/2606280932411629600/prepared/images/catalog-2.png",
+        "url": "/media/products/2606280932411629600/prepared/images/catalog-2.png",
+        "alt": "Iris soft shoulder bag — Elephant Gray",
+        "variantIds": [
+          "2606280932421621100"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/01e3c810-5cde-4610-b22f-ab868c2350d9.jpg",
+        "sourceFile": "products/2606280932411629600/source/images/03-71b1b2e1272c.jpg"
+      },
+      {
+        "id": "5d5ba4009af0dc85",
+        "file": "products/2606280932411629600/prepared/images/catalog-3.png",
+        "url": "/media/products/2606280932411629600/prepared/images/catalog-3.png",
+        "alt": "Iris soft shoulder bag — Pink",
+        "variantIds": [
+          "2606280932421621800"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/e7b99b65-e62f-4225-814e-35cca47fa57c.jpg",
+        "sourceFile": "products/2606280932411629600/source/images/04-1eba5ea142f4.jpg"
+      },
+      {
+        "id": "ef0b11a86e0d33d9",
+        "file": "products/2606280932411629600/prepared/images/catalog-4.png",
+        "url": "/media/products/2606280932411629600/prepared/images/catalog-4.png",
+        "alt": "Iris soft shoulder bag — Brown",
+        "variantIds": [
+          "2606280932421622600"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/7a64838f-78c3-4936-a016-18997b09e90b.jpg",
+        "sourceFile": "products/2606280932411629600/source/images/05-f373f05c44cc.jpg"
+      },
+      {
+        "id": "b20fa8376aedf423",
+        "file": "products/2606280932411629600/prepared/images/catalog-5.png",
+        "url": "/media/products/2606280932411629600/prepared/images/catalog-5.png",
+        "alt": "Iris soft shoulder bag — Black",
+        "variantIds": [
+          "2606280932421623101"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b2b49452-a663-499d-98e2-2590040853b1.jpg",
+        "sourceFile": "products/2606280932411629600/source/images/06-efd3d74eedbf.jpg"
+      },
+      {
+        "id": "835ab2ad0ce40096",
+        "file": "products/2606280932411629600/prepared/images/catalog-6.png",
+        "url": "/media/products/2606280932411629600/prepared/images/catalog-6.png",
+        "alt": "Iris soft shoulder bag — Blue",
+        "variantIds": [
+          "2606280932421623900"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/6e97290c-7eb9-44bd-873b-42bdb44560fe.jpg",
+        "sourceFile": "products/2606280932411629600/source/images/07-1bc8588a9829.jpg"
+      }
+    ],
+    "reviewNotes": [
+      "Price is a USD retail proposal; shipping, fees and margin require approval before listing.",
+      "Supplier product measurements are absent. Dimensions remain empty; shipping-package dimensions are not substituted.",
+      "The source title calls this a tote; photos show a single-handle shoulder bag. Product type is Shoulder bag, with original CJ title retained in source records.",
+      "Supplier title uses top-grain wording without supporting detail; final material copy says leather only.",
+      "Supplier care instructions are absent; verify edited images and color swatches against originals before publication."
+    ],
+    "resolvedNotes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "replaceGallery": true,
+    "savedAt": "2026-10-25T15:28:31.377Z",
+    "sourceName": "Top-grain Leather Large-capacity Tote Bag",
+    "sourceDescription": "Product information: Lining material: polyester-cotton Colors: off-white, ivory gray, pink, coffee brown, black, blue Hardness: medium-soft Material: genuine leather Bag shape: pillow-style Strap type: single strap Packing list: Bag*1 Product Image:",
+    "fulfillment": {
+      "sourceCountryCode": "CN",
+      "defaultArea": 1,
+      "targetCountryCode": "US",
+      "logistics": "DHL Official",
+      "locationIds": [
+        "114800427327"
+      ],
+      "deliveryProfileId": "134383960383",
+      "shippingReviewSignature": "8e2dda1c3cb572fe231a9b009d92293faade0ac13aee55272c0529f05193a354"
+    },
+    "collectionIds": [],
+    "templateSuffix": "",
+    "taxable": false
+  },
+  "shopifyDescriptionHtml": "<p>Iris brings a soft, gently tapered shape to an everyday shoulder bag. A single handle follows the curve of its folded front, finished with a small silver-tone turn lock. The pebbled surface and pared-back outline keep the focus on the silhouette.</p><p>Available in Beige, Elephant Gray, Pink, Brown, Black and Blue, Iris adds a quiet accent to simple layers.</p>",
+  "source": {
+    "pid": "2606280932411629600",
+    "sku": "CJNS2958782"
+  },
+  "reviewNotes": [
+    "Price is a USD retail proposal; shipping, fees and margin require approval before listing.",
+    "Supplier product measurements are absent. Dimensions remain empty; shipping-package dimensions are not substituted.",
+    "The source title calls this a tote; photos show a single-handle shoulder bag. Product type is Shoulder bag, with original CJ title retained in source records.",
+    "Supplier title uses top-grain wording without supporting detail; final material copy says leather only.",
+    "Supplier care instructions are absent; verify edited images and color swatches against originals before publication."
+  ],
+  "mediaValidation": [
+    {
+      "file": "products/2606280932411629600/prepared/images/catalog-1.png",
+      "sha256": "2ec7400f37164b2c9688507aaa89653e46fa1066dbe1f8ea396e9c5d6d635ea7",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2606280932411629600/source/images/02-a8cbc21e5526.jpg"
+    },
+    {
+      "file": "products/2606280932411629600/prepared/images/lifestyle-pink.png",
+      "sha256": "262421336c9995ccd7531785dd2ce81ab97ca5cf80276de19fdbd8166e896c34",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2606280932411629600/source/images/01-2ffc33b599cf.jpg"
+    },
+    {
+      "file": "products/2606280932411629600/prepared/images/lifestyle-pink-strap.png",
+      "sha256": "23b90af0b59ce4733f5d9d1a491e8c970f129f43ff11ba18ca0109dd81b2beb1",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2606280932411629600/source/images/08-8ad5f79a2a53.jpg"
+    },
+    {
+      "file": "products/2606280932411629600/prepared/images/catalog-2.png",
+      "sha256": "587022c51b06854614a4d34f92305d728d034ea7f83dcb17977eda7ebdf5d772",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2606280932411629600/source/images/03-71b1b2e1272c.jpg"
+    },
+    {
+      "file": "products/2606280932411629600/prepared/images/catalog-3.png",
+      "sha256": "f9192011ca9386d49e86be2df830ecaf80adbdb58a17f45c2eb5c93ffeedd385",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2606280932411629600/source/images/04-1eba5ea142f4.jpg"
+    },
+    {
+      "file": "products/2606280932411629600/prepared/images/catalog-4.png",
+      "sha256": "af4282353257235d8fde828b72a52cb85129a01be4311fe6a361ba6be3b0da8b",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2606280932411629600/source/images/05-f373f05c44cc.jpg"
+    },
+    {
+      "file": "products/2606280932411629600/prepared/images/catalog-5.png",
+      "sha256": "a6c67c7e4a53b0fdb03b71dece4efac2ebb5290960508629e784c1dbb2deaf17",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2606280932411629600/source/images/06-efd3d74eedbf.jpg"
+    },
+    {
+      "file": "products/2606280932411629600/prepared/images/catalog-6.png",
+      "sha256": "ed3723f31f06d9cac3edf52c39526b56cf9f3be3ca128ac67fc623b7e9d75bd0",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2606280932411629600/source/images/07-1bc8588a9829.jpg"
+    }
+  ]
+}

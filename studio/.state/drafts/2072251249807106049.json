@@ -1,0 +1,328 @@
+{
+  "id": "2072251249807106049",
+  "cjProductSku": "CJNS2963035",
+  "title": "Mira pillow bag",
+  "handle": "mira-pillow-bag",
+  "description": "Mira has a gently rounded pillow silhouette with a zip opening and two straps. Its medium-soft structure and understated profile bring a relaxed shape to an everyday edit. Pillow silhouette Zip opening Internal card pocket and zippered compartment",
+  "vendor": "Atelier Veyne",
+  "productType": "Shoulder bag",
+  "tags": [
+    "shoulder-bag",
+    "cj-import",
+    "coffee-brown",
+    "black",
+    "elephant-gray",
+    "off-white",
+    "encore-red"
+  ],
+  "seo": {
+    "title": "Mira pillow bag | Atelier Veyne",
+    "description": "Mira pillow bag. Pillow silhouette. Zip opening. Discover considered everyday bags at Atelier Veyne."
+  },
+  "material": "dffddfg",
+  "dimensions": "33 cm length × 13 cm width × 14 cm height.",
+  "care": "fdgdfgfdg dfgfd",
+  "variants": [
+    {
+      "cjVariantId": "2072251249920352258",
+      "cjProductId": "2072251249807106049",
+      "sku": "CJNS296303501AZ",
+      "barcode": "8600000848433",
+      "sourceOptionKey": "Coffee Brown",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Coffee Brown"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/21e18088-c404-4d9d-83f1-251ab4dc94a8.jpg",
+      "supplierCost": {
+        "amount": "24.51",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "109.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 330,
+        "width": 130,
+        "height": 140,
+        "weight": 1000,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2072251249920352259",
+      "cjProductId": "2072251249807106049",
+      "sku": "CJNS296303502BY",
+      "barcode": "8600000848434",
+      "sourceOptionKey": "Black",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/de4df96f-069d-43a6-b8be-eb51197b7517.jpg",
+      "supplierCost": {
+        "amount": "24.51",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "109.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 330,
+        "width": 130,
+        "height": 140,
+        "weight": 1000,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2072251249920352260",
+      "cjProductId": "2072251249807106049",
+      "sku": "CJNS296303503CX",
+      "barcode": "8600000848435",
+      "sourceOptionKey": "Elephant gray",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Elephant gray"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/23442b0a-3860-4d66-be35-b54b8a147538.jpg",
+      "supplierCost": {
+        "amount": "24.51",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "109.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 330,
+        "width": 130,
+        "height": 140,
+        "weight": 1000,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2072251249920352261",
+      "cjProductId": "2072251249807106049",
+      "sku": "CJNS296303504DW",
+      "barcode": "8600000848436",
+      "sourceOptionKey": "Off white",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Off white"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/644f31c4-92c0-41bd-9cde-a62be0bbc381.jpg",
+      "supplierCost": {
+        "amount": "24.51",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "109.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 330,
+        "width": 130,
+        "height": 140,
+        "weight": 1000,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2072251249920352262",
+      "cjProductId": "2072251249807106049",
+      "sku": "CJNS296303505EV",
+      "barcode": "8600000848437",
+      "sourceOptionKey": "Encore Red",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Encore Red"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/ca5fe22c-4a13-44ff-ac6d-484b46f10ac1.jpg",
+      "supplierCost": {
+        "amount": "24.51",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "109.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 330,
+        "width": 130,
+        "height": 140,
+        "weight": 1000,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Coffee Brown",
+      "proposedHex": "#654735",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Elephant gray",
+      "proposedHex": "#918473",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Off white",
+      "proposedHex": "#F5F1EA",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Encore Red",
+      "proposedHex": "#73343E",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "images": [
+    {
+      "id": "d9810e4fe39d7d5b",
+      "file": "products/2072251249807106049/prepared/images/01-atelier-veyne.png",
+      "url": "/media/products/2072251249807106049/prepared/images/01-atelier-veyne.png",
+      "alt": "Mira pillow bag in Coffee Brown",
+      "variantIds": [
+        "2072251249920352258"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/21e18088-c404-4d9d-83f1-251ab4dc94a8.jpg"
+    },
+    {
+      "id": "e8807e822295dead",
+      "file": "products/2072251249807106049/prepared/images/02-atelier-veyne.png",
+      "url": "/media/products/2072251249807106049/prepared/images/02-atelier-veyne.png",
+      "alt": "Mira pillow bag in Black",
+      "variantIds": [
+        "2072251249920352259"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/de4df96f-069d-43a6-b8be-eb51197b7517.jpg"
+    },
+    {
+      "id": "c8853fd858699553",
+      "file": "products/2072251249807106049/prepared/images/03-atelier-veyne.png",
+      "url": "/media/products/2072251249807106049/prepared/images/03-atelier-veyne.png",
+      "alt": "Mira pillow bag in Elephant gray",
+      "variantIds": [
+        "2072251249920352260"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/23442b0a-3860-4d66-be35-b54b8a147538.jpg"
+    },
+    {
+      "id": "96d600413ed700d4",
+      "file": "products/2072251249807106049/prepared/images/04-atelier-veyne.png",
+      "url": "/media/products/2072251249807106049/prepared/images/04-atelier-veyne.png",
+      "alt": "Mira pillow bag in Off white",
+      "variantIds": [
+        "2072251249920352261"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/644f31c4-92c0-41bd-9cde-a62be0bbc381.jpg"
+    },
+    {
+      "id": "b929f3801513d414",
+      "file": "products/2072251249807106049/prepared/images/05-atelier-veyne.png",
+      "url": "/media/products/2072251249807106049/prepared/images/05-atelier-veyne.png",
+      "alt": "Mira pillow bag in Encore Red",
+      "variantIds": [
+        "2072251249920352262"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/ca5fe22c-4a13-44ff-ac6d-484b46f10ac1.jpg"
+    }
+  ],
+  "reviewNotes": [
+    "Material conflict: structured field says Cloth, while title and description claim cowhide leather. Material accordion is withheld until confirmed.",
+    "Vegetable tanning is not established by the source specifications and is omitted."
+  ],
+  "resolvedNotes": [],
+  "replaceGallery": true,
+  "savedAt": "2026-10-23T19:06:45.615Z",
+  "sourceName": "Vintage First-layer Vegetable-tanned Leather Pillow Bag, Large-capacity Genuine Leather Women's Bag, Cross-border European And American Style Single-shoulder Underarm Bag",
+  "sourceDescription": "Attribute Name Attribute Value Attribute Name Attribute Value Material Genuine Leather Leather Feature Top-grain Cowhide Fashion Element Others Bag Size Medium Lining Material Polyester Brand None Style European &amp; American Vintage Color Coffee, Black, Elephant Grey, Off White, Ankora Red Dimensions Length 33cm × Width 13cm × Height 14cm (12.99×5.12×5.51 inch) Launch Year &amp; Season Winter 2025 Applicable Scenario Daily Matching Item No./SKU YJ-Y-326 Bag Shape Pillow Shape Opening Method Zipper Internal Structure ID Pocket, Interlayer Zipper Pocket Hardness Medium Soft Outer Pocket Type Inner Patch Pocket Interlayer No Number of Shoulder Straps Double Authorized Private Brand No",
+  "fulfillment": {
+    "sourceCountryCode": "CN",
+    "defaultArea": 1,
+    "targetCountryCode": "US",
+    "logistics": "DHL Official",
+    "locationIds": [],
+    "deliveryProfileId": ""
+  },
+  "collectionIds": [
+    "gid://shopify/Collection/519832305983"
+  ],
+  "templateSuffix": "",
+  "taxable": false
+}

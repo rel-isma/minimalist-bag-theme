@@ -1,0 +1,42 @@
+[
+  {
+    "country": "MA",
+    "button": "Sold out",
+    "disabled": true,
+    "variants": [
+      {
+        "id": 67841875378495,
+        "available": false
+      },
+      {
+        "id": 67841875411263,
+        "available": false
+      },
+      {
+        "id": 67841875444031,
+        "available": false
+      }
+    ],
+    "handle": "marlow-top-handle-bag"
+  },
+  {
+    "country": "MA",
+    "button": "Sold out",
+    "disabled": true,
+    "variants": [
+      {
+        "id": 67841898905919,
+        "available": false
+      },
+      {
+        "id": 67841898938687,
+        "available": false
+      },
+      {
+        "id": 67841898971455,
+        "available": false
+      }
+    ],
+    "handle": "esme-crossbody-bag"
+  }
+]

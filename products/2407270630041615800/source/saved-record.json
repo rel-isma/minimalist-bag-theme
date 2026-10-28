@@ -1,0 +1,53 @@
+{
+  "productId": "2407270630041615800",
+  "userId": null,
+  "packWeight": "420.00",
+  "weight": "400.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/94032383-44d7-44e1-b2c2-f2918fe859ae.jpg",
+  "nameEn": "Leather Large Capacity Shoulder Crossbody Bag",
+  "sku": "CJNS2094768",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": null,
+  "createAt": 1792490199000,
+  "sellPrice": "6.41",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "LuWei Ordinary US",
+  "trialCountry": "US",
+  "trialFreight": "10.11",
+  "totalPrice": "16.52",
+  "listedShopNum": "1",
+  "listedShopIds": [
+    "2610192154423535300"
+  ],
+  "vid": "2407270630041616200",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    210,
+    210
+  ],
+  "heightList": [
+    60,
+    60
+  ],
+  "widthList": [
+    140,
+    140
+  ],
+  "volumeList": [
+    1764000,
+    1764000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_savedProductId": "2407270630041615800"
+}

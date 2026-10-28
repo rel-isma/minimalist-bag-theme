@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-27T14:35:55.523Z",
+  "passed": true,
+  "results": [
+    {
+      "name": "Lune",
+      "passed": true,
+      "cardColorSelection": true,
+      "realCartWrites": false
+    },
+    {
+      "name": "Ellis",
+      "passed": true,
+      "cardColorSelection": true,
+      "realCartWrites": false
+    },
+    {
+      "name": "Reversed",
+      "passed": true,
+      "cardColorSelection": true,
+      "realCartWrites": false
+    },
+    {
+      "name": "Colors only",
+      "passed": true,
+      "cardColorSelection": true,
+      "realCartWrites": false
+    },
+    {
+      "name": "Real size choices",
+      "passed": true,
+      "cardColorSelection": false,
+      "realCartWrites": false
+    }
+  ]
+}

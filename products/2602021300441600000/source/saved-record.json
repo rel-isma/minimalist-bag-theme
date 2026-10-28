@@ -1,0 +1,53 @@
+{
+  "productId": "2602021300441600000",
+  "userId": null,
+  "packWeight": "694.00",
+  "weight": "674.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/b819398d-2b07-4fda-805a-faa8852b5a3f.jpg",
+  "nameEn": "New Large-capacity Shoulder And Crossbody Bag",
+  "sku": "CJNS2752129",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": null,
+  "createAt": 1792496065000,
+  "sellPrice": "24.71",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "LuWei Ordinary US",
+  "trialCountry": "US",
+  "trialFreight": "14.28",
+  "totalPrice": "38.99",
+  "listedShopNum": "1",
+  "listedShopIds": [
+    "2610192154423535300"
+  ],
+  "vid": "2602021300441600700",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    300,
+    300
+  ],
+  "heightList": [
+    150,
+    150
+  ],
+  "widthList": [
+    220,
+    220
+  ],
+  "volumeList": [
+    9900000,
+    9900000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_savedProductId": "2602021300441600000"
+}

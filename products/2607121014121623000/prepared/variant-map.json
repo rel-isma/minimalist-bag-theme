@@ -1,0 +1,54 @@
+[
+  {
+    "cjProductId": "2607121014121623000",
+    "cjVariantId": "2607121014121623600",
+    "sku": "CJNS298100901AZ",
+    "sourceOptionKey": "Brown",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Brown"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/0da4241d-aead-44ac-9cb1-20dc72747b56.jpg"
+  },
+  {
+    "cjProductId": "2607121014121623000",
+    "cjVariantId": "2607121014121624000",
+    "sku": "CJNS298100902BY",
+    "sourceOptionKey": "Caramel Mocha",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Caramel Mocha"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/f6113101-6e8f-4f21-9552-9a1c3b2394c9.jpg"
+  },
+  {
+    "cjProductId": "2607121014121623000",
+    "cjVariantId": "2607121014121624500",
+    "sku": "CJNS298100903CX",
+    "sourceOptionKey": "Angora Red",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Angora Red"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/d8d68806-36dd-4988-b0ae-26e62300a9c1.jpg"
+  },
+  {
+    "cjProductId": "2607121014121623000",
+    "cjVariantId": "2607121014121624900",
+    "sku": "CJNS298100904DW",
+    "sourceOptionKey": "Black",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/760bfe3d-5c3a-4f5b-9289-552fd0325d9a.jpg"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "27bba8c4-a087-4955-a459-9ffc4c445be8",
+  "productId": "1756516170586402816",
+  "title": "Alder bucket bag",
+  "action": "connect",
+  "planId": "9ad2eb78-6403-4edd-9449-2b5ae45627ff",
+  "status": "failed",
+  "startedAt": "2026-10-23T18:43:29.376Z",
+  "events": [
+    {
+      "at": "2026-10-23T18:43:32.212Z",
+      "message": "Registering the existing Shopify product with CJ"
+    }
+  ],
+  "error": "CJ store/product/saveProduct: request failed (HTTP 200, code 415).",
+  "finishedAt": "2026-10-23T18:43:33.396Z"
+}

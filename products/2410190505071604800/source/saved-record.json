@@ -1,0 +1,53 @@
+{
+  "productId": "2410190505071604800",
+  "userId": null,
+  "packWeight": "820.00",
+  "weight": "800.00-813.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/78f5eda9-dd12-4699-8a17-6d2e666c5de3.jpg",
+  "nameEn": "New Simple Large Capacity Totes Women",
+  "sku": "CJNS2164568",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": null,
+  "createAt": 1792491476000,
+  "sellPrice": "8.13",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "LuWei Ordinary US",
+  "trialCountry": "US",
+  "trialFreight": "15.27",
+  "totalPrice": "23.40",
+  "listedShopNum": "1",
+  "listedShopIds": [
+    "2610192154423535300"
+  ],
+  "vid": "2410190505071605700",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    300,
+    300
+  ],
+  "heightList": [
+    100,
+    100
+  ],
+  "widthList": [
+    200,
+    200
+  ],
+  "volumeList": [
+    6000000,
+    6000000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_savedProductId": "2410190505071604800"
+}

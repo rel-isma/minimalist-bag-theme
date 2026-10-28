@@ -1,0 +1,287 @@
+{
+  "reviewedAt": "2026-10-23T11:33:27.919Z",
+  "store": "s35my0-uu.myshopify.com",
+  "userDelegatedReview": true,
+  "userAuthorizedUploadOfSuitableProducts": true,
+  "productsReviewed": 16,
+  "selectedProducts": 10,
+  "excludedProducts": 6,
+  "variantsSelected": 32,
+  "imagesSelected": 34,
+  "shopifyChanged": false,
+  "shopifyAccess": "No authorized Admin connection available. Storefront preview links cannot upload products.",
+  "decisions": [
+    {
+      "cjProductId": "2408310805071622300",
+      "title": "Marlow top-handle bag",
+      "decision": "selected_for_upload",
+      "reasons": [
+        "Source copy, all original variants and generated/source image comparisons reviewed; no material blocker found in saved evidence."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "99.00",
+      "variants": 3,
+      "uploadImages": 3,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Leather grade is a supplier claim; do not upgrade it to full-grain."
+      ]
+    },
+    {
+      "cjProductId": "1756516170586402816",
+      "title": "Alder bucket bag",
+      "decision": "selected_for_upload",
+      "reasons": [
+        "Source copy, all original variants and generated/source image comparisons reviewed; no material blocker found in saved evidence."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "109.00",
+      "variants": 2,
+      "uploadImages": 2,
+      "omittedImages": {
+        "images/03-atelier-veyne.png": "Lifestyle reconstruction changes the apparent bag-to-hand scale; retain original reference but omit this generated view from upload."
+      },
+      "remainingNotes": [
+        "Supplier lists cowhide as lining; confirm lining composition before publishing a lining claim."
+      ]
+    },
+    {
+      "cjProductId": "2602021300441600000",
+      "title": "Rowan flap bag",
+      "decision": "excluded_from_upload",
+      "reasons": [
+        "Distinct Brown variants reuse the same source photograph; their branding/design difference is unresolved."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "109.00",
+      "variants": 3,
+      "uploadImages": 0,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Brown public version shares the supplier image used by another brown variant. Confirm design/branding difference before merging, relabeling or publishing these variants.",
+        "Keep Brown Viney and Black Viney source labels and references; do not silently remove a possible brand/design distinction."
+      ]
+    },
+    {
+      "cjProductId": "2607121014121623000",
+      "title": "Sora bucket bag",
+      "decision": "selected_for_upload",
+      "reasons": [
+        "Source copy, all original variants and generated/source image comparisons reviewed; no material blocker found in saved evidence."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "89.00",
+      "variants": 4,
+      "uploadImages": 4,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Vegetable tanning appears in the supplier title but is not confirmed in the specifications; omitted from customer copy.",
+        "Supplier color labels differ between variants and description. Original variant names are preserved for review."
+      ]
+    },
+    {
+      "cjProductId": "1458719239455248384",
+      "title": "Elin bucket bag",
+      "decision": "selected_for_upload",
+      "reasons": [
+        "Source copy, all original variants and generated/source image comparisons reviewed; no material blocker found in saved evidence."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "99.00",
+      "variants": 3,
+      "uploadImages": 3,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Supplier alternates between soft and medium-hard descriptions; do not promise a particular firmness.",
+        "Supplier mentions a mother-and-child style but packing list only states one bag. Confirm included components before promising an additional pouch."
+      ]
+    },
+    {
+      "cjProductId": "1731929813339873280",
+      "title": "Nola everyday bag",
+      "decision": "excluded_from_upload",
+      "reasons": [
+        "All four supplier photos are only about 400 pixels wide; generated detail cannot be adequately checked against them."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "99.00",
+      "variants": 4,
+      "uploadImages": 0,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Oil-wax finish is named in the supplier title but not explained in the specifications; confirm finish before adding a care claim.",
+        "Lining description requires supplier confirmation."
+      ]
+    },
+    {
+      "cjProductId": "2607070853511612201",
+      "title": "Orla barrel bag",
+      "decision": "selected_for_upload",
+      "reasons": [
+        "Source copy, all original variants and generated/source image comparisons reviewed; no material blocker found in saved evidence."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "89.00",
+      "variants": 5,
+      "uploadImages": 5,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Dimensions follow supplier order; length/width/height orientation is not stated, so labels are not invented."
+      ]
+    },
+    {
+      "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+      "title": "Linden zip handbag",
+      "decision": "selected_for_upload",
+      "reasons": [
+        "Source copy, all original variants and generated/source image comparisons reviewed; no material blocker found in saved evidence."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "79.00",
+      "variants": 4,
+      "uploadImages": 4,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Supplier describes both Boston and vertical-square shapes; customer copy avoids an exact shape classification.",
+        "Oil-wax finish is only in the supplier title; confirm before making finish-specific claims."
+      ]
+    },
+    {
+      "cjProductId": "2506110631251623700",
+      "title": "Rhea crossbody bag",
+      "decision": "selected_for_upload",
+      "reasons": [
+        "Source copy, all original variants and generated/source image comparisons reviewed; no material blocker found in saved evidence."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "129.00",
+      "variants": 1,
+      "uploadImages": 2,
+      "omittedImages": {
+        "images/03-atelier-veyne.png": "Generated from a multi-view collage rather than a single clearly matched view; omit from upload."
+      },
+      "remainingNotes": [
+        "Top-layer grade is a supplier claim and is not expanded to full-grain."
+      ]
+    },
+    {
+      "cjProductId": "2072251249807106049",
+      "title": "Mira pillow bag",
+      "decision": "excluded_from_upload",
+      "reasons": [
+        "Supplier material field says Cloth while the title/description say cowhide."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "109.00",
+      "variants": 5,
+      "uploadImages": 0,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Material conflict: structured field says Cloth, while title and description claim cowhide leather. Material accordion is withheld until confirmed.",
+        "Vegetable tanning is not established by the source specifications and is omitted."
+      ]
+    },
+    {
+      "cjProductId": "2410190505071604800",
+      "title": "Sable soft tote",
+      "decision": "excluded_from_upload",
+      "reasons": [
+        "Supplier material fields disagree between leather and PU, and Beige/Milky White labeling is inconsistent."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "69.00",
+      "variants": 7,
+      "uploadImages": 0,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Material conflict: structured field says Leather but description explicitly says PU. Proposed copy uses PU; confirm with supplier before publication.",
+        "Supplier Beige variant is described as Milky White elsewhere. Retain original reference until color is confirmed."
+      ]
+    },
+    {
+      "cjProductId": "2412070748501605500",
+      "title": "Remy everyday bag",
+      "decision": "excluded_from_upload",
+      "reasons": [
+        "Leather/PU material conflict and unclear mother-child set contents."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "59.00",
+      "variants": 5,
+      "uploadImages": 0,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Material conflict: structured field says Leather while description says PU. Proposed copy uses PU.",
+        "Supplier packing list describes a mother-child set; confirm exactly what is included before publication.",
+        "Translated color descriptions are inconsistent; native variant labels are preserved."
+      ]
+    },
+    {
+      "cjProductId": "2407270630041615800",
+      "title": "Luma shoulder bag",
+      "decision": "selected_for_upload",
+      "reasons": [
+        "Source copy, all original variants and generated/source image comparisons reviewed; no material blocker found in saved evidence."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "79.00",
+      "variants": 2,
+      "uploadImages": 3,
+      "omittedImages": {},
+      "remainingNotes": [
+        "No dependable product dimensions in descriptive text; do not substitute variant shipping/package measurements."
+      ]
+    },
+    {
+      "cjProductId": "2606090550321621400",
+      "title": "Talia shoulder bag",
+      "decision": "excluded_from_upload",
+      "reasons": [
+        "White costs substantially less than the other variants; material/design equivalence and White/Beige distinction remain unconfirmed."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "109.00",
+      "variants": 5,
+      "uploadImages": 0,
+      "omittedImages": {},
+      "remainingNotes": [
+        "White costs 13.72 while the other variants cost 25.70 in the source. Verify that it is the same design/material before approval.",
+        "Description does not distinguish White and Beige consistently. Preserve both SKUs and request supplier confirmation.",
+        "Dimensions follow supplier order; no orientation labels invented."
+      ]
+    },
+    {
+      "cjProductId": "2509070113221629600",
+      "title": "Esme crossbody bag",
+      "decision": "selected_for_upload",
+      "reasons": [
+        "Source copy, all original variants and generated/source image comparisons reviewed; no material blocker found in saved evidence."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "99.00",
+      "variants": 3,
+      "uploadImages": 3,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Dimension orientation is not stated; preserve supplier order."
+      ]
+    },
+    {
+      "cjProductId": "2510110122001632000",
+      "title": "Milo compact crossbody",
+      "decision": "selected_for_upload",
+      "reasons": [
+        "Source copy, all original variants and generated/source image comparisons reviewed; no material blocker found in saved evidence."
+      ],
+      "reviewMethod": "Manual side-by-side visual screening of all generated/source pairs and comparison of prepared copy with saved CJ product facts. Not a physical sample inspection or a pixel-level identity guarantee.",
+      "suggestedRetailUSD": "89.00",
+      "variants": 5,
+      "uploadImages": 5,
+      "omittedImages": {},
+      "remainingNotes": [
+        "Source size is 23 × 11 × 14, but a reliable unit is not stated in the descriptive text or option value. Dimensions remain unpopulated until units are confirmed.",
+        "Lining is mentioned but composition is not supplied."
+      ]
+    }
+  ]
+}

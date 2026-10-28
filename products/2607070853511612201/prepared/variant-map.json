@@ -1,0 +1,87 @@
+[
+  {
+    "cjProductId": "2607070853511612201",
+    "cjVariantId": "2607070853511613000",
+    "sku": "CJNS297227401AZ",
+    "sourceOptionKey": "Black-20x10x12",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Size",
+        "value": "20x10x12"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/596d39f6-89d2-486b-9ef1-14a2f8c2ef65.jpg"
+  },
+  {
+    "cjProductId": "2607070853511612201",
+    "cjVariantId": "2607070853511613600",
+    "sku": "CJNS297227402BY",
+    "sourceOptionKey": "Beige-20x10x12",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Beige"
+      },
+      {
+        "name": "Size",
+        "value": "20x10x12"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/cd018ab3-59ca-4e5e-9898-42fba224aff0.jpg"
+  },
+  {
+    "cjProductId": "2607070853511612201",
+    "cjVariantId": "2607070853511614100",
+    "sku": "CJNS297227403CX",
+    "sourceOptionKey": "Coffee-20x10x12",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Coffee"
+      },
+      {
+        "name": "Size",
+        "value": "20x10x12"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/4e9e4881-def0-4de7-9133-b7bc006c932a.jpg"
+  },
+  {
+    "cjProductId": "2607070853511612201",
+    "cjVariantId": "2607070853511614600",
+    "sku": "CJNS297227404DW",
+    "sourceOptionKey": "Wine Red-20x10x12",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Wine Red"
+      },
+      {
+        "name": "Size",
+        "value": "20x10x12"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/e3f3b3d9-bd1d-4d51-ad9d-c33a81e474db.jpg"
+  },
+  {
+    "cjProductId": "2607070853511612201",
+    "cjVariantId": "2607070853511615100",
+    "sku": "CJNS297227405EV",
+    "sourceOptionKey": "Brown-20x10x12",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Brown"
+      },
+      {
+        "name": "Size",
+        "value": "20x10x12"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/7c3965f0-29ac-491a-b1dc-45f8baf2ace7.jpg"
+  }
+]

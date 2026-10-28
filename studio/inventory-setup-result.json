@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-10-23T19:29:00.968Z",
+  "mode": "CJ native 24/7",
+  "permissionsGranted": true,
+  "shopifySetupLiveTest": "Elin quantity tracking and sole active CJ location verified; supplier stock did not synchronize and CJ inventoryItemStatus remained 0.",
+  "manuallySuppliedQuantities": false,
+  "inventoryManaged": 2,
+  "pending": 8,
+  "results": [
+    {
+      "id": "2408310805071622300",
+      "title": "Marlow top-handle bag",
+      "inventoryManaged": true,
+      "stock": 35092
+    },
+    {
+      "id": "1756516170586402816",
+      "title": "Alder bucket bag",
+      "inventoryManaged": true,
+      "stock": 21387
+    },
+    {
+      "id": "2607121014121623000",
+      "title": "Sora bucket bag",
+      "inventoryManaged": false,
+      "stock": 0
+    },
+    {
+      "id": "1458719239455248384",
+      "title": "Elin bucket bag",
+      "inventoryManaged": false,
+      "stock": 0
+    },
+    {
+      "id": "2607070853511612201",
+      "title": "Orla barrel bag",
+      "inventoryManaged": false,
+      "stock": 0
+    },
+    {
+      "id": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+      "title": "Linden zip handbag",
+      "inventoryManaged": false,
+      "stock": 0
+    },
+    {
+      "id": "2506110631251623700",
+      "title": "Rhea crossbody bag",
+      "inventoryManaged": false,
+      "stock": 0
+    },
+    {
+      "id": "2407270630041615800",
+      "title": "Luma shoulder bag",
+      "inventoryManaged": false,
+      "stock": 0
+    },
+    {
+      "id": "2509070113221629600",
+      "title": "Esme crossbody bag",
+      "inventoryManaged": false,
+      "stock": 0
+    },
+    {
+      "id": "2510110122001632000",
+      "title": "Milo compact crossbody",
+      "inventoryManaged": false,
+      "stock": 0
+    }
+  ]
+}

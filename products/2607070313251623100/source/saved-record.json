@@ -1,0 +1,51 @@
+{
+  "productId": "2607070313251623100",
+  "userId": null,
+  "packWeight": "620.00",
+  "weight": "590.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/529ea523-03aa-4d30-b3f1-a32cc2c7e08a.jpg",
+  "nameEn": "Leather Niche Shoulder Bag With A Long Handle",
+  "sku": "CJNS2970341",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": [],
+  "createAt": 1792860475404,
+  "sellPrice": "25.70",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "YunExpress Ordinary",
+  "trialCountry": null,
+  "trialFreight": "0",
+  "totalPrice": "25.70",
+  "listedShopNum": "0",
+  "listedShopIds": [],
+  "vid": "2607070313251624400",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    260,
+    260
+  ],
+  "heightList": [
+    240,
+    240
+  ],
+  "widthList": [
+    150,
+    150
+  ],
+  "volumeList": [
+    9360000,
+    9360000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_id": "2607070313251623100"
+}

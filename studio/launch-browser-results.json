@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-25T14:31:07.963Z",
+  "passed": true,
+  "externalWrites": false,
+  "results": [
+    {
+      "width": 1440,
+      "approvedProducts": 6,
+      "publicationBlockedUntilShippingReview": true,
+      "editNavigation": true,
+      "noOverflow": true,
+      "consoleErrors": []
+    },
+    {
+      "width": 390,
+      "approvedProducts": 6,
+      "publicationBlockedUntilShippingReview": true,
+      "editNavigation": true,
+      "noOverflow": true,
+      "consoleErrors": []
+    }
+  ]
+}

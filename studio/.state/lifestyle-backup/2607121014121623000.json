@@ -1,0 +1,267 @@
+{
+  "id": "2607121014121623000",
+  "cjProductSku": "CJNS2981009",
+  "title": "Sora bucket bag",
+  "handle": "sora-bucket-bag",
+  "description": "Sora brings a clean bucket shape together with a slim handle and a small metal fastening. The softly structured body and understated stitching make it an easy companion to a considered everyday wardrobe. Bucket silhouette Top handle and longer strap Internal phone, card and zippered pockets",
+  "vendor": "Atelier Veyne",
+  "productType": "Shoulder bag",
+  "tags": [
+    "angora-red",
+    "black",
+    "brown",
+    "caramel-mocha",
+    "cj-import",
+    "new-arrival",
+    "shoulder-bag"
+  ],
+  "seo": {
+    "title": "Sora bucket bag | Atelier Veyne",
+    "description": "Sora bucket bag. Bucket silhouette. Top handle and longer strap. Discover considered everyday bags at Atelier Veyne."
+  },
+  "material": "Split cowhide leather with polyester-cotton lining.",
+  "dimensions": "",
+  "care": "",
+  "variants": [
+    {
+      "cjVariantId": "2607121014121623600",
+      "cjProductId": "2607121014121623000",
+      "sku": "CJNS298100901AZ",
+      "barcode": "1600015076355",
+      "sourceOptionKey": "Brown",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Brown"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/0da4241d-aead-44ac-9cb1-20dc72747b56.jpg",
+      "supplierCost": {
+        "amount": "16.58",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 250,
+        "width": 150,
+        "height": 100,
+        "weight": 580,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2607121014121624000",
+      "cjProductId": "2607121014121623000",
+      "sku": "CJNS298100902BY",
+      "barcode": "1600015076356",
+      "sourceOptionKey": "Caramel Mocha",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Caramel Mocha"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/f6113101-6e8f-4f21-9552-9a1c3b2394c9.jpg",
+      "supplierCost": {
+        "amount": "16.58",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 250,
+        "width": 150,
+        "height": 100,
+        "weight": 580,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2607121014121624500",
+      "cjProductId": "2607121014121623000",
+      "sku": "CJNS298100903CX",
+      "barcode": "1600015076357",
+      "sourceOptionKey": "Angora Red",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Angora Red"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/d8d68806-36dd-4988-b0ae-26e62300a9c1.jpg",
+      "supplierCost": {
+        "amount": "16.58",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 250,
+        "width": 150,
+        "height": 100,
+        "weight": 580,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2607121014121624900",
+      "cjProductId": "2607121014121623000",
+      "sku": "CJNS298100904DW",
+      "barcode": "1600015076358",
+      "sourceOptionKey": "Black",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/760bfe3d-5c3a-4f5b-9289-552fd0325d9a.jpg",
+      "supplierCost": {
+        "amount": "16.58",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 250,
+        "width": 150,
+        "height": 100,
+        "weight": 580,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Brown",
+      "proposedHex": "#57392D",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Caramel Mocha",
+      "proposedHex": "#A86E43",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Angora Red",
+      "proposedHex": "#6E2D37",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "images": [
+    {
+      "id": "d9810e4fe39d7d5b",
+      "file": "products/2607121014121623000/prepared/images/01-atelier-veyne.png",
+      "url": "/media/products/2607121014121623000/prepared/images/01-atelier-veyne.png",
+      "alt": "Sora bucket bag in Brown",
+      "variantIds": [
+        "2607121014121623600"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0da4241d-aead-44ac-9cb1-20dc72747b56.jpg"
+    },
+    {
+      "id": "e8807e822295dead",
+      "file": "products/2607121014121623000/prepared/images/02-atelier-veyne.png",
+      "url": "/media/products/2607121014121623000/prepared/images/02-atelier-veyne.png",
+      "alt": "Sora bucket bag in Caramel Mocha",
+      "variantIds": [
+        "2607121014121624000"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f6113101-6e8f-4f21-9552-9a1c3b2394c9.jpg"
+    },
+    {
+      "id": "c8853fd858699553",
+      "file": "products/2607121014121623000/prepared/images/03-atelier-veyne.png",
+      "url": "/media/products/2607121014121623000/prepared/images/03-atelier-veyne.png",
+      "alt": "Sora bucket bag in Angora Red",
+      "variantIds": [
+        "2607121014121624500"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/d8d68806-36dd-4988-b0ae-26e62300a9c1.jpg"
+    },
+    {
+      "id": "96d600413ed700d4",
+      "file": "products/2607121014121623000/prepared/images/04-atelier-veyne.png",
+      "url": "/media/products/2607121014121623000/prepared/images/04-atelier-veyne.png",
+      "alt": "Sora bucket bag in Black",
+      "variantIds": [
+        "2607121014121624900"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/760bfe3d-5c3a-4f5b-9289-552fd0325d9a.jpg"
+    }
+  ],
+  "reviewNotes": [
+    "Vegetable tanning appears in the supplier title but is not confirmed in the specifications; omitted from customer copy.",
+    "Supplier color labels differ between variants and description. Original variant names are preserved for review."
+  ],
+  "resolvedNotes": [],
+  "replaceGallery": true,
+  "savedAt": null,
+  "sourceName": "Retro Light-Luxury Vegetable-Tanned Leather ShoulderCrossbody Bag",
+  "sourceDescription": "Product information: Lining material: polyester-cotton Applicable scene: everyday styling Colors: coffee, mocha brown, Angola red, black Exterior pocket type: internal patch pocket Leather characteristic: split-grain cowhide Hardness: medium‑soft Material: genuine leather Bag shape: bucket style Internal structure: zippered hidden pocket, phone pocket, ID card pocket, compartment with zippered inner pocket Trendy elements: metal accents, solid color, zipper, belt detailing, topstitching, patchwork, hasp closure, candy colors Style: cross‑border trend Shoulder strap quantity: single With or without compartments: yes Packing list: Bag*1 Product Image:",
+  "fulfillment": {
+    "sourceCountryCode": "CN",
+    "defaultArea": 1,
+    "targetCountryCode": "",
+    "logistics": "",
+    "locationIds": [],
+    "deliveryProfileId": ""
+  },
+  "collectionIds": [],
+  "templateSuffix": "",
+  "taxable": false
+}

@@ -1,0 +1,224 @@
+{
+  "id": "gid://shopify/Product/15464394752319",
+  "title": "Reed baguette bag",
+  "handle": "reed-baguette-bag",
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67861404778815",
+        "sku": "CJNS281612201AZ",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 5465,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69847579689279",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69847579689279",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 5465
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 5465
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861404811583",
+        "sku": "CJNS281612202BY",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 5777,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Coffee"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69847579722047",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69847579722047",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 5777
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 5777
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861404844351",
+        "sku": "CJNS281612203CX",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 9800,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Wine Red"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69847579754815",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69847579754815",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 9800
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 9800
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metafield/191423804277055",
+        "namespace": "global",
+        "key": "title_tag",
+        "type": "string",
+        "value": "Reed baguette bag | Atelier Veyne",
+        "compareDigest": "5242b01f8a176cce1fc9c96b8777f771026cbde2154e53a6d8dd2da4c330ac89"
+      },
+      {
+        "id": "gid://shopify/Metafield/191423804309823",
+        "namespace": "global",
+        "key": "description_tag",
+        "type": "string",
+        "value": "Discover Reed, a slim leather baguette bag with long twin handles and a paired zip opening. Available in Black, Coffee and Wine Red at Atelier Veyne.",
+        "compareDigest": "7206c952d1aa24d494bb558fd57e5a3d4b1f0f4eef935e37019f612a70c62085"
+      },
+      {
+        "id": "gid://shopify/Metafield/191423808405823",
+        "namespace": "custom",
+        "key": "cj_product_id",
+        "type": "single_line_text_field",
+        "value": "2604020624051609200",
+        "compareDigest": "0f109bd78e5ffd381bee806ab6b1892714237fb2c2c6879cd4e16e73cce5f5c5"
+      },
+      {
+        "id": "gid://shopify/Metafield/191423808438591",
+        "namespace": "custom",
+        "key": "color_swatches",
+        "type": "json",
+        "value": "{\"Black\":\"#1B1A18\",\"Coffee\":\"#583A2C\",\"Wine Red\":\"#65242D\"}",
+        "compareDigest": "f45f749275871aa2b0951f246834ea8139111b6c23fe697b96e30ff95244ea60"
+      },
+      {
+        "id": "gid://shopify/Metafield/191423808471359",
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Split cowhide leather exterior with polyester-cotton lining.",
+        "compareDigest": "9fdb9eb8f90bc88ae6816615c138d6f5849c83fc1bbbaad705d6943873dc5506"
+      }
+    ]
+  }
+}

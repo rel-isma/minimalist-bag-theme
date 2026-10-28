@@ -1,0 +1,599 @@
+{
+  "at": "2026-10-27T14:18:47.587Z",
+  "featured": [
+    {
+      "id": "gid://shopify/Product/15459351593279",
+      "title": "Marlow top-handle bag"
+    },
+    {
+      "id": "gid://shopify/Product/15464176746815",
+      "title": "Lune zip handbag"
+    },
+    {
+      "id": "gid://shopify/Product/15464427880767",
+      "title": "Iris soft shoulder bag"
+    },
+    {
+      "id": "gid://shopify/Product/15464451539263",
+      "title": "Ellis long-handle bag"
+    },
+    {
+      "id": "gid://shopify/Product/15464459665727",
+      "title": "Wren bowling bag"
+    },
+    {
+      "id": "gid://shopify/Product/15464465563967",
+      "title": "Alba mini crossbody bag"
+    }
+  ],
+  "collections": [
+    {
+      "id": "gid://shopify/Collection/520470135103",
+      "title": "Best Sellers",
+      "handle": "best-sellers",
+      "sortOrder": "BEST_SELLING"
+    },
+    {
+      "id": "gid://shopify/Collection/519837286719",
+      "title": "Featured",
+      "handle": "featured",
+      "sortOrder": "MANUAL"
+    },
+    {
+      "id": "gid://shopify/Collection/519837253951",
+      "title": "New arrivals",
+      "handle": "new-arrivals",
+      "sortOrder": "CREATED_DESC"
+    }
+  ],
+  "events": [
+    {
+      "intent": "create",
+      "handle": "best-sellers"
+    },
+    {
+      "published": "best-sellers"
+    },
+    {
+      "intent": "update",
+      "handle": "featured"
+    },
+    {
+      "published": "featured"
+    },
+    {
+      "intent": "update",
+      "handle": "new-arrivals"
+    },
+    {
+      "published": "new-arrivals"
+    }
+  ],
+  "verified": [
+    {
+      "id": "gid://shopify/Collection/520470135103",
+      "title": "Best Sellers",
+      "handle": "best-sellers",
+      "sortOrder": "BEST_SELLING",
+      "publishedOnPublication": true,
+      "products": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/Product/15464465563967",
+            "title": "Alba mini crossbody bag",
+            "tags": [
+              "cj-import",
+              "crossbody-bag",
+              "everyday",
+              "featured",
+              "new-arrival"
+            ],
+            "totalInventory": 43496
+          },
+          {
+            "id": "gid://shopify/Product/15464459665727",
+            "title": "Wren bowling bag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 42021
+          },
+          {
+            "id": "gid://shopify/Product/15464451539263",
+            "title": "Ellis long-handle bag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 15063
+          },
+          {
+            "id": "gid://shopify/Product/15464427880767",
+            "title": "Iris soft shoulder bag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 44020
+          },
+          {
+            "id": "gid://shopify/Product/15464394752319",
+            "title": "Reed baguette bag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 21042
+          },
+          {
+            "id": "gid://shopify/Product/15464176746815",
+            "title": "Lune zip handbag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 18850
+          },
+          {
+            "id": "gid://shopify/Product/15459353362751",
+            "title": "Milo compact crossbody",
+            "tags": [
+              "beige",
+              "black",
+              "caramel",
+              "cj-import",
+              "crossbody-bag",
+              "gray",
+              "green",
+              "new-arrival"
+            ],
+            "totalInventory": 39812
+          },
+          {
+            "id": "gid://shopify/Product/15459353133375",
+            "title": "Esme crossbody bag",
+            "tags": [
+              "black",
+              "caramel",
+              "cj-import",
+              "crossbody-bag",
+              "khaki",
+              "new-arrival"
+            ],
+            "totalInventory": 20110
+          },
+          {
+            "id": "gid://shopify/Product/15459353002303",
+            "title": "Luma shoulder bag",
+            "tags": [
+              "beige",
+              "black",
+              "cj-import",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 25870
+          },
+          {
+            "id": "gid://shopify/Product/15459352838463",
+            "title": "Rhea crossbody bag",
+            "tags": [
+              "cj-import",
+              "crossbody-bag",
+              "new-arrival",
+              "reddish-brown"
+            ],
+            "totalInventory": 8231
+          },
+          {
+            "id": "gid://shopify/Product/15459352674623",
+            "title": "Linden zip handbag",
+            "tags": [
+              "black",
+              "cj-import",
+              "coffee",
+              "earthy-yellow",
+              "new-arrival",
+              "red",
+              "shoulder-bag"
+            ],
+            "totalInventory": 80000
+          },
+          {
+            "id": "gid://shopify/Product/15459352478015",
+            "title": "Orla barrel bag",
+            "tags": [
+              "beige",
+              "black",
+              "brown",
+              "cj-import",
+              "coffee",
+              "new-arrival",
+              "shoulder-bag",
+              "wine-red"
+            ],
+            "totalInventory": 37017
+          },
+          {
+            "id": "gid://shopify/Product/15459352412479",
+            "title": "Elin bucket bag",
+            "tags": [
+              "black",
+              "brown",
+              "cj-import",
+              "new-arrival",
+              "shoulder-bag",
+              "yellow"
+            ],
+            "totalInventory": 135643
+          },
+          {
+            "id": "gid://shopify/Product/15459352281407",
+            "title": "Sora bucket bag",
+            "tags": [
+              "angora-red",
+              "black",
+              "brown",
+              "caramel-mocha",
+              "cj-import",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 34179
+          },
+          {
+            "id": "gid://shopify/Product/15459352117567",
+            "title": "Alder bucket bag",
+            "tags": [
+              "black",
+              "cj-import",
+              "khaki",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 21387
+          },
+          {
+            "id": "gid://shopify/Product/15459351593279",
+            "title": "Marlow top-handle bag",
+            "tags": [
+              "black",
+              "cj-import",
+              "crossbody-bag",
+              "elephant-gray",
+              "featured",
+              "milkshake-white",
+              "new-arrival"
+            ],
+            "totalInventory": 35092
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/519837286719",
+      "title": "Featured",
+      "handle": "featured",
+      "sortOrder": "MANUAL",
+      "publishedOnPublication": true,
+      "products": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/Product/15459351593279",
+            "title": "Marlow top-handle bag",
+            "tags": [
+              "black",
+              "cj-import",
+              "crossbody-bag",
+              "elephant-gray",
+              "featured",
+              "milkshake-white",
+              "new-arrival"
+            ],
+            "totalInventory": 35092
+          },
+          {
+            "id": "gid://shopify/Product/15464176746815",
+            "title": "Lune zip handbag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 18850
+          },
+          {
+            "id": "gid://shopify/Product/15464427880767",
+            "title": "Iris soft shoulder bag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 44020
+          },
+          {
+            "id": "gid://shopify/Product/15464451539263",
+            "title": "Ellis long-handle bag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 15063
+          },
+          {
+            "id": "gid://shopify/Product/15464459665727",
+            "title": "Wren bowling bag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 42021
+          },
+          {
+            "id": "gid://shopify/Product/15464465563967",
+            "title": "Alba mini crossbody bag",
+            "tags": [
+              "cj-import",
+              "crossbody-bag",
+              "everyday",
+              "featured",
+              "new-arrival"
+            ],
+            "totalInventory": 43496
+          }
+        ]
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/519837253951",
+      "title": "New arrivals",
+      "handle": "new-arrivals",
+      "sortOrder": "CREATED_DESC",
+      "publishedOnPublication": true,
+      "products": {
+        "pageInfo": {
+          "hasNextPage": false
+        },
+        "nodes": [
+          {
+            "id": "gid://shopify/Product/15464465563967",
+            "title": "Alba mini crossbody bag",
+            "tags": [
+              "cj-import",
+              "crossbody-bag",
+              "everyday",
+              "featured",
+              "new-arrival"
+            ],
+            "totalInventory": 43496
+          },
+          {
+            "id": "gid://shopify/Product/15464459665727",
+            "title": "Wren bowling bag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 42021
+          },
+          {
+            "id": "gid://shopify/Product/15464451539263",
+            "title": "Ellis long-handle bag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 15063
+          },
+          {
+            "id": "gid://shopify/Product/15464427880767",
+            "title": "Iris soft shoulder bag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 44020
+          },
+          {
+            "id": "gid://shopify/Product/15464394752319",
+            "title": "Reed baguette bag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 21042
+          },
+          {
+            "id": "gid://shopify/Product/15464176746815",
+            "title": "Lune zip handbag",
+            "tags": [
+              "cj-import",
+              "everyday",
+              "featured",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 18850
+          },
+          {
+            "id": "gid://shopify/Product/15459353362751",
+            "title": "Milo compact crossbody",
+            "tags": [
+              "beige",
+              "black",
+              "caramel",
+              "cj-import",
+              "crossbody-bag",
+              "gray",
+              "green",
+              "new-arrival"
+            ],
+            "totalInventory": 39812
+          },
+          {
+            "id": "gid://shopify/Product/15459353133375",
+            "title": "Esme crossbody bag",
+            "tags": [
+              "black",
+              "caramel",
+              "cj-import",
+              "crossbody-bag",
+              "khaki",
+              "new-arrival"
+            ],
+            "totalInventory": 20110
+          },
+          {
+            "id": "gid://shopify/Product/15459353002303",
+            "title": "Luma shoulder bag",
+            "tags": [
+              "beige",
+              "black",
+              "cj-import",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 25870
+          },
+          {
+            "id": "gid://shopify/Product/15459352838463",
+            "title": "Rhea crossbody bag",
+            "tags": [
+              "cj-import",
+              "crossbody-bag",
+              "new-arrival",
+              "reddish-brown"
+            ],
+            "totalInventory": 8231
+          },
+          {
+            "id": "gid://shopify/Product/15459352674623",
+            "title": "Linden zip handbag",
+            "tags": [
+              "black",
+              "cj-import",
+              "coffee",
+              "earthy-yellow",
+              "new-arrival",
+              "red",
+              "shoulder-bag"
+            ],
+            "totalInventory": 80000
+          },
+          {
+            "id": "gid://shopify/Product/15459352478015",
+            "title": "Orla barrel bag",
+            "tags": [
+              "beige",
+              "black",
+              "brown",
+              "cj-import",
+              "coffee",
+              "new-arrival",
+              "shoulder-bag",
+              "wine-red"
+            ],
+            "totalInventory": 37017
+          },
+          {
+            "id": "gid://shopify/Product/15459352412479",
+            "title": "Elin bucket bag",
+            "tags": [
+              "black",
+              "brown",
+              "cj-import",
+              "new-arrival",
+              "shoulder-bag",
+              "yellow"
+            ],
+            "totalInventory": 135643
+          },
+          {
+            "id": "gid://shopify/Product/15459352281407",
+            "title": "Sora bucket bag",
+            "tags": [
+              "angora-red",
+              "black",
+              "brown",
+              "caramel-mocha",
+              "cj-import",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 34179
+          },
+          {
+            "id": "gid://shopify/Product/15459352117567",
+            "title": "Alder bucket bag",
+            "tags": [
+              "black",
+              "cj-import",
+              "khaki",
+              "new-arrival",
+              "shoulder-bag"
+            ],
+            "totalInventory": 21387
+          },
+          {
+            "id": "gid://shopify/Product/15459351593279",
+            "title": "Marlow top-handle bag",
+            "tags": [
+              "black",
+              "cj-import",
+              "crossbody-bag",
+              "elephant-gray",
+              "featured",
+              "milkshake-white",
+              "new-arrival"
+            ],
+            "totalInventory": 35092
+          }
+        ]
+      }
+    }
+  ],
+  "complete": true
+}

@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-23T10:08:50.893Z",
+  "store": "s35my0-uu.myshopify.com",
+  "sharedPreviewProvided": true,
+  "status": "preview_reviewed",
+  "liveShopifyAnalyzed": true,
+  "adminAuthorized": false,
+  "passwordSubmitted": false,
+  "pagesReviewed": [
+    "/",
+    "/products/cove-shoulder-bag",
+    "/products/arc-shoulder-bag",
+    "/collections/all"
+  ],
+  "mobileViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "scope": "Read-only visual and content review. No cart, signup, checkout or admin changes.",
+  "notes": [
+    "Browser preview loaded successfully despite rate limiting on direct HTTP requests.",
+    "Storefront access does not grant admin/API access."
+  ]
+}

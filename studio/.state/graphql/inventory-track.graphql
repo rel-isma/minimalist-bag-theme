@@ -1,0 +1,1 @@
+mutation StudioTrackInventory($id:ID!){inventoryItemUpdate(id:$id,input:{tracked:true}){inventoryItem{id tracked}userErrors{field message}}}

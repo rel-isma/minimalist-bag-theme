@@ -1,0 +1,256 @@
+{
+  "id": "gid://shopify/Product/15459352412479",
+  "title": "Elin bucket bag",
+  "handle": "elin-bucket-bag",
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67841888289087",
+        "sku": "CJNS134996001AZ",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 49820,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Yellow"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828014342463",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828014342463",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 49820
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 49820
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841888321855",
+        "sku": "CJNS134996002BY",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 46186,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828014375231",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828014375231",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 46186
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 46186
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67841888354623",
+        "sku": "CJNS134996003CX",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 39637,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Brown"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134354403647",
+          "name": "General profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69828014407999",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69828014407999",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 39637
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 39637
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metafield/191310686814527",
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Split cowhide leather with polyester lining.",
+        "compareDigest": "4351f353da1f561d5c4da50915b9eae76588210d378bf0c894f6f505a2eca7b6"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310686847295",
+        "namespace": "custom",
+        "key": "cj_product_id",
+        "type": "single_line_text_field",
+        "value": "1458719239455248384",
+        "compareDigest": "016a2d737f01f685db0ffd04a9bd501b45949e3b28a90a8a0b03867dd963ebc1"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310686912831",
+        "namespace": "custom",
+        "key": "cj_import_batch",
+        "type": "single_line_text_field",
+        "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd",
+        "compareDigest": "14883250a0bd7b68aa09cb9ac39cbe11ed612f1682fa13c6657aef3f7259c9a7"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310686945599",
+        "namespace": "custom",
+        "key": "cj_fulfillment_link_verified",
+        "type": "boolean",
+        "value": "false",
+        "compareDigest": "401f18ad0cca38559086c36f9e0295f1ca3a7023e5f095aeef69177a9b8f10ce"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310687011135",
+        "namespace": "custom",
+        "key": "color_swatches",
+        "type": "json",
+        "value": "{\"Yellow\":\"#C99640\",\"Black\":\"#1B1A18\",\"Brown\":\"#A15D3D\"}",
+        "compareDigest": "17089a64cf82eb791bdc7348bf1d85ff81d3692fbf78f33c32871825963eb167"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310687043903",
+        "namespace": "global",
+        "key": "title_tag",
+        "type": "string",
+        "value": "Elin bucket bag | Atelier Veyne",
+        "compareDigest": "e33fb023e24778eb9e19f431424a89d34ce7ac67e4c8d84b5f13701412e0b085"
+      },
+      {
+        "id": "gid://shopify/Metafield/191310687109439",
+        "namespace": "global",
+        "key": "description_tag",
+        "type": "string",
+        "value": "Elin bucket bag. Bucket shape with soft handle. Lock closure. Discover considered everyday bags at Atelier Veyne.",
+        "compareDigest": "e666f0f70394316f6cd89ba04e2f8e26a9636a40fb8ad99e578755a09e86f471"
+      },
+      {
+        "id": "gid://shopify/Metafield/191328970113343",
+        "namespace": "custom",
+        "key": "dimensions",
+        "type": "multi_line_text_field",
+        "value": "xcvxcvcxvcxv",
+        "compareDigest": "23e9bb740a586bdfa3d66efa10e95e0613dcce8158a082383227211b931e2996"
+      },
+      {
+        "id": "gid://shopify/Metafield/191328970146111",
+        "namespace": "custom",
+        "key": "care",
+        "type": "multi_line_text_field",
+        "value": "xvxvxcv",
+        "compareDigest": "b3b5e557fec8ad5afc2e01a64baa1f1f07ee7aa9290b215bf93120aab1c210ee"
+      }
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "preparedAt": "2026-10-25T11:45:53.367Z",
+  "publishingApproved": false,
+  "ownerApproved": false,
+  "pricingApproved": false,
+  "draft": {
+    "id": "2602240521431615000",
+    "cjProductSku": "CJNS2765852",
+    "title": "Lune zip handbag",
+    "handle": "lune-zip-handbag",
+    "description": "Lune brings a softly rounded shape to everyday dressing. Its pebbled surface, curved zip opening and pared-back front keep the silhouette quietly defined. Carry it by the twin handles or use the longer strap for another way to wear it.\n\nA zippered interior pocket and phone pocket help keep smaller belongings together. Available in Black, Brown and Light Gray.",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "tags": [
+      "cj-import",
+      "shoulder-bag",
+      "everyday",
+      "new-arrival"
+    ],
+    "seo": {
+      "title": "Lune zip handbag | Atelier Veyne",
+      "description": "A softly rounded leather handbag with twin handles, a curved zip opening and a longer strap. Discover Lune by Atelier Veyne in three colors."
+    },
+    "material": "Leather exterior with polyester lining.",
+    "dimensions": "32 × 11 × 22 cm (length × width × height), as stated by the supplier.",
+    "care": "",
+    "variants": [
+      {
+        "cjVariantId": "2602240521431615300",
+        "cjProductId": "2602240521431615000",
+        "sku": "CJNS276585201AZ",
+        "sourceOptionKey": "Black-32x11x22cm ",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "32x11x22cm "
+          }
+        ],
+        "supplierCost": {
+          "amount": "26.2",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "109.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/67f0be80-54b2-42be-91da-e51db10500bf.jpg"
+      },
+      {
+        "cjVariantId": "2602240521431615600",
+        "cjProductId": "2602240521431615000",
+        "sku": "CJNS276585202BY",
+        "sourceOptionKey": "Brown-32x11x22cm ",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Brown"
+          },
+          {
+            "name": "Size",
+            "value": "32x11x22cm "
+          }
+        ],
+        "supplierCost": {
+          "amount": "26.2",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "109.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/9539dec0-f55b-4aa8-9993-2997333a8952.jpg"
+      },
+      {
+        "cjVariantId": "2602240521431615900",
+        "cjProductId": "2602240521431615000",
+        "sku": "CJNS276585203CX",
+        "sourceOptionKey": "Light Gray-32x11x22cm ",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Light Gray"
+          },
+          {
+            "name": "Size",
+            "value": "32x11x22cm "
+          }
+        ],
+        "supplierCost": {
+          "amount": "26.2",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "109.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/7740dc33-89bf-4993-9a42-847d073e2cf3.jpg"
+      }
+    ],
+    "swatches": [
+      {
+        "optionValue": "Black",
+        "proposedHex": "#1B1A18"
+      },
+      {
+        "optionValue": "Brown",
+        "proposedHex": "#3E2B22"
+      },
+      {
+        "optionValue": "Light Gray",
+        "proposedHex": "#C4BEAC"
+      }
+    ],
+    "images": [
+      {
+        "id": "314b001526bc859d",
+        "file": "products/2602240521431615000/prepared/images/catalog-1.png",
+        "url": "/media/products/2602240521431615000/prepared/images/catalog-1.png",
+        "alt": "Lune zip handbag — Black",
+        "variantIds": [
+          "2602240521431615300"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/67f0be80-54b2-42be-91da-e51db10500bf.jpg",
+        "sourceFile": "products/2602240521431615000/source/images/02-0b102989786f.jpg"
+      },
+      {
+        "id": "55591a5e7c4fbc44",
+        "file": "products/2602240521431615000/prepared/images/lifestyle-gray.png",
+        "url": "/media/products/2602240521431615000/prepared/images/lifestyle-gray.png",
+        "alt": "Lune zip handbag in Light Gray, carried by a woman",
+        "variantIds": [],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/38575475-995b-4b03-b142-3dc61be6dfcb.jpg",
+        "sourceFile": "products/2602240521431615000/source/images/07-a85c4842214d.jpg"
+      },
+      {
+        "id": "ad797100260e62b0",
+        "file": "products/2602240521431615000/prepared/images/lifestyle-brown.png",
+        "url": "/media/products/2602240521431615000/prepared/images/lifestyle-brown.png",
+        "alt": "Lune zip handbag in Brown, carried by a woman",
+        "variantIds": [],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/fbf89c76-8c2c-4192-ae73-243f29668c49.jpg",
+        "sourceFile": "products/2602240521431615000/source/images/01-917f94eab5b2.jpg"
+      },
+      {
+        "id": "8c4c5dbab2eb54bb",
+        "file": "products/2602240521431615000/prepared/images/catalog-2.png",
+        "url": "/media/products/2602240521431615000/prepared/images/catalog-2.png",
+        "alt": "Lune zip handbag — Brown",
+        "variantIds": [
+          "2602240521431615600"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/9539dec0-f55b-4aa8-9993-2997333a8952.jpg",
+        "sourceFile": "products/2602240521431615000/source/images/03-d4ace16371bb.jpg"
+      },
+      {
+        "id": "d929e556ce1338fe",
+        "file": "products/2602240521431615000/prepared/images/catalog-3.png",
+        "url": "/media/products/2602240521431615000/prepared/images/catalog-3.png",
+        "alt": "Lune zip handbag — Light Gray",
+        "variantIds": [
+          "2602240521431615900"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/7740dc33-89bf-4993-9a42-847d073e2cf3.jpg",
+        "sourceFile": "products/2602240521431615000/source/images/04-b01c2c0b3bc6.jpg"
+      }
+    ],
+    "reviewNotes": [
+      "Price is a USD retail proposal; shipping, fees and margin require approval before listing.",
+      "The supplier uses a full-grain claim that has not been independently verified. Final copy deliberately says leather only.",
+      "Supplier product dimensions (32 × 11 × 22 cm) are used; variant logistics dimensions are larger and are not used as product dimensions.",
+      "Supplier care instructions are absent. The care field remains empty; no treatment instructions have been invented.",
+      "Compare generated photographs with the CJ originals before publication."
+    ],
+    "resolvedNotes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "replaceGallery": true,
+    "savedAt": "2026-10-25T13:59:09.341Z",
+    "sourceName": "Retro Leather Fashion Tote Bag",
+    "sourceDescription": "Product information: Inner material: Polyester fiber Applicable scene: Everyday wear Colors: Black, coffee, light gray Outer pocket type: Three-dimensional pocket Leather characteristic: Full-grain cowhide Hardness: Soft Material: Genuine leather Bag shape: Horizontal rectangular Dimensions: 32 x 11 x 22 cm Internal structure: Zippered hidden pocket, phone pocket Trendy element: Patchwork stitching Style: Urban minimalist Shoulder strap quantity: Single shoulder strap Has compartments: No compartments Packing list: Bag* 1 Product Image:",
+    "fulfillment": {
+      "sourceCountryCode": "CN",
+      "defaultArea": 1,
+      "targetCountryCode": "US",
+      "logistics": "CJPacket Fast US",
+      "locationIds": [
+        "114800427327"
+      ],
+      "deliveryProfileId": "134383960383",
+      "shippingReviewSignature": "f7505fda5dd3b300a01fd87910012cec63a7c61045ac647e8431dc778864402f"
+    },
+    "collectionIds": [],
+    "templateSuffix": "",
+    "taxable": false
+  },
+  "shopifyDescriptionHtml": "<p>Lune brings a softly rounded shape to everyday dressing. Its pebbled surface, curved zip opening and pared-back front keep the silhouette quietly defined. Carry it by the twin handles or use the longer strap for another way to wear it.</p><p>A zippered interior pocket and phone pocket help keep smaller belongings together. Available in Black, Brown and Light Gray.</p>",
+  "source": {
+    "pid": "2602240521431615000",
+    "sku": "CJNS2765852"
+  },
+  "reviewNotes": [
+    "Price is a USD retail proposal; shipping, fees and margin require approval before listing.",
+    "The supplier uses a full-grain claim that has not been independently verified. Final copy deliberately says leather only.",
+    "Supplier product dimensions (32 × 11 × 22 cm) are used; variant logistics dimensions are larger and are not used as product dimensions.",
+    "Supplier care instructions are absent. The care field remains empty; no treatment instructions have been invented.",
+    "Compare generated photographs with the CJ originals before publication."
+  ],
+  "mediaValidation": [
+    {
+      "file": "products/2602240521431615000/prepared/images/catalog-1.png",
+      "sha256": "7b85a8865e9c282dd4a8705f8ea539f11575be5768f1676f4e674971ce4e0de6",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2602240521431615000/source/images/02-0b102989786f.jpg"
+    },
+    {
+      "file": "products/2602240521431615000/prepared/images/lifestyle-gray.png",
+      "sha256": "80891337997595b08f35eb4de9a1e9d10a6e7f9e785e951103e0d8d989d3d6a1",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2602240521431615000/source/images/07-a85c4842214d.jpg"
+    },
+    {
+      "file": "products/2602240521431615000/prepared/images/lifestyle-brown.png",
+      "sha256": "411f7cdf3ca4bf022f3fc345c0655ef212bb4c78cbddacb7c4617b8ee3c2f593",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2602240521431615000/source/images/01-917f94eab5b2.jpg"
+    },
+    {
+      "file": "products/2602240521431615000/prepared/images/catalog-2.png",
+      "sha256": "458d1bbb8ee8558c82977f4e3fd138e5131b394cca915197a50febf212bdb162",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2602240521431615000/source/images/03-d4ace16371bb.jpg"
+    },
+    {
+      "file": "products/2602240521431615000/prepared/images/catalog-3.png",
+      "sha256": "0053ac58d7ad2aafb7892ed0ecf3f3d64c4b478b3ddd05f318982a6045a74bd4",
+      "width": 1086,
+      "height": 1448,
+      "sourceFile": "products/2602240521431615000/source/images/04-b01c2c0b3bc6.jpg"
+    }
+  ]
+}

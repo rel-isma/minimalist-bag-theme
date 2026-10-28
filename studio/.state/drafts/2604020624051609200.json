@@ -1,0 +1,196 @@
+{
+  "id": "2604020624051609200",
+  "cjProductSku": "CJNS2816122",
+  "title": "Reed baguette bag",
+  "handle": "reed-baguette-bag",
+  "description": "A long, low silhouette gives Reed its understated character. Smooth leather, elongated twin handles and pointed handle attachments create a clean line against everyday layers. A paired zip opening follows the top of the bag, while an internal phone pocket gives a small essential its own place.\n\nChoose Black, Coffee or Wine Red. The quiet shape moves easily from a simple daytime outfit to an evening look.",
+  "vendor": "Atelier Veyne",
+  "productType": "Shoulder bag",
+  "tags": [
+    "cj-import",
+    "shoulder-bag",
+    "everyday",
+    "new-arrival"
+  ],
+  "seo": {
+    "title": "Reed baguette bag | Atelier Veyne",
+    "description": "Discover Reed, a slim leather baguette bag with long twin handles and a paired zip opening. Available in Black, Coffee and Wine Red at Atelier Veyne."
+  },
+  "material": "Split cowhide leather exterior with polyester-cotton lining.",
+  "dimensions": "",
+  "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+  "variants": [
+    {
+      "cjVariantId": "2604020624051609700",
+      "cjProductId": "2604020624051609200",
+      "sku": "CJNS281612201AZ",
+      "sourceOptionKey": "Black",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        }
+      ],
+      "supplierCost": {
+        "amount": "20.73",
+        "currency": "USD"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "sourceImageUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/08f17b5f-f972-49db-bc00-51b6edb21524_fine.jpeg"
+    },
+    {
+      "cjVariantId": "2604020624061600000",
+      "cjProductId": "2604020624051609200",
+      "sku": "CJNS281612202BY",
+      "sourceOptionKey": "Coffee",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Coffee"
+        }
+      ],
+      "supplierCost": {
+        "amount": "20.73",
+        "currency": "USD"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "sourceImageUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/7cd4d184-db90-4be8-9cc5-255bfeaa73ee_fine.jpeg"
+    },
+    {
+      "cjVariantId": "2604020624061600300",
+      "cjProductId": "2604020624051609200",
+      "sku": "CJNS281612203CX",
+      "sourceOptionKey": "Wine Red",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Wine Red"
+        }
+      ],
+      "supplierCost": {
+        "amount": "20.73",
+        "currency": "USD"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "sourceImageUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/63bf65b6-a399-481c-8c21-fdf106453ce2_fine.jpeg"
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18"
+    },
+    {
+      "optionValue": "Coffee",
+      "proposedHex": "#583A2C"
+    },
+    {
+      "optionValue": "Wine Red",
+      "proposedHex": "#65242D"
+    }
+  ],
+  "images": [
+    {
+      "id": "9a35f7546e4f2c26",
+      "file": "products/2604020624051609200/prepared/images/catalog-1.png",
+      "url": "/media/products/2604020624051609200/prepared/images/catalog-1.png",
+      "alt": "Reed baguette bag — Black",
+      "variantIds": [
+        "2604020624051609700"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/08f17b5f-f972-49db-bc00-51b6edb21524_fine.jpeg",
+      "sourceFile": "products/2604020624051609200/source/images/02-254432ad856c.jpg"
+    },
+    {
+      "id": "55710714d2d04251",
+      "file": "products/2604020624051609200/prepared/images/lifestyle-coffee.png",
+      "url": "/media/products/2604020624051609200/prepared/images/lifestyle-coffee.png",
+      "alt": "Reed baguette bag in Coffee, worn on the shoulder",
+      "variantIds": [],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/273b121a-3508-477e-a434-0520bf0a480c.jpg",
+      "sourceFile": "products/2604020624051609200/source/images/01-331da7fedfe0.jpg"
+    },
+    {
+      "id": "3d234bd71230b479",
+      "file": "products/2604020624051609200/prepared/images/catalog-2.png",
+      "url": "/media/products/2604020624051609200/prepared/images/catalog-2.png",
+      "alt": "Reed baguette bag — Coffee",
+      "variantIds": [
+        "2604020624061600000"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/7cd4d184-db90-4be8-9cc5-255bfeaa73ee_fine.jpeg",
+      "sourceFile": "products/2604020624051609200/source/images/03-d97b74996f90.jpg"
+    },
+    {
+      "id": "36c00b74e54fa08e",
+      "file": "products/2604020624051609200/prepared/images/catalog-3.png",
+      "url": "/media/products/2604020624051609200/prepared/images/catalog-3.png",
+      "alt": "Reed baguette bag — Wine Red",
+      "variantIds": [
+        "2604020624061600300"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/63bf65b6-a399-481c-8c21-fdf106453ce2_fine.jpeg",
+      "sourceFile": "products/2604020624051609200/source/images/04-cd625773fb1d.jpg"
+    },
+    {
+      "id": "25a7314a266f1f8f",
+      "file": "products/2604020624051609200/prepared/images/detail-coffee.png",
+      "url": "/media/products/2604020624051609200/prepared/images/detail-coffee.png",
+      "alt": "Reed baguette bag in Coffee, overhead zipper and handle detail",
+      "variantIds": [],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/438c8ef4-e483-48c8-86af-e7d7c057b2ec_fine.jpeg",
+      "sourceFile": "products/2604020624051609200/source/images/07-a52d7b2bb895.jpg"
+    }
+  ],
+  "reviewNotes": [
+    "Price is a USD retail proposal; shipping, fees and margin require approval before listing.",
+    "Product dimensions are not supplied in the product facts. Variant shipping dimensions are not treated as product measurements. Dimensions remain empty pending confirmation.",
+    "Supplier identifies second-layer cowhide; final copy uses split cowhide and does not claim full-grain or top-grain leather.",
+    "Supplier care instructions are absent. The care field remains empty.",
+    "Compare generated photographs with the CJ originals before publication. The saved gallery has no verified open-interior view; do not invent one."
+  ],
+  "resolvedNotes": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "replaceGallery": true,
+  "savedAt": "2026-10-27T15:07:21.764Z",
+  "sourceName": "Commuter All-Match Long Red Leather Baguette Bag For Women",
+  "sourceDescription": "Product information: Inner Material: Polyester-Cotton Occasion: Everyday Wear Colors: Professional OEM/ODM source factory; custom orders and sample-based development supported; Black, Coffee, Wine Red Outer Pocket Type: Patch Pocket Leather Characteristics: Second-layer Cowhide Hardness: Medium-Soft Material: Genuine Leather Bag Shape: Horizontal Rectangular Internal Structure: Phone Pocket Trendy Element: Stitching Style: Street Fashion Shoulder Strap Quantity: No Shoulder Straps Packing list: Bag X 1pc Product Image:",
+  "fulfillment": {
+    "sourceCountryCode": "CN",
+    "defaultArea": 1,
+    "targetCountryCode": "US",
+    "logistics": "CJPacket Fast US",
+    "locationIds": [
+      "114800427327"
+    ],
+    "deliveryProfileId": "134383960383",
+    "shippingReviewSignature": "f7505fda5dd3b300a01fd87910012cec63a7c61045ac647e8431dc778864402f"
+  },
+  "collectionIds": [],
+  "templateSuffix": "",
+  "taxable": false
+}

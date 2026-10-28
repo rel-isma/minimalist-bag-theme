@@ -1,0 +1,355 @@
+{
+  "id": "2510110122001632000",
+  "cjProductSku": "CJNS2554982",
+  "title": "Milo compact crossbody",
+  "handle": "milo-compact-crossbody",
+  "description": "Milo brings a softly curved profile to a pared-back everyday edit. Pebbled leather, a zip opening and two ways to carry keep the design simple, with five source colors to choose from. Curved zip-top silhouette Soft construction Top handle and longer strap",
+  "vendor": "Atelier Veyne",
+  "productType": "Crossbody bag",
+  "tags": [
+    "beige",
+    "black",
+    "caramel",
+    "cj-import",
+    "crossbody-bag",
+    "gray",
+    "green",
+    "new-arrival"
+  ],
+  "seo": {
+    "title": "Milo compact crossbody | Atelier Veyne",
+    "description": "Milo compact crossbody. Curved zip-top silhouette with soft construction. Explore the everyday edit at Atelier Veyne."
+  },
+  "material": "Cowhide leather.",
+  "dimensions": "",
+  "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+  "variants": [
+    {
+      "cjVariantId": "2510110122001632300",
+      "cjProductId": "2510110122001632000",
+      "sku": "CJNS255498201AZ",
+      "barcode": "1600008411868",
+      "sourceOptionKey": "Black-23x11x14",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        },
+        {
+          "name": "Size",
+          "value": "23x11x14"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b7d58ef9-91fc-4aca-a0eb-9ec106c484cf.jpg",
+      "supplierCost": {
+        "amount": "18.91",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 230,
+        "width": 140,
+        "height": 100,
+        "weight": 400,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2510110122001632400",
+      "cjProductId": "2510110122001632000",
+      "sku": "CJNS255498202BY",
+      "barcode": "1600008411869",
+      "sourceOptionKey": "Beige-23x11x14",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Beige"
+        },
+        {
+          "name": "Size",
+          "value": "23x11x14"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/de5c6a14-d472-4de2-af29-071eddc6b04d.jpg",
+      "supplierCost": {
+        "amount": "18.91",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 230,
+        "width": 140,
+        "height": 100,
+        "weight": 400,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2510110122001632600",
+      "cjProductId": "2510110122001632000",
+      "sku": "CJNS255498203CX",
+      "barcode": "1600008411870",
+      "sourceOptionKey": "Gray-23x11x14",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Gray"
+        },
+        {
+          "name": "Size",
+          "value": "23x11x14"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/77453237-115f-4d77-8cc1-8ead5e6ab98a.jpg",
+      "supplierCost": {
+        "amount": "18.91",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 230,
+        "width": 140,
+        "height": 100,
+        "weight": 400,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2510110122001632800",
+      "cjProductId": "2510110122001632000",
+      "sku": "CJNS255498204DW",
+      "barcode": "1600008411871",
+      "sourceOptionKey": "Caramel-23x11x14",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Caramel"
+        },
+        {
+          "name": "Size",
+          "value": "23x11x14"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b1e6aa02-63fd-4a6c-8033-c7bdf414ab30.jpg",
+      "supplierCost": {
+        "amount": "18.91",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 230,
+        "width": 140,
+        "height": 100,
+        "weight": 646,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2510110122001632900",
+      "cjProductId": "2510110122001632000",
+      "sku": "CJNS255498205EV",
+      "barcode": "1600008411872",
+      "sourceOptionKey": "Green-23x11x14",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Green"
+        },
+        {
+          "name": "Size",
+          "value": "23x11x14"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/b540b634-a0dd-49db-8ce3-311db3745efb.jpg",
+      "supplierCost": {
+        "amount": "18.91",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "89.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 230,
+        "width": 140,
+        "height": 100,
+        "weight": 679,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Beige",
+      "proposedHex": "#D6C3A5",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Gray",
+      "proposedHex": "#85817C",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Caramel",
+      "proposedHex": "#B58B60",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Green",
+      "proposedHex": "#3F604B",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "images": [
+    {
+      "id": "d9810e4fe39d7d5b",
+      "file": "products/2510110122001632000/prepared/images/01-atelier-veyne.png",
+      "url": "/media/products/2510110122001632000/prepared/images/01-atelier-veyne.png",
+      "alt": "Milo compact crossbody in Black",
+      "variantIds": [
+        "2510110122001632300"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b7d58ef9-91fc-4aca-a0eb-9ec106c484cf.jpg"
+    },
+    {
+      "id": "e21d5f8634a941c9",
+      "file": "products/2510110122001632000/prepared/images/lifestyle-woman-v1.png",
+      "url": "/media/products/2510110122001632000/prepared/images/lifestyle-woman-v1.png",
+      "alt": "Milo compact crossbody in Beige, carried by an adult woman",
+      "variantIds": [],
+      "enabled": true,
+      "kind": "lifestyle-source-edit",
+      "role": "lifestyle",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/079be3fb-4bba-477a-8a8b-b540d6be7493.jpg",
+      "sourceFile": "products/2510110122001632000/source/images/009-0987add6-b8c9f091.jpg",
+      "generated": true
+    },
+    {
+      "id": "e8807e822295dead",
+      "file": "products/2510110122001632000/prepared/images/02-atelier-veyne.png",
+      "url": "/media/products/2510110122001632000/prepared/images/02-atelier-veyne.png",
+      "alt": "Milo compact crossbody in Beige",
+      "variantIds": [
+        "2510110122001632400"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/de5c6a14-d472-4de2-af29-071eddc6b04d.jpg"
+    },
+    {
+      "id": "c8853fd858699553",
+      "file": "products/2510110122001632000/prepared/images/03-atelier-veyne.png",
+      "url": "/media/products/2510110122001632000/prepared/images/03-atelier-veyne.png",
+      "alt": "Milo compact crossbody in Gray",
+      "variantIds": [
+        "2510110122001632600"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/77453237-115f-4d77-8cc1-8ead5e6ab98a.jpg"
+    },
+    {
+      "id": "96d600413ed700d4",
+      "file": "products/2510110122001632000/prepared/images/04-atelier-veyne.png",
+      "url": "/media/products/2510110122001632000/prepared/images/04-atelier-veyne.png",
+      "alt": "Milo compact crossbody in Caramel",
+      "variantIds": [
+        "2510110122001632800"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b1e6aa02-63fd-4a6c-8033-c7bdf414ab30.jpg"
+    },
+    {
+      "id": "b929f3801513d414",
+      "file": "products/2510110122001632000/prepared/images/05-atelier-veyne.png",
+      "url": "/media/products/2510110122001632000/prepared/images/05-atelier-veyne.png",
+      "alt": "Milo compact crossbody in Green",
+      "variantIds": [
+        "2510110122001632900"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b540b634-a0dd-49db-8ce3-311db3745efb.jpg"
+    }
+  ],
+  "reviewNotes": [
+    "Source size is 23 × 11 × 14, but a reliable unit is not stated in the descriptive text or option value. Dimensions remain unpopulated until units are confirmed.",
+    "Lining is mentioned but composition is not supplied."
+  ],
+  "resolvedNotes": [],
+  "replaceGallery": true,
+  "savedAt": "2026-10-27T15:07:19.508Z",
+  "sourceName": "Women's Fashion Genuine Leather Portable Crossbody Bag",
+  "sourceDescription": "Product information: Color: black, beige, gray, caramel, Green Leather features: first layer cowhide Hardness: soft Material: genuine leather Suitcase shape: square vertical model Size: 23*11*14 Number of shoulder straps: Single Yes/No lining cloth: Yes Packing list: 1*Crossbody Bag Product Image:",
+  "fulfillment": {
+    "sourceCountryCode": "CN",
+    "defaultArea": 1,
+    "targetCountryCode": "",
+    "logistics": "",
+    "locationIds": [],
+    "deliveryProfileId": ""
+  },
+  "collectionIds": [],
+  "templateSuffix": "",
+  "taxable": false
+}

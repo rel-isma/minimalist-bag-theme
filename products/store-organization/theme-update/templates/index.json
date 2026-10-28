@@ -1,0 +1,284 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "overlay_opacity": 60,
+        "full_height": true,
+        "eyebrow": "Atelier Veyne",
+        "heading": "Quietly essential.",
+        "subhead": "Considered shapes for the things you carry.",
+        "button_label": "Explore the collection",
+        "button_link": "/collections/new-arrivals"
+      }
+    },
+    "categories": {
+      "type": "category-tiles",
+      "blocks": {
+        "c0": {
+          "type": "category",
+          "settings": {
+            "collection": "shoulder-bags",
+            "label": "Shoulder bags"
+          }
+        },
+        "c1": {
+          "type": "category",
+          "settings": {
+            "collection": "crossbody-bags",
+            "label": "Crossbody bags"
+          }
+        },
+        "c2": {
+          "type": "category",
+          "settings": {
+            "collection": "tote-bags",
+            "label": "Tote bags"
+          }
+        },
+        "c3": {
+          "type": "category",
+          "settings": {
+            "collection": "mini-and-clutch-bags",
+            "label": "Mini and clutch bags"
+          }
+        },
+        "c4": {
+          "type": "category",
+          "settings": {
+            "collection": "wallets-and-cardholders",
+            "label": "Wallets and cardholders"
+          }
+        },
+        "c5": {
+          "type": "category",
+          "settings": {
+            "collection": "accessories",
+            "label": "Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "c0",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "settings": {
+        "heading": "Explore by shape"
+      }
+    },
+    "best_sellers": {
+      "type": "featured-collection",
+      "settings": {
+        "columns": "4",
+        "eyebrow": "The everyday edit",
+        "text": "Find your everyday companion. Explore the shapes at the heart of Atelier Veyne.",
+        "heading": "Best Sellers",
+        "collection": "best-sellers",
+        "limit": 4
+      }
+    },
+    "new": {
+      "type": "featured-collection",
+      "settings": {
+        "columns": "global",
+        "eyebrow": "",
+        "text": "",
+        "heading": "New arrivals",
+        "collection": "new-arrivals",
+        "limit": 6
+      }
+    },
+    "story": {
+      "type": "brand-story",
+      "settings": {
+        "page_heading": false,
+        "eyebrow": "Our philosophy",
+        "heading": "Fewer, better things.",
+        "story_text": "<p>We believe the pieces you reach for every day should feel effortless. Simple shapes, calm colors and considered proportions are the starting point for the pieces we select.</p><p>From a compact shoulder bag to a roomy tote, each silhouette has a place in the rhythm of a day. Our philosophy is to keep the essentials in focus and let the details speak quietly.</p>",
+        "signoff_name": "Atelier Veyne Studio",
+        "signoff_title": "Selection and detail"
+      }
+    },
+    "look": {
+      "type": "shop-the-look",
+      "blocks": {
+        "tote": {
+          "type": "pin",
+          "settings": {
+            "product": "plane-tote-bag",
+            "x": 34,
+            "y": 60
+          }
+        },
+        "wallet": {
+          "type": "pin",
+          "settings": {
+            "product": "turn-wallet",
+            "x": 72,
+            "y": 54
+          }
+        }
+      },
+      "block_order": [
+        "tote",
+        "wallet"
+      ],
+      "settings": {
+        "heading": "In good company"
+      },
+      "disabled": true
+    },
+    "featured": {
+      "type": "featured-collection",
+      "settings": {
+        "columns": "global",
+        "eyebrow": "",
+        "text": "",
+        "heading": "A considered edit",
+        "collection": "featured",
+        "limit": 6
+      }
+    },
+    "benefits": {
+      "type": "trust-strip",
+      "settings": {}
+    },
+    "reviews": {
+      "type": "product-reviews",
+      "settings": {
+        "publish_reviews": false,
+        "show_empty": false,
+        "eyebrow": "Client reflections",
+        "heading": "Customer reviews"
+      }
+    },
+    "construction": {
+      "type": "comparison-table",
+      "blocks": {
+        "construction-0": {
+          "type": "feature",
+          "settings": {
+            "feature": "Materials",
+            "our_text": "Find the stated composition on each product page.",
+            "compare_text": "Check the material and finish for the piece you choose."
+          }
+        },
+        "construction-1": {
+          "type": "feature",
+          "settings": {
+            "feature": "Hardware",
+            "our_text": "Check the closure and hardware details for each design.",
+            "compare_text": "Look for clear information about hardware and fastening."
+          }
+        },
+        "construction-2": {
+          "type": "feature",
+          "settings": {
+            "feature": "Edges and seams",
+            "our_text": "Explore the close-up product photographs.",
+            "compare_text": "Compare finishing details using actual product photography."
+          }
+        },
+        "construction-3": {
+          "type": "feature",
+          "settings": {
+            "feature": "Interior",
+            "our_text": "See each product's dimensions and interior details.",
+            "compare_text": "Compare capacity and pocket placement with your essentials."
+          }
+        },
+        "construction-4": {
+          "type": "feature",
+          "settings": {
+            "feature": "Care",
+            "our_text": "Follow the care information supplied for your product.",
+            "compare_text": "Check the care instructions for the actual material."
+          }
+        }
+      },
+      "block_order": [
+        "construction-0",
+        "construction-1",
+        "construction-2",
+        "construction-3",
+        "construction-4"
+      ],
+      "settings": {
+        "eyebrow": "Honest Construction",
+        "heading": "A Direct Comparison",
+        "subhead": "A closer look at the details that matter.",
+        "other_heading": "What to look for"
+      }
+    },
+    "inquiries": {
+      "type": "faq-accordion",
+      "blocks": {
+        "inquiries-0": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will my phone fit inside the bag?",
+            "answer": "<p>Compare the dimensions and interior details on the product page with your phone and other essentials. Fit varies by design. Contact us before ordering if you need help checking a specific item.</p>"
+          }
+        },
+        "inquiries-1": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is the leather water resistant?",
+            "answer": "<p>Materials and finishes vary by product. Do not assume a bag is waterproof or water resistant. Follow the care guidance provided for the specific material, and contact us if those details are not available.</p>"
+          }
+        },
+        "inquiries-2": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does shipping take?",
+            "answer": "<p>Delivery options and estimates depend on the item and destination. Check the shipping information and options shown at checkout, or contact us before ordering. Processing and delivery times can vary.</p>"
+          }
+        },
+        "inquiries-3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "<p>Please read our published return policy before ordering for the applicable conditions and return process. Contact us if you need clarification before making a purchase.</p>"
+          }
+        },
+        "inquiries-4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can the shoulder strap length be adjusted?",
+            "answer": "<p>Strap length and adjustability vary by design. Check the selected product’s description and photographs, and contact us if a measurement or adjustment detail is missing.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "inquiries-0",
+        "inquiries-1",
+        "inquiries-2",
+        "inquiries-3",
+        "inquiries-4"
+      ],
+      "settings": {
+        "page_heading": false,
+        "eyebrow": "Inquiries",
+        "heading": "Frequently Asked Questions",
+        "subhead": "Straightforward answers regarding sizing, leather care, and shipping."
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "categories",
+    "best_sellers",
+    "new",
+    "story",
+    "look",
+    "featured",
+    "benefits",
+    "reviews",
+    "construction",
+    "inquiries"
+  ]
+}

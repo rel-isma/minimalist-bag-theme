@@ -1,0 +1,24 @@
+{
+  "preparedAt": "2026-10-23T15:44:03.312Z",
+  "file": "snippets/color-swatch.liquid",
+  "sha256": "0c23d1c0e15d4790e1d5d4bc4bc83b171b49410033ba09fd3e04b05c150300e3",
+  "localThemeFixed": true,
+  "themeZipUpdated": true,
+  "liquidValidation": "passed",
+  "validation": "Shopify theme validator revision 3, bundled schema fallback",
+  "remoteThemeUpdated": true,
+  "targetStore": "s35my0-uu.myshopify.com",
+  "targetTheme": "189635821887",
+  "colorsAdded": [
+    "Milkshake White",
+    "Elephant Gray",
+    "Caramel Mocha",
+    "Angora Red",
+    "Earthy yellow",
+    "Reddish Brown"
+  ],
+  "next": "Refresh the existing draft storefront preview to see the imported color circles.",
+  "remoteVerifiedAt": "2026-10-23T16:13:25.676Z",
+  "remoteSha256": "0c23d1c0e15d4790e1d5d4bc4bc83b171b49410033ba09fd3e04b05c150300e3",
+  "remoteThemeRole": "UNPUBLISHED"
+}

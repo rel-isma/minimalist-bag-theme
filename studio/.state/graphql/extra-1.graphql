@@ -1,0 +1,1 @@
+query StudioTheme($id:ID!){theme(id:$id){files(first:1,filenames:["snippets/color-swatch.liquid"]){nodes{body{... on OnlineStoreThemeFileBodyText{content}}}}}}

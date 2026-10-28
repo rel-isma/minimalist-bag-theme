@@ -1,0 +1,56 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/007-16ea45f0-a2a31790.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f3b35731-8163-4a87-9a57-f2d3b0192ca2.jpg",
+    "sourceSha256": "a2a31790dab3bb294923809394f711e901de997a3d216b5dfcba25a2de753b8d",
+    "sha256": "95bf05d0d5593350abd0382234c3ef0e39df822da080d615e796b9f354b67e3d",
+    "variantIds": [
+      "2509070113221629800"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Esme crossbody bag in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/008-c2551284-66dbb3c2.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/351ab9fd-fa3e-4138-8d93-ff426276d3bc.jpg",
+    "sourceSha256": "66dbb3c2fb2d9d15eb1aa559f5be071b6f63401e5b75e0d62fe50f0fc5a93e65",
+    "sha256": "5bccfbe6a18890ca5a2dd9558acce4a46312e149ec3a25988b3e2b6508f3fd13",
+    "variantIds": [
+      "2509070113221629900"
+    ],
+    "colors": [
+      "Khaki"
+    ],
+    "alt": "Esme crossbody bag in Khaki",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/003-0ad15ee7-ec2f8dae.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/4c153b15-9f68-4268-bbce-d51a7974c1e9.jpg",
+    "sourceSha256": "ec2f8daed96b630ed4493f53c2b058908260361a1facd0ac4ee92fd54bb216eb",
+    "sha256": "a3e22f805cc1d85c97f56c45fab4a01a632fe4b972ccd134b569403213b48059",
+    "variantIds": [
+      "2509070113231620100"
+    ],
+    "colors": [
+      "Caramel"
+    ],
+    "alt": "Esme crossbody bag in Caramel",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

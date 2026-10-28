@@ -1,0 +1,278 @@
+{
+  "productId": "gid://shopify/Product/15459351593279",
+  "before": {
+    "id": "gid://shopify/Product/15459351593279",
+    "title": "Marlow top-handle bag",
+    "handle": "marlow-top-handle-bag",
+    "status": "ACTIVE",
+    "updatedAt": "2026-10-23T23:50:40Z",
+    "descriptionHtml": "<p>A rounded flap and a neat top handle give Marlow its understated shape. Pebbled texture and contrast stitching bring definition to the exterior, while a shoulder strap offers another way to carry it.</p><ul>\n<li>Top handle and shoulder strap</li>\n<li>Flap-front design</li>\n<li>Internal phone pocket and zippered compartment</li>\n</ul>",
+    "vendor": "Atelier Veyne",
+    "productType": "Crossbody bag",
+    "templateSuffix": "",
+    "tags": [
+      "black",
+      "cj-import",
+      "crossbody-bag",
+      "elephant-gray",
+      "milkshake-white",
+      "new-arrival"
+    ],
+    "seo": {
+      "title": "Marlow top-handle bag | Atelier Veyne",
+      "description": "Marlow top-handle bag. Top handle and shoulder strap. Flap-front design. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Milkshake White",
+          "Black",
+          "Elephant Gray"
+        ]
+      }
+    ],
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519837057343",
+          "title": "Crossbody bags"
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "custom",
+          "key": "material",
+          "type": "multi_line_text_field",
+          "value": "Cowhide leather with polyester lining."
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": "single_line_text_field",
+          "value": "2408310805071622300"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_import_batch",
+          "type": "single_line_text_field",
+          "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_fulfillment_link_verified",
+          "type": "boolean",
+          "value": "false"
+        },
+        {
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": "json",
+          "value": "{\"Milkshake White\":\"#EFE9DA\",\"Black\":\"#1B1A18\",\"Elephant Gray\":\"#9C8C72\"}"
+        },
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Marlow top-handle bag | Atelier Veyne"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "Marlow top-handle bag. Top handle and shoulder strap. Flap-front design. Discover considered everyday bags at Atelier Veyne."
+        }
+      ]
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/46157942980927",
+          "alt": "Marlow top-handle bag in Milkshake White",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-01.png?v=1792756235",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157943013695",
+          "alt": "Marlow top-handle bag in Black",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-02.png?v=1792756234",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157943046463",
+          "alt": "Marlow top-handle bag in Elephant Gray",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-03.png?v=1792756235",
+            "width": 1086,
+            "height": 1448
+          }
+        }
+      ]
+    },
+    "variants": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/67841875378495",
+          "sku": "CJNS212501201AZ",
+          "price": "99.00",
+          "inventoryQuantity": 11850,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Milkshake White"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828001431871",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-01.png?v=1792756235"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2408310805071622300"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2408310805071622500"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Milkshake White"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841875411263",
+          "sku": "CJNS212501202BY",
+          "price": "99.00",
+          "inventoryQuantity": 10540,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828001464639",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-02.png?v=1792756234"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2408310805071622300"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2408310805071622700"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Black"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841875444031",
+          "sku": "CJNS212501203CX",
+          "price": "99.00",
+          "inventoryQuantity": 12702,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Elephant Gray"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828001497407",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/marlow-top-handle-bag-03.png?v=1792756235"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2408310805071622300"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2408310805071622900"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Elephant Gray"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "image": {
+    "id": "9a714eddbfd47495",
+    "file": "products/2408310805071622300/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/2408310805071622300/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Marlow top-handle bag in Elephant Gray, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-source-edit",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/0f317201-e6c3-4fdf-aa80-bd7f128bb9ab.jpg",
+    "sourceFile": "products/2408310805071622300/source/images/003-099a5ef0-d8538217.jpg",
+    "generated": true
+  },
+  "fileId": "gid://shopify/MediaImage/46179927916863",
+  "startedAt": "2026-10-25T16:48:06.979Z",
+  "result": {
+    "id": "2408310805071622300",
+    "title": "Marlow top-handle bag",
+    "shopifyId": "gid://shopify/Product/15459351593279",
+    "addedMediaId": "gid://shopify/MediaImage/46179927916863",
+    "galleryCount": 4,
+    "allOriginalMediaRetained": true,
+    "nonGalleryDataUnchanged": true,
+    "verifiedAt": "2026-10-25T16:48:09.650Z"
+  },
+  "complete": true
+}

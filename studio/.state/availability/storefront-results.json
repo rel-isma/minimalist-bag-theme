@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-23T19:37:50.762Z",
+  "results": [
+    {
+      "title": "Marlow top-handle bag",
+      "variants": [
+        {
+          "id": 67841875378495,
+          "available": false
+        },
+        {
+          "id": 67841875411263,
+          "available": false
+        },
+        {
+          "id": 67841875444031,
+          "available": false
+        }
+      ],
+      "button": "Sold out",
+      "disabled": true,
+      "handle": "marlow-top-handle-bag",
+      "ajaxAvailable": false
+    },
+    {
+      "title": "Esme crossbody bag",
+      "variants": [
+        {
+          "id": 67841898905919,
+          "available": false
+        },
+        {
+          "id": 67841898938687,
+          "available": false
+        },
+        {
+          "id": 67841898971455,
+          "available": false
+        }
+      ],
+      "button": "Sold out",
+      "disabled": true,
+      "handle": "esme-crossbody-bag",
+      "ajaxAvailable": false
+    }
+  ]
+}

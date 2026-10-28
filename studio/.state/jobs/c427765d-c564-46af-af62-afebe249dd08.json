@@ -1,0 +1,40 @@
+{
+  "id": "c427765d-c564-46af-af62-afebe249dd08",
+  "productId": "2407270630041615800",
+  "title": "Luma shoulder bag",
+  "action": "connect",
+  "planId": "993f0f96-7326-42a5-8933-dc0f5d29f091",
+  "status": "complete",
+  "startedAt": "2026-10-23T18:51:11.186Z",
+  "events": [
+    {
+      "at": "2026-10-23T18:51:20.978Z",
+      "message": "Reusing the existing CJ store-product record"
+    },
+    {
+      "at": "2026-10-23T18:51:20.979Z",
+      "message": "Creating native CJ variant connections"
+    },
+    {
+      "at": "2026-10-23T18:51:24.221Z",
+      "message": "Verifying every native CJ product and variant reference"
+    }
+  ],
+  "result": {
+    "shopifyId": "gid://shopify/Product/15459353002303",
+    "contentUpdated": false,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 2,
+      "total": 2,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459353002303",
+      "stock": 0
+    },
+    "inventoryManaged": false,
+    "note": "CJ variant links verified. Inventory management is not yet confirmed; use CJ Fulfillment settings before enabling sale."
+  },
+  "finishedAt": "2026-10-23T18:51:27.994Z"
+}

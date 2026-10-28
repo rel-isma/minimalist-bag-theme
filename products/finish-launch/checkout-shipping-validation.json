@@ -1,0 +1,168 @@
+{
+  "at": "2026-10-27T15:46:44.688Z",
+  "ordersPlaced": 0,
+  "paymentsAttempted": 0,
+  "method": "Isolated storefront cart tests; checkout opened only after successful shipping calculations. No contact or payment submitted.",
+  "results": [
+    {
+      "country": "United States",
+      "quantity": 1,
+      "status": 200,
+      "rates": {
+        "shipping_rates": [
+          {
+            "name": "Standard tracked shipping",
+            "presentment_name": "Standard tracked shipping",
+            "code": "Standard tracked shipping",
+            "price": "19.95",
+            "markup": "0.00",
+            "source": "shopify",
+            "delivery_date": null,
+            "delivery_range": null,
+            "delivery_days": [],
+            "compare_price": null,
+            "phone_required": false,
+            "currency": "USD",
+            "carrier_identifier": null,
+            "delivery_category": null,
+            "using_merchant_account": null,
+            "carrier_service_id": null,
+            "description": null,
+            "additional_data": null,
+            "incoterm": null,
+            "api_client_id": null,
+            "requested_fulfillment_service_id": null,
+            "shipment_options": null,
+            "charge_items": null,
+            "has_restrictions": null,
+            "rating_classification": null,
+            "accepts_instructions": false,
+            "metafields": null
+          }
+        ]
+      },
+      "expectedUSD": 19.95,
+      "passed": true
+    },
+    {
+      "country": "United States",
+      "quantity": 2,
+      "status": 200,
+      "rates": {
+        "shipping_rates": [
+          {
+            "name": "Standard tracked shipping",
+            "presentment_name": "Standard tracked shipping",
+            "code": "Standard tracked shipping",
+            "price": "19.95",
+            "markup": "0.00",
+            "source": "shopify",
+            "delivery_date": null,
+            "delivery_range": null,
+            "delivery_days": [],
+            "compare_price": null,
+            "phone_required": false,
+            "currency": "USD",
+            "carrier_identifier": null,
+            "delivery_category": null,
+            "using_merchant_account": null,
+            "carrier_service_id": null,
+            "description": null,
+            "additional_data": null,
+            "incoterm": null,
+            "api_client_id": null,
+            "requested_fulfillment_service_id": null,
+            "shipment_options": null,
+            "charge_items": null,
+            "has_restrictions": null,
+            "rating_classification": null,
+            "accepts_instructions": false,
+            "metafields": null
+          }
+        ]
+      },
+      "expectedUSD": 19.95,
+      "passed": true
+    },
+    {
+      "country": "United Kingdom",
+      "quantity": 1,
+      "status": 200,
+      "rates": {
+        "shipping_rates": [
+          {
+            "name": "Standard tracked shipping",
+            "presentment_name": "Standard tracked shipping",
+            "code": "Standard tracked shipping",
+            "price": "12.95",
+            "markup": "0.00",
+            "source": "shopify",
+            "delivery_date": null,
+            "delivery_range": null,
+            "delivery_days": [],
+            "compare_price": null,
+            "phone_required": false,
+            "currency": "USD",
+            "carrier_identifier": null,
+            "delivery_category": null,
+            "using_merchant_account": null,
+            "carrier_service_id": null,
+            "description": null,
+            "additional_data": null,
+            "incoterm": null,
+            "api_client_id": null,
+            "requested_fulfillment_service_id": null,
+            "shipment_options": null,
+            "charge_items": null,
+            "has_restrictions": null,
+            "rating_classification": null,
+            "accepts_instructions": false,
+            "metafields": null
+          }
+        ]
+      },
+      "expectedUSD": 12.95,
+      "passed": true
+    },
+    {
+      "country": "United Kingdom",
+      "quantity": 2,
+      "status": 200,
+      "rates": {
+        "shipping_rates": [
+          {
+            "name": "Standard tracked shipping",
+            "presentment_name": "Standard tracked shipping",
+            "code": "Standard tracked shipping",
+            "price": "12.95",
+            "markup": "0.00",
+            "source": "shopify",
+            "delivery_date": null,
+            "delivery_range": null,
+            "delivery_days": [],
+            "compare_price": null,
+            "phone_required": false,
+            "currency": "USD",
+            "carrier_identifier": null,
+            "delivery_category": null,
+            "using_merchant_account": null,
+            "carrier_service_id": null,
+            "description": null,
+            "additional_data": null,
+            "incoterm": null,
+            "api_client_id": null,
+            "requested_fulfillment_service_id": null,
+            "shipment_options": null,
+            "charge_items": null,
+            "has_restrictions": null,
+            "rating_classification": null,
+            "accepts_instructions": false,
+            "metafields": null
+          }
+        ]
+      },
+      "expectedUSD": 12.95,
+      "passed": true
+    }
+  ]
+}

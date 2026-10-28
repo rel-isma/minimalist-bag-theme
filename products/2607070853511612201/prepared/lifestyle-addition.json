@@ -1,0 +1,33 @@
+{
+  "id": "2607070853511612201",
+  "title": "Orla barrel bag",
+  "color": "Brown",
+  "mode": "supplier_model",
+  "reference": "products/2607070853511612201/source/images/002-8870224a-6a11440d.jpg",
+  "sourceUrl": "https://cf.cjdropshipping.com/quick/product/d0521b20-d102-4a61-9fd3-a7a35544c3e5.jpg",
+  "output": "products/2607070853511612201/prepared/images/lifestyle-woman-v1.png",
+  "status": "visually_reviewed",
+  "prompt": "Edit the supplied CJ lifestyle product photograph into a premium Atelier Veyne e-commerce editorial photograph. Target product: Orla barrel bag, Brown. Preserve the EXACT bag, its original color, silhouette, grain, seams, hardware, closures, handle/strap attachment, relative scale to the woman, and the woman's carrying pose. Change only background, light and surrounding editorial styling to warm ivory lime plaster, muted sandstone beige architecture, soft natural side daylight, subtle realistic shadows. Adult woman in understated neutral clothing, face outside crop when practical, elegant candid torso-to-thigh framing emphasizing the complete bag. Do not redesign or embellish the bag, add logos, text, labels, invented pockets, extra straps, or any watermark. Single clean photograph, portrait 3:4 composition, product fully visible with breathing room. Match calm warm Atelier Veyne brand photography.",
+  "generatedFile": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-74a73039-67a8-4a90-8a82-2ffcd6c19b9d.png",
+  "sha256": "96b9be949da0abd310d027e5cf5e917c9c1476204b1048895383e24e36f16d09",
+  "sourceSha256": "6a11440d82d3eec1a6e87aece0498b255b3fd9f03cfc80adae3f233767be563a",
+  "width": 1086,
+  "height": 1448,
+  "tool": "built-in image_gen",
+  "reviewedAt": "2026-10-25T16:46:49.299Z",
+  "visualReview": "Compared with original: correct product silhouette, source color, closures/handles/hardware; adult carrying view; no visible text or anatomy defects.",
+  "image": {
+    "id": "730c954dc2387317",
+    "file": "products/2607070853511612201/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/2607070853511612201/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Orla barrel bag in Brown, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-source-edit",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/d0521b20-d102-4a61-9fd3-a7a35544c3e5.jpg",
+    "sourceFile": "products/2607070853511612201/source/images/002-8870224a-6a11440d.jpg",
+    "generated": true
+  },
+  "addedToStudioAt": "2026-10-25T16:46:49.777Z"
+}

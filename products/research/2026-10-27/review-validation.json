@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "bags": 10,
+  "wallets": 10,
+  "bothDestinationQuotes": true,
+  "selectedVariantPositiveCNStock": true,
+  "allPhotoLinksExist": true,
+  "limitations": [
+    "Freight checked for one selected variant per product only.",
+    "Browser runtime check unavailable: temporary Playwright installation no longer exists.",
+    "Physical quality and material claims require samples."
+  ]
+}

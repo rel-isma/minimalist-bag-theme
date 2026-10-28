@@ -1,0 +1,51 @@
+{
+  "productId": "2610250224591638400",
+  "userId": null,
+  "packWeight": "570.00",
+  "weight": "550.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/06b0573e-d35f-46ba-8bfd-9bca4e8e93f5.jpg",
+  "nameEn": "Handbag Women's Shoulder Messenger Bag",
+  "sku": "CJNS3368357",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": [],
+  "createAt": 1792906530637,
+  "sellPrice": "28.99",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "CJPacket Ordinary",
+  "trialCountry": null,
+  "trialFreight": "0",
+  "totalPrice": "28.99",
+  "listedShopNum": "0",
+  "listedShopIds": [],
+  "vid": "2610250224591639301",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    330,
+    330
+  ],
+  "heightList": [
+    80,
+    80
+  ],
+  "widthList": [
+    180,
+    180
+  ],
+  "volumeList": [
+    4752000,
+    4752000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_id": "2610250224591638400"
+}

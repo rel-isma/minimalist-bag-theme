@@ -1,0 +1,244 @@
+{
+  "id": "gid://shopify/Product/15464176746815",
+  "title": "Lune zip handbag",
+  "handle": "lune-zip-handbag",
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67860789035327",
+        "sku": "CJNS276585201AZ",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 5820,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Size",
+            "value": "32x11x22cm"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69846962372927",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69846962372927",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 5820
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 5820
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67860789068095",
+        "sku": "CJNS276585202BY",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 7271,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Brown"
+          },
+          {
+            "name": "Size",
+            "value": "32x11x22cm"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69846962405695",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69846962405695",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 7271
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 7271
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67860789100863",
+        "sku": "CJNS276585203CX",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 5759,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Light Gray"
+          },
+          {
+            "name": "Size",
+            "value": "32x11x22cm"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69846962438463",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69846962438463",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 5759
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 5759
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metafield/191421059006783",
+        "namespace": "global",
+        "key": "title_tag",
+        "type": "string",
+        "value": "Lune zip handbag | Atelier Veyne",
+        "compareDigest": "311212fedec62d3bd289b495b572a5635a3441ac4f9ee4e5f8030031a5d77361"
+      },
+      {
+        "id": "gid://shopify/Metafield/191421059039551",
+        "namespace": "global",
+        "key": "description_tag",
+        "type": "string",
+        "value": "A softly rounded leather handbag with twin handles, a curved zip opening and a longer strap. Discover Lune by Atelier Veyne in three colors.",
+        "compareDigest": "d7f744087e2eb719f2cbdfdaceac3493df1b2567445823a809dd3651e19b9261"
+      },
+      {
+        "id": "gid://shopify/Metafield/191421062807871",
+        "namespace": "custom",
+        "key": "cj_product_id",
+        "type": "single_line_text_field",
+        "value": "2602240521431615000",
+        "compareDigest": "e6735fda5bb29400612283ea7a50877f8ca5e40206677b9df8e91888b671e786"
+      },
+      {
+        "id": "gid://shopify/Metafield/191421062840639",
+        "namespace": "custom",
+        "key": "color_swatches",
+        "type": "json",
+        "value": "{\"Black\":\"#1B1A18\",\"Brown\":\"#3E2B22\",\"Light Gray\":\"#C4BEAC\"}",
+        "compareDigest": "d93c136e3c9265b845606f961bc3e4616fadb72d0f36aaa1e735d3e3d9401fd6"
+      },
+      {
+        "id": "gid://shopify/Metafield/191421062873407",
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Leather exterior with polyester lining.",
+        "compareDigest": "f30264afbfd03616fac0117c2c08cca9d125fd4b2804676ae7ba6eed5e59e97a"
+      },
+      {
+        "id": "gid://shopify/Metafield/191421062906175",
+        "namespace": "custom",
+        "key": "dimensions",
+        "type": "multi_line_text_field",
+        "value": "32 × 11 × 22 cm (length × width × height), as stated by the supplier.",
+        "compareDigest": "b8969a8535de4e02374980f64857d40e9d726125a8e8855b152b72349b08a578"
+      }
+    ]
+  }
+}

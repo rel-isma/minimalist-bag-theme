@@ -1,0 +1,302 @@
+{
+  "productId": "gid://shopify/Product/15459353133375",
+  "before": {
+    "id": "gid://shopify/Product/15459353133375",
+    "title": "Esme crossbody bag",
+    "handle": "esme-crossbody-bag",
+    "status": "ACTIVE",
+    "updatedAt": "2026-10-23T23:51:55Z",
+    "descriptionHtml": "<p>Esme keeps its horizontal shape simple, with soft leather and an understated exterior. Internal zippered and document pockets give smaller essentials their own place.</p><ul>\n<li>Soft horizontal silhouette</li>\n<li>Internal zippered pocket</li>\n<li>Internal document pocket</li>\n</ul>",
+    "vendor": "Atelier Veyne",
+    "productType": "Crossbody bag",
+    "templateSuffix": "",
+    "tags": [
+      "black",
+      "caramel",
+      "cj-import",
+      "crossbody-bag",
+      "khaki",
+      "new-arrival"
+    ],
+    "seo": {
+      "title": "Esme crossbody bag | Atelier Veyne",
+      "description": "Esme crossbody bag. Soft horizontal silhouette. Internal zippered pocket. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "Khaki",
+          "Caramel"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "26X16X9CM"
+        ]
+      }
+    ],
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519837057343",
+          "title": "Crossbody bags"
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "custom",
+          "key": "material",
+          "type": "multi_line_text_field",
+          "value": "Cowhide leather with polyester lining."
+        },
+        {
+          "namespace": "custom",
+          "key": "dimensions",
+          "type": "multi_line_text_field",
+          "value": "26 × 16 × 9 cm."
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": "single_line_text_field",
+          "value": "2509070113221629600"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_import_batch",
+          "type": "single_line_text_field",
+          "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_fulfillment_link_verified",
+          "type": "boolean",
+          "value": "false"
+        },
+        {
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": "json",
+          "value": "{\"Black\":\"#1B1A18\",\"Khaki\":\"#9D8A67\",\"Caramel\":\"#A26636\"}"
+        },
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Esme crossbody bag | Atelier Veyne"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "Esme crossbody bag. Soft horizontal silhouette. Internal zippered pocket. Discover considered everyday bags at Atelier Veyne."
+        }
+      ]
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/46157966573887",
+          "alt": "Esme crossbody bag in Black",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/esme-crossbody-bag-01.png?v=1792756309",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157966606655",
+          "alt": "Esme crossbody bag in Khaki",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/esme-crossbody-bag-02.png?v=1792756308",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157966639423",
+          "alt": "Esme crossbody bag in Caramel",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/esme-crossbody-bag-03.png?v=1792756308",
+            "width": 1086,
+            "height": 1448
+          }
+        }
+      ]
+    },
+    "variants": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/67841898905919",
+          "sku": "CJNS249060301AZ",
+          "price": "99.00",
+          "inventoryQuantity": 8739,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "26X16X9CM"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828024959295",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/esme-crossbody-bag-01.png?v=1792756309"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2509070113221629600"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2509070113221629800"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Black-26X16X9CM"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841898938687",
+          "sku": "CJNS249060302BY",
+          "price": "99.00",
+          "inventoryQuantity": 6022,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Khaki"
+            },
+            {
+              "name": "Size",
+              "value": "26X16X9CM"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828024992063",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/esme-crossbody-bag-02.png?v=1792756308"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2509070113221629600"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2509070113221629900"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Khaki-26X16X9CM"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841898971455",
+          "sku": "CJNS249060303CX",
+          "price": "99.00",
+          "inventoryQuantity": 5349,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Caramel"
+            },
+            {
+              "name": "Size",
+              "value": "26X16X9CM"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828025024831",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/esme-crossbody-bag-03.png?v=1792756308"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2509070113221629600"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2509070113231620100"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Caramel-26X16X9CM"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "image": {
+    "id": "9d430594b1fcb4f8",
+    "file": "products/2509070113221629600/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/2509070113221629600/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Esme crossbody bag in Black, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-composite",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f3b35731-8163-4a87-9a57-f2d3b0192ca2.jpg",
+    "sourceFile": "products/2509070113221629600/source/images/007-16ea45f0-a2a31790.jpg",
+    "generated": true
+  },
+  "fileId": "gid://shopify/MediaImage/46179928211775",
+  "startedAt": "2026-10-25T16:49:05.540Z",
+  "result": {
+    "id": "2509070113221629600",
+    "title": "Esme crossbody bag",
+    "shopifyId": "gid://shopify/Product/15459353133375",
+    "addedMediaId": "gid://shopify/MediaImage/46179928211775",
+    "galleryCount": 4,
+    "allOriginalMediaRetained": true,
+    "nonGalleryDataUnchanged": true,
+    "verifiedAt": "2026-10-25T16:49:08.414Z"
+  },
+  "complete": true
+}

@@ -1,0 +1,1 @@
+query StudioInventoryProduct($id:ID!){product(id:$id){id variants(first:100){pageInfo{hasNextPage}nodes{id sku inventoryItem{id tracked inventoryLevels(first:50){pageInfo{hasNextPage}nodes{id isActive canDeactivate location{id}quantities(names:["available","on_hand","committed","incoming","reserved"]){name quantity}}}}}}}}

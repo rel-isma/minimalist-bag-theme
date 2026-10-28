@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-27T15:13:50.485Z",
+  "enabledByThisTask": false,
+  "markets": [
+    {
+      "country": "US",
+      "id": "gid://shopify/Market/100858626367",
+      "name": "United States",
+      "status": "DRAFT",
+      "created": true
+    },
+    {
+      "country": "GB",
+      "id": "gid://shopify/Market/100858659135",
+      "name": "United Kingdom",
+      "status": "DRAFT",
+      "created": true
+    }
+  ]
+}

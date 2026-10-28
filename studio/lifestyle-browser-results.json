@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-25T16:53:41.159Z",
+  "passed": true,
+  "checks": [
+    {
+      "reviewWidth": 1440,
+      "additions": 11,
+      "imagesLoaded": 22,
+      "noOverflow": true
+    },
+    {
+      "reviewWidth": 390,
+      "additions": 11,
+      "imagesLoaded": 22,
+      "noOverflow": true
+    },
+    {
+      "studioMarlowGallery": 4,
+      "lifestyleImageVisible": true
+    },
+    {
+      "storefrontMarlowGallery": 4,
+      "secondImageIsWomanCarrying": true
+    }
+  ]
+}

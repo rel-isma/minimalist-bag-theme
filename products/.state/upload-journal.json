@@ -1,0 +1,3309 @@
+{
+  "batchHash": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd",
+  "store": "s35my0-uu.myshopify.com",
+  "startedAt": "2026-10-23T11:50:07.801Z",
+  "products": [
+    {
+      "cjProductId": "2408310805071622300",
+      "title": "Marlow top-handle bag",
+      "handle": "marlow-top-handle-bag",
+      "status": "verified_draft",
+      "startedAt": "2026-10-23T11:50:28.270Z",
+      "shopifyProductId": "gid://shopify/Product/15459351593279",
+      "verifiedAt": "2026-10-23T11:50:34.914Z",
+      "adminUrl": "https://admin.shopify.com/store/s35my0-uu/products/15459351593279",
+      "variantMap": [
+        {
+          "cjProductId": "2408310805071622300",
+          "cjVariantId": "2408310805071622500",
+          "sku": "CJNS212501201AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841875378495",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2408310805071622300",
+          "cjVariantId": "2408310805071622700",
+          "sku": "CJNS212501202BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841875411263",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2408310805071622300",
+          "cjVariantId": "2408310805071622900",
+          "sku": "CJNS212501203CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841875444031",
+          "cjFulfillmentLinkVerified": false
+        }
+      ],
+      "media": [
+        {
+          "id": "gid://shopify/MediaImage/46157942980927",
+          "alt": "Marlow top-handle bag in Milkshake White",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157943013695",
+          "alt": "Marlow top-handle bag in Black",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157943046463",
+          "alt": "Marlow top-handle bag in Elephant Gray",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        }
+      ],
+      "snapshot": {
+        "id": "gid://shopify/Product/15459351593279",
+        "title": "Marlow top-handle bag",
+        "handle": "marlow-top-handle-bag",
+        "status": "DRAFT",
+        "templateSuffix": "",
+        "descriptionHtml": "<p>A rounded flap and a neat top handle give Marlow its understated shape. Pebbled texture and contrast stitching bring definition to the exterior, while a shoulder strap offers another way to carry it.</p><ul>\n<li>Top handle and shoulder strap</li>\n<li>Flap-front design</li>\n<li>Internal phone pocket and zippered compartment</li>\n</ul>",
+        "seo": {
+          "title": "Marlow top-handle bag | Atelier Veyne",
+          "description": "Marlow top-handle bag. Top handle and shoulder strap. Flap-front design. Discover considered everyday bags at Atelier Veyne."
+        },
+        "vendor": "Atelier Veyne",
+        "productType": "Crossbody bag",
+        "tags": [
+          "black",
+          "cj-import",
+          "crossbody-bag",
+          "elephant-gray",
+          "milkshake-white",
+          "new-arrival"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17929700049215",
+            "name": "Color",
+            "values": [
+              "Milkshake White",
+              "Black",
+              "Elephant Gray"
+            ]
+          }
+        ],
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "custom",
+              "key": "material",
+              "type": "multi_line_text_field",
+              "value": "Cowhide leather with polyester lining."
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_product_id",
+              "type": "single_line_text_field",
+              "value": "2408310805071622300"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_import_batch",
+              "type": "single_line_text_field",
+              "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_fulfillment_link_verified",
+              "type": "boolean",
+              "value": "false"
+            },
+            {
+              "namespace": "custom",
+              "key": "color_swatches",
+              "type": "json",
+              "value": "{\"Milkshake White\":\"#EFE9DA\",\"Black\":\"#1B1A18\",\"Elephant Gray\":\"#9C8C72\"}"
+            },
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "Marlow top-handle bag | Atelier Veyne"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Marlow top-handle bag. Top handle and shoulder strap. Flap-front design. Discover considered everyday bags at Atelier Veyne."
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46157942980927",
+              "alt": "Marlow top-handle bag in Milkshake White",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157943013695",
+              "alt": "Marlow top-handle bag in Black",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157943046463",
+              "alt": "Marlow top-handle bag in Elephant Gray",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            }
+          ]
+        },
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67841875378495",
+              "sku": "CJNS212501201AZ",
+              "price": "99.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Milkshake White"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828001431871",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2408310805071622300"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2408310805071622500"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Milkshake White"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157942980927"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841875411263",
+              "sku": "CJNS212501202BY",
+              "price": "99.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Black"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828001464639",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2408310805071622300"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2408310805071622700"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Black"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157943013695"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841875444031",
+              "sku": "CJNS212501203CX",
+              "price": "99.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Elephant Gray"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828001497407",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2408310805071622300"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2408310805071622900"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Elephant Gray"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157943046463"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cjProductId": "1756516170586402816",
+      "title": "Alder bucket bag",
+      "handle": "alder-bucket-bag",
+      "status": "verified_draft",
+      "startedAt": "2026-10-23T11:50:52.763Z",
+      "shopifyProductId": "gid://shopify/Product/15459352117567",
+      "verifiedAt": "2026-10-23T11:50:58.120Z",
+      "adminUrl": "https://admin.shopify.com/store/s35my0-uu/products/15459352117567",
+      "variantMap": [
+        {
+          "cjProductId": "1756516170586402816",
+          "cjVariantId": "1756516170695454720",
+          "sku": "CJNS196704501AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841883996479",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "1756516170586402816",
+          "cjVariantId": "1756516170783535104",
+          "sku": "CJNS196704502BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841884029247",
+          "cjFulfillmentLinkVerified": false
+        }
+      ],
+      "media": [
+        {
+          "id": "gid://shopify/MediaImage/46157950943551",
+          "alt": "Alder bucket bag in Black",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157950976319",
+          "alt": "Alder bucket bag in Khaki",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        }
+      ],
+      "snapshot": {
+        "id": "gid://shopify/Product/15459352117567",
+        "title": "Alder bucket bag",
+        "handle": "alder-bucket-bag",
+        "status": "DRAFT",
+        "templateSuffix": "",
+        "descriptionHtml": "<p>Alder pairs a tall bucket silhouette with softly textured leather and a simple turn-lock detail. A top handle and longer strap keep the shape adaptable, while internal pockets give small essentials a place.</p><ul>\n<li>Bucket silhouette with top handle</li>\n<li>Long shoulder strap</li>\n<li>Internal phone pocket and zippered compartment</li>\n</ul>",
+        "seo": {
+          "title": "Alder bucket bag | Atelier Veyne",
+          "description": "Alder bucket bag. Bucket silhouette with top handle. Long shoulder strap. Discover considered everyday bags at Atelier Veyne."
+        },
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "tags": [
+          "black",
+          "cj-import",
+          "khaki",
+          "new-arrival",
+          "shoulder-bag"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17929700835647",
+            "name": "Color",
+            "values": [
+              "Black",
+              "Khaki"
+            ]
+          }
+        ],
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "custom",
+              "key": "material",
+              "type": "multi_line_text_field",
+              "value": "Split cowhide leather."
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_product_id",
+              "type": "single_line_text_field",
+              "value": "1756516170586402816"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_import_batch",
+              "type": "single_line_text_field",
+              "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_fulfillment_link_verified",
+              "type": "boolean",
+              "value": "false"
+            },
+            {
+              "namespace": "custom",
+              "key": "color_swatches",
+              "type": "json",
+              "value": "{\"Black\":\"#1B1A18\",\"Khaki\":\"#847966\"}"
+            },
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "Alder bucket bag | Atelier Veyne"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Alder bucket bag. Bucket silhouette with top handle. Long shoulder strap. Discover considered everyday bags at Atelier Veyne."
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46157950943551",
+              "alt": "Alder bucket bag in Black",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157950976319",
+              "alt": "Alder bucket bag in Khaki",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            }
+          ]
+        },
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67841883996479",
+              "sku": "CJNS196704501AZ",
+              "price": "109.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Black"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828010049855",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "1756516170586402816"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "1756516170695454720"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Black"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157950943551"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841884029247",
+              "sku": "CJNS196704502BY",
+              "price": "109.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Khaki"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828010082623",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "1756516170586402816"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "1756516170783535104"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Khaki"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157950976319"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cjProductId": "2607121014121623000",
+      "title": "Sora bucket bag",
+      "handle": "sora-bucket-bag",
+      "status": "verified_draft",
+      "startedAt": "2026-10-23T11:50:58.445Z",
+      "shopifyProductId": "gid://shopify/Product/15459352281407",
+      "verifiedAt": "2026-10-23T11:51:06.008Z",
+      "adminUrl": "https://admin.shopify.com/store/s35my0-uu/products/15459352281407",
+      "variantMap": [
+        {
+          "cjProductId": "2607121014121623000",
+          "cjVariantId": "2607121014121623600",
+          "sku": "CJNS298100901AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841887076671",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607121014121623000",
+          "cjVariantId": "2607121014121624000",
+          "sku": "CJNS298100902BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841887109439",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607121014121623000",
+          "cjVariantId": "2607121014121624500",
+          "sku": "CJNS298100903CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841887142207",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607121014121623000",
+          "cjVariantId": "2607121014121624900",
+          "sku": "CJNS298100904DW",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841887174975",
+          "cjFulfillmentLinkVerified": false
+        }
+      ],
+      "media": [
+        {
+          "id": "gid://shopify/MediaImage/46157954056511",
+          "alt": "Sora bucket bag in Brown",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157954089279",
+          "alt": "Sora bucket bag in Caramel Mocha",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157954122047",
+          "alt": "Sora bucket bag in Angora Red",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157954154815",
+          "alt": "Sora bucket bag in Black",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        }
+      ],
+      "snapshot": {
+        "id": "gid://shopify/Product/15459352281407",
+        "title": "Sora bucket bag",
+        "handle": "sora-bucket-bag",
+        "status": "DRAFT",
+        "templateSuffix": "",
+        "descriptionHtml": "<p>Sora brings a clean bucket shape together with a slim handle and a small metal fastening. The softly structured body and understated stitching make it an easy companion to a considered everyday wardrobe.</p><ul>\n<li>Bucket silhouette</li>\n<li>Top handle and longer strap</li>\n<li>Internal phone, card and zippered pockets</li>\n</ul>",
+        "seo": {
+          "title": "Sora bucket bag | Atelier Veyne",
+          "description": "Sora bucket bag. Bucket silhouette. Top handle and longer strap. Discover considered everyday bags at Atelier Veyne."
+        },
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "tags": [
+          "angora-red",
+          "black",
+          "brown",
+          "caramel-mocha",
+          "cj-import",
+          "new-arrival",
+          "shoulder-bag"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17929701097791",
+            "name": "Color",
+            "values": [
+              "Brown",
+              "Caramel Mocha",
+              "Angora Red",
+              "Black"
+            ]
+          }
+        ],
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "custom",
+              "key": "material",
+              "type": "multi_line_text_field",
+              "value": "Split cowhide leather with polyester-cotton lining."
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_product_id",
+              "type": "single_line_text_field",
+              "value": "2607121014121623000"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_import_batch",
+              "type": "single_line_text_field",
+              "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_fulfillment_link_verified",
+              "type": "boolean",
+              "value": "false"
+            },
+            {
+              "namespace": "custom",
+              "key": "color_swatches",
+              "type": "json",
+              "value": "{\"Brown\":\"#57392D\",\"Caramel Mocha\":\"#A86E43\",\"Angora Red\":\"#6E2D37\",\"Black\":\"#1B1A18\"}"
+            },
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "Sora bucket bag | Atelier Veyne"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Sora bucket bag. Bucket silhouette. Top handle and longer strap. Discover considered everyday bags at Atelier Veyne."
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46157954056511",
+              "alt": "Sora bucket bag in Brown",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157954089279",
+              "alt": "Sora bucket bag in Caramel Mocha",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157954122047",
+              "alt": "Sora bucket bag in Angora Red",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157954154815",
+              "alt": "Sora bucket bag in Black",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            }
+          ]
+        },
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67841887076671",
+              "sku": "CJNS298100901AZ",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Brown"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828013130047",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2607121014121623000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2607121014121623600"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Brown"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157954056511"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841887109439",
+              "sku": "CJNS298100902BY",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Caramel Mocha"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828013162815",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2607121014121623000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2607121014121624000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Caramel Mocha"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157954089279"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841887142207",
+              "sku": "CJNS298100903CX",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Angora Red"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828013195583",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2607121014121623000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2607121014121624500"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Angora Red"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157954122047"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841887174975",
+              "sku": "CJNS298100904DW",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Black"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828013228351",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2607121014121623000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2607121014121624900"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Black"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157954154815"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cjProductId": "1458719239455248384",
+      "title": "Elin bucket bag",
+      "handle": "elin-bucket-bag",
+      "status": "verified_draft",
+      "startedAt": "2026-10-23T11:51:06.343Z",
+      "shopifyProductId": "gid://shopify/Product/15459352412479",
+      "verifiedAt": "2026-10-23T11:51:12.358Z",
+      "adminUrl": "https://admin.shopify.com/store/s35my0-uu/products/15459352412479",
+      "variantMap": [
+        {
+          "cjProductId": "1458719239455248384",
+          "cjVariantId": "1458719239522357248",
+          "sku": "CJNS134996001AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841888289087",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "1458719239455248384",
+          "cjVariantId": "1458719239526551552",
+          "sku": "CJNS134996002BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841888321855",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "1458719239455248384",
+          "cjVariantId": "1458719239526551553",
+          "sku": "CJNS134996003CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841888354623",
+          "cjFulfillmentLinkVerified": false
+        }
+      ],
+      "media": [
+        {
+          "id": "gid://shopify/MediaImage/46157955170623",
+          "alt": "Elin bucket bag in Yellow",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157955203391",
+          "alt": "Elin bucket bag in Black",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157955236159",
+          "alt": "Elin bucket bag in Brown",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        }
+      ],
+      "snapshot": {
+        "id": "gid://shopify/Product/15459352412479",
+        "title": "Elin bucket bag",
+        "handle": "elin-bucket-bag",
+        "status": "DRAFT",
+        "templateSuffix": "",
+        "descriptionHtml": "<p>Elin gives the everyday bucket bag a simple, composed outline. A soft handle and a lock closure frame the design, with internal pockets for keeping smaller essentials together.</p><ul>\n<li>Bucket shape with soft handle</li>\n<li>Lock closure</li>\n<li>Internal zip, phone and card pockets</li>\n</ul>",
+        "seo": {
+          "title": "Elin bucket bag | Atelier Veyne",
+          "description": "Elin bucket bag. Bucket shape with soft handle. Lock closure. Discover considered everyday bags at Atelier Veyne."
+        },
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "tags": [
+          "black",
+          "brown",
+          "cj-import",
+          "new-arrival",
+          "shoulder-bag",
+          "yellow"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17929701294399",
+            "name": "Color",
+            "values": [
+              "Yellow",
+              "Black",
+              "Brown"
+            ]
+          }
+        ],
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "custom",
+              "key": "material",
+              "type": "multi_line_text_field",
+              "value": "Split cowhide leather with polyester lining."
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_product_id",
+              "type": "single_line_text_field",
+              "value": "1458719239455248384"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_import_batch",
+              "type": "single_line_text_field",
+              "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_fulfillment_link_verified",
+              "type": "boolean",
+              "value": "false"
+            },
+            {
+              "namespace": "custom",
+              "key": "color_swatches",
+              "type": "json",
+              "value": "{\"Yellow\":\"#C99640\",\"Black\":\"#1B1A18\",\"Brown\":\"#A15D3D\"}"
+            },
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "Elin bucket bag | Atelier Veyne"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Elin bucket bag. Bucket shape with soft handle. Lock closure. Discover considered everyday bags at Atelier Veyne."
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46157955170623",
+              "alt": "Elin bucket bag in Yellow",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157955203391",
+              "alt": "Elin bucket bag in Black",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157955236159",
+              "alt": "Elin bucket bag in Brown",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            }
+          ]
+        },
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67841888289087",
+              "sku": "CJNS134996001AZ",
+              "price": "99.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Yellow"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828014342463",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "1458719239455248384"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "1458719239522357248"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Yellow"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157955170623"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841888321855",
+              "sku": "CJNS134996002BY",
+              "price": "99.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Black"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828014375231",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "1458719239455248384"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "1458719239526551552"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Black"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157955203391"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841888354623",
+              "sku": "CJNS134996003CX",
+              "price": "99.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Brown"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828014407999",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "1458719239455248384"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "1458719239526551553"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Brown"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157955236159"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cjProductId": "2607070853511612201",
+      "title": "Orla barrel bag",
+      "handle": "orla-barrel-bag",
+      "status": "verified_draft",
+      "startedAt": "2026-10-23T11:51:12.684Z",
+      "shopifyProductId": "gid://shopify/Product/15459352478015",
+      "verifiedAt": "2026-10-23T11:51:21.892Z",
+      "adminUrl": "https://admin.shopify.com/store/s35my0-uu/products/15459352478015",
+      "variantMap": [
+        {
+          "cjProductId": "2607070853511612201",
+          "cjVariantId": "2607070853511613000",
+          "sku": "CJNS297227401AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841890353471",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607070853511612201",
+          "cjVariantId": "2607070853511613600",
+          "sku": "CJNS297227402BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841890386239",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607070853511612201",
+          "cjVariantId": "2607070853511614100",
+          "sku": "CJNS297227403CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841890419007",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607070853511612201",
+          "cjVariantId": "2607070853511614600",
+          "sku": "CJNS297227404DW",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841890451775",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2607070853511612201",
+          "cjVariantId": "2607070853511615100",
+          "sku": "CJNS297227405EV",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841890484543",
+          "cjFulfillmentLinkVerified": false
+        }
+      ],
+      "media": [
+        {
+          "id": "gid://shopify/MediaImage/46157957300543",
+          "alt": "Orla barrel bag in Black",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157957333311",
+          "alt": "Orla barrel bag in Beige",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157957366079",
+          "alt": "Orla barrel bag in Coffee",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157957398847",
+          "alt": "Orla barrel bag in Wine Red",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157957431615",
+          "alt": "Orla barrel bag in Brown",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        }
+      ],
+      "snapshot": {
+        "id": "gid://shopify/Product/15459352478015",
+        "title": "Orla barrel bag",
+        "handle": "orla-barrel-bag",
+        "status": "DRAFT",
+        "templateSuffix": "",
+        "descriptionHtml": "<p>Orla brings a compact cylindrical shape to everyday dressing. The structured outline, single shoulder strap and restrained metal accents give it a simple, distinctive presence.</p><ul>\n<li>Cylindrical silhouette</li>\n<li>Single shoulder strap</li>\n<li>Internal zippered pocket</li>\n</ul>",
+        "seo": {
+          "title": "Orla barrel bag | Atelier Veyne",
+          "description": "Orla barrel bag. Cylindrical silhouette. Single shoulder strap. Discover considered everyday bags at Atelier Veyne."
+        },
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "tags": [
+          "beige",
+          "black",
+          "brown",
+          "cj-import",
+          "coffee",
+          "new-arrival",
+          "shoulder-bag",
+          "wine-red"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17929701392703",
+            "name": "Color",
+            "values": [
+              "Black",
+              "Beige",
+              "Coffee",
+              "Wine Red",
+              "Brown"
+            ]
+          },
+          {
+            "id": "gid://shopify/ProductOption/17929701425471",
+            "name": "Size",
+            "values": [
+              "20x10x12"
+            ]
+          }
+        ],
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "custom",
+              "key": "material",
+              "type": "multi_line_text_field",
+              "value": "Cowhide leather with polyester-cotton lining."
+            },
+            {
+              "namespace": "custom",
+              "key": "dimensions",
+              "type": "multi_line_text_field",
+              "value": "20 × 10 × 12 cm."
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_product_id",
+              "type": "single_line_text_field",
+              "value": "2607070853511612201"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_import_batch",
+              "type": "single_line_text_field",
+              "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_fulfillment_link_verified",
+              "type": "boolean",
+              "value": "false"
+            },
+            {
+              "namespace": "custom",
+              "key": "color_swatches",
+              "type": "json",
+              "value": "{\"Black\":\"#1B1A18\",\"Beige\":\"#E8E2D4\",\"Coffee\":\"#3D2B23\",\"Wine Red\":\"#73343E\",\"Brown\":\"#654735\"}"
+            },
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "Orla barrel bag | Atelier Veyne"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Orla barrel bag. Cylindrical silhouette. Single shoulder strap. Discover considered everyday bags at Atelier Veyne."
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46157957300543",
+              "alt": "Orla barrel bag in Black",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157957333311",
+              "alt": "Orla barrel bag in Beige",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157957366079",
+              "alt": "Orla barrel bag in Coffee",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157957398847",
+              "alt": "Orla barrel bag in Wine Red",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157957431615",
+              "alt": "Orla barrel bag in Brown",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            }
+          ]
+        },
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67841890353471",
+              "sku": "CJNS297227401AZ",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Black"
+                },
+                {
+                  "name": "Size",
+                  "value": "20x10x12"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828016406847",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2607070853511612201"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2607070853511613000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Black-20x10x12"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157957300543"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841890386239",
+              "sku": "CJNS297227402BY",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Beige"
+                },
+                {
+                  "name": "Size",
+                  "value": "20x10x12"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828016439615",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2607070853511612201"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2607070853511613600"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Beige-20x10x12"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157957333311"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841890419007",
+              "sku": "CJNS297227403CX",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Coffee"
+                },
+                {
+                  "name": "Size",
+                  "value": "20x10x12"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828016472383",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2607070853511612201"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2607070853511614100"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Coffee-20x10x12"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157957366079"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841890451775",
+              "sku": "CJNS297227404DW",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Wine Red"
+                },
+                {
+                  "name": "Size",
+                  "value": "20x10x12"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828016505151",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2607070853511612201"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2607070853511614600"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Wine Red-20x10x12"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157957398847"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841890484543",
+              "sku": "CJNS297227405EV",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Brown"
+                },
+                {
+                  "name": "Size",
+                  "value": "20x10x12"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828016537919",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2607070853511612201"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2607070853511615100"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Brown-20x10x12"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157957431615"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+      "title": "Linden zip handbag",
+      "handle": "linden-zip-handbag",
+      "status": "verified_draft",
+      "startedAt": "2026-10-23T11:51:22.222Z",
+      "shopifyProductId": "gid://shopify/Product/15459352674623",
+      "verifiedAt": "2026-10-23T11:51:30.060Z",
+      "adminUrl": "https://admin.shopify.com/store/s35my0-uu/products/15459352674623",
+      "variantMap": [
+        {
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "cjVariantId": "047C6A32-C0E3-4D59-8D51-26E37A3DBA88",
+          "sku": "CJBHNSNS27768-Black",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841893630271",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "cjVariantId": "04AA4F85-E5F3-4BCD-8821-3460A76F3F45",
+          "sku": "CJBHNSNS27768-Earthy yellow",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841893663039",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "cjVariantId": "3636A15F-751B-402A-9A74-D362D99CFB84",
+          "sku": "CJBHNSNS27768-Coffee",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841893695807",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+          "cjVariantId": "EA26C552-7EC1-4A6D-9779-B951C7EF6728",
+          "sku": "CJBHNSNS27768-Red",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841893728575",
+          "cjFulfillmentLinkVerified": false
+        }
+      ],
+      "media": [
+        {
+          "id": "gid://shopify/MediaImage/46157959332159",
+          "alt": "Linden zip handbag in Black",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157959364927",
+          "alt": "Linden zip handbag in Earthy yellow",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157959397695",
+          "alt": "Linden zip handbag in Coffee",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157959430463",
+          "alt": "Linden zip handbag in Red",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        }
+      ],
+      "snapshot": {
+        "id": "gid://shopify/Product/15459352674623",
+        "title": "Linden zip handbag",
+        "handle": "linden-zip-handbag",
+        "status": "DRAFT",
+        "templateSuffix": "",
+        "descriptionHtml": "<p>Linden keeps its lines simple with a soft handle, stitched detailing and a zip opening. The understated shape is finished with an internal slip pocket for smaller essentials.</p><ul>\n<li>Soft handle</li>\n<li>Zip opening</li>\n<li>Internal slip pocket</li>\n</ul>",
+        "seo": {
+          "title": "Linden zip handbag | Atelier Veyne",
+          "description": "Linden zip handbag. Soft handle. Zip opening. Discover considered everyday bags at Atelier Veyne."
+        },
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "tags": [
+          "black",
+          "cj-import",
+          "coffee",
+          "earthy-yellow",
+          "new-arrival",
+          "red",
+          "shoulder-bag"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17929701785919",
+            "name": "Color",
+            "values": [
+              "Black",
+              "Earthy yellow",
+              "Coffee",
+              "Red"
+            ]
+          }
+        ],
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "custom",
+              "key": "material",
+              "type": "multi_line_text_field",
+              "value": "Split cowhide leather with polyester lining."
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_product_id",
+              "type": "single_line_text_field",
+              "value": "295A6204-FA3E-4BFF-A999-D44F5C61CA21"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_import_batch",
+              "type": "single_line_text_field",
+              "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_fulfillment_link_verified",
+              "type": "boolean",
+              "value": "false"
+            },
+            {
+              "namespace": "custom",
+              "key": "color_swatches",
+              "type": "json",
+              "value": "{\"Black\":\"#1B1A18\",\"Earthy yellow\":\"#A76131\",\"Coffee\":\"#684335\",\"Red\":\"#A43E3D\"}"
+            },
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "Linden zip handbag | Atelier Veyne"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Linden zip handbag. Soft handle. Zip opening. Discover considered everyday bags at Atelier Veyne."
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46157959332159",
+              "alt": "Linden zip handbag in Black",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157959364927",
+              "alt": "Linden zip handbag in Earthy yellow",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157959397695",
+              "alt": "Linden zip handbag in Coffee",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157959430463",
+              "alt": "Linden zip handbag in Red",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            }
+          ]
+        },
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67841893630271",
+              "sku": "CJBHNSNS27768-Black",
+              "price": "79.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Black"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828019683647",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "295A6204-FA3E-4BFF-A999-D44F5C61CA21"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "047C6A32-C0E3-4D59-8D51-26E37A3DBA88"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Black"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157959332159"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841893663039",
+              "sku": "CJBHNSNS27768-Earthy yellow",
+              "price": "79.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Earthy yellow"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828019716415",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "295A6204-FA3E-4BFF-A999-D44F5C61CA21"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "04AA4F85-E5F3-4BCD-8821-3460A76F3F45"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Earthy yellow"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157959364927"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841893695807",
+              "sku": "CJBHNSNS27768-Coffee",
+              "price": "79.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Coffee"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828019749183",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "295A6204-FA3E-4BFF-A999-D44F5C61CA21"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "3636A15F-751B-402A-9A74-D362D99CFB84"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Coffee"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157959397695"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841893728575",
+              "sku": "CJBHNSNS27768-Red",
+              "price": "79.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Red"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828019781951",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "295A6204-FA3E-4BFF-A999-D44F5C61CA21"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "EA26C552-7EC1-4A6D-9779-B951C7EF6728"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Red"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157959430463"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cjProductId": "2506110631251623700",
+      "title": "Rhea crossbody bag",
+      "handle": "rhea-crossbody-bag",
+      "status": "verified_draft",
+      "startedAt": "2026-10-23T11:51:30.352Z",
+      "shopifyProductId": "gid://shopify/Product/15459352838463",
+      "verifiedAt": "2026-10-23T11:51:35.014Z",
+      "adminUrl": "https://admin.shopify.com/store/s35my0-uu/products/15459352838463",
+      "variantMap": [
+        {
+          "cjProductId": "2506110631251623700",
+          "cjVariantId": "2506110631251623900",
+          "sku": "CJNS239887801AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841894842687",
+          "cjFulfillmentLinkVerified": false
+        }
+      ],
+      "media": [
+        {
+          "id": "gid://shopify/MediaImage/46157961920831",
+          "alt": "Rhea crossbody bag in Reddish Brown",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157961953599",
+          "alt": "Rhea crossbody bag, additional view",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        }
+      ],
+      "snapshot": {
+        "id": "gid://shopify/Product/15459352838463",
+        "title": "Rhea crossbody bag",
+        "handle": "rhea-crossbody-bag",
+        "status": "DRAFT",
+        "templateSuffix": "",
+        "descriptionHtml": "<p>Rhea pairs a horizontal silhouette with a warm reddish-brown finish. Visible stitching gives the exterior definition, while internal pockets help separate the small things you reach for throughout the day.</p><ul>\n<li>Horizontal silhouette</li>\n<li>Internal phone and document pockets</li>\n<li>Internal zippered pocket</li>\n</ul>",
+        "seo": {
+          "title": "Rhea crossbody bag | Atelier Veyne",
+          "description": "Rhea crossbody bag. Horizontal silhouette. Internal phone and document pockets. Discover considered everyday bags at Atelier Veyne."
+        },
+        "vendor": "Atelier Veyne",
+        "productType": "Crossbody bag",
+        "tags": [
+          "cj-import",
+          "crossbody-bag",
+          "new-arrival",
+          "reddish-brown"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17929702015295",
+            "name": "Color",
+            "values": [
+              "Reddish Brown"
+            ]
+          }
+        ],
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "custom",
+              "key": "material",
+              "type": "multi_line_text_field",
+              "value": "Cowhide leather with polyester lining."
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_product_id",
+              "type": "single_line_text_field",
+              "value": "2506110631251623700"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_import_batch",
+              "type": "single_line_text_field",
+              "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_fulfillment_link_verified",
+              "type": "boolean",
+              "value": "false"
+            },
+            {
+              "namespace": "custom",
+              "key": "color_swatches",
+              "type": "json",
+              "value": "{\"Reddish Brown\":\"#6F4330\"}"
+            },
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "Rhea crossbody bag | Atelier Veyne"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Rhea crossbody bag. Horizontal silhouette. Internal phone and document pockets. Discover considered everyday bags at Atelier Veyne."
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46157961920831",
+              "alt": "Rhea crossbody bag in Reddish Brown",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157961953599",
+              "alt": "Rhea crossbody bag, additional view",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            }
+          ]
+        },
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67841894842687",
+              "sku": "CJNS239887801AZ",
+              "price": "129.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Reddish Brown"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828020896063",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2506110631251623700"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2506110631251623900"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Reddish Brown"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157961920831"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cjProductId": "2407270630041615800",
+      "title": "Luma shoulder bag",
+      "handle": "luma-shoulder-bag",
+      "status": "verified_draft",
+      "startedAt": "2026-10-23T11:51:35.320Z",
+      "shopifyProductId": "gid://shopify/Product/15459353002303",
+      "verifiedAt": "2026-10-23T11:51:41.762Z",
+      "adminUrl": "https://admin.shopify.com/store/s35my0-uu/products/15459353002303",
+      "variantMap": [
+        {
+          "cjProductId": "2407270630041615800",
+          "cjVariantId": "2407270630041616000",
+          "sku": "CJNS209476801AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841897627967",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2407270630041615800",
+          "cjVariantId": "2407270630041616200",
+          "sku": "CJNS209476802BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841897660735",
+          "cjFulfillmentLinkVerified": false
+        }
+      ],
+      "media": [
+        {
+          "id": "gid://shopify/MediaImage/46157965394239",
+          "alt": "Luma shoulder bag in Black",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157965427007",
+          "alt": "Luma shoulder bag in Beige",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157965459775",
+          "alt": "Luma shoulder bag, additional view",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        }
+      ],
+      "snapshot": {
+        "id": "gid://shopify/Product/15459353002303",
+        "title": "Luma shoulder bag",
+        "handle": "luma-shoulder-bag",
+        "status": "DRAFT",
+        "templateSuffix": "",
+        "descriptionHtml": "<p>Luma has a softly shaped body with understated stitched detailing. The simple silhouette and internal compartment make it a quiet addition to an everyday wardrobe.</p><ul>\n<li>Soft pillow-style silhouette</li>\n<li>Single-shoulder design</li>\n<li>Internal compartment</li>\n</ul>",
+        "seo": {
+          "title": "Luma shoulder bag | Atelier Veyne",
+          "description": "Luma shoulder bag. Soft pillow-style silhouette. Single-shoulder design. Discover considered everyday bags at Atelier Veyne."
+        },
+        "vendor": "Atelier Veyne",
+        "productType": "Shoulder bag",
+        "tags": [
+          "beige",
+          "black",
+          "cj-import",
+          "new-arrival",
+          "shoulder-bag"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17929702244671",
+            "name": "Color",
+            "values": [
+              "Black",
+              "Beige"
+            ]
+          }
+        ],
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "custom",
+              "key": "material",
+              "type": "multi_line_text_field",
+              "value": "Cowhide leather with polyester lining."
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_product_id",
+              "type": "single_line_text_field",
+              "value": "2407270630041615800"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_import_batch",
+              "type": "single_line_text_field",
+              "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_fulfillment_link_verified",
+              "type": "boolean",
+              "value": "false"
+            },
+            {
+              "namespace": "custom",
+              "key": "color_swatches",
+              "type": "json",
+              "value": "{\"Black\":\"#1B1A18\",\"Beige\":\"#EEE7D1\"}"
+            },
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "Luma shoulder bag | Atelier Veyne"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Luma shoulder bag. Soft pillow-style silhouette. Single-shoulder design. Discover considered everyday bags at Atelier Veyne."
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46157965394239",
+              "alt": "Luma shoulder bag in Black",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157965427007",
+              "alt": "Luma shoulder bag in Beige",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157965459775",
+              "alt": "Luma shoulder bag, additional view",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            }
+          ]
+        },
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67841897627967",
+              "sku": "CJNS209476801AZ",
+              "price": "79.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Black"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828023681343",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2407270630041615800"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2407270630041616000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Black"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157965394239"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841897660735",
+              "sku": "CJNS209476802BY",
+              "price": "79.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Beige"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828023714111",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2407270630041615800"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2407270630041616200"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Beige"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157965427007"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cjProductId": "2509070113221629600",
+      "title": "Esme crossbody bag",
+      "handle": "esme-crossbody-bag",
+      "status": "verified_draft",
+      "startedAt": "2026-10-23T11:51:42.037Z",
+      "shopifyProductId": "gid://shopify/Product/15459353133375",
+      "verifiedAt": "2026-10-23T11:51:48.203Z",
+      "adminUrl": "https://admin.shopify.com/store/s35my0-uu/products/15459353133375",
+      "variantMap": [
+        {
+          "cjProductId": "2509070113221629600",
+          "cjVariantId": "2509070113221629800",
+          "sku": "CJNS249060301AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841898905919",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2509070113221629600",
+          "cjVariantId": "2509070113221629900",
+          "sku": "CJNS249060302BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841898938687",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2509070113221629600",
+          "cjVariantId": "2509070113231620100",
+          "sku": "CJNS249060303CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841898971455",
+          "cjFulfillmentLinkVerified": false
+        }
+      ],
+      "media": [
+        {
+          "id": "gid://shopify/MediaImage/46157966573887",
+          "alt": "Esme crossbody bag in Black",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157966606655",
+          "alt": "Esme crossbody bag in Khaki",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157966639423",
+          "alt": "Esme crossbody bag in Caramel",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        }
+      ],
+      "snapshot": {
+        "id": "gid://shopify/Product/15459353133375",
+        "title": "Esme crossbody bag",
+        "handle": "esme-crossbody-bag",
+        "status": "DRAFT",
+        "templateSuffix": "",
+        "descriptionHtml": "<p>Esme keeps its horizontal shape simple, with soft leather and an understated exterior. Internal zippered and document pockets give smaller essentials their own place.</p><ul>\n<li>Soft horizontal silhouette</li>\n<li>Internal zippered pocket</li>\n<li>Internal document pocket</li>\n</ul>",
+        "seo": {
+          "title": "Esme crossbody bag | Atelier Veyne",
+          "description": "Esme crossbody bag. Soft horizontal silhouette. Internal zippered pocket. Discover considered everyday bags at Atelier Veyne."
+        },
+        "vendor": "Atelier Veyne",
+        "productType": "Crossbody bag",
+        "tags": [
+          "black",
+          "caramel",
+          "cj-import",
+          "crossbody-bag",
+          "khaki",
+          "new-arrival"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17929702441279",
+            "name": "Color",
+            "values": [
+              "Black",
+              "Khaki",
+              "Caramel"
+            ]
+          },
+          {
+            "id": "gid://shopify/ProductOption/17929702474047",
+            "name": "Size",
+            "values": [
+              "26X16X9CM"
+            ]
+          }
+        ],
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "custom",
+              "key": "material",
+              "type": "multi_line_text_field",
+              "value": "Cowhide leather with polyester lining."
+            },
+            {
+              "namespace": "custom",
+              "key": "dimensions",
+              "type": "multi_line_text_field",
+              "value": "26 × 16 × 9 cm."
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_product_id",
+              "type": "single_line_text_field",
+              "value": "2509070113221629600"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_import_batch",
+              "type": "single_line_text_field",
+              "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_fulfillment_link_verified",
+              "type": "boolean",
+              "value": "false"
+            },
+            {
+              "namespace": "custom",
+              "key": "color_swatches",
+              "type": "json",
+              "value": "{\"Black\":\"#1B1A18\",\"Khaki\":\"#9D8A67\",\"Caramel\":\"#A26636\"}"
+            },
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "Esme crossbody bag | Atelier Veyne"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Esme crossbody bag. Soft horizontal silhouette. Internal zippered pocket. Discover considered everyday bags at Atelier Veyne."
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46157966573887",
+              "alt": "Esme crossbody bag in Black",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157966606655",
+              "alt": "Esme crossbody bag in Khaki",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157966639423",
+              "alt": "Esme crossbody bag in Caramel",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            }
+          ]
+        },
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67841898905919",
+              "sku": "CJNS249060301AZ",
+              "price": "99.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Black"
+                },
+                {
+                  "name": "Size",
+                  "value": "26X16X9CM"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828024959295",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2509070113221629600"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2509070113221629800"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Black-26X16X9CM"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157966573887"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841898938687",
+              "sku": "CJNS249060302BY",
+              "price": "99.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Khaki"
+                },
+                {
+                  "name": "Size",
+                  "value": "26X16X9CM"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828024992063",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2509070113221629600"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2509070113221629900"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Khaki-26X16X9CM"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157966606655"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841898971455",
+              "sku": "CJNS249060303CX",
+              "price": "99.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Caramel"
+                },
+                {
+                  "name": "Size",
+                  "value": "26X16X9CM"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828025024831",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2509070113221629600"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2509070113231620100"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Caramel-26X16X9CM"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157966639423"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cjProductId": "2510110122001632000",
+      "title": "Milo compact crossbody",
+      "handle": "milo-compact-crossbody",
+      "status": "verified_draft",
+      "startedAt": "2026-10-23T11:51:48.539Z",
+      "shopifyProductId": "gid://shopify/Product/15459353362751",
+      "verifiedAt": "2026-10-23T11:51:56.994Z",
+      "adminUrl": "https://admin.shopify.com/store/s35my0-uu/products/15459353362751",
+      "variantMap": [
+        {
+          "cjProductId": "2510110122001632000",
+          "cjVariantId": "2510110122001632300",
+          "sku": "CJNS255498201AZ",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841902117183",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2510110122001632000",
+          "cjVariantId": "2510110122001632400",
+          "sku": "CJNS255498202BY",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841902149951",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2510110122001632000",
+          "cjVariantId": "2510110122001632600",
+          "sku": "CJNS255498203CX",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841902182719",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2510110122001632000",
+          "cjVariantId": "2510110122001632800",
+          "sku": "CJNS255498204DW",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841902215487",
+          "cjFulfillmentLinkVerified": false
+        },
+        {
+          "cjProductId": "2510110122001632000",
+          "cjVariantId": "2510110122001632900",
+          "sku": "CJNS255498205EV",
+          "shopifyVariantId": "gid://shopify/ProductVariant/67841902248255",
+          "cjFulfillmentLinkVerified": false
+        }
+      ],
+      "media": [
+        {
+          "id": "gid://shopify/MediaImage/46157969785151",
+          "alt": "Milo compact crossbody in Black",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157969817919",
+          "alt": "Milo compact crossbody in Beige",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157969850687",
+          "alt": "Milo compact crossbody in Gray",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157969883455",
+          "alt": "Milo compact crossbody in Caramel",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157969916223",
+          "alt": "Milo compact crossbody in Green",
+          "status": "PROCESSING",
+          "mediaContentType": "IMAGE",
+          "image": null
+        }
+      ],
+      "snapshot": {
+        "id": "gid://shopify/Product/15459353362751",
+        "title": "Milo compact crossbody",
+        "handle": "milo-compact-crossbody",
+        "status": "DRAFT",
+        "templateSuffix": "",
+        "descriptionHtml": "<p>Milo brings a softly curved profile to a pared-back everyday edit. Pebbled leather, a zip opening and two ways to carry keep the design simple, with five source colors to choose from.</p><ul>\n<li>Curved zip-top silhouette</li>\n<li>Soft construction</li>\n<li>Top handle and longer strap</li>\n</ul>",
+        "seo": {
+          "title": "Milo compact crossbody | Atelier Veyne",
+          "description": "Milo compact crossbody. Curved zip-top silhouette with soft construction. Explore the everyday edit at Atelier Veyne."
+        },
+        "vendor": "Atelier Veyne",
+        "productType": "Crossbody bag",
+        "tags": [
+          "beige",
+          "black",
+          "caramel",
+          "cj-import",
+          "crossbody-bag",
+          "gray",
+          "green",
+          "new-arrival"
+        ],
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/17929702867263",
+            "name": "Color",
+            "values": [
+              "Black",
+              "Beige",
+              "Gray",
+              "Caramel",
+              "Green"
+            ]
+          },
+          {
+            "id": "gid://shopify/ProductOption/17929702900031",
+            "name": "Size",
+            "values": [
+              "23x11x14"
+            ]
+          }
+        ],
+        "metafields": {
+          "nodes": [
+            {
+              "namespace": "custom",
+              "key": "material",
+              "type": "multi_line_text_field",
+              "value": "Cowhide leather."
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_product_id",
+              "type": "single_line_text_field",
+              "value": "2510110122001632000"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_import_batch",
+              "type": "single_line_text_field",
+              "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+            },
+            {
+              "namespace": "custom",
+              "key": "cj_fulfillment_link_verified",
+              "type": "boolean",
+              "value": "false"
+            },
+            {
+              "namespace": "custom",
+              "key": "color_swatches",
+              "type": "json",
+              "value": "{\"Black\":\"#1B1A18\",\"Beige\":\"#D6C3A5\",\"Gray\":\"#85817C\",\"Caramel\":\"#B58B60\",\"Green\":\"#3F604B\"}"
+            },
+            {
+              "namespace": "global",
+              "key": "title_tag",
+              "type": "string",
+              "value": "Milo compact crossbody | Atelier Veyne"
+            },
+            {
+              "namespace": "global",
+              "key": "description_tag",
+              "type": "string",
+              "value": "Milo compact crossbody. Curved zip-top silhouette with soft construction. Explore the everyday edit at Atelier Veyne."
+            }
+          ]
+        },
+        "collections": {
+          "nodes": []
+        },
+        "media": {
+          "nodes": [
+            {
+              "id": "gid://shopify/MediaImage/46157969785151",
+              "alt": "Milo compact crossbody in Black",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157969817919",
+              "alt": "Milo compact crossbody in Beige",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157969850687",
+              "alt": "Milo compact crossbody in Gray",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157969883455",
+              "alt": "Milo compact crossbody in Caramel",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            },
+            {
+              "id": "gid://shopify/MediaImage/46157969916223",
+              "alt": "Milo compact crossbody in Green",
+              "status": "PROCESSING",
+              "mediaContentType": "IMAGE",
+              "image": null
+            }
+          ]
+        },
+        "variants": {
+          "nodes": [
+            {
+              "id": "gid://shopify/ProductVariant/67841902117183",
+              "sku": "CJNS255498201AZ",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Black"
+                },
+                {
+                  "name": "Size",
+                  "value": "23x11x14"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828028170559",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2510110122001632000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2510110122001632300"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Black-23x11x14"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157969785151"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841902149951",
+              "sku": "CJNS255498202BY",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Beige"
+                },
+                {
+                  "name": "Size",
+                  "value": "23x11x14"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828028203327",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2510110122001632000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2510110122001632400"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Beige-23x11x14"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157969817919"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841902182719",
+              "sku": "CJNS255498203CX",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Gray"
+                },
+                {
+                  "name": "Size",
+                  "value": "23x11x14"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828028236095",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2510110122001632000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2510110122001632600"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Gray-23x11x14"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157969850687"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841902215487",
+              "sku": "CJNS255498204DW",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Caramel"
+                },
+                {
+                  "name": "Size",
+                  "value": "23x11x14"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828028268863",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2510110122001632000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2510110122001632800"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Caramel-23x11x14"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157969883455"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gid://shopify/ProductVariant/67841902248255",
+              "sku": "CJNS255498205EV",
+              "price": "89.00",
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Green"
+                },
+                {
+                  "name": "Size",
+                  "value": "23x11x14"
+                }
+              ],
+              "inventoryPolicy": "DENY",
+              "inventoryItem": {
+                "id": "gid://shopify/InventoryItem/69828028301631",
+                "tracked": true
+              },
+              "metafields": {
+                "nodes": [
+                  {
+                    "namespace": "custom",
+                    "key": "cj_product_id",
+                    "type": "single_line_text_field",
+                    "value": "2510110122001632000"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_variant_id",
+                    "type": "single_line_text_field",
+                    "value": "2510110122001632900"
+                  },
+                  {
+                    "namespace": "custom",
+                    "key": "cj_source_option_key",
+                    "type": "single_line_text_field",
+                    "value": "Green-23x11x14"
+                  }
+                ]
+              },
+              "media": {
+                "nodes": [
+                  {
+                    "id": "gid://shopify/MediaImage/46157969916223"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "lastRunCompletedAt": "2026-10-23T11:51:56.995Z"
+}

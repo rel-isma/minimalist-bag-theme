@@ -1,0 +1,667 @@
+{
+  "checkedAt": "2026-10-27T13:25:10.649Z",
+  "currency": "USD",
+  "scope": "Representative variant only; not launch approved",
+  "products": [
+    {
+      "kind": "Bags",
+      "rank": 1,
+      "title": "Slim shoulder bag",
+      "sku": "CJNS3126023",
+      "cjProductId": "2609040510041633300",
+      "checkedVariantId": "2609040510041634100",
+      "checkedVariantSku": "CJNS312602301AZ",
+      "checkedVariant": "Black",
+      "supplierPrice": 20.49,
+      "materialClaim": "Sheepskin, supplier claim",
+      "review": "Clean compact shape and low quoted shipping. Supplier description mentions several leather finishes; confirm the exact selected SKU is sheepskin.",
+      "quotes": {
+        "US": {
+          "postage": 7.3,
+          "productPlusPostage": 27.79,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 4.8,
+          "productPlusPostage": 25.29,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 9799
+      },
+      "photo": "expanded-thumbs/120.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Bags",
+      "rank": 2,
+      "title": "Soft shoulder bag",
+      "sku": "CJNS3181599",
+      "cjProductId": "2609200855571614300",
+      "checkedVariantId": "2609200855571615200",
+      "checkedVariantSku": "CJNS318159901AZ",
+      "checkedVariant": "Black-30x9x18",
+      "supplierPrice": 23.96,
+      "materialClaim": "Genuine leather / cowhide, supplier claim",
+      "review": "Understated silhouette and two neutral colors. Good premium-style candidate; full-grain quality is unverified.",
+      "quotes": {
+        "US": {
+          "postage": 11.48,
+          "productPlusPostage": 35.44,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 7.24,
+          "productPlusPostage": 31.2,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 5119
+      },
+      "photo": "thumbs/15.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Bags",
+      "rank": 3,
+      "title": "Compact top-handle bag",
+      "sku": "CJNS2968091",
+      "cjProductId": "2607050206181605500",
+      "checkedVariantId": "2607050206181606100",
+      "checkedVariantSku": "CJNS296809101AZ",
+      "checkedVariant": "Black-24x10x18.5",
+      "supplierPrice": 16.25,
+      "materialClaim": "Cowhide, supplier claim",
+      "review": "Structured everyday option with neutral colors. Supplier description lists gray but no gray variant was returned; list only actual variants.",
+      "quotes": {
+        "US": {
+          "postage": 12.54,
+          "productPlusPostage": 28.79,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 7.79,
+          "productPlusPostage": 24.04,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 6928
+      },
+      "photo": "thumbs/67.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Bags",
+      "rank": 4,
+      "title": "Curved shoulder bag",
+      "sku": "CJNS2925092",
+      "cjProductId": "2606080355301620300",
+      "checkedVariantId": "2606080355301620900",
+      "checkedVariantSku": "CJNS292509201AZ",
+      "checkedVariant": "Black-27X7X17CM",
+      "supplierPrice": 20.73,
+      "materialClaim": "Genuine leather / cowhide, supplier claim",
+      "review": "Clean curved silhouette; supplier lists 27 \u00d7 7 \u00d7 17 cm. A strong compact everyday option.",
+      "quotes": {
+        "US": {
+          "postage": 11.02,
+          "productPlusPostage": 31.75,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 6.63,
+          "productPlusPostage": 27.36,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 8791
+      },
+      "photo": "expanded-thumbs/151.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Bags",
+      "rank": 5,
+      "title": "Small everyday tote",
+      "sku": "CJNS2948483",
+      "cjProductId": "2606201001501634000",
+      "checkedVariantId": "2606201001501637000",
+      "checkedVariantSku": "CJNS294848305EV",
+      "checkedVariant": "Black-25x10x21cm",
+      "supplierPrice": 17.91,
+      "materialClaim": "Genuine leather / cowhide, supplier claim",
+      "review": "Practical top-handle shape; supplier lists 25 \u00d7 10 \u00d7 21 cm. Check handle comfort and lining on a sample.",
+      "quotes": {
+        "US": {
+          "postage": 13.15,
+          "productPlusPostage": 31.06,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 8.12,
+          "productPlusPostage": 26.03,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 5519
+      },
+      "photo": "expanded-thumbs/154.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Bags",
+      "rank": 6,
+      "title": "Soft everyday shoulder bag",
+      "sku": "CJNS2875876",
+      "cjProductId": "2605091330221629300",
+      "checkedVariantId": "2605091330231620700",
+      "checkedVariantSku": "CJNS287587603CX",
+      "checkedVariant": "Black",
+      "supplierPrice": 21.72,
+      "materialClaim": "Genuine leather / cowhide, supplier claim",
+      "review": "Roomier soft silhouette and muted color options. Check weight and closure quality on a sample.",
+      "quotes": {
+        "US": {
+          "postage": 11.32,
+          "productPlusPostage": 33.04,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 6.77,
+          "productPlusPostage": 28.49,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 7539
+      },
+      "photo": "expanded-thumbs/150.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Bags",
+      "rank": 7,
+      "title": "Low-profile saddle bag",
+      "sku": "CJYD2489672",
+      "cjProductId": "2509051026211614300",
+      "checkedVariantId": "2601070223561605100",
+      "checkedVariantSku": "CJYD248967203CX",
+      "checkedVariant": "Black-26x7x13cm",
+      "supplierPrice": 19.57,
+      "materialClaim": "Two-layer cowhide, supplier claim",
+      "review": "Clean flap design; supplier lists 26 \u00d7 7 \u00d7 13 cm. Description color list differs from variants: confirm actual selected color. Do not market as full-grain.",
+      "quotes": {
+        "US": {
+          "postage": 10.71,
+          "productPlusPostage": 30.28,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 6.48,
+          "productPlusPostage": 26.05,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 5500
+      },
+      "photo": "expanded-thumbs/222.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Bags",
+      "rank": 8,
+      "title": "Curved underarm bag",
+      "sku": "CJNS2144190",
+      "cjProductId": "2409220649281600600",
+      "checkedVariantId": "2409220649281600800",
+      "checkedVariantSku": "CJNS214419001AZ",
+      "checkedVariant": "Black",
+      "supplierPrice": 20.73,
+      "materialClaim": "Two-layer cowhide, supplier claim",
+      "review": "Simple curved shape adds variety. Lower leather grade than top-grain/full-grain; describe accurately.",
+      "quotes": {
+        "US": {
+          "postage": 14.2,
+          "productPlusPostage": 34.93,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 9.13,
+          "productPlusPostage": 29.86,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 12731
+      },
+      "photo": "expanded-thumbs/173.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Bags",
+      "rank": 9,
+      "title": "Nubuck-style bowling bag",
+      "sku": "CJWC2972322",
+      "cjProductId": "2074421841680293889",
+      "checkedVariantId": "2074421841759985665",
+      "checkedVariantSku": "CJWC297232201AZ",
+      "checkedVariant": "Brown",
+      "supplierPrice": 24.51,
+      "materialClaim": "Genuine leather / nubuck, supplier claim",
+      "review": "Distinctive texture and long handles. US shipping is relatively expensive; sample the finish before committing.",
+      "quotes": {
+        "US": {
+          "postage": 18.0,
+          "productPlusPostage": 42.51,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 11.1,
+          "productPlusPostage": 35.61,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 10064
+      },
+      "photo": "expanded-thumbs/127.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Bags",
+      "rank": 10,
+      "title": "Structured zip handbag",
+      "sku": "CJWC2972154",
+      "cjProductId": "2074416330432217089",
+      "checkedVariantId": "2074416330541268996",
+      "checkedVariantSku": "CJWC297215403CX",
+      "checkedVariant": "Black",
+      "supplierPrice": 22.16,
+      "materialClaim": "Genuine leather / pull-up leather, supplier claim",
+      "review": "Versatile structured option with several colors. US freight is relatively expensive; check hardware and weight.",
+      "quotes": {
+        "US": {
+          "postage": 18.0,
+          "productPlusPostage": 40.16,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 11.1,
+          "productPlusPostage": 33.26,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 11240
+      },
+      "photo": "expanded-thumbs/130.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Wallets",
+      "rank": 1,
+      "title": "Compact folded wallet",
+      "sku": "CJNS2042296",
+      "cjProductId": "1793122226695311360",
+      "checkedVariantId": "1793122226879860736",
+      "checkedVariantSku": "CJNS204229602BY",
+      "checkedVariant": "Black",
+      "supplierPrice": 5.49,
+      "materialClaim": "Genuine leather / cowhide, supplier claim",
+      "review": "Best first wallet sample: restrained fold-over shape and useful color range. Check closure, stitching and card fit.",
+      "quotes": {
+        "US": {
+          "postage": 6.03,
+          "productPlusPostage": 11.52,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 4.03,
+          "productPlusPostage": 9.52,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 13887
+      },
+      "photo": "expanded-thumbs/259.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Wallets",
+      "rank": 2,
+      "title": "Compact multi-card wallet",
+      "sku": "CJNS2796968",
+      "cjProductId": "2603201247351616900",
+      "checkedVariantId": "2603201247351617700",
+      "checkedVariantSku": "CJNS279696802BY",
+      "checkedVariant": "Black",
+      "supplierPrice": 8.79,
+      "materialClaim": "Genuine leather / cowhide, supplier claim",
+      "review": "Small everyday wallet with a clean flap. Supplier packing list calls it a handbag; confirm dimensions and actual capacity before listing.",
+      "quotes": {
+        "US": {
+          "postage": 6.03,
+          "productPlusPostage": 14.82,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 4.03,
+          "productPlusPostage": 12.82,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 1,
+        "supplierFactoryCN": 8442
+      },
+      "photo": "expanded-thumbs/298.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Wallets",
+      "rank": 3,
+      "title": "Envelope long wallet",
+      "sku": "CJNS1970625",
+      "cjProductId": "1759092397411143680",
+      "checkedVariantId": "1759092397671190528",
+      "checkedVariantSku": "CJNS197062501AZ",
+      "checkedVariant": "Black",
+      "supplierPrice": 7.48,
+      "materialClaim": "Genuine leather / cowhide, supplier claim",
+      "review": "Minimal envelope shape works well with the store. Confirm dimensions and bill/card layout.",
+      "quotes": {
+        "US": {
+          "postage": 6.43,
+          "productPlusPostage": 13.91,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 4.2,
+          "productPlusPostage": 11.68,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 12641
+      },
+      "photo": "expanded-thumbs/335.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Wallets",
+      "rank": 4,
+      "title": "Small coin-and-card wallet",
+      "sku": "CJNS1118004",
+      "cjProductId": "1390875576201515008",
+      "checkedVariantId": "1390875577665327104",
+      "checkedVariantSku": "CJNS111800405EV",
+      "checkedVariant": "Black",
+      "supplierPrice": 5.05,
+      "materialClaim": "Leather, type unspecified",
+      "review": "Compact everyday option; supplier lists bill, card and coin sections. Do not claim a specific leather grade.",
+      "quotes": {
+        "US": {
+          "postage": 6.03,
+          "productPlusPostage": 11.08,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 4.03,
+          "productPlusPostage": 9.08,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 40000
+      },
+      "photo": "expanded-thumbs/243.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Wallets",
+      "rank": 5,
+      "title": "Zip-around long wallet",
+      "sku": "CJNS1282918",
+      "cjProductId": "1436537823707664384",
+      "checkedVariantId": "1436537823799939072",
+      "checkedVariantSku": "CJNS128291804DW",
+      "checkedVariant": "Black",
+      "supplierPrice": 5.9,
+      "materialClaim": "Cowhide, supplier claim",
+      "review": "Practical long zipper style with wristlet. Check any lettering or branding on the sample before using in Atelier Veyne.",
+      "quotes": {
+        "US": {
+          "postage": 9.34,
+          "productPlusPostage": 15.24,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 5.84,
+          "productPlusPostage": 11.74,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 39755
+      },
+      "photo": "expanded-thumbs/349.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Wallets",
+      "rank": 6,
+      "title": "Plain bifold wallet",
+      "sku": "CJBHNSYB00307",
+      "cjProductId": "E9554CD4-0490-4C1E-BFB0-1EFB9B5D9B97",
+      "checkedVariantId": "478D2C4F-762F-4756-873D-CDBA33AE0149",
+      "checkedVariantSku": "CJBHNSYB00307-Black",
+      "checkedVariant": "Black",
+      "supplierPrice": 6.68,
+      "materialClaim": "Genuine leather / cowhide, supplier claim",
+      "review": "Understated unisex fold-over option. Supplier translation is poor; verify pockets and dimensions on a sample.",
+      "quotes": {
+        "US": {
+          "postage": 5.74,
+          "productPlusPostage": 12.42,
+          "method": "CJPacket Super Pure Electricity",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 3.87,
+          "productPlusPostage": 10.55,
+          "method": "CJPacket Ordinary",
+          "transitEstimate": "4-9"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 12144
+      },
+      "photo": "expanded-thumbs/240.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Wallets",
+      "rank": 7,
+      "title": "Woven bifold wallet",
+      "sku": "CJBHNSNS18639",
+      "cjProductId": "0247BA53-E6B5-4C16-9930-F30190B64732",
+      "checkedVariantId": "5291DD67-D1B2-4FB5-A9B1-1E1D0563E3B3",
+      "checkedVariantSku": "CJBHNSNS18639-02 Black",
+      "checkedVariant": "02 Black",
+      "supplierPrice": 6.9,
+      "materialClaim": "Sheepskin, supplier claim",
+      "review": "Adds texture without loud prints; unisex styling. Verify weave durability and whether construction is leather throughout.",
+      "quotes": {
+        "US": {
+          "postage": 6.03,
+          "productPlusPostage": 12.93,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 4.03,
+          "productPlusPostage": 10.93,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 12325
+      },
+      "photo": "thumbs/90.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Wallets",
+      "rank": 8,
+      "title": "Slim long wallet",
+      "sku": "CJBHNSNS26868",
+      "cjProductId": "54155ACA-D4C3-4AC9-816F-877288295652",
+      "checkedVariantId": "64155186-5B8B-4277-9D5D-B3DFBF8B93DB",
+      "checkedVariantSku": "CJBHNSNS26868-Black",
+      "checkedVariant": "Black",
+      "supplierPrice": 5.64,
+      "materialClaim": "Cow split leather, supplier claim",
+      "review": "Simple long silhouette. Split leather is not full-grain; make that distinction in product copy.",
+      "quotes": {
+        "US": {
+          "postage": 7.03,
+          "productPlusPostage": 12.67,
+          "method": "CJPacket Super Pure Electricity",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 4.94,
+          "productPlusPostage": 10.58,
+          "method": "CJPacket Special line",
+          "transitEstimate": "5-9"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 1,
+        "supplierFactoryCN": 40000
+      },
+      "photo": "expanded-thumbs/277.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Wallets",
+      "rank": 9,
+      "title": "Zip wristlet wallet",
+      "sku": "CJNS1654825",
+      "cjProductId": "1610145006071853056",
+      "checkedVariantId": "1610145006151544832",
+      "checkedVariantSku": "CJNS165482502BY",
+      "checkedVariant": "Black",
+      "supplierPrice": 7.5,
+      "materialClaim": "Top-layer cowhide, supplier claim",
+      "review": "Clean zip shape; original photos show a small metal detail. Supplier texture wording conflicts with title: confirm actual finish and any branding.",
+      "quotes": {
+        "US": {
+          "postage": 7.07,
+          "productPlusPostage": 14.57,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 4.7,
+          "productPlusPostage": 12.2,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 13893
+      },
+      "photo": "expanded-thumbs/263.jpg",
+      "alreadySaved": false
+    },
+    {
+      "kind": "Wallets",
+      "rank": 10,
+      "title": "Frame-clasp wallet",
+      "sku": "CJBHNSNS22059",
+      "cjProductId": "B58066CC-74E8-44B3-8B3A-1B7B21FFB2B3",
+      "checkedVariantId": "386842EE-6605-4E17-954E-E5962A9B49C3",
+      "checkedVariantSku": "CJBHNSNS22059-Black",
+      "checkedVariant": "Black",
+      "supplierPrice": 9.95,
+      "materialClaim": "Cow split leather, supplier claim",
+      "review": "A more traditional alternative to the minimal wallets. Confirm frame durability and actual embossed/coated finish; lower priority than the first three.",
+      "quotes": {
+        "US": {
+          "postage": 7.82,
+          "productPlusPostage": 17.77,
+          "method": "LuWei Ordinary US",
+          "transitEstimate": "5-11"
+        },
+        "GB": {
+          "postage": 5.03,
+          "productPlusPostage": 14.98,
+          "method": "YunExpress Ordinary",
+          "transitEstimate": "4-7"
+        }
+      },
+      "inventory": {
+        "cjWarehouseCN": 0,
+        "supplierFactoryCN": 14344
+      },
+      "photo": "expanded-thumbs/356.jpg",
+      "alreadySaved": false
+    }
+  ]
+}

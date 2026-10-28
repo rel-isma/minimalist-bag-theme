@@ -1,0 +1,51 @@
+{
+  "productId": "2606260539581623200",
+  "userId": null,
+  "packWeight": "257.00-520.00",
+  "weight": "234.00-500.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://oss-cf.cjdropshipping.com/product/2026/06/26/05/c48f9ff4-bc96-41bb-bae4-4760ab66ac9c_fine.jpeg",
+  "nameEn": "Top-grain Leather Pencil Case With A Premium, Minimalist, And Niche Design",
+  "sku": "CJNS2955956",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": [],
+  "createAt": 1792860416219,
+  "sellPrice": "16.42",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "YunExpress Ordinary",
+  "trialCountry": null,
+  "trialFreight": "0",
+  "totalPrice": "16.42",
+  "listedShopNum": "0",
+  "listedShopIds": [],
+  "vid": "2606260539581626200",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    200,
+    200
+  ],
+  "heightList": [
+    30,
+    30
+  ],
+  "widthList": [
+    120,
+    120
+  ],
+  "volumeList": [
+    720000,
+    720000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_id": "2606260539581623200"
+}

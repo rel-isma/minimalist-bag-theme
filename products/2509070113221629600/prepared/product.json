@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "stage": "prepared_for_owner_review",
+  "publishingApproved": false,
+  "source": {
+    "cjProductId": "2509070113221629600",
+    "cjProductSku": "CJNS2490603",
+    "originalTitle": "Leather Shoulder Bag Women's Cowhide All-matching",
+    "productFile": "../source/product.json",
+    "variantsFile": "../source/variants.json"
+  },
+  "shopify": {
+    "title": "Esme crossbody bag",
+    "handle": "esme-crossbody-bag",
+    "vendor": "Atelier Veyne",
+    "productType": "Crossbody bag",
+    "descriptionHtml": "<p>Esme keeps its horizontal shape simple, with soft leather and an understated exterior. Internal zippered and document pockets give smaller essentials their own place.</p><ul><li>Soft horizontal silhouette</li><li>Internal zippered pocket</li><li>Internal document pocket</li></ul>",
+    "shortDescription": "Esme keeps its horizontal shape simple, with soft leather and an understated exterior. Internal zippered and document pockets give smaller essentials their own place.",
+    "seo": {
+      "title": "Esme crossbody bag | Atelier Veyne",
+      "description": "Esme crossbody bag. Soft horizontal silhouette. Internal zippered pocket. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "Khaki",
+          "Caramel"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "26X16X9CM"
+        ]
+      }
+    ],
+    "tags": [
+      "crossbody-bag",
+      "cj-import",
+      "black",
+      "khaki",
+      "caramel"
+    ],
+    "suggestedCollections": [
+      "Crossbody bags"
+    ],
+    "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+    "templateSuffix": null,
+    "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+    "statusOnFirstUpload": "DRAFT",
+    "metafields": [
+      {
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Cowhide leather with polyester lining."
+      },
+      {
+        "namespace": "custom",
+        "key": "dimensions",
+        "type": "multi_line_text_field",
+        "value": "26 × 16 × 9 cm."
+      }
+    ],
+    "omittedMetafields": [
+      "custom.care"
+    ],
+    "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+  },
+  "variants": [
+    {
+      "cjVariantId": "2509070113221629800",
+      "cjProductId": "2509070113221629600",
+      "sku": "CJNS249060301AZ",
+      "barcode": "1600008014290",
+      "sourceOptionKey": "Black-26X16X9CM",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        },
+        {
+          "name": "Size",
+          "value": "26X16X9CM"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/f3b35731-8163-4a87-9a57-f2d3b0192ca2.jpg",
+      "supplierCost": {
+        "amount": "20.73",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 270,
+        "width": 200,
+        "height": 40,
+        "weight": 620,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2509070113221629900",
+      "cjProductId": "2509070113221629600",
+      "sku": "CJNS249060302BY",
+      "barcode": "1600008014291",
+      "sourceOptionKey": "Khaki-26X16X9CM",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Khaki"
+        },
+        {
+          "name": "Size",
+          "value": "26X16X9CM"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/351ab9fd-fa3e-4138-8d93-ff426276d3bc.jpg",
+      "supplierCost": {
+        "amount": "20.73",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 270,
+        "width": 200,
+        "height": 40,
+        "weight": 620,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2509070113231620100",
+      "cjProductId": "2509070113221629600",
+      "sku": "CJNS249060303CX",
+      "barcode": "1600008014292",
+      "sourceOptionKey": "Caramel-26X16X9CM",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Caramel"
+        },
+        {
+          "name": "Size",
+          "value": "26X16X9CM"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/4c153b15-9f68-4268-bbce-d51a7974c1e9.jpg",
+      "supplierCost": {
+        "amount": "20.73",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 270,
+        "width": 200,
+        "height": 40,
+        "weight": 620,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Khaki",
+      "proposedHex": "#9D8A67",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Caramel",
+      "proposedHex": "#A26636",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "pricing": {
+    "currency": "USD",
+    "suggestedPrice": "99.00",
+    "approved": false,
+    "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+    "excludes": [
+      "Shipping",
+      "Duties and import taxes",
+      "Payment fees",
+      "Returns",
+      "Advertising",
+      "Other operating costs"
+    ]
+  },
+  "specifications": {
+    "material": "Cowhide leather with polyester lining.",
+    "dimensions": "26 × 16 × 9 cm.",
+    "care": "General guidance for the leather exterior, not product-specific manufacturer instructions. Keep away from prolonged direct sunlight, heaters and damp storage. If wet, let the leather dry naturally away from heat. Do not machine wash or use household cleaners. Identify the finish before using a treatment; use only a suitable product and test an unseen area first. For stains or an unknown finish, consult a leather-care specialist. Follow any instructions supplied with your bag.",
+    "features": [
+      "Soft horizontal silhouette",
+      "Internal zippered pocket",
+      "Internal document pocket"
+    ],
+    "supplierFacts": [
+      "Description supplies 26 × 16 × 9; source size option explicitly confirms CM."
+    ]
+  },
+  "reviewIssues": [
+    "Dimension orientation is not stated; preserve supplier order."
+  ],
+  "publicationRequirements": [
+    "Owner approval of content, prices and generated photos",
+    "Resolve source specification/variant issues",
+    "Fresh Shopify authorization",
+    "Check existing product CJ IDs, SKUs and proposed handle before deciding create/update",
+    "Verify native CJ-to-Shopify variant fulfillment links",
+    "Verify stock, shipping weight, delivery regions and commercial policies",
+    "Check collection membership, swatches, templates and offer eligibility"
+  ],
+  "media": [
+    {
+      "file": "images/01-atelier-veyne.png",
+      "sourceFile": "../source/images/007-16ea45f0-a2a31790.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f3b35731-8163-4a87-9a57-f2d3b0192ca2.jpg",
+      "sourceSha256": "a2a31790dab3bb294923809394f711e901de997a3d216b5dfcba25a2de753b8d",
+      "sha256": "95bf05d0d5593350abd0382234c3ef0e39df822da080d615e796b9f354b67e3d",
+      "variantIds": [
+        "2509070113221629800"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "alt": "Esme crossbody bag in Black",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/02-atelier-veyne.png",
+      "sourceFile": "../source/images/008-c2551284-66dbb3c2.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/351ab9fd-fa3e-4138-8d93-ff426276d3bc.jpg",
+      "sourceSha256": "66dbb3c2fb2d9d15eb1aa559f5be071b6f63401e5b75e0d62fe50f0fc5a93e65",
+      "sha256": "5bccfbe6a18890ca5a2dd9558acce4a46312e149ec3a25988b3e2b6508f3fd13",
+      "variantIds": [
+        "2509070113221629900"
+      ],
+      "colors": [
+        "Khaki"
+      ],
+      "alt": "Esme crossbody bag in Khaki",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/03-atelier-veyne.png",
+      "sourceFile": "../source/images/003-0ad15ee7-ec2f8dae.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/4c153b15-9f68-4268-bbce-d51a7974c1e9.jpg",
+      "sourceSha256": "ec2f8daed96b630ed4493f53c2b058908260361a1facd0ac4ee92fd54bb216eb",
+      "sha256": "a3e22f805cc1d85c97f56c45fab4a01a632fe4b972ccd134b569403213b48059",
+      "variantIds": [
+        "2509070113231620100"
+      ],
+      "colors": [
+        "Caramel"
+      ],
+      "alt": "Esme crossbody bag in Caramel",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    }
+  ],
+  "ownerApproved": false
+}

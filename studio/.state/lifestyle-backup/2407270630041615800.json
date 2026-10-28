@@ -1,0 +1,166 @@
+{
+  "id": "2407270630041615800",
+  "cjProductSku": "CJNS2094768",
+  "title": "Luma shoulder bag",
+  "handle": "luma-shoulder-bag",
+  "description": "Luma has a softly shaped body with understated stitched detailing. The simple silhouette and internal compartment make it a quiet addition to an everyday wardrobe. Soft pillow-style silhouette Single-shoulder design Internal compartment",
+  "vendor": "Atelier Veyne",
+  "productType": "Shoulder bag",
+  "tags": [
+    "beige",
+    "black",
+    "cj-import",
+    "new-arrival",
+    "shoulder-bag"
+  ],
+  "seo": {
+    "title": "Luma shoulder bag | Atelier Veyne",
+    "description": "Luma shoulder bag. Soft pillow-style silhouette. Single-shoulder design. Discover considered everyday bags at Atelier Veyne."
+  },
+  "material": "Cowhide leather with polyester lining.",
+  "dimensions": "",
+  "care": "",
+  "variants": [
+    {
+      "cjVariantId": "2407270630041616000",
+      "cjProductId": "2407270630041615800",
+      "sku": "CJNS209476801AZ",
+      "barcode": "1600004315277",
+      "sourceOptionKey": "Black",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/f357d2c5-323e-4d21-952f-8c053d6e07df.jpg",
+      "supplierCost": {
+        "amount": "6.41",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "79.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 210,
+        "width": 140,
+        "height": 60,
+        "weight": 420,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2407270630041616200",
+      "cjProductId": "2407270630041615800",
+      "sku": "CJNS209476802BY",
+      "barcode": "1600004315278",
+      "sourceOptionKey": "Beige",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Beige"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/124d47b6-a8d7-4bb7-81c8-72db3f2a9fb4.jpg",
+      "supplierCost": {
+        "amount": "6.41",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "79.00",
+        "currency": "USD"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 210,
+        "width": 140,
+        "height": 60,
+        "weight": 420,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Beige",
+      "proposedHex": "#EEE7D1",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "images": [
+    {
+      "id": "d9810e4fe39d7d5b",
+      "file": "products/2407270630041615800/prepared/images/01-atelier-veyne.png",
+      "url": "/media/products/2407270630041615800/prepared/images/01-atelier-veyne.png",
+      "alt": "Luma shoulder bag in Black",
+      "variantIds": [
+        "2407270630041616000"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f357d2c5-323e-4d21-952f-8c053d6e07df.jpg"
+    },
+    {
+      "id": "e8807e822295dead",
+      "file": "products/2407270630041615800/prepared/images/02-atelier-veyne.png",
+      "url": "/media/products/2407270630041615800/prepared/images/02-atelier-veyne.png",
+      "alt": "Luma shoulder bag in Beige",
+      "variantIds": [
+        "2407270630041616200"
+      ],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/124d47b6-a8d7-4bb7-81c8-72db3f2a9fb4.jpg"
+    },
+    {
+      "id": "c8853fd858699553",
+      "file": "products/2407270630041615800/prepared/images/03-atelier-veyne.png",
+      "url": "/media/products/2407270630041615800/prepared/images/03-atelier-veyne.png",
+      "alt": "Luma shoulder bag, additional view",
+      "variantIds": [],
+      "enabled": true,
+      "kind": "branded",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/94032383-44d7-44e1-b2c2-f2918fe859ae.jpg"
+    }
+  ],
+  "reviewNotes": [
+    "No dependable product dimensions in descriptive text; do not substitute variant shipping/package measurements."
+  ],
+  "resolvedNotes": [],
+  "replaceGallery": true,
+  "savedAt": null,
+  "sourceName": "Leather Large Capacity Shoulder Crossbody Bag",
+  "sourceDescription": "Product information: Lining texture: Polyester Applicable scenario: Daily matching Color: Black, Milky White Outer bag type: Sandwich pocket Leather features: first layer cowhide Hardness: soft Material: genuine leather Suitcase shape: type of pillow Popular elements: sewing thread Style: business commute Size: Packing list: Single-shoulder bag*1 Product Image:",
+  "fulfillment": {
+    "sourceCountryCode": "CN",
+    "defaultArea": 1,
+    "targetCountryCode": "",
+    "logistics": "",
+    "locationIds": [],
+    "deliveryProfileId": ""
+  },
+  "collectionIds": [],
+  "templateSuffix": "",
+  "taxable": false
+}

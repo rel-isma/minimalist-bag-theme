@@ -1,0 +1,54 @@
+[
+  {
+    "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+    "cjVariantId": "047C6A32-C0E3-4D59-8D51-26E37A3DBA88",
+    "sku": "CJBHNSNS27768-Black",
+    "sourceOptionKey": "Black",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/2044/35115917318.jpg"
+  },
+  {
+    "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+    "cjVariantId": "04AA4F85-E5F3-4BCD-8821-3460A76F3F45",
+    "sku": "CJBHNSNS27768-Earthy yellow",
+    "sourceOptionKey": "Earthy yellow",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Earthy yellow"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/2044/2103869739470.jpg"
+  },
+  {
+    "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+    "cjVariantId": "3636A15F-751B-402A-9A74-D362D99CFB84",
+    "sku": "CJBHNSNS27768-Coffee",
+    "sourceOptionKey": "Coffee",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Coffee"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/2044/663113957872.jpg"
+  },
+  {
+    "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+    "cjVariantId": "EA26C552-7EC1-4A6D-9779-B951C7EF6728",
+    "sku": "CJBHNSNS27768-Red",
+    "sourceOptionKey": "Red",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Red"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/2044/3078256194364.jpg"
+  }
+]

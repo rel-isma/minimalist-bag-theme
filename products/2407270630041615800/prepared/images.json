@@ -1,0 +1,52 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/019-8ec89bc8-1ee7e3a7.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f357d2c5-323e-4d21-952f-8c053d6e07df.jpg",
+    "sourceSha256": "1ee7e3a72474ce1051b8df249dc05ecb36af3c61563d4ce31e4ed620d1a5ccd1",
+    "sha256": "4411b36d57152777942aa024d0b1d519fd5b7c1a26f127dcab4e83d7d7520265",
+    "variantIds": [
+      "2407270630041616000"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Luma shoulder bag in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/003-eed5164c-4cb2c7ee.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/124d47b6-a8d7-4bb7-81c8-72db3f2a9fb4.jpg",
+    "sourceSha256": "4cb2c7eebcfbf34f466b10453e99c277a95e1a6b2b351f65101b484e1b0b6ac8",
+    "sha256": "b4ab0f6a7c0b0f1776084a6f92f5cc580a3e77065e9ad3146b6e7044bd73cf7d",
+    "variantIds": [
+      "2407270630041616200"
+    ],
+    "colors": [
+      "Beige"
+    ],
+    "alt": "Luma shoulder bag in Beige",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/001-8f10179e-1a8f2ee8.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/94032383-44d7-44e1-b2c2-f2918fe859ae.jpg",
+    "sourceSha256": "1a8f2ee8d4fa2a1d47562c37918859e22be86369cd5ddd05ca217ebd6ace3d7f",
+    "sha256": "9d5d8f4246a911821fae0f68d8291922436bf2f398a4db714109ef3aebfc6be3",
+    "variantIds": [],
+    "colors": [],
+    "alt": "Luma shoulder bag, additional view",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

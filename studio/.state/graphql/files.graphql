@@ -1,0 +1,1 @@
+mutation StudioFiles($files:[FileCreateInput!]!){fileCreate(files:$files){files{id fileStatus ... on MediaImage{image{url}}}userErrors{field message}}}

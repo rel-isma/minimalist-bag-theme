@@ -1,0 +1,32 @@
+[
+  {
+    "shopId": "2610192154423535300",
+    "id": "114800427327",
+    "name": "cjdropshipping",
+    "isExistDeliveryProfile": true,
+    "fromCj": true,
+    "cjWarehouseId": "0",
+    "deliveryProfileIds": [
+      "134383960383"
+    ],
+    "isSupportActuarial": false,
+    "cjWarehouseCountryCode": null,
+    "canSelect": false,
+    "notSelectReason": "This location has already been bound to a Delivery Profile and does not currently support selection."
+  },
+  {
+    "shopId": "2610192154423535300",
+    "id": "114770706751",
+    "name": "El Massira",
+    "isExistDeliveryProfile": true,
+    "fromCj": false,
+    "cjWarehouseId": null,
+    "deliveryProfileIds": [
+      "134354403647"
+    ],
+    "isSupportActuarial": false,
+    "cjWarehouseCountryCode": null,
+    "canSelect": false,
+    "notSelectReason": "This location was not created by a service application and does not currently support selection."
+  }
+]

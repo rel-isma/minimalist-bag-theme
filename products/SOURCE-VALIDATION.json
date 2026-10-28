@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-23T10:01:27.162Z",
+  "products": 16,
+  "variants": 61,
+  "selectedImageFiles": 119,
+  "maximumImagesPerProduct": 8,
+  "descriptionOnlyImages": 0,
+  "checks": [
+    "Only product-gallery and variant URLs selected",
+    "At most eight images per product",
+    "Identical SHA-256 images deduplicated within each product",
+    "Every variant image represented directly or by identical image content",
+    "All selected files match recorded SHA-256"
+  ],
+  "errors": [],
+  "passed": true,
+  "scope": "Source image selection only; not final branded images or Shopify publishing."
+}

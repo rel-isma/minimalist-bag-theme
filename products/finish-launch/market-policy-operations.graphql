@@ -1,0 +1,7 @@
+query FinishPages{pages(first:30){pageInfo{hasNextPage}nodes{id title handle body templateSuffix updatedAt}}shop{contactEmail shopPolicies{type body url}}}
+mutation FinishPageUpdate($id:ID!,$page:PageUpdateInput!){pageUpdate(id:$id,page:$page){page{id handle body}userErrors{field message}}}
+mutation FinishPolicy($shopPolicy:ShopPolicyInput!){shopPolicyUpdate(shopPolicy:$shopPolicy){shopPolicy{type body url}userErrors{field message}}}
+mutation FinishMarketCreate($input:MarketCreateInput!){marketCreate(input:$input){market{id name status}userErrors{field message}}}
+mutation FinishMarketUpdate($id:ID!,$input:MarketUpdateInput!){marketUpdate(id:$id,input:$input){market{id name status}userErrors{field message}}}
+query FinishProfiles{deliveryProfiles(first:10){nodes{id name default profileLocationGroups{locationGroup{id locations(first:20,includeLegacy:true){nodes{id name}}}}}}}
+mutation FinishProfile($id:ID!,$profile:DeliveryProfileInput!){deliveryProfileUpdate(id:$id,profile:$profile){profile{id name}userErrors{field message}}}

@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-10-25T16:49:08.076Z",
+  "passed": true,
+  "products": [
+    {
+      "id": "2602240521431615000",
+      "title": "Lune zip handbag",
+      "variants": 3,
+      "images": 5,
+      "lifestyleImages": 2,
+      "interiorImages": 0,
+      "suggestedRetail": "109.00",
+      "errors": [],
+      "notesPending": 5
+    },
+    {
+      "id": "2604020624051609200",
+      "title": "Reed baguette bag",
+      "variants": 3,
+      "images": 5,
+      "lifestyleImages": 1,
+      "interiorImages": 0,
+      "suggestedRetail": "89.00",
+      "errors": [],
+      "notesPending": 5
+    },
+    {
+      "id": "2608221231211620900",
+      "title": "Alba mini crossbody bag",
+      "variants": 6,
+      "images": 8,
+      "lifestyleImages": 1,
+      "interiorImages": 1,
+      "suggestedRetail": "99.00",
+      "errors": [],
+      "notesPending": 5
+    },
+    {
+      "id": "2607070313251623100",
+      "title": "Ellis long-handle bag",
+      "variants": 2,
+      "images": 5,
+      "lifestyleImages": 3,
+      "interiorImages": 0,
+      "suggestedRetail": "109.00",
+      "errors": [],
+      "notesPending": 5
+    },
+    {
+      "id": "2606280932411629600",
+      "title": "Iris soft shoulder bag",
+      "variants": 6,
+      "images": 8,
+      "lifestyleImages": 2,
+      "interiorImages": 0,
+      "suggestedRetail": "99.00",
+      "errors": [],
+      "notesPending": 5
+    },
+    {
+      "id": "2608040718451626300",
+      "title": "Wren bowling bag",
+      "variants": 5,
+      "images": 7,
+      "lifestyleImages": 1,
+      "interiorImages": 0,
+      "suggestedRetail": "129.00",
+      "errors": [],
+      "notesPending": 5
+    }
+  ],
+  "noRemoteWrites": true,
+  "method": "Original CJ identities and SKUs retained; every variant has an assigned color photo; 3:4 PNG media exist with source links and hashes; descriptions/SEO validated. Visual review is separate from structural validation."
+}

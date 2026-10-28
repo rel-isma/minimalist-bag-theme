@@ -1,0 +1,17 @@
+{
+  "id": "4f2d3800-32f3-4308-8dae-6550a0eef753",
+  "type": "batch",
+  "title": "Connect 1 products to CJ",
+  "status": "complete",
+  "startedAt": "2026-10-23T19:20:36.342Z",
+  "events": [
+    {
+      "at": "2026-10-23T19:20:36.346Z",
+      "message": "Connecting Elin bucket bag"
+    }
+  ],
+  "children": [
+    "6ed0d317-d711-41ca-adf4-5670f5c4efa4"
+  ],
+  "finishedAt": "2026-10-23T19:21:07.368Z"
+}

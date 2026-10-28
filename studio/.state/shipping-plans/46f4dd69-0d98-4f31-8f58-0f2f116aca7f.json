@@ -1,0 +1,52 @@
+{
+  "id": "46f4dd69-0d98-4f31-8f58-0f2f116aca7f",
+  "createdAt": 1793115854159,
+  "fingerprint": "6b803a0f97503689a7c838acfd039edd193125284293313e4aa1b32cd03a4639",
+  "profileId": "gid://shopify/DeliveryProfile/134383960383",
+  "profile": {
+    "locationGroupsToUpdate": [
+      {
+        "id": "gid://shopify/DeliveryLocationGroup/136101298495",
+        "zonesToCreate": [
+          {
+            "name": "Atelier · United States",
+            "countries": [
+              {
+                "code": "US",
+                "includeAllProvinces": true
+              }
+            ],
+            "methodDefinitionsToCreate": [
+              {
+                "name": "Standard tracked shipping",
+                "active": true,
+                "rateDefinition": {
+                  "price": {
+                    "amount": 19.95,
+                    "currencyCode": "USD"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "profile": "General shipping profile",
+    "group": "cjdropshipping",
+    "country": "United States",
+    "countryCode": "US",
+    "rateName": "Standard tracked shipping",
+    "amount": 19.95,
+    "active": true,
+    "action": "Add flat rate",
+    "market": "Market inactive",
+    "coverage": "New country zones include all provinces.",
+    "impact": "This shipping profile can be shared by several products. This changes customer checkout rates for all products using this profile and location group; it does not change CJ supplier costs or enable a market."
+  },
+  "startedAt": "2026-10-27T15:44:19.004Z",
+  "complete": true,
+  "finishedAt": "2026-10-27T15:44:24.129Z"
+}

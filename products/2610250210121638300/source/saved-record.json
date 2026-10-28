@@ -1,0 +1,51 @@
+{
+  "productId": "2610250210121638300",
+  "userId": null,
+  "packWeight": "850.00",
+  "weight": "830.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/2dd8605c-4410-4b98-9653-a6b85a92c07e.jpg",
+  "nameEn": "Autumn And Winter New Double Compartment Leather Handbag Toast Boston Bag",
+  "sku": "CJNS3368310",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": [],
+  "createAt": 1792908741307,
+  "sellPrice": "20.83",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "CJPacket Ordinary",
+  "trialCountry": null,
+  "trialFreight": "0",
+  "totalPrice": "20.83",
+  "listedShopNum": "0",
+  "listedShopIds": [],
+  "vid": "2610250210121639200",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    300,
+    300
+  ],
+  "heightList": [
+    200,
+    200
+  ],
+  "widthList": [
+    250,
+    250
+  ],
+  "volumeList": [
+    15000000,
+    15000000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_id": "2610250210121638300"
+}

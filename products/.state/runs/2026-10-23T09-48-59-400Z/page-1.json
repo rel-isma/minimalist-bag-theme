@@ -1,0 +1,836 @@
+{
+  "pageSize": 20,
+  "pageNumber": 1,
+  "totalRecords": 16,
+  "totalPages": 1,
+  "content": [
+    {
+      "productId": "2408310805071622300",
+      "userId": null,
+      "packWeight": "420.00-578.00",
+      "weight": "400.00-525.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/e487ed20-fb46-4719-8e5b-e33454245da3.jpg",
+      "nameEn": "Genuine Leather High-grade Bag For Women",
+      "sku": "CJNS2125012",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792497341000,
+      "sellPrice": "19.07",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "10.11-12.52",
+      "totalPrice": "29.18-31.59",
+      "listedShopNum": "0",
+      "listedShopIds": [],
+      "vid": "2408310805071622500",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        230,
+        230
+      ],
+      "heightList": [
+        60,
+        60
+      ],
+      "widthList": [
+        170,
+        170
+      ],
+      "volumeList": [
+        2346000,
+        2346000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "1756516170586402816",
+      "userId": null,
+      "packWeight": "630.00-1283.00",
+      "weight": "610.00-1166.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/12ccb826-2d46-47bd-9401-8056249bd5d0.jpg",
+      "nameEn": "Bucket Leather Shoulder Messenger Bag Large Capacity",
+      "sku": "CJNS1967045",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792496341000,
+      "sellPrice": "24.05",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "13.30",
+      "totalPrice": "37.35",
+      "listedShopNum": "0",
+      "listedShopIds": [],
+      "vid": "1756516170695454720",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        240,
+        240
+      ],
+      "heightList": [
+        50,
+        50
+      ],
+      "widthList": [
+        180,
+        180
+      ],
+      "volumeList": [
+        2160000,
+        2160000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "2602021300441600000",
+      "userId": null,
+      "packWeight": "694.00",
+      "weight": "674.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/b819398d-2b07-4fda-805a-faa8852b5a3f.jpg",
+      "nameEn": "New Large-capacity Shoulder And Crossbody Bag",
+      "sku": "CJNS2752129",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792496065000,
+      "sellPrice": "24.71",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "14.28",
+      "totalPrice": "38.99",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "2602021300441600700",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        300,
+        300
+      ],
+      "heightList": [
+        150,
+        150
+      ],
+      "widthList": [
+        220,
+        220
+      ],
+      "volumeList": [
+        9900000,
+        9900000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "2607121014121623000",
+      "userId": null,
+      "packWeight": "580.00",
+      "weight": "550.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/7503337a-2002-4a71-88ae-cbbf3b6a7d57.jpg",
+      "nameEn": "Retro Light-Luxury Vegetable-Tanned Leather ShoulderCrossbody Bag",
+      "sku": "CJNS2981009",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792492396000,
+      "sellPrice": "16.58",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "12.54",
+      "totalPrice": "29.12",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "2607121014121624900",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        250,
+        250
+      ],
+      "heightList": [
+        100,
+        100
+      ],
+      "widthList": [
+        150,
+        150
+      ],
+      "volumeList": [
+        3750000,
+        3750000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "1458719239455248384",
+      "userId": null,
+      "packWeight": "916.00",
+      "weight": "200.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/ae6399cb-7451-4bb1-bfe2-815b457ba9c8.jpg",
+      "nameEn": "Original Fashion One-shoulder Soft Leather Bucket Bag",
+      "sku": "CJNS1349960",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792492258000,
+      "sellPrice": "22.65",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "16.73",
+      "totalPrice": "39.38",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "1458719239522357248",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        300,
+        300
+      ],
+      "heightList": [
+        60,
+        60
+      ],
+      "widthList": [
+        200,
+        200
+      ],
+      "volumeList": [
+        3600000,
+        3600000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "1731929813339873280",
+      "userId": null,
+      "packWeight": "1020.00",
+      "weight": "1000.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/3070c183-722f-4e72-9518-bd9967d6d0c6.jpg",
+      "nameEn": "Women's Fashion Simple Portable Oil Wax Cattle Leather Bag",
+      "sku": "CJNS1913547",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792492170000,
+      "sellPrice": "21.39",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "18.30",
+      "totalPrice": "39.69",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "1731929813742526464",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        300,
+        300
+      ],
+      "heightList": [
+        30,
+        30
+      ],
+      "widthList": [
+        200,
+        200
+      ],
+      "volumeList": [
+        1800000,
+        1800000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "2607070853511612201",
+      "userId": null,
+      "packWeight": "700.00",
+      "weight": "680.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/1b27bb20-e9b1-4cef-ac8d-7984e183cfe1.jpg",
+      "nameEn": "Luxury Niche One-Shoulder Tote Bag For Women",
+      "sku": "CJNS2972274",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792492034000,
+      "sellPrice": "17.91",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "14.37",
+      "totalPrice": "32.28",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "2607070853511613600",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        200,
+        200
+      ],
+      "heightList": [
+        100,
+        100
+      ],
+      "widthList": [
+        120,
+        120
+      ],
+      "volumeList": [
+        2400000,
+        2400000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+      "userId": null,
+      "packWeight": "750.0",
+      "weight": "730.0",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/2044/35115917318.jpg",
+      "nameEn": "Leather casual fashion oil wax leather bag",
+      "sku": "CJBHNSNS27768",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792491973000,
+      "sellPrice": "12.20",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "14.20",
+      "totalPrice": "26.40",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "047C6A32-C0E3-4D59-8D51-26E37A3DBA88",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        270,
+        270
+      ],
+      "heightList": [
+        150,
+        150
+      ],
+      "widthList": [
+        100,
+        100
+      ],
+      "volumeList": [
+        4050000,
+        4050000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "2506110631251623700",
+      "userId": null,
+      "packWeight": "950.00",
+      "weight": "930.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://oss-cf.cjdropshipping.com/product/2025/06/11/09/00f0c595-1325-4c03-925d-db46dbcf2d71.jpg",
+      "nameEn": "Top Layer Cowhide Dual-use Women's Shoulder Messenger Bag Large Capacity",
+      "sku": "CJNS2398878",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792491871000,
+      "sellPrice": "39.30",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "17.24",
+      "totalPrice": "56.54",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "2506110631251623900",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        300,
+        300
+      ],
+      "heightList": [
+        40,
+        40
+      ],
+      "widthList": [
+        200,
+        200
+      ],
+      "volumeList": [
+        2400000,
+        2400000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "2072251249807106049",
+      "userId": null,
+      "packWeight": "1000",
+      "weight": "1000",
+      "productType": "4",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/338d8252-9fba-4338-a4cc-0c3756699db8.jpg",
+      "nameEn": "Vintage First-layer Vegetable-tanned Leather Pillow Bag, Large-capacity Genuine Leather Women's Bag, Cross-border European And American Style Single-shoulder Underarm Bag",
+      "sku": "CJNS2963035",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792491681000,
+      "sellPrice": "24.51",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "18.00",
+      "totalPrice": "42.51",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "2072251249920352258",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        330,
+        330
+      ],
+      "heightList": [
+        140,
+        140
+      ],
+      "widthList": [
+        130,
+        130
+      ],
+      "volumeList": [
+        6006000,
+        6006000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "2410190505071604800",
+      "userId": null,
+      "packWeight": "820.00",
+      "weight": "800.00-813.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/78f5eda9-dd12-4699-8a17-6d2e666c5de3.jpg",
+      "nameEn": "New Simple Large Capacity Totes Women",
+      "sku": "CJNS2164568",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792491476000,
+      "sellPrice": "8.13",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "15.27",
+      "totalPrice": "23.40",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "2410190505071605700",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        300,
+        300
+      ],
+      "heightList": [
+        100,
+        100
+      ],
+      "widthList": [
+        200,
+        200
+      ],
+      "volumeList": [
+        6000000,
+        6000000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "2412070748501605500",
+      "userId": null,
+      "packWeight": "570.00",
+      "weight": "550.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/ca07bd30-b5f2-449c-8153-30a564dd1943.jpg",
+      "nameEn": "Fashion Retro Portable Messenger Bag",
+      "sku": "CJYD2236426",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792491096000,
+      "sellPrice": "5.31",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "12.39",
+      "totalPrice": "17.70",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "2412070748501605700",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        300,
+        300
+      ],
+      "heightList": [
+        100,
+        100
+      ],
+      "widthList": [
+        200,
+        200
+      ],
+      "volumeList": [
+        6000000,
+        6000000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "2407270630041615800",
+      "userId": null,
+      "packWeight": "420.00",
+      "weight": "400.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/94032383-44d7-44e1-b2c2-f2918fe859ae.jpg",
+      "nameEn": "Leather Large Capacity Shoulder Crossbody Bag",
+      "sku": "CJNS2094768",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792490199000,
+      "sellPrice": "6.41",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "10.11",
+      "totalPrice": "16.52",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "2407270630041616200",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        210,
+        210
+      ],
+      "heightList": [
+        60,
+        60
+      ],
+      "widthList": [
+        140,
+        140
+      ],
+      "volumeList": [
+        1764000,
+        1764000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "2606090550321621400",
+      "userId": null,
+      "packWeight": "1350.00",
+      "weight": "1300.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/dc0b0906-0aae-4876-803d-e67c1d36463e.jpg",
+      "nameEn": "Womens Niche, High-end Womens Bag For Summer",
+      "sku": "CJNS2927246",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792490087000,
+      "sellPrice": "13.72-25.70",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "23.33",
+      "totalPrice": "37.05-49.03",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "2606090550321622800",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        320,
+        320
+      ],
+      "heightList": [
+        230,
+        230
+      ],
+      "widthList": [
+        150,
+        150
+      ],
+      "volumeList": [
+        11040000,
+        11040000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "2509070113221629600",
+      "userId": null,
+      "packWeight": "620.00",
+      "weight": "576.00-600.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/119694e4-d9d8-402e-9f51-afd7f0d31db9.jpg",
+      "nameEn": "Leather Shoulder Bag Women's Cowhide All-matching",
+      "sku": "CJNS2490603",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792489429000,
+      "sellPrice": "20.73",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "LuWei Ordinary US",
+      "trialCountry": "US",
+      "trialFreight": "13.15",
+      "totalPrice": "33.88",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "2509070113221629800",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        270,
+        270
+      ],
+      "heightList": [
+        40,
+        40
+      ],
+      "widthList": [
+        200,
+        200
+      ],
+      "volumeList": [
+        2160000,
+        2160000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    },
+    {
+      "productId": "2510110122001632000",
+      "userId": null,
+      "packWeight": "400.00-679.00",
+      "weight": "380.00-617.00",
+      "productType": "0",
+      "propertyKeyList": [
+        "COMMON"
+      ],
+      "bigImage": "https://cf.cjdropshipping.com/quick/product/a32b0d93-16f6-40b7-981b-ec023e635ccb.jpg",
+      "nameEn": "Women's Fashion Genuine Leather Portable Crossbody Bag",
+      "sku": "CJNS2554982",
+      "isPod": 0,
+      "hasPacked": 0,
+      "folderId": null,
+      "createAt": 1792454383000,
+      "sellPrice": "18.91",
+      "discountPrice": null,
+      "discountPriceRate": null,
+      "defaultArea": "China Warehouse",
+      "shopMethod": "CJPacket Ordinary",
+      "trialCountry": "US",
+      "trialFreight": "10.40-15.06",
+      "totalPrice": "29.31-33.97",
+      "listedShopNum": "1",
+      "listedShopIds": [
+        "2610192154423535300"
+      ],
+      "vid": "2510110122001632300",
+      "areaId": "1",
+      "areaCountryCode": "CN",
+      "freightDiscount": "0",
+      "lengthList": [
+        230,
+        230
+      ],
+      "heightList": [
+        100,
+        100
+      ],
+      "widthList": [
+        140,
+        140
+      ],
+      "volumeList": [
+        3220000,
+        3220000
+      ],
+      "addMarkStatus": "0",
+      "isSafeProduct": false,
+      "hasVirPacked": 0
+    }
+  ]
+}

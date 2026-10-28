@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-27T14:29:06.846Z",
+  "uploaded": true,
+  "theme": "atelier-veyne-theme",
+  "role": "UNPUBLISHED",
+  "checks": [
+    {
+      "filename": "templates/index.json",
+      "matchesPrepared": true
+    },
+    {
+      "filename": "sections/product-recommendations.liquid",
+      "matchesPrepared": true
+    }
+  ],
+  "bestSellersCollection": "best-sellers"
+}

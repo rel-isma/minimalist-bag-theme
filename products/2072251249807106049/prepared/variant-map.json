@@ -1,0 +1,67 @@
+[
+  {
+    "cjProductId": "2072251249807106049",
+    "cjVariantId": "2072251249920352258",
+    "sku": "CJNS296303501AZ",
+    "sourceOptionKey": "Coffee Brown",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Coffee Brown"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/21e18088-c404-4d9d-83f1-251ab4dc94a8.jpg"
+  },
+  {
+    "cjProductId": "2072251249807106049",
+    "cjVariantId": "2072251249920352259",
+    "sku": "CJNS296303502BY",
+    "sourceOptionKey": "Black",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/de4df96f-069d-43a6-b8be-eb51197b7517.jpg"
+  },
+  {
+    "cjProductId": "2072251249807106049",
+    "cjVariantId": "2072251249920352260",
+    "sku": "CJNS296303503CX",
+    "sourceOptionKey": "Elephant gray",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Elephant gray"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/23442b0a-3860-4d66-be35-b54b8a147538.jpg"
+  },
+  {
+    "cjProductId": "2072251249807106049",
+    "cjVariantId": "2072251249920352261",
+    "sku": "CJNS296303504DW",
+    "sourceOptionKey": "Off white",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Off white"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/644f31c4-92c0-41bd-9cde-a62be0bbc381.jpg"
+  },
+  {
+    "cjProductId": "2072251249807106049",
+    "cjVariantId": "2072251249920352262",
+    "sku": "CJNS296303505EV",
+    "sourceOptionKey": "Encore Red",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Encore Red"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/ca5fe22c-4a13-44ff-ac6d-484b46f10ac1.jpg"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-25T17:28:30.213Z",
+  "passed": true,
+  "results": [
+    {
+      "country": "US",
+      "variants": 3,
+      "commonMethods": 29,
+      "example": {
+        "method": "LuWei Ordinary US",
+        "unitMin": 13,
+        "unitMax": 13
+      },
+      "profiles": 1
+    },
+    {
+      "country": "CA",
+      "variants": 3,
+      "commonMethods": 16,
+      "example": {
+        "method": "CJPacket Ordinary",
+        "unitMin": 10.88,
+        "unitMax": 10.88
+      },
+      "profiles": 1
+    }
+  ],
+  "liveShopifyWrites": false,
+  "listingDefaultsUnchanged": true
+}

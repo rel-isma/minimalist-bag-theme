@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-27T15:02:02.109Z",
+  "events": [
+    "Removing empty store location for CJNS212501201AZ so CJ handles stock",
+    "Removing empty store location for CJNS212501202BY so CJ handles stock",
+    "Removing empty store location for CJNS212501203CX so CJ handles stock"
+  ],
+  "result": {
+    "configured": true,
+    "locationId": "gid://shopify/Location/114800427327",
+    "variants": 3,
+    "quantitiesWritten": false,
+    "available": 35092
+  }
+}

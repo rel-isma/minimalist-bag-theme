@@ -1,0 +1,52 @@
+{
+  "id": "4bade942-8fc9-4d2f-a5bc-7ab224d12264",
+  "type": "batch",
+  "title": "Connect 8 products to CJ",
+  "status": "complete",
+  "startedAt": "2026-10-23T18:49:59.131Z",
+  "events": [
+    {
+      "at": "2026-10-23T18:49:59.136Z",
+      "message": "Connecting Alder bucket bag"
+    },
+    {
+      "at": "2026-10-23T18:50:12.148Z",
+      "message": "Connecting Sora bucket bag"
+    },
+    {
+      "at": "2026-10-23T18:50:27.160Z",
+      "message": "Connecting Orla barrel bag"
+    },
+    {
+      "at": "2026-10-23T18:50:42.170Z",
+      "message": "Connecting Linden zip handbag"
+    },
+    {
+      "at": "2026-10-23T18:50:56.177Z",
+      "message": "Connecting Rhea crossbody bag"
+    },
+    {
+      "at": "2026-10-23T18:51:11.187Z",
+      "message": "Connecting Luma shoulder bag"
+    },
+    {
+      "at": "2026-10-23T18:51:28.193Z",
+      "message": "Connecting Esme crossbody bag"
+    },
+    {
+      "at": "2026-10-23T18:51:43.208Z",
+      "message": "Connecting Milo compact crossbody"
+    }
+  ],
+  "children": [
+    "87e80a97-c600-47a8-b260-8343f813592f",
+    "6f82f690-a1fc-4fec-bc7b-96a6de0ebbe3",
+    "217c77bc-808f-4e3c-bfca-b1008e0a3c89",
+    "e99278fe-611f-4399-8cc7-f02ea51ccb8b",
+    "fe33c06c-781c-4c9e-af0b-87bfd60c240d",
+    "c427765d-c564-46af-af62-afebe249dd08",
+    "5f74a172-47e3-4190-b3f5-e82cfeacd4f2",
+    "07b312c4-368f-46de-bf67-20a2a7970b0d"
+  ],
+  "finishedAt": "2026-10-23T18:51:59.553Z"
+}

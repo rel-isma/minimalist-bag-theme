@@ -1,0 +1,408 @@
+{
+  "id": "gid://shopify/Product/15464427880767",
+  "title": "Iris soft shoulder bag",
+  "handle": "iris-soft-shoulder-bag",
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67861458846015",
+        "sku": "CJNS295878201AZ",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 6889,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Beige"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69847634346303",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69847634346303",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 6889
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 6889
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861458878783",
+        "sku": "CJNS295878202BY",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 7267,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Elephant Gray"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69847634379071",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69847634379071",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 7267
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 7267
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861458911551",
+        "sku": "CJNS295878203CX",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 7345,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Pink"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69847634411839",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69847634411839",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 7345
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 7345
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861458944319",
+        "sku": "CJNS295878204DW",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 6238,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Brown"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69847634444607",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69847634444607",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 6238
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 6238
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861458977087",
+        "sku": "CJNS295878205EV",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 8445,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69847634477375",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69847634477375",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 8445
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 8445
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861459009855",
+        "sku": "CJNS295878206FU",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 7836,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Blue"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69847634510143",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69847634510143",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 7836
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 7836
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metafield/191424323977535",
+        "namespace": "global",
+        "key": "title_tag",
+        "type": "string",
+        "value": "Iris soft shoulder bag | Atelier Veyne",
+        "compareDigest": "eac7eeb51b8952f29a50d20842d38c7828cc8f6605cfed2f65ab17bc411c0ae1"
+      },
+      {
+        "id": "gid://shopify/Metafield/191424324010303",
+        "namespace": "global",
+        "key": "description_tag",
+        "type": "string",
+        "value": "Explore Iris, a softly shaped leather shoulder bag with a single handle and discreet silver-tone turn lock. Six colors, by Atelier Veyne.",
+        "compareDigest": "b7915efb31875478d81656b32bb490917574134f51dbcf169b463ea199f48bdd"
+      },
+      {
+        "id": "gid://shopify/Metafield/191424354910527",
+        "namespace": "custom",
+        "key": "cj_product_id",
+        "type": "single_line_text_field",
+        "value": "2606280932411629600",
+        "compareDigest": "c11f3d8c65a75dd32d22a9a8677f9ff93a99726407dca751e3c992a62fb59461"
+      },
+      {
+        "id": "gid://shopify/Metafield/191424354943295",
+        "namespace": "custom",
+        "key": "color_swatches",
+        "type": "json",
+        "value": "{\"Beige\":\"#E8DFD2\",\"Elephant Gray\":\"#B6A08A\",\"Pink\":\"#E7BBC7\",\"Brown\":\"#4B363A\",\"Black\":\"#24252A\",\"Blue\":\"#AFC9DF\"}",
+        "compareDigest": "ef90b7b652943fc640d5906578eabca1ea8844a53a78c11b5065950c93f2ce03"
+      },
+      {
+        "id": "gid://shopify/Metafield/191424354976063",
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Leather exterior with polyester-cotton lining.",
+        "compareDigest": "52b56370fd31b6278c3aa912b3fa4fdaea39cece3f92a355fe6856d52c90c77d"
+      },
+      {
+        "id": "gid://shopify/Metafield/191424355008831",
+        "namespace": "custom",
+        "key": "dimensions",
+        "type": "multi_line_text_field",
+        "value": "ffdgdfgfdg",
+        "compareDigest": "7a0052bb6d2a6661125a398e7c3dee710b13448fb320c9d9d5171c6f63703e0a"
+      },
+      {
+        "id": "gid://shopify/Metafield/191424355041599",
+        "namespace": "custom",
+        "key": "care",
+        "type": "multi_line_text_field",
+        "value": "dfgfdgfdgdgf",
+        "compareDigest": "20a7f3c9d4da8b259e57358beacf42a9b4e0ba5923897cb7a8dc47d41da2e51f"
+      }
+    ]
+  }
+}

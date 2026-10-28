@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-25T17:34:14.837Z",
+  "passed": true,
+  "checks": [
+    "Cross-site access rejected",
+    "DNS rebinding host rejected",
+    "Write without local CSRF token rejected",
+    "Credential and account state files cannot be downloaded",
+    "Immutable CJ SKU and image path validation enforced by HTTP API",
+    "Local edits persist and reload; original draft restored after test",
+    "Publishing cannot start without an approved review plan"
+  ],
+  "externalWrites": false
+}

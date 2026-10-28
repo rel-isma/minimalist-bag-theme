@@ -1,0 +1,53 @@
+[
+  {
+    "cjProductId": "2509070113221629600",
+    "cjVariantId": "2509070113221629800",
+    "sku": "CJNS249060301AZ",
+    "sourceOptionKey": "Black-26X16X9CM",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Size",
+        "value": "26X16X9CM"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/f3b35731-8163-4a87-9a57-f2d3b0192ca2.jpg"
+  },
+  {
+    "cjProductId": "2509070113221629600",
+    "cjVariantId": "2509070113221629900",
+    "sku": "CJNS249060302BY",
+    "sourceOptionKey": "Khaki-26X16X9CM",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Khaki"
+      },
+      {
+        "name": "Size",
+        "value": "26X16X9CM"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/351ab9fd-fa3e-4138-8d93-ff426276d3bc.jpg"
+  },
+  {
+    "cjProductId": "2509070113221629600",
+    "cjVariantId": "2509070113231620100",
+    "sku": "CJNS249060303CX",
+    "sourceOptionKey": "Caramel-26X16X9CM",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Caramel"
+      },
+      {
+        "name": "Size",
+        "value": "26X16X9CM"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/4c153b15-9f68-4268-bbce-d51a7974c1e9.jpg"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "2608040718451626300",
+  "title": "Wren bowling bag",
+  "color": "Ebony Colors",
+  "mode": "composite",
+  "reference": "products/2608040718451626300/source/images/02-5caeb61c1a93.jpg",
+  "sourceUrl": "https://cf.cjdropshipping.com/quick/product/8b0bd117-701f-41ed-a0a2-066dc8116fe7.jpg",
+  "output": "products/2608040718451626300/prepared/images/lifestyle-woman-v1.png",
+  "status": "visually_reviewed",
+  "prompt": "Create one photorealistic premium Atelier Veyne e-commerce lifestyle composite using the supplied original CJ bag photograph as the strict product reference. Show an ADULT woman naturally carrying this exact Wren bowling bag in Ebony Colors, holding its EXISTING short handles in one hand near her thigh; keep the product fully visible.  Preserve the product's EXACT silhouette, color, texture, seam pattern, hardware, handle length, zipper/closure, pocket shapes and existing strap attachment points. The source photo defines the bag: do not invent or simplify its design, recolor it, add an extra strap or pocket, or change its proportions. If an existing long strap is visible, let it hang naturally without altering it. The adult woman wears tasteful ivory or taupe minimalist clothing. Crop face out, torso-to-thigh editorial framing; natural hand anatomy. Warm ivory plaster and pale sandstone backdrop, soft window daylight, realistic contact shadows, restrained premium fashion photograph matching Atelier Veyne. Single clean portrait 3:4 image. No words, logos, sales graphics or watermarks.",
+  "generatedFile": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-3e72cd52-b138-40eb-8603-3c2caabfb0ee.png",
+  "sha256": "457b79251fbb11fdef2ea003034331a99765f84cda9c86166c3f9cd6a1a63f24",
+  "sourceSha256": "5caeb61c1a936e3aa4ba8959307475cb3bf8d85a836601e934e1fcfa9205af28",
+  "width": 1086,
+  "height": 1448,
+  "tool": "built-in image_gen",
+  "reviewedAt": "2026-10-25T16:46:49.343Z",
+  "visualReview": "Compared with original: correct product silhouette, source color, closures/handles/hardware; adult carrying view; no visible text or anatomy defects.",
+  "image": {
+    "id": "f28ad75c9ac5181f",
+    "file": "products/2608040718451626300/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/2608040718451626300/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Wren bowling bag in Ebony Colors, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-composite",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/8b0bd117-701f-41ed-a0a2-066dc8116fe7.jpg",
+    "sourceFile": "products/2608040718451626300/source/images/02-5caeb61c1a93.jpg",
+    "generated": true
+  },
+  "addedToStudioAt": "2026-10-25T16:46:49.931Z"
+}

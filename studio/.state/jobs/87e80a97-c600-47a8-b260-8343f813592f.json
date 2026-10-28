@@ -1,0 +1,40 @@
+{
+  "id": "87e80a97-c600-47a8-b260-8343f813592f",
+  "productId": "1756516170586402816",
+  "title": "Alder bucket bag",
+  "action": "connect",
+  "planId": "e2b53138-f925-48e3-aeb7-51ac0eb929db",
+  "status": "complete",
+  "startedAt": "2026-10-23T18:49:59.135Z",
+  "events": [
+    {
+      "at": "2026-10-23T18:50:06.698Z",
+      "message": "Reusing the existing CJ store-product record"
+    },
+    {
+      "at": "2026-10-23T18:50:06.699Z",
+      "message": "Creating native CJ variant connections"
+    },
+    {
+      "at": "2026-10-23T18:50:08.159Z",
+      "message": "Verifying every native CJ product and variant reference"
+    }
+  ],
+  "result": {
+    "shopifyId": "gid://shopify/Product/15459352117567",
+    "contentUpdated": false,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 2,
+      "total": 2,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352117567",
+      "stock": 0
+    },
+    "inventoryManaged": false,
+    "note": "CJ variant links verified. Inventory management is not yet confirmed; use CJ Fulfillment settings before enabling sale."
+  },
+  "finishedAt": "2026-10-23T18:50:11.477Z"
+}

@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-25T17:43:30.113Z",
+  "passed": true,
+  "results": [
+    {
+      "width": 1440,
+      "realScreen": true,
+      "permissionsVerified": true,
+      "checkoutWritesEnabled": true,
+      "profilesLoaded": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "realScreen": true,
+      "permissionsVerified": true,
+      "checkoutWritesEnabled": true,
+      "profilesLoaded": true,
+      "noOverflow": true
+    },
+    {
+      "mockAuthorizedFlow": true,
+      "multipleCountriesSaved": true,
+      "countryMethodSaved": true,
+      "rateReviewRequiresAcknowledgment": true,
+      "realExternalWrites": false
+    }
+  ]
+}

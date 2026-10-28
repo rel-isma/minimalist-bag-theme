@@ -1,0 +1,194 @@
+{
+  "id": "9ad2eb78-6403-4edd-9449-2b5ae45627ff",
+  "createdAt": 1792780715804,
+  "draftHash": "c06649b1c73e99d801de682c91bdd89c9d8f9cd4a9dd5bbeae7c580516f63c64",
+  "draft": {
+    "id": "1756516170586402816",
+    "cjProductSku": "CJNS1967045",
+    "title": "Alder bucket bag",
+    "handle": "alder-bucket-bag",
+    "description": "Alder pairs a tall bucket silhouette with softly textured leather and a simple turn-lock detail. A top handle and longer strap keep the shape adaptable, while internal pockets give small essentials a place. Bucket silhouette with top handle Long shoulder strap Internal phone pocket and zippered compartment",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "tags": [
+      "black",
+      "cj-import",
+      "khaki",
+      "new-arrival",
+      "shoulder-bag"
+    ],
+    "seo": {
+      "title": "Alder bucket bag | Atelier Veyne",
+      "description": "Alder bucket bag. Bucket silhouette with top handle. Long shoulder strap. Discover considered everyday bags at Atelier Veyne."
+    },
+    "material": "Split cowhide leather.",
+    "dimensions": "",
+    "care": "",
+    "variants": [
+      {
+        "cjVariantId": "1756516170695454720",
+        "cjProductId": "1756516170586402816",
+        "sku": "CJNS196704501AZ",
+        "barcode": "1600002946828",
+        "sourceOptionKey": "Black",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ],
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/5c3969ef-31b3-4612-9b0c-ba5f82339875.jpg",
+        "supplierCost": {
+          "amount": "24.05",
+          "currency": "USD",
+          "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+        },
+        "proposedRetailPrice": {
+          "amount": "109.00",
+          "currency": "USD"
+        },
+        "compareAtPrice": null,
+        "inventory": {
+          "tracked": null,
+          "quantity": null,
+          "status": "not_verified"
+        },
+        "sourceMeasurements": {
+          "length": 240,
+          "width": 180,
+          "height": 50,
+          "weight": 630,
+          "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+        }
+      },
+      {
+        "cjVariantId": "1756516170783535104",
+        "cjProductId": "1756516170586402816",
+        "sku": "CJNS196704502BY",
+        "barcode": "1600002946829",
+        "sourceOptionKey": "Khaki",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Khaki"
+          }
+        ],
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/4d65de71-2efd-48f3-ba05-612ad5b760b5.jpg",
+        "supplierCost": {
+          "amount": "24.05",
+          "currency": "USD",
+          "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+        },
+        "proposedRetailPrice": {
+          "amount": "109.00",
+          "currency": "USD"
+        },
+        "compareAtPrice": null,
+        "inventory": {
+          "tracked": null,
+          "quantity": null,
+          "status": "not_verified"
+        },
+        "sourceMeasurements": {
+          "length": 240,
+          "width": 180,
+          "height": 50,
+          "weight": 1283,
+          "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+        }
+      }
+    ],
+    "swatches": [
+      {
+        "optionValue": "Black",
+        "proposedHex": "#1B1A18",
+        "status": "approximate_source_photo_color_for_review",
+        "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+      },
+      {
+        "optionValue": "Khaki",
+        "proposedHex": "#847966",
+        "status": "approximate_source_photo_color_for_review",
+        "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+      }
+    ],
+    "images": [
+      {
+        "id": "d9810e4fe39d7d5b",
+        "file": "products/1756516170586402816/prepared/images/01-atelier-veyne.png",
+        "url": "/media/products/1756516170586402816/prepared/images/01-atelier-veyne.png",
+        "alt": "Alder bucket bag in Black",
+        "variantIds": [
+          "1756516170695454720"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/5c3969ef-31b3-4612-9b0c-ba5f82339875.jpg"
+      },
+      {
+        "id": "e8807e822295dead",
+        "file": "products/1756516170586402816/prepared/images/02-atelier-veyne.png",
+        "url": "/media/products/1756516170586402816/prepared/images/02-atelier-veyne.png",
+        "alt": "Alder bucket bag in Khaki",
+        "variantIds": [
+          "1756516170783535104"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/4d65de71-2efd-48f3-ba05-612ad5b760b5.jpg"
+      }
+    ],
+    "reviewNotes": [
+      "Supplier lists cowhide as lining; confirm lining composition before publishing a lining claim."
+    ],
+    "resolvedNotes": [],
+    "replaceGallery": true,
+    "savedAt": null,
+    "sourceName": "Bucket Leather Shoulder Messenger Bag Large Capacity",
+    "sourceDescription": "Product information: Lining texture: Cowhide Applicable scenario: Daily configuration Color: black, khaki Outer bag type: slit pocket Leather features: two-layer cowhide Hardness: soft Material: genuine leather Suitcase shape: bucket type Bag internal structure: mobile phone bag, sandwich zipper bag Popular elements: sewing thread Packing list: Cross body bag * 1 Product Image:",
+    "fulfillment": {
+      "sourceCountryCode": "CN",
+      "defaultArea": 1,
+      "targetCountryCode": "US",
+      "logistics": "CJPacket Fast US",
+      "locationIds": [
+        "114800427327"
+      ],
+      "deliveryProfileId": ""
+    },
+    "collectionIds": [],
+    "templateSuffix": "",
+    "taxable": false
+  },
+  "action": "connect",
+  "shopId": "2610192154423535300",
+  "existingId": "gid://shopify/Product/15459352117567",
+  "existingFingerprint": "18a324d9fd63daa8f50f4db00783956be2b122b181102617ffc656f734b169ea",
+  "connected": {
+    "state": "needs-link",
+    "label": "Needs CJ link",
+    "linked": 0,
+    "total": 2,
+    "inventoryManaged": false,
+    "shopifyStatus": "ACTIVE",
+    "shopifyId": "gid://shopify/Product/15459352117567",
+    "stock": 0
+  },
+  "summary": {
+    "title": "Alder bucket bag",
+    "action": "Connect existing variants to CJ",
+    "variants": 2,
+    "images": 2,
+    "shop": "s35my0-uu.myshopify.com",
+    "existing": "gid://shopify/Product/15459352117567",
+    "inventory": "Never invent or manually overwrite stock. Verify CJ inventory management separately.",
+    "publication": "Keep current product status and channels",
+    "supplierNotes": [
+      "Supplier lists cowhide as lining; confirm lining composition before publishing a lining claim."
+    ],
+    "clearedFields": []
+  },
+  "originalDraftHash": "837d2e69ac928e2c7c53571345e0b5735acd0ac6083d2c9e9c2a2bf40aa3df40",
+  "batchDraft": true,
+  "consumedAt": 1792781009376
+}

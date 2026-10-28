@@ -1,0 +1,137 @@
+{
+  "checkedAt": "2026-10-27T15:49:07.488Z",
+  "products": 16,
+  "variants": 57,
+  "productsWithDimensions": 12,
+  "productsWithCare": 16,
+  "missingDimensions": [
+    "Linden zip handbag",
+    "Rhea crossbody bag",
+    "Milo compact crossbody",
+    "Reed baguette bag"
+  ],
+  "allVariantsOnCJProfile": true,
+  "markets": [
+    {
+      "name": "Morocco",
+      "status": "ACTIVE"
+    },
+    {
+      "name": "United Kingdom",
+      "status": "ACTIVE"
+    },
+    {
+      "name": "United States",
+      "status": "ACTIVE"
+    }
+  ],
+  "rates": [
+    {
+      "profile": "gid://shopify/DeliveryProfile/134354403647",
+      "countries": [
+        "MA"
+      ],
+      "methods": [
+        {
+          "name": "Standard",
+          "active": true,
+          "price": {
+            "amount": "34.0",
+            "currencyCode": "MAD"
+          }
+        }
+      ]
+    },
+    {
+      "profile": "gid://shopify/DeliveryProfile/134354403647",
+      "countries": [
+        "AE",
+        "AT",
+        "AU",
+        "BE",
+        "CA",
+        "CH",
+        "CZ",
+        "DE",
+        "DK",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "HK",
+        "IE",
+        "IL",
+        "IT",
+        "JP",
+        "KR",
+        "MY",
+        "NL",
+        "NO",
+        "NZ",
+        "PL",
+        "PT",
+        "SE",
+        "SG",
+        "US"
+      ],
+      "methods": [
+        {
+          "name": "International",
+          "active": true,
+          "price": {
+            "amount": "190.0",
+            "currencyCode": "MAD"
+          }
+        }
+      ]
+    },
+    {
+      "profile": "gid://shopify/DeliveryProfile/134383960383",
+      "countries": [
+        "MA"
+      ],
+      "methods": [
+        {
+          "name": "Standard",
+          "active": true,
+          "price": {
+            "amount": "0.0",
+            "currencyCode": "USD"
+          }
+        }
+      ]
+    },
+    {
+      "profile": "gid://shopify/DeliveryProfile/134383960383",
+      "countries": [
+        "GB"
+      ],
+      "methods": [
+        {
+          "name": "Standard tracked shipping",
+          "active": true,
+          "price": {
+            "amount": "12.95",
+            "currencyCode": "USD"
+          }
+        }
+      ]
+    },
+    {
+      "profile": "gid://shopify/DeliveryProfile/134383960383",
+      "countries": [
+        "US"
+      ],
+      "methods": [
+        {
+          "name": "Standard tracked shipping",
+          "active": true,
+          "price": {
+            "amount": "19.95",
+            "currencyCode": "USD"
+          }
+        }
+      ]
+    }
+  ]
+}

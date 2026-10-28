@@ -1,0 +1,60 @@
+{
+  "id": "481c6a90-88ec-4be6-a755-9f7dfe854620",
+  "productId": "2608040718451626300",
+  "title": "Wren bowling bag",
+  "action": "publish",
+  "planId": "5c45e469-3319-4c08-8149-0cd879a8b30f",
+  "status": "complete",
+  "startedAt": "2026-10-25T15:39:35.519Z",
+  "events": [
+    {
+      "at": "2026-10-25T15:39:37.771Z",
+      "message": "Submitting native CJ listing; CJ will create fulfillment connections",
+      "nativePublishIntent": true
+    },
+    {
+      "at": "2026-10-25T15:39:39.183Z",
+      "message": "CJ listing submitted",
+      "listedId": "2610251539390670000"
+    },
+    {
+      "at": "2026-10-25T15:39:52.585Z",
+      "message": "Verifying every native CJ product and variant reference"
+    },
+    {
+      "at": "2026-10-25T15:39:55.220Z",
+      "message": "CJ inventory location and quantity tracking verified; checking supplier sync"
+    },
+    {
+      "at": "2026-10-25T15:40:02.586Z",
+      "message": "Applying approved branded gallery and theme fields to the CJ-linked product"
+    }
+  ],
+  "nativePublishIntent": true,
+  "listedId": "2610251539390670000",
+  "result": {
+    "shopifyId": "gid://shopify/Product/15464459665727",
+    "contentUpdated": true,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 5,
+      "total": 5,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15464459665727",
+      "stock": 42021
+    },
+    "inventorySetup": {
+      "configured": true,
+      "locationId": "gid://shopify/Location/114800427327",
+      "variants": 5,
+      "quantitiesWritten": false,
+      "available": 42021
+    },
+    "inventoryManaged": true,
+    "note": "CJ connections, quantity tracking and inventory management verified."
+  },
+  "finishedAt": "2026-10-25T15:40:42.580Z",
+  "refreshedAt": "2026-10-25T15:40:50.939Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "c0bceda9-7fe6-427f-821e-5f402b790fda",
+  "type": "batch",
+  "title": "Connect 9 products to CJ",
+  "status": "failed",
+  "startedAt": "2026-10-23T18:43:29.373Z",
+  "events": [
+    {
+      "at": "2026-10-23T18:43:29.380Z",
+      "message": "Connecting Alder bucket bag"
+    }
+  ],
+  "children": [
+    "27bba8c4-a087-4955-a459-9ffc4c445be8"
+  ],
+  "error": "CJ store/product/saveProduct: request failed (HTTP 200, code 415).",
+  "finishedAt": "2026-10-23T18:43:34.381Z"
+}

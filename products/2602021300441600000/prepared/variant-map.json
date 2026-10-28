@@ -1,0 +1,41 @@
+[
+  {
+    "cjProductId": "2602021300441600000",
+    "cjVariantId": "2602021300441600400",
+    "sku": "CJNS275212901AZ",
+    "sourceOptionKey": "Brown Viney",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Brown Viney"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/a59344fb-f01d-4955-8bce-29e49dc32c20.jpg"
+  },
+  {
+    "cjProductId": "2602021300441600000",
+    "cjVariantId": "2602021300441600700",
+    "sku": "CJNS275212902BY",
+    "sourceOptionKey": "Black Viney",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black Viney"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/564445d5-d5ab-4ccc-a31f-cf24b4d7a340.jpg"
+  },
+  {
+    "cjProductId": "2602021300441600000",
+    "cjVariantId": "2602021300441601000",
+    "sku": "CJNS275212903CX",
+    "sourceOptionKey": "Brown public version",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Brown public version"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/2240f291-d087-4fcd-80b6-9e438f937cff.jpg"
+  }
+]

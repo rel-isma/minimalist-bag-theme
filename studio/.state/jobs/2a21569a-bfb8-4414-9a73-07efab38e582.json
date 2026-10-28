@@ -1,0 +1,20 @@
+{
+  "id": "2a21569a-bfb8-4414-9a73-07efab38e582",
+  "productId": "1458719239455248384",
+  "title": "Elin bucket bag",
+  "action": "update",
+  "planId": "cde88d71-5d46-4f31-8bb1-9c7748e905f6",
+  "status": "complete",
+  "startedAt": "2026-10-23T18:58:59.239Z",
+  "events": [
+    {
+      "at": "2026-10-23T18:59:01.332Z",
+      "message": "Updating content while preserving existing variants and CJ links"
+    }
+  ],
+  "result": {
+    "shopifyId": "gid://shopify/Product/15459352412479",
+    "contentUpdated": true
+  },
+  "finishedAt": "2026-10-23T18:59:07.273Z"
+}

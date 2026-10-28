@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-23T11:55:40.542Z",
+  "passed": true,
+  "products": 16,
+  "variants": 61,
+  "generatedImages": 65,
+  "imageDimensions": [
+    "1086x1448"
+  ],
+  "localLinksChecked": 680,
+  "sourcePhotoGalleryLimit": 8,
+  "lowResolutionSources": [
+    {
+      "product": "1731929813339873280",
+      "file": "../source/images/004-3a5820b4-e49d0854.jpg",
+      "width": 397,
+      "height": 412
+    },
+    {
+      "product": "1731929813339873280",
+      "file": "../source/images/006-20e4e26f-8c877032.jpg",
+      "width": 397,
+      "height": 403
+    },
+    {
+      "product": "1731929813339873280",
+      "file": "../source/images/013-5f6bb89a-8756d32f.jpg",
+      "width": 405,
+      "height": 411
+    },
+    {
+      "product": "1731929813339873280",
+      "file": "../source/images/012-9ba99338-fc6fcd5b.jpg",
+      "width": 403,
+      "height": 407
+    },
+    {
+      "product": "2606090550321621400",
+      "file": "../source/images/002-e897baa0-d459fdee.jpg",
+      "width": 400,
+      "height": 400
+    }
+  ],
+  "checks": [
+    "All saved CJ products and variants retained",
+    "Original product/variant IDs, SKUs and option values preserved",
+    "Every variant mapped to a generated source-linked image",
+    "Three to eight new images per product; no description-only inputs",
+    "Generated files and originals match their recorded hashes",
+    "Consistent portrait 3:4 image dimensions",
+    "Local review links exist",
+    "Native options and proposed color swatches populated",
+    "No invented stock, compare-at prices or specified unsupported marketing claims",
+    "Publication and retail-price approvals remain false"
+  ],
+  "errors": [],
+  "limitations": [
+    "Checks do not prove pixel-level product identity: visual review does not establish physical product quality.",
+    "Supplier material/size conflicts, care information, live duplicate checks, inventory/shipping facts and CJ fulfillment links still require confirmation.",
+    "This validates local preparation only; see SHOPIFY-UPLOAD-RESULTS.json for current live upload status."
+  ]
+}

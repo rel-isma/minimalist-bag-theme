@@ -1,0 +1,116 @@
+{
+  "checkedAt": "2026-10-23T19:23:14.024Z",
+  "passed": true,
+  "results": [
+    {
+      "file": "attach.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-attach\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_products, read_products\n\n\n"
+    },
+    {
+      "file": "catalog.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ⚠️ VALID (with warnings)\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-catalog\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ⚠️ INFORM\n**Details:** Successfully validated GraphQL query against schema. Note: The field ProductVariant.image is deprecated. Use `media` instead.\nRequired scopes: read_products, read_files, read_themes, read_orders, read_draft_orders, read_images, read_quick_sale, read_inventory\n\n\n"
+    },
+    {
+      "file": "clearFields.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-clearFields\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\n\n\n"
+    },
+    {
+      "file": "config.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ⚠️ VALID (with warnings)\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-config\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ⚠️ INFORM\n**Details:** Successfully validated GraphQL query against schema. Note: The field Collection.ruleSet is deprecated. Use `sources` instead.\nRequired scopes: read_products, read_themes\n\n\n"
+    },
+    {
+      "file": "definitions.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-definitions\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\n\n\n"
+    },
+    {
+      "file": "extra-1.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-extra-1\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL query against schema.\nRequired scopes: read_themes\n\n\n"
+    },
+    {
+      "file": "extra-2.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-extra-2\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL query against schema.\nRequired scopes: read_products, read_files, read_themes, read_orders, read_draft_orders, read_images, read_quick_sale\n\n\n"
+    },
+    {
+      "file": "extra-3.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-extra-3\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL query against schema.\nRequired scopes: read_products, read_files, read_themes, read_orders, read_draft_orders, read_images, read_quick_sale\n\n\n"
+    },
+    {
+      "file": "extra-4.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-extra-4\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_files, write_themes, read_products, read_files, read_themes, read_orders, read_draft_orders, read_images, read_quick_sale\n\n\n"
+    },
+    {
+      "file": "extra-5.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-extra-5\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL query against schema.\n\n\n"
+    },
+    {
+      "file": "fields.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-fields\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\n\n\n"
+    },
+    {
+      "file": "files.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-files\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_files, write_themes, write_images, read_products, read_files, read_themes, read_orders, read_draft_orders, read_images, read_quick_sale\n\n\n"
+    },
+    {
+      "file": "inventory-activate.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-inventory-activate\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_inventory, read_inventory, read_locations, read_markets_home\n\n\n"
+    },
+    {
+      "file": "inventory-deactivate.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-inventory-deactivate\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_inventory\n\n\n"
+    },
+    {
+      "file": "inventory-location.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-inventory-location\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL query against schema.\nRequired scopes: read_locations, read_inventory, read_markets_home\n\n\n"
+    },
+    {
+      "file": "inventory-product.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-inventory-product\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL query against schema.\nRequired scopes: read_products, read_inventory, read_locations, read_markets_home\n\n\n"
+    },
+    {
+      "file": "inventory-track.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-inventory-track\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_inventory, read_inventory, read_products\n\n\n"
+    },
+    {
+      "file": "option.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-option\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_products, read_products\n\n\n"
+    },
+    {
+      "file": "reorder.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-reorder\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_products\n\n\n"
+    },
+    {
+      "file": "stage.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-stage\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\n\n\n"
+    },
+    {
+      "file": "update.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-update\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_products, read_products\n\n\n"
+    },
+    {
+      "file": "variants.graphql",
+      "passed": true,
+      "output": "## Validation Summary\n\n**Overall Status:** ✅ VALID\n**Total Code Blocks:** 1\n\n## Detailed Results\n\n### Code Block 1\n**Artifact ID:** studio-variants\n**Revision:** 1\n*Use same ID & increment revision when retrying on an improvement of this artifact*\n\n**Status:** ✅ SUCCESS\n**Details:** Successfully validated GraphQL mutation against schema.\nRequired scopes: write_products, read_products\n\n\n"
+    }
+  ]
+}

@@ -16,7 +16,7 @@ Open http://127.0.0.1:4310. For UI development, run `npm run dev` in another ter
 
 ## Workflow
 
-1. Restore your private product workspace, or fetch only your saved CJ account products. Refresh connections to read current Shopify listings and native CJ links.
+1. The cloned repository contains the existing product workspace; fetch newly saved CJ account products as needed. Refresh connections to read current Shopify listings and native CJ links.
 2. Edit title, description, theme material/dimensions/care fields, images, variant prices, color swatches and SEO. Preserve original CJ IDs, SKUs and variant references. Use one to eight gallery/variant photos and leave unknown specifications empty.
 3. Approve content, check shipping for every intended destination, and review supplier cost separately from customer checkout charges. Country preferences do not automatically configure Shopify markets or order-routing rules.
 4. Review the frozen listing/update/connection plan, then confirm the external change. New listings use CJ's native listing API so fulfillment links can be verified. Content updates preserve the existing Shopify product and variant identities.
@@ -42,7 +42,7 @@ The app requires installed Shopify permissions appropriate to each operation: pr
 - `studio/.state/snapshot.json`: last live account check; use Refresh for current data.
 - `studio/.state/published-media/`: media ID/hash mapping for reuse on subsequent edits.
 
-Back up `products/` and `studio/.state/` privately if you need to move computers. Runtime state, uploads and secrets are ignored by Git. Source preparation may contain supplier data; review it before sharing the repository. The theme ZIP contains only theme files.
+Product records, drafts, uploads and recovery state are included in Git so cloning restores the workspace. Credentials and authentication tokens remain excluded. Restrict repository access to authorized collaborators. The theme ZIP contains only theme files.
 
 The local server has no automatic publishing on startup. Interrupted jobs are marked for manual verification. Partial writes are recorded, not automatically rolled back; refresh and inspect before retrying. Existing native listings can be resumed by listing record without creating another product. Shopify file hosting and gallery detachment can leave unused files in Shopify Files after a failure; they are not automatically deleted.
 
@@ -55,6 +55,6 @@ npm test
 npm run build
 ```
 
-These use local mocks/fixtures and do not publish products. The optional `node studio/test-server.mjs` additionally checks HTTP access protection and draft persistence using the restored private catalog. Browser screenshots, account-specific scripts and old result files are excluded from Git.
+These use local mocks/fixtures and do not publish products. The optional `node studio/test-server.mjs` additionally checks HTTP access protection and draft persistence using the restored private catalog. Browser screenshots, account-specific scripts and historical result files are retained with the workspace; some optional browser scripts require the original local QA tools.
 
 The theme shares merchant-owned `custom.material`, `custom.dimensions`, `custom.care`, `custom.cj_product_id` and `custom.color_swatches`. Product editing, pricing and shipping changes require a fresh review; transferring files does not grant approval to replay old operations.

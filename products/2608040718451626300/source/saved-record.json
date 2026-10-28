@@ -1,0 +1,51 @@
+{
+  "productId": "2608040718451626300",
+  "userId": null,
+  "packWeight": "670.00",
+  "weight": "650.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/20a88f9e-efb6-4d6e-a4fd-8089f008487e.jpg",
+  "nameEn": "Top-layer Cowhide Large-capacity Minimalist Bowling Bag",
+  "sku": "CJNS3034918",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": [],
+  "createAt": 1792858532561,
+  "sellPrice": "34.38",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "YunExpress Ordinary",
+  "trialCountry": null,
+  "trialFreight": "0",
+  "totalPrice": "34.38",
+  "listedShopNum": "0",
+  "listedShopIds": [],
+  "vid": "2608040718451628100",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    300,
+    300
+  ],
+  "heightList": [
+    30,
+    30
+  ],
+  "widthList": [
+    200,
+    200
+  ],
+  "volumeList": [
+    1800000,
+    1800000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_id": "2608040718451626300"
+}

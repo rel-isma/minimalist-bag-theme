@@ -1,0 +1,94 @@
+{
+  "checkedAt": "2026-10-25T14:25:30.210Z",
+  "passed": true,
+  "productId": "gid://shopify/Product/15464176746815",
+  "title": "Lune zip handbag",
+  "variants": [
+    {
+      "id": "gid://shopify/ProductVariant/67860789035327",
+      "sku": "CJNS276585201AZ",
+      "stock": 5820,
+      "image": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-1.png?v=1792936776"
+    },
+    {
+      "id": "gid://shopify/ProductVariant/67860789068095",
+      "sku": "CJNS276585202BY",
+      "stock": 7271,
+      "image": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-2.png?v=1792936793"
+    },
+    {
+      "id": "gid://shopify/ProductVariant/67860789100863",
+      "sku": "CJNS276585203CX",
+      "stock": 5759,
+      "image": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-3.png?v=1792936799"
+    }
+  ],
+  "media": [
+    {
+      "id": "gid://shopify/MediaImage/46179184967999",
+      "alt": "Lune zip handbag — Black",
+      "status": "READY",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "gid://shopify/MediaImage/46179185688895",
+      "alt": "Lune zip handbag in Light Gray, carried by a woman",
+      "status": "READY",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "gid://shopify/MediaImage/46179186114879",
+      "alt": "Lune zip handbag in Brown, carried by a woman",
+      "status": "READY",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "gid://shopify/MediaImage/46179186770239",
+      "alt": "Lune zip handbag — Brown",
+      "status": "READY",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "gid://shopify/MediaImage/46179187032383",
+      "alt": "Lune zip handbag — Light Gray",
+      "status": "READY",
+      "width": 1086,
+      "height": 1448
+    }
+  ],
+  "themeFields": [
+    {
+      "key": "cj_product_id",
+      "value": "2602240521431615000"
+    },
+    {
+      "key": "color_swatches",
+      "value": "{\"Black\":\"#1B1A18\",\"Brown\":\"#3E2B22\",\"Light Gray\":\"#C4BEAC\"}"
+    },
+    {
+      "key": "material",
+      "value": "Leather exterior with polyester lining."
+    },
+    {
+      "key": "dimensions",
+      "value": "32 × 11 × 22 cm (length × width × height), as stated by the supplier."
+    }
+  ],
+  "connection": {
+    "state": "connected",
+    "label": "CJ connected",
+    "linked": 3,
+    "total": 3,
+    "inventoryManaged": true,
+    "shopifyStatus": "ACTIVE",
+    "shopifyId": "gid://shopify/Product/15464176746815",
+    "stock": 18850
+  },
+  "duplicateListings": 0,
+  "originalVariantIdsAndOptionsPreserved": true,
+  "themePublished": false
+}

@@ -1,0 +1,294 @@
+{
+  "productId": "gid://shopify/Product/15464459665727",
+  "before": {
+    "id": "gid://shopify/Product/15464459665727",
+    "title": "Wren bowling bag",
+    "handle": "wren-bowling-bag",
+    "status": "ACTIVE",
+    "updatedAt": "2026-10-25T15:40:41Z",
+    "descriptionHtml": "<p>Wren gives the bowling-bag silhouette a restrained everyday expression. Its softly rounded body, pebbled finish and long twin handles create a clean profile, with a zip opening along the top and a small hanging leather detail.</p><p>A phone pocket and zippered compartment help organize the interior. Choose from Ebony Colors, Black, Milkshake White, Golden Brown and Dark Gray.</p>",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "templateSuffix": "",
+    "tags": [
+      "cj-import",
+      "everyday",
+      "new-arrival",
+      "shoulder-bag"
+    ],
+    "seo": {
+      "title": "Wren bowling bag | Atelier Veyne",
+      "description": "Meet Wren, a pebbled leather bowling bag with long twin handles and a zip opening. Discover five colors in the Atelier Veyne collection."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Ebony Colors",
+          "Black",
+          "Milkshake White",
+          "Golden Brown",
+          "Dark Gray"
+        ]
+      }
+    ],
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519837024575",
+          "title": "Shoulder bags"
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Wren bowling bag | Atelier Veyne"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "Meet Wren, a pebbled leather bowling bag with long twin handles and a zip opening. Discover five colors in the Atelier Veyne collection."
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": "single_line_text_field",
+          "value": "2608040718451626300"
+        },
+        {
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": "json",
+          "value": "{\"Ebony Colors\":\"#453C32\",\"Black\":\"#1B1A18\",\"Milkshake White\":\"#E6DECE\",\"Golden Brown\":\"#A66D38\",\"Dark Gray\":\"#746A60\"}"
+        },
+        {
+          "namespace": "custom",
+          "key": "material",
+          "type": "multi_line_text_field",
+          "value": "Cowhide leather exterior with synthetic-leather lining."
+        }
+      ]
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/46179779346751",
+          "alt": "Wren bowling bag — Ebony Colors",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-1_d46d7f3e-23dc-4c58-ab12-98b3f221322d.png?v=1792942807",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46179779379519",
+          "alt": "Wren bowling bag — Black",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-2_c58ea840-02d6-45f8-9b46-970dd0bd623f.png?v=1792942813",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46179779412287",
+          "alt": "Wren bowling bag — Milkshake White",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-3_a376d027-bb14-467b-87a9-af790f60783e.png?v=1792942819",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46179779445055",
+          "alt": "Wren bowling bag — Golden Brown",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-4_18351041-b255-4050-9d35-5223e3746049.png?v=1792942825",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46179779772735",
+          "alt": "Wren bowling bag — Dark Gray",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-5_a96976b7-157c-4442-ba9c-fc277597dc55.png?v=1792942831",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46179779805503",
+          "alt": "Wren bowling bag — Black, zipper and side view",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/detail-black-angle.png?v=1792942836",
+            "width": 1086,
+            "height": 1448
+          }
+        }
+      ]
+    },
+    "variants": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/67861973860671",
+          "sku": "CJNS303491801AZ",
+          "price": "129.00",
+          "inventoryQuantity": 6750,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ebony Colors"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69848149360959",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-1_d46d7f3e-23dc-4c58-ab12-98b3f221322d.png?v=1792942807"
+          },
+          "metafields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67861973893439",
+          "sku": "CJNS303491802BY",
+          "price": "129.00",
+          "inventoryQuantity": 9221,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69848149393727",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-2_c58ea840-02d6-45f8-9b46-970dd0bd623f.png?v=1792942813"
+          },
+          "metafields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67861973926207",
+          "sku": "CJNS303491803CX",
+          "price": "129.00",
+          "inventoryQuantity": 7835,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Milkshake White"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69848149426495",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-3_a376d027-bb14-467b-87a9-af790f60783e.png?v=1792942819"
+          },
+          "metafields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67861973958975",
+          "sku": "CJNS303491804DW",
+          "price": "129.00",
+          "inventoryQuantity": 8658,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Golden Brown"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69848149459263",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-4_18351041-b255-4050-9d35-5223e3746049.png?v=1792942825"
+          },
+          "metafields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67861973991743",
+          "sku": "CJNS303491805EV",
+          "price": "129.00",
+          "inventoryQuantity": 9557,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Dark Gray"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69848149492031",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/catalog-5_a96976b7-157c-4442-ba9c-fc277597dc55.png?v=1792942831"
+          },
+          "metafields": {
+            "nodes": []
+          }
+        }
+      ]
+    }
+  },
+  "image": {
+    "id": "f28ad75c9ac5181f",
+    "file": "products/2608040718451626300/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/2608040718451626300/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Wren bowling bag in Ebony Colors, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-composite",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/8b0bd117-701f-41ed-a0a2-066dc8116fe7.jpg",
+    "sourceFile": "products/2608040718451626300/source/images/02-5caeb61c1a93.jpg",
+    "generated": true
+  },
+  "fileId": "gid://shopify/MediaImage/46179928342847",
+  "startedAt": "2026-10-25T16:49:30.661Z",
+  "result": {
+    "id": "2608040718451626300",
+    "title": "Wren bowling bag",
+    "shopifyId": "gid://shopify/Product/15464459665727",
+    "addedMediaId": "gid://shopify/MediaImage/46179928342847",
+    "galleryCount": 7,
+    "allOriginalMediaRetained": true,
+    "nonGalleryDataUnchanged": true,
+    "verifiedAt": "2026-10-25T16:49:33.742Z"
+  },
+  "complete": true
+}

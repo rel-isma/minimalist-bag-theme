@@ -1,0 +1,83 @@
+{% doc %}
+  Renders a color circle for a named product option value, preferring native Shopify swatches.
+  @param {product_option_value} value - Product color option value.
+  @param {product} [swatch_product] - Product whose saved color mappings should be used.
+{% enddoc %}
+{% liquid
+  assign color_label = value.name | default: value | strip
+  assign color_name = color_label | downcase
+  assign swatch_color = 'var(--color-surface)'
+  assign known_color = true
+  case color_name
+    when 'black', 'noir'
+      assign swatch_color = '#1B1A18'
+    when 'bone', 'ivory', 'off white', 'off-white'
+      assign swatch_color = '#F5F1EA'
+    when 'cognac', 'clay'
+      assign swatch_color = '#9A4F36'
+    when 'taupe', 'warm stone'
+      assign swatch_color = '#6B6258'
+    when 'olive', 'army green'
+      assign swatch_color = '#5B5E4B'
+    when 'khaki'
+      assign swatch_color = '#8A8269'
+    when 'beige', 'sand', 'apricot'
+      assign swatch_color = '#D6C3A5'
+    when 'cream'
+      assign swatch_color = '#EFE4CE'
+    when 'white', 'blanc'
+      assign swatch_color = '#FFFFFF'
+    when 'brown', 'coffee', 'dark brown', 'chocolate'
+      assign swatch_color = '#654735'
+    when 'camel', 'tan', 'caramel'
+      assign swatch_color = '#B58B60'
+    when 'grey', 'gray', 'grayish', 'smoke grey'
+      assign swatch_color = '#85817C'
+    when 'green', 'dark green', 'forest green'
+      assign swatch_color = '#3F604B'
+    when 'blue'
+      assign swatch_color = '#587B9B'
+    when 'navy', 'navy blue', 'dark blue'
+      assign swatch_color = '#263A53'
+    when 'pink', 'light pink', 'blush'
+      assign swatch_color = '#D9B1AF'
+    when 'red'
+      assign swatch_color = '#A43E3D'
+    when 'burgundy', 'wine red', 'wine'
+      assign swatch_color = '#73343E'
+    when 'purple'
+      assign swatch_color = '#816885'
+    when 'yellow', 'mustard'
+      assign swatch_color = '#C5A04D'
+    when 'orange'
+      assign swatch_color = '#C67A43'
+    when 'gold', 'golden'
+      assign swatch_color = '#B69A58'
+    when 'silver'
+      assign swatch_color = '#B6B8B7'
+    when 'milkshake white'
+      assign swatch_color = '#EFE9DA'
+    when 'elephant gray'
+      assign swatch_color = '#9C8C72'
+    when 'caramel mocha'
+      assign swatch_color = '#A86E43'
+    when 'angora red'
+      assign swatch_color = '#6E2D37'
+    when 'earthy yellow'
+      assign swatch_color = '#A76131'
+    when 'reddish brown'
+      assign swatch_color = '#6F4330'
+    else
+      assign known_color = false
+  endcase
+  assign mapped_color = swatch_product.metafields.custom.color_swatches.value[color_label]
+  if mapped_color != blank
+    assign swatch_color = mapped_color
+    assign known_color = true
+  endif
+  if value.swatch.color != blank
+    assign swatch_color = value.swatch.color
+    assign known_color = true
+  endif
+%}
+<span class="color-swatch-circle" style="background-color: {{ swatch_color }};" aria-hidden="true">{% if value.swatch.image %}{{ value.swatch.image | image_url: width: 60 | image_tag: loading: 'lazy', widths: '30, 60', sizes: '20px', alt: '' }}{% elsif known_color == false %}{{ color_name | slice: 0 | upcase | escape }}{% endif %}</span>

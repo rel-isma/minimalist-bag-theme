@@ -1,0 +1,336 @@
+{
+  "id": "gid://shopify/Product/15464459665727",
+  "title": "Wren bowling bag",
+  "handle": "wren-bowling-bag",
+  "variants": {
+    "pageInfo": {
+      "hasNextPage": false
+    },
+    "nodes": [
+      {
+        "id": "gid://shopify/ProductVariant/67861973860671",
+        "sku": "CJNS303491801AZ",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 6750,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Ebony Colors"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848149360959",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848149360959",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 6750
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 6750
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861973893439",
+        "sku": "CJNS303491802BY",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 9221,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848149393727",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848149393727",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 9221
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 9221
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861973926207",
+        "sku": "CJNS303491803CX",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 7835,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Milkshake White"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848149426495",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848149426495",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 7835
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 7835
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861973958975",
+        "sku": "CJNS303491804DW",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 8658,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Golden Brown"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848149459263",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848149459263",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 8658
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 8658
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/67861973991743",
+        "sku": "CJNS303491805EV",
+        "availableForSale": true,
+        "sellableOnlineQuantity": 9557,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Dark Gray"
+          }
+        ],
+        "deliveryProfile": {
+          "id": "gid://shopify/DeliveryProfile/134383960383",
+          "name": "General shipping profile"
+        },
+        "inventoryItem": {
+          "id": "gid://shopify/InventoryItem/69848149492031",
+          "tracked": true,
+          "inventoryLevels": {
+            "pageInfo": {
+              "hasNextPage": false
+            },
+            "nodes": [
+              {
+                "id": "gid://shopify/InventoryLevel/178778308927?inventory_item_id=69848149492031",
+                "isActive": true,
+                "canDeactivate": true,
+                "location": {
+                  "id": "gid://shopify/Location/114800427327",
+                  "name": "cjdropshipping",
+                  "isActive": true,
+                  "fulfillsOnlineOrders": true
+                },
+                "quantities": [
+                  {
+                    "name": "available",
+                    "quantity": 9557
+                  },
+                  {
+                    "name": "on_hand",
+                    "quantity": 9557
+                  },
+                  {
+                    "name": "committed",
+                    "quantity": 0
+                  },
+                  {
+                    "name": "reserved",
+                    "quantity": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metafields": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Metafield/191425276477759",
+        "namespace": "global",
+        "key": "title_tag",
+        "type": "string",
+        "value": "Wren bowling bag | Atelier Veyne",
+        "compareDigest": "18f6af7c86ee432bbfca67e1fba81a0f4d9043aeadc48f9332b45085a546ebbb"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425276510527",
+        "namespace": "global",
+        "key": "description_tag",
+        "type": "string",
+        "value": "Meet Wren, a pebbled leather bowling bag with long twin handles and a zip opening. Discover five colors in the Atelier Veyne collection.",
+        "compareDigest": "d0a82c0899e8a1ad2885feee2cc41f8b8109ab59d522333d8f041fc6d72d0902"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425300660543",
+        "namespace": "custom",
+        "key": "cj_product_id",
+        "type": "single_line_text_field",
+        "value": "2608040718451626300",
+        "compareDigest": "f361a45470adecfeb2d9526d477c36cc20d578cf89f28461ada55698a7b13594"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425300693311",
+        "namespace": "custom",
+        "key": "color_swatches",
+        "type": "json",
+        "value": "{\"Ebony Colors\":\"#453C32\",\"Black\":\"#1B1A18\",\"Milkshake White\":\"#E6DECE\",\"Golden Brown\":\"#A66D38\",\"Dark Gray\":\"#746A60\"}",
+        "compareDigest": "ef5139b46f87296791b65a6fac27b72c4034b3f19bad041b30ad6b01f75a60f1"
+      },
+      {
+        "id": "gid://shopify/Metafield/191425300726079",
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Cowhide leather exterior with synthetic-leather lining.",
+        "compareDigest": "05b4f68e011c91f013c64155b6f6eabdf3dc65feafcf7ecc2a324f3f435ad585"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "07ccbc7d-d6e1-4db8-a151-b588c6704977",
+  "createdAt": 1793115878285,
+  "fingerprint": "a913a89cc585ea4af5c27155ec14ec3bca79dc73cc728fe9c524a9834211d647",
+  "profileId": "gid://shopify/DeliveryProfile/134383960383",
+  "profile": {
+    "locationGroupsToUpdate": [
+      {
+        "id": "gid://shopify/DeliveryLocationGroup/136101298495",
+        "zonesToCreate": [
+          {
+            "name": "Atelier · United Kingdom",
+            "countries": [
+              {
+                "code": "GB",
+                "includeAllProvinces": true
+              }
+            ],
+            "methodDefinitionsToCreate": [
+              {
+                "name": "Standard tracked shipping",
+                "active": true,
+                "rateDefinition": {
+                  "price": {
+                    "amount": 12.95,
+                    "currencyCode": "USD"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "profile": "General shipping profile",
+    "group": "cjdropshipping",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "rateName": "Standard tracked shipping",
+    "amount": 12.95,
+    "active": true,
+    "action": "Add flat rate",
+    "market": "Market inactive",
+    "coverage": "New country zones include all provinces.",
+    "impact": "This shipping profile can be shared by several products. This changes customer checkout rates for all products using this profile and location group; it does not change CJ supplier costs or enable a market."
+  },
+  "startedAt": "2026-10-27T15:44:42.660Z",
+  "complete": true,
+  "finishedAt": "2026-10-27T15:44:47.558Z"
+}

@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';import {graphql,payload} from '../shopify-client.mjs';
+const raw=await fs.readFile('products/finish-launch/market-policy-operations.graphql','utf8');const operations=raw.split(/\n(?=(?:query|mutation) )/);const op=n=>operations.find(s=>s.startsWith('query '+n)||s.startsWith('mutation '+n));
+const old=(await fs.readFile('products/finish-launch/shipping-policy.html','utf8')).trim();
+const replacement='<p>Standard tracked shipping for bags on our CJ fulfillment profile is US $19.95 per order to the United States and US $12.95 per order to the United Kingdom, charged in USD. Morocco rates and any services for other items are shown at checkout. Orders containing items from different shipping profiles may have combined charges; review the final total before payment.</p>';
+const paragraph='<p>The shipping charge available for your order is shown at checkout before payment. Charges and available services can depend on the destination and the contents of your order. Items may arrive in separate parcels; we will provide available tracking information for each shipment.</p>';
+if(!old.includes(paragraph))throw Error('Expected policy paragraph missing');const body=old.replace(paragraph,replacement+'<p>Items may arrive in separate parcels; we will provide available tracking information for each shipment.</p>');
+const existing=await graphql(op('FinishPages'));const page=existing.pages.nodes.find(p=>p.handle==='shipping-returns');const policy=existing.shop.shopPolicies.find(p=>p.type==='SHIPPING_POLICY');const refund=existing.shop.shopPolicies.find(p=>p.type==='REFUND_POLICY');
+if(policy.body.trim()!==old&&policy.body.trim()!==body)throw Error('Policy changed since preparation');const combined=body+'\n'+refund.body;
+if(page.body.trim()!==(old+'\n'+refund.body).trim()&&page.body.trim()!==combined.trim())throw Error('Page changed since preparation');
+await fs.writeFile('products/.state/finish-launch/policy-rate-before.json',JSON.stringify(existing,null,2),{mode:0o600});
+if(policy.body.trim()!==body)payload(await graphql(op('FinishPolicy'),{shopPolicy:{type:'SHIPPING_POLICY',body}}),'shopPolicyUpdate');if(page.body.trim()!==combined.trim())payload(await graphql(op('FinishPageUpdate'),{id:page.id,page:{body:combined}}),'pageUpdate');
+const after=await graphql(op('FinishPages'));if(after.shop.shopPolicies.find(p=>p.type==='SHIPPING_POLICY')?.body.trim()!==body||after.pages.nodes.find(p=>p.id===page.id)?.body.trim()!==combined.trim())throw Error('Readback mismatch');
+await fs.writeFile('products/finish-launch/shipping-policy.html',body+'\n');await fs.writeFile('products/finish-launch/shipping-returns.html',combined+'\n');console.log('Approved rates verified in shipping policy and shipping/returns page.');

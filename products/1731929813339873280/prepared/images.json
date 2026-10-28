@@ -1,0 +1,74 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/004-3a5820b4-e49d0854.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/2fc4e1b5-ac80-4ebd-b39a-42b813bb9bbc.jpg",
+    "sourceSha256": "e49d0854210f6515ff8d119234299024d3ffb5e59f98b0c14a9483056c236147",
+    "sha256": "68f1d9bed74cec97bf7bb38e1a29ae55d2e45523486828c275f887f27d4763a1",
+    "variantIds": [
+      "1731929813457313792"
+    ],
+    "colors": [
+      "Wine Red"
+    ],
+    "alt": "Nola everyday bag in Wine Red",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/006-20e4e26f-8c877032.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/22229456-5cb7-4882-8a05-b41bc804c3da.jpg",
+    "sourceSha256": "8c8770323aa73c19d56ee7982183ce4cea0fa96a2f77f76ed993976949aaefcd",
+    "sha256": "75114f405864954defd5f771dd29a60143ff315fceefbd2d1a7635fa87d1cfa9",
+    "variantIds": [
+      "1731929813549588480"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Nola everyday bag in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/013-5f6bb89a-8756d32f.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/bc3a6510-4ab3-46b7-8bf7-2797b2d17b3f.jpg",
+    "sourceSha256": "8756d32f52cbd513ed3d0832129204bd9b8ca38a664b0373dea5e8ab57af2972",
+    "sha256": "fe2d2e150880bc3ad5f2c1c0f081c17e782f3e081be69ea0cd51a9be16175b18",
+    "variantIds": [
+      "1731929813641863168"
+    ],
+    "colors": [
+      "Brown"
+    ],
+    "alt": "Nola everyday bag in Brown",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/04-atelier-veyne.png",
+    "sourceFile": "../source/images/012-9ba99338-fc6fcd5b.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/2cb16307-4bda-4cb9-88e7-9a602f72f839.jpg",
+    "sourceSha256": "fc6fcd5be785788d04d7b4717dce246051852dfb010415214c5b8934d184c0fa",
+    "sha256": "03104f3a89ad4a1343b6202bef146dbd089c5db367e26834c458a820273a044a",
+    "variantIds": [
+      "1731929813742526464"
+    ],
+    "colors": [
+      "Gray"
+    ],
+    "alt": "Nola everyday bag in Gray",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

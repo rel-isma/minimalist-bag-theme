@@ -1,0 +1,56 @@
+[
+  {
+    "file": "images/01-atelier-veyne.png",
+    "sourceFile": "../source/images/009-b28c41ed-1c0e1f50.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/a418ef64-00be-403a-bf77-9e094b259a85.jpg",
+    "sourceSha256": "1c0e1f504d1ab6f1a8cf1d158c491006986e09ea0190520fc1c299929428937e",
+    "sha256": "eadd624e4182d0f5d95cc8087b667253d8ad81d526bd9e37cdd23bb8cb418af0",
+    "variantIds": [
+      "1458719239522357248"
+    ],
+    "colors": [
+      "Yellow"
+    ],
+    "alt": "Elin bucket bag in Yellow",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/02-atelier-veyne.png",
+    "sourceFile": "../source/images/006-e28188e1-c4a09d4a.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/401a54b4-cf1d-4747-81d0-1803766edcc3.jpg",
+    "sourceSha256": "c4a09d4a4bbe0f66d24c9c9968666439078f2e37e62bfd6bc72743e7c3dd9ddb",
+    "sha256": "d8aa581b41e49af0069ae1cba1d40fc75924d57785f71df0f8e01747fc1b2b07",
+    "variantIds": [
+      "1458719239526551552"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "alt": "Elin bucket bag in Black",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  },
+  {
+    "file": "images/03-atelier-veyne.png",
+    "sourceFile": "../source/images/002-e593e7aa-a06023a9.jpg",
+    "sourceUrl": "https://cf.cjdropshipping.com/a24fff8c-dff2-409d-adc3-1eedabf22b03.jpg",
+    "sourceSha256": "a06023a9339cc2d42e18225f9fd0de37fb6d5cec26ebbeda7931156fc39804fa",
+    "sha256": "cc6a0e28f24241500eaa49c47c01d92478c816461e3e7556930d9bbccc373465",
+    "variantIds": [
+      "1458719239526551553"
+    ],
+    "colors": [
+      "Brown"
+    ],
+    "alt": "Elin bucket bag in Brown",
+    "promptFile": "../../IMAGE-PROMPT.txt",
+    "promptSuffix": null,
+    "tool": "built-in image_gen",
+    "reviewStatus": "candidate_needs_owner_comparison"
+  }
+]

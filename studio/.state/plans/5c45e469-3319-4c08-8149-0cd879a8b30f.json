@@ -1,0 +1,297 @@
+{
+  "id": "5c45e469-3319-4c08-8149-0cd879a8b30f",
+  "createdAt": 1792942773805,
+  "draftHash": "d2bdd7dc1fa2b60784a542e033c4fa9a637bac34edd87fe1cdf230e22169d9bd",
+  "draft": {
+    "id": "2608040718451626300",
+    "cjProductSku": "CJNS3034918",
+    "title": "Wren bowling bag",
+    "handle": "wren-bowling-bag",
+    "description": "Wren gives the bowling-bag silhouette a restrained everyday expression. Its softly rounded body, pebbled finish and long twin handles create a clean profile, with a zip opening along the top and a small hanging leather detail.\n\nA phone pocket and zippered compartment help organize the interior. Choose from Ebony Colors, Black, Milkshake White, Golden Brown and Dark Gray.",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "tags": [
+      "cj-import",
+      "shoulder-bag",
+      "everyday",
+      "new-arrival"
+    ],
+    "seo": {
+      "title": "Wren bowling bag | Atelier Veyne",
+      "description": "Meet Wren, a pebbled leather bowling bag with long twin handles and a zip opening. Discover five colors in the Atelier Veyne collection."
+    },
+    "material": "Cowhide leather exterior with synthetic-leather lining.",
+    "dimensions": "",
+    "care": "",
+    "variants": [
+      {
+        "cjVariantId": "2608040718451627000",
+        "cjProductId": "2608040718451626300",
+        "sku": "CJNS303491801AZ",
+        "sourceOptionKey": "Ebony Colors",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Ebony Colors"
+          }
+        ],
+        "supplierCost": {
+          "amount": "34.38",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "129.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/8b0bd117-701f-41ed-a0a2-066dc8116fe7.jpg"
+      },
+      {
+        "cjVariantId": "2608040718451627600",
+        "cjProductId": "2608040718451626300",
+        "sku": "CJNS303491802BY",
+        "sourceOptionKey": "Black",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ],
+        "supplierCost": {
+          "amount": "34.38",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "129.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/211d6f0f-70c7-4cc1-934e-3e2c7628aac4.jpg"
+      },
+      {
+        "cjVariantId": "2608040718451628100",
+        "cjProductId": "2608040718451626300",
+        "sku": "CJNS303491803CX",
+        "sourceOptionKey": "Milkshake White",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Milkshake White"
+          }
+        ],
+        "supplierCost": {
+          "amount": "34.38",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "129.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/8b78a258-679f-484f-a20c-e5add4ffc8f2.jpg"
+      },
+      {
+        "cjVariantId": "2608040718451628600",
+        "cjProductId": "2608040718451626300",
+        "sku": "CJNS303491804DW",
+        "sourceOptionKey": "Golden Brown",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Golden Brown"
+          }
+        ],
+        "supplierCost": {
+          "amount": "34.38",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "129.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/c53f7ef1-9a17-4b65-b859-c4a195bea725.jpg"
+      },
+      {
+        "cjVariantId": "2608040718451629200",
+        "cjProductId": "2608040718451626300",
+        "sku": "CJNS303491805EV",
+        "sourceOptionKey": "Dark Gray",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Dark Gray"
+          }
+        ],
+        "supplierCost": {
+          "amount": "34.38",
+          "currency": "USD"
+        },
+        "proposedRetailPrice": {
+          "amount": "129.00",
+          "currency": "USD"
+        },
+        "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/cb2035cc-6cbf-4b6b-ab6d-deb843664daa.jpg"
+      }
+    ],
+    "swatches": [
+      {
+        "optionValue": "Ebony Colors",
+        "proposedHex": "#453C32"
+      },
+      {
+        "optionValue": "Black",
+        "proposedHex": "#1B1A18"
+      },
+      {
+        "optionValue": "Milkshake White",
+        "proposedHex": "#E6DECE"
+      },
+      {
+        "optionValue": "Golden Brown",
+        "proposedHex": "#A66D38"
+      },
+      {
+        "optionValue": "Dark Gray",
+        "proposedHex": "#746A60"
+      }
+    ],
+    "images": [
+      {
+        "id": "6c2dfc4ea6a9be80",
+        "file": "products/2608040718451626300/prepared/images/catalog-1.png",
+        "url": "/media/products/2608040718451626300/prepared/images/catalog-1.png",
+        "alt": "Wren bowling bag — Ebony Colors",
+        "variantIds": [
+          "2608040718451627000"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/8b0bd117-701f-41ed-a0a2-066dc8116fe7.jpg",
+        "sourceFile": "products/2608040718451626300/source/images/02-5caeb61c1a93.jpg"
+      },
+      {
+        "id": "c7f39a88a7876d70",
+        "file": "products/2608040718451626300/prepared/images/catalog-2.png",
+        "url": "/media/products/2608040718451626300/prepared/images/catalog-2.png",
+        "alt": "Wren bowling bag — Black",
+        "variantIds": [
+          "2608040718451627600"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/211d6f0f-70c7-4cc1-934e-3e2c7628aac4.jpg",
+        "sourceFile": "products/2608040718451626300/source/images/03-0245d6079d70.jpg"
+      },
+      {
+        "id": "f0096a9d15f1c30b",
+        "file": "products/2608040718451626300/prepared/images/catalog-3.png",
+        "url": "/media/products/2608040718451626300/prepared/images/catalog-3.png",
+        "alt": "Wren bowling bag — Milkshake White",
+        "variantIds": [
+          "2608040718451628100"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/8b78a258-679f-484f-a20c-e5add4ffc8f2.jpg",
+        "sourceFile": "products/2608040718451626300/source/images/04-8300cf4dadfd.jpg"
+      },
+      {
+        "id": "b0fa48e0bd1ffa54",
+        "file": "products/2608040718451626300/prepared/images/catalog-4.png",
+        "url": "/media/products/2608040718451626300/prepared/images/catalog-4.png",
+        "alt": "Wren bowling bag — Golden Brown",
+        "variantIds": [
+          "2608040718451628600"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/c53f7ef1-9a17-4b65-b859-c4a195bea725.jpg",
+        "sourceFile": "products/2608040718451626300/source/images/05-e1b96404fec3.jpg"
+      },
+      {
+        "id": "76314ab58cfb1026",
+        "file": "products/2608040718451626300/prepared/images/catalog-5.png",
+        "url": "/media/products/2608040718451626300/prepared/images/catalog-5.png",
+        "alt": "Wren bowling bag — Dark Gray",
+        "variantIds": [
+          "2608040718451629200"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "role": "catalog",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/cb2035cc-6cbf-4b6b-ab6d-deb843664daa.jpg",
+        "sourceFile": "products/2608040718451626300/source/images/06-4476782f52a1.jpg"
+      },
+      {
+        "id": "22e6f226f8481a25",
+        "file": "products/2608040718451626300/prepared/images/detail-black-angle.png",
+        "url": "/media/products/2608040718451626300/prepared/images/detail-black-angle.png",
+        "alt": "Wren bowling bag — Black, zipper and side view",
+        "variantIds": [],
+        "enabled": true,
+        "kind": "branded",
+        "role": "detail",
+        "sourceUrl": "https://cf.cjdropshipping.com/quick/product/80751093-ec95-4cee-b0e4-3748cf7de784.jpg",
+        "sourceFile": "products/2608040718451626300/source/images/07-925c7562c15f.jpg"
+      }
+    ],
+    "reviewNotes": [
+      "Price is a USD retail proposal; shipping, fees and margin require approval before listing.",
+      "Product measurements are absent. Dimensions remain empty pending supplier confirmation.",
+      "Lining is described as synthetic leather, not fabric or genuine leather; final copy retains that distinction.",
+      "Supplier top-layer/full-grain wording is unverified. Final copy does not promise a leather grade.",
+      "Original color label Ebony Colors is retained. Care instructions are absent; verify every edited photo against its CJ original."
+    ],
+    "resolvedNotes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "replaceGallery": true,
+    "savedAt": "2026-10-25T15:39:25.879Z",
+    "sourceName": "Top-layer Cowhide Large-capacity Minimalist Bowling Bag",
+    "sourceDescription": "Product information: Lining material: Synthetic leather Pattern: Solid color Color: ebony, black, milkshake white, golden brown, dark gray Processing method: Soft surface Outer bag type: three-dimensional pocket Trend element: suture Style: Women’s shoulder bag Handle: Soft handle Leather characteristics: Full-grain cowhide Bag shape: Square Internal structure of the bag: mobile phone bag, compartment with a zipper Packing list: Bag*1 Product Image:",
+    "fulfillment": {
+      "sourceCountryCode": "CN",
+      "defaultArea": 1,
+      "targetCountryCode": "US",
+      "logistics": "DHL Official",
+      "locationIds": [
+        "114800427327"
+      ],
+      "deliveryProfileId": "134383960383",
+      "shippingReviewSignature": "8e2dda1c3cb572fe231a9b009d92293faade0ac13aee55272c0529f05193a354"
+    },
+    "collectionIds": [],
+    "templateSuffix": "",
+    "taxable": false
+  },
+  "action": "publish",
+  "inventoryLocationId": "gid://shopify/Location/114800427327",
+  "shopId": "2610192154423535300",
+  "existingId": null,
+  "existingFingerprint": null,
+  "connected": null,
+  "summary": {
+    "title": "Wren bowling bag",
+    "action": "List through CJ, verify native connections, then apply theme fields",
+    "variants": 5,
+    "images": 6,
+    "shop": "s35my0-uu.myshopify.com",
+    "existing": null,
+    "inventory": "Automatically enable quantity tracking at cjdropshipping. Empty merchant locations are removed only when safely deactivatable with all stock states at zero. No stock quantity is manually set. CJ stock updates may take time.",
+    "publication": "CJ native listing may make a new product active. Review before confirming.",
+    "supplierNotes": [
+      "Price is a USD retail proposal; shipping, fees and margin require approval before listing.",
+      "Product measurements are absent. Dimensions remain empty pending supplier confirmation.",
+      "Lining is described as synthetic leather, not fabric or genuine leather; final copy retains that distinction.",
+      "Supplier top-layer/full-grain wording is unverified. Final copy does not promise a leather grade.",
+      "Original color label Ebony Colors is retained. Care instructions are absent; verify every edited photo against its CJ original."
+    ],
+    "clearedFields": []
+  },
+  "consumedAt": 1792942775519
+}

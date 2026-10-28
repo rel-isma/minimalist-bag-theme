@@ -1,0 +1,23 @@
+[
+  {
+    "source": "products/2602240521431615000/source/images/07-a85c4842214d.jpg",
+    "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-26726e17-b665-4fe5-8ed0-ee13e01b80aa.png",
+    "file": "products/2602240521431615000/prepared/images/lifestyle-gray.png",
+    "prompt": "Preserve original CJ woman, pose, bag scale and all product details; change background only to warm ivory atelier, 3:4.",
+    "role": "lifestyle"
+  },
+  {
+    "source": "products/2604020624051609200/source/images/01-331da7fedfe0.jpg",
+    "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-fde191d0-8ce9-4d8f-9d87-b153cec11fe0.png",
+    "file": "products/2604020624051609200/prepared/images/lifestyle-coffee.png",
+    "prompt": "Preserve original CJ woman, pose, bag scale and all product details; change background only to warm ivory atelier, 3:4.",
+    "role": "lifestyle"
+  },
+  {
+    "source": "products/2604020624051609200/source/images/07-a52d7b2bb895.jpg",
+    "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-fef92308-b01a-4ffa-81aa-993928e07a02.png",
+    "file": "products/2604020624051609200/prepared/images/detail-coffee.png",
+    "prompt": "Preserve original CJ woman, pose, bag scale and all product details; change background only to warm ivory atelier, 3:4.",
+    "role": "detail"
+  }
+]

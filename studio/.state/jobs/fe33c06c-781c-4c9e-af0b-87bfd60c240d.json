@@ -1,0 +1,40 @@
+{
+  "id": "fe33c06c-781c-4c9e-af0b-87bfd60c240d",
+  "productId": "2506110631251623700",
+  "title": "Rhea crossbody bag",
+  "action": "connect",
+  "planId": "e164c25b-19a1-44ea-96bd-c004837e5490",
+  "status": "complete",
+  "startedAt": "2026-10-23T18:50:56.176Z",
+  "events": [
+    {
+      "at": "2026-10-23T18:51:05.954Z",
+      "message": "Reusing the existing CJ store-product record"
+    },
+    {
+      "at": "2026-10-23T18:51:05.954Z",
+      "message": "Creating native CJ variant connections"
+    },
+    {
+      "at": "2026-10-23T18:51:07.039Z",
+      "message": "Verifying every native CJ product and variant reference"
+    }
+  ],
+  "result": {
+    "shopifyId": "gid://shopify/Product/15459352838463",
+    "contentUpdated": false,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 1,
+      "total": 1,
+      "inventoryManaged": false,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15459352838463",
+      "stock": 0
+    },
+    "inventoryManaged": false,
+    "note": "CJ variant links verified. Inventory management is not yet confirmed; use CJ Fulfillment settings before enabling sale."
+  },
+  "finishedAt": "2026-10-23T18:51:10.715Z"
+}

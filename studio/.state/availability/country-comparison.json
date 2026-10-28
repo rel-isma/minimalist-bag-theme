@@ -1,0 +1,28 @@
+[
+  {
+    "handle": "marlow-top-handle-bag",
+    "before": {
+      "country": "MA",
+      "button": "Sold out",
+      "disabled": true
+    },
+    "after": {
+      "country": "US",
+      "button": "Add to bag",
+      "disabled": false
+    }
+  },
+  {
+    "handle": "esme-crossbody-bag",
+    "before": {
+      "country": "MA",
+      "button": "Sold out",
+      "disabled": true
+    },
+    "after": {
+      "country": "US",
+      "button": "Add to bag",
+      "disabled": false
+    }
+  }
+]

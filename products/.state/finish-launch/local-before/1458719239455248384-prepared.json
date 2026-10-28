@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "stage": "prepared_for_owner_review",
+  "publishingApproved": false,
+  "source": {
+    "cjProductId": "1458719239455248384",
+    "cjProductSku": "CJNS1349960",
+    "originalTitle": "Original Fashion One-shoulder Soft Leather Bucket Bag",
+    "productFile": "../source/product.json",
+    "variantsFile": "../source/variants.json"
+  },
+  "shopify": {
+    "title": "Elin bucket bag",
+    "handle": "elin-bucket-bag",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "descriptionHtml": "<p>Elin gives the everyday bucket bag a simple, composed outline. A soft handle and a lock closure frame the design, with internal pockets for keeping smaller essentials together.</p><ul><li>Bucket shape with soft handle</li><li>Lock closure</li><li>Internal zip, phone and card pockets</li></ul>",
+    "shortDescription": "Elin gives the everyday bucket bag a simple, composed outline. A soft handle and a lock closure frame the design, with internal pockets for keeping smaller essentials together.",
+    "seo": {
+      "title": "Elin bucket bag | Atelier Veyne",
+      "description": "Elin bucket bag. Bucket shape with soft handle. Lock closure. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Yellow",
+          "Black",
+          "Brown"
+        ]
+      }
+    ],
+    "tags": [
+      "shoulder-bag",
+      "cj-import",
+      "yellow",
+      "black",
+      "brown"
+    ],
+    "suggestedCollections": [
+      "Shoulder bags"
+    ],
+    "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+    "templateSuffix": null,
+    "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+    "statusOnFirstUpload": "DRAFT",
+    "metafields": [
+      {
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Split cowhide leather with polyester lining."
+      }
+    ],
+    "omittedMetafields": [
+      "custom.dimensions",
+      "custom.care"
+    ],
+    "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+  },
+  "variants": [
+    {
+      "cjVariantId": "1458719239522357248",
+      "cjProductId": "1458719239455248384",
+      "sku": "CJNS134996001AZ",
+      "barcode": "1598449932490",
+      "sourceOptionKey": "Yellow",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Yellow"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/a418ef64-00be-403a-bf77-9e094b259a85.jpg",
+      "supplierCost": {
+        "amount": "22.65",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 300,
+        "width": 200,
+        "height": 60,
+        "weight": 916,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "1458719239526551552",
+      "cjProductId": "1458719239455248384",
+      "sku": "CJNS134996002BY",
+      "barcode": "1598449932491",
+      "sourceOptionKey": "Black",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/401a54b4-cf1d-4747-81d0-1803766edcc3.jpg",
+      "supplierCost": {
+        "amount": "22.65",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 300,
+        "width": 200,
+        "height": 60,
+        "weight": 916,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "1458719239526551553",
+      "cjProductId": "1458719239455248384",
+      "sku": "CJNS134996003CX",
+      "barcode": "1598449932492",
+      "sourceOptionKey": "Brown",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Brown"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/a24fff8c-dff2-409d-adc3-1eedabf22b03.jpg",
+      "supplierCost": {
+        "amount": "22.65",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "99.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 300,
+        "width": 200,
+        "height": 60,
+        "weight": 916,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Yellow",
+      "proposedHex": "#C99640",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Black",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Brown",
+      "proposedHex": "#A15D3D",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "pricing": {
+    "currency": "USD",
+    "suggestedPrice": "99.00",
+    "approved": false,
+    "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+    "excludes": [
+      "Shipping",
+      "Duties and import taxes",
+      "Payment fees",
+      "Returns",
+      "Advertising",
+      "Other operating costs"
+    ]
+  },
+  "specifications": {
+    "material": "Split cowhide leather with polyester lining.",
+    "dimensions": null,
+    "care": null,
+    "features": [
+      "Bucket shape with soft handle",
+      "Lock closure",
+      "Internal zip, phone and card pockets"
+    ],
+    "supplierFacts": [
+      "Description identifies two-layer cowhide, polyester lining and lock opening."
+    ]
+  },
+  "reviewIssues": [
+    "Supplier alternates between soft and medium-hard descriptions; do not promise a particular firmness.",
+    "Supplier mentions a mother-and-child style but packing list only states one bag. Confirm included components before promising an additional pouch."
+  ],
+  "publicationRequirements": [
+    "Owner approval of content, prices and generated photos",
+    "Resolve source specification/variant issues",
+    "Fresh Shopify authorization",
+    "Check existing product CJ IDs, SKUs and proposed handle before deciding create/update",
+    "Verify native CJ-to-Shopify variant fulfillment links",
+    "Verify stock, shipping weight, delivery regions and commercial policies",
+    "Check collection membership, swatches, templates and offer eligibility"
+  ],
+  "media": [
+    {
+      "file": "images/01-atelier-veyne.png",
+      "sourceFile": "../source/images/009-b28c41ed-1c0e1f50.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/a418ef64-00be-403a-bf77-9e094b259a85.jpg",
+      "sourceSha256": "1c0e1f504d1ab6f1a8cf1d158c491006986e09ea0190520fc1c299929428937e",
+      "sha256": "eadd624e4182d0f5d95cc8087b667253d8ad81d526bd9e37cdd23bb8cb418af0",
+      "variantIds": [
+        "1458719239522357248"
+      ],
+      "colors": [
+        "Yellow"
+      ],
+      "alt": "Elin bucket bag in Yellow",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/02-atelier-veyne.png",
+      "sourceFile": "../source/images/006-e28188e1-c4a09d4a.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/401a54b4-cf1d-4747-81d0-1803766edcc3.jpg",
+      "sourceSha256": "c4a09d4a4bbe0f66d24c9c9968666439078f2e37e62bfd6bc72743e7c3dd9ddb",
+      "sha256": "d8aa581b41e49af0069ae1cba1d40fc75924d57785f71df0f8e01747fc1b2b07",
+      "variantIds": [
+        "1458719239526551552"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "alt": "Elin bucket bag in Black",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/03-atelier-veyne.png",
+      "sourceFile": "../source/images/002-e593e7aa-a06023a9.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/a24fff8c-dff2-409d-adc3-1eedabf22b03.jpg",
+      "sourceSha256": "a06023a9339cc2d42e18225f9fd0de37fb6d5cec26ebbeda7931156fc39804fa",
+      "sha256": "cc6a0e28f24241500eaa49c47c01d92478c816461e3e7556930d9bbccc373465",
+      "variantIds": [
+        "1458719239526551553"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "alt": "Elin bucket bag in Brown",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    }
+  ],
+  "ownerApproved": false
+}

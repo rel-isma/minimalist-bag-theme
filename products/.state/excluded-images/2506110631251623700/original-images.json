@@ -1,0 +1,93 @@
+{
+  "fetchedAt": "2026-10-23T09:49:38.573Z",
+  "images": [
+    {
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2025/06/11/09/00f0c595-1325-4c03-925d-db46dbcf2d71.jpg",
+      "file": "001-68c91781-533daa18.jpg",
+      "sha256": "533daa18edd899f73cc36dc10a0669497642bc0bc4d163b1be41dae927172604",
+      "bytes": 188970,
+      "finalUrl": "https://oss-cf.cjdropshipping.com/product/2025/06/11/09/00f0c595-1325-4c03-925d-db46dbcf2d71.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/576ad6a7-4d04-4409-9cfc-641f2609a37c.jpg",
+      "file": "002-454ae32b-5241b388.jpg",
+      "sha256": "5241b388ea984ed0acc103394323fb3131cfcc4a1d016f77530be435ccac2b47",
+      "bytes": 93131,
+      "finalUrl": "https://cf.cjdropshipping.com/quick/product/576ad6a7-4d04-4409-9cfc-641f2609a37c.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/81cd92e3-6bc9-4ecf-be31-480fd3588ff8.jpg",
+      "file": "003-c74427d5-3030de41.jpg",
+      "sha256": "3030de4140d50fb863acda4b156639fa8492bb7eb0183ab859789ba8f990d6d6",
+      "bytes": 145667,
+      "finalUrl": "https://cf.cjdropshipping.com/quick/product/81cd92e3-6bc9-4ecf-be31-480fd3588ff8.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2025/06/11/09/0e3a6bba-1927-4bb6-8edf-c852cbc52d82.jpg",
+      "file": "004-c588a394-f6f899f0.jpg",
+      "sha256": "f6f899f0c8aa868951df018ad5e0ac69a0a2782aeaee535f48bda39fde81d4a7",
+      "bytes": 174802,
+      "finalUrl": "https://oss-cf.cjdropshipping.com/product/2025/06/11/09/0e3a6bba-1927-4bb6-8edf-c852cbc52d82.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/99da34a4-3dc4-461d-8e78-a3c55c67d16d.jpg",
+      "file": "005-3e4621f0-eb973812.jpg",
+      "sha256": "eb973812f19007834c438066f3e142015a8812b69023818e8e4df60e32a855ee",
+      "bytes": 266816,
+      "finalUrl": "https://cf.cjdropshipping.com/quick/product/99da34a4-3dc4-461d-8e78-a3c55c67d16d.jpg",
+      "status": "downloaded"
+    },
+    {
+      "sourceUrl": "https://cbu01.alicdn.com/img/ibank/O1CN013uYaf11jrJJwRWuML_!!2680304601-0-cib.jpg",
+      "status": "downloaded",
+      "file": "006-c04fd197-da850e83.jpg",
+      "sha256": "da850e83d54f44bdade82b65b13ccf1683c4ce47d78977926a2167801c3abd28",
+      "bytes": 353368,
+      "finalUrl": "https://cbu01.alicdn.com/img/ibank/O1CN013uYaf11jrJJwRWuML_!!2680304601-0-cib.jpg"
+    },
+    {
+      "sourceUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01iJRWom1jrJJsacSxu_!!2680304601-0-cib.jpg",
+      "status": "downloaded",
+      "file": "007-66878066-e05c42a8.jpg",
+      "sha256": "e05c42a89b79b84ac540424f41e4d97721ef4f97ca1261f70a40881769ed6b48",
+      "bytes": 128267,
+      "finalUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01iJRWom1jrJJsacSxu_!!2680304601-0-cib.jpg"
+    },
+    {
+      "sourceUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01SIH6HT1jrJJuJ3axQ_!!2680304601-0-cib.jpg",
+      "status": "downloaded",
+      "file": "008-5a1a8f0f-1a5783ac.jpg",
+      "sha256": "1a5783acd6235c16da1cd984bf0f4a6a91a228966e51c3bfbcfba5476a8493b7",
+      "bytes": 130905,
+      "finalUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01SIH6HT1jrJJuJ3axQ_!!2680304601-0-cib.jpg"
+    },
+    {
+      "sourceUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01ezrDNF1jrJJus2iKI_!!2680304601-0-cib.jpg",
+      "status": "downloaded",
+      "file": "009-bf0679f4-fa80afde.jpg",
+      "sha256": "fa80afdee7224c2699fe0c798a926324809d1ca13263767ef0fcf2bc7e2bebb7",
+      "bytes": 261356,
+      "finalUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01ezrDNF1jrJJus2iKI_!!2680304601-0-cib.jpg"
+    },
+    {
+      "sourceUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01N6hWMX1jrJJvGGBB8_!!2680304601-0-cib.jpg",
+      "status": "downloaded",
+      "file": "010-3a28c2eb-3947a2cd.jpg",
+      "sha256": "3947a2cd023a94c1b4992a47c964578bf57e9433cc264182e2d21025d38a015e",
+      "bytes": 290254,
+      "finalUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01N6hWMX1jrJJvGGBB8_!!2680304601-0-cib.jpg"
+    },
+    {
+      "sourceUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01yuX9601jrJJnXe0Xn_!!2680304601-0-cib.jpg",
+      "status": "downloaded",
+      "file": "011-df407aff-a8cd2612.jpg",
+      "sha256": "a8cd261220a29b78c691bfc86d98bf288be9fedf18ef247b91e522160234306f",
+      "bytes": 214079,
+      "finalUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01yuX9601jrJJnXe0Xn_!!2680304601-0-cib.jpg"
+    }
+  ]
+}

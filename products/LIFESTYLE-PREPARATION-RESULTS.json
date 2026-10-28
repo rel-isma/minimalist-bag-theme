@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-25T16:46:49.488Z",
+  "products": [
+    {
+      "id": "2408310805071622300",
+      "title": "Marlow top-handle bag",
+      "studioImages": 4,
+      "added": true
+    },
+    {
+      "id": "1756516170586402816",
+      "title": "Alder bucket bag",
+      "studioImages": 3,
+      "added": true
+    },
+    {
+      "id": "2607121014121623000",
+      "title": "Sora bucket bag",
+      "studioImages": 5,
+      "added": true
+    },
+    {
+      "id": "1458719239455248384",
+      "title": "Elin bucket bag",
+      "studioImages": 4,
+      "added": true
+    },
+    {
+      "id": "2607070853511612201",
+      "title": "Orla barrel bag",
+      "studioImages": 6,
+      "added": true
+    },
+    {
+      "id": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+      "title": "Linden zip handbag",
+      "studioImages": 5,
+      "added": true
+    },
+    {
+      "id": "2407270630041615800",
+      "title": "Luma shoulder bag",
+      "studioImages": 4,
+      "added": true
+    },
+    {
+      "id": "2509070113221629600",
+      "title": "Esme crossbody bag",
+      "studioImages": 4,
+      "added": true
+    },
+    {
+      "id": "2510110122001632000",
+      "title": "Milo compact crossbody",
+      "studioImages": 6,
+      "added": true
+    },
+    {
+      "id": "2608221231211620900",
+      "title": "Alba mini crossbody bag",
+      "studioImages": 8,
+      "added": true
+    },
+    {
+      "id": "2608040718451626300",
+      "title": "Wren bowling bag",
+      "studioImages": 7,
+      "added": true
+    }
+  ],
+  "mode": "local Studio gallery additions"
+}

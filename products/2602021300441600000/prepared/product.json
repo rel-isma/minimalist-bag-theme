@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "stage": "prepared_for_owner_review",
+  "publishingApproved": false,
+  "source": {
+    "cjProductId": "2602021300441600000",
+    "cjProductSku": "CJNS2752129",
+    "originalTitle": "New Large-capacity Shoulder And Crossbody Bag",
+    "productFile": "../source/product.json",
+    "variantsFile": "../source/variants.json"
+  },
+  "shopify": {
+    "title": "Rowan flap bag",
+    "handle": "rowan-flap-bag",
+    "vendor": "Atelier Veyne",
+    "productType": "Crossbody bag",
+    "descriptionHtml": "<p>A broad flap and a quiet rectangular shape define Rowan. Its softly structured exterior is balanced by stitched details, while internal compartments and pockets help organize the things you carry.</p><ul><li>Flap-front rectangular silhouette</li><li>Top handle and longer carry strap shown in source photos</li><li>Internal zippered and card pockets</li></ul>",
+    "shortDescription": "A broad flap and a quiet rectangular shape define Rowan. Its softly structured exterior is balanced by stitched details, while internal compartments and pockets help organize the things you carry.",
+    "seo": {
+      "title": "Rowan flap bag | Atelier Veyne",
+      "description": "Rowan flap bag. Flap-front rectangular silhouette. Top handle and longer carry strap shown in source photos. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Brown Viney",
+          "Black Viney",
+          "Brown public version"
+        ]
+      }
+    ],
+    "tags": [
+      "crossbody-bag",
+      "cj-import",
+      "brown-viney",
+      "black-viney",
+      "brown-public-version"
+    ],
+    "suggestedCollections": [
+      "Crossbody bags"
+    ],
+    "collectionAssignment": "Proposed only; verify exact live collection IDs and smart-collection rules.",
+    "templateSuffix": null,
+    "templateNote": "Use the standard product template after verifying live settings; do not reuse a demo product-specific template.",
+    "statusOnFirstUpload": "DRAFT",
+    "metafields": [
+      {
+        "namespace": "custom",
+        "key": "material",
+        "type": "multi_line_text_field",
+        "value": "Split cowhide and synthetic leather, with polyester lining."
+      }
+    ],
+    "omittedMetafields": [
+      "custom.dimensions",
+      "custom.care"
+    ],
+    "metafieldNote": "Types are proposed, not verified against current Shopify definitions. Do not fill missing fields with demo content."
+  },
+  "variants": [
+    {
+      "cjVariantId": "2602021300441600400",
+      "cjProductId": "2602021300441600000",
+      "sku": "CJNS275212901AZ",
+      "barcode": "1600011065604",
+      "sourceOptionKey": "Brown Viney",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Brown Viney"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/a59344fb-f01d-4955-8bce-29e49dc32c20.jpg",
+      "supplierCost": {
+        "amount": "24.71",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "109.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 300,
+        "width": 220,
+        "height": 150,
+        "weight": 694,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2602021300441600700",
+      "cjProductId": "2602021300441600000",
+      "sku": "CJNS275212902BY",
+      "barcode": "1600011065605",
+      "sourceOptionKey": "Black Viney",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Black Viney"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/564445d5-d5ab-4ccc-a31f-cf24b4d7a340.jpg",
+      "supplierCost": {
+        "amount": "24.71",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "109.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 300,
+        "width": 220,
+        "height": 150,
+        "weight": 694,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    },
+    {
+      "cjVariantId": "2602021300441601000",
+      "cjProductId": "2602021300441600000",
+      "sku": "CJNS275212903CX",
+      "barcode": "1600011065606",
+      "sourceOptionKey": "Brown public version",
+      "optionValues": [
+        {
+          "name": "Color",
+          "value": "Brown public version"
+        }
+      ],
+      "sourceImageUrl": "https://cf.cjdropshipping.com/quick/product/2240f291-d087-4fcd-80b6-9e438f937cff.jpg",
+      "supplierCost": {
+        "amount": "24.71",
+        "currency": "USD",
+        "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+      },
+      "proposedRetailPrice": {
+        "amount": "109.00",
+        "currency": "USD",
+        "status": "suggested_for_owner_review"
+      },
+      "compareAtPrice": null,
+      "inventory": {
+        "tracked": null,
+        "quantity": null,
+        "status": "not_verified"
+      },
+      "sourceMeasurements": {
+        "length": 300,
+        "width": 220,
+        "height": 150,
+        "weight": 694,
+        "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+      }
+    }
+  ],
+  "swatches": [
+    {
+      "optionValue": "Brown Viney",
+      "proposedHex": "#654735",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Black Viney",
+      "proposedHex": "#1B1A18",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    },
+    {
+      "optionValue": "Brown public version",
+      "proposedHex": "#654735",
+      "status": "approximate_source_photo_color_for_review",
+      "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+    }
+  ],
+  "pricing": {
+    "currency": "USD",
+    "suggestedPrice": "109.00",
+    "approved": false,
+    "basis": "Editorial USD proposal aligned with the store visual positioning and supplier cost; not a market appraisal or profit guarantee. No invented compare-at discount.",
+    "excludes": [
+      "Shipping",
+      "Duties and import taxes",
+      "Payment fees",
+      "Returns",
+      "Advertising",
+      "Other operating costs"
+    ]
+  },
+  "specifications": {
+    "material": "Split cowhide and synthetic leather, with polyester lining.",
+    "dimensions": null,
+    "care": null,
+    "features": [
+      "Flap-front rectangular silhouette",
+      "Top handle and longer carry strap shown in source photos",
+      "Internal zippered and card pockets"
+    ],
+    "supplierFacts": [
+      "Description explicitly identifies a mix of split cowhide and synthetic leather."
+    ]
+  },
+  "reviewIssues": [
+    "Brown public version shares the supplier image used by another brown variant. Confirm design/branding difference before merging, relabeling or publishing these variants.",
+    "Keep Brown Viney and Black Viney source labels and references; do not silently remove a possible brand/design distinction."
+  ],
+  "publicationRequirements": [
+    "Owner approval of content, prices and generated photos",
+    "Resolve source specification/variant issues",
+    "Fresh Shopify authorization",
+    "Check existing product CJ IDs, SKUs and proposed handle before deciding create/update",
+    "Verify native CJ-to-Shopify variant fulfillment links",
+    "Verify stock, shipping weight, delivery regions and commercial policies",
+    "Check collection membership, swatches, templates and offer eligibility"
+  ],
+  "media": [
+    {
+      "file": "images/01-atelier-veyne.png",
+      "sourceFile": "../source/images/008-a47f6915-c14cb3a7.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/a59344fb-f01d-4955-8bce-29e49dc32c20.jpg",
+      "sourceSha256": "c14cb3a7bb5a71d4dbd61f26024c5f4984b7365012ac6627ec8bf7322a745dcb",
+      "sha256": "eaa0ebb00bf00d3d816bc4ce0d3d161bf7df34d6e79f1b873355a811c7e630b1",
+      "variantIds": [
+        "2602021300441600400"
+      ],
+      "colors": [
+        "Brown Viney"
+      ],
+      "alt": "Rowan flap bag in Brown Viney",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/02-atelier-veyne.png",
+      "sourceFile": "../source/images/005-31c22fda-d15171db.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/564445d5-d5ab-4ccc-a31f-cf24b4d7a340.jpg",
+      "sourceSha256": "d15171db4b368f58b4a5b99dbd17af4eb2dc83c799f2569a29fda767637f5ab3",
+      "sha256": "5324d870ccc1937a0f59915f6fe5bf514eb2a6abc175c277681e3b45479e010f",
+      "variantIds": [
+        "2602021300441600700"
+      ],
+      "colors": [
+        "Black Viney"
+      ],
+      "alt": "Rowan flap bag in Black Viney",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    },
+    {
+      "file": "images/03-atelier-veyne.png",
+      "sourceFile": "../source/images/001-497e5adc-d01ae952.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/b819398d-2b07-4fda-805a-faa8852b5a3f.jpg",
+      "sourceSha256": "d01ae9527e1fce8b282bec8a91b3f5a9ec3a08eeb77a1d2ad9983183bd7823b0",
+      "sha256": "fd95364670b2723e00b935075619ec47363c7dc7bf4ec7bfe01ca7f7475dedb6",
+      "variantIds": [
+        "2602021300441601000"
+      ],
+      "colors": [
+        "Brown public version"
+      ],
+      "alt": "Rowan flap bag in Brown public version",
+      "promptFile": "../../IMAGE-PROMPT.txt",
+      "promptSuffix": null,
+      "tool": "built-in image_gen",
+      "reviewStatus": "candidate_needs_owner_comparison"
+    }
+  ],
+  "ownerApproved": false
+}

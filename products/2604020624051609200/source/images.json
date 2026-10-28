@@ -1,0 +1,52 @@
+{
+  "images": [
+    {
+      "file": "01-331da7fedfe0.jpg",
+      "sourceUrl": "https://cf.cjdropshipping.com/quick/product/273b121a-3508-477e-a434-0520bf0a480c.jpg",
+      "sha256": "331da7fedfe063b0ca5387fdb10f6fd6e40e0c04b21bb0521bb9729b7bb1f304",
+      "bytes": 53230
+    },
+    {
+      "file": "02-254432ad856c.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/08f17b5f-f972-49db-bc00-51b6edb21524_fine.jpeg",
+      "sha256": "254432ad856cffdc90b6e1829d6f3e34e1a7286c1e9b0ef3cc1ea07dd6088845",
+      "bytes": 392991
+    },
+    {
+      "file": "03-d97b74996f90.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/7cd4d184-db90-4be8-9cc5-255bfeaa73ee_fine.jpeg",
+      "sha256": "d97b74996f90788f5673ec4b31193ec086cee3441653ba8b04257dc2db0ec2c8",
+      "bytes": 439596
+    },
+    {
+      "file": "04-cd625773fb1d.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/63bf65b6-a399-481c-8c21-fdf106453ce2_fine.jpeg",
+      "sha256": "cd625773fb1d52f8b8fdcd2c86117d9d35d9eaa34a2c02679c3df40500957386",
+      "bytes": 440257
+    },
+    {
+      "file": "05-e97da919e821.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/b526723e-fda4-49b8-abda-a8fa4ae75cb8_fine.jpeg",
+      "sha256": "e97da919e821a31abad058293275ddd45ba9b032d5a6d10d058cff37f09bac61",
+      "bytes": 468436
+    },
+    {
+      "file": "06-39ed7df3e1f5.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/5ec65799-0830-4080-83ef-9cb9cb48b0f4_fine.jpeg",
+      "sha256": "39ed7df3e1f59b781bc2800e6196cf4dddd6b63edd82a6bd16e54f412f24d44c",
+      "bytes": 466675
+    },
+    {
+      "file": "07-a52d7b2bb895.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/438c8ef4-e483-48c8-86af-e7d7c057b2ec_fine.jpeg",
+      "sha256": "a52d7b2bb89543569cec5d91631890f9b954fbe1a565d81342a8dfb1b6861409",
+      "bytes": 656624
+    },
+    {
+      "file": "08-06f41eb5e390.jpg",
+      "sourceUrl": "https://oss-cf.cjdropshipping.com/product/2026/04/02/06/5f15af2e-2842-4dd1-a127-8b8afdd2a03e_fine.jpeg",
+      "sha256": "06f41eb5e39034db94dc6ec05b7efb9eac73fe11c76a6ae3dd8ee33f4c4de862",
+      "bytes": 439679
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+mutation StudioOption($productId:ID!,$option:OptionUpdateInput!,$optionValuesToUpdate:[OptionValueUpdateInput!]){productOptionUpdate(productId:$productId,option:$option,optionValuesToUpdate:$optionValuesToUpdate){product{id}userErrors{field message}}}

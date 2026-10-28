@@ -1,0 +1,41 @@
+[
+  {
+    "cjProductId": "1458719239455248384",
+    "cjVariantId": "1458719239522357248",
+    "sku": "CJNS134996001AZ",
+    "sourceOptionKey": "Yellow",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Yellow"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/a418ef64-00be-403a-bf77-9e094b259a85.jpg"
+  },
+  {
+    "cjProductId": "1458719239455248384",
+    "cjVariantId": "1458719239526551552",
+    "sku": "CJNS134996002BY",
+    "sourceOptionKey": "Black",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Black"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/401a54b4-cf1d-4747-81d0-1803766edcc3.jpg"
+  },
+  {
+    "cjProductId": "1458719239455248384",
+    "cjVariantId": "1458719239526551553",
+    "sku": "CJNS134996003CX",
+    "sourceOptionKey": "Brown",
+    "optionValues": [
+      {
+        "name": "Color",
+        "value": "Brown"
+      }
+    ],
+    "sourceImageUrl": "https://cf.cjdropshipping.com/a24fff8c-dff2-409d-adc3-1eedabf22b03.jpg"
+  }
+]

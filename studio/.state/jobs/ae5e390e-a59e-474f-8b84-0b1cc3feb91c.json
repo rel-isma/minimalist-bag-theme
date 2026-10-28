@@ -1,0 +1,60 @@
+{
+  "id": "ae5e390e-a59e-474f-8b84-0b1cc3feb91c",
+  "productId": "2606280932411629600",
+  "title": "Iris soft shoulder bag",
+  "action": "publish",
+  "planId": "323066dc-1bd8-4343-b5fd-9fbda97a07cc",
+  "status": "complete",
+  "startedAt": "2026-10-25T15:28:44.000Z",
+  "events": [
+    {
+      "at": "2026-10-25T15:28:46.744Z",
+      "message": "Submitting native CJ listing; CJ will create fulfillment connections",
+      "nativePublishIntent": true
+    },
+    {
+      "at": "2026-10-25T15:28:47.499Z",
+      "message": "CJ listing submitted",
+      "listedId": "2610251528470672800"
+    },
+    {
+      "at": "2026-10-25T15:29:18.221Z",
+      "message": "Verifying every native CJ product and variant reference"
+    },
+    {
+      "at": "2026-10-25T15:29:20.911Z",
+      "message": "CJ inventory location and quantity tracking verified; checking supplier sync"
+    },
+    {
+      "at": "2026-10-25T15:29:22.758Z",
+      "message": "Applying approved branded gallery and theme fields to the CJ-linked product"
+    }
+  ],
+  "nativePublishIntent": true,
+  "listedId": "2610251528470672800",
+  "result": {
+    "shopifyId": "gid://shopify/Product/15464427880767",
+    "contentUpdated": true,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 6,
+      "total": 6,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15464427880767",
+      "stock": 44020
+    },
+    "inventorySetup": {
+      "configured": true,
+      "locationId": "gid://shopify/Location/114800427327",
+      "variants": 6,
+      "quantitiesWritten": false,
+      "available": 44020
+    },
+    "inventoryManaged": true,
+    "note": "CJ connections, quantity tracking and inventory management verified."
+  },
+  "finishedAt": "2026-10-25T15:30:14.586Z",
+  "refreshedAt": "2026-10-25T15:30:23.236Z"
+}

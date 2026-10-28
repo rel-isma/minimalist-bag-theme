@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-23T11:47:09.604Z",
+  "method": "terminal_client_credentials",
+  "store": "s35my0-uu.myshopify.com",
+  "name": "Atelier Veyne",
+  "currency": "USD",
+  "adminAuthorizationVerified": true,
+  "grantedScopes": [
+    "read_files",
+    "read_products",
+    "read_publications",
+    "read_themes",
+    "write_files",
+    "write_products",
+    "write_publications"
+  ],
+  "missingScopes": [],
+  "expectedCurrency": "USD",
+  "currencyMatches": true,
+  "shopifyChanged": false
+}

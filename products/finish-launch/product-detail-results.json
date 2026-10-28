@@ -1,0 +1,138 @@
+{
+  "at": "2026-10-27T15:07:08.162Z",
+  "careBasis": "Owner approved clearly labeled general care guidance; not supplier-specific instructions.",
+  "careSources": [
+    "https://leatheruk.org/care-instructions/",
+    "https://www.leathernaturally.org/wp-content/uploads/2023/05/LN_Fact_Sheet_Guide_How-to-care-for-Leather.pdf"
+  ],
+  "products": [
+    {
+      "id": "2408310805071622300",
+      "title": "Marlow top-handle bag",
+      "careUpdated": true,
+      "dimensions": {
+        "value": "Approx. 21 cm wide × 15 cm high. Shoulder strap: 120 cm. Supplier measurements; allow 1–2 cm variation.",
+        "diagram": "2408310805071622300-0.jpg",
+        "note": "Supplier diagram has an unclear depth unit; depth is deliberately omitted.",
+        "sha256": "4eb8671dbe9177bf987861df84add2822e49673b53e9d0426ca73499bc8ec28a"
+      }
+    },
+    {
+      "id": "1756516170586402816",
+      "title": "Alder bucket bag",
+      "careUpdated": true,
+      "dimensions": {
+        "value": "Approx. 22 cm long × 22.5 cm high, according to the supplier diagram.",
+        "diagram": "1756516170586402816-0.jpg",
+        "note": "Supplier diagram has an unclear depth unit; depth is deliberately omitted.",
+        "sha256": "5928c1ad2965f9cb181d13f9fe47668946b062f8d9c68e0c7bce9d3fc99f45fd"
+      }
+    },
+    {
+      "id": "2607121014121623000",
+      "title": "Sora bucket bag",
+      "careUpdated": true,
+      "dimensions": {
+        "value": "Approx. 24 cm base length × 8 cm depth × 15 cm height, according to the supplier diagram.",
+        "diagram": "2607121014121623000-1.jpg",
+        "sha256": "6eb06e21d71ddc5d497c7aef4729766d787b3e3e95c11f4abd068f060a43027b"
+      }
+    },
+    {
+      "id": "1458719239455248384",
+      "title": "Elin bucket bag",
+      "careUpdated": true,
+      "dimensions": {
+        "value": "Approx. 20 cm long × 12 cm deep × 25 cm high, according to the supplier diagram.",
+        "diagram": "elin-0.jpg",
+        "replaces": "xcvxcvcxvcxv",
+        "sha256": "6d317b6f5cb9407a6a0d6d3c807c210636c8d7c91b8d81140095fac156331d1e"
+      }
+    },
+    {
+      "id": "2607070853511612201",
+      "title": "Orla barrel bag",
+      "careUpdated": true,
+      "dimensions": null
+    },
+    {
+      "id": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+      "title": "Linden zip handbag",
+      "careUpdated": true,
+      "dimensions": null
+    },
+    {
+      "id": "2506110631251623700",
+      "title": "Rhea crossbody bag",
+      "careUpdated": true,
+      "dimensions": null
+    },
+    {
+      "id": "2407270630041615800",
+      "title": "Luma shoulder bag",
+      "careUpdated": true,
+      "dimensions": {
+        "value": "Approx. 21 cm long × 12 cm deep × 14 cm high, according to the supplier diagram.",
+        "diagram": "2407270630041615800-0.jpg",
+        "sha256": "cdcafcad5719461b5d3824ac88dcdaacb88d6bf4594e198c9ad17922e27c9b01"
+      }
+    },
+    {
+      "id": "2509070113221629600",
+      "title": "Esme crossbody bag",
+      "careUpdated": true,
+      "dimensions": null
+    },
+    {
+      "id": "2510110122001632000",
+      "title": "Milo compact crossbody",
+      "careUpdated": true,
+      "dimensions": null
+    },
+    {
+      "id": "2602240521431615000",
+      "title": "Lune zip handbag",
+      "careUpdated": true,
+      "dimensions": null
+    },
+    {
+      "id": "2604020624051609200",
+      "title": "Reed baguette bag",
+      "careUpdated": true,
+      "dimensions": null
+    },
+    {
+      "id": "2606280932411629600",
+      "title": "Iris soft shoulder bag",
+      "careUpdated": true,
+      "dimensions": {
+        "value": "Approx. 32 cm long × 11 cm deep × 17 cm high, according to the supplier diagram.",
+        "diagram": "iris-0.jpg",
+        "replaces": "ffdgdfgfdg",
+        "sha256": "4f5ef1d7be7bf779c8e404c1861dbd350a3a441b794da1fae6c34d54562bf26a"
+      }
+    },
+    {
+      "id": "2607070313251623100",
+      "title": "Ellis long-handle bag",
+      "careUpdated": true,
+      "dimensions": null
+    },
+    {
+      "id": "2608040718451626300",
+      "title": "Wren bowling bag",
+      "careUpdated": true,
+      "dimensions": {
+        "value": "Approx. 34 cm long × 13 cm deep × 18 cm high, according to the supplier diagram.",
+        "diagram": "2608040718451626300-0.jpg",
+        "sha256": "208a42f8b2582e9bc84c1caf31eb045069c73344597c7363ae770d65bc3d7bcb"
+      }
+    },
+    {
+      "id": "2608221231211620900",
+      "title": "Alba mini crossbody bag",
+      "careUpdated": true,
+      "dimensions": null
+    }
+  ]
+}

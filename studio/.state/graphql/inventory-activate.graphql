@@ -1,0 +1,1 @@
+mutation StudioActivateCJInventory($item:ID!,$location:ID!,$key:String!){inventoryActivate(inventoryItemId:$item,locationId:$location) @idempotent(key:$key){inventoryLevel{id location{id}}userErrors{field message}}}

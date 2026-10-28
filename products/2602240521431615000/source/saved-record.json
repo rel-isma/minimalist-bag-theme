@@ -1,0 +1,51 @@
+{
+  "productId": "2602240521431615000",
+  "userId": null,
+  "packWeight": "610.00",
+  "weight": "590.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/fbf89c76-8c2c-4192-ae73-243f29668c49.jpg",
+  "nameEn": "Retro Leather Fashion Tote Bag",
+  "sku": "CJNS2765852",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": [],
+  "createAt": 1792860075433,
+  "sellPrice": "26.20",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "YunExpress Ordinary",
+  "trialCountry": null,
+  "trialFreight": "0",
+  "totalPrice": "26.20",
+  "listedShopNum": "0",
+  "listedShopIds": [],
+  "vid": "2602240521431615900",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    340,
+    340
+  ],
+  "heightList": [
+    240,
+    240
+  ],
+  "widthList": [
+    130,
+    130
+  ],
+  "volumeList": [
+    10608000,
+    10608000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_id": "2602240521431615000"
+}

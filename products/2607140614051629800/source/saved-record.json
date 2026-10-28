@@ -1,0 +1,51 @@
+{
+  "productId": "2607140614051629800",
+  "userId": null,
+  "packWeight": "660.00",
+  "weight": "620.00",
+  "productType": "0",
+  "propertyKeyList": [
+    "COMMON"
+  ],
+  "bigImage": "https://cf.cjdropshipping.com/quick/product/d6a20c1e-a5b7-4e33-8961-01f8efc6e9f8.jpg",
+  "nameEn": "Large-capacity, Luxury-style Tote Bag For Women",
+  "sku": "CJNS2983252",
+  "isPod": 0,
+  "hasPacked": 0,
+  "folderId": [],
+  "createAt": 1792858085489,
+  "sellPrice": "27.36",
+  "discountPrice": null,
+  "discountPriceRate": null,
+  "defaultArea": "China Warehouse",
+  "shopMethod": "YunExpress Ordinary",
+  "trialCountry": null,
+  "trialFreight": "0",
+  "totalPrice": "27.36",
+  "listedShopNum": "0",
+  "listedShopIds": [],
+  "vid": "2607140614061621000",
+  "areaId": "1",
+  "areaCountryCode": "CN",
+  "freightDiscount": "0",
+  "lengthList": [
+    350,
+    350
+  ],
+  "heightList": [
+    180,
+    180
+  ],
+  "widthList": [
+    220,
+    220
+  ],
+  "volumeList": [
+    13860000,
+    13860000
+  ],
+  "addMarkStatus": "0",
+  "isSafeProduct": false,
+  "hasVirPacked": 0,
+  "_id": "2607140614051629800"
+}

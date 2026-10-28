@@ -1,0 +1,306 @@
+{
+  "id": "48a47f6d-db29-4885-bcc8-4d3be0e5293d",
+  "createdAt": 1792781381279,
+  "draftHash": "da456b13b035f731819d14bb898ddee63192d7a39b6fc83002396adbc24de5ba",
+  "draft": {
+    "id": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+    "cjProductSku": "CJBHNSNS27768",
+    "title": "Linden zip handbag",
+    "handle": "linden-zip-handbag",
+    "description": "Linden keeps its lines simple with a soft handle, stitched detailing and a zip opening. The understated shape is finished with an internal slip pocket for smaller essentials. Soft handle Zip opening Internal slip pocket",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "tags": [
+      "black",
+      "cj-import",
+      "coffee",
+      "earthy-yellow",
+      "new-arrival",
+      "red",
+      "shoulder-bag"
+    ],
+    "seo": {
+      "title": "Linden zip handbag | Atelier Veyne",
+      "description": "Linden zip handbag. Soft handle. Zip opening. Discover considered everyday bags at Atelier Veyne."
+    },
+    "material": "Split cowhide leather with polyester lining.",
+    "dimensions": "",
+    "care": "",
+    "variants": [
+      {
+        "cjVariantId": "047C6A32-C0E3-4D59-8D51-26E37A3DBA88",
+        "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+        "sku": "CJBHNSNS27768-Black",
+        "barcode": "1598445219981",
+        "sourceOptionKey": "Black",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ],
+        "sourceImageUrl": "https://cf.cjdropshipping.com/2044/35115917318.jpg",
+        "supplierCost": {
+          "amount": "12.2",
+          "currency": "USD",
+          "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+        },
+        "proposedRetailPrice": {
+          "amount": "79.00",
+          "currency": "USD"
+        },
+        "compareAtPrice": null,
+        "inventory": {
+          "tracked": null,
+          "quantity": null,
+          "status": "not_verified"
+        },
+        "sourceMeasurements": {
+          "length": 270,
+          "width": 100,
+          "height": 150,
+          "weight": 750,
+          "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+        }
+      },
+      {
+        "cjVariantId": "04AA4F85-E5F3-4BCD-8821-3460A76F3F45",
+        "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+        "sku": "CJBHNSNS27768-Earthy yellow",
+        "barcode": "1598445219982",
+        "sourceOptionKey": "Earthy yellow",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Earthy yellow"
+          }
+        ],
+        "sourceImageUrl": "https://cf.cjdropshipping.com/2044/2103869739470.jpg",
+        "supplierCost": {
+          "amount": "12.2",
+          "currency": "USD",
+          "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+        },
+        "proposedRetailPrice": {
+          "amount": "79.00",
+          "currency": "USD"
+        },
+        "compareAtPrice": null,
+        "inventory": {
+          "tracked": null,
+          "quantity": null,
+          "status": "not_verified"
+        },
+        "sourceMeasurements": {
+          "length": 270,
+          "width": 100,
+          "height": 150,
+          "weight": 750,
+          "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+        }
+      },
+      {
+        "cjVariantId": "3636A15F-751B-402A-9A74-D362D99CFB84",
+        "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+        "sku": "CJBHNSNS27768-Coffee",
+        "barcode": "1598445219983",
+        "sourceOptionKey": "Coffee",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Coffee"
+          }
+        ],
+        "sourceImageUrl": "https://cf.cjdropshipping.com/2044/663113957872.jpg",
+        "supplierCost": {
+          "amount": "12.2",
+          "currency": "USD",
+          "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+        },
+        "proposedRetailPrice": {
+          "amount": "79.00",
+          "currency": "USD"
+        },
+        "compareAtPrice": null,
+        "inventory": {
+          "tracked": null,
+          "quantity": null,
+          "status": "not_verified"
+        },
+        "sourceMeasurements": {
+          "length": 270,
+          "width": 100,
+          "height": 150,
+          "weight": 750,
+          "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+        }
+      },
+      {
+        "cjVariantId": "EA26C552-7EC1-4A6D-9779-B951C7EF6728",
+        "cjProductId": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+        "sku": "CJBHNSNS27768-Red",
+        "barcode": "1598445219980",
+        "sourceOptionKey": "Red",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Red"
+          }
+        ],
+        "sourceImageUrl": "https://cf.cjdropshipping.com/2044/3078256194364.jpg",
+        "supplierCost": {
+          "amount": "12.2",
+          "currency": "USD",
+          "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+        },
+        "proposedRetailPrice": {
+          "amount": "79.00",
+          "currency": "USD"
+        },
+        "compareAtPrice": null,
+        "inventory": {
+          "tracked": null,
+          "quantity": null,
+          "status": "not_verified"
+        },
+        "sourceMeasurements": {
+          "length": 270,
+          "width": 100,
+          "height": 150,
+          "weight": 750,
+          "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+        }
+      }
+    ],
+    "swatches": [
+      {
+        "optionValue": "Black",
+        "proposedHex": "#1B1A18",
+        "status": "approximate_source_photo_color_for_review",
+        "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+      },
+      {
+        "optionValue": "Earthy yellow",
+        "proposedHex": "#A76131",
+        "status": "approximate_source_photo_color_for_review",
+        "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+      },
+      {
+        "optionValue": "Coffee",
+        "proposedHex": "#684335",
+        "status": "approximate_source_photo_color_for_review",
+        "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+      },
+      {
+        "optionValue": "Red",
+        "proposedHex": "#A43E3D",
+        "status": "approximate_source_photo_color_for_review",
+        "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+      }
+    ],
+    "images": [
+      {
+        "id": "d9810e4fe39d7d5b",
+        "file": "products/295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/01-atelier-veyne.png",
+        "url": "/media/products/295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/01-atelier-veyne.png",
+        "alt": "Linden zip handbag in Black",
+        "variantIds": [
+          "047C6A32-C0E3-4D59-8D51-26E37A3DBA88"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/2044/35115917318.jpg"
+      },
+      {
+        "id": "e8807e822295dead",
+        "file": "products/295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/02-atelier-veyne.png",
+        "url": "/media/products/295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/02-atelier-veyne.png",
+        "alt": "Linden zip handbag in Earthy yellow",
+        "variantIds": [
+          "04AA4F85-E5F3-4BCD-8821-3460A76F3F45"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/2044/2103869739470.jpg"
+      },
+      {
+        "id": "c8853fd858699553",
+        "file": "products/295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/03-atelier-veyne.png",
+        "url": "/media/products/295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/03-atelier-veyne.png",
+        "alt": "Linden zip handbag in Coffee",
+        "variantIds": [
+          "3636A15F-751B-402A-9A74-D362D99CFB84"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/2044/663113957872.jpg"
+      },
+      {
+        "id": "96d600413ed700d4",
+        "file": "products/295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/04-atelier-veyne.png",
+        "url": "/media/products/295A6204-FA3E-4BFF-A999-D44F5C61CA21/prepared/images/04-atelier-veyne.png",
+        "alt": "Linden zip handbag in Red",
+        "variantIds": [
+          "EA26C552-7EC1-4A6D-9779-B951C7EF6728"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/2044/3078256194364.jpg"
+      }
+    ],
+    "reviewNotes": [
+      "Supplier describes both Boston and vertical-square shapes; customer copy avoids an exact shape classification.",
+      "Oil-wax finish is only in the supplier title; confirm before making finish-specific claims."
+    ],
+    "resolvedNotes": [],
+    "replaceGallery": true,
+    "savedAt": null,
+    "sourceName": "Leather casual fashion oil wax leather bag",
+    "sourceDescription": "Style: European and American style Style: women's handbag Cortex features: two-layer cowhide Bag trend style: Boston bag Lining texture: polyester Bag shapes: square vertical section Opening method: zipper Popular elements: stitching Bag size: large pattern: plain Processing methods: soft surface Hardness: Medium to soft Lifting parts: soft handle Outer bag type: inner patch pocket",
+    "fulfillment": {
+      "sourceCountryCode": "CN",
+      "defaultArea": 1,
+      "targetCountryCode": "US",
+      "logistics": "CJPacket Fast US",
+      "locationIds": [
+        "114800427327"
+      ],
+      "deliveryProfileId": ""
+    },
+    "collectionIds": [],
+    "templateSuffix": "",
+    "taxable": false
+  },
+  "action": "connect",
+  "shopId": "2610192154423535300",
+  "existingId": "gid://shopify/Product/15459352674623",
+  "existingFingerprint": "57128c15c4026d67cbb9acd590fbfad6a1ae8e07b7a0b1c912b47d938d29f76e",
+  "connected": {
+    "state": "needs-link",
+    "label": "Needs CJ link",
+    "linked": 0,
+    "total": 4,
+    "inventoryManaged": false,
+    "shopifyStatus": "ACTIVE",
+    "shopifyId": "gid://shopify/Product/15459352674623",
+    "stock": 0
+  },
+  "summary": {
+    "title": "Linden zip handbag",
+    "action": "Connect existing variants to CJ",
+    "variants": 4,
+    "images": 4,
+    "shop": "s35my0-uu.myshopify.com",
+    "existing": "gid://shopify/Product/15459352674623",
+    "inventory": "Never invent or manually overwrite stock. Verify CJ inventory management separately.",
+    "publication": "Keep current product status and channels",
+    "supplierNotes": [
+      "Supplier describes both Boston and vertical-square shapes; customer copy avoids an exact shape classification.",
+      "Oil-wax finish is only in the supplier title; confirm before making finish-specific claims."
+    ],
+    "clearedFields": []
+  },
+  "originalDraftHash": "1b2c172f118c39d2f189f1b3c6cd5b36cb2108f45830163fe333bfe3b45edc08",
+  "batchDraft": true,
+  "consumedAt": 1792781442168
+}

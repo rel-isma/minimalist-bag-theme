@@ -1,0 +1,122 @@
+{
+  "checkedAt": "2026-10-25T16:49:53.233Z",
+  "passed": true,
+  "auditedProducts": 16,
+  "alreadyCovered": 5,
+  "newImages": 11,
+  "generatedDimensions": [
+    "1086x1448"
+  ],
+  "checks": [
+    {
+      "id": "2408310805071622300",
+      "title": "Marlow top-handle bag",
+      "images": 4,
+      "sourceIntact": true,
+      "hasWomanCarryingPhoto": true,
+      "mode": "supplier_model",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "1756516170586402816",
+      "title": "Alder bucket bag",
+      "images": 3,
+      "sourceIntact": true,
+      "hasWomanCarryingPhoto": true,
+      "mode": "supplier_model",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "2607121014121623000",
+      "title": "Sora bucket bag",
+      "images": 5,
+      "sourceIntact": true,
+      "hasWomanCarryingPhoto": true,
+      "mode": "supplier_model",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "1458719239455248384",
+      "title": "Elin bucket bag",
+      "images": 4,
+      "sourceIntact": true,
+      "hasWomanCarryingPhoto": true,
+      "mode": "supplier_model",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "2607070853511612201",
+      "title": "Orla barrel bag",
+      "images": 6,
+      "sourceIntact": true,
+      "hasWomanCarryingPhoto": true,
+      "mode": "supplier_model",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "295A6204-FA3E-4BFF-A999-D44F5C61CA21",
+      "title": "Linden zip handbag",
+      "images": 5,
+      "sourceIntact": true,
+      "hasWomanCarryingPhoto": true,
+      "mode": "composite",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "2407270630041615800",
+      "title": "Luma shoulder bag",
+      "images": 4,
+      "sourceIntact": true,
+      "hasWomanCarryingPhoto": true,
+      "mode": "composite",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "2509070113221629600",
+      "title": "Esme crossbody bag",
+      "images": 4,
+      "sourceIntact": true,
+      "hasWomanCarryingPhoto": true,
+      "mode": "composite",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "2510110122001632000",
+      "title": "Milo compact crossbody",
+      "images": 6,
+      "sourceIntact": true,
+      "hasWomanCarryingPhoto": true,
+      "mode": "supplier_model",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "2608221231211620900",
+      "title": "Alba mini crossbody bag",
+      "images": 8,
+      "sourceIntact": true,
+      "hasWomanCarryingPhoto": true,
+      "mode": "composite",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "2608040718451626300",
+      "title": "Wren bowling bag",
+      "images": 7,
+      "sourceIntact": true,
+      "hasWomanCarryingPhoto": true,
+      "mode": "composite",
+      "width": 1086,
+      "height": 1448
+    }
+  ]
+}

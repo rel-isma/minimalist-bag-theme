@@ -1,0 +1,33 @@
+{
+  "id": "2510110122001632000",
+  "title": "Milo compact crossbody",
+  "color": "Beige",
+  "mode": "supplier_model",
+  "reference": "products/2510110122001632000/source/images/009-0987add6-b8c9f091.jpg",
+  "sourceUrl": "https://cf.cjdropshipping.com/quick/product/079be3fb-4bba-477a-8a8b-b540d6be7493.jpg",
+  "output": "products/2510110122001632000/prepared/images/lifestyle-woman-v1.png",
+  "status": "visually_reviewed",
+  "prompt": "Edit the supplied CJ lifestyle product photograph into a premium Atelier Veyne e-commerce editorial photograph. Target product: Milo compact crossbody, Beige. Preserve the EXACT bag, its original color, silhouette, grain, seams, hardware, closures, handle/strap attachment, relative scale to the woman, and the woman's carrying pose. Change only background, light and surrounding editorial styling to warm ivory lime plaster, muted sandstone beige architecture, soft natural side daylight, subtle realistic shadows. Adult woman in understated neutral clothing, face outside crop when practical, elegant candid torso-to-thigh framing emphasizing the complete bag. Do not redesign or embellish the bag, add logos, text, labels, invented pockets, extra straps, or any watermark. Single clean photograph, portrait 3:4 composition, product fully visible with breathing room. Match calm warm Atelier Veyne brand photography.",
+  "generatedFile": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-6e7d5a6c-c791-42cb-871d-f38615a4aaac.png",
+  "sha256": "9e0a1d8246474d1d6537a2d05e814679eeb0e726286b9043dc270e858dde27f8",
+  "sourceSha256": "b8c9f0913552bf46ca8ab9b337ee8fb8dbe717ef98134de900cdfa030e3698bf",
+  "width": 1086,
+  "height": 1448,
+  "tool": "built-in image_gen",
+  "reviewedAt": "2026-10-25T16:46:49.329Z",
+  "visualReview": "Compared with original: correct product silhouette, source color, closures/handles/hardware; adult carrying view; no visible text or anatomy defects.",
+  "image": {
+    "id": "e21d5f8634a941c9",
+    "file": "products/2510110122001632000/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/2510110122001632000/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Milo compact crossbody in Beige, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-source-edit",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/079be3fb-4bba-477a-8a8b-b540d6be7493.jpg",
+    "sourceFile": "products/2510110122001632000/source/images/009-0987add6-b8c9f091.jpg",
+    "generated": true
+  },
+  "addedToStudioAt": "2026-10-25T16:46:49.840Z"
+}

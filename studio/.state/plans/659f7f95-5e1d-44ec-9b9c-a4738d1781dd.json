@@ -1,0 +1,252 @@
+{
+  "id": "659f7f95-5e1d-44ec-9b9c-a4738d1781dd",
+  "createdAt": 1792783236245,
+  "draftHash": "eefadcd712c9894929dcbda19b87bd535b75aff044d5d2f91a3425be4cb9e2e7",
+  "draft": {
+    "id": "1458719239455248384",
+    "cjProductSku": "CJNS1349960",
+    "title": "Elin bucket bag",
+    "handle": "elin-bucket-bag",
+    "description": "Elin gives the everyday bucket bag a simple, composed outline. A soft handle and a lock closure frame the design, with internal pockets for keeping smaller essentials together. Bucket shape with soft handle Lock closure Internal zip, phone and card pockets",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "tags": [
+      "black",
+      "brown",
+      "cj-import",
+      "new-arrival",
+      "shoulder-bag",
+      "yellow"
+    ],
+    "seo": {
+      "title": "Elin bucket bag | Atelier Veyne",
+      "description": "Elin bucket bag. Bucket shape with soft handle. Lock closure. Discover considered everyday bags at Atelier Veyne."
+    },
+    "material": "Split cowhide leather with polyester lining.",
+    "dimensions": "xcvxcvcxvcxv",
+    "care": "xvxvxcv",
+    "variants": [
+      {
+        "cjVariantId": "1458719239522357248",
+        "cjProductId": "1458719239455248384",
+        "sku": "CJNS134996001AZ",
+        "barcode": "1598449932490",
+        "sourceOptionKey": "Yellow",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Yellow"
+          }
+        ],
+        "sourceImageUrl": "https://cf.cjdropshipping.com/a418ef64-00be-403a-bf77-9e094b259a85.jpg",
+        "supplierCost": {
+          "amount": "22.65",
+          "currency": "USD",
+          "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "compareAtPrice": null,
+        "inventory": {
+          "tracked": null,
+          "quantity": null,
+          "status": "not_verified"
+        },
+        "sourceMeasurements": {
+          "length": 300,
+          "width": 200,
+          "height": 60,
+          "weight": 916,
+          "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+        }
+      },
+      {
+        "cjVariantId": "1458719239526551552",
+        "cjProductId": "1458719239455248384",
+        "sku": "CJNS134996002BY",
+        "barcode": "1598449932491",
+        "sourceOptionKey": "Black",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ],
+        "sourceImageUrl": "https://cf.cjdropshipping.com/401a54b4-cf1d-4747-81d0-1803766edcc3.jpg",
+        "supplierCost": {
+          "amount": "22.65",
+          "currency": "USD",
+          "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "compareAtPrice": null,
+        "inventory": {
+          "tracked": null,
+          "quantity": null,
+          "status": "not_verified"
+        },
+        "sourceMeasurements": {
+          "length": 300,
+          "width": 200,
+          "height": 60,
+          "weight": 916,
+          "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+        }
+      },
+      {
+        "cjVariantId": "1458719239526551553",
+        "cjProductId": "1458719239455248384",
+        "sku": "CJNS134996003CX",
+        "barcode": "1598449932492",
+        "sourceOptionKey": "Brown",
+        "optionValues": [
+          {
+            "name": "Color",
+            "value": "Brown"
+          }
+        ],
+        "sourceImageUrl": "https://cf.cjdropshipping.com/a24fff8c-dff2-409d-adc3-1eedabf22b03.jpg",
+        "supplierCost": {
+          "amount": "22.65",
+          "currency": "USD",
+          "source": "source/product.json: variants.variantSellPrice; supplier cost only"
+        },
+        "proposedRetailPrice": {
+          "amount": "99.00",
+          "currency": "USD"
+        },
+        "compareAtPrice": null,
+        "inventory": {
+          "tracked": null,
+          "quantity": null,
+          "status": "not_verified"
+        },
+        "sourceMeasurements": {
+          "length": 300,
+          "width": 200,
+          "height": 60,
+          "weight": 916,
+          "note": "Source API values preserved; not used as product dimensions or shipping weight until meaning and units are verified."
+        }
+      }
+    ],
+    "swatches": [
+      {
+        "optionValue": "Yellow",
+        "proposedHex": "#C99640",
+        "status": "approximate_source_photo_color_for_review",
+        "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+      },
+      {
+        "optionValue": "Black",
+        "proposedHex": "#1B1A18",
+        "status": "approximate_source_photo_color_for_review",
+        "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+      },
+      {
+        "optionValue": "Brown",
+        "proposedHex": "#A15D3D",
+        "status": "approximate_source_photo_color_for_review",
+        "note": "Display swatch suggestion only; original product color and SKU remain unchanged. Use native Shopify option swatch metadata after admin verification."
+      }
+    ],
+    "images": [
+      {
+        "id": "d9810e4fe39d7d5b",
+        "file": "products/1458719239455248384/prepared/images/01-atelier-veyne.png",
+        "url": "/media/products/1458719239455248384/prepared/images/01-atelier-veyne.png",
+        "alt": "Elin bucket bag in Yellow",
+        "variantIds": [
+          "1458719239522357248"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/a418ef64-00be-403a-bf77-9e094b259a85.jpg"
+      },
+      {
+        "id": "e8807e822295dead",
+        "file": "products/1458719239455248384/prepared/images/02-atelier-veyne.png",
+        "url": "/media/products/1458719239455248384/prepared/images/02-atelier-veyne.png",
+        "alt": "Elin bucket bag in Black",
+        "variantIds": [
+          "1458719239526551552"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/401a54b4-cf1d-4747-81d0-1803766edcc3.jpg"
+      },
+      {
+        "id": "c8853fd858699553",
+        "file": "products/1458719239455248384/prepared/images/03-atelier-veyne.png",
+        "url": "/media/products/1458719239455248384/prepared/images/03-atelier-veyne.png",
+        "alt": "Elin bucket bag in Brown",
+        "variantIds": [
+          "1458719239526551553"
+        ],
+        "enabled": true,
+        "kind": "branded",
+        "sourceUrl": "https://cf.cjdropshipping.com/a24fff8c-dff2-409d-adc3-1eedabf22b03.jpg"
+      }
+    ],
+    "reviewNotes": [
+      "Supplier alternates between soft and medium-hard descriptions; do not promise a particular firmness.",
+      "Supplier mentions a mother-and-child style but packing list only states one bag. Confirm included components before promising an additional pouch."
+    ],
+    "resolvedNotes": [],
+    "replaceGallery": true,
+    "savedAt": "2026-10-23T18:58:54.335Z",
+    "sourceName": "Original Fashion One-shoulder Soft Leather Bucket Bag",
+    "sourceDescription": "Product information: Color: yellow, black, brown Style: European and American style Material: Leather Cortex features: two-layer cowhide Trendy styles of luggage: mother and child bag Bag size: medium Popular elements: car suture Lining texture: polyester Bag shape: bucket type Opening method: lock The internal structure of the bag: zipper pocket, mobile phone bag, certificate bag Processing methods: soft surface Hardness: medium to hard Carrying parts: soft handle Strap root number: single Style: Women's shoulder bag Size Information: Packing list: Ladies cowhide bag*1 Product Image;",
+    "fulfillment": {
+      "sourceCountryCode": "CN",
+      "defaultArea": 1,
+      "targetCountryCode": "US",
+      "logistics": "CJPacket Fast US",
+      "locationIds": [
+        "114800427327"
+      ],
+      "deliveryProfileId": ""
+    },
+    "collectionIds": [],
+    "templateSuffix": "",
+    "taxable": false
+  },
+  "action": "connect",
+  "inventoryLocationId": "gid://shopify/Location/114800427327",
+  "shopId": "2610192154423535300",
+  "existingId": "gid://shopify/Product/15459352412479",
+  "existingFingerprint": "e49654d0ce6fe0b719f1d1b69df313ec43667f04d6ae2943149a371831bbf73d",
+  "connected": {
+    "state": "connected",
+    "label": "CJ connected",
+    "linked": 3,
+    "total": 3,
+    "inventoryManaged": false,
+    "shopifyStatus": "ACTIVE",
+    "shopifyId": "gid://shopify/Product/15459352412479",
+    "stock": 0
+  },
+  "summary": {
+    "title": "Elin bucket bag",
+    "action": "Enable CJ inventory tracking and verify stock sync",
+    "variants": 3,
+    "images": 3,
+    "shop": "s35my0-uu.myshopify.com",
+    "existing": "gid://shopify/Product/15459352412479",
+    "inventory": "Automatically enable quantity tracking at cjdropshipping. No stock quantity is manually set. CJ stock updates may take time.",
+    "publication": "Keep current product status and channels",
+    "supplierNotes": [
+      "Supplier alternates between soft and medium-hard descriptions; do not promise a particular firmness.",
+      "Supplier mentions a mother-and-child style but packing list only states one bag. Confirm included components before promising an additional pouch."
+    ],
+    "clearedFields": []
+  },
+  "originalDraftHash": "eefadcd712c9894929dcbda19b87bd535b75aff044d5d2f91a3425be4cb9e2e7",
+  "batchDraft": true,
+  "consumedAt": 1792783236344
+}

@@ -1,0 +1,237 @@
+{
+  "productId": "gid://shopify/Product/15459353002303",
+  "before": {
+    "id": "gid://shopify/Product/15459353002303",
+    "title": "Luma shoulder bag",
+    "handle": "luma-shoulder-bag",
+    "status": "ACTIVE",
+    "updatedAt": "2026-10-23T23:51:46Z",
+    "descriptionHtml": "<p>Luma has a softly shaped body with understated stitched detailing. The simple silhouette and internal compartment make it a quiet addition to an everyday wardrobe.</p><ul>\n<li>Soft pillow-style silhouette</li>\n<li>Single-shoulder design</li>\n<li>Internal compartment</li>\n</ul>",
+    "vendor": "Atelier Veyne",
+    "productType": "Shoulder bag",
+    "templateSuffix": "",
+    "tags": [
+      "beige",
+      "black",
+      "cj-import",
+      "new-arrival",
+      "shoulder-bag"
+    ],
+    "seo": {
+      "title": "Luma shoulder bag | Atelier Veyne",
+      "description": "Luma shoulder bag. Soft pillow-style silhouette. Single-shoulder design. Discover considered everyday bags at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "Beige"
+        ]
+      }
+    ],
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519837024575",
+          "title": "Shoulder bags"
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "custom",
+          "key": "material",
+          "type": "multi_line_text_field",
+          "value": "Cowhide leather with polyester lining."
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": "single_line_text_field",
+          "value": "2407270630041615800"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_import_batch",
+          "type": "single_line_text_field",
+          "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_fulfillment_link_verified",
+          "type": "boolean",
+          "value": "false"
+        },
+        {
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": "json",
+          "value": "{\"Black\":\"#1B1A18\",\"Beige\":\"#EEE7D1\"}"
+        },
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Luma shoulder bag | Atelier Veyne"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "Luma shoulder bag. Soft pillow-style silhouette. Single-shoulder design. Discover considered everyday bags at Atelier Veyne."
+        }
+      ]
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/46157965394239",
+          "alt": "Luma shoulder bag in Black",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/luma-shoulder-bag-01.png?v=1792756302",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157965427007",
+          "alt": "Luma shoulder bag in Beige",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/luma-shoulder-bag-02.png?v=1792756302",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157965459775",
+          "alt": "Luma shoulder bag, additional view",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/luma-shoulder-bag-03.png?v=1792756302",
+            "width": 1086,
+            "height": 1448
+          }
+        }
+      ]
+    },
+    "variants": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/67841897627967",
+          "sku": "CJNS209476801AZ",
+          "price": "79.00",
+          "inventoryQuantity": 11017,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828023681343",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/luma-shoulder-bag-01.png?v=1792756302"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2407270630041615800"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2407270630041616000"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Black"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841897660735",
+          "sku": "CJNS209476802BY",
+          "price": "79.00",
+          "inventoryQuantity": 14853,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Beige"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828023714111",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/luma-shoulder-bag-02.png?v=1792756302"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2407270630041615800"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2407270630041616200"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Beige"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "image": {
+    "id": "08ffa142a5120eee",
+    "file": "products/2407270630041615800/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/2407270630041615800/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Luma shoulder bag in Black, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-composite",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/f357d2c5-323e-4d21-952f-8c053d6e07df.jpg",
+    "sourceFile": "products/2407270630041615800/source/images/019-8ec89bc8-1ee7e3a7.jpg",
+    "generated": true
+  },
+  "fileId": "gid://shopify/MediaImage/46179928179007",
+  "startedAt": "2026-10-25T16:48:57.366Z",
+  "result": {
+    "id": "2407270630041615800",
+    "title": "Luma shoulder bag",
+    "shopifyId": "gid://shopify/Product/15459353002303",
+    "addedMediaId": "gid://shopify/MediaImage/46179928179007",
+    "galleryCount": 4,
+    "allOriginalMediaRetained": true,
+    "nonGalleryDataUnchanged": true,
+    "verifiedAt": "2026-10-25T16:48:59.979Z"
+  },
+  "complete": true
+}

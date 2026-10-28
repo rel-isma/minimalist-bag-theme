@@ -1,0 +1,1 @@
+mutation StudioMedia($productId:ID!,$variantMedia:[ProductVariantAppendMediaInput!]!){productVariantAppendMedia(productId:$productId,variantMedia:$variantMedia){product{id}userErrors{field message}}}

@@ -1,0 +1,60 @@
+{
+  "id": "1fc7efa9-83fc-49d6-b7ac-4a23a9bb063c",
+  "productId": "2607070313251623100",
+  "title": "Ellis long-handle bag",
+  "action": "publish",
+  "planId": "506e1a37-4c84-4118-a740-39cd046d58f4",
+  "status": "complete",
+  "startedAt": "2026-10-25T15:36:28.169Z",
+  "events": [
+    {
+      "at": "2026-10-25T15:36:30.501Z",
+      "message": "Submitting native CJ listing; CJ will create fulfillment connections",
+      "nativePublishIntent": true
+    },
+    {
+      "at": "2026-10-25T15:36:32.077Z",
+      "message": "CJ listing submitted",
+      "listedId": "2610251536310648700"
+    },
+    {
+      "at": "2026-10-25T15:36:49.433Z",
+      "message": "Verifying every native CJ product and variant reference"
+    },
+    {
+      "at": "2026-10-25T15:36:52.057Z",
+      "message": "CJ inventory location and quantity tracking verified; checking supplier sync"
+    },
+    {
+      "at": "2026-10-25T15:36:52.808Z",
+      "message": "Applying approved branded gallery and theme fields to the CJ-linked product"
+    }
+  ],
+  "nativePublishIntent": true,
+  "listedId": "2610251536310648700",
+  "result": {
+    "shopifyId": "gid://shopify/Product/15464451539263",
+    "contentUpdated": true,
+    "connection": {
+      "state": "connected",
+      "label": "CJ connected",
+      "linked": 2,
+      "total": 2,
+      "inventoryManaged": true,
+      "shopifyStatus": "ACTIVE",
+      "shopifyId": "gid://shopify/Product/15464451539263",
+      "stock": 15063
+    },
+    "inventorySetup": {
+      "configured": true,
+      "locationId": "gid://shopify/Location/114800427327",
+      "variants": 2,
+      "quantitiesWritten": false,
+      "available": 15063
+    },
+    "inventoryManaged": true,
+    "note": "CJ connections, quantity tracking and inventory management verified."
+  },
+  "finishedAt": "2026-10-25T15:37:29.016Z",
+  "refreshedAt": "2026-10-25T15:37:36.461Z"
+}

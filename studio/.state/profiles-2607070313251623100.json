@@ -1,0 +1,20 @@
+{
+  "isNeedBindProfile": true,
+  "notNeedBindProfileReasonCode": null,
+  "notNeedBindProfileReason": null,
+  "profiles": [
+    {
+      "id": "134383960383",
+      "name": "General shipping profile",
+      "locations": [
+        {
+          "id": "114800427327",
+          "name": "cjdropshipping",
+          "fromCj": true
+        }
+      ],
+      "hasZeroFeeRate": true
+    }
+  ],
+  "marketDrivenShipping": false
+}

@@ -1,0 +1,157 @@
+{
+  "method": "built-in image_gen",
+  "records": [
+    {
+      "source": "products/2608221231211620900/source/images/02-aa22ecf047fa.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-736a4259-4528-485d-816f-332460b3eff3.png",
+      "file": "products/2608221231211620900/prepared/images/catalog-1.png",
+      "prompt": "Use case precise-object-edit. Edit target: supplied real CJ product variant photo for Atelier Veyne. Change ONLY white backdrop and ground to warm ivory plaster wall and pale matte travertine tabletop. Gentle soft daylight upper left and realistic subtle contact shadow. Preserve EXACT product shape, proportions, original color, pebbled texture, handle and strap lengths/positions, stitches, zipper teeth/pulls, charms and all hardware finishes. Never recolor product or redesign, add or remove its components. Entire product visible with safe margins, centered portrait 3:4 composition matching refined minimal cream/stone store. No person, added props, text, logo, frame or collage. This is background replacement of an actual product, not a new bag design.",
+      "role": "catalog",
+      "label": "Chick Yellow-15x10x14CM"
+    },
+    {
+      "source": "products/2608221231211620900/source/images/03-cd69f9d6bee8.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-685b6753-3e4d-4fe2-8aa3-8753854c7869.png",
+      "file": "products/2608221231211620900/prepared/images/catalog-2.png",
+      "prompt": "Use case precise-object-edit. Edit target: supplied real CJ product variant photo for Atelier Veyne. Change ONLY white backdrop and ground to warm ivory plaster wall and pale matte travertine tabletop. Gentle soft daylight upper left and realistic subtle contact shadow. Preserve EXACT product shape, proportions, original color, pebbled texture, handle and strap lengths/positions, stitches, zipper teeth/pulls, charms and all hardware finishes. Never recolor product or redesign, add or remove its components. Entire product visible with safe margins, centered portrait 3:4 composition matching refined minimal cream/stone store. No person, added props, text, logo, frame or collage. This is background replacement of an actual product, not a new bag design.",
+      "role": "catalog",
+      "label": "Milk Shake Powder-15x10x14CM"
+    },
+    {
+      "source": "products/2608221231211620900/source/images/04-9466526aa3f5.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-7d8fc8b8-cd47-47db-8fbf-7a1495d386f9.png",
+      "file": "products/2608221231211620900/prepared/images/catalog-3.png",
+      "prompt": "Use case precise-object-edit. Edit target: supplied real CJ product variant photo for Atelier Veyne. Change ONLY white backdrop and ground to warm ivory plaster wall and pale matte travertine tabletop. Gentle soft daylight upper left and realistic subtle contact shadow. Preserve EXACT product shape, proportions, original color, pebbled texture, handle and strap lengths/positions, stitches, zipper teeth/pulls, charms and all hardware finishes. Never recolor product or redesign, add or remove its components. Entire product visible with safe margins, centered portrait 3:4 composition matching refined minimal cream/stone store. No person, added props, text, logo, frame or collage. This is background replacement of an actual product, not a new bag design.",
+      "role": "catalog",
+      "label": "Matcha Green-15x10x14CM"
+    },
+    {
+      "source": "products/2608221231211620900/source/images/05-64e73db268ea.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-f6886670-b30e-4642-b5d8-7820e5f7aff8.png",
+      "file": "products/2608221231211620900/prepared/images/catalog-4.png",
+      "prompt": "Use case precise-object-edit. Edit target: supplied real CJ product variant photo for Atelier Veyne. Change ONLY white backdrop and ground to warm ivory plaster wall and pale matte travertine tabletop. Gentle soft daylight upper left and realistic subtle contact shadow. Preserve EXACT product shape, proportions, original color, pebbled texture, handle and strap lengths/positions, stitches, zipper teeth/pulls, charms and all hardware finishes. Never recolor product or redesign, add or remove its components. Entire product visible with safe margins, centered portrait 3:4 composition matching refined minimal cream/stone store. No person, added props, text, logo, frame or collage. This is background replacement of an actual product, not a new bag design.",
+      "role": "catalog",
+      "label": "Milkshake White-15x10x14CM"
+    },
+    {
+      "source": "products/2608221231211620900/source/images/06-2142ee518b91.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-e5d751e3-0a90-409b-8d7a-57d880b6d5c5.png",
+      "file": "products/2608221231211620900/prepared/images/catalog-5.png",
+      "prompt": "Use case precise-object-edit. Edit target: supplied real CJ product variant photo for Atelier Veyne. Change ONLY white backdrop and ground to warm ivory plaster wall and pale matte travertine tabletop. Gentle soft daylight upper left and realistic subtle contact shadow. Preserve EXACT product shape, proportions, original color, pebbled texture, handle and strap lengths/positions, stitches, zipper teeth/pulls, charms and all hardware finishes. Never recolor product or redesign, add or remove its components. Entire product visible with safe margins, centered portrait 3:4 composition matching refined minimal cream/stone store. No person, added props, text, logo, frame or collage. This is background replacement of an actual product, not a new bag design.",
+      "role": "catalog",
+      "label": "Black-15x10x14CM"
+    },
+    {
+      "source": "products/2608221231211620900/source/images/07-5e19fbafaacb.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-1f3e5209-2bfe-4b9e-9dc2-25f887264883.png",
+      "file": "products/2608221231211620900/prepared/images/catalog-6.png",
+      "prompt": "Use case precise-object-edit. Edit target: supplied real CJ product variant photo for Atelier Veyne. Change ONLY white backdrop and ground to warm ivory plaster wall and pale matte travertine tabletop. Gentle soft daylight upper left and realistic subtle contact shadow. Preserve EXACT product shape, proportions, original color, pebbled texture, handle and strap lengths/positions, stitches, zipper teeth/pulls, charms and all hardware finishes. Never recolor product or redesign, add or remove its components. Entire product visible with safe margins, centered portrait 3:4 composition matching refined minimal cream/stone store. No person, added props, text, logo, frame or collage. This is background replacement of an actual product, not a new bag design.",
+      "role": "catalog",
+      "label": "Elephant Gray-15x10x14CM"
+    },
+    {
+      "source": "products/2607070313251623100/source/images/02-a95828c6e664.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-1ffc60fd-d67e-480f-b1ce-1fe7dfa8fd76.png",
+      "file": "products/2607070313251623100/prepared/images/catalog-1.png",
+      "prompt": "Precise background-only edit of actual CJ bag variant photo. Keep the entire exact bag, its original color, grain, silhouette, handle/strap lengths and layout, stitching, all metal finishes, lock, tag and hardware unchanged. Do NOT invent, improve, add or remove components or recolor it. Replace only plain white environment with warm cream plaster wall and pale matte travertine tabletop, soft daylight upper left, realistic contact shadow, understated Atelier Veyne product photography. Center full bag in portrait 3:4 with generous safe margins, no crop of handles/strap. No props, people, writing, logos, borders or collage.",
+      "role": "catalog",
+      "label": "Black-33x12x21cm"
+    },
+    {
+      "source": "products/2607070313251623100/source/images/03-8402f53b1c74.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-7700d6a7-de48-48d7-8075-2da47f726e6f.png",
+      "file": "products/2607070313251623100/prepared/images/catalog-2.png",
+      "prompt": "Precise background-only edit of actual CJ bag variant photo. Keep the entire exact bag, its original color, grain, silhouette, handle/strap lengths and layout, stitching, all metal finishes, lock, tag and hardware unchanged. Do NOT invent, improve, add or remove components or recolor it. Replace only plain white environment with warm cream plaster wall and pale matte travertine tabletop, soft daylight upper left, realistic contact shadow, understated Atelier Veyne product photography. Center full bag in portrait 3:4 with generous safe margins, no crop of handles/strap. No props, people, writing, logos, borders or collage.",
+      "role": "catalog",
+      "label": "Brown-33x12x21cm"
+    },
+    {
+      "source": "products/2606280932411629600/source/images/02-a8cbc21e5526.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-29cfa6c1-663d-4708-839f-7563b6440f38.png",
+      "file": "products/2606280932411629600/prepared/images/catalog-1.png",
+      "prompt": "Precise background-only edit of actual CJ bag variant photo. Keep the entire exact bag, its original color, grain, silhouette, handle/strap lengths and layout, stitching, all metal finishes, lock, tag and hardware unchanged. Do NOT invent, improve, add or remove components or recolor it. Replace only plain white environment with warm cream plaster wall and pale matte travertine tabletop, soft daylight upper left, realistic contact shadow, understated Atelier Veyne product photography. Center full bag in portrait 3:4 with generous safe margins, no crop of handles/strap. No props, people, writing, logos, borders or collage.",
+      "role": "catalog",
+      "label": "Beige"
+    },
+    {
+      "source": "products/2606280932411629600/source/images/03-71b1b2e1272c.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-36f16481-ee1a-4a5c-987d-6523119bfc5b.png",
+      "file": "products/2606280932411629600/prepared/images/catalog-2.png",
+      "prompt": "Precise background-only edit of actual CJ bag variant photo. Keep the entire exact bag, its original color, grain, silhouette, handle/strap lengths and layout, stitching, all metal finishes, lock, tag and hardware unchanged. Do NOT invent, improve, add or remove components or recolor it. Replace only plain white environment with warm cream plaster wall and pale matte travertine tabletop, soft daylight upper left, realistic contact shadow, understated Atelier Veyne product photography. Center full bag in portrait 3:4 with generous safe margins, no crop of handles/strap. No props, people, writing, logos, borders or collage.",
+      "role": "catalog",
+      "label": "Elephant Gray"
+    },
+    {
+      "source": "products/2606280932411629600/source/images/04-1eba5ea142f4.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-e711349d-0608-4907-b48e-440cfb5e2852.png",
+      "file": "products/2606280932411629600/prepared/images/catalog-3.png",
+      "prompt": "Precise background-only edit of actual CJ bag variant photo. Keep the entire exact bag, its original color, grain, silhouette, handle/strap lengths and layout, stitching, all metal finishes, lock, tag and hardware unchanged. Do NOT invent, improve, add or remove components or recolor it. Replace only plain white environment with warm cream plaster wall and pale matte travertine tabletop, soft daylight upper left, realistic contact shadow, understated Atelier Veyne product photography. Center full bag in portrait 3:4 with generous safe margins, no crop of handles/strap. No props, people, writing, logos, borders or collage.",
+      "role": "catalog",
+      "label": "Pink"
+    },
+    {
+      "source": "products/2606280932411629600/source/images/05-f373f05c44cc.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-87a34ddd-6711-492d-9cdb-bf1ebb905660.png",
+      "file": "products/2606280932411629600/prepared/images/catalog-4.png",
+      "prompt": "Precise background-only edit of actual CJ bag variant photo. Keep the entire exact bag, its original color, grain, silhouette, handle/strap lengths and layout, stitching, all metal finishes, lock, tag and hardware unchanged. Do NOT invent, improve, add or remove components or recolor it. Replace only plain white environment with warm cream plaster wall and pale matte travertine tabletop, soft daylight upper left, realistic contact shadow, understated Atelier Veyne product photography. Center full bag in portrait 3:4 with generous safe margins, no crop of handles/strap. No props, people, writing, logos, borders or collage.",
+      "role": "catalog",
+      "label": "Brown"
+    },
+    {
+      "source": "products/2606280932411629600/source/images/06-efd3d74eedbf.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-02596e0b-57e6-4d7e-a2f3-c873595782d1.png",
+      "file": "products/2606280932411629600/prepared/images/catalog-5.png",
+      "prompt": "Precise background-only edit of actual CJ bag variant photo. Keep the entire exact bag, its original color, grain, silhouette, handle/strap lengths and layout, stitching, all metal finishes, lock, tag and hardware unchanged. Do NOT invent, improve, add or remove components or recolor it. Replace only plain white environment with warm cream plaster wall and pale matte travertine tabletop, soft daylight upper left, realistic contact shadow, understated Atelier Veyne product photography. Center full bag in portrait 3:4 with generous safe margins, no crop of handles/strap. No props, people, writing, logos, borders or collage.",
+      "role": "catalog",
+      "label": "Black"
+    },
+    {
+      "source": "products/2606280932411629600/source/images/07-1bc8588a9829.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-c1346a51-0626-4e2d-81cd-dc1e28fbe170.png",
+      "file": "products/2606280932411629600/prepared/images/catalog-6.png",
+      "prompt": "Precise background-only edit of actual CJ bag variant photo. Keep the entire exact bag, its original color, grain, silhouette, handle/strap lengths and layout, stitching, all metal finishes, lock, tag and hardware unchanged. Do NOT invent, improve, add or remove components or recolor it. Replace only plain white environment with warm cream plaster wall and pale matte travertine tabletop, soft daylight upper left, realistic contact shadow, understated Atelier Veyne product photography. Center full bag in portrait 3:4 with generous safe margins, no crop of handles/strap. No props, people, writing, logos, borders or collage.",
+      "role": "catalog",
+      "label": "Blue"
+    },
+    {
+      "source": "products/2608040718451626300/source/images/02-5caeb61c1a93.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-c654202f-e79b-447c-9723-3f13fdbd2988.png",
+      "file": "products/2608040718451626300/prepared/images/catalog-1.png",
+      "prompt": "Precise background-only edit of actual CJ bag photo. Preserve EXACT original bag color, pebbled grain, silhouette, handle/strap lengths and arrangement, stitched tabs, tag, lock, zipper and metal finishes. Do not redesign, add or remove components. Change only plain environment to warm ivory plaster wall and pale matte travertine tabletop, gentle soft daylight upper left, realistic contact shadow. Entire bag and handles clearly visible, centered portrait 3:4 with safe margins, understated premium Atelier Veyne catalog. No person, props, writing, logo, border or collage. Match actual source product exactly.",
+      "role": "catalog",
+      "label": "Ebony Colors"
+    },
+    {
+      "source": "products/2608040718451626300/source/images/03-0245d6079d70.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-5ad31026-7e42-4d1f-bd4c-aa2b722de124.png",
+      "file": "products/2608040718451626300/prepared/images/catalog-2.png",
+      "prompt": "Precise background-only edit of actual CJ bag photo. Preserve EXACT original bag color, pebbled grain, silhouette, handle/strap lengths and arrangement, stitched tabs, tag, lock, zipper and metal finishes. Do not redesign, add or remove components. Change only plain environment to warm ivory plaster wall and pale matte travertine tabletop, gentle soft daylight upper left, realistic contact shadow. Entire bag and handles clearly visible, centered portrait 3:4 with safe margins, understated premium Atelier Veyne catalog. No person, props, writing, logo, border or collage. Match actual source product exactly.",
+      "role": "catalog",
+      "label": "Black"
+    },
+    {
+      "source": "products/2608040718451626300/source/images/04-8300cf4dadfd.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-16963019-fbf3-4708-aea7-117dc81f51b3.png",
+      "file": "products/2608040718451626300/prepared/images/catalog-3.png",
+      "prompt": "Precise background-only edit of actual CJ bag photo. Preserve EXACT original bag color, pebbled grain, silhouette, handle/strap lengths and arrangement, stitched tabs, tag, lock, zipper and metal finishes. Do not redesign, add or remove components. Change only plain environment to warm ivory plaster wall and pale matte travertine tabletop, gentle soft daylight upper left, realistic contact shadow. Entire bag and handles clearly visible, centered portrait 3:4 with safe margins, understated premium Atelier Veyne catalog. No person, props, writing, logo, border or collage. Match actual source product exactly.",
+      "role": "catalog",
+      "label": "Milkshake White"
+    },
+    {
+      "source": "products/2608040718451626300/source/images/05-e1b96404fec3.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-2e96094d-57b6-4733-ba79-731b5d8dd381.png",
+      "file": "products/2608040718451626300/prepared/images/catalog-4.png",
+      "prompt": "Precise background-only edit of actual CJ bag photo. Preserve EXACT original bag color, pebbled grain, silhouette, handle/strap lengths and arrangement, stitched tabs, tag, lock, zipper and metal finishes. Do not redesign, add or remove components. Change only plain environment to warm ivory plaster wall and pale matte travertine tabletop, gentle soft daylight upper left, realistic contact shadow. Entire bag and handles clearly visible, centered portrait 3:4 with safe margins, understated premium Atelier Veyne catalog. No person, props, writing, logo, border or collage. Match actual source product exactly.",
+      "role": "catalog",
+      "label": "Golden Brown"
+    },
+    {
+      "source": "products/2608040718451626300/source/images/06-4476782f52a1.jpg",
+      "generatedPath": "/home/rel-isma/.codex/generated_images/01a13a4d-1be9-72d1-8087-7327e4250a94/exec-fce01c75-7d52-44b7-aba7-7c4caa4759a8.png",
+      "file": "products/2608040718451626300/prepared/images/catalog-5.png",
+      "prompt": "Precise background-only edit of actual CJ bag photo. Preserve EXACT original bag color, pebbled grain, silhouette, handle/strap lengths and arrangement, stitched tabs, tag, lock, zipper and metal finishes. Do not redesign, add or remove components. Change only plain environment to warm ivory plaster wall and pale matte travertine tabletop, gentle soft daylight upper left, realistic contact shadow. Entire bag and handles clearly visible, centered portrait 3:4 with safe margins, understated premium Atelier Veyne catalog. No person, props, writing, logo, border or collage. Match actual source product exactly.",
+      "role": "catalog",
+      "label": "Dark Gray"
+    }
+  ]
+}

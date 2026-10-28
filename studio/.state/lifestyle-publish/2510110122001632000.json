@@ -1,0 +1,406 @@
+{
+  "productId": "gid://shopify/Product/15459353362751",
+  "before": {
+    "id": "gid://shopify/Product/15459353362751",
+    "title": "Milo compact crossbody",
+    "handle": "milo-compact-crossbody",
+    "status": "ACTIVE",
+    "updatedAt": "2026-10-23T23:52:02Z",
+    "descriptionHtml": "<p>Milo brings a softly curved profile to a pared-back everyday edit. Pebbled leather, a zip opening and two ways to carry keep the design simple, with five source colors to choose from.</p><ul>\n<li>Curved zip-top silhouette</li>\n<li>Soft construction</li>\n<li>Top handle and longer strap</li>\n</ul>",
+    "vendor": "Atelier Veyne",
+    "productType": "Crossbody bag",
+    "templateSuffix": "",
+    "tags": [
+      "beige",
+      "black",
+      "caramel",
+      "cj-import",
+      "crossbody-bag",
+      "gray",
+      "green",
+      "new-arrival"
+    ],
+    "seo": {
+      "title": "Milo compact crossbody | Atelier Veyne",
+      "description": "Milo compact crossbody. Curved zip-top silhouette with soft construction. Explore the everyday edit at Atelier Veyne."
+    },
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black",
+          "Beige",
+          "Gray",
+          "Caramel",
+          "Green"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "23x11x14"
+        ]
+      }
+    ],
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/519837057343",
+          "title": "Crossbody bags"
+        },
+        {
+          "id": "gid://shopify/Collection/519837253951",
+          "title": "New arrivals"
+        }
+      ]
+    },
+    "metafields": {
+      "nodes": [
+        {
+          "namespace": "custom",
+          "key": "material",
+          "type": "multi_line_text_field",
+          "value": "Cowhide leather."
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_product_id",
+          "type": "single_line_text_field",
+          "value": "2510110122001632000"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_import_batch",
+          "type": "single_line_text_field",
+          "value": "88a8b8c6c1d230371d41fd8becbde298fde437a18fa7d68820fef8b840611cdd"
+        },
+        {
+          "namespace": "custom",
+          "key": "cj_fulfillment_link_verified",
+          "type": "boolean",
+          "value": "false"
+        },
+        {
+          "namespace": "custom",
+          "key": "color_swatches",
+          "type": "json",
+          "value": "{\"Black\":\"#1B1A18\",\"Beige\":\"#D6C3A5\",\"Gray\":\"#85817C\",\"Caramel\":\"#B58B60\",\"Green\":\"#3F604B\"}"
+        },
+        {
+          "namespace": "global",
+          "key": "title_tag",
+          "type": "string",
+          "value": "Milo compact crossbody | Atelier Veyne"
+        },
+        {
+          "namespace": "global",
+          "key": "description_tag",
+          "type": "string",
+          "value": "Milo compact crossbody. Curved zip-top silhouette with soft construction. Explore the everyday edit at Atelier Veyne."
+        }
+      ]
+    },
+    "media": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/46157969785151",
+          "alt": "Milo compact crossbody in Black",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/milo-compact-crossbody-01.png?v=1792756317",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157969817919",
+          "alt": "Milo compact crossbody in Beige",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/milo-compact-crossbody-02.png?v=1792756318",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157969850687",
+          "alt": "Milo compact crossbody in Gray",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/milo-compact-crossbody-03.png?v=1792756317",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157969883455",
+          "alt": "Milo compact crossbody in Caramel",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/milo-compact-crossbody-04.png?v=1792756317",
+            "width": 1086,
+            "height": 1448
+          }
+        },
+        {
+          "id": "gid://shopify/MediaImage/46157969916223",
+          "alt": "Milo compact crossbody in Green",
+          "status": "READY",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/milo-compact-crossbody-05.png?v=1792756318",
+            "width": 1086,
+            "height": 1448
+          }
+        }
+      ]
+    },
+    "variants": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/67841902117183",
+          "sku": "CJNS255498201AZ",
+          "price": "89.00",
+          "inventoryQuantity": 9539,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "23x11x14"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828028170559",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/milo-compact-crossbody-01.png?v=1792756317"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2510110122001632000"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2510110122001632300"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Black-23x11x14"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841902149951",
+          "sku": "CJNS255498202BY",
+          "price": "89.00",
+          "inventoryQuantity": 7167,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Beige"
+            },
+            {
+              "name": "Size",
+              "value": "23x11x14"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828028203327",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/milo-compact-crossbody-02.png?v=1792756318"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2510110122001632000"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2510110122001632400"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Beige-23x11x14"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841902182719",
+          "sku": "CJNS255498203CX",
+          "price": "89.00",
+          "inventoryQuantity": 7603,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Gray"
+            },
+            {
+              "name": "Size",
+              "value": "23x11x14"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828028236095",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/milo-compact-crossbody-03.png?v=1792756317"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2510110122001632000"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2510110122001632600"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Gray-23x11x14"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841902215487",
+          "sku": "CJNS255498204DW",
+          "price": "89.00",
+          "inventoryQuantity": 6957,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Caramel"
+            },
+            {
+              "name": "Size",
+              "value": "23x11x14"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828028268863",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/milo-compact-crossbody-04.png?v=1792756317"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2510110122001632000"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2510110122001632800"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Caramel-23x11x14"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67841902248255",
+          "sku": "CJNS255498205EV",
+          "price": "89.00",
+          "inventoryQuantity": 8546,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Green"
+            },
+            {
+              "name": "Size",
+              "value": "23x11x14"
+            }
+          ],
+          "inventoryPolicy": "DENY",
+          "inventoryItem": {
+            "id": "gid://shopify/InventoryItem/69828028301631",
+            "tracked": true
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/1005/8583/2767/files/milo-compact-crossbody-05.png?v=1792756318"
+          },
+          "metafields": {
+            "nodes": [
+              {
+                "namespace": "custom",
+                "key": "cj_product_id",
+                "value": "2510110122001632000"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_variant_id",
+                "value": "2510110122001632900"
+              },
+              {
+                "namespace": "custom",
+                "key": "cj_source_option_key",
+                "value": "Green-23x11x14"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "image": {
+    "id": "e21d5f8634a941c9",
+    "file": "products/2510110122001632000/prepared/images/lifestyle-woman-v1.png",
+    "url": "/media/products/2510110122001632000/prepared/images/lifestyle-woman-v1.png",
+    "alt": "Milo compact crossbody in Beige, carried by an adult woman",
+    "variantIds": [],
+    "enabled": true,
+    "kind": "lifestyle-source-edit",
+    "role": "lifestyle",
+    "sourceUrl": "https://cf.cjdropshipping.com/quick/product/079be3fb-4bba-477a-8a8b-b540d6be7493.jpg",
+    "sourceFile": "products/2510110122001632000/source/images/009-0987add6-b8c9f091.jpg",
+    "generated": true
+  },
+  "fileId": "gid://shopify/MediaImage/46179928244543",
+  "startedAt": "2026-10-25T16:49:14.035Z",
+  "result": {
+    "id": "2510110122001632000",
+    "title": "Milo compact crossbody",
+    "shopifyId": "gid://shopify/Product/15459353362751",
+    "addedMediaId": "gid://shopify/MediaImage/46179928244543",
+    "galleryCount": 6,
+    "allOriginalMediaRetained": true,
+    "nonGalleryDataUnchanged": true,
+    "verifiedAt": "2026-10-25T16:49:16.870Z"
+  },
+  "complete": true
+}

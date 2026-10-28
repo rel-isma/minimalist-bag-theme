@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-23T19:42:30.008Z",
+  "cjInventoryManagedProducts": 10,
+  "storefrontCountryComparison": [
+    {
+      "handle": "marlow-top-handle-bag",
+      "before": {
+        "country": "MA",
+        "button": "Sold out",
+        "disabled": true
+      },
+      "after": {
+        "country": "US",
+        "button": "Add to bag",
+        "disabled": false
+      }
+    },
+    {
+      "handle": "esme-crossbody-bag",
+      "before": {
+        "country": "MA",
+        "button": "Sold out",
+        "disabled": true
+      },
+      "after": {
+        "country": "US",
+        "button": "Add to bag",
+        "disabled": false
+      }
+    }
+  ],
+  "conclusion": "Shopify renders both products unavailable in MA and available in US despite positive sellableOnlineQuantity. The theme follows Shopify variant.available. Country-specific market/shipping availability must be configured for intended destinations.",
+  "changesMade": "Read-only checks and isolated preview localization/cart testing; no store shipping, market, inventory or theme changes."
+}
